@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- ✏️ ЗАМЕНИТЬ: имя, описание -->
+<title>Имя Фамилия — репетитор русского языка</title>
+<meta name="description" content="Репетитор русского языка: подготовка к ОГЭ и ЕГЭ, школьная программа, русский как иностранный. Онлайн и офлайн. Первый урок — бесплатно.">
+<meta property="og:title" content="Имя Фамилия — репетитор русского языка">
+<meta property="og:description" content="ОГЭ, ЕГЭ, школьная программа, РКИ. Онлайн и офлайн. Первый урок — бесплатно.">
+<meta property="og:type" content="website">
+<style>
+  :root {
+    --bg: #fbf8f3;
+    --surface: #ffffff;
+    --ink: #1f1d1a;
+    --muted: #6b655c;
+    --line: #e7e0d5;
+    --accent: #8c3f2b;
+    --accent-soft: #f6ece7;
+    --radius: 14px;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #171614;
+      --surface: #201e1b;
+      --ink: #f2eee7;
+      --muted: #a8a096;
+      --line: #332f2a;
+      --accent: #e0836a;
+      --accent-soft: #2b211d;
+    }
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  h1, h2, h3 { font-family: Georgia, "Times New Roman", serif; font-weight: 600; line-height: 1.25; }
+  a { color: inherit; }
+  img { max-width: 100%; display: block; }
+
+  .wrap { max-width: 720px; margin: 0 auto; padding: 0 20px; }
+  section { padding: 44px 0; border-top: 1px solid var(--line); }
+  section:first-of-type { border-top: 0; }
+  h2 { font-size: 26px; margin: 0 0 20px; }
+  p { margin: 0 0 14px; }
+
+  /* --- Шапка --- */
+  .hero { padding: 56px 0 44px; text-align: center; }
+  .avatar {
+    width: 132px; height: 132px; border-radius: 50%;
+    margin: 0 auto 22px; object-fit: cover;
+    border: 3px solid var(--surface);
+    box-shadow: 0 6px 24px rgba(0,0,0,.12);
+    background: var(--accent-soft);
+  }
+  .hero h1 { font-size: 34px; margin: 0 0 8px; }
+  .hero .role { color: var(--accent); font-weight: 600; letter-spacing: .02em; margin-bottom: 14px; }
+  .hero .pitch { color: var(--muted); max-width: 30em; margin: 0 auto 26px; }
+
+  .badges { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin-bottom: 28px; }
+  .badge {
+    background: var(--accent-soft); color: var(--accent);
+    padding: 6px 13px; border-radius: 999px; font-size: 14px; font-weight: 600;
+  }
+
+  /* --- Кнопки --- */
+  .btn {
+    display: block; text-align: center; text-decoration: none;
+    padding: 15px 20px; border-radius: var(--radius); font-weight: 600;
+    border: 1px solid var(--line); background: var(--surface);
+    transition: transform .12s ease, box-shadow .12s ease;
+  }
+  .btn:hover { transform: translateY(-1px); box-shadow: 0 4px 14px rgba(0,0,0,.08); }
+  .btn-primary { background: var(--accent); color: #fff; border-color: var(--accent); }
+  .links { display: grid; gap: 10px; }
+
+  /* --- Карточки --- */
+  .cards { display: grid; gap: 14px; }
+  @media (min-width: 620px) { .cards { grid-template-columns: 1fr 1fr; } }
+  .card {
+    background: var(--surface); border: 1px solid var(--line);
+    border-radius: var(--radius); padding: 20px;
+  }
+  .card h3 { margin: 0 0 8px; font-size: 19px; }
+  .card p { margin: 0; color: var(--muted); font-size: 15px; }
+
+  /* --- Цены --- */
+  .price-row {
+    display: flex; justify-content: space-between; align-items: baseline; gap: 16px;
+    padding: 14px 0; border-bottom: 1px dashed var(--line);
+  }
+  .price-row:last-child { border-bottom: 0; }
+  .price-row .what { font-weight: 600; }
+  .price-row .note { display: block; font-weight: 400; color: var(--muted); font-size: 14px; }
+  .price-row .amount { color: var(--accent); font-weight: 700; white-space: nowrap; }
+
+  /* --- Шаги --- */
+  ol.steps { list-style: none; counter-reset: s; padding: 0; margin: 0; }
+  ol.steps li { counter-increment: s; position: relative; padding: 0 0 18px 44px; }
+  ol.steps li::before {
+    content: counter(s);
+    position: absolute; left: 0; top: 0;
+    width: 30px; height: 30px; border-radius: 50%;
+    background: var(--accent-soft); color: var(--accent);
+    display: grid; place-items: center; font-weight: 700; font-size: 15px;
+  }
+  ol.steps b { display: block; }
+  ol.steps span { color: var(--muted); font-size: 15px; }
+
+  /* --- Отзывы --- */
+  blockquote {
+    margin: 0 0 14px; padding: 18px 20px;
+    background: var(--surface); border: 1px solid var(--line);
+    border-left: 3px solid var(--accent); border-radius: var(--radius);
+  }
+  blockquote p { margin: 0 0 8px; }
+  blockquote cite { font-style: normal; color: var(--muted); font-size: 14px; }
+
+  /* --- FAQ --- */
+  details {
+    border-bottom: 1px solid var(--line); padding: 14px 0;
+  }
+  details summary {
+    cursor: pointer; font-weight: 600; list-style: none;
+    display: flex; justify-content: space-between; align-items: center; gap: 12px;
+  }
+  details summary::-webkit-details-marker { display: none; }
+  details summary::after { content: "+"; color: var(--accent); font-size: 22px; line-height: 1; }
+  details[open] summary::after { content: "−"; }
+  details p { margin: 12px 0 0; color: var(--muted); font-size: 15px; }
+
+  /* --- Липкая кнопка --- */
+  .sticky {
+    position: sticky; bottom: 0; z-index: 10;
+    background: linear-gradient(to top, var(--bg) 62%, transparent);
+    padding: 14px 20px 18px;
+  }
+  .sticky .btn { max-width: 680px; margin: 0 auto; }
+
+  footer { padding: 30px 0 12px; text-align: center; color: var(--muted); font-size: 14px; }
+</style>
+</head>
+<body>
+
+<div class="wrap">
+
+  <!-- ═══ ШАПКА ═══ -->
+  <header class="hero">
+    <!-- ✏️ ЗАМЕНИТЬ: положите фото рядом с этим файлом и назовите photo.jpg -->
+    <img class="avatar" src="photo.jpg" alt="Фото преподавателя" onerror="this.style.visibility='hidden'">
+    <h1>Имя Фамилия</h1>              <!-- ✏️ ЗАМЕНИТЬ -->
+    <div class="role">Репетитор русского языка</div>
+    <p class="pitch">
+      <!-- ✏️ ЗАМЕНИТЬ: 1–2 предложения о себе -->
+      Готовлю к ОГЭ и ЕГЭ, подтягиваю школьную программу и учу русскому тех,
+      для кого он неродной. 15 лет практики, занятия онлайн и очно.
+    </p>
+    <div class="badges">
+      <span class="badge">ОГЭ · ЕГЭ</span>
+      <span class="badge">1–11 класс</span>
+      <span class="badge">РКИ</span>
+      <span class="badge">Онлайн</span>
+    </div>
+  </header>
+
+  <!-- ═══ КОНТАКТЫ (главный блок для ссылки в шапке профиля) ═══ -->
+  <section id="links" style="border-top:0; padding-top:0;">
+    <div class="links">
+      <!-- ✏️ ЗАМЕНИТЬ: номер телефона в ссылках wa.me и t.me -->
+      <a class="btn btn-primary" href="https://wa.me/79990000000?text=Здравствуйте!%20Хочу%20записаться%20на%20пробный%20урок">
+        Записаться на бесплатный пробный урок
+      </a>
+      <a class="btn" href="https://t.me/username">Написать в Telegram</a>
+      <a class="btn" href="https://instagram.com/username">Instagram</a>
+      <a class="btn" href="tel:+79990000000">Позвонить</a>
+    </div>
+  </section>
+
+  <!-- ═══ НАПРАВЛЕНИЯ ═══ -->
+  <section id="services">
+    <h2>С чем помогу</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>ЕГЭ по русскому</h3>
+        <p>Разбор всех заданий, сочинение по критериям, тренировка на реальных вариантах. Средний балл учеников — 80+.</p>
+      </div>
+      <div class="card">
+        <h3>ОГЭ, 9 класс</h3>
+        <p>Изложение, сочинение, тестовая часть. Ставим орфографию и пунктуацию с нуля, если нужно.</p>
+      </div>
+      <div class="card">
+        <h3>Школьная программа</h3>
+        <p>1–11 класс: восполняем пробелы, разбираем домашние задания, готовимся к контрольным и ВПР.</p>
+      </div>
+      <div class="card">
+        <h3>Русский как иностранный</h3>
+        <p>Для тех, кто учит русский с нуля или готовится к сертификационному экзамену. Разговорная практика.</p>
+      </div>
+      <div class="card">
+        <h3>Грамотность для взрослых</h3>
+        <p>Чтобы писать письма и посты без ошибок. Короткий практический курс без школьной зубрёжки.</p>
+      </div>
+      <div class="card">
+        <h3>Сочинение и текст</h3>
+        <p>Итоговое сочинение, эссе, работа с аргументацией и структурой. Учу мыслить, а не заучивать шаблоны.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ ЦЕНЫ ═══ -->
+  <section id="prices">
+    <h2>Стоимость</h2>
+    <!-- ✏️ ЗАМЕНИТЬ: свои форматы и цены -->
+    <div class="price-row">
+      <span class="what">Пробный урок<span class="note">30 минут, знакомство и диагностика</span></span>
+      <span class="amount">бесплатно</span>
+    </div>
+    <div class="price-row">
+      <span class="what">Индивидуальное занятие<span class="note">60 минут, онлайн</span></span>
+      <span class="amount">0 000 ₽</span>
+    </div>
+    <div class="price-row">
+      <span class="what">Индивидуальное занятие<span class="note">60 минут, очно</span></span>
+      <span class="amount">0 000 ₽</span>
+    </div>
+    <div class="price-row">
+      <span class="what">Мини-группа 2–4 человека<span class="note">90 минут, онлайн</span></span>
+      <span class="amount">0 000 ₽</span>
+    </div>
+    <div class="price-row">
+      <span class="what">Пакет 8 занятий<span class="note">оплата вперёд, скидка 10%</span></span>
+      <span class="amount">0 000 ₽</span>
+    </div>
+  </section>
+
+  <!-- ═══ КАК ПРОХОДИТ ═══ -->
+  <section id="how">
+    <h2>Как всё устроено</h2>
+    <ol class="steps">
+      <li><b>Знакомство</b><span>Пишете в WhatsApp или Telegram, договариваемся о времени.</span></li>
+      <li><b>Бесплатная диагностика</b><span>30 минут: смотрю уровень, нахожу пробелы, честно говорю, сколько понадобится времени.</span></li>
+      <li><b>План занятий</b><span>Составляю программу под цель — балл на экзамене, оценка в школе или уверенная речь.</span></li>
+      <li><b>Занятия и обратная связь</b><span>1–2 раза в неделю, домашние задания с проверкой, отчёт родителям раз в месяц.</span></li>
+    </ol>
+  </section>
+
+  <!-- ═══ ОТЗЫВЫ ═══ -->
+  <section id="reviews">
+    <h2>Отзывы</h2>
+    <!-- ✏️ ЗАМЕНИТЬ: реальные отзывы. Не выдумывайте — попросите учеников написать пару строк. -->
+    <blockquote>
+      <p>«Текст отзыва.»</p>
+      <cite>Имя, родитель ученика 11 класса</cite>
+    </blockquote>
+    <blockquote>
+      <p>«Текст отзыва.»</p>
+      <cite>Имя, ученица, ЕГЭ 2025</cite>
+    </blockquote>
+  </section>
+
+  <!-- ═══ FAQ ═══ -->
+  <section id="faq">
+    <h2>Частые вопросы</h2>
+    <details>
+      <summary>Как проходят онлайн-занятия?</summary>
+      <p>В Zoom или Google Meet с интерактивной доской. Все материалы и записи остаются у ученика.</p>
+    </details>
+    <details>
+      <summary>Можно ли перенести занятие?</summary>
+      <p>Да, если предупредить за 24 часа. Перенос в тот же день — по возможности.</p>
+    </details>
+    <details>
+      <summary>За сколько до экзамена начинать?</summary>
+      <p>Оптимально — за учебный год. За 3–4 месяца тоже реально, но нагрузка будет плотнее.</p>
+    </details>
+    <details>
+      <summary>Работаете с детьми с дисграфией?</summary>
+      <p><!-- ✏️ ЗАМЕНИТЬ на честный ответ --> Да, есть опыт. Занимаемся в своём темпе, с упором на зрительную опору.</p>
+    </details>
+  </section>
+
+  <footer>
+    <p>© <span id="year">2026</span> Имя Фамилия · Репетитор русского языка</p>
+  </footer>
+</div>
+
+<!-- ═══ ЛИПКАЯ КНОПКА ═══ -->
+<div class="sticky">
+  <a class="btn btn-primary" href="https://wa.me/79990000000?text=Здравствуйте!%20Хочу%20записаться%20на%20пробный%20урок">
+    Записаться на пробный урок
+  </a>
+</div>
+
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
