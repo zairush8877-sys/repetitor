@@ -8,6 +8,10 @@
       "rubric": "Так говорить нельзя",
       "format": "Карусель",
       "status": "pending",
+      "imageUrls": [
+        "https://d2ol7oe51mr4n9.cloudfront.net/user_3H2BuGWn3dtBqwxconpCaaq3zJd/ad7c3255-26ac-4801-9309-bd75c832d34d.jpg"
+      ],
+      "_imageUrlsNote": "Загружен слайд 1 из 5. Остальные загружаются при публикации.",
       "slides": [
         { "kicker": "Так говорить нельзя", "text": "«Ложить\nна стол»", "mark": "wrong" },
         { "kicker": "Почему это ошибка", "text": "Глагола «ложить»\nв русском языке\nне существует.\nСовсем." },
