@@ -57,7 +57,8 @@ function takeTopic(rubricId) {
 // Раскладываем рубрики пропорционально весам методом наибольших остатков,
 // затем перемешиваем так, чтобы одинаковые рубрики не шли подряд.
 function buildRubricQueue(totalPosts) {
-  const rubrics = rubricsData.rubrics;
+  // Ежедневные рубрики (daily: true) идут своим треком и в недельный план не входят
+  const rubrics = rubricsData.rubrics.filter(r => !r.daily);
   const totalWeight = rubrics.reduce((s, r) => s + r.weight, 0);
   const counts = rubrics.map(r => ({ r, exact: (r.weight / totalWeight) * totalPosts }));
   counts.forEach(c => { c.n = Math.floor(c.exact); c.rem = c.exact - c.n; });
