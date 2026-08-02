@@ -1,7 +1,10 @@
 #!/usr/bin/env node
 /**
  * Публикация одобренных постов из content/queue.json в Instagram
- * через официальный Instagram API (вход через Instagram, graph.instagram.com).
+ * через официальный Instagram Graph API (graph.facebook.com).
+ *
+ * Токен — системного пользователя Business Manager (см. скилл instagram-api-token):
+ * он не протухает и не зависит от личных настроек приватности аккаунта.
  *
  * Использование:
  *   IG_ACCESS_TOKEN=... node publish.js --check      — проверить токен (кто я)
@@ -20,8 +23,13 @@ const fs = require('fs');
 const path = require('path');
 
 const QUEUE = path.join(__dirname, 'content', 'queue.json');
-const API = 'https://graph.instagram.com/v23.0';
+const API = 'https://graph.facebook.com/v23.0';
 const TOKEN = process.env.IG_ACCESS_TOKEN;
+
+// ID аккаунта Instagram, в который публикуем. Берётся из очереди, можно переопределить
+// переменной окружения IG_USER_ID.
+const queueRaw = JSON.parse(fs.readFileSync(QUEUE, 'utf8'));
+const IG_USER_ID = process.env.IG_USER_ID || queueRaw.account_id;
 
 const args = process.argv.slice(2);
 const dryRun = args.includes('--dry-run');
@@ -30,6 +38,10 @@ const onlyId = args.find(a => !a.startsWith('--'));
 
 if (!TOKEN) {
   console.error('Нет токена: задайте переменную окружения IG_ACCESS_TOKEN.');
+  process.exit(1);
+}
+if (!IG_USER_ID) {
+  console.error('Не указан ID аккаунта Instagram: поле account_id в content/queue.json или переменная IG_USER_ID.');
   process.exit(1);
 }
 
@@ -71,17 +83,17 @@ async function publishPost(post) {
 
   let creationId;
   if (urls.length === 1) {
-    const { id } = await api('POST', 'me/media', { image_url: urls[0], caption });
+    const { id } = await api('POST', `${IG_USER_ID}/media`, { image_url: urls[0], caption });
     await waitReady(id, post.id);
     creationId = id;
   } else {
     const children = [];
     for (const [i, u] of urls.entries()) {
-      const { id } = await api('POST', 'me/media', { image_url: u, is_carousel_item: 'true' });
+      const { id } = await api('POST', `${IG_USER_ID}/media`, { image_url: u, is_carousel_item: 'true' });
       await waitReady(id, `${post.id} слайд ${i + 1}`);
       children.push(id);
     }
-    const { id } = await api('POST', 'me/media', {
+    const { id } = await api('POST', `${IG_USER_ID}/media`, {
       media_type: 'CAROUSEL',
       children: children.join(','),
       caption,
@@ -90,13 +102,13 @@ async function publishPost(post) {
     creationId = id;
   }
 
-  const { id: mediaId } = await api('POST', 'me/media_publish', { creation_id: creationId });
+  const { id: mediaId } = await api('POST', `${IG_USER_ID}/media_publish`, { creation_id: creationId });
   return mediaId;
 }
 
 (async () => {
-  const me = await api('GET', 'me', { fields: 'user_id,username,account_type' });
-  console.log(`Токен действителен: @${me.username} (${me.account_type || 'тип неизвестен'})`);
+  const me = await api('GET', IG_USER_ID, { fields: 'username,followers_count,media_count' });
+  console.log(`Токен действителен: @${me.username} — ${me.followers_count} подписчиков, ${me.media_count} публикаций`);
   if (checkOnly) return;
 
   const queue = JSON.parse(fs.readFileSync(QUEUE, 'utf8'));
