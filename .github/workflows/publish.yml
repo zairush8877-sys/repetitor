@@ -1,0 +1,56 @@
+name: Публикация в Instagram
+
+# Запускается вручную (в том числе Claude по вашему «публикуй») или по расписанию
+on:
+  workflow_dispatch:
+    inputs:
+      post_id:
+        description: 'ID поста из content/queue.json (пусто — все со статусом approved)'
+        required: false
+      dry_run:
+        description: 'Только показать, что было бы опубликовано'
+        type: boolean
+        default: false
+  schedule:
+    - cron: '0 6 * * *'   # 09:00 МСК — публикует одобренные посты, если такие есть
+
+permissions:
+  contents: write         # чтобы записать обратно статус published
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: claude/instagram-connect-tutor-iwhi9m
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Проверить токен
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+        run: node publish.js --check
+
+      - name: Опубликовать одобренные посты
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+        run: |
+          node publish.js \
+            ${{ inputs.dry_run && '--dry-run' || '' }} \
+            ${{ inputs.post_id }}
+
+      - name: Записать статусы обратно в репозиторий
+        if: ${{ !inputs.dry_run }}
+        run: |
+          if git diff --quiet content/queue.json; then
+            echo "Очередь не изменилась — публиковать было нечего."
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add content/queue.json
+          git commit -m "Опубликовано в Instagram"
+          git push
