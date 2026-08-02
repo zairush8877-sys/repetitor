@@ -9,6 +9,30 @@ description: Получение токена Instagram Graph API для авто
 в Instagram и читать статистику аккаунта. Собран по итогам реального подключения,
 где три очевидных пути оказались тупиковыми.
 
+## Где всё делается
+
+**Business Manager — единственная точка входа.** Не консоль разработчика,
+не настройки Instagram, не Центр аккаунтов. Всё управление живёт здесь:
+
+| Что | Ссылка |
+|---|---|
+| Главная Business Suite | `business.facebook.com` |
+| Настройки бизнес-портфолио | `business.facebook.com/latest/settings` |
+| **Системные пользователи** (токены) | `business.facebook.com/latest/settings/system_users` |
+| Аккаунты Instagram | `business.facebook.com/latest/settings/instagram_account` |
+| Страницы Facebook | `business.facebook.com/latest/settings/pages` |
+| Приложения | `business.facebook.com/latest/settings/apps` |
+| Люди и роли | `business.facebook.com/latest/settings/business_users` |
+| Планировщик публикаций | `business.facebook.com/latest/planner` |
+| Статистика | `business.facebook.com/latest/insights` |
+| Входящие (Direct и комментарии) | `business.facebook.com/latest/inbox` |
+
+К ссылке можно добавить `?business_id=<ID>`, если портфолио несколько.
+
+Приложение создаётся один раз на `developers.facebook.com/apps` — дальше туда
+заходить не нужно, кроме случая, когда требуется добавить новое разрешение
+(«Сценарии использования» → «Разрешения и функции»).
+
 ## Главное: начинать сразу с системного пользователя
 
 **Рабочий путь — токен системного пользователя в Business Manager.** Он не зависит
@@ -82,6 +106,11 @@ Business Manager → Настройки → **Пользователи → Си�
    Отдельно про переписку — см. раздел ниже. По умолчанию не включать.
 
 Токен показывают **один раз**.
+
+Как выглядит правильно настроенный системный пользователь — в карточке
+«Назначенные объекты» перечислены все три с пометкой «Полный доступ»:
+страница Facebook, приложение, аккаунт Instagram. Если чего-то не хватает,
+токен выпустится, но работать не будет.
 
 ### 6. Хранение токена
 
