@@ -34,6 +34,7 @@ const IG_USER_ID = process.env.IG_USER_ID || queueRaw.account_id;
 const args = process.argv.slice(2);
 const dryRun = args.includes('--dry-run');
 const checkOnly = args.includes('--check');
+const recentOnly = args.includes('--recent');
 const onlyId = args.find(a => !a.startsWith('--'));
 
 if (!TOKEN) {
@@ -106,9 +107,30 @@ async function publishPost(post) {
   return mediaId;
 }
 
+/** Последние публикации со статистикой — чтобы понимать, что уже вышло и как зашло. */
+async function showRecent(limit = 8) {
+  const { data } = await api('GET', `${IG_USER_ID}/media`, {
+    fields: 'id,caption,media_type,timestamp,permalink,like_count,comments_count',
+    limit: String(limit),
+  });
+  for (const m of data) {
+    const when = new Date(m.timestamp).toLocaleString('ru-RU', { timeZone: 'Europe/Moscow' });
+    const head = (m.caption || '(без подписи)').split('\n')[0].slice(0, 70);
+    let extra = '';
+    try {
+      const ins = await api('GET', `${m.id}/insights`, { metric: 'reach,saved,shares' });
+      extra = ' | ' + ins.data.map(i => `${i.name}=${i.values[0].value}`).join(' ');
+    } catch { /* статистика доступна не для всех типов и не сразу */ }
+    console.log(`${when} [${m.media_type}] ♥${m.like_count ?? '-'} 💬${m.comments_count ?? '-'}${extra}`);
+    console.log(`   ${head}`);
+    console.log(`   ${m.permalink}`);
+  }
+}
+
 (async () => {
   const me = await api('GET', IG_USER_ID, { fields: 'username,followers_count,media_count' });
   console.log(`Токен действителен: @${me.username} — ${me.followers_count} подписчиков, ${me.media_count} публикаций`);
+  if (recentOnly) { await showRecent(); return; }
   if (checkOnly) return;
 
   const queue = JSON.parse(fs.readFileSync(QUEUE, 'utf8'));
