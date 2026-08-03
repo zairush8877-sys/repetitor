@@ -4,9 +4,11 @@
  *
  *   node render.js            — отрисовать все посты со статусом pending и approved
  *   node render.js <id>       — отрисовать один пост
+ *   node render.js --pin      — то же, но в пропорции Pinterest (2:3) в content/pins/
  *
  * На выходе:
- *   content/images/<id>-1.jpg ... — слайды 1080×1350 (формат 4:5, подходит и для ленты, и для API)
+ *   content/images/<id>-1.jpg ... — слайды 1080×1350 (4:5, лента Instagram и Graph API)
+ *   content/pins/<id>-1.jpg ...   — слайды 1000×1500 (2:3, Pinterest)
  *   content/preview.html          — страница для одобрения: все посты со слайдами и подписями
  */
 
@@ -15,9 +17,12 @@ const path = require('path');
 const { chromium } = require('playwright');
 
 const QUEUE = path.join(__dirname, 'content', 'queue.json');
-const IMAGES = path.join(__dirname, 'content', 'images');
 
-const W = 1080, H = 1350;
+// Instagram показывает ленту в 4:5, Pinterest — в 2:3: более узкие картинки он ужимает,
+// и текст на них становится нечитаемым. Поэтому под пины рисуем отдельный размер.
+const pinMode = process.argv.includes('--pin');
+const [W, H] = pinMode ? [1000, 1500] : [1080, 1350];
+const IMAGES = path.join(__dirname, 'content', pinMode ? 'pins' : 'images');
 
 const PALETTE = {
   bg: '#fbf8f3',
@@ -312,7 +317,7 @@ function previewHtml(queue, rendered) {
 
 (async () => {
   const queue = JSON.parse(fs.readFileSync(QUEUE, 'utf8'));
-  const only = process.argv[2];
+  const only = process.argv.slice(2).find(a => !a.startsWith('--'));
   const targets = queue.posts.filter(p =>
     only ? p.id === only : p.status === 'pending' || p.status === 'approved');
 
@@ -342,6 +347,11 @@ function previewHtml(queue, rendered) {
   }
 
   await browser.close();
+
+  if (pinMode) {
+    console.log(`\nГотово. Картинки для Pinterest — в content/pins/ (1000×1500).`);
+    return;
+  }
 
   // Превью строим по всей очереди, но картинки показываем только у отрисованных
   for (const p of queue.posts) {
