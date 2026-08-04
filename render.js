@@ -4,9 +4,11 @@
  *
  *   node render.js            — отрисовать все посты со статусом pending и approved
  *   node render.js <id>       — отрисовать один пост
+ *   node render.js --pin      — то же, но в пропорции Pinterest (2:3) в content/pins/
  *
  * На выходе:
- *   content/images/<id>-1.jpg ... — слайды 1080×1350 (формат 4:5, подходит и для ленты, и для API)
+ *   content/images/<id>-1.jpg ... — слайды 1080×1350 (4:5, лента Instagram и Graph API)
+ *   content/pins/<id>-1.jpg ...   — слайды 1000×1500 (2:3, Pinterest)
  *   content/preview.html          — страница для одобрения: все посты со слайдами и подписями
  */
 
@@ -15,9 +17,12 @@ const path = require('path');
 const { chromium } = require('playwright');
 
 const QUEUE = path.join(__dirname, 'content', 'queue.json');
-const IMAGES = path.join(__dirname, 'content', 'images');
 
-const W = 1080, H = 1350;
+// Instagram показывает ленту в 4:5, Pinterest — в 2:3: более узкие картинки он ужимает,
+// и текст на них становится нечитаемым. Поэтому под пины рисуем отдельный размер.
+const pinMode = process.argv.includes('--pin');
+const [W, H] = pinMode ? [1000, 1500] : [1080, 1350];
+const IMAGES = path.join(__dirname, 'content', pinMode ? 'pins' : 'images');
 
 const PALETTE = {
   bg: '#fbf8f3',
@@ -41,7 +46,82 @@ function fontSize(text) {
   return 44;
 }
 
+/** Общая обвязка слайда: подложка, кикер, футер с ником и точками. */
+function frame({ body, kicker, bg, fg, accentColor, kickerColor, dotBg, dotOn, index, total, handle, extraCss = '' }) {
+  return `<!doctype html><html lang="ru"><head><meta charset="utf-8"><style>
+    @page { margin: 0 }
+    * { box-sizing: border-box; margin: 0; padding: 0 }
+    body {
+      width: ${W}px; height: ${H}px;
+      background: ${bg}; color: ${fg};
+      font-family: Georgia, "Times New Roman", serif;
+      display: flex; flex-direction: column;
+      padding: 90px 80px;
+      position: relative; overflow: hidden;
+    }
+    .kicker {
+      font-family: -apple-system, "Segoe UI", Roboto, sans-serif;
+      font-size: 30px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase;
+      color: ${kickerColor}; margin-bottom: 40px; min-height: 36px;
+    }
+    .mark { font-size: 84px; line-height: 1; margin-bottom: 32px; color: ${accentColor} }
+    .foot {
+      display: flex; justify-content: space-between; align-items: flex-end;
+      font-family: -apple-system, "Segoe UI", Roboto, sans-serif;
+      font-size: 26px; color: ${PALETTE.muted};
+    }
+    .dots { display: flex; gap: 10px; align-items: center }
+    .dot { width: 12px; height: 12px; border-radius: 50%; background: ${dotBg} }
+    .dot.on { background: ${dotOn} }
+    ${extraCss}
+  </style></head><body>
+    <div class="kicker">${esc(kicker || '')}</div>
+    ${body}
+    <div class="foot">
+      <span>@${esc(handle)}</span>
+      ${total > 1 ? `<span class="dots">${Array.from({ length: total }, (_, i) =>
+        `<span class="dot${i === index ? ' on' : ''}"></span>`).join('')}</span>` : ''}
+    </div>
+  </body></html>`;
+}
+
+/**
+ * Слайд-таблица «говорят → правильно». Формат, который лучше всего расходится
+ * репостами: один экран, всё видно сразу, никуда не надо листать.
+ * Задаётся полем rows: [["Ложат", "Кладут"], ...]
+ */
+function tableHtml(slide, index, total, handle) {
+  const rows = slide.rows || [];
+  // Чем больше строк, тем мельче шрифт — таблица должна уместиться целиком
+  const size = rows.length <= 6 ? 46 : rows.length <= 8 ? 40 : rows.length <= 10 ? 35 : 30;
+
+  const body = `
+    <div class="title">${nl2br(slide.text || '')}</div>
+    <table>${rows.map(([bad, good]) => `<tr>
+      <td class="bad">${esc(bad)}</td>
+      <td class="arrow">→</td>
+      <td class="good">${esc(good)}</td>
+    </tr>`).join('')}</table>`;
+
+  return frame({
+    body, kicker: slide.kicker, bg: PALETTE.bg, fg: PALETTE.ink,
+    accentColor: PALETTE.accent, kickerColor: PALETTE.accent,
+    dotBg: '#ded6c8', dotOn: PALETTE.accent,
+    index, total, handle,
+    extraCss: `
+      .title { font-size: 44px; line-height: 1.2; font-weight: 700; margin-bottom: 36px }
+      table { flex: 1; width: 100%; border-collapse: collapse; font-size: ${size}px }
+      td { padding: ${size > 34 ? 14 : 10}px 0; border-bottom: 1px solid #e5ded1; vertical-align: middle }
+      .bad { color: ${PALETTE.accent}; text-decoration: line-through;
+             text-decoration-thickness: 2px; width: 44% }
+      .arrow { color: ${PALETTE.muted}; text-align: center; width: 12%; font-size: ${size - 6}px }
+      .good { color: ${PALETTE.right}; font-weight: 700; width: 44% }
+      tr:last-child td { border-bottom: none }`,
+  });
+}
+
 function slideHtml(slide, index, total, handle) {
+  if (slide.layout === 'table') return tableHtml(slide, index, total, handle);
   const mark = slide.mark;
   const badge =
     mark === 'wrong' ? `<div class="mark wrong">✕</div>` :
@@ -237,7 +317,7 @@ function previewHtml(queue, rendered) {
 
 (async () => {
   const queue = JSON.parse(fs.readFileSync(QUEUE, 'utf8'));
-  const only = process.argv[2];
+  const only = process.argv.slice(2).find(a => !a.startsWith('--'));
   const targets = queue.posts.filter(p =>
     only ? p.id === only : p.status === 'pending' || p.status === 'approved');
 
@@ -267,6 +347,11 @@ function previewHtml(queue, rendered) {
   }
 
   await browser.close();
+
+  if (pinMode) {
+    console.log(`\nГотово. Картинки для Pinterest — в content/pins/ (1000×1500).`);
+    return;
+  }
 
   // Превью строим по всей очереди, но картинки показываем только у отрисованных
   for (const p of queue.posts) {

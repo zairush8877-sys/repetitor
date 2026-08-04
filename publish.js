@@ -60,14 +60,14 @@ async function api(method, endpoint, params = {}) {
 }
 
 /** Контейнер обрабатывается на стороне Instagram — ждём готовности перед публикацией. */
-async function waitReady(containerId, label) {
-  for (let i = 0; i < 30; i++) {
+async function waitReady(containerId, label, tries = 30) {
+  for (let i = 0; i < tries; i++) {
     const { status_code } = await api('GET', containerId, { fields: 'status_code' });
     if (status_code === 'FINISHED') return;
     if (status_code === 'ERROR') throw new Error(`${label}: контейнер вернул ERROR`);
     await new Promise(r => setTimeout(r, 4000));
   }
-  throw new Error(`${label}: контейнер не готов после 2 минут ожидания`);
+  throw new Error(`${label}: контейнер не готов после ${Math.round(tries * 4 / 60)} мин ожидания`);
 }
 
 function fullCaption(post) {
@@ -77,13 +77,22 @@ function fullCaption(post) {
 
 async function publishPost(post) {
   const urls = post.imageUrls || [];
-  if (urls.length === 0) {
-    throw new Error(`${post.id}: нет imageUrls — сначала загрузите слайды на CDN`);
-  }
   const caption = fullCaption(post);
 
   let creationId;
-  if (urls.length === 1) {
+  if (post.videoUrl) {
+    // Reels: видео обрабатывается дольше картинок — ждём до 8 минут
+    const { id } = await api('POST', `${IG_USER_ID}/media`, {
+      media_type: 'REELS',
+      video_url: post.videoUrl,
+      caption,
+      share_to_feed: 'true',
+    });
+    await waitReady(id, post.id, 120);
+    creationId = id;
+  } else if (urls.length === 0) {
+    throw new Error(`${post.id}: нет imageUrls — сначала загрузите слайды на CDN`);
+  } else if (urls.length === 1) {
     const { id } = await api('POST', `${IG_USER_ID}/media`, { image_url: urls[0], caption });
     await waitReady(id, post.id);
     creationId = id;
@@ -146,13 +155,13 @@ async function showRecent(limit = 8) {
 
   for (const post of targets) {
     const n = (post.imageUrls || []).length;
-    console.log(`\n→ ${post.id} [${post.rubric}] ${n} слайд(ов)`);
-    if (post.format === 'Reels') {
-      console.log('  Пропуск: Reels публикуются вручную через Business Suite (нужно видео).');
+    console.log(`\n→ ${post.id} [${post.rubric}] ${post.videoUrl ? 'видео' : n + ' слайд(ов)'}`);
+    if (post.format === 'Reels' && !post.videoUrl) {
+      console.log('  Пропуск: у Reels нет videoUrl — соберите видео (node render-reels.js) или опубликуйте вручную.');
       continue;
     }
     if (dryRun) {
-      console.log(`  (dry-run) Опубликовал бы ${n === 1 ? 'пост' : 'карусель'} с подписью ${fullCaption(post).length} симв.`);
+      console.log(`  (dry-run) Опубликовал бы ${post.videoUrl ? 'Reels' : n === 1 ? 'пост' : 'карусель'} с подписью ${fullCaption(post).length} симв.`);
       continue;
     }
     const mediaId = await publishPost(post);
