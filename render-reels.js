@@ -42,7 +42,6 @@ function pageHtml(post, handle) {
   const rows = post.rows.map(([bad, good], i) => `
     <div class="row" id="row${i}">
       <span class="bad"><span class="badtext">${esc(bad)}</span><span class="strike"></span></span>
-      <span class="arrow">→</span>
       <span class="good">${esc(good)}</span>
     </div>`).join('');
 
@@ -53,6 +52,13 @@ function pageHtml(post, handle) {
   const bgCss = hasPhoto
     ? `background: url(data:image/jpeg;base64,${fs.readFileSync(bgFile).toString('base64')}) center/cover`
     : `background: ${PALETTE.bg}`;
+  // Светлый фон: без затемнения, заголовок тёмный (белый бы выцвел)
+  const light = !!post.lightBg;
+  const titleColor = light ? PALETTE.ink : '#fdf9f2';
+  const kickerColor = light ? PALETTE.accent : 'rgba(255,244,230,.92)';
+  const footColor = light ? PALETTE.muted : 'rgba(255,244,230,.85)';
+  const footBold = light ? PALETTE.ink : '#fff';
+  const shadow = light ? '' : 'text-shadow: 0 2px 14px rgba(0,0,0,.45);';
 
   return `<!doctype html><html lang="ru"><head><meta charset="utf-8"><style>
     * { box-sizing: border-box; margin: 0; padding: 0 }
@@ -60,55 +66,67 @@ function pageHtml(post, handle) {
       width: ${W}px; height: ${H}px; overflow: hidden;
       ${bgCss}; color: ${PALETTE.ink};
       font-family: Georgia, "Times New Roman", serif;
-      display: flex; flex-direction: column; padding: 120px 80px 100px;
+      display: flex; flex-direction: column;
+      /* Сверху Instagram рисует шапку с ником, снизу — подпись и кнопки:
+         контент держим внутри безопасной зоны */
+      padding: 300px 80px 150px;
       position: relative;
     }
-    ${hasPhoto ? `body::before {
+    ${hasPhoto && !light ? `body::before {
       content: ""; position: absolute; inset: 0;
-      background: linear-gradient(180deg, rgba(24,18,12,.52) 0%, rgba(24,18,12,.30) 40%, rgba(24,18,12,.55) 100%);
-    }
-    .kicker, .title, .card, .foot { position: relative; z-index: 1 }` : ''}
+      background: linear-gradient(180deg, rgba(24,18,12,.30) 0%, rgba(24,18,12,.10) 40%, rgba(24,18,12,.28) 100%);
+    }` : ''}
+    ${hasPhoto ? `.kicker, .title, .card, .foot { position: relative; z-index: 1 }` : ''}
     .kicker {
       font-family: -apple-system, "Segoe UI", Roboto, sans-serif;
       font-size: 34px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase;
-      color: ${hasPhoto ? 'rgba(255,244,230,.92)' : PALETTE.accent}; margin-bottom: 40px;
-      ${hasPhoto ? 'text-shadow: 0 2px 14px rgba(0,0,0,.45);' : ''}
+      color: ${hasPhoto ? kickerColor : PALETTE.accent}; margin-bottom: 40px;
+      ${hasPhoto ? shadow : ''}
     }
     .title {
       font-size: 86px; line-height: 1.16; font-weight: 700; margin-bottom: 64px;
-      ${hasPhoto ? `color: #fdf9f2; text-shadow: 0 3px 22px rgba(0,0,0,.5);` : ''}
+      ${hasPhoto ? `color: ${titleColor}; ${light ? '' : 'text-shadow: 0 3px 22px rgba(0,0,0,.5);'}` : ''}
     }
     .card {
-      ${hasPhoto ? `background: rgba(251,248,243,.96); border-radius: 26px;
-      padding: 26px 44px; box-shadow: 0 24px 70px rgba(0,0,0,.35);` : 'flex: 1;'}
+      ${hasPhoto ? `background: #ffffff; border-radius: 22px;
+      padding: 30px 44px 20px; box-shadow: 0 24px 70px rgba(0,0,0,.35);` : 'flex: 1;'}
       display: flex; flex-direction: column; justify-content: flex-start;
     }
     .foot { margin-top: auto }
+    .head {
+      display: grid; grid-template-columns: 1fr 1fr; gap: 24px;
+      font-family: -apple-system, "Segoe UI", Roboto, sans-serif;
+      font-size: 34px; font-weight: 700;
+      padding-bottom: 20px; border-bottom: 3px solid #1f1d1a;
+    }
+    .head .h-bad { color: ${PALETTE.accent} }
+    .head .h-good { color: ${PALETTE.right} }
     .row {
-      display: flex; align-items: baseline; gap: 24px;
-      padding: 24px 0; border-bottom: 1px solid #e5ded1;
-      font-size: 48px; opacity: 0;
+      display: grid; grid-template-columns: 1fr 1fr; gap: 24px; align-items: baseline;
+      padding: 21px 0; border-bottom: 1px solid #e2ddd4;
+      font-size: 46px; font-weight: 700; opacity: 0;
     }
     .row:last-of-type { border-bottom: none }
-    .bad { position: relative; color: ${PALETTE.accent}; flex: 0 1 auto }
+    .bad { position: relative; color: ${PALETTE.accent}; justify-self: start }
     .strike {
-      position: absolute; left: 0; top: 55%; height: 4px; width: 0%;
+      position: absolute; left: 0; top: 55%; height: 5px; width: 0%;
       background: ${PALETTE.accent};
     }
-    .arrow { color: ${PALETTE.muted}; font-size: 40px }
-    .good { color: ${PALETTE.right}; font-weight: 700; opacity: 0 }
+    .good { color: ${PALETTE.right}; opacity: 0 }
     .foot {
       font-family: -apple-system, "Segoe UI", Roboto, sans-serif;
       font-size: 32px;
-      color: ${hasPhoto ? 'rgba(255,244,230,.85)' : PALETTE.muted};
+      color: ${hasPhoto ? footColor : PALETTE.muted};
       display: flex; justify-content: space-between; align-items: baseline;
-      ${hasPhoto ? 'text-shadow: 0 2px 12px rgba(0,0,0,.45);' : ''}
+      ${hasPhoto ? shadow : ''}
     }
-    .foot b { color: ${hasPhoto ? '#fff' : PALETTE.ink}; font-weight: 650 }
+    .foot b { color: ${hasPhoto ? footBold : PALETTE.ink}; font-weight: 650 }
   </style></head><body>
     <div class="kicker">${esc(post.kicker || '')}</div>
     <div class="title">${esc(post.title || '').replace(/\n/g, '<br>')}</div>
-    <div class="card">${rows}</div>
+    <div class="card">
+      <div class="head"><span class="h-bad">✕ Неправильно</span><span class="h-good">✓ Правильно</span></div>
+      ${rows}</div>
     <div class="foot"><b>@${esc(handle)}</b><span>подготовка к ЕГЭ и ОГЭ</span></div>
     <script>
       const easeOut = x => 1 - Math.pow(1 - x, 3);
@@ -118,7 +136,7 @@ function pageHtml(post, handle) {
         let any = false;
         document.querySelectorAll('.row').forEach((row, i) => {
           const local = t - intro - i * step;
-          row.style.display = local > 0 ? 'flex' : 'none';
+          row.style.display = local > 0 ? 'grid' : 'none';
           if (local > 0) any = true;
           const appear = easeOut(Math.min(Math.max(local / 0.3, 0), 1));
           row.style.opacity = appear;
@@ -153,6 +171,19 @@ function pageHtml(post, handle) {
     fs.existsSync(preinstalled) ? { executablePath: preinstalled } : {});
   const page = await browser.newPage({ viewport: { width: W, height: H }, deviceScaleFactor: 1 });
   await page.setContent(pageHtml(post, queue.account));
+
+  // --frame: только финальный кадр (быстрое превью, без сборки видео)
+  if (process.argv.includes('--frame')) {
+    await page.evaluate(
+      ([t, intro, step]) => window.seek(t, intro, step),
+      [total - 0.1, INTRO, ROW_STEP]);
+    const file = path.join(OUT_DIR, `${id}-frame.jpg`);
+    fs.mkdirSync(OUT_DIR, { recursive: true });
+    await page.screenshot({ path: file, type: 'jpeg', quality: 92 });
+    await browser.close();
+    console.log(`Превью: ${file}`);
+    return;
+  }
 
   for (let f = 0; f < frames; f++) {
     await page.evaluate(

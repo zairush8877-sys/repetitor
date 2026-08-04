@@ -75,7 +75,7 @@
       "status": "published",
       "kicker": "Проверьте себя",
       "title": "Так пишут даже\nграмотные люди",
-      "background": "content/bg/gramotnye-fon.jpg",
+      "background": "content/bg/fon-mint.jpg",
       "rows": [
         [
           "Вообщем",
@@ -118,7 +118,8 @@
       ],
       "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/-/main/content/reels/2026-08-04-gramotnye-reels.mp4",
       "publishedMediaId": "18061224092555229",
-      "publishedAt": "2026-08-04T11:48:49.907Z"
+      "publishedAt": "2026-08-04T11:48:49.907Z",
+      "lightBg": true
     },
     {
       "id": "2026-08-03-lozhit",
