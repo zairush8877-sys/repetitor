@@ -46,25 +46,48 @@ function pageHtml(post, handle) {
       <span class="good">${esc(good)}</span>
     </div>`).join('');
 
+  // С фоном-фотографией заголовок ложится прямо на снимок (белым, с тенью),
+  // а таблица — на кремовую карточку, чтобы красный/зелёный оставались читаемыми.
+  const bgFile = post.background && path.join(__dirname, post.background);
+  const hasPhoto = bgFile && fs.existsSync(bgFile);
+  const bgCss = hasPhoto
+    ? `background: url(data:image/jpeg;base64,${fs.readFileSync(bgFile).toString('base64')}) center/cover`
+    : `background: ${PALETTE.bg}`;
+
   return `<!doctype html><html lang="ru"><head><meta charset="utf-8"><style>
     * { box-sizing: border-box; margin: 0; padding: 0 }
     body {
       width: ${W}px; height: ${H}px; overflow: hidden;
-      background: ${PALETTE.bg}; color: ${PALETTE.ink};
+      ${bgCss}; color: ${PALETTE.ink};
       font-family: Georgia, "Times New Roman", serif;
-      display: flex; flex-direction: column; padding: 130px 90px 110px;
+      display: flex; flex-direction: column; padding: 120px 80px 100px;
+      position: relative;
     }
+    ${hasPhoto ? `body::before {
+      content: ""; position: absolute; inset: 0;
+      background: linear-gradient(180deg, rgba(24,18,12,.52) 0%, rgba(24,18,12,.30) 40%, rgba(24,18,12,.55) 100%);
+    }
+    .kicker, .title, .card, .foot { position: relative; z-index: 1 }` : ''}
     .kicker {
       font-family: -apple-system, "Segoe UI", Roboto, sans-serif;
       font-size: 34px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase;
-      color: ${PALETTE.accent}; margin-bottom: 44px;
+      color: ${hasPhoto ? 'rgba(255,244,230,.92)' : PALETTE.accent}; margin-bottom: 40px;
+      ${hasPhoto ? 'text-shadow: 0 2px 14px rgba(0,0,0,.45);' : ''}
     }
-    .title { font-size: 88px; line-height: 1.16; font-weight: 700; margin-bottom: 80px }
-    .rows { flex: 1; display: flex; flex-direction: column; justify-content: flex-start }
+    .title {
+      font-size: 86px; line-height: 1.16; font-weight: 700; margin-bottom: 64px;
+      ${hasPhoto ? `color: #fdf9f2; text-shadow: 0 3px 22px rgba(0,0,0,.5);` : ''}
+    }
+    .card {
+      ${hasPhoto ? `background: rgba(251,248,243,.96); border-radius: 26px;
+      padding: 26px 44px; box-shadow: 0 24px 70px rgba(0,0,0,.35);` : 'flex: 1;'}
+      display: flex; flex-direction: column; justify-content: flex-start;
+    }
+    .foot { margin-top: auto }
     .row {
-      display: flex; align-items: baseline; gap: 26px;
-      padding: 26px 0; border-bottom: 1px solid #e5ded1;
-      font-size: 50px; opacity: 0;
+      display: flex; align-items: baseline; gap: 24px;
+      padding: 24px 0; border-bottom: 1px solid #e5ded1;
+      font-size: 48px; opacity: 0;
     }
     .row:last-of-type { border-bottom: none }
     .bad { position: relative; color: ${PALETTE.accent}; flex: 0 1 auto }
@@ -72,25 +95,31 @@ function pageHtml(post, handle) {
       position: absolute; left: 0; top: 55%; height: 4px; width: 0%;
       background: ${PALETTE.accent};
     }
-    .arrow { color: ${PALETTE.muted}; font-size: 42px }
+    .arrow { color: ${PALETTE.muted}; font-size: 40px }
     .good { color: ${PALETTE.right}; font-weight: 700; opacity: 0 }
     .foot {
       font-family: -apple-system, "Segoe UI", Roboto, sans-serif;
-      font-size: 32px; color: ${PALETTE.muted};
+      font-size: 32px;
+      color: ${hasPhoto ? 'rgba(255,244,230,.85)' : PALETTE.muted};
       display: flex; justify-content: space-between; align-items: baseline;
+      ${hasPhoto ? 'text-shadow: 0 2px 12px rgba(0,0,0,.45);' : ''}
     }
-    .foot b { color: ${PALETTE.ink}; font-weight: 650 }
+    .foot b { color: ${hasPhoto ? '#fff' : PALETTE.ink}; font-weight: 650 }
   </style></head><body>
     <div class="kicker">${esc(post.kicker || '')}</div>
     <div class="title">${esc(post.title || '').replace(/\n/g, '<br>')}</div>
-    <div class="rows">${rows}</div>
+    <div class="card">${rows}</div>
     <div class="foot"><b>@${esc(handle)}</b><span>подготовка к ЕГЭ и ОГЭ</span></div>
     <script>
       const easeOut = x => 1 - Math.pow(1 - x, 3);
-      // Фаза внутри строки: появление ошибки → зачёркивание → правильный вариант
+      // Фаза внутри строки: появление ошибки → зачёркивание → правильный вариант.
+      // Строки до своего времени скрыты совсем — карточка растёт с каждой новой.
       window.seek = (t, intro, step) => {
+        let any = false;
         document.querySelectorAll('.row').forEach((row, i) => {
           const local = t - intro - i * step;
+          row.style.display = local > 0 ? 'flex' : 'none';
+          if (local > 0) any = true;
           const appear = easeOut(Math.min(Math.max(local / 0.3, 0), 1));
           row.style.opacity = appear;
           row.style.transform = 'translateY(' + (1 - appear) * 26 + 'px)';
@@ -101,6 +130,8 @@ function pageHtml(post, handle) {
           g.style.opacity = good;
           g.style.transform = 'translateX(' + (1 - good) * 22 + 'px)';
         });
+        const card = document.querySelector('.card');
+        if (card) card.style.opacity = any ? 1 : 0;
       };
     </script>
   </body></html>`;
