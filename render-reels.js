@@ -52,6 +52,13 @@ function pageHtml(post, handle) {
   const bgCss = hasPhoto
     ? `background: url(data:image/jpeg;base64,${fs.readFileSync(bgFile).toString('base64')}) center/cover`
     : `background: ${PALETTE.bg}`;
+  // Светлый фон: без затемнения, заголовок тёмный (белый бы выцвел)
+  const light = !!post.lightBg;
+  const titleColor = light ? PALETTE.ink : '#fdf9f2';
+  const kickerColor = light ? PALETTE.accent : 'rgba(255,244,230,.92)';
+  const footColor = light ? PALETTE.muted : 'rgba(255,244,230,.85)';
+  const footBold = light ? PALETTE.ink : '#fff';
+  const shadow = light ? '' : 'text-shadow: 0 2px 14px rgba(0,0,0,.45);';
 
   return `<!doctype html><html lang="ru"><head><meta charset="utf-8"><style>
     * { box-sizing: border-box; margin: 0; padding: 0 }
@@ -65,20 +72,20 @@ function pageHtml(post, handle) {
       padding: 300px 80px 150px;
       position: relative;
     }
-    ${hasPhoto ? `body::before {
+    ${hasPhoto && !light ? `body::before {
       content: ""; position: absolute; inset: 0;
       background: linear-gradient(180deg, rgba(24,18,12,.30) 0%, rgba(24,18,12,.10) 40%, rgba(24,18,12,.28) 100%);
-    }
-    .kicker, .title, .card, .foot { position: relative; z-index: 1 }` : ''}
+    }` : ''}
+    ${hasPhoto ? `.kicker, .title, .card, .foot { position: relative; z-index: 1 }` : ''}
     .kicker {
       font-family: -apple-system, "Segoe UI", Roboto, sans-serif;
       font-size: 34px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase;
-      color: ${hasPhoto ? 'rgba(255,244,230,.92)' : PALETTE.accent}; margin-bottom: 40px;
-      ${hasPhoto ? 'text-shadow: 0 2px 14px rgba(0,0,0,.45);' : ''}
+      color: ${hasPhoto ? kickerColor : PALETTE.accent}; margin-bottom: 40px;
+      ${hasPhoto ? shadow : ''}
     }
     .title {
       font-size: 86px; line-height: 1.16; font-weight: 700; margin-bottom: 64px;
-      ${hasPhoto ? `color: #fdf9f2; text-shadow: 0 3px 22px rgba(0,0,0,.5);` : ''}
+      ${hasPhoto ? `color: ${titleColor}; ${light ? '' : 'text-shadow: 0 3px 22px rgba(0,0,0,.5);'}` : ''}
     }
     .card {
       ${hasPhoto ? `background: #ffffff; border-radius: 22px;
@@ -109,11 +116,11 @@ function pageHtml(post, handle) {
     .foot {
       font-family: -apple-system, "Segoe UI", Roboto, sans-serif;
       font-size: 32px;
-      color: ${hasPhoto ? 'rgba(255,244,230,.85)' : PALETTE.muted};
+      color: ${hasPhoto ? footColor : PALETTE.muted};
       display: flex; justify-content: space-between; align-items: baseline;
-      ${hasPhoto ? 'text-shadow: 0 2px 12px rgba(0,0,0,.45);' : ''}
+      ${hasPhoto ? shadow : ''}
     }
-    .foot b { color: ${hasPhoto ? '#fff' : PALETTE.ink}; font-weight: 650 }
+    .foot b { color: ${hasPhoto ? footBold : PALETTE.ink}; font-weight: 650 }
   </style></head><body>
     <div class="kicker">${esc(post.kicker || '')}</div>
     <div class="title">${esc(post.title || '').replace(/\n/g, '<br>')}</div>
@@ -164,6 +171,19 @@ function pageHtml(post, handle) {
     fs.existsSync(preinstalled) ? { executablePath: preinstalled } : {});
   const page = await browser.newPage({ viewport: { width: W, height: H }, deviceScaleFactor: 1 });
   await page.setContent(pageHtml(post, queue.account));
+
+  // --frame: только финальный кадр (быстрое превью, без сборки видео)
+  if (process.argv.includes('--frame')) {
+    await page.evaluate(
+      ([t, intro, step]) => window.seek(t, intro, step),
+      [total - 0.1, INTRO, ROW_STEP]);
+    const file = path.join(OUT_DIR, `${id}-frame.jpg`);
+    fs.mkdirSync(OUT_DIR, { recursive: true });
+    await page.screenshot({ path: file, type: 'jpeg', quality: 92 });
+    await browser.close();
+    console.log(`Превью: ${file}`);
+    return;
+  }
 
   for (let f = 0; f < frames; f++) {
     await page.evaluate(
