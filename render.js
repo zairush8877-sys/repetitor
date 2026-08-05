@@ -335,6 +335,12 @@ function previewHtml(queue, rendered) {
   const rendered = {};
 
   for (const post of targets) {
+    // У Reels слайдов нет — они собираются видео через render-reels.js.
+    // Раньше такой пост ронял весь прогон, и уже отрисованные картинки не коммитились.
+    if (!post.slides) {
+      console.log(`${post.id}: пропуск, это ${post.format} — рисуется через render-reels.js`);
+      continue;
+    }
     rendered[post.id] = [];
     const total = post.slides.length;
     for (let i = 0; i < total; i++) {
