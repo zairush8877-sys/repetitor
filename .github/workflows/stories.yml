@@ -49,3 +49,8 @@ jobs:
           git add content/stories.json
           git commit -m "Опубликована сторис дня"
           git push
+
+      # Видно в логе запуска: когда контент кончается, это заметно заранее
+      - name: Остаток банков
+        if: always()
+        run: node bank-status.js
