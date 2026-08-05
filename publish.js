@@ -10,6 +10,7 @@
  *   IG_ACCESS_TOKEN=... node publish.js --check      — проверить токен (кто я)
  *   IG_ACCESS_TOKEN=... node publish.js --dry-run    — показать, что будет опубликовано
  *   IG_ACCESS_TOKEN=... node publish.js              — опубликовать все approved-посты
+ *   IG_ACCESS_TOKEN=... node publish.js --one        — одна публикация дня (ежедневный режим)
  *   IG_ACCESS_TOKEN=... node publish.js <id>         — опубликовать один пост
  *
  * Требования к посту в очереди:
@@ -59,6 +60,34 @@ function assetUrl(u) {
   return u.replace(
     /^(https:\/\/raw\.githubusercontent\.com\/)[^/]+\/[^/]+\//,
     `$1${repo}/`);
+}
+
+// Раз в неделю лента отдаётся разбору задания ЕГЭ: это профильная тема аккаунта,
+// и без брони дня она тонет среди более лёгких форматов, которых в банке больше.
+const EGE_RUBRIC = 'Разбор задания';
+const EGE_WEEKDAY = 1; // понедельник
+
+/** День недели по Москве — раннер живёт в UTC, а расписание у нас московское. */
+function moscowWeekday() {
+  const s = new Date().toLocaleDateString('en-US', {
+    timeZone: 'Europe/Moscow', weekday: 'short',
+  });
+  return ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'].indexOf(s);
+}
+
+/**
+ * Одна публикация дня: в понедельник — разбор ЕГЭ, в остальные дни он
+ * придерживается. Если про ЕГЭ ничего не осталось (или наоборот, остались
+ * только они), выходит то, что есть, — пустой день хуже несвоевременного.
+ */
+function pickDaily(approved) {
+  const isEgeDay = moscowWeekday() === EGE_WEEKDAY;
+  const ege = approved.filter(p => p.rubric === EGE_RUBRIC);
+  const rest = approved.filter(p => p.rubric !== EGE_RUBRIC);
+
+  if (isEgeDay && ege.length) return ege[0];
+  if (!isEgeDay && rest.length) return rest[0];
+  return approved[0];
 }
 
 async function api(method, endpoint, params = {}) {
@@ -161,8 +190,11 @@ async function showRecent(limit = 8) {
   const approved = queue.posts.filter(p =>
     onlyId ? p.id === onlyId : p.status === 'approved');
 
-  // В ежедневном режиме берём одну публикацию — иначе весь банк уйдёт за один запуск
-  const targets = onlyOne && !onlyId ? approved.slice(0, 1) : approved;
+  // В ежедневном режиме берём одну публикацию — иначе весь банк уйдёт за один запуск.
+  // При пустом банке список остаётся пустым: ниже об этом честно сообщается.
+  const targets = onlyOne && !onlyId && approved.length
+    ? [pickDaily(approved)]
+    : approved;
 
   if (targets.length === 0) {
     console.log(onlyId
@@ -171,7 +203,8 @@ async function showRecent(limit = 8) {
     return;
   }
   if (onlyOne && !onlyId) {
-    console.log(`В банке одобрено: ${approved.length}. Сегодня выходит одна публикация.`);
+    const ege = approved.filter(p => p.rubric === EGE_RUBRIC).length;
+    console.log(`В банке одобрено: ${approved.length} (из них разборов ЕГЭ: ${ege}). Сегодня выходит одна публикация.`);
   }
 
   for (const post of targets) {

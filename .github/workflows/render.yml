@@ -1,0 +1,47 @@
+name: Отрисовать картинки постов
+
+# Картинки и видео раньше рисовались локально и попадали в репозиторий вместе
+# с коммитом. Это привязывало конвейер к машине, где идёт работа: без неё пост
+# в очереди есть, а файла к нему нет — и публикация падает на скачивании.
+# Здесь тот же рендер выполняется в Actions и коммитит результат.
+on:
+  workflow_dispatch:
+    inputs:
+      post_id:
+        description: 'ID поста из content/queue.json (пусто — все pending и approved)'
+        required: false
+
+permissions:
+  contents: write
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+
+      - name: Установить зависимости
+        run: npm ci
+
+      - name: Установить Chromium для Playwright
+        run: npx playwright install --with-deps chromium
+
+      - name: Отрисовать
+        run: node render.js ${{ inputs.post_id }}
+
+      - name: Закоммитить картинки
+        run: |
+          if git diff --quiet content/images content/preview.html; then
+            echo "Нечего коммитить — картинки уже на месте."
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add content/images content/preview.html
+          git commit -m "Отрисованы картинки постов"
+          git push
