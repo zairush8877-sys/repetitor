@@ -92,6 +92,18 @@ function postDates(from, totalPosts) {
   return dates;
 }
 
+// Темы закреплённых постов списываем из банка заранее — иначе очередь вытянет их второй раз
+const PINNED_FILE = path.join(CONTENT_DIR, 'pinned.json');
+const pinnedList = fs.existsSync(PINNED_FILE)
+  ? (JSON.parse(fs.readFileSync(PINNED_FILE, 'utf8')).pinned || [])
+  : [];
+const idByName = Object.fromEntries(rubricsData.rubrics.map(r => [r.name, r.id]));
+for (const p of pinnedList) {
+  const id = idByName[p.rubric];
+  if (!id) continue;
+  used[id] = [...new Set([...(used[id] || []), p.topic])];
+}
+
 const totalPosts = weeks * POSTS_PER_WEEK;
 const queue = buildRubricQueue(totalPosts);
 const dates = postDates(start, totalPosts);
@@ -100,29 +112,76 @@ const rubricById = Object.fromEntries(rubricsData.rubrics.map(r => [r.id, r]));
 const DAYS_RU = ['вс', 'пн', 'вт', 'ср', 'чт', 'пт', 'сб'];
 const fmt = d => `${String(d.getDate()).padStart(2, '0')}.${String(d.getMonth() + 1).padStart(2, '0')}`;
 
+// Рубрика может выходить в нескольких форматах (поле formats) — чередуем их,
+// чтобы одна и та же рубрика не приедалась одинаковой подачей.
+const formatSeen = {};
+function pickFormat(r) {
+  if (!r.formats || r.formats.length === 0) return r.format;
+  const n = formatSeen[r.id] = (formatSeen[r.id] || 0);
+  formatSeen[r.id]++;
+  return r.formats[n % r.formats.length];
+}
+
 const plan = queue.map((rubricId, i) => {
   const r = rubricById[rubricId];
   return {
     date: dates[i].toISOString().slice(0, 10),
     day: DAYS_RU[dates[i].getDay()],
     rubric: r.name,
-    format: r.format,
+    format: pickFormat(r),
     topic: takeTopic(rubricId),
     structure: r.structure,
   };
 });
+
+// --- Якорные даты ---
+// Сезонные посты (набор на учебный год, 1 сентября) должны выходить в свой день,
+// а не туда, куда их поставит взвешенная очередь. Такой пост вытесняет обычный.
+{
+  const from = plan[0].date, to = plan[plan.length - 1].date;
+  for (const p of pinnedList) {
+    if (p.date < from || p.date > to) continue;
+    const entry = {
+      date: p.date,
+      day: DAYS_RU[new Date(p.date + 'T00:00:00').getDay()],
+      rubric: p.rubric,
+      format: p.format,
+      topic: p.topic,
+      pinned: true,
+      why: p.why,
+    };
+    const i = plan.findIndex(x => x.date === p.date);
+    if (i >= 0) plan[i] = entry;
+    else plan.push(entry);
+  }
+  plan.sort((a, b) => a.date.localeCompare(b.date));
+}
 
 // --- Вывод ---
 let md = `# План публикаций на ${weeks} нед. (с ${fmt(dates[0])})\n\n`;
 md += `Постов: ${totalPosts}. Шаблоны текстов — в content/templates.md (ищите рубрику по названию).\n\n`;
 md += `| Дата | День | Рубрика | Формат | Тема |\n|---|---|---|---|---|\n`;
 for (const p of plan) {
-  md += `| ${fmt(new Date(p.date + 'T00:00:00'))} | ${p.day} | ${p.rubric} | ${p.format} | ${p.topic} |\n`;
+  const mark = p.pinned ? ' 📌' : '';
+  md += `| ${fmt(new Date(p.date + 'T00:00:00'))} | ${p.day} | ${p.rubric}${mark} | ${p.format} | ${p.topic} |\n`;
 }
-md += `\n## Съёмочный день\n\nВсе Reels недели снимаются за один заход. Reels в этом плане:\n\n`;
-for (const p of plan.filter(p => p.format.includes('Reels'))) {
-  md += `- ${fmt(new Date(p.date + 'T00:00:00'))} — ${p.topic}\n`;
+const anchors = plan.filter(p => p.pinned);
+if (anchors.length) {
+  md += `\n📌 — привязано к дате:\n\n`;
+  for (const p of anchors) md += `- ${fmt(new Date(p.date + 'T00:00:00'))} ${p.topic} — ${p.why}\n`;
 }
+// Reels-таблицы собираются рендером автоматически, снимать нужно только «Историю слова»
+const reels = plan.filter(p => p.format.includes('Reels'));
+const auto = reels.filter(p => p.rubric === 'Путают даже грамотные');
+const shoot = reels.filter(p => p.rubric !== 'Путают даже грамотные');
+
+md += `\n## Reels\n\nСобираются автоматически (\`node render-reels.js <id>\`, снимать не нужно):\n\n`;
+for (const p of auto) md += `- ${fmt(new Date(p.date + 'T00:00:00'))} — ${p.topic}\n`;
+if (!auto.length) md += `- (нет)\n`;
+
+md += `\nНужна съёмка — снять за один заход:\n\n`;
+for (const p of shoot) md += `- ${fmt(new Date(p.date + 'T00:00:00'))} — ${p.topic}\n`;
+if (!shoot.length) md += `- (нет)\n`;
 md += `\n## Чек-лист перед публикацией\n\n- [ ] Хук в первые 2 секунды / первую строку\n- [ ] Один CTA, не три\n- [ ] Перечитано дважды: ошибок нет\n- [ ] 3–5 узких хэштегов\n- [ ] Ссылка в шапке профиля актуальна\n`;
 
 fs.writeFileSync(path.join(CONTENT_DIR, 'plan.md'), md);
