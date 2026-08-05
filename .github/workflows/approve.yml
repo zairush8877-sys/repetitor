@@ -1,0 +1,62 @@
+name: Одобрить посты к публикации
+
+# Одобрение — самая частая правка в очереди: пост отрисован, проверен и должен
+# уйти в ленту. Ради одной строки status приходилось коммитить весь queue.json,
+# а он на 48 КБ. Здесь статус переключается прямо в Actions, по списку id.
+on:
+  workflow_dispatch:
+    inputs:
+      ids:
+        description: 'ID постов через запятую (из content/queue.json)'
+        required: true
+
+permissions:
+  contents: write
+
+jobs:
+  approve:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Переключить статус
+        env:
+          IDS: ${{ inputs.ids }}
+        run: |
+          node -e '
+            const fs = require("fs");
+            const F = "content/queue.json";
+            const raw = fs.readFileSync(F, "utf8");
+            const ids = process.env.IDS.split(",").map(s => s.trim()).filter(Boolean);
+            const queue = JSON.parse(raw);
+
+            let out = raw;
+            for (const id of ids) {
+              const post = queue.posts.find(p => p.id === id);
+              if (!post) throw new Error(`Пост «${id}» не найден в очереди`);
+              if (post.status === "approved") { console.log(`${id}: уже одобрен`); continue; }
+              if (post.status !== "pending") throw new Error(`${id}: статус «${post.status}», одобрять нечего`);
+
+              // Правим текстом, а не пересериализацией: JSON.stringify развернул бы
+              // однострочные пары обратно в столбик и утопил бы правку в diff.
+              const re = new RegExp(`("id": ${JSON.stringify(id)}[\\s\\S]{0,600}?"status": )"pending"`);
+              if (!re.test(out)) throw new Error(`${id}: поле status не найдено рядом с id`);
+              out = out.replace(re, `$1"approved"`);
+              console.log(`${id}: одобрен`);
+            }
+
+            JSON.parse(out); // на случай, если замена испортила структуру
+            fs.writeFileSync(F, out);
+          '
+
+      - name: Закоммитить
+        run: |
+          if git diff --quiet content/queue.json; then
+            echo "Очередь не изменилась."
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add content/queue.json
+          git commit -m "Одобрены посты: ${{ inputs.ids }}"
+          git push
