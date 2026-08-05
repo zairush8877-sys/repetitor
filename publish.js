@@ -35,6 +35,7 @@ const args = process.argv.slice(2);
 const dryRun = args.includes('--dry-run');
 const checkOnly = args.includes('--check');
 const recentOnly = args.includes('--recent');
+const onlyOne = args.includes('--one');   // ежедневный режим: одна публикация за запуск
 const onlyId = args.find(a => !a.startsWith('--'));
 
 if (!TOKEN) {
@@ -143,14 +144,20 @@ async function showRecent(limit = 8) {
   if (checkOnly) return;
 
   const queue = JSON.parse(fs.readFileSync(QUEUE, 'utf8'));
-  const targets = queue.posts.filter(p =>
+  const approved = queue.posts.filter(p =>
     onlyId ? p.id === onlyId : p.status === 'approved');
+
+  // В ежедневном режиме берём одну публикацию — иначе весь банк уйдёт за один запуск
+  const targets = onlyOne && !onlyId ? approved.slice(0, 1) : approved;
 
   if (targets.length === 0) {
     console.log(onlyId
       ? `Пост «${onlyId}» не найден в очереди.`
-      : 'Нет постов со статусом approved — публиковать нечего.');
+      : 'Нет постов со статусом approved — публиковать нечего. Пополните банк.');
     return;
+  }
+  if (onlyOne && !onlyId) {
+    console.log(`В банке одобрено: ${approved.length}. Сегодня выходит одна публикация.`);
   }
 
   for (const post of targets) {
