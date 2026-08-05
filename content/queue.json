@@ -7,7 +7,7 @@
       "date": "2026-08-05",
       "rubric": "Путают даже грамотные",
       "format": "Reels",
-      "status": "pending",
+      "status": "approved",
       "kicker": "Проверьте себя",
       "title": "Десять ударений,\nкоторые вас выдают",
       "background": "content/bg/fon-kletka.jpg",
@@ -68,7 +68,7 @@
       "date": "2026-08-05",
       "rubric": "Путают даже грамотные",
       "format": "Пост",
-      "status": "pending",
+      "status": "approved",
       "slides": [
         {
           "layout": "table",
