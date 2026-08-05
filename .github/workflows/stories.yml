@@ -1,0 +1,51 @@
+name: Сторис каждый день
+
+# Одна сторис в день из банка content/stories.json (два кадра: вопрос и ответ).
+# Банк одобряется целиком, дальше выходит сам; когда он кончится — запуск
+# честно скажет об этом в логе и ничего не опубликует.
+on:
+  workflow_dispatch:
+    inputs:
+      story_id:
+        description: 'ID сторис из content/stories.json (пусто — следующая в очереди)'
+        required: false
+      dry_run:
+        description: 'Только показать, что было бы опубликовано'
+        type: boolean
+        default: false
+  schedule:
+    - cron: '0 7 * * *'   # 10:00 МСК — время, когда сторис смотрят по дороге и в перерывах
+
+permissions:
+  contents: write         # чтобы отметить сторис как опубликованную
+
+jobs:
+  stories:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Опубликовать сторис дня
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+        run: |
+          node publish-stories.js \
+            ${{ inputs.dry_run && '--dry-run' || '' }} \
+            ${{ inputs.story_id }}
+
+      - name: Отметить в банке
+        if: ${{ !inputs.dry_run }}
+        run: |
+          if git diff --quiet content/stories.json; then
+            echo "Банк не изменился — публиковать было нечего."
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add content/stories.json
+          git commit -m "Опубликована сторис дня"
+          git push
