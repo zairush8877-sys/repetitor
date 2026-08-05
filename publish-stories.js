@@ -21,7 +21,10 @@ const API = 'https://graph.facebook.com/v23.0';
 const TOKEN = process.env.IG_ACCESS_TOKEN;
 const IG_USER_ID = process.env.IG_USER_ID || JSON.parse(fs.readFileSync(QUEUE, 'utf8')).account_id;
 
-const RAW = 'https://raw.githubusercontent.com/zairush8877-sys/-/main/content/stories';
+// Имя репозитория можно переименовать, и тогда ссылки протухнут разом.
+// В GitHub Actions актуальное имя всегда в GITHUB_REPOSITORY — берём оттуда.
+const REPO = process.env.GITHUB_REPOSITORY || 'zairush8877-sys/repetitor';
+const RAW = `https://raw.githubusercontent.com/${REPO}/main/content/stories`;
 
 const args = process.argv.slice(2);
 const dryRun = args.includes('--dry-run');

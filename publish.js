@@ -47,6 +47,20 @@ if (!IG_USER_ID) {
   process.exit(1);
 }
 
+/**
+ * Ссылки на файлы в очереди содержат имя репозитория, а его могут переименовать —
+ * тогда все ссылки протухнут разом и публикация упадёт по расписанию, молча.
+ * В GitHub Actions актуальное имя всегда лежит в GITHUB_REPOSITORY, поэтому
+ * подменяем владельца и репозиторий в ссылке на текущие.
+ */
+function assetUrl(u) {
+  const repo = process.env.GITHUB_REPOSITORY;
+  if (!repo) return u;
+  return u.replace(
+    /^(https:\/\/raw\.githubusercontent\.com\/)[^/]+\/[^/]+\//,
+    `$1${repo}/`);
+}
+
 async function api(method, endpoint, params = {}) {
   const url = new URL(`${API}/${endpoint}`);
   const body = new URLSearchParams({ ...params, access_token: TOKEN });
@@ -77,7 +91,7 @@ function fullCaption(post) {
 }
 
 async function publishPost(post) {
-  const urls = post.imageUrls || [];
+  const urls = (post.imageUrls || []).map(assetUrl);
   const caption = fullCaption(post);
 
   let creationId;
@@ -85,7 +99,7 @@ async function publishPost(post) {
     // Reels: видео обрабатывается дольше картинок — ждём до 8 минут
     const { id } = await api('POST', `${IG_USER_ID}/media`, {
       media_type: 'REELS',
-      video_url: post.videoUrl,
+      video_url: assetUrl(post.videoUrl),
       caption,
       share_to_feed: 'true',
     });
