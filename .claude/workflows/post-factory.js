@@ -9,8 +9,11 @@ export const meta = {
 }
 
 // args: { draft: {title, kicker, rows, caption, hashtags, rubric, format}, context: string }
-const draft = args.draft
-const context = args.context || ''
+// args может прийти и строкой JSON — разбираем в любом случае
+const input = typeof args === 'string' ? JSON.parse(args) : args
+const draft = input.draft
+const context = input.context || ''
+if (!draft || !draft.rows) throw new Error('post-factory: в args.draft нет черновика с rows')
 
 const TONE = `Правила тона (обязательные):
 - Запрещённые клише: «Признавайтесь…», «Сохраните, чтобы не потерять», «А вы знали?», «Друзья!», «Готовы? Поехали!», «Спойлер:», риторические вопросы-приманки.
