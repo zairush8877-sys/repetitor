@@ -143,9 +143,15 @@ function fullCaption(post) {
  * Публикация без подписи однажды уже случилась: Reels от 3 августа собрал
  * лучший охват в аккаунте и остался немым — ни объяснения, ни хештегов,
  * ни повода написать в директ. Пустая подпись — это брак, а не «пока так».
+ * Проверка типа обязательна: на не-строке .trim() падал бы голым TypeError
+ * без имени поста.
  */
+function hasCaption(post) {
+  return typeof post.caption === 'string' && post.caption.trim() !== '';
+}
+
 function requireCaption(post) {
-  if (!post.caption || !post.caption.trim()) {
+  if (!hasCaption(post)) {
     throw new Error(`${post.id}: нет подписи — публиковать без неё нельзя`);
   }
 }
@@ -228,8 +234,16 @@ async function showRecent(limit = 8) {
     }
   }
 
-  const approved = queue.posts.filter(p =>
+  const matched = queue.posts.filter(p =>
     onlyId ? p.id === onlyId : p.status === 'approved');
+
+  // Пост без подписи не выходит сам и не останавливает остальных: раньше он
+  // ронял весь прогон — день пропадал, а статусы уже вышедших постов не
+  // записывались, и назавтра они уходили дублями. Ежедневный отбор просто
+  // не видит такие посты; явный запуск по id остаётся громким — там ошибка.
+  const approved = onlyId ? matched : matched.filter(hasCaption);
+  const noCaption = matched.length - approved.length;
+  if (noCaption) console.log(`Без подписи, к публикации не допущено: ${noCaption}. Добавьте caption в очередь.`);
 
   // В ежедневном режиме берём одну публикацию — иначе весь банк уйдёт за один запуск.
   // При пустом банке список остаётся пустым: ниже об этом честно сообщается.
@@ -256,8 +270,12 @@ async function showRecent(limit = 8) {
       continue;
     }
     if (dryRun) {
-      if (!post.caption || !post.caption.trim()) {
+      if (!hasCaption(post)) {
         console.log('  ✗ нет подписи — публикация была бы отклонена');
+        continue;
+      }
+      if (!post.videoUrl && n === 0) {
+        console.log('  ✗ нет imageUrls — публикация была бы отклонена');
         continue;
       }
       console.log(`  (dry-run) Опубликовал бы ${post.videoUrl ? 'Reels' : n === 1 ? 'пост' : 'карусель'} с подписью ${fullCaption(post).length} симв.`);

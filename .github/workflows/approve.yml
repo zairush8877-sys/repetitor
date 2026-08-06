@@ -36,6 +36,10 @@ jobs:
               if (!post) throw new Error(`Пост «${id}» не найден в очереди`);
               if (post.status === "approved") { console.log(`${id}: уже одобрен`); continue; }
               if (post.status !== "pending") throw new Error(`${id}: статус «${post.status}», одобрять нечего`);
+              // approved обязан означать «можно выпускать»: пост без подписи
+              // ежедневный отбор всё равно не возьмёт, а его статус будет врать.
+              if (typeof post.caption !== "string" || !post.caption.trim())
+                throw new Error(`${id}: нет подписи — сначала добавьте caption, потом одобряйте`);
 
               // Правим текстом, а не пересериализацией: JSON.stringify развернул бы
               // однострочные пары обратно в столбик и утопил бы правку в diff.
