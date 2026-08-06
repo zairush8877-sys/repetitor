@@ -30,9 +30,13 @@ const QUEUE = path.join(__dirname, 'content', 'queue.json');
 const OUT_DIR = path.join(__dirname, 'content', 'reels');
 
 const W = 1080, H = 1920, FPS = 30;
-const INTRO = 1.4;      // заставка, сек
-const ROW_STEP = 1.45;  // интервал между строками
-const OUTRO = 2.2;      // финальный стоп-кадр с полной таблицей
+const INTRO = 1.2;      // заставка, сек
+// Строки держат свою высоту с первого кадра, чтобы карточка не росла толчками.
+// Значит, пока таблица заполняется, под ней стоит пустое белое поле, и чем
+// дольше интервал, тем дольше эта пустота видна. 0,9 сек — предел, при котором
+// пару ещё успеваешь прочитать, а ролик заодно укладывается в 12–13 секунд.
+const ROW_STEP = 0.9;
+const OUTRO = 2.4;      // финальный стоп-кадр с полной таблицей
 
 const PALETTE = {
   bg: '#fbf8f3',
@@ -60,6 +64,7 @@ function pageHtml(post, handle) {
     : `background: ${PALETTE.bg}`;
   // Светлый фон: без затемнения, заголовок тёмный (белый бы выцвел)
   const light = !!post.lightBg;
+  const generated = !!post.generatedBg;
   const titleColor = light ? PALETTE.ink : '#fdf9f2';
   const kickerColor = light ? PALETTE.accent : 'rgba(255,244,230,.92)';
   const footColor = light ? PALETTE.muted : 'rgba(255,244,230,.85)';
@@ -88,7 +93,7 @@ function pageHtml(post, handle) {
       padding: 300px 80px 150px;
       position: relative;
     }
-    ${hasPhoto && !light ? `body::before {
+    ${hasPhoto && !light && !generated ? `body::before {
       content: ""; position: absolute; inset: 0;
       background: linear-gradient(180deg, rgba(24,18,12,.30) 0%, rgba(24,18,12,.10) 40%, rgba(24,18,12,.28) 100%);
     }` : ''}
@@ -168,7 +173,9 @@ function pageHtml(post, handle) {
         let any = false;
         document.querySelectorAll('.row').forEach((row, i) => {
           const local = t - intro - i * step;
-          row.style.display = local > 0 ? 'grid' : 'none';
+          // Строка остаётся в потоке всегда, даже невидимая: если убирать её
+          // через display:none, карточка растёт по строке за раз и дёргается
+          // под заголовком весь ролик. Видимость гасим прозрачностью.
           if (local > 0) any = true;
           const appear = easeOut(Math.min(Math.max(local / 0.3, 0), 1));
           row.style.opacity = appear;
@@ -231,6 +238,7 @@ function chooseTrack(id) {
   if (bg) {
     post.background = bg.file;
     post.lightBg = bg.light;
+    post.generatedBg = bg.generated !== false;
     console.log(`фон: ${path.basename(bg.file)} (${bg.light ? 'светлый' : 'тёмный'})`);
   }
 
