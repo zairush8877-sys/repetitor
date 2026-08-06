@@ -21,6 +21,11 @@ const { chromium } = require('playwright');
 const ffmpeg = require('ffmpeg-static');
 const FONTS = require('./fonts');
 
+// Палитра системы «Правка» (design/PHILOSOPHY.md): бумага, цвет ошибки
+// (землистый, ближе к кирпичу, чем к тревожному красному) и цвет нормы —
+// приглушённая хвоя. Больше акцентов в кадре нет.
+const PRAVKA = { err: '#8a3a24', ok: '#2f5748', ink: '#211d18', field: 'rgba(33,29,24,.10)' };
+
 const QUEUE = path.join(__dirname, 'content', 'queue.json');
 const OUT_DIR = path.join(__dirname, 'content', 'reels');
 
@@ -76,7 +81,7 @@ function pageHtml(post, handle) {
     body {
       width: ${W}px; height: ${H}px; overflow: hidden;
       ${bgCss}; color: ${PALETTE.ink};
-      font-family: ${FONTS.body()};
+      font-family: ${FONTS.serif()};
       display: flex; flex-direction: column;
       /* Сверху Instagram рисует шапку с ником, снизу — подпись и кнопки:
          контент держим внутри безопасной зоны */
@@ -89,13 +94,13 @@ function pageHtml(post, handle) {
     }` : ''}
     ${hasPhoto ? `.kicker, .title, .card, .foot { position: relative; z-index: 1 }` : ''}
     .kicker {
-      font-family: ${FONTS.head()};
-      font-size: 34px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase;
+      font-family: ${FONTS.mono()};
+      font-size: 30px; font-weight: 400; letter-spacing: .3em; text-transform: uppercase;
       color: ${hasPhoto ? kickerColor : PALETTE.accent}; margin-bottom: 40px;
       ${hasPhoto ? shadow : ''}
     }
     .title {
-      font-family: ${FONTS.head()};
+      font-family: ${FONTS.serif()};
       font-size: 86px; letter-spacing: -.01em; line-height: 1.16; font-weight: 700; margin-bottom: 64px;
       ${hasPhoto ? `color: ${titleColor}; ${light ? '' : 'text-shadow: 0 3px 22px rgba(0,0,0,.5);'}` : ''}
     }
@@ -107,26 +112,38 @@ function pageHtml(post, handle) {
     .foot { margin-top: auto }
     .head {
       display: grid; grid-template-columns: 1fr 1fr; gap: 24px;
-      font-family: ${FONTS.head()};
-      font-size: 34px; font-weight: 700;
-      padding-bottom: 20px; border-bottom: 3px solid #1f1d1a;
+      font-family: ${FONTS.mono()};
+      font-size: 26px; font-weight: 400; letter-spacing: .22em; text-transform: uppercase;
+      padding-bottom: 18px; border-bottom: 2px solid ${PRAVKA.ink};
     }
-    .head .h-bad { color: ${PALETTE.accent} }
-    .head .h-good { color: ${PALETTE.right} }
+    .head .h-bad { color: ${PRAVKA.err} }
+    .head .h-good { color: ${PRAVKA.ok} }
+    /* Крестик и галочку рисуем линиями, а не знаками: моноширинные шрифты
+       обычно не несут ✓, и он молча вырождается в латинскую «V». */
+    .head i { display: inline-block; position: relative; width: 26px; height: 26px;
+              margin-right: 16px; vertical-align: -3px }
+    .head i::before, .head i::after {
+      content: ""; position: absolute; background: currentColor; border-radius: 1px;
+    }
+    .m-x::before, .m-x::after { left: 0; top: 11px; width: 26px; height: 4px }
+    .m-x::before { transform: rotate(45deg) }
+    .m-x::after { transform: rotate(-45deg) }
+    .m-v::before { left: 1px; top: 12px; width: 13px; height: 4px; transform: rotate(45deg) }
+    .m-v::after { left: 8px; top: 9px; width: 22px; height: 4px; transform: rotate(-52deg) }
     .row {
       display: grid; grid-template-columns: 1fr 1fr; gap: 24px; align-items: baseline;
-      padding: ${rowPad}px 0; border-bottom: 1px solid #e2ddd4;
+      padding: ${rowPad}px 0; border-bottom: 1px solid ${PRAVKA.field};
       font-size: ${rowSize}px; font-weight: 700; opacity: 0;
     }
     .row:last-of-type { border-bottom: none }
-    .bad { position: relative; color: ${PALETTE.accent}; justify-self: start }
+    .bad { position: relative; color: ${PRAVKA.err}; justify-self: start }
     .strike {
       position: absolute; left: 0; top: 55%; height: 5px; width: 0%;
-      background: ${PALETTE.accent};
+      background: ${PRAVKA.err};
     }
-    .good { color: ${PALETTE.right}; opacity: 0 }
+    .good { color: ${PRAVKA.ok}; opacity: 0 }
     .foot {
-      font-family: ${FONTS.head()};
+      font-family: ${FONTS.mono()};
       font-size: 32px;
       color: ${hasPhoto ? footColor : PALETTE.muted};
       display: flex; justify-content: space-between; align-items: baseline;
@@ -137,7 +154,10 @@ function pageHtml(post, handle) {
     <div class="kicker">${esc(post.kicker || '')}</div>
     <div class="title">${esc(post.title || '').replace(/\n/g, '<br>')}</div>
     <div class="card">
-      <div class="head"><span class="h-bad">✕ Неправильно</span><span class="h-good">✓ Правильно</span></div>
+      <div class="head">
+        <span class="h-bad"><i class="m-x"></i>Неправильно</span>
+        <span class="h-good"><i class="m-v"></i>Правильно</span>
+      </div>
       ${rows}</div>
     <div class="foot"><b>@${esc(handle)}</b><span>подготовка к ЕГЭ и ОГЭ</span></div>
     <script>
