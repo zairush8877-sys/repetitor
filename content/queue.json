@@ -54,7 +54,14 @@
         "#задание5",
         "#паронимы"
       ],
-      "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-08-10-ege-paronimy.mp4"
+      "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-08-10-ege-paronimy.mp4",
+      "background": "content/bg/fon-bukvy.jpg",
+      "lightBg": true,
+      "music": {
+        "composer": "Эдвард Григ",
+        "piece": "«В пещере горного короля»",
+        "license": "Public domain"
+      }
     },
     {
       "id": "2026-08-24-ege-pleonazm",
@@ -109,7 +116,14 @@
         "#лексическиенормы",
         "#репетиторпорусскому"
       ],
-      "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-08-24-ege-pleonazm.mp4"
+      "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-08-24-ege-pleonazm.mp4",
+      "background": "content/bg/foto-mashinka.jpg",
+      "lightBg": false,
+      "music": {
+        "composer": "Рихард Вагнер",
+        "piece": "«Полёт валькирий»",
+        "license": "Public domain"
+      }
     },
     {
       "id": "2026-08-17-ege-zadanie7",
@@ -159,7 +173,14 @@
         "#егэрусский",
         "#грамматическиеошибки"
       ],
-      "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-08-17-ege-zadanie7.mp4"
+      "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-08-17-ege-zadanie7.mp4",
+      "background": "content/bg/fon-desk.jpg",
+      "lightBg": true,
+      "music": {
+        "composer": "Людвиг ван Бетховен",
+        "piece": "Пятая симфония",
+        "license": "Public domain"
+      }
     },
     {
       "id": "2026-08-13-oge-ustnoe",
@@ -545,7 +566,14 @@
           "юный"
         ]
       ],
-      "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/-/main/content/reels/2026-08-11-dvoinye.mp4"
+      "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/-/main/content/reels/2026-08-11-dvoinye.mp4",
+      "background": "content/bg/fon-interior.jpg",
+      "lightBg": true,
+      "music": {
+        "composer": "Людвиг ван Бетховен",
+        "piece": "Пятая симфония",
+        "license": "Public domain"
+      }
     },
     {
       "id": "2026-08-10-slitno",
@@ -669,7 +697,14 @@
           "уделить внимание деталям"
         ]
       ],
-      "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/-/main/content/reels/2026-08-09-rabota.mp4"
+      "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/-/main/content/reels/2026-08-09-rabota.mp4",
+      "background": "content/bg/foto-okno.jpg",
+      "lightBg": false,
+      "music": {
+        "composer": "Людвиг ван Бетховен",
+        "piece": "Пятая симфония",
+        "license": "Public domain"
+      }
     },
     {
       "id": "2026-08-08-netslov",
@@ -793,7 +828,14 @@
           "отряд солдат"
         ]
       ],
-      "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/-/main/content/reels/2026-08-07-rodpadezh.mp4"
+      "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/-/main/content/reels/2026-08-07-rodpadezh.mp4",
+      "background": "content/bg/fon-kletka.jpg",
+      "lightBg": true,
+      "music": {
+        "composer": "Модест Мусоргский",
+        "piece": "«Ночь на Лысой горе»",
+        "license": "Public domain"
+      }
     },
     {
       "id": "2026-08-05-udareniya-reels",

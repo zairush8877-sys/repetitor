@@ -136,7 +136,12 @@ async function waitReady(containerId, label, tries = 30) {
 
 function fullCaption(post) {
   const tags = (post.hashtags || []).join(' ');
-  return tags ? `${post.caption}\n\n${tags}` : post.caption;
+  // Правило автора: композитор указывается всегда. Поле music пишет рендер —
+  // это именно та запись, что вшита в видео.
+  const music = post.music && post.music.composer
+    ? `♪ ${post.music.composer} — ${post.music.piece}`
+    : '';
+  return [post.caption, music, tags].filter(Boolean).join('\n\n');
 }
 
 /**

@@ -124,7 +124,17 @@ const DARK = new Set(['sliva']);
   await browser.close();
 
   // Снятые вручную фоны-фотографии рендер тоже должен видеть в ротации.
-  const PHOTO = { 'fon-mint.jpg': true, 'fon-desk.jpg': true, 'fon-interior.jpg': true };
+  // foto-* — библиотека автора («тёмная академия», август 2026): значение —
+  // светлый ли фон, от него цвет заголовка; тёмным фотографиям рендер
+  // добавляет затемняющую плёнку под светлый текст.
+  const PHOTO = {
+    'fon-mint.jpg': true, 'fon-desk.jpg': true, 'fon-interior.jpg': true,
+    'foto-shkaf.jpg': true, 'foto-kabinet.jpg': false, 'foto-polo.jpg': true,
+    'foto-kolonny.jpg': true, 'foto-polka.jpg': true, 'foto-shahmaty.jpg': false,
+    'foto-lavka.jpg': false, 'foto-arka.jpg': false, 'foto-chehov.jpg': true,
+    'foto-mashinka.jpg': false, 'foto-okno.jpg': false, 'foto-figury.jpg': true,
+    'foto-keramika.jpg': true,
+  };
   for (const [f, light] of Object.entries(PHOTO)) {
     if (fs.existsSync(path.join(OUT, f))) made.push({ file: `content/bg/${f}`, light, generated: false });
   }

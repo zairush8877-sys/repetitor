@@ -308,8 +308,23 @@ const ROTATION = require('./rotation');
     out,
   ], { stdio: ['ignore', 'ignore', 'inherit'] });
 
-  if (track) console.log(`музыка: ${track.title} (${track.license})`);
+  if (track) console.log(`музыка: ${track.composer || '?'} — ${track.piece || track.title} (${track.license})`);
   else console.log('музыка: библиотека пуста, дорожка тихая — запустите node fetch-music.js');
+
+  // Выбор фона и музыки записывается в очередь: подпись обязана называть
+  // композитора именно той записи, что вшита в видео, — если публикация будет
+  // выводить его заново из ротации, любое изменение библиотеки между рендером
+  // и публикацией подпишет ролик чужой пьесой.
+  {
+    const fresh = JSON.parse(fs.readFileSync(QUEUE, 'utf8'));
+    const qp = fresh.posts.find(p => p.id === id);
+    if (qp) {
+      qp.background = post.background;
+      qp.lightBg = post.lightBg;
+      if (track) qp.music = { composer: track.composer || '', piece: track.piece || track.title, license: track.license };
+      fs.writeFileSync(QUEUE, JSON.stringify(fresh, null, 2) + '\n');
+    }
+  }
 
   fs.rmSync(tmp, { recursive: true, force: true });
   const mb = (fs.statSync(out).size / 1024 / 1024).toFixed(1);

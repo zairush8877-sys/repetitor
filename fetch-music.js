@@ -23,17 +23,26 @@ const DIR = path.join(__dirname, 'content', 'music');
 const INDEX = path.join(DIR, 'index.json');
 const API = 'https://commons.wikimedia.org/w/api.php';
 
-// Спокойное фортепиано и струнные: под таблицу, которую читают, а не смотрят.
-// Ударные и духовые сюда не берём — они перетягивают внимание с текста.
+// Правило автора: музыка всегда бодрящая и эпичная — ноктюрны под таблицу
+// усыпляли ленту. Берём хрестоматийные кульминации: их энергия совпадает
+// с механикой ролика, где строки бьют одна за другой.
+// Композитор и русское название пьесы едут с каждым файлом дальше —
+// второе правило автора: композитор указывается всегда.
 const QUERIES = [
-  'filetype:audio Chopin nocturne piano',
-  'filetype:audio Satie Gymnopedie',
-  'filetype:audio Debussy piano',
-  'filetype:audio Bach prelude harpsichord',
-  'filetype:audio Schumann piano',
-  'filetype:audio Grieg lyric pieces',
-  'filetype:audio Tchaikovsky seasons piano',
-  'filetype:audio Beethoven sonata piano',
+  { q: 'filetype:audio Grieg In the Hall of the Mountain King', composer: 'Эдвард Григ', piece: '«В пещере горного короля»' },
+  { q: 'filetype:audio Mussorgsky Night on Bald Mountain', composer: 'Модест Мусоргский', piece: '«Ночь на Лысой горе»' },
+  { q: 'filetype:audio Mussorgsky Pictures Exhibition Great Gate', composer: 'Модест Мусоргский', piece: '«Богатырские ворота»' },
+  { q: 'filetype:audio Rossini William Tell Overture', composer: 'Джоаккино Россини', piece: 'увертюра к «Вильгельму Теллю»' },
+  { q: 'filetype:audio Beethoven Symphony No. 5 c minor Allegro', composer: 'Людвиг ван Бетховен', piece: 'Пятая симфония' },
+  { q: 'filetype:audio Beethoven Symphony No. 7 finale', composer: 'Людвиг ван Бетховен', piece: 'Седьмая симфония, финал' },
+  { q: 'filetype:audio Bizet Carmen Overture', composer: 'Жорж Бизе', piece: 'увертюра к «Кармен»' },
+  { q: 'filetype:audio Wagner Ride of the Valkyries', composer: 'Рихард Вагнер', piece: '«Полёт валькирий»' },
+  { q: 'filetype:audio Tchaikovsky 1812 Overture', composer: 'Пётр Чайковский', piece: 'увертюра «1812 год»' },
+  { q: 'filetype:audio Brahms Hungarian Dance No. 5', composer: 'Иоганнес Брамс', piece: 'Венгерский танец № 5' },
+  { q: 'filetype:audio Vivaldi Summer Presto storm', composer: 'Антонио Вивальди', piece: '«Гроза» из «Времён года»' },
+  { q: 'filetype:audio Dvorak Symphony No. 9 New World', composer: 'Антонин Дворжак', piece: 'симфония «Из Нового Света»' },
+  { q: 'filetype:audio Verdi Dies irae Requiem', composer: 'Джузеппе Верди', piece: '«Dies irae» из Реквиема' },
+  { q: 'filetype:audio Mozart Symphony No. 40 g minor Molto allegro', composer: 'Вольфганг Амадей Моцарт', piece: 'Сороковая симфония' },
 ];
 
 // «Public domain» бывает записан по-разному, поэтому сверяем по подстроке.
@@ -46,10 +55,22 @@ function allowedLicense(name) {
   return ALLOWED.some(re => re.test(name));
 }
 
-function api(params) {
+const sleep = ms => new Promise(r => setTimeout(r, ms));
+
+/** Викисклад режет частые запросы — при отказе ждём и пробуем ещё дважды. */
+async function api(params) {
   const q = new URLSearchParams({ format: 'json', ...params }).toString();
-  const out = execFileSync('curl', ['-sS', '--max-time', '60', `${API}?${q}`], { encoding: 'utf8' });
-  return JSON.parse(out);
+  for (let attempt = 0; ; attempt++) {
+    const out = execFileSync('curl', ['-sS', '--max-time', '60',
+      '-A', 'repetitor-content-bot/1.0 (zairush8877@gmail.com)',
+      `${API}?${q}`], { encoding: 'utf8' });
+    try {
+      return JSON.parse(out);
+    } catch {
+      if (attempt >= 2) throw new Error(`API Викисклада не отвечает: ${out.slice(0, 80)}`);
+      await sleep(15000 * (attempt + 1));
+    }
+  }
 }
 
 function slugify(title) {
@@ -176,13 +197,16 @@ function prepare(index) {
   }
 
   const have = new Set(index.tracks.map(t => t.title));
+  const covered = new Set(index.tracks.map(t => t.piece).filter(Boolean));
 
-  for (const srsearch of QUERIES) {
-    const found = api({ action: 'query', list: 'search', srsearch, srnamespace: '6', srlimit: '10' });
+  for (const { q: srsearch, composer, piece } of QUERIES) {
+    if (covered.has(piece)) continue;
+    await sleep(4000); // пауза между пьесами, чтобы не упереться в лимит частоты
+    const found = await api({ action: 'query', list: 'search', srsearch, srnamespace: '6', srlimit: '10' });
     const titles = (found.query?.search || []).map(r => r.title).filter(t => !have.has(t));
     if (!titles.length) continue;
 
-    const info = api({
+    const info = await api({
       action: 'query', prop: 'imageinfo', iiprop: 'url|extmetadata|size',
       titles: titles.join('|'),
     });
@@ -217,6 +241,8 @@ function prepare(index) {
       index.tracks.push({
         file,
         title: page.title.replace(/^File:/, ''),
+        composer,
+        piece,
         license,
         author: plain(em.Artist?.value).slice(0, 120),
         source: `https://commons.wikimedia.org/wiki/${encodeURIComponent(page.title)}`,
@@ -224,7 +250,9 @@ function prepare(index) {
         attributionRequired: /^cc by/i.test(license),
       });
       have.add(page.title);
-      console.log(`${license.padEnd(16)} ${file}`);
+      covered.add(piece);
+      console.log(`${license.padEnd(16)} ${composer} — ${file}`);
+      break; // одной записи пьесы достаточно
     }
   }
 
