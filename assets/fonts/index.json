@@ -41,6 +41,41 @@
       "weight": 600,
       "file": "caveat-600.woff2",
       "format": "woff2"
+    },
+    {
+      "family": "IBM Plex Serif",
+      "weight": 400,
+      "file": "IBMPlexSerif-Regular.ttf",
+      "format": "ttf",
+      "style": "normal"
+    },
+    {
+      "family": "IBM Plex Serif",
+      "weight": 700,
+      "file": "IBMPlexSerif-Bold.ttf",
+      "format": "ttf",
+      "style": "normal"
+    },
+    {
+      "family": "IBM Plex Serif",
+      "weight": 400,
+      "file": "IBMPlexSerif-Italic.ttf",
+      "format": "ttf",
+      "style": "italic"
+    },
+    {
+      "family": "IBM Plex Mono",
+      "weight": 400,
+      "file": "IBMPlexMono-Regular.ttf",
+      "format": "ttf",
+      "style": "normal"
+    },
+    {
+      "family": "IBM Plex Mono",
+      "weight": 700,
+      "file": "IBMPlexMono-Bold.ttf",
+      "format": "ttf",
+      "style": "normal"
     }
   ],
   "license": "SIL Open Font License 1.1"
