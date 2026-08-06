@@ -67,12 +67,27 @@ function assetUrl(u) {
 const EGE_RUBRIC = 'Разбор задания';
 const EGE_WEEKDAY = 1; // понедельник
 
+/** Дата по Москве в виде ГГГГ-ММ-ДД — раннер живёт в UTC, а расписание московское. */
+function moscowDate(d = new Date()) {
+  return d.toLocaleDateString('en-CA', { timeZone: 'Europe/Moscow' });
+}
+
 /** День недели по Москве — раннер живёт в UTC, а расписание у нас московское. */
 function moscowWeekday() {
   const s = new Date().toLocaleDateString('en-US', {
     timeZone: 'Europe/Moscow', weekday: 'short',
   });
   return ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'].indexOf(s);
+}
+
+/**
+ * Публикацию можно выпустить и руками — тогда ежедневный запуск по расписанию
+ * добавит к ней вторую, и обе выйдут в один вечер с разницей в полчаса. Режим
+ * «одна публикация в день» должен считать все публикации дня, а не только свои.
+ */
+function publishedToday(posts) {
+  const today = moscowDate();
+  return posts.find(p => p.publishedAt && moscowDate(new Date(p.publishedAt)) === today);
 }
 
 /**
@@ -192,6 +207,15 @@ async function showRecent(limit = 8) {
   if (checkOnly) return;
 
   const queue = JSON.parse(fs.readFileSync(QUEUE, 'utf8'));
+
+  if (onlyOne && !onlyId) {
+    const already = publishedToday(queue.posts);
+    if (already) {
+      console.log(`Сегодня уже вышла публикация «${already.id}» — вторая за день не нужна.`);
+      return;
+    }
+  }
+
   const approved = queue.posts.filter(p =>
     onlyId ? p.id === onlyId : p.status === 'approved');
 
