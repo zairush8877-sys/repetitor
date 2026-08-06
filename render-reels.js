@@ -52,7 +52,7 @@ const esc = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(
 function pageHtml(post, handle) {
   const rows = post.rows.map(([bad, good], i) => `
     <div class="row" id="row${i}">
-      <span class="bad"><span class="badtext">${esc(bad)}</span><span class="strike"></span></span>
+      <span class="bad"><span class="badtext">${esc(bad)}</span><span class="badstrike" aria-hidden="true">${esc(bad)}</span></span>
       <span class="good">${esc(good)}</span>
     </div>`).join('');
 
@@ -143,9 +143,17 @@ function pageHtml(post, handle) {
     }
     .row:last-of-type { border-bottom: none }
     .bad { position: relative; color: ${PRAVKA.err}; justify-self: start }
-    .strike {
-      position: absolute; left: 0; top: 55%; height: 5px; width: 0%;
-      background: ${PRAVKA.err};
+    /* Зачёркивание — не полоса поверх блока, а вторая копия текста с настоящим
+       line-through: полоса умела пересечь только одну строку, и на паре,
+       перенёсшейся на две, первая выглядела подчёркнутой, а вторая оставалась
+       нетронутой. Копия переносится так же, как оригинал, поэтому черта идёт
+       по каждой строке; появление слева направо даёт clip-path. */
+    .badstrike {
+      position: absolute; inset: 0; color: transparent;
+      text-decoration: line-through;
+      text-decoration-color: ${PRAVKA.err};
+      text-decoration-thickness: ${Math.max(3, Math.round(rowSize * 0.1))}px;
+      clip-path: inset(-10% 100% -10% 0);
     }
     .good { color: ${PRAVKA.ok}; opacity: 0 }
     .foot {
@@ -178,8 +186,9 @@ function pageHtml(post, handle) {
           const appear = easeOut(Math.min(Math.max(local / 0.3, 0), 1));
           row.style.opacity = appear;
           row.style.transform = 'translateY(' + (1 - appear) * 26 + 'px)';
-          const strike = Math.min(Math.max((local - 0.32) / 0.26, 0), 1);
-          row.querySelector('.strike').style.width = easeOut(strike) * 100 + '%';
+          const strike = easeOut(Math.min(Math.max((local - 0.32) / 0.26, 0), 1));
+          row.querySelector('.badstrike').style.clipPath =
+            'inset(-10% ' + (1 - strike) * 100 + '% -10% 0)';
           const good = easeOut(Math.min(Math.max((local - 0.5) / 0.28, 0), 1));
           const g = row.querySelector('.good');
           g.style.opacity = good;
