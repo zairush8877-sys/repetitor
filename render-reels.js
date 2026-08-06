@@ -31,11 +31,12 @@ const OUT_DIR = path.join(__dirname, 'content', 'reels');
 
 const W = 1080, H = 1920, FPS = 30;
 const INTRO = 1.2;      // заставка, сек
-// Строки держат свою высоту с первого кадра, чтобы карточка не росла толчками.
-// Значит, пока таблица заполняется, под ней стоит пустое белое поле, и чем
-// дольше интервал, тем дольше эта пустота видна. 0,9 сек — предел, при котором
-// пару ещё успеваешь прочитать, а ролик заодно укладывается в 12–13 секунд.
-const ROW_STEP = 0.9;
+// Анимация строки занимает 0,78 сек (появление → зачёркивание → правильный
+// вариант); остаток шага — время, когда готовую пару можно спокойно прочитать.
+// Шаг 0,9 давал ноль такого времени: следующая строка трогалась в тот же кадр,
+// когда предыдущая договаривала. Длительность ролика считается от числа пар:
+// INTRO + rows × ROW_STEP + OUTRO.
+const ROW_STEP = 1.15;
 const OUTRO = 2.4;      // финальный стоп-кадр с полной таблицей
 
 const PALETTE = {
@@ -168,78 +169,63 @@ function pageHtml(post, handle) {
     <script>
       const easeOut = x => 1 - Math.pow(1 - x, 3);
       // Фаза внутри строки: появление ошибки → зачёркивание → правильный вариант.
-      // Строки до своего времени скрыты совсем — карточка растёт с каждой новой.
+      // Строки всегда в потоке (иначе карточка меняет размер толчками), видимость
+      // гасится прозрачностью, а высота карточки следует за появлением строк —
+      // без этого она либо прыгает, либо стоит пустым белым полем на весь ролик.
       window.seek = (t, intro, step) => {
-        let any = false;
         document.querySelectorAll('.row').forEach((row, i) => {
           const local = t - intro - i * step;
-          // Строка остаётся в потоке всегда, даже невидимая: если убирать её
-          // через display:none, карточка растёт по строке за раз и дёргается
-          // под заголовком весь ролик. Видимость гасим прозрачностью.
-          if (local > 0) any = true;
           const appear = easeOut(Math.min(Math.max(local / 0.3, 0), 1));
           row.style.opacity = appear;
           row.style.transform = 'translateY(' + (1 - appear) * 26 + 'px)';
-          const strike = Math.min(Math.max((local - 0.32) / 0.3, 0), 1);
+          const strike = Math.min(Math.max((local - 0.32) / 0.26, 0), 1);
           row.querySelector('.strike').style.width = easeOut(strike) * 100 + '%';
-          const good = easeOut(Math.min(Math.max((local - 0.55) / 0.35, 0), 1));
+          const good = easeOut(Math.min(Math.max((local - 0.5) / 0.28, 0), 1));
           const g = row.querySelector('.good');
           g.style.opacity = good;
           g.style.transform = 'translateX(' + (1 - good) * 22 + 'px)';
         });
         const card = document.querySelector('.card');
-        if (card) card.style.opacity = any ? 1 : 0;
+        if (!card) return;
+        // Карточка входит мягко, чуть раньше первой строки, — а не вспыхивает
+        // целиком в один кадр.
+        card.style.opacity = easeOut(Math.min(Math.max((t - (intro - 0.4)) / 0.35, 0), 1));
+        const geom = window.__geom;
+        if (geom) {
+          let h = geom.headBottom;
+          for (let i = 0; i < geom.rows.length; i++) {
+            const local = t - intro - i * step;
+            const a = easeOut(Math.min(Math.max(local / 0.3, 0), 1));
+            if (a <= 0) break;
+            const prev = i === 0 ? geom.headBottom : geom.rows[i - 1];
+            h = prev + (geom.rows[i] - prev) * a;
+          }
+          card.style.height = h + 'px';
+          card.style.overflow = 'hidden';
+        }
       };
     </script>
   </body></html>`;
 }
 
-/**
- * Ротация по id: если фон и трек выбирать случайно, один и тот же пост при
- * повторном рендере выйдет другим, а лента станет пёстрой без всякой системы.
- * Хеш от id даёт разброс между постами и постоянство внутри поста.
- */
-function hash(s) {
-  let h = 0;
-  for (const ch of String(s)) h = (h * 31 + ch.codePointAt(0)) >>> 0;
-  return h;
-}
-
-function pickFrom(list, id, salt) {
-  return list[hash(id + salt) % list.length];
-}
-
-/** Фон берётся из ротации, если у поста не задан свой. */
-function chooseBackground(post) {
-  if (post.background) return { file: post.background, light: !!post.lightBg };
-  const idx = path.join(__dirname, 'content', 'bg', 'index.json');
-  if (!fs.existsSync(idx)) return null;
-  const list = JSON.parse(fs.readFileSync(idx, 'utf8')).backgrounds || [];
-  return list.length ? pickFrom(list, post.id, 'bg') : null;
-}
-
-/** Фрагмент классики из библиотеки: у каждого поста свой, но всегда один и тот же. */
-function chooseTrack(id) {
-  const idx = path.join(__dirname, 'content', 'music', 'index.json');
-  if (!fs.existsSync(idx)) return null;
-  const list = (JSON.parse(fs.readFileSync(idx, 'utf8')).tracks || [])
-    .filter(t => fs.existsSync(path.join(__dirname, 'content', 'music', t.file)));
-  return list.length ? pickFrom(list, id, 'music') : null;
-}
+const ROTATION = require('./rotation');
 
 (async () => {
   const queue = JSON.parse(fs.readFileSync(QUEUE, 'utf8'));
   const id = process.argv[2];
   const post = queue.posts.find(p => p.id === id);
   if (!post) { console.error(`Пост «${id}» не найден в очереди.`); process.exit(1); }
-  if (!post.rows) { console.error(`У поста «${id}» нет поля rows — нечего анимировать.`); process.exit(1); }
+  if (!post.rows || !post.rows.length) { console.error(`У поста «${id}» нет пар в rows — нечего анимировать.`); process.exit(1); }
+  // Лестница кеглей рассчитана до десяти пар; дальше таблица уезжает за кадр,
+  // и заметно это станет только в готовом ролике.
+  if (post.rows.length > 10) { console.error(`У поста «${id}» ${post.rows.length} пар — больше десяти в кадр не помещается.`); process.exit(1); }
 
-  const bg = chooseBackground(post);
+  const bg = ROTATION.chooseBackground(post);
   if (bg) {
     post.background = bg.file;
     post.lightBg = bg.light;
-    post.generatedBg = bg.generated !== false;
-    console.log(`фон: ${path.basename(bg.file)} (${bg.light ? 'светлый' : 'тёмный'})`);
+    post.generatedBg = bg.generated;
+    console.log(`фон: ${path.basename(bg.file)} (${bg.light ? 'светлый' : 'тёмный'}, ${bg.generated ? 'код' : 'фото'})`);
   }
 
   const total = INTRO + post.rows.length * ROW_STEP + OUTRO;
@@ -251,6 +237,20 @@ function chooseTrack(id) {
     fs.existsSync(preinstalled) ? { executablePath: preinstalled } : {});
   const page = await browser.newPage({ viewport: { width: W, height: H }, deviceScaleFactor: 1 });
   await page.setContent(pageHtml(post, queue.account));
+
+  // Геометрия карточки снимается один раз, пока все строки стоят в потоке
+  // с естественной высотой, — по ней seek() и ведёт рост карточки.
+  const geom = await page.evaluate(() => {
+    const card = document.querySelector('.card');
+    const top = card.getBoundingClientRect().top;
+    const padBottom = parseFloat(getComputedStyle(card).paddingBottom) || 0;
+    return {
+      headBottom: document.querySelector('.head').getBoundingClientRect().bottom - top + padBottom,
+      rows: [...document.querySelectorAll('.row')].map(r =>
+        r.getBoundingClientRect().bottom - top + padBottom),
+    };
+  });
+  await page.evaluate(g => { window.__geom = g; }, geom);
 
   // --frame: только финальный кадр (быстрое превью, без сборки видео)
   if (process.argv.includes('--frame')) {
@@ -279,7 +279,7 @@ function chooseTrack(id) {
 
   // Без музыки ролик в ленте звучит как сбой звука, поэтому дорожка обязательна.
   // Если библиотека пуста, кладём тишину — это хуже, но лучше, чем упасть.
-  const track = chooseTrack(id);
+  const track = ROTATION.chooseTrack(id);
   const audioIn = track
     ? ['-i', path.join(__dirname, 'content', 'music', track.file)]
     : ['-f', 'lavfi', '-i', 'anullsrc=channel_layout=stereo:sample_rate=44100'];

@@ -45,8 +45,11 @@ jobs:
             ${{ inputs.dry_run && '--dry-run' || '' }} \
             ${{ inputs.post_id }}
 
+      # always(): если публикация упала на середине списка, уже вышедшие посты
+      # всё равно должны получить статус published — иначе следующий запуск
+      # выпустит их в ленту второй раз.
       - name: Записать статусы обратно в репозиторий
-        if: ${{ !inputs.dry_run }}
+        if: ${{ always() && !inputs.dry_run }}
         run: |
           if git diff --quiet content/queue.json; then
             echo "Очередь не изменилась — публиковать было нечего."

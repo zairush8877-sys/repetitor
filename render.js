@@ -93,17 +93,14 @@ function frame({ body, kicker, bg, fg, accentColor, kickerColor, dotBg, dotOn, i
  * Задаётся полем rows: [["Ложат", "Кладут"], ...]
  */
 /**
- * Тот же список фонов, что и у Reels: лента должна выглядеть одним аккаунтом,
- * а не двумя. Хеш от id даёт разброс между постами и постоянство внутри поста.
+ * Фон из общей ротации (rotation.js) — тот же выбор, что и у Reels того же
+ * поста: лента должна выглядеть одним аккаунтом, а не двумя.
  */
+const ROTATION = require('./rotation');
+
 function chooseBackground(id) {
-  const idx = path.join(__dirname, 'content', 'bg', 'index.json');
-  if (!fs.existsSync(idx)) return null;
-  const list = JSON.parse(fs.readFileSync(idx, 'utf8')).backgrounds || [];
-  if (!list.length) return null;
-  let h = 0;
-  for (const ch of String(id)) h = (h * 31 + ch.codePointAt(0)) >>> 0;
-  const bg = list[h % list.length];
+  const bg = ROTATION.chooseBackground({ id });
+  if (!bg) return null;
   const file = path.join(__dirname, bg.file);
   if (!fs.existsSync(file)) return null;
   return { ...bg, dataUri: `data:image/jpeg;base64,${fs.readFileSync(file).toString('base64')}` };

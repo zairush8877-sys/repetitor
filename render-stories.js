@@ -35,20 +35,10 @@ const W = 1080, H = 1920;
 // с объяснением, он длиннее.
 const HOLD = [4.5, 7.5];
 
-/** Ротация по id: разброс между сторис и постоянство внутри одной. */
-function hash(s) {
-  let h = 0;
-  for (const ch of String(s)) h = (h * 31 + ch.codePointAt(0)) >>> 0;
-  return h;
-}
-
-function chooseTrack(id) {
-  const idx = path.join(MUSIC, 'index.json');
-  if (!fs.existsSync(idx)) return null;
-  const list = (JSON.parse(fs.readFileSync(idx, 'utf8')).tracks || [])
-    .filter(t => fs.existsSync(path.join(MUSIC, t.file)));
-  return list.length ? list[hash(id + 'story') % list.length] : null;
-}
+// Трек — из общей ротации; соль 'story' сохранена, чтобы уже собранные
+// сторис при перерендере получали ту же музыку, что и раньше.
+const ROTATION = require('./rotation');
+const chooseTrack = id => ROTATION.chooseTrack(id, 'story');
 
 /**
  * Два кадра склеиваются в ролик через concat-демуксер: последний файл в списке
