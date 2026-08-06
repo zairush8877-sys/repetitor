@@ -19,6 +19,7 @@ const os = require('os');
 const { execFileSync } = require('child_process');
 const { chromium } = require('playwright');
 const ffmpeg = require('ffmpeg-static');
+const FONTS = require('./fonts');
 
 const QUEUE = path.join(__dirname, 'content', 'queue.json');
 const OUT_DIR = path.join(__dirname, 'content', 'reels');
@@ -58,14 +59,24 @@ function pageHtml(post, handle) {
   const kickerColor = light ? PALETTE.accent : 'rgba(255,244,230,.92)';
   const footColor = light ? PALETTE.muted : 'rgba(255,244,230,.85)';
   const footBold = light ? PALETTE.ink : '#fff';
+
+  // Кегль таблицы не может быть постоянным: длинные пары переносятся на вторую
+  // строку, и при десяти парах нижняя уезжает за нижнюю границу кадра — на
+  // превью это видно, а в готовом ролике уже поздно.
+  const longest = Math.max(...post.rows.flat().map(s => s.length));
+  const rowSize = post.rows.length >= 9 || longest > 18
+    ? (post.rows.length >= 10 && longest > 18 ? 34 : 39)
+    : 46;
+  const rowPad = rowSize >= 46 ? 21 : rowSize >= 39 ? 15 : 11;
   const shadow = light ? '' : 'text-shadow: 0 2px 14px rgba(0,0,0,.45);';
 
   return `<!doctype html><html lang="ru"><head><meta charset="utf-8"><style>
+    ${FONTS.fontFaceCss()}
     * { box-sizing: border-box; margin: 0; padding: 0 }
     body {
       width: ${W}px; height: ${H}px; overflow: hidden;
       ${bgCss}; color: ${PALETTE.ink};
-      font-family: Georgia, "Times New Roman", serif;
+      font-family: ${FONTS.body()};
       display: flex; flex-direction: column;
       /* Сверху Instagram рисует шапку с ником, снизу — подпись и кнопки:
          контент держим внутри безопасной зоны */
@@ -78,13 +89,14 @@ function pageHtml(post, handle) {
     }` : ''}
     ${hasPhoto ? `.kicker, .title, .card, .foot { position: relative; z-index: 1 }` : ''}
     .kicker {
-      font-family: -apple-system, "Segoe UI", Roboto, sans-serif;
+      font-family: ${FONTS.head()};
       font-size: 34px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase;
       color: ${hasPhoto ? kickerColor : PALETTE.accent}; margin-bottom: 40px;
       ${hasPhoto ? shadow : ''}
     }
     .title {
-      font-size: 86px; line-height: 1.16; font-weight: 700; margin-bottom: 64px;
+      font-family: ${FONTS.head()};
+      font-size: 86px; letter-spacing: -.01em; line-height: 1.16; font-weight: 700; margin-bottom: 64px;
       ${hasPhoto ? `color: ${titleColor}; ${light ? '' : 'text-shadow: 0 3px 22px rgba(0,0,0,.5);'}` : ''}
     }
     .card {
@@ -95,7 +107,7 @@ function pageHtml(post, handle) {
     .foot { margin-top: auto }
     .head {
       display: grid; grid-template-columns: 1fr 1fr; gap: 24px;
-      font-family: -apple-system, "Segoe UI", Roboto, sans-serif;
+      font-family: ${FONTS.head()};
       font-size: 34px; font-weight: 700;
       padding-bottom: 20px; border-bottom: 3px solid #1f1d1a;
     }
@@ -103,8 +115,8 @@ function pageHtml(post, handle) {
     .head .h-good { color: ${PALETTE.right} }
     .row {
       display: grid; grid-template-columns: 1fr 1fr; gap: 24px; align-items: baseline;
-      padding: 21px 0; border-bottom: 1px solid #e2ddd4;
-      font-size: 46px; font-weight: 700; opacity: 0;
+      padding: ${rowPad}px 0; border-bottom: 1px solid #e2ddd4;
+      font-size: ${rowSize}px; font-weight: 700; opacity: 0;
     }
     .row:last-of-type { border-bottom: none }
     .bad { position: relative; color: ${PALETTE.accent}; justify-self: start }
@@ -114,7 +126,7 @@ function pageHtml(post, handle) {
     }
     .good { color: ${PALETTE.right}; opacity: 0 }
     .foot {
-      font-family: -apple-system, "Segoe UI", Roboto, sans-serif;
+      font-family: ${FONTS.head()};
       font-size: 32px;
       color: ${hasPhoto ? footColor : PALETTE.muted};
       display: flex; justify-content: space-between; align-items: baseline;
@@ -155,12 +167,52 @@ function pageHtml(post, handle) {
   </body></html>`;
 }
 
+/**
+ * Ротация по id: если фон и трек выбирать случайно, один и тот же пост при
+ * повторном рендере выйдет другим, а лента станет пёстрой без всякой системы.
+ * Хеш от id даёт разброс между постами и постоянство внутри поста.
+ */
+function hash(s) {
+  let h = 0;
+  for (const ch of String(s)) h = (h * 31 + ch.codePointAt(0)) >>> 0;
+  return h;
+}
+
+function pickFrom(list, id, salt) {
+  return list[hash(id + salt) % list.length];
+}
+
+/** Фон берётся из ротации, если у поста не задан свой. */
+function chooseBackground(post) {
+  if (post.background) return { file: post.background, light: !!post.lightBg };
+  const idx = path.join(__dirname, 'content', 'bg', 'index.json');
+  if (!fs.existsSync(idx)) return null;
+  const list = JSON.parse(fs.readFileSync(idx, 'utf8')).backgrounds || [];
+  return list.length ? pickFrom(list, post.id, 'bg') : null;
+}
+
+/** Фрагмент классики из библиотеки: у каждого поста свой, но всегда один и тот же. */
+function chooseTrack(id) {
+  const idx = path.join(__dirname, 'content', 'music', 'index.json');
+  if (!fs.existsSync(idx)) return null;
+  const list = (JSON.parse(fs.readFileSync(idx, 'utf8')).tracks || [])
+    .filter(t => fs.existsSync(path.join(__dirname, 'content', 'music', t.file)));
+  return list.length ? pickFrom(list, id, 'music') : null;
+}
+
 (async () => {
   const queue = JSON.parse(fs.readFileSync(QUEUE, 'utf8'));
   const id = process.argv[2];
   const post = queue.posts.find(p => p.id === id);
   if (!post) { console.error(`Пост «${id}» не найден в очереди.`); process.exit(1); }
   if (!post.rows) { console.error(`У поста «${id}» нет поля rows — нечего анимировать.`); process.exit(1); }
+
+  const bg = chooseBackground(post);
+  if (bg) {
+    post.background = bg.file;
+    post.lightBg = bg.light;
+    console.log(`фон: ${path.basename(bg.file)} (${bg.light ? 'светлый' : 'тёмный'})`);
+  }
 
   const total = INTRO + post.rows.length * ROW_STEP + OUTRO;
   const frames = Math.round(total * FPS);
@@ -196,16 +248,31 @@ function pageHtml(post, handle) {
 
   fs.mkdirSync(OUT_DIR, { recursive: true });
   const out = path.join(OUT_DIR, `${id}.mp4`);
+
+  // Без музыки ролик в ленте звучит как сбой звука, поэтому дорожка обязательна.
+  // Если библиотека пуста, кладём тишину — это хуже, но лучше, чем упасть.
+  const track = chooseTrack(id);
+  const audioIn = track
+    ? ['-i', path.join(__dirname, 'content', 'music', track.file)]
+    : ['-f', 'lavfi', '-i', 'anullsrc=channel_layout=stereo:sample_rate=44100'];
+
+  // Обрыв на полуслове слышен как брак, поэтому в конце уводим громкость.
+  const fade = `afade=t=in:st=0:d=0.8,afade=t=out:st=${Math.max(0, total - 1.2).toFixed(2)}:d=1.2`;
+
   execFileSync(ffmpeg, [
     '-y',
     '-framerate', String(FPS), '-i', path.join(tmp, 'f%04d.png'),
-    '-f', 'lavfi', '-i', 'anullsrc=channel_layout=stereo:sample_rate=44100',
-    '-shortest',
+    ...audioIn,
+    '-t', total.toFixed(2),
+    ...(track ? ['-af', fade] : []),
     '-c:v', 'libx264', '-preset', 'medium', '-crf', '18', '-pix_fmt', 'yuv420p',
-    '-c:a', 'aac', '-b:a', '96k',
+    '-c:a', 'aac', '-b:a', '128k',
     '-movflags', '+faststart',
     out,
   ], { stdio: ['ignore', 'ignore', 'inherit'] });
+
+  if (track) console.log(`музыка: ${track.title} (${track.license})`);
+  else console.log('музыка: библиотека пуста, дорожка тихая — запустите node fetch-music.js');
 
   fs.rmSync(tmp, { recursive: true, force: true });
   const mb = (fs.statSync(out).size / 1024 / 1024).toFixed(1);

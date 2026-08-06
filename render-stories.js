@@ -12,16 +12,80 @@
  * Интерактивные стикеры (опросы, викторины) через API недоступны, поэтому
  * викторина собирается двумя кадрами: люди отвечают в уме, а потом проверяют себя.
  *
- * Результат: content/stories/<id>-1.jpg, <id>-2.jpg
+ * Результат: content/stories/<id>-1.jpg, <id>-2.jpg и <id>.mp4 — оба кадра
+ * подряд с музыкой. Картинка в сторис выходит немой, а немая сторис в ленте
+ * читается как сбой звука, поэтому по умолчанию собирается ещё и видео.
+ * Отключается флагом --no-video, когда нужны только кадры.
  */
 
 const fs = require('fs');
 const path = require('path');
+const os = require('os');
+const { execFileSync } = require('child_process');
 const { chromium } = require('playwright');
+const ffmpeg = require('ffmpeg-static');
+const FONTS = require('./fonts');
 
 const BANK = path.join(__dirname, 'content', 'stories.json');
 const OUT = path.join(__dirname, 'content', 'stories');
+const MUSIC = path.join(__dirname, 'content', 'music');
 const W = 1080, H = 1920;
+
+// Первый кадр — вопрос, его надо успеть прочитать и подумать; второй — ответ
+// с объяснением, он длиннее.
+const HOLD = [4.5, 7.5];
+
+/** Ротация по id: разброс между сторис и постоянство внутри одной. */
+function hash(s) {
+  let h = 0;
+  for (const ch of String(s)) h = (h * 31 + ch.codePointAt(0)) >>> 0;
+  return h;
+}
+
+function chooseTrack(id) {
+  const idx = path.join(MUSIC, 'index.json');
+  if (!fs.existsSync(idx)) return null;
+  const list = (JSON.parse(fs.readFileSync(idx, 'utf8')).tracks || [])
+    .filter(t => fs.existsSync(path.join(MUSIC, t.file)));
+  return list.length ? list[hash(id + 'story') % list.length] : null;
+}
+
+/**
+ * Два кадра склеиваются в ролик через concat-демуксер: последний файл в списке
+ * повторяется намеренно — без повтора ffmpeg отбрасывает длительность
+ * последней записи и второй кадр мелькает один кадр вместо семи секунд.
+ */
+function buildVideo(id) {
+  const track = chooseTrack(id);
+  const total = HOLD[0] + HOLD[1];
+  const tmp = fs.mkdtempSync(path.join(os.tmpdir(), 'story-'));
+  const list = path.join(tmp, 'list.txt');
+  const f = i => path.join(OUT, `${id}-${i}.jpg`);
+
+  fs.writeFileSync(list,
+    `file '${f(1)}'\nduration ${HOLD[0]}\n` +
+    `file '${f(2)}'\nduration ${HOLD[1]}\n` +
+    `file '${f(2)}'\n`);
+
+  const out = path.join(OUT, `${id}.mp4`);
+  const audioIn = track
+    ? ['-i', path.join(MUSIC, track.file)]
+    : ['-f', 'lavfi', '-i', 'anullsrc=channel_layout=stereo:sample_rate=44100'];
+
+  execFileSync(ffmpeg, [
+    '-y', '-f', 'concat', '-safe', '0', '-i', list,
+    ...audioIn,
+    '-t', total.toFixed(2),
+    ...(track ? ['-af', `afade=t=in:st=0:d=0.8,afade=t=out:st=${(total - 1.2).toFixed(2)}:d=1.2`] : []),
+    '-c:v', 'libx264', '-r', '30', '-preset', 'medium', '-crf', '20', '-pix_fmt', 'yuv420p',
+    '-c:a', 'aac', '-b:a', '128k',
+    '-movflags', '+faststart',
+    out,
+  ], { stdio: ['ignore', 'ignore', 'ignore'] });
+
+  fs.rmSync(tmp, { recursive: true, force: true });
+  return { out, track, total };
+}
 
 // Палитры чередуются по порядку — лента сторис не выглядит одинаковой изо дня в день
 const PALETTES = [
@@ -44,11 +108,12 @@ function size(text, base) {
 
 function shell(p, body, extra = '') {
   return `<!doctype html><html lang="ru"><head><meta charset="utf-8"><style>
+    ${FONTS.fontFaceCss()}
     * { box-sizing: border-box; margin: 0; padding: 0 }
     body {
       width: ${W}px; height: ${H}px; overflow: hidden;
       background: ${p.bg}; color: ${p.ink};
-      font-family: Georgia, "Times New Roman", serif;
+      font-family: ${FONTS.body()};
       display: flex; flex-direction: column; justify-content: center;
       /* Верх занимает аватар и кольцо прогресса, низ — поле «Отправить сообщение» */
       padding: 300px 90px 260px;
@@ -56,13 +121,13 @@ function shell(p, body, extra = '') {
       position: relative;
     }
     .kicker {
-      font-family: -apple-system, "Segoe UI", Roboto, sans-serif;
+      font-family: ${FONTS.head()};
       font-size: 34px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase;
       color: ${p.accent}; margin-bottom: 56px;
     }
     .foot {
       position: absolute; left: 0; right: 0; bottom: 190px;
-      font-family: -apple-system, "Segoe UI", Roboto, sans-serif;
+      font-family: ${FONTS.head()};
       font-size: 30px; color: ${p.soft};
     }
     ${extra}
@@ -87,7 +152,7 @@ function askHtml(s, p) {
     }
     .or { font-size: 40px; color: ${p.soft}; font-style: italic }
     .hint {
-      margin-top: 64px; font-family: -apple-system, "Segoe UI", Roboto, sans-serif;
+      margin-top: 64px; font-family: ${FONTS.head()};
       font-size: 32px; color: ${p.soft};
     }`);
 }
@@ -120,7 +185,7 @@ function factHtml(s, p) {
     <div class="hint">Почему — дальше</div>`, `
     .big { font-size: ${size(s.big, 130)}px; font-weight: 700; line-height: 1.12; color: ${p.accent} }
     .hint {
-      margin-top: 70px; font-family: -apple-system, "Segoe UI", Roboto, sans-serif;
+      margin-top: 70px; font-family: ${FONTS.head()};
       font-size: 32px; color: ${p.soft};
     }`);
 }
@@ -171,5 +236,13 @@ function framesFor(s, p) {
   }
 
   await browser.close();
+
+  if (!process.argv.includes('--no-video')) {
+    for (const s of targets) {
+      const { track, total } = buildVideo(s.id);
+      console.log(`${s.id}: видео ${total.toFixed(1)} сек — ${track ? track.title : 'без музыки'}`);
+    }
+  }
+
   console.log(`\nГотово: content/stories/`);
 })();
