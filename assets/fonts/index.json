@@ -1,0 +1,47 @@
+{
+  "fonts": [
+    {
+      "family": "Golos Text",
+      "weight": 500,
+      "file": "golos-500.woff2",
+      "format": "woff2"
+    },
+    {
+      "family": "Golos Text",
+      "weight": 600,
+      "file": "golos-600.woff2",
+      "format": "woff2"
+    },
+    {
+      "family": "Golos Text",
+      "weight": 700,
+      "file": "golos-700.woff2",
+      "format": "woff2"
+    },
+    {
+      "family": "Manrope",
+      "weight": 400,
+      "file": "manrope-400.woff2",
+      "format": "woff2"
+    },
+    {
+      "family": "Manrope",
+      "weight": 600,
+      "file": "manrope-600.woff2",
+      "format": "woff2"
+    },
+    {
+      "family": "Manrope",
+      "weight": 700,
+      "file": "manrope-700.woff2",
+      "format": "woff2"
+    },
+    {
+      "family": "Caveat",
+      "weight": 600,
+      "file": "caveat-600.woff2",
+      "format": "woff2"
+    }
+  ],
+  "license": "SIL Open Font License 1.1"
+}

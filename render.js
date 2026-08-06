@@ -15,6 +15,7 @@
 const fs = require('fs');
 const path = require('path');
 const { chromium } = require('playwright');
+const FONTS = require('./fonts');
 
 const QUEUE = path.join(__dirname, 'content', 'queue.json');
 
@@ -49,25 +50,26 @@ function fontSize(text) {
 /** Общая обвязка слайда: подложка, кикер, футер с ником и точками. */
 function frame({ body, kicker, bg, fg, accentColor, kickerColor, dotBg, dotOn, index, total, handle, extraCss = '' }) {
   return `<!doctype html><html lang="ru"><head><meta charset="utf-8"><style>
+    ${FONTS.fontFaceCss()}
     @page { margin: 0 }
     * { box-sizing: border-box; margin: 0; padding: 0 }
     body {
       width: ${W}px; height: ${H}px;
       background: ${bg}; color: ${fg};
-      font-family: Georgia, "Times New Roman", serif;
+      font-family: ${FONTS.body()};
       display: flex; flex-direction: column;
       padding: 90px 80px;
       position: relative; overflow: hidden;
     }
     .kicker {
-      font-family: -apple-system, "Segoe UI", Roboto, sans-serif;
+      font-family: ${FONTS.head()};
       font-size: 30px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase;
       color: ${kickerColor}; margin-bottom: 40px; min-height: 36px;
     }
     .mark { font-size: 84px; line-height: 1; margin-bottom: 32px; color: ${accentColor} }
     .foot {
       display: flex; justify-content: space-between; align-items: flex-end;
-      font-family: -apple-system, "Segoe UI", Roboto, sans-serif;
+      font-family: ${FONTS.head()};
       font-size: 26px; color: ${PALETTE.muted};
     }
     .dots { display: flex; gap: 10px; align-items: center }
@@ -90,7 +92,25 @@ function frame({ body, kicker, bg, fg, accentColor, kickerColor, dotBg, dotOn, i
  * репостами: один экран, всё видно сразу, никуда не надо листать.
  * Задаётся полем rows: [["Ложат", "Кладут"], ...]
  */
-function tableHtml(slide, index, total, handle) {
+/**
+ * Тот же список фонов, что и у Reels: лента должна выглядеть одним аккаунтом,
+ * а не двумя. Хеш от id даёт разброс между постами и постоянство внутри поста.
+ */
+function chooseBackground(id) {
+  const idx = path.join(__dirname, 'content', 'bg', 'index.json');
+  if (!fs.existsSync(idx)) return null;
+  const list = JSON.parse(fs.readFileSync(idx, 'utf8')).backgrounds || [];
+  if (!list.length) return null;
+  let h = 0;
+  for (const ch of String(id)) h = (h * 31 + ch.codePointAt(0)) >>> 0;
+  const bg = list[h % list.length];
+  const file = path.join(__dirname, bg.file);
+  if (!fs.existsSync(file)) return null;
+  return { ...bg, dataUri: `data:image/jpeg;base64,${fs.readFileSync(file).toString('base64')}` };
+}
+
+function tableHtml(slide, index, total, handle, postId) {
+  const bg = chooseBackground(postId);
   const rows = slide.rows || [];
   // Чем больше строк, тем мельче шрифт — таблица должна уместиться целиком
   const size = rows.length <= 6 ? 46 : rows.length <= 8 ? 40 : rows.length <= 10 ? 35 : 30;
@@ -104,12 +124,18 @@ function tableHtml(slide, index, total, handle) {
     </tr>`).join('')}</table>`;
 
   return frame({
-    body, kicker: slide.kicker, bg: PALETTE.bg, fg: PALETTE.ink,
+    body, kicker: slide.kicker,
+    bg: bg ? `url(${bg.dataUri}) center/cover` : PALETTE.bg,
+    fg: bg && !bg.light ? '#fff' : PALETTE.ink,
     accentColor: PALETTE.accent, kickerColor: PALETTE.accent,
     dotBg: '#ded6c8', dotOn: PALETTE.accent,
     index, total, handle,
     extraCss: `
-      .title { font-size: 44px; line-height: 1.2; font-weight: 700; margin-bottom: 36px }
+      ${bg ? `.title, table, .foot { position: relative; z-index: 1 }
+      table { background: #fffdfa; border-radius: 20px; padding: 8px 28px;
+              box-shadow: 0 18px 50px rgba(40,30,18,.22) }` : ''}
+      .title { font-size: 44px; line-height: 1.2; font-weight: 700; margin-bottom: 36px;
+               ${bg && !bg.light ? 'color: #fff; text-shadow: 0 3px 18px rgba(0,0,0,.45)' : ''} }
       table { flex: 1; width: 100%; border-collapse: collapse; font-size: ${size}px }
       td { padding: ${size > 34 ? 14 : 10}px 0; border-bottom: 1px solid #e5ded1; vertical-align: middle }
       .bad { color: ${PALETTE.accent}; text-decoration: line-through;
@@ -120,8 +146,8 @@ function tableHtml(slide, index, total, handle) {
   });
 }
 
-function slideHtml(slide, index, total, handle) {
-  if (slide.layout === 'table') return tableHtml(slide, index, total, handle);
+function slideHtml(slide, index, total, handle, postId) {
+  if (slide.layout === 'table') return tableHtml(slide, index, total, handle, postId);
   const mark = slide.mark;
   const badge =
     mark === 'wrong' ? `<div class="mark wrong">✕</div>` :
@@ -129,19 +155,20 @@ function slideHtml(slide, index, total, handle) {
   const accentColor = mark === 'right' ? PALETTE.right : PALETTE.accent;
 
   return `<!doctype html><html lang="ru"><head><meta charset="utf-8"><style>
+    ${FONTS.fontFaceCss()}
     @page { margin: 0 }
     * { box-sizing: border-box; margin: 0; padding: 0 }
     body {
       width: ${W}px; height: ${H}px;
       background: ${mark === 'cta' ? PALETTE.accent : PALETTE.bg};
       color: ${mark === 'cta' ? '#fff' : PALETTE.ink};
-      font-family: Georgia, "Times New Roman", serif;
+      font-family: ${FONTS.body()};
       display: flex; flex-direction: column;
       padding: 90px 80px;
       position: relative; overflow: hidden;
     }
     .kicker {
-      font-family: -apple-system, "Segoe UI", Roboto, sans-serif;
+      font-family: ${FONTS.head()};
       font-size: 30px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase;
       color: ${mark === 'cta' ? 'rgba(255,255,255,.75)' : accentColor};
       margin-bottom: 40px; min-height: 36px;
@@ -156,7 +183,7 @@ function slideHtml(slide, index, total, handle) {
     }
     .foot {
       display: flex; justify-content: space-between; align-items: flex-end;
-      font-family: -apple-system, "Segoe UI", Roboto, sans-serif;
+      font-family: ${FONTS.head()};
       font-size: 26px;
       color: ${mark === 'cta' ? 'rgba(255,255,255,.7)' : PALETTE.muted};
     }
@@ -217,6 +244,7 @@ function previewHtml(queue, rendered) {
   return `<!doctype html><html lang="ru"><head><meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Очередь постов — @${esc(queue.account)}</title><style>
+    ${FONTS.fontFaceCss()}
     :root {
       --ground: #eceef1;
       --card: #ffffff;
@@ -344,7 +372,7 @@ function previewHtml(queue, rendered) {
     rendered[post.id] = [];
     const total = post.slides.length;
     for (let i = 0; i < total; i++) {
-      await page.setContent(slideHtml(post.slides[i], i, total, queue.account));
+      await page.setContent(slideHtml(post.slides[i], i, total, queue.account, post.id));
       const file = path.join(IMAGES, `${post.id}-${i + 1}.jpg`);
       await page.screenshot({ path: file, type: 'jpeg', quality: 92 });
       rendered[post.id].push(file);

@@ -24,6 +24,7 @@ const os = require('os');
 const { execFileSync } = require('child_process');
 const { chromium } = require('playwright');
 const ffmpeg = require('ffmpeg-static');
+const FONTS = require('./fonts');
 
 const BANK = path.join(__dirname, 'content', 'stories.json');
 const OUT = path.join(__dirname, 'content', 'stories');
@@ -107,11 +108,12 @@ function size(text, base) {
 
 function shell(p, body, extra = '') {
   return `<!doctype html><html lang="ru"><head><meta charset="utf-8"><style>
+    ${FONTS.fontFaceCss()}
     * { box-sizing: border-box; margin: 0; padding: 0 }
     body {
       width: ${W}px; height: ${H}px; overflow: hidden;
       background: ${p.bg}; color: ${p.ink};
-      font-family: Georgia, "Times New Roman", serif;
+      font-family: ${FONTS.body()};
       display: flex; flex-direction: column; justify-content: center;
       /* Верх занимает аватар и кольцо прогресса, низ — поле «Отправить сообщение» */
       padding: 300px 90px 260px;
@@ -119,13 +121,13 @@ function shell(p, body, extra = '') {
       position: relative;
     }
     .kicker {
-      font-family: -apple-system, "Segoe UI", Roboto, sans-serif;
+      font-family: ${FONTS.head()};
       font-size: 34px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase;
       color: ${p.accent}; margin-bottom: 56px;
     }
     .foot {
       position: absolute; left: 0; right: 0; bottom: 190px;
-      font-family: -apple-system, "Segoe UI", Roboto, sans-serif;
+      font-family: ${FONTS.head()};
       font-size: 30px; color: ${p.soft};
     }
     ${extra}
@@ -150,7 +152,7 @@ function askHtml(s, p) {
     }
     .or { font-size: 40px; color: ${p.soft}; font-style: italic }
     .hint {
-      margin-top: 64px; font-family: -apple-system, "Segoe UI", Roboto, sans-serif;
+      margin-top: 64px; font-family: ${FONTS.head()};
       font-size: 32px; color: ${p.soft};
     }`);
 }
@@ -183,7 +185,7 @@ function factHtml(s, p) {
     <div class="hint">Почему — дальше</div>`, `
     .big { font-size: ${size(s.big, 130)}px; font-weight: 700; line-height: 1.12; color: ${p.accent} }
     .hint {
-      margin-top: 70px; font-family: -apple-system, "Segoe UI", Roboto, sans-serif;
+      margin-top: 70px; font-family: ${FONTS.head()};
       font-size: 32px; color: ${p.soft};
     }`);
 }
