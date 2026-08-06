@@ -96,7 +96,7 @@ function size(text, base) {
   return Math.round(base * 0.52);
 }
 
-function shell(p, body, extra = '') {
+function shell(p, body, extra = '', credit = '') {
   return `<!doctype html><html lang="ru"><head><meta charset="utf-8"><style>
     ${FONTS.fontFaceCss()}
     * { box-sizing: border-box; margin: 0; padding: 0 }
@@ -120,12 +120,21 @@ function shell(p, body, extra = '') {
       font-family: ${FONTS.head()};
       font-size: 30px; color: ${p.soft};
     }
+    /* Композитор указывается всегда; у сторис нет подписи, поэтому имя
+       живёт на самом кадре, строкой над ником. */
+    .music {
+      position: absolute; left: 0; right: 0; bottom: 244px;
+      font-family: ${FONTS.head()};
+      font-size: 26px; color: ${p.soft};
+    }
     ${extra}
-  </style></head><body>${body}<div class="foot">@mairova_a_a</div></body></html>`;
+  </style></head><body>${body}
+    ${credit ? `<div class="music">♪ ${esc(credit)}</div>` : ''}
+    <div class="foot">@mairova_a_a</div></body></html>`;
 }
 
 /** Кадр 1: вопрос с двумя вариантами — зритель отвечает про себя. */
-function askHtml(s, p) {
+function askHtml(s, p, credit) {
   return shell(p, `
     <div class="kicker">${esc(s.q)}</div>
     <div class="opts">
@@ -144,11 +153,11 @@ function askHtml(s, p) {
     .hint {
       margin-top: 64px; font-family: ${FONTS.head()};
       font-size: 32px; color: ${p.soft};
-    }`);
+    }`, credit);
 }
 
 /** Кадр 2: правильный ответ крупно + короткое объяснение. */
-function answerHtml(s, p) {
+function answerHtml(s, p, credit) {
   const right = s.right === 'a' ? s.a : s.b;
   const wrong = s.right === 'a' ? s.b : s.a;
   return shell(p, `
@@ -164,11 +173,11 @@ function answerHtml(s, p) {
       font-size: 46px; color: ${p.soft};
       text-decoration: line-through; text-decoration-thickness: 3px; margin-bottom: 70px;
     }
-    .why { font-size: 42px; line-height: 1.42; max-width: 22ch }`);
+    .why { font-size: 42px; line-height: 1.42; max-width: 22ch }`, credit);
 }
 
 /** Кадр 1 для факта: интрига без вопроса. */
-function factHtml(s, p) {
+function factHtml(s, p, credit) {
   return shell(p, `
     <div class="kicker">${esc(s.top)}</div>
     <div class="big">${nl2br(s.big)}</div>
@@ -177,20 +186,22 @@ function factHtml(s, p) {
     .hint {
       margin-top: 70px; font-family: ${FONTS.head()};
       font-size: 32px; color: ${p.soft};
-    }`);
+    }`, credit);
 }
 
-function whyHtml(s, p) {
+function whyHtml(s, p, credit) {
   return shell(p, `
     <div class="kicker">${esc(s.top)}</div>
     <div class="why">${nl2br(s.why)}</div>`, `
-    .why { font-size: 46px; line-height: 1.45; max-width: 21ch }`);
+    .why { font-size: 46px; line-height: 1.45; max-width: 21ch }`, credit);
 }
 
 function framesFor(s, p) {
+  const t = chooseTrack(s.id);
+  const credit = t && t.composer ? `${t.composer} — ${t.piece || ''}`.trim() : '';
   return s.type === 'vopros'
-    ? [askHtml(s, p), answerHtml(s, p)]
-    : [factHtml(s, p), whyHtml(s, p)];
+    ? [askHtml(s, p, credit), answerHtml(s, p, credit)]
+    : [factHtml(s, p, credit), whyHtml(s, p, credit)];
 }
 
 (async () => {

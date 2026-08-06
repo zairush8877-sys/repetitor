@@ -1,58 +1,59 @@
 {
   "tracks": [
     {
-      "file": "chopin-nocturne-op-27-no-1.mp3",
-      "title": "Chopin Nocturne Op.27 No.1.oga",
+      "file": "musopen-in-the-hall-of-the-mountain-king.mp3",
+      "title": "Musopen - In the Hall Of The Mountain King.ogg",
+      "composer": "Эдвард Григ",
+      "piece": "«В пещере горного короля»",
       "license": "Public domain",
-      "author": "Frédéric Chopin",
-      "source": "https://commons.wikimedia.org/wiki/File%3AChopin%20Nocturne%20Op.27%20No.1.oga",
+      "author": "Grieg, Edvard; Musopen Symphony Orchestra",
+      "source": "https://commons.wikimedia.org/wiki/File%3AMusopen%20-%20In%20the%20Hall%20Of%20The%20Mountain%20King.ogg",
       "attributionRequired": false,
-      "excerptFrom": 5
+      "excerptFrom": 101
     },
     {
-      "file": "chopin-nocturne-no-21-in-c-minor-b-108-diana-hughes.mp3",
-      "title": "Chopin - Nocturne No. 21 in C minor, B. 108 (Diana Hughes).flac",
+      "file": "modest-mussorgsky-night-on-bald-mountain.mp3",
+      "title": "Modest Mussorgsky - night on bald mountain.ogg",
+      "composer": "Модест Мусоргский",
+      "piece": "«Ночь на Лысой горе»",
       "license": "Public domain",
-      "author": "Frédéric Chopin",
-      "source": "https://commons.wikimedia.org/wiki/File%3AChopin%20-%20Nocturne%20No.%2021%20in%20C%20minor%2C%20B.%20108%20(Diana%20Hughes).flac",
+      "author": "Modest Petrovich Mussorgsky",
+      "source": "https://commons.wikimedia.org/wiki/File%3AModest%20Mussorgsky%20-%20night%20on%20bald%20mountain.ogg",
       "attributionRequired": false,
-      "excerptFrom": 117
+      "excerptFrom": 371
     },
     {
-      "file": "satie-gymnopedie-no-3-performed-by-michael-laucke.mp3",
-      "title": "Satie Gymnopedie No 3 performed by Michael Laucke.flac",
+      "file": "william-tell2.mp3",
+      "title": "William Tell2.ogg",
+      "composer": "Джоаккино Россини",
+      "piece": "увертюра к «Вильгельму Теллю»",
       "license": "Public domain",
-      "author": "Mlaucke",
-      "source": "https://commons.wikimedia.org/wiki/File%3ASatie%20Gymnopedie%20No%203%20performed%20by%20Michael%20Laucke.flac",
+      "author": "Sodero's Band",
+      "source": "https://commons.wikimedia.org/wiki/File%3AWilliam%20Tell2.ogg",
       "attributionRequired": false,
-      "excerptFrom": 65
+      "excerptFrom": 215
     },
     {
-      "file": "schumann-piano-sonata-no-1-in-f-sharp-minor-op-11-1-introduz.mp3",
-      "title": "Schumann; Piano Sonata No. 1 In F Sharp Minor Op.11- 1.Introduzione.ogg",
-      "license": "CC0",
-      "author": "Maurizio Pollini",
-      "source": "https://commons.wikimedia.org/wiki/File%3ASchumann%3B%20Piano%20Sonata%20No.%201%20In%20F%20Sharp%20Minor%20Op.11-%201.Introduzione.ogg",
+      "file": "ludwig-van-beethoven-symphonie-5-c-moll-1-allegro-con-brio.mp3",
+      "title": "Ludwig van Beethoven - Symphonie 5 c-moll - 1. Allegro con brio.ogg",
+      "composer": "Людвиг ван Бетховен",
+      "piece": "Пятая симфония",
+      "license": "Public domain",
+      "author": "user:OldakQuill",
+      "source": "https://commons.wikimedia.org/wiki/File%3ALudwig%20van%20Beethoven%20-%20Symphonie%205%20c-moll%20-%201.%20Allegro%20con%20brio.ogg",
       "attributionRequired": false,
-      "excerptFrom": 545
+      "excerptFrom": 329
     },
     {
-      "file": "beethoven-piano-sonata-no-28-in-a-major-op-101-ii-lebhaft-ma.mp3",
-      "title": "Beethoven - Piano Sonata No. 28 in A Major, Op. 101 - II. Lebhaft. Marschmäßig.ogg",
+      "file": "richard-wagner-ride-of-the-valkyries.mp3",
+      "title": "Richard Wagner - Ride of the Valkyries.ogg",
+      "composer": "Рихард Вагнер",
+      "piece": "«Полёт валькирий»",
       "license": "Public domain",
-      "author": "Ludwig van Beethoven",
-      "source": "https://commons.wikimedia.org/wiki/File%3ABeethoven%20-%20Piano%20Sonata%20No.%2028%20in%20A%20Major%2C%20Op.%20101%20-%20II.%20Lebhaft.%20Marschm%C3%A4%C3%9Fig.ogg",
+      "author": "Richard Wagner (1813–1883)",
+      "source": "https://commons.wikimedia.org/wiki/File%3ARichard%20Wagner%20-%20Ride%20of%20the%20Valkyries.ogg",
       "attributionRequired": false,
-      "excerptFrom": 65
-    },
-    {
-      "file": "piano-sonata-n-1-1-allegro-beethoven-schnabel.mp3",
-      "title": "Piano Sonata N° 1 - 1. Allegro (Beethoven, Schnabel).ogg",
-      "license": "Public domain",
-      "author": "Ludwig van Beethoven",
-      "source": "https://commons.wikimedia.org/wiki/File%3APiano%20Sonata%20N%C2%B0%201%20-%201.%20Allegro%20(Beethoven%2C%20Schnabel).ogg",
-      "attributionRequired": false,
-      "excerptFrom": 85
+      "excerptFrom": 173
     }
   ]
 }

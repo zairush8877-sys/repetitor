@@ -49,6 +49,71 @@
       "file": "content/bg/fon-interior.jpg",
       "light": true,
       "generated": false
+    },
+    {
+      "file": "content/bg/foto-shkaf.jpg",
+      "light": true,
+      "generated": false
+    },
+    {
+      "file": "content/bg/foto-kabinet.jpg",
+      "light": false,
+      "generated": false
+    },
+    {
+      "file": "content/bg/foto-polo.jpg",
+      "light": true,
+      "generated": false
+    },
+    {
+      "file": "content/bg/foto-kolonny.jpg",
+      "light": true,
+      "generated": false
+    },
+    {
+      "file": "content/bg/foto-polka.jpg",
+      "light": true,
+      "generated": false
+    },
+    {
+      "file": "content/bg/foto-shahmaty.jpg",
+      "light": false,
+      "generated": false
+    },
+    {
+      "file": "content/bg/foto-lavka.jpg",
+      "light": false,
+      "generated": false
+    },
+    {
+      "file": "content/bg/foto-arka.jpg",
+      "light": false,
+      "generated": false
+    },
+    {
+      "file": "content/bg/foto-chehov.jpg",
+      "light": true,
+      "generated": false
+    },
+    {
+      "file": "content/bg/foto-mashinka.jpg",
+      "light": false,
+      "generated": false
+    },
+    {
+      "file": "content/bg/foto-okno.jpg",
+      "light": false,
+      "generated": false
+    },
+    {
+      "file": "content/bg/foto-figury.jpg",
+      "light": true,
+      "generated": false
+    },
+    {
+      "file": "content/bg/foto-keramika.jpg",
+      "light": true,
+      "generated": false
     }
   ]
 }
