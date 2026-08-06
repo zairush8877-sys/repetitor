@@ -169,8 +169,8 @@
       "status": "published",
       "kicker": "Итоговое собеседование, 9 класс",
       "title": "Устное собеседование:\nна чём теряют баллы",
-      "background": "content/bg/fon-mint.jpg",
-      "lightBg": true,
+      "background": "content/bg/fon-sliva.jpg",
+      "lightBg": false,
       "rows": [
         [
           "я щас расскажу",
