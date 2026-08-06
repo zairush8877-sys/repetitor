@@ -79,15 +79,20 @@ function moscowWeekday() {
  * Одна публикация дня: в понедельник — разбор ЕГЭ, в остальные дни он
  * придерживается. Если про ЕГЭ ничего не осталось (или наоборот, остались
  * только они), выходит то, что есть, — пустой день хуже несвоевременного.
+ *
+ * Очередь хранится свежим сверху, поэтому брать первый попавшийся нельзя:
+ * так банк расходуется задом наперёд и разборы ЕГЭ выходят от задания 6
+ * к заданию 5. Порядок выпуска задаёт поле date — по нему и сортируем.
  */
 function pickDaily(approved) {
+  const byDate = [...approved].sort((a, b) => a.date < b.date ? -1 : a.date > b.date ? 1 : 0);
   const isEgeDay = moscowWeekday() === EGE_WEEKDAY;
-  const ege = approved.filter(p => p.rubric === EGE_RUBRIC);
-  const rest = approved.filter(p => p.rubric !== EGE_RUBRIC);
+  const ege = byDate.filter(p => p.rubric === EGE_RUBRIC);
+  const rest = byDate.filter(p => p.rubric !== EGE_RUBRIC);
 
   if (isEgeDay && ege.length) return ege[0];
   if (!isEgeDay && rest.length) return rest[0];
-  return approved[0];
+  return byDate[0];
 }
 
 async function api(method, endpoint, params = {}) {
