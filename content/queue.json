@@ -172,7 +172,7 @@
       "date": "2026-08-13",
       "rubric": "Так говорить нельзя",
       "format": "Reels",
-      "status": "approved",
+      "status": "published",
       "kicker": "Итоговое собеседование, 9 класс",
       "title": "Устное собеседование:\nна чём теряют баллы",
       "background": "content/bg/fon-mint.jpg",
@@ -226,7 +226,9 @@
         "#огэрусскийязык",
         "#репетиторпорусскому"
       ],
-      "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-08-13-oge-ustnoe.mp4"
+      "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-08-13-oge-ustnoe.mp4",
+      "publishedMediaId": "17881232697682358",
+      "publishedAt": "2026-08-06T14:15:03.255Z"
     },
     {
       "id": "2026-09-02-ege-pleonazm",
