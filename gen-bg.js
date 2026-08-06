@@ -115,7 +115,7 @@ const DARK = new Set(['sliva']);
     await page.setContent(`<!doctype html><html><head><meta charset="utf-8"></head>${html}</html>`);
     const file = path.join(OUT, `fon-${name}.jpg`);
     await page.screenshot({ path: file, type: 'jpeg', quality: 92 });
-    made.push({ file: `content/bg/fon-${name}.jpg`, light: !DARK.has(name) });
+    made.push({ file: `content/bg/fon-${name}.jpg`, light: !DARK.has(name), generated: true });
     console.log(`${DARK.has(name) ? 'тёмный ' : 'светлый'}  ${file}`);
   }
   await browser.close();
@@ -123,7 +123,7 @@ const DARK = new Set(['sliva']);
   // Снятые вручную фоны-фотографии рендер тоже должен видеть в ротации.
   const PHOTO = { 'fon-mint.jpg': true, 'fon-desk.jpg': true, 'fon-interior.jpg': true };
   for (const [f, light] of Object.entries(PHOTO)) {
-    if (fs.existsSync(path.join(OUT, f))) made.push({ file: `content/bg/${f}`, light });
+    if (fs.existsSync(path.join(OUT, f))) made.push({ file: `content/bg/${f}`, light, generated: false });
   }
 
   fs.writeFileSync(path.join(OUT, 'index.json'), JSON.stringify({ backgrounds: made }, null, 2) + '\n');

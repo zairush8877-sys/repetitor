@@ -139,7 +139,19 @@ function fullCaption(post) {
   return tags ? `${post.caption}\n\n${tags}` : post.caption;
 }
 
+/**
+ * Публикация без подписи однажды уже случилась: Reels от 3 августа собрал
+ * лучший охват в аккаунте и остался немым — ни объяснения, ни хештегов,
+ * ни повода написать в директ. Пустая подпись — это брак, а не «пока так».
+ */
+function requireCaption(post) {
+  if (!post.caption || !post.caption.trim()) {
+    throw new Error(`${post.id}: нет подписи — публиковать без неё нельзя`);
+  }
+}
+
 async function publishPost(post) {
+  requireCaption(post);
   const urls = (post.imageUrls || []).map(assetUrl);
   const caption = fullCaption(post);
 
@@ -244,6 +256,10 @@ async function showRecent(limit = 8) {
       continue;
     }
     if (dryRun) {
+      if (!post.caption || !post.caption.trim()) {
+        console.log('  ✗ нет подписи — публикация была бы отклонена');
+        continue;
+      }
       console.log(`  (dry-run) Опубликовал бы ${post.videoUrl ? 'Reels' : n === 1 ? 'пост' : 'карусель'} с подписью ${fullCaption(post).length} симв.`);
       continue;
     }
