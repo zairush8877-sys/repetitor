@@ -155,12 +155,52 @@ function pageHtml(post, handle) {
   </body></html>`;
 }
 
+/**
+ * Ротация по id: если фон и трек выбирать случайно, один и тот же пост при
+ * повторном рендере выйдет другим, а лента станет пёстрой без всякой системы.
+ * Хеш от id даёт разброс между постами и постоянство внутри поста.
+ */
+function hash(s) {
+  let h = 0;
+  for (const ch of String(s)) h = (h * 31 + ch.codePointAt(0)) >>> 0;
+  return h;
+}
+
+function pickFrom(list, id, salt) {
+  return list[hash(id + salt) % list.length];
+}
+
+/** Фон берётся из ротации, если у поста не задан свой. */
+function chooseBackground(post) {
+  if (post.background) return { file: post.background, light: !!post.lightBg };
+  const idx = path.join(__dirname, 'content', 'bg', 'index.json');
+  if (!fs.existsSync(idx)) return null;
+  const list = JSON.parse(fs.readFileSync(idx, 'utf8')).backgrounds || [];
+  return list.length ? pickFrom(list, post.id, 'bg') : null;
+}
+
+/** Фрагмент классики из библиотеки: у каждого поста свой, но всегда один и тот же. */
+function chooseTrack(id) {
+  const idx = path.join(__dirname, 'content', 'music', 'index.json');
+  if (!fs.existsSync(idx)) return null;
+  const list = (JSON.parse(fs.readFileSync(idx, 'utf8')).tracks || [])
+    .filter(t => fs.existsSync(path.join(__dirname, 'content', 'music', t.file)));
+  return list.length ? pickFrom(list, id, 'music') : null;
+}
+
 (async () => {
   const queue = JSON.parse(fs.readFileSync(QUEUE, 'utf8'));
   const id = process.argv[2];
   const post = queue.posts.find(p => p.id === id);
   if (!post) { console.error(`Пост «${id}» не найден в очереди.`); process.exit(1); }
   if (!post.rows) { console.error(`У поста «${id}» нет поля rows — нечего анимировать.`); process.exit(1); }
+
+  const bg = chooseBackground(post);
+  if (bg) {
+    post.background = bg.file;
+    post.lightBg = bg.light;
+    console.log(`фон: ${path.basename(bg.file)} (${bg.light ? 'светлый' : 'тёмный'})`);
+  }
 
   const total = INTRO + post.rows.length * ROW_STEP + OUTRO;
   const frames = Math.round(total * FPS);
@@ -196,16 +236,31 @@ function pageHtml(post, handle) {
 
   fs.mkdirSync(OUT_DIR, { recursive: true });
   const out = path.join(OUT_DIR, `${id}.mp4`);
+
+  // Без музыки ролик в ленте звучит как сбой звука, поэтому дорожка обязательна.
+  // Если библиотека пуста, кладём тишину — это хуже, но лучше, чем упасть.
+  const track = chooseTrack(id);
+  const audioIn = track
+    ? ['-i', path.join(__dirname, 'content', 'music', track.file)]
+    : ['-f', 'lavfi', '-i', 'anullsrc=channel_layout=stereo:sample_rate=44100'];
+
+  // Обрыв на полуслове слышен как брак, поэтому в конце уводим громкость.
+  const fade = `afade=t=in:st=0:d=0.8,afade=t=out:st=${Math.max(0, total - 1.2).toFixed(2)}:d=1.2`;
+
   execFileSync(ffmpeg, [
     '-y',
     '-framerate', String(FPS), '-i', path.join(tmp, 'f%04d.png'),
-    '-f', 'lavfi', '-i', 'anullsrc=channel_layout=stereo:sample_rate=44100',
-    '-shortest',
+    ...audioIn,
+    '-t', total.toFixed(2),
+    ...(track ? ['-af', fade] : []),
     '-c:v', 'libx264', '-preset', 'medium', '-crf', '18', '-pix_fmt', 'yuv420p',
-    '-c:a', 'aac', '-b:a', '96k',
+    '-c:a', 'aac', '-b:a', '128k',
     '-movflags', '+faststart',
     out,
   ], { stdio: ['ignore', 'ignore', 'inherit'] });
+
+  if (track) console.log(`музыка: ${track.title} (${track.license})`);
+  else console.log('музыка: библиотека пуста, дорожка тихая — запустите node fetch-music.js');
 
   fs.rmSync(tmp, { recursive: true, force: true });
   const mb = (fs.statSync(out).size / 1024 / 1024).toFixed(1);

@@ -1,0 +1,44 @@
+{
+  "backgrounds": [
+    {
+      "file": "content/bg/fon-kletka.jpg",
+      "light": true
+    },
+    {
+      "file": "content/bg/fon-bukvy.jpg",
+      "light": true
+    },
+    {
+      "file": "content/bg/fon-jade.jpg",
+      "light": true
+    },
+    {
+      "file": "content/bg/fon-lavanda.jpg",
+      "light": true
+    },
+    {
+      "file": "content/bg/fon-nebo.jpg",
+      "light": true
+    },
+    {
+      "file": "content/bg/fon-sliva.jpg",
+      "light": false
+    },
+    {
+      "file": "content/bg/fon-ugolok.jpg",
+      "light": true
+    },
+    {
+      "file": "content/bg/fon-mint.jpg",
+      "light": true
+    },
+    {
+      "file": "content/bg/fon-desk.jpg",
+      "light": true
+    },
+    {
+      "file": "content/bg/fon-interior.jpg",
+      "light": true
+    }
+  ]
+}

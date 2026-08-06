@@ -58,15 +58,30 @@ async function waitReady(containerId, label, tries = 30) {
   throw new Error(`${label}: контейнер не готов после ${Math.round(tries * 4 / 60)} мин`);
 }
 
-/** Сторис публикуется как обычный контейнер, но с media_type=STORIES. */
-async function publishFrame(url, label) {
+/**
+ * Сторис публикуется как обычный контейнер, но с media_type=STORIES.
+ * Картинка выходит немой, поэтому основной вариант — видео: оба кадра подряд
+ * с классикой, вопрос сменяется ответом сам. Видео обрабатывается дольше,
+ * отсюда и запас по числу проверок.
+ */
+async function publishFrame(url, label, isVideo) {
   const { id } = await api('POST', `${IG_USER_ID}/media`, {
     media_type: 'STORIES',
-    image_url: url,
+    ...(isVideo ? { video_url: url } : { image_url: url }),
   });
-  await waitReady(id, label);
+  await waitReady(id, label, isVideo ? 60 : 30);
   const { id: mediaId } = await api('POST', `${IG_USER_ID}/media_publish`, { creation_id: id });
   return mediaId;
+}
+
+/** Есть ли у сторис собранное видео — проверяем по репозиторию, а не по диску: */
+async function hasVideo(url) {
+  try {
+    const res = await fetch(url, { method: 'HEAD' });
+    return res.ok;
+  } catch {
+    return false;
+  }
 }
 
 (async () => {
@@ -87,18 +102,21 @@ async function publishFrame(url, label) {
   const me = await api('GET', IG_USER_ID, { fields: 'username' });
   console.log(`@${me.username} — сторис ${story.id} [${story.type}], осталось в банке: ${pending.length}`);
 
-  const urls = [1, 2].map(n => `${RAW}/${story.id}-${n}.jpg`);
+  const videoUrl = `${RAW}/${story.id}.mp4`;
+  const video = await hasVideo(videoUrl);
+  // Пока видео к сторис не собрано, старый путь остаётся рабочим: два немых кадра.
+  const urls = video ? [videoUrl] : [1, 2].map(n => `${RAW}/${story.id}-${n}.jpg`);
 
   if (dryRun) {
-    console.log('(dry-run) Опубликовал бы два кадра:');
+    console.log(video ? '(dry-run) Опубликовал бы видео:' : '(dry-run) Опубликовал бы два кадра:');
     urls.forEach(u => console.log('  ' + u));
     return;
   }
 
   const ids = [];
   for (const [i, u] of urls.entries()) {
-    ids.push(await publishFrame(u, `${story.id} кадр ${i + 1}`));
-    console.log(`  ✓ кадр ${i + 1}: ${ids[i]}`);
+    ids.push(await publishFrame(u, video ? story.id : `${story.id} кадр ${i + 1}`, video));
+    console.log(`  ✓ ${video ? 'видео' : 'кадр ' + (i + 1)}: ${ids[i]}`);
   }
 
   story.status = 'published';

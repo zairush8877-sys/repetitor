@@ -12,16 +12,79 @@
  * Интерактивные стикеры (опросы, викторины) через API недоступны, поэтому
  * викторина собирается двумя кадрами: люди отвечают в уме, а потом проверяют себя.
  *
- * Результат: content/stories/<id>-1.jpg, <id>-2.jpg
+ * Результат: content/stories/<id>-1.jpg, <id>-2.jpg и <id>.mp4 — оба кадра
+ * подряд с музыкой. Картинка в сторис выходит немой, а немая сторис в ленте
+ * читается как сбой звука, поэтому по умолчанию собирается ещё и видео.
+ * Отключается флагом --no-video, когда нужны только кадры.
  */
 
 const fs = require('fs');
 const path = require('path');
+const os = require('os');
+const { execFileSync } = require('child_process');
 const { chromium } = require('playwright');
+const ffmpeg = require('ffmpeg-static');
 
 const BANK = path.join(__dirname, 'content', 'stories.json');
 const OUT = path.join(__dirname, 'content', 'stories');
+const MUSIC = path.join(__dirname, 'content', 'music');
 const W = 1080, H = 1920;
+
+// Первый кадр — вопрос, его надо успеть прочитать и подумать; второй — ответ
+// с объяснением, он длиннее.
+const HOLD = [4.5, 7.5];
+
+/** Ротация по id: разброс между сторис и постоянство внутри одной. */
+function hash(s) {
+  let h = 0;
+  for (const ch of String(s)) h = (h * 31 + ch.codePointAt(0)) >>> 0;
+  return h;
+}
+
+function chooseTrack(id) {
+  const idx = path.join(MUSIC, 'index.json');
+  if (!fs.existsSync(idx)) return null;
+  const list = (JSON.parse(fs.readFileSync(idx, 'utf8')).tracks || [])
+    .filter(t => fs.existsSync(path.join(MUSIC, t.file)));
+  return list.length ? list[hash(id + 'story') % list.length] : null;
+}
+
+/**
+ * Два кадра склеиваются в ролик через concat-демуксер: последний файл в списке
+ * повторяется намеренно — без повтора ffmpeg отбрасывает длительность
+ * последней записи и второй кадр мелькает один кадр вместо семи секунд.
+ */
+function buildVideo(id) {
+  const track = chooseTrack(id);
+  const total = HOLD[0] + HOLD[1];
+  const tmp = fs.mkdtempSync(path.join(os.tmpdir(), 'story-'));
+  const list = path.join(tmp, 'list.txt');
+  const f = i => path.join(OUT, `${id}-${i}.jpg`);
+
+  fs.writeFileSync(list,
+    `file '${f(1)}'\nduration ${HOLD[0]}\n` +
+    `file '${f(2)}'\nduration ${HOLD[1]}\n` +
+    `file '${f(2)}'\n`);
+
+  const out = path.join(OUT, `${id}.mp4`);
+  const audioIn = track
+    ? ['-i', path.join(MUSIC, track.file)]
+    : ['-f', 'lavfi', '-i', 'anullsrc=channel_layout=stereo:sample_rate=44100'];
+
+  execFileSync(ffmpeg, [
+    '-y', '-f', 'concat', '-safe', '0', '-i', list,
+    ...audioIn,
+    '-t', total.toFixed(2),
+    ...(track ? ['-af', `afade=t=in:st=0:d=0.8,afade=t=out:st=${(total - 1.2).toFixed(2)}:d=1.2`] : []),
+    '-c:v', 'libx264', '-r', '30', '-preset', 'medium', '-crf', '20', '-pix_fmt', 'yuv420p',
+    '-c:a', 'aac', '-b:a', '128k',
+    '-movflags', '+faststart',
+    out,
+  ], { stdio: ['ignore', 'ignore', 'ignore'] });
+
+  fs.rmSync(tmp, { recursive: true, force: true });
+  return { out, track, total };
+}
 
 // Палитры чередуются по порядку — лента сторис не выглядит одинаковой изо дня в день
 const PALETTES = [
@@ -171,5 +234,13 @@ function framesFor(s, p) {
   }
 
   await browser.close();
+
+  if (!process.argv.includes('--no-video')) {
+    for (const s of targets) {
+      const { track, total } = buildVideo(s.id);
+      console.log(`${s.id}: видео ${total.toFixed(1)} сек — ${track ? track.title : 'без музыки'}`);
+    }
+  }
+
   console.log(`\nГотово: content/stories/`);
 })();

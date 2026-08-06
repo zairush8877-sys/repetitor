@@ -1,0 +1,58 @@
+{
+  "tracks": [
+    {
+      "file": "chopin-nocturne-op-27-no-1.mp3",
+      "title": "Chopin Nocturne Op.27 No.1.oga",
+      "license": "Public domain",
+      "author": "Frédéric Chopin",
+      "source": "https://commons.wikimedia.org/wiki/File%3AChopin%20Nocturne%20Op.27%20No.1.oga",
+      "attributionRequired": false,
+      "excerptFrom": 5
+    },
+    {
+      "file": "chopin-nocturne-no-21-in-c-minor-b-108-diana-hughes.mp3",
+      "title": "Chopin - Nocturne No. 21 in C minor, B. 108 (Diana Hughes).flac",
+      "license": "Public domain",
+      "author": "Frédéric Chopin",
+      "source": "https://commons.wikimedia.org/wiki/File%3AChopin%20-%20Nocturne%20No.%2021%20in%20C%20minor%2C%20B.%20108%20(Diana%20Hughes).flac",
+      "attributionRequired": false,
+      "excerptFrom": 117
+    },
+    {
+      "file": "satie-gymnopedie-no-3-performed-by-michael-laucke.mp3",
+      "title": "Satie Gymnopedie No 3 performed by Michael Laucke.flac",
+      "license": "Public domain",
+      "author": "Mlaucke",
+      "source": "https://commons.wikimedia.org/wiki/File%3ASatie%20Gymnopedie%20No%203%20performed%20by%20Michael%20Laucke.flac",
+      "attributionRequired": false,
+      "excerptFrom": 65
+    },
+    {
+      "file": "schumann-piano-sonata-no-1-in-f-sharp-minor-op-11-1-introduz.mp3",
+      "title": "Schumann; Piano Sonata No. 1 In F Sharp Minor Op.11- 1.Introduzione.ogg",
+      "license": "CC0",
+      "author": "Maurizio Pollini",
+      "source": "https://commons.wikimedia.org/wiki/File%3ASchumann%3B%20Piano%20Sonata%20No.%201%20In%20F%20Sharp%20Minor%20Op.11-%201.Introduzione.ogg",
+      "attributionRequired": false,
+      "excerptFrom": 545
+    },
+    {
+      "file": "beethoven-piano-sonata-no-28-in-a-major-op-101-ii-lebhaft-ma.mp3",
+      "title": "Beethoven - Piano Sonata No. 28 in A Major, Op. 101 - II. Lebhaft. Marschmäßig.ogg",
+      "license": "Public domain",
+      "author": "Ludwig van Beethoven",
+      "source": "https://commons.wikimedia.org/wiki/File%3ABeethoven%20-%20Piano%20Sonata%20No.%2028%20in%20A%20Major%2C%20Op.%20101%20-%20II.%20Lebhaft.%20Marschm%C3%A4%C3%9Fig.ogg",
+      "attributionRequired": false,
+      "excerptFrom": 65
+    },
+    {
+      "file": "piano-sonata-n-1-1-allegro-beethoven-schnabel.mp3",
+      "title": "Piano Sonata N° 1 - 1. Allegro (Beethoven, Schnabel).ogg",
+      "license": "Public domain",
+      "author": "Ludwig van Beethoven",
+      "source": "https://commons.wikimedia.org/wiki/File%3APiano%20Sonata%20N%C2%B0%201%20-%201.%20Allegro%20(Beethoven%2C%20Schnabel).ogg",
+      "attributionRequired": false,
+      "excerptFrom": 85
+    }
+  ]
+}

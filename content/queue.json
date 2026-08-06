@@ -10,8 +10,6 @@
       "status": "approved",
       "kicker": "ЕГЭ, задание 5",
       "title": "Эти пары путают\nдаже отличники",
-      "background": "content/bg/fon-mint.jpg",
-      "lightBg": true,
       "rows": [
         [
           "эффектный способ",
@@ -66,8 +64,6 @@
       "status": "approved",
       "kicker": "ЕГЭ, задание 6",
       "title": "Так говорят все —\nи теряют балл",
-      "background": "content/bg/fon-mint.jpg",
-      "lightBg": true,
       "rows": [
         [
           "свободная вакансия",
@@ -123,8 +119,6 @@
       "status": "approved",
       "kicker": "Задание 7, ЕГЭ-2026",
       "title": "Задание 7 — уже не то,\nчему учили",
-      "background": "content/bg/fon-mint.jpg",
-      "lightBg": true,
       "rows": [
         [
           "более лучше",
@@ -509,8 +503,6 @@
       ],
       "kicker": "10 слов без удвоения",
       "title": "Двойные согласные,\nкоторых нет",
-      "background": "content/bg/fon-mint.jpg",
-      "lightBg": true,
       "rows": [
         [
           "корридор",
@@ -635,8 +627,6 @@
       ],
       "kicker": "Резюме и деловая переписка",
       "title": "Слова-ловушки\nв резюме и письмах",
-      "background": "content/bg/fon-bukvy.jpg",
-      "lightBg": true,
       "rows": [
         [
           "конкурентноспособный",
@@ -761,8 +751,6 @@
       ],
       "kicker": "Родительный падеж мн. ч.",
       "title": "Пара чулок,\nно пара носков",
-      "background": "content/bg/fon-kletka.jpg",
-      "lightBg": true,
       "rows": [
         [
           "пара сапогов",
