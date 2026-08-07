@@ -321,6 +321,10 @@ const ROTATION = require('./rotation');
     if (qp) {
       qp.background = post.background;
       qp.lightBg = post.lightBg;
+      // Обложка в сетке профиля — финальный кадр с полной таблицей (правило
+      // автора): без thumb_offset Instagram берёт кадр сам, чаще всего пустой
+      // заголовок из первой секунды.
+      qp.coverOffsetMs = Math.round((total - 1.0) * 1000);
       if (track) qp.music = { composer: track.composer || '', piece: track.piece || track.title, license: track.license };
       fs.writeFileSync(QUEUE, JSON.stringify(fresh, null, 2) + '\n');
     }
