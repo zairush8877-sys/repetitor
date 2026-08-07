@@ -174,6 +174,9 @@ async function publishPost(post) {
       video_url: assetUrl(post.videoUrl),
       caption,
       share_to_feed: 'true',
+      // Обложка — финальный кадр с полной таблицей; без этого Instagram
+      // выбирает кадр сам и в сетке остаётся пустой заголовок.
+      ...(post.coverOffsetMs ? { thumb_offset: String(post.coverOffsetMs) } : {}),
     });
     await waitReady(id, post.id, 120);
     creationId = id;

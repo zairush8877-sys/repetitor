@@ -61,7 +61,8 @@
         "composer": "Эдвард Григ",
         "piece": "«В пещере горного короля»",
         "license": "Public domain"
-      }
+      },
+      "coverOffsetMs": 12970
     },
     {
       "id": "2026-08-24-ege-pleonazm",
@@ -123,7 +124,8 @@
         "composer": "Рихард Вагнер",
         "piece": "«Полёт валькирий»",
         "license": "Public domain"
-      }
+      },
+      "coverOffsetMs": 12970
     },
     {
       "id": "2026-08-17-ege-zadanie7",
@@ -180,7 +182,8 @@
         "composer": "Людвиг ван Бетховен",
         "piece": "Пятая симфония",
         "license": "Public domain"
-      }
+      },
+      "coverOffsetMs": 11800
     },
     {
       "id": "2026-08-13-oge-ustnoe",
@@ -573,7 +576,8 @@
         "composer": "Людвиг ван Бетховен",
         "piece": "Пятая симфония",
         "license": "Public domain"
-      }
+      },
+      "coverOffsetMs": 14100
     },
     {
       "id": "2026-08-10-slitno",
@@ -704,7 +708,8 @@
         "composer": "Людвиг ван Бетховен",
         "piece": "Пятая симфония",
         "license": "Public domain"
-      }
+      },
+      "coverOffsetMs": 14100
     },
     {
       "id": "2026-08-08-netslov",
