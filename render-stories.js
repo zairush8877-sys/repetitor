@@ -77,12 +77,21 @@ function buildVideo(id) {
   return { out, track, total };
 }
 
-// Палитры чередуются по порядку — лента сторис не выглядит одинаковой изо дня в день
+// Палитры системы «Правка» (design/PHILOSOPHY.md): бумага и тёмная слива.
+// Чередуются по порядку — сторис не выглядят одинаковыми изо дня в день,
+// но остаются одной системой с Reels. Роли цветов фиксированы: ошибка — охра,
+// норма — хвоя; акцентом служит цвет ошибки, потому что интрига кадра — она.
 const PALETTES = [
-  { bg: '#1f3d2b', ink: '#fdf9f2', accent: '#f2b544', soft: 'rgba(253,249,242,.62)' },
-  { bg: '#8c3f2b', ink: '#fdf3e7', accent: '#f6d26a', soft: 'rgba(253,243,231,.62)' },
-  { bg: '#2b3d63', ink: '#f2f6ff', accent: '#7fd1c1', soft: 'rgba(242,246,255,.62)' },
-  { bg: '#f4ecdd', ink: '#241f18', accent: '#b5442c', soft: 'rgba(36,31,24,.55)' },
+  {
+    bg: `radial-gradient(1100px 900px at 30% 18%, #f6f2e9 0%, transparent 62%), #efe9dd`,
+    ink: '#211d18', err: '#8a3a24', ok: '#2f5748',
+    accent: '#8a3a24', soft: 'rgba(33,29,24,.52)', line: 'rgba(33,29,24,.28)',
+  },
+  {
+    bg: `radial-gradient(1000px 900px at 30% 22%, rgba(120,70,95,.45) 0%, transparent 65%), linear-gradient(155deg, #3d2230 0%, #2c1a26 55%, #22141d 100%)`,
+    ink: '#f2ece2', err: '#d98a63', ok: '#8fc4a4',
+    accent: '#d98a63', soft: 'rgba(242,236,226,.55)', line: 'rgba(242,236,226,.30)',
+  },
 ];
 
 const esc = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
@@ -103,7 +112,7 @@ function shell(p, body, extra = '', credit = '') {
     body {
       width: ${W}px; height: ${H}px; overflow: hidden;
       background: ${p.bg}; color: ${p.ink};
-      font-family: ${FONTS.body()};
+      font-family: ${FONTS.serif()};
       display: flex; flex-direction: column; justify-content: center;
       /* Верх занимает аватар и кольцо прогресса, низ — поле «Отправить сообщение» */
       padding: 300px 90px 260px;
@@ -111,21 +120,21 @@ function shell(p, body, extra = '', credit = '') {
       position: relative;
     }
     .kicker {
-      font-family: ${FONTS.head()};
-      font-size: 34px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase;
+      font-family: ${FONTS.mono()};
+      font-size: 32px; font-weight: 400; letter-spacing: .26em; text-transform: uppercase;
       color: ${p.accent}; margin-bottom: 56px;
     }
     .foot {
       position: absolute; left: 0; right: 0; bottom: 190px;
-      font-family: ${FONTS.head()};
-      font-size: 30px; color: ${p.soft};
+      font-family: ${FONTS.mono()};
+      font-size: 28px; letter-spacing: .12em; color: ${p.soft};
     }
     /* Композитор указывается всегда; у сторис нет подписи, поэтому имя
        живёт на самом кадре, строкой над ником. */
     .music {
       position: absolute; left: 0; right: 0; bottom: 244px;
-      font-family: ${FONTS.head()};
-      font-size: 26px; color: ${p.soft};
+      font-family: ${FONTS.mono()};
+      font-size: 24px; letter-spacing: .06em; color: ${p.soft};
     }
     ${extra}
   </style></head><body>${body}
@@ -147,12 +156,12 @@ function askHtml(s, p, credit) {
     .opt {
       font-size: ${size(s.a.length > s.b.length ? s.a : s.b, 96)}px; font-weight: 700;
       line-height: 1.15; padding: 34px 30px; width: 100%;
-      border: 4px solid ${p.accent}; border-radius: 28px;
+      border: 2px solid ${p.line}; border-radius: 20px;
     }
-    .or { font-size: 40px; color: ${p.soft}; font-style: italic }
+    .or { font-size: 38px; color: ${p.soft}; font-style: italic }
     .hint {
-      margin-top: 64px; font-family: ${FONTS.head()};
-      font-size: 32px; color: ${p.soft};
+      margin-top: 64px; font-family: ${FONTS.mono()};
+      font-size: 28px; letter-spacing: .1em; color: ${p.soft};
     }`, credit);
 }
 
@@ -167,11 +176,12 @@ function answerHtml(s, p, credit) {
     <div class="why">${nl2br(s.why)}</div>`, `
     .right {
       font-size: ${size(right, 104)}px; font-weight: 700; line-height: 1.12;
-      color: ${p.accent}; margin-bottom: 26px;
+      color: ${p.ok}; margin-bottom: 26px;
     }
     .wrong {
-      font-size: 46px; color: ${p.soft};
-      text-decoration: line-through; text-decoration-thickness: 3px; margin-bottom: 70px;
+      font-size: 46px; color: ${p.err};
+      text-decoration: line-through; text-decoration-color: ${p.err};
+      text-decoration-thickness: 3px; margin-bottom: 70px;
     }
     .why { font-size: 42px; line-height: 1.42; max-width: 22ch }`, credit);
 }
@@ -184,8 +194,8 @@ function factHtml(s, p, credit) {
     <div class="hint">Почему — дальше</div>`, `
     .big { font-size: ${size(s.big, 130)}px; font-weight: 700; line-height: 1.12; color: ${p.accent} }
     .hint {
-      margin-top: 70px; font-family: ${FONTS.head()};
-      font-size: 32px; color: ${p.soft};
+      margin-top: 70px; font-family: ${FONTS.mono()};
+      font-size: 28px; letter-spacing: .1em; color: ${p.soft};
     }`, credit);
 }
 
