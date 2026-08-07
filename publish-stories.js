@@ -102,10 +102,12 @@ async function hasVideo(url) {
   const me = await api('GET', IG_USER_ID, { fields: 'username' });
   console.log(`@${me.username} — сторис ${story.id} [${story.type}], осталось в банке: ${pending.length}`);
 
-  const videoUrl = `${RAW}/${story.id}.mp4`;
-  const video = await hasVideo(videoUrl);
-  // Пока видео к сторис не собрано, старый путь остаётся рабочим: два немых кадра.
-  const urls = video ? [videoUrl] : [1, 2].map(n => `${RAW}/${story.id}-${n}.jpg`);
+  // Сторис выходит двумя видео — вопрос и ответ: тап по видео не листает
+  // кадры внутри него, а перекидывает на следующую сторис, поэтому в едином
+  // ролике ответ терялся у всех, кто тапнул. Пока видео не собраны,
+  // старый путь остаётся рабочим: два немых кадра.
+  const video = await hasVideo(`${RAW}/${story.id}-1.mp4`);
+  const urls = [1, 2].map(n => `${RAW}/${story.id}-${n}.${video ? 'mp4' : 'jpg'}`);
 
   if (dryRun) {
     console.log(video ? '(dry-run) Опубликовал бы видео:' : '(dry-run) Опубликовал бы два кадра:');
@@ -115,8 +117,8 @@ async function hasVideo(url) {
 
   const ids = [];
   for (const [i, u] of urls.entries()) {
-    ids.push(await publishFrame(u, video ? story.id : `${story.id} кадр ${i + 1}`, video));
-    console.log(`  ✓ ${video ? 'видео' : 'кадр ' + (i + 1)}: ${ids[i]}`);
+    ids.push(await publishFrame(u, `${story.id} часть ${i + 1}`, video));
+    console.log(`  ✓ ${video ? 'видео' : 'кадр'} ${i + 1}: ${ids[i]}`);
   }
 
   story.status = 'published';
