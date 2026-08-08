@@ -270,7 +270,12 @@ async function showAudioCheck(limit = 6) {
     // ffmpeg не найдёт ни звука, ни видео — это сбой проверки, а не ролика.
     const head = fs.readFileSync(tmp).subarray(0, 96);
     const peek = `${res.headers.get('content-type')}; начало: ${JSON.stringify(head.toString('latin1').replace(/[^\x20-\x7e]/g, '.'))}`;
-    const verdict = !hasVideo
+    // Первые прогоны «диагностики» дали ложное «дорожки нет»: ffmpeg на
+    // раннере отсутствовал, spawnSync тихо возвращал ENOENT, и пустой вывод
+    // выглядел как файл без потоков. Ошибку запуска показываем явно.
+    const verdict = r.error
+      ? `FFMPEG НЕ ЗАПУСТИЛСЯ (${r.error.message}) — проверка не состоялась`
+      : !hasVideo
       ? `ФАЙЛ НЕ ПРОЧИТАН (${res.status}, ${size} байт, ${peek}) — вывод о звуке делать нельзя`
       : !hasAudio ? 'ДОРОЖКИ НЕТ — Instagram убрал звук'
       : max !== undefined && Number(max) < -50 ? `дорожка есть, но ТИШИНА (max ${max} дБ)`
