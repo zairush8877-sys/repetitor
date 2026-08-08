@@ -268,8 +268,10 @@ async function showAudioCheck(limit = 6) {
     // «Дорожки нет» имеет смысл, только если файл вообще скачался и читается:
     // CDN Instagram может ответить дата-центру страницей ошибки, и тогда
     // ffmpeg не найдёт ни звука, ни видео — это сбой проверки, а не ролика.
+    const head = fs.readFileSync(tmp).subarray(0, 96);
+    const peek = `${res.headers.get('content-type')}; начало: ${JSON.stringify(head.toString('latin1').replace(/[^\x20-\x7e]/g, '.'))}`;
     const verdict = !hasVideo
-      ? `ФАЙЛ НЕ ПРОЧИТАН (${res.status}, ${size} байт) — вывод о звуке делать нельзя`
+      ? `ФАЙЛ НЕ ПРОЧИТАН (${res.status}, ${size} байт, ${peek}) — вывод о звуке делать нельзя`
       : !hasAudio ? 'ДОРОЖКИ НЕТ — Instagram убрал звук'
       : max !== undefined && Number(max) < -50 ? `дорожка есть, но ТИШИНА (max ${max} дБ)`
       : `звук на месте: mean ${mean} дБ, max ${max} дБ`;
