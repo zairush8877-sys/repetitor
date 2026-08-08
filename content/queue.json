@@ -912,7 +912,7 @@
       "date": "2026-08-07",
       "rubric": "Путают даже грамотные",
       "format": "Пост",
-      "status": "approved",
+      "status": "published",
       "slides": [
         {
           "layout": "table",
@@ -970,7 +970,9 @@
       ],
       "imageUrls": [
         "https://raw.githubusercontent.com/zairush8877-sys/-/main/content/images/2026-08-05-zaimstvovaniya-1.jpg"
-      ]
+      ],
+      "publishedMediaId": "18130993762648028",
+      "publishedAt": "2026-08-08T15:14:32.469Z"
     },
     {
       "id": "2026-08-04-udareniya-tablica",
