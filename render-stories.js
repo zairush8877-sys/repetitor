@@ -44,6 +44,18 @@ const HOLD = [5, 8];
 const ROTATION = require('./rotation');
 const chooseTrack = id => ROTATION.chooseTrack(id, 'story');
 
+// Фон — фотографии автора (foto-*.jpg из папки Google Drive): контент лежит
+// на карточке, поэтому рисованные фоны здесь не нужны, а живой кабинет за
+// карточкой и есть смысл ротации. Выбор тем же хешем, что и везде.
+const BG_INDEX = path.join(__dirname, 'content', 'bg', 'index.json');
+function choosePhoto(id) {
+  if (!fs.existsSync(BG_INDEX)) return null;
+  const photos = (JSON.parse(fs.readFileSync(BG_INDEX, 'utf8')).backgrounds || [])
+    .filter(b => path.basename(b.file).startsWith('foto-'))
+    .filter(b => fs.existsSync(path.join(__dirname, b.file)));
+  return photos.length ? ROTATION.pickFrom(photos, id + 'bg') : null;
+}
+
 /**
  * Каждый кадр кодируется отдельным роликом. Музыка общая: второй ролик
  * продолжает запись с того места, где остановился первый, — при досмотре
@@ -106,19 +118,32 @@ function size(text, base) {
   return Math.round(base * 0.52);
 }
 
-function shell(p, body, extra = '', credit = '') {
+function shell(p, body, extra = '', credit = '', photo = null) {
+  // Фотофон: снимок автора во весь кадр под мягкой плёнкой; контент — на
+  // опаковой карточке палитры (правило системы: на фотофоне текст лежит
+  // на карточке, прямо по снимку он нечитаем). Без фото — прежний фон.
+  const bodyBg = photo
+    ? `linear-gradient(rgba(24,18,12,.18), rgba(24,18,12,.48)),
+       url(data:image/jpeg;base64,${fs.readFileSync(path.join(__dirname, photo.file)).toString('base64')}) center/cover`
+    : p.bg;
   return `<!doctype html><html lang="ru"><head><meta charset="utf-8"><style>
     ${FONTS.fontFaceCss()}
     * { box-sizing: border-box; margin: 0; padding: 0 }
     body {
       width: ${W}px; height: ${H}px; overflow: hidden;
-      background: ${p.bg}; color: ${p.ink};
+      background: ${bodyBg}; color: ${p.ink};
       font-family: ${FONTS.serif()};
       display: flex; flex-direction: column; justify-content: center;
       /* Верх занимает аватар и кольцо прогресса, низ — поле «Отправить сообщение» */
-      padding: 300px 90px 260px;
+      padding: 300px ${photo ? 70 : 90}px 260px;
       text-align: center; align-items: center;
       position: relative;
+    }
+    .card {
+      display: flex; flex-direction: column; align-items: center;
+      width: 100%;
+      ${photo ? `background: ${p.bg}; border-radius: 28px;
+      padding: 88px 56px; box-shadow: 0 30px 80px rgba(0,0,0,.35);` : ''}
     }
     .kicker {
       font-family: ${FONTS.mono()};
@@ -128,23 +153,27 @@ function shell(p, body, extra = '', credit = '') {
     .foot {
       position: absolute; left: 0; right: 0; bottom: 190px;
       font-family: ${FONTS.mono()};
-      font-size: 28px; letter-spacing: .12em; color: ${p.soft};
+      font-size: 28px; letter-spacing: .12em;
+      color: ${photo ? 'rgba(242,236,226,.92)' : p.soft};
+      ${photo ? 'text-shadow: 0 2px 14px rgba(0,0,0,.45);' : ''}
     }
     /* Композитор указывается всегда; у сторис нет подписи, поэтому имя
        живёт на самом кадре, строкой над ником. */
     .music {
       position: absolute; left: 0; right: 0; bottom: 244px;
       font-family: ${FONTS.mono()};
-      font-size: 24px; letter-spacing: .06em; color: ${p.soft};
+      font-size: 24px; letter-spacing: .06em;
+      color: ${photo ? 'rgba(242,236,226,.85)' : p.soft};
+      ${photo ? 'text-shadow: 0 2px 14px rgba(0,0,0,.45);' : ''}
     }
     ${extra}
-  </style></head><body>${body}
+  </style></head><body><div class="card">${body}</div>
     ${credit ? `<div class="music">♪ ${esc(credit)}</div>` : ''}
     <div class="foot">@mairova_a_a</div></body></html>`;
 }
 
 /** Кадр 1: вопрос с двумя вариантами — зритель отвечает про себя. */
-function askHtml(s, p, credit) {
+function askHtml(s, p, credit, photo) {
   return shell(p, `
     <div class="kicker">${esc(s.q)}</div>
     <div class="opts">
@@ -163,11 +192,11 @@ function askHtml(s, p, credit) {
     .hint {
       margin-top: 64px; font-family: ${FONTS.mono()};
       font-size: 28px; letter-spacing: .1em; color: ${p.soft};
-    }`, credit);
+    }`, credit, photo);
 }
 
 /** Кадр 2: правильный ответ крупно + короткое объяснение. */
-function answerHtml(s, p, credit) {
+function answerHtml(s, p, credit, photo) {
   const right = s.right === 'a' ? s.a : s.b;
   const wrong = s.right === 'a' ? s.b : s.a;
   return shell(p, `
@@ -184,11 +213,11 @@ function answerHtml(s, p, credit) {
       text-decoration: line-through; text-decoration-color: ${p.err};
       text-decoration-thickness: 3px; margin-bottom: 70px;
     }
-    .why { font-size: 42px; line-height: 1.42; max-width: 22ch }`, credit);
+    .why { font-size: 42px; line-height: 1.42; max-width: 22ch }`, credit, photo);
 }
 
 /** Кадр 1 для факта: интрига без вопроса. */
-function factHtml(s, p, credit) {
+function factHtml(s, p, credit, photo) {
   return shell(p, `
     <div class="kicker">${esc(s.top)}</div>
     <div class="big">${nl2br(s.big)}</div>
@@ -197,22 +226,23 @@ function factHtml(s, p, credit) {
     .hint {
       margin-top: 70px; font-family: ${FONTS.mono()};
       font-size: 28px; letter-spacing: .1em; color: ${p.soft};
-    }`, credit);
+    }`, credit, photo);
 }
 
-function whyHtml(s, p, credit) {
+function whyHtml(s, p, credit, photo) {
   return shell(p, `
     <div class="kicker">${esc(s.top)}</div>
     <div class="why">${nl2br(s.why)}</div>`, `
-    .why { font-size: 46px; line-height: 1.45; max-width: 21ch }`, credit);
+    .why { font-size: 46px; line-height: 1.45; max-width: 21ch }`, credit, photo);
 }
 
 function framesFor(s, p) {
   const t = chooseTrack(s.id);
   const credit = t && t.composer ? `${t.composer} — ${t.piece || ''}`.trim() : '';
+  const photo = choosePhoto(s.id);
   return s.type === 'vopros'
-    ? [askHtml(s, p, credit), answerHtml(s, p, credit)]
-    : [factHtml(s, p, credit), whyHtml(s, p, credit)];
+    ? [askHtml(s, p, credit, photo), answerHtml(s, p, credit, photo)]
+    : [factHtml(s, p, credit, photo), whyHtml(s, p, credit, photo)];
 }
 
 (async () => {
