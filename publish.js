@@ -36,6 +36,7 @@ const args = process.argv.slice(2);
 const dryRun = args.includes('--dry-run');
 const checkOnly = args.includes('--check');
 const recentOnly = args.includes('--recent');
+const audioCheck = args.includes('--audio-check');
 const onlyOne = args.includes('--one');   // ежедневный режим: одна публикация за запуск
 const onlyId = args.find(a => !a.startsWith('--'));
 
@@ -226,9 +227,53 @@ async function showRecent(limit = 8) {
   }
 }
 
+/**
+ * Диагностика звука: скачиваем опубликованные ролики с серверов Instagram
+ * (media_url) и меряем громкость дорожки. Файл в репозитории может быть
+ * со звуком, а ролик в ленте — немым: Instagram глушит дорожку сам, если
+ * его детектор принимает запись за защищённую. Здесь это видно по цифрам.
+ */
+async function showAudioCheck(limit = 6) {
+  const os = require('os');
+  const { spawnSync } = require('child_process');
+  let ffmpeg = 'ffmpeg';
+  try { ffmpeg = require('ffmpeg-static') || 'ffmpeg'; } catch { /* в CI есть системный */ }
+
+  const { data } = await api('GET', `${IG_USER_ID}/media`, {
+    fields: 'id,media_type,timestamp,permalink,media_url',
+    limit: String(limit),
+  });
+  for (const m of data.filter(v => v.media_type === 'VIDEO')) {
+    const when = new Date(m.timestamp).toLocaleString('ru-RU', { timeZone: 'Europe/Moscow' });
+    let copyright = '';
+    try {
+      const info = await api('GET', m.id, { fields: 'copyright_check_information' });
+      if (info.copyright_check_information) copyright = ` | копирайт: ${JSON.stringify(info.copyright_check_information)}`;
+    } catch { /* поле отдаётся не для всех медиа */ }
+
+    if (!m.media_url) {
+      console.log(`${when} ${m.permalink}\n   media_url недоступен${copyright}`);
+      continue;
+    }
+    const tmp = path.join(os.tmpdir(), `iga-${m.id}.mp4`);
+    fs.writeFileSync(tmp, Buffer.from(await (await fetch(m.media_url)).arrayBuffer()));
+    const r = spawnSync(ffmpeg, ['-i', tmp, '-af', 'volumedetect', '-f', 'null', '-'], { encoding: 'utf8' });
+    const txt = (r.stderr || '') + (r.stdout || '');
+    const hasAudio = /Stream #[^\n]*Audio/.test(txt);
+    const mean = (/mean_volume: ([-\d.]+) dB/.exec(txt) || [])[1];
+    const max = (/max_volume: ([-\d.]+) dB/.exec(txt) || [])[1];
+    const verdict = !hasAudio ? 'ДОРОЖКИ НЕТ — Instagram убрал звук'
+      : max !== undefined && Number(max) < -50 ? `дорожка есть, но ТИШИНА (max ${max} дБ)`
+      : `звук на месте: mean ${mean} дБ, max ${max} дБ`;
+    console.log(`${when} ${m.permalink}\n   ${verdict}${copyright}`);
+    fs.rmSync(tmp, { force: true });
+  }
+}
+
 (async () => {
   const me = await api('GET', IG_USER_ID, { fields: 'username,followers_count,media_count' });
   console.log(`Токен действителен: @${me.username} — ${me.followers_count} подписчиков, ${me.media_count} публикаций`);
+  if (audioCheck) { await showAudioCheck(); return; }
   if (recentOnly) { await showRecent(); return; }
   if (checkOnly) return;
 
