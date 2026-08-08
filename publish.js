@@ -256,13 +256,21 @@ async function showAudioCheck(limit = 6) {
       continue;
     }
     const tmp = path.join(os.tmpdir(), `iga-${m.id}.mp4`);
-    fs.writeFileSync(tmp, Buffer.from(await (await fetch(m.media_url)).arrayBuffer()));
+    const res = await fetch(m.media_url);
+    fs.writeFileSync(tmp, Buffer.from(await res.arrayBuffer()));
+    const size = fs.statSync(tmp).size;
     const r = spawnSync(ffmpeg, ['-i', tmp, '-af', 'volumedetect', '-f', 'null', '-'], { encoding: 'utf8' });
     const txt = (r.stderr || '') + (r.stdout || '');
+    const hasVideo = /Stream #[^\n]*Video/.test(txt);
     const hasAudio = /Stream #[^\n]*Audio/.test(txt);
     const mean = (/mean_volume: ([-\d.]+) dB/.exec(txt) || [])[1];
     const max = (/max_volume: ([-\d.]+) dB/.exec(txt) || [])[1];
-    const verdict = !hasAudio ? 'ДОРОЖКИ НЕТ — Instagram убрал звук'
+    // «Дорожки нет» имеет смысл, только если файл вообще скачался и читается:
+    // CDN Instagram может ответить дата-центру страницей ошибки, и тогда
+    // ffmpeg не найдёт ни звука, ни видео — это сбой проверки, а не ролика.
+    const verdict = !hasVideo
+      ? `ФАЙЛ НЕ ПРОЧИТАН (${res.status}, ${size} байт) — вывод о звуке делать нельзя`
+      : !hasAudio ? 'ДОРОЖКИ НЕТ — Instagram убрал звук'
       : max !== undefined && Number(max) < -50 ? `дорожка есть, но ТИШИНА (max ${max} дБ)`
       : `звук на месте: mean ${mean} дБ, max ${max} дБ`;
     console.log(`${when} ${m.permalink}\n   ${verdict}${copyright}`);
