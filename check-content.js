@@ -70,6 +70,12 @@ for (const p of QUEUE.posts) {
     err(p.id, 'нет подписи — публикация её не выпустит (правило «всегда подпись»)');
   }
 
+  // Правило автора после «Слов-призраков» 09.08: таблица в ленте — только
+  // Reels с анимацией и музыкой, статичной картинкой она не выходит.
+  if (!isReels && (p.slides || []).some(s => s.layout === 'table')) {
+    err(p.id, 'таблица статичным постом — конвертируйте в Reels (анимация + музыка)');
+  }
+
   if (isReels) {
     const video = path.join(__dirname, 'content', 'reels', `${p.id}.mp4`);
     if (!fs.existsSync(video)) {

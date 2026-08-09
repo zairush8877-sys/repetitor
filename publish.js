@@ -162,6 +162,31 @@ function requireCaption(post) {
   }
 }
 
+/**
+ * Репост публикации в сторис (правило автора): после каждого выхода в ленту
+ * подписчики видят анонс и в сторис. Родной стикер «поделиться постом» через
+ * API недоступен, поэтому в сторис уходит сама картинка: у Reels — финальный
+ * кадр с таблицей, у поста — первый слайд. Ошибка репоста публикацию не
+ * роняет: пост уже вышел, статус обязан записаться.
+ */
+async function repostToStory(post) {
+  const image = post.videoUrl
+    ? assetUrl(post.videoUrl).replace(/\.mp4$/, '-frame.jpg')
+    : assetUrl((post.imageUrls || [])[0] || '');
+  if (!image) return;
+  try {
+    const { id } = await api('POST', `${IG_USER_ID}/media`, {
+      media_type: 'STORIES',
+      image_url: image,
+    });
+    await waitReady(id, `${post.id} сторис-анонс`);
+    await api('POST', `${IG_USER_ID}/media_publish`, { creation_id: id });
+    console.log('  ✓ репост в сторис');
+  } catch (e) {
+    console.log(`  ⚠ репост в сторис не вышел: ${e.message}`);
+  }
+}
+
 async function publishPost(post) {
   requireCaption(post);
   const urls = (post.imageUrls || []).map(assetUrl);
@@ -355,5 +380,6 @@ async function showAudioCheck(limit = 6) {
     post.publishedAt = new Date().toISOString();
     fs.writeFileSync(QUEUE, JSON.stringify(queue, null, 2));
     console.log(`  ✓ Опубликовано, media id: ${mediaId}`);
+    await repostToStory(post);
   }
 })().catch(e => { console.error('Ошибка:', e.message); process.exit(1); });
