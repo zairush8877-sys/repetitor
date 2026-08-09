@@ -34,6 +34,12 @@ jobs:
         with:
           node-version: '22'
 
+      # Контроль качества перед выпуском (скилл my-skill-instmom).
+      - name: Проверка контента
+        run: |
+          npm install --no-save ffmpeg-static
+          node check-content.js
+
       - name: Опубликовать сторис дня
         env:
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}

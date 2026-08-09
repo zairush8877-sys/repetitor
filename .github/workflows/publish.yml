@@ -30,6 +30,13 @@ jobs:
         with:
           node-version: '22'
 
+      # Контроль качества перед выпуском (скилл my-skill-instmom): музыка,
+      # композитор, обложка, подпись, фотофоны, лимиты. Красный — не публикуем.
+      - name: Проверка контента
+        run: |
+          npm install --no-save ffmpeg-static
+          node check-content.js
+
       - name: Проверить токен
         env:
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
