@@ -36,14 +36,13 @@
         "#онлайнзанятия"
       ],
       "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-08-12-kak-prohodit.mp4",
-      "background": "content/bg/foto-polka.jpg",
-      "lightBg": true,
       "coverOffsetMs": 7200,
       "music": {
         "composer": "Модест Мусоргский",
         "piece": "«Ночь на Лысой горе»",
         "license": "Public domain"
-      }
+      },
+      "plainBg": true
     },
     {
       "id": "2026-08-10-ege10klass",

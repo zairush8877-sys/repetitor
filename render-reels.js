@@ -67,7 +67,11 @@ function pageHtml(post, handle) {
   // а таблица — на кремовую карточку, чтобы красный/зелёный оставались читаемыми.
   const bgFile = post.background && path.join(__dirname, post.background);
   const hasPhoto = bgFile && fs.existsSync(bgFile);
-  const bgCss = hasPhoto
+  // plainBg: бумага «Правки» вместо фотографии — буквы прямо по бежевому,
+  // без карточки и плашек (просьба автора для инструкции).
+  const bgCss = post.plainBg
+    ? `background: radial-gradient(1100px 900px at 30% 18%, #f6f2e9 0%, transparent 62%), #efe9dd`
+    : hasPhoto
     ? `background: url(data:image/jpeg;base64,${fs.readFileSync(bgFile).toString('base64')}) center/cover`
     : `background: ${PALETTE.bg}`;
   // Светлый фон: без затемнения, заголовок тёмный (белый бы выцвел)
@@ -248,7 +252,7 @@ const ROTATION = require('./rotation');
   // и заметно это станет только в готовом ролике.
   if (post.rows.length > 10) { console.error(`У поста «${id}» ${post.rows.length} пар — больше десяти в кадр не помещается.`); process.exit(1); }
 
-  const bg = ROTATION.chooseBackground(post);
+  const bg = post.plainBg ? null : ROTATION.chooseBackground(post);
   if (bg) {
     post.background = bg.file;
     post.lightBg = bg.light;
