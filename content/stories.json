@@ -69,7 +69,13 @@
       "b": "шоппинг",
       "right": "a",
       "why": "В словаре РАН — одна П: рядом однокоренные шоп и шоп-тур.\nТа же логика, что блог — блогер: пишем с одной П.",
-      "source": "РОС РАН; gramota.ru/meta/shoping"
+      "source": "РОС РАН; gramota.ru/meta/shoping",
+      "status": "published",
+      "publishedAt": "2026-08-09T07:41:43.906Z",
+      "publishedMediaIds": [
+        "18103758464463700",
+        "17863492233639576"
+      ]
     },
     {
       "id": "st-06",
