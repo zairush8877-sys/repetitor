@@ -27,7 +27,12 @@ function pickFrom(list, key) {
 
 function backgrounds() {
   if (!fs.existsSync(BG_INDEX)) return [];
-  return JSON.parse(fs.readFileSync(BG_INDEX, 'utf8')).backgrounds || [];
+  const list = JSON.parse(fs.readFileSync(BG_INDEX, 'utf8')).backgrounds || [];
+  // Правило автора: фоном идут её фотографии из папки Google Drive (foto-*).
+  // Рисованные варианты остаются запасным путём на случай пустой папки
+  // и продолжают работать как закреплённые (post.background).
+  const photos = list.filter(b => path.basename(b.file).startsWith('foto-'));
+  return photos.length ? photos : list;
 }
 
 /**
