@@ -146,6 +146,10 @@ function tableHtml(slide, index, total, handle, postId) {
 function slideHtml(slide, index, total, handle, postId) {
   if (slide.layout === 'table') return tableHtml(slide, index, total, handle, postId);
   const mark = slide.mark;
+  // Обложка карусели — на фотографии автора: первый слайд решает, листать ли.
+  // Текст лежит на бумажной карточке (по снимку он нечитаем), внутренние
+  // слайды остаются на спокойной бумаге, чтобы длинный текст читался легко.
+  const cover = index === 0 && !mark ? chooseBackground(postId) : null;
   const badge =
     mark === 'wrong' ? `<div class="mark wrong">✕</div>` :
     mark === 'right' ? `<div class="mark right">✓</div>` : '';
@@ -157,7 +161,7 @@ function slideHtml(slide, index, total, handle, postId) {
     * { box-sizing: border-box; margin: 0; padding: 0 }
     body {
       width: ${W}px; height: ${H}px;
-      background: ${mark === 'cta' ? PALETTE.accent : PALETTE.bg};
+      background: ${cover ? `linear-gradient(rgba(24,18,12,.16), rgba(24,18,12,.38)), url(${cover.dataUri}) center/cover` : mark === 'cta' ? PALETTE.accent : PALETTE.bg};
       color: ${mark === 'cta' ? '#fff' : PALETTE.ink};
       font-family: ${FONTS.body()};
       display: flex; flex-direction: column;
@@ -187,10 +191,20 @@ function slideHtml(slide, index, total, handle, postId) {
     .dots { display: flex; gap: 10px; align-items: center }
     .dot { width: 12px; height: 12px; border-radius: 50%; background: ${mark === 'cta' ? 'rgba(255,255,255,.35)' : '#ded6c8'} }
     .dot.on { background: ${mark === 'cta' ? '#fff' : accentColor} }
+    ${cover ? `.card {
+      background: ${PALETTE.bg}; border-radius: 26px; padding: 70px 60px;
+      box-shadow: 0 28px 80px rgba(0,0,0,.35);
+      margin: auto 0; position: relative; z-index: 1;
+    }
+    .card .kicker { margin-bottom: 28px }
+    .card .text { flex: none }
+    .foot { position: relative; z-index: 1; color: rgba(255,248,238,.85);
+            text-shadow: 0 2px 12px rgba(0,0,0,.4) }` : ''}
   </style></head><body>
-    <div class="kicker">${esc(slide.kicker || '')}</div>
+    ${cover ? `<div class="card"><div class="kicker">${esc(slide.kicker || '')}</div>
+    <div class="text">${nl2br(slide.text)}</div></div>` : `<div class="kicker">${esc(slide.kicker || '')}</div>
     ${badge}
-    <div class="text">${nl2br(slide.text)}</div>
+    <div class="text">${nl2br(slide.text)}</div>`}
     <div class="foot">
       <span>@${esc(handle)}</span>
       ${total > 1 ? `<span class="dots">${Array.from({ length: total }, (_, i) =>
