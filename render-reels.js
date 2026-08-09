@@ -50,7 +50,14 @@ const PALETTE = {
 const esc = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 
 function pageHtml(post, handle) {
-  const rows = post.rows.map(([bad, good], i) => `
+  // Режим шагов (post.steps): инструкция, а не работа над ошибками — строки
+  // нумеруются и появляются без зачёркивания, вся остальная механика общая.
+  const steps = !!post.steps;
+  const rows = post.rows.map(([bad, good], i) => steps ? `
+    <div class="row" id="row${i}">
+      <span class="bad"><i class="stepnum">${String(i + 1).padStart(2, '0')}</i>${esc(bad)}</span>
+      <span class="good">${esc(good)}</span>
+    </div>` : `
     <div class="row" id="row${i}">
       <span class="bad"><span class="badtext">${esc(bad)}</span><span class="badstrike" aria-hidden="true">${esc(bad)}</span></span>
       <span class="good">${esc(good)}</span>
@@ -162,6 +169,12 @@ function pageHtml(post, handle) {
       clip-path: inset(-10% 100% -10% 0);
     }
     .good { color: ${PRAVKA.ok}; opacity: 0 }
+    ${steps ? `
+    .head { visibility: hidden; height: 0; padding-bottom: 0; border-bottom: none }
+    .bad { color: ${PRAVKA.ink} }
+    .stepnum { font-family: ${FONTS.mono()}; font-style: normal; font-weight: 400;
+               color: ${PRAVKA.err}; margin-right: 18px }
+    .good { color: rgba(33,29,24,.78); font-weight: 400 }` : ''}
     .foot {
       font-family: ${FONTS.mono()};
       font-size: 32px;
@@ -193,8 +206,8 @@ function pageHtml(post, handle) {
           row.style.opacity = appear;
           row.style.transform = 'translateY(' + (1 - appear) * 26 + 'px)';
           const strike = easeOut(Math.min(Math.max((local - 0.32) / 0.26, 0), 1));
-          row.querySelector('.badstrike').style.clipPath =
-            'inset(-10% ' + (1 - strike) * 100 + '% -10% 0)';
+          const bs = row.querySelector('.badstrike');
+          if (bs) bs.style.clipPath = 'inset(-10% ' + (1 - strike) * 100 + '% -10% 0)';
           const good = easeOut(Math.min(Math.max((local - 0.5) / 0.28, 0), 1));
           const g = row.querySelector('.good');
           g.style.opacity = good;
