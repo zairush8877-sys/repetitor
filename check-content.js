@@ -90,10 +90,8 @@ for (const p of QUEUE.posts) {
     if (!p.coverOffsetMs) {
       err(p.id, 'нет coverOffsetMs — Instagram выберет обложку сам, в сетке будет пустой заголовок');
     }
-    if (!p.background) {
+    if (!p.background && !p.plainBg) {
       warn(p.id, 'фон не зафиксирован в очереди — перерендерите ролик');
-    } else if (!path.basename(p.background).startsWith('foto-')) {
-      warn(p.id, `фон ${path.basename(p.background)} — не фотография автора из папки Google Drive`);
     }
   }
 }

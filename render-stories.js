@@ -50,6 +50,9 @@ const chooseTrack = id => ROTATION.chooseTrack(id, 'story');
 const BG_INDEX = path.join(__dirname, 'content', 'bg', 'index.json');
 function choosePhoto(id) {
   if (!fs.existsSync(BG_INDEX)) return null;
+  // Разнообразие (правило автора): примерно каждая третья сторис выходит
+  // на чистой палитре «Правки» без снимка — лента не сливается в фоторяд.
+  if (ROTATION.hash(id + 'bgmode') % 3 === 2) return null;
   const photos = (JSON.parse(fs.readFileSync(BG_INDEX, 'utf8')).backgrounds || [])
     .filter(b => path.basename(b.file).startsWith('foto-'))
     .filter(b => fs.existsSync(path.join(__dirname, b.file)));

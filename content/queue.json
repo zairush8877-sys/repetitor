@@ -153,14 +153,13 @@
         "#подготовкакегэ"
       ],
       "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-08-10-netslov-reels.mp4",
-      "background": "content/bg/foto-chehov.jpg",
-      "lightBg": true,
       "coverOffsetMs": 14100,
       "music": {
         "composer": "Модест Мусоргский",
         "piece": "«Ночь на Лысой горе»",
         "license": "Public domain"
-      }
+      },
+      "plainBg": true
     },
     {
       "id": "2026-08-10-ege-paronimy",
@@ -342,7 +341,7 @@
         "license": "Public domain"
       },
       "coverOffsetMs": 11800,
-      "background": "content/bg/foto-chehov.jpg",
+      "background": "content/bg/foto-shkaf.jpg",
       "lightBg": true
     },
     {
