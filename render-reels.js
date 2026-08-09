@@ -66,10 +66,8 @@ function pageHtml(post, handle) {
   // Светлый фон: без затемнения, заголовок тёмный (белый бы выцвел)
   const light = !!post.lightBg;
   const generated = !!post.generatedBg;
-  const titleColor = light ? PALETTE.ink : '#fdf9f2';
-  const kickerColor = light ? PALETTE.accent : 'rgba(255,244,230,.92)';
-  const footColor = light ? PALETTE.muted : 'rgba(255,244,230,.85)';
-  const footBold = light ? PALETTE.ink : '#fff';
+  const footColor = hasPhoto ? 'rgba(255,244,230,.88)' : (light ? PALETTE.muted : 'rgba(255,244,230,.85)');
+  const footBold = hasPhoto ? '#fff' : (light ? PALETTE.ink : '#fff');
 
   // Кегль таблицы не может быть постоянным: длинные пары переносятся на вторую
   // строку, и при десяти парах нижняя уезжает за нижнюю границу кадра — на
@@ -79,7 +77,8 @@ function pageHtml(post, handle) {
     ? (post.rows.length >= 10 && longest > 18 ? 34 : 39)
     : 46;
   const rowPad = rowSize >= 46 ? 21 : rowSize >= 39 ? 15 : 11;
-  const shadow = light ? '' : 'text-shadow: 0 2px 14px rgba(0,0,0,.45);';
+  // Подпись на фото стоит на тёмной полосе скрима — тень нужна всегда.
+  const shadow = 'text-shadow: 0 2px 14px rgba(0,0,0,.45);';
 
   return `<!doctype html><html lang="ru"><head><meta charset="utf-8"><style>
     ${FONTS.fontFaceCss()}
@@ -94,22 +93,29 @@ function pageHtml(post, handle) {
       padding: 300px 80px 150px;
       position: relative;
     }
-    ${hasPhoto && !light && !generated ? `body::before {
+    ${hasPhoto ? `body::before {
       content: ""; position: absolute; inset: 0;
-      background: linear-gradient(180deg, rgba(24,18,12,.30) 0%, rgba(24,18,12,.10) 40%, rgba(24,18,12,.28) 100%);
+      background: linear-gradient(180deg, rgba(24,18,12,.10) 0%, transparent 28%, transparent 70%, rgba(24,18,12,.45) 100%);
     }` : ''}
     ${hasPhoto ? `.kicker, .title, .card, .foot { position: relative; z-index: 1 }` : ''}
     .kicker {
       font-family: ${FONTS.mono()};
       font-size: 30px; font-weight: 400; letter-spacing: .3em; text-transform: uppercase;
-      color: ${hasPhoto ? kickerColor : PALETTE.accent}; margin-bottom: 40px;
-      ${hasPhoto ? shadow : ''}
+      color: ${PALETTE.accent}; margin-bottom: 40px;
     }
     .title {
       font-family: ${FONTS.serif()};
-      font-size: 86px; letter-spacing: -.01em; line-height: 1.16; font-weight: 700; margin-bottom: 64px;
-      ${hasPhoto ? `color: ${titleColor}; ${light ? '' : 'text-shadow: 0 3px 22px rgba(0,0,0,.5);'}` : ''}
+      font-size: 86px; letter-spacing: -.01em; line-height: 1.28; font-weight: 700; margin-bottom: 64px;
     }
+    /* На фотографии текст не кладётся прямо на снимок (система «Правка»):
+       кикер и заголовок живут на бумажных плашках — читаемо и на тёмном
+       книжном корешке, и на светлой странице. Без фото плашка прозрачна. */
+    .plate {
+      ${hasPhoto ? `background: rgba(239,233,221,.94); color: ${PALETTE.ink};
+      box-decoration-break: clone; -webkit-box-decoration-break: clone;
+      padding: 6px 20px; border-radius: 6px;` : ''}
+    }
+    .kicker .plate { ${hasPhoto ? `color: ${PALETTE.accent}; padding: 10px 20px;` : ''} }
     .card {
       ${hasPhoto ? `background: #ffffff; border-radius: 22px;
       padding: 30px 44px 20px; box-shadow: 0 24px 70px rgba(0,0,0,.35);` : 'flex: 1;'}
@@ -165,8 +171,8 @@ function pageHtml(post, handle) {
     }
     .foot b { color: ${hasPhoto ? footBold : PALETTE.ink}; font-weight: 650 }
   </style></head><body>
-    <div class="kicker">${esc(post.kicker || '')}</div>
-    <div class="title">${esc(post.title || '').replace(/\n/g, '<br>')}</div>
+    <div class="kicker"><span class="plate">${esc(post.kicker || '')}</span></div>
+    <div class="title"><span class="plate">${esc(post.title || '').replace(/\n/g, '<br>')}</span></div>
     <div class="card">
       <div class="head">
         <span class="h-bad"><i class="m-x"></i>Неправильно</span>
