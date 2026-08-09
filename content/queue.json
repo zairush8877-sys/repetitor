@@ -60,7 +60,9 @@
         "piece": "«В пещере горного короля»",
         "license": "Public domain"
       },
-      "coverOffsetMs": 12970
+      "coverOffsetMs": 12950,
+      "background": "content/bg/foto-chehov.jpg",
+      "lightBg": true
     },
     {
       "id": "2026-08-24-ege-pleonazm",
@@ -179,7 +181,9 @@
         "piece": "Пятая симфония",
         "license": "Public domain"
       },
-      "coverOffsetMs": 11800
+      "coverOffsetMs": 11800,
+      "background": "content/bg/foto-chehov.jpg",
+      "lightBg": true
     },
     {
       "id": "2026-08-13-oge-ustnoe",
@@ -571,7 +575,9 @@
         "piece": "Пятая симфония",
         "license": "Public domain"
       },
-      "coverOffsetMs": 14100
+      "coverOffsetMs": 14100,
+      "background": "content/bg/foto-polo.jpg",
+      "lightBg": true
     },
     {
       "id": "2026-08-10-slitno",
@@ -628,7 +634,16 @@
           "уехал заграницу",
           "уехал за границу"
         ]
-      ]
+      ],
+      "background": "content/bg/foto-figury.jpg",
+      "lightBg": true,
+      "coverOffsetMs": 14100,
+      "music": {
+        "composer": "Джоаккино Россини",
+        "piece": "увертюра к «Вильгельму Теллю»",
+        "license": "Public domain"
+      },
+      "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-08-10-slitno.mp4"
     },
     {
       "id": "2026-08-09-rabota",
