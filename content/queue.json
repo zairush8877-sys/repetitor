@@ -102,7 +102,7 @@
       "date": "2026-08-10",
       "rubric": "Путают даже грамотные",
       "format": "Reels",
-      "status": "approved",
+      "status": "published",
       "kicker": "Слова-призраки",
       "title": "Слова, которых нет\nв литературном языке",
       "rows": [
@@ -161,7 +161,9 @@
         "piece": "«Ночь на Лысой горе»",
         "license": "Public domain"
       },
-      "plainBg": true
+      "plainBg": true,
+      "publishedMediaId": "18105342202884752",
+      "publishedAt": "2026-08-10T11:05:29.446Z"
     },
     {
       "id": "2026-08-10-ege-paronimy",
