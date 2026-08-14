@@ -7,7 +7,7 @@
       "date": "2026-08-12",
       "rubric": "Организационное",
       "format": "Reels",
-      "status": "approved",
+      "status": "published",
       "steps": true,
       "kicker": "Zoom · индивидуально",
       "title": "Как проходят\nзанятия",
@@ -42,7 +42,9 @@
         "piece": "«Ночь на Лысой горе»",
         "license": "Public domain"
       },
-      "plainBg": true
+      "plainBg": true,
+      "publishedMediaId": "17917343331222488",
+      "publishedAt": "2026-08-14T15:38:18.425Z"
     },
     {
       "id": "2026-08-10-ege10klass",
