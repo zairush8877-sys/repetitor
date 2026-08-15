@@ -172,7 +172,7 @@
       "date": "2026-08-10",
       "rubric": "Разбор задания",
       "format": "Reels",
-      "status": "approved",
+      "status": "published",
       "kicker": "ЕГЭ, задание 5",
       "title": "Эти пары путают\nдаже отличники",
       "rows": [
@@ -227,7 +227,9 @@
       },
       "coverOffsetMs": 12950,
       "background": "content/bg/foto-chehov.jpg",
-      "lightBg": true
+      "lightBg": true,
+      "publishedMediaId": "18341260495254809",
+      "publishedAt": "2026-08-15T15:03:58.759Z"
     },
     {
       "id": "2026-08-24-ege-pleonazm",
