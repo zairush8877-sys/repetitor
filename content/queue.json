@@ -299,7 +299,7 @@
       "date": "2026-08-17",
       "rubric": "Разбор задания",
       "format": "Reels",
-      "status": "approved",
+      "status": "published",
       "kicker": "Задание 7, ЕГЭ-2026",
       "title": "Задание 7 — уже не то,\nчему учили",
       "rows": [
@@ -350,7 +350,9 @@
       },
       "coverOffsetMs": 11800,
       "background": "content/bg/foto-shkaf.jpg",
-      "lightBg": true
+      "lightBg": true,
+      "publishedMediaId": "18113837779941061",
+      "publishedAt": "2026-08-16T15:04:35.208Z"
     },
     {
       "id": "2026-08-13-oge-ustnoe",
