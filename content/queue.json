@@ -236,7 +236,7 @@
       "date": "2026-08-24",
       "rubric": "Разбор задания",
       "format": "Reels",
-      "status": "approved",
+      "status": "published",
       "kicker": "ЕГЭ, задание 6",
       "title": "Так говорят все —\nи теряют балл",
       "rows": [
@@ -292,7 +292,9 @@
         "piece": "«Полёт валькирий»",
         "license": "Public domain"
       },
-      "coverOffsetMs": 12970
+      "coverOffsetMs": 12970,
+      "publishedMediaId": "18025855304683972",
+      "publishedAt": "2026-08-17T15:12:57.671Z"
     },
     {
       "id": "2026-08-17-ege-zadanie7",
