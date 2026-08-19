@@ -24,6 +24,18 @@
     {
       "file": "content/bgvideo/video-mashinka.mp4",
       "mood": "печатная машинка, пар, гирлянда"
+    },
+    {
+      "file": "content/bgvideo/video-chernila.mp4",
+      "mood": "чернила растворяются в воде, макро"
+    },
+    {
+      "file": "content/bgvideo/video-chasy.mp4",
+      "mood": "маятник настенных часов, пустой циферблат"
+    },
+    {
+      "file": "content/bgvideo/video-samovar.mp4",
+      "mood": "самовар и чай в подстаканнике у окна"
     }
   ]
 }
