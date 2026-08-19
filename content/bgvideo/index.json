@@ -1,0 +1,29 @@
+{
+  "_comment": "Живые фоны (Higgsfield, Seedance 2.0, 10 сек, 1080x1920, без звука). Назначаются вручную полем videoBg поста — Reels собирает кадры карточки поверх зацикленного ролика. Сгенерированный текст в кадре запрещён: бумага и страницы пустые.",
+  "videos": [
+    {
+      "file": "content/bgvideo/video-dozhd.mp4",
+      "mood": "дождь за окном кабинета, лампа"
+    },
+    {
+      "file": "content/bgvideo/video-biblioteka.mp4",
+      "mood": "луч света в библиотеке, пылинки, страницы"
+    },
+    {
+      "file": "content/bgvideo/video-svecha.mp4",
+      "mood": "перо, чернильница, свеча"
+    },
+    {
+      "file": "content/bgvideo/video-shahmaty.mp4",
+      "mood": "шахматы у окна, штора на сквозняке"
+    },
+    {
+      "file": "content/bgvideo/video-kolonny.mp4",
+      "mood": "двор с колоннами, листопад"
+    },
+    {
+      "file": "content/bgvideo/video-mashinka.mp4",
+      "mood": "печатная машинка, пар, гирлянда"
+    }
+  ]
+}
