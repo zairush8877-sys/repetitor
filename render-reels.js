@@ -89,11 +89,13 @@ function pageHtml(post, handle) {
   // Кегль таблицы не может быть постоянным: длинные пары переносятся на вторую
   // строку, и при десяти парах нижняя уезжает за нижнюю границу кадра — на
   // превью это видно, а в готовом ролике уже поздно.
-  const longest = Math.max(...post.rows.flat().map(s => s.length));
-  const rowSize = post.rows.length >= 9 || longest > 18
-    ? (post.rows.length >= 10 && longest > 18 ? 34 : 39)
-    : 46;
-  const rowPad = rowSize >= 46 ? 21 : rowSize >= 39 ? 15 : 11;
+  // Кегль считается не по числу пар, а по числу СТРОК с учётом переносов:
+  // колонка вмещает ~16 знаков, длинная сторона занимает две-три строки,
+  // и девять пар с переносами не влезали там, где влезали десять коротких.
+  const lines = post.rows.reduce(
+    (n, r) => n + Math.max(1, Math.ceil(Math.max(r[0].length, r[1].length) / 16)), 0);
+  const rowSize = lines >= 15 ? 30 : lines >= 12 ? 34 : lines >= 10 ? 39 : 46;
+  const rowPad = rowSize >= 46 ? 21 : rowSize >= 39 ? 15 : rowSize >= 34 ? 12 : 10;
   // Подпись на фото стоит на тёмной полосе скрима — тень нужна всегда.
   const shadow = 'text-shadow: 0 2px 14px rgba(0,0,0,.45);';
 
