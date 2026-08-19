@@ -114,6 +114,36 @@
       "file": "content/bg/foto-keramika.jpg",
       "light": true,
       "generated": false
+    },
+    {
+      "file": "content/bg/gen-dozhd.jpg",
+      "light": false,
+      "generated": false
+    },
+    {
+      "file": "content/bg/gen-oranzhereya.jpg",
+      "light": true,
+      "generated": false
+    },
+    {
+      "file": "content/bg/gen-sokrat.jpg",
+      "light": false,
+      "generated": false
+    },
+    {
+      "file": "content/bg/gen-lestnitsa.jpg",
+      "light": true,
+      "generated": false
+    },
+    {
+      "file": "content/bg/gen-svechi.jpg",
+      "light": false,
+      "generated": false
+    },
+    {
+      "file": "content/bg/gen-nisha.jpg",
+      "light": false,
+      "generated": false
     }
   ]
 }

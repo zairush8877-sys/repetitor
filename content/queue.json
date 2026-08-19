@@ -285,8 +285,6 @@
         "#репетиторпорусскому"
       ],
       "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-08-24-ege-pleonazm.mp4",
-      "background": "content/bg/foto-mashinka.jpg",
-      "lightBg": false,
       "music": {
         "composer": "Рихард Вагнер",
         "piece": "«Полёт валькирий»",
@@ -294,7 +292,8 @@
       },
       "coverOffsetMs": 12970,
       "publishedMediaId": "18025855304683972",
-      "publishedAt": "2026-08-17T15:12:57.671Z"
+      "publishedAt": "2026-08-17T15:12:57.671Z",
+      "videoBg": "content/bgvideo/video-dozhd.mp4"
     },
     {
       "id": "2026-08-17-ege-zadanie7",
@@ -351,10 +350,9 @@
         "license": "Public domain"
       },
       "coverOffsetMs": 11800,
-      "background": "content/bg/foto-shkaf.jpg",
-      "lightBg": true,
       "publishedMediaId": "18113837779941061",
-      "publishedAt": "2026-08-16T15:04:35.208Z"
+      "publishedAt": "2026-08-16T15:04:35.208Z",
+      "videoBg": "content/bgvideo/video-biblioteka.mp4"
     },
     {
       "id": "2026-08-13-oge-ustnoe",

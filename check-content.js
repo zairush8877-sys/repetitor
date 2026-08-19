@@ -90,7 +90,7 @@ for (const p of QUEUE.posts) {
     if (!p.coverOffsetMs) {
       err(p.id, 'нет coverOffsetMs — Instagram выберет обложку сам, в сетке будет пустой заголовок');
     }
-    if (!p.background && !p.plainBg) {
+    if (!p.background && !p.plainBg && !p.videoBg) {
       warn(p.id, 'фон не зафиксирован в очереди — перерендерите ролик');
     }
   }

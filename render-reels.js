@@ -66,11 +66,17 @@ function pageHtml(post, handle) {
   // С фоном-фотографией заголовок ложится прямо на снимок (белым, с тенью),
   // а таблица — на кремовую карточку, чтобы красный/зелёный оставались читаемыми.
   const bgFile = post.background && path.join(__dirname, post.background);
-  const hasPhoto = bgFile && fs.existsSync(bgFile);
+  // Видеофон: кадры рендерятся с прозрачным телом и накладываются на
+  // зацикленный ролик в ffmpeg — стили (карточка, плашки, скрим) как у фото.
+  const videoFile = post.videoBg && path.join(__dirname, post.videoBg);
+  const hasVideoBg = videoFile && fs.existsSync(videoFile);
+  const hasPhoto = (bgFile && fs.existsSync(bgFile)) || hasVideoBg;
   // plainBg: бумага «Правки» вместо фотографии — буквы прямо по бежевому,
   // без карточки и плашек (просьба автора для инструкции).
   const bgCss = post.plainBg
     ? `background: radial-gradient(1100px 900px at 30% 18%, #f6f2e9 0%, transparent 62%), #efe9dd`
+    : hasVideoBg
+    ? `background: transparent`
     : hasPhoto
     ? `background: url(data:image/jpeg;base64,${fs.readFileSync(bgFile).toString('base64')}) center/cover`
     : `background: ${PALETTE.bg}`;
@@ -252,7 +258,9 @@ const ROTATION = require('./rotation');
   // и заметно это станет только в готовом ролике.
   if (post.rows.length > 10) { console.error(`У поста «${id}» ${post.rows.length} пар — больше десяти в кадр не помещается.`); process.exit(1); }
 
-  const bg = post.plainBg ? null : ROTATION.chooseBackground(post);
+  const videoBgFile = post.videoBg && path.join(__dirname, post.videoBg);
+  const useVideoBg = !!(videoBgFile && fs.existsSync(videoBgFile));
+  const bg = post.plainBg || useVideoBg ? null : ROTATION.chooseBackground(post);
   if (bg) {
     post.background = bg.file;
     post.lightBg = bg.light;
@@ -301,7 +309,7 @@ const ROTATION = require('./rotation');
     await page.evaluate(
       ([t, intro, step]) => window.seek(t, intro, step),
       [f / FPS, INTRO, ROW_STEP]);
-    await page.screenshot({ path: path.join(tmp, `f${String(f).padStart(4, '0')}.png`) });
+    await page.screenshot({ path: path.join(tmp, `f${String(f).padStart(4, '0')}.png`), omitBackground: useVideoBg });
     if (f % 60 === 0) console.log(`кадр ${f}/${frames}`);
   }
   await browser.close();
@@ -319,10 +327,21 @@ const ROTATION = require('./rotation');
   // Обрыв на полуслове слышен как брак, поэтому в конце уводим громкость.
   const fade = `afade=t=in:st=0:d=0.8,afade=t=out:st=${Math.max(0, total - 1.2).toFixed(2)}:d=1.2`;
 
+  // Видеофон: ролик зацикливается и кадрируется под 1080×1920, поверх него
+  // ложатся PNG-кадры с прозрачным телом (карточка, плашки, скрим — в них).
+  const videoBgArgs = useVideoBg
+    ? ['-stream_loop', '-1', '-i', videoBgFile]
+    : [];
   execFileSync(ffmpeg, [
     '-y',
+    ...videoBgArgs,
     '-framerate', String(FPS), '-i', path.join(tmp, 'f%04d.png'),
     ...audioIn,
+    ...(useVideoBg ? [
+      '-filter_complex',
+      `[0:v]fps=${FPS},scale=${W}:${H}:force_original_aspect_ratio=increase,crop=${W}:${H},setsar=1[bg];[bg][1:v]overlay=0:0:shortest=1[v]`,
+      '-map', '[v]', '-map', '2:a',
+    ] : []),
     '-t', total.toFixed(2),
     ...(track ? ['-af', fade] : []),
     '-c:v', 'libx264', '-preset', 'medium', '-crf', '18', '-pix_fmt', 'yuv420p',
