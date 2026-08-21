@@ -3,6 +3,121 @@
   "account": "mairova_a_a",
   "posts": [
     {
+      "id": "2026-08-25-diagnoz-zaimi",
+      "date": "2026-08-25",
+      "rubric": "Диагноз речи",
+      "format": "Карусель",
+      "status": "pending",
+      "caption": "«Займи мне денег» звучит в каждом втором разговоре — и почти никто не слышит подвоха. Занять — это взять в долг самому, поэтому просить можно только «одолжи». Моё любимое в подборке — «пироженое»: лишнее «е» туда протащила аналогия с «мороженое», где оно законно, потому что слово выросло из причастия «мороженый». А «пирожное» — от прилагательного «пирожный», и вставке там взяться неоткуда. Пролистайте все шесть слайдов и посчитайте, сколько привычек нашли у себя. Сколько совпало — цифрой в комментарии.",
+      "hashtags": [
+        "#русскийязык",
+        "#грамотнаяречь",
+        "#речевыеошибки",
+        "#правка"
+      ],
+      "slides": [
+        {
+          "kicker": "Правка: тест на грамотность",
+          "text": "«Займи мне денег» —\nтак в долг не просят\n\nВнутри ещё 5 привычек — проверьте, сколько у вас"
+        },
+        {
+          "layout": "pair",
+          "kicker": "привычка 1 из 6",
+          "pair": [
+            "займи мне денег",
+            "одолжи мне денег",
+            "Занять — взять в долг самому. Одолжить — дать."
+          ]
+        },
+        {
+          "layout": "pair",
+          "kicker": "привычка 2 из 6",
+          "pair": [
+            "играет значение",
+            "играет роль",
+            "Склейка двух выражений: играть роль + иметь значение."
+          ]
+        },
+        {
+          "layout": "pair",
+          "kicker": "привычка 3 из 6",
+          "pair": [
+            "вовнутрь",
+            "внутрь",
+            "«Вовнутрь» есть в словарях, но с пометой «сниж.»: в грамотной речи приставка лишняя."
+          ]
+        },
+        {
+          "layout": "pair",
+          "kicker": "привычка 4 из 6",
+          "pair": [
+            "извиняюсь",
+            "извините",
+            "«Извиняюсь» — разговорная форма, просьбы в ней нет. Вежливое извинение — «извините»."
+          ]
+        },
+        {
+          "layout": "pair",
+          "kicker": "привычка 5 из 6",
+          "pair": [
+            "залазить",
+            "залезать",
+            "«Лазить» — но «залезать»: приставка меняет глагол."
+          ]
+        },
+        {
+          "layout": "pair",
+          "kicker": "привычка 6 из 6",
+          "pair": [
+            "пироженое",
+            "пирожное",
+            "«Пирожное» — от «пирожный» (пирог). Лишнее «е» — ложная аналогия с «мороженое»."
+          ]
+        },
+        {
+          "layout": "table",
+          "kicker": "Правка",
+          "text": "Сохраните памятку: 6 правок",
+          "rows": [
+            [
+              "займи мне денег",
+              "одолжи мне денег"
+            ],
+            [
+              "играет значение",
+              "играет роль"
+            ],
+            [
+              "вовнутрь",
+              "внутрь"
+            ],
+            [
+              "извиняюсь",
+              "извините"
+            ],
+            [
+              "залазить",
+              "залезать"
+            ],
+            [
+              "пироженое",
+              "пирожное"
+            ]
+          ]
+        }
+      ],
+      "imageUrls": [
+        "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-08-25-diagnoz-zaimi-1.jpg",
+        "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-08-25-diagnoz-zaimi-2.jpg",
+        "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-08-25-diagnoz-zaimi-3.jpg",
+        "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-08-25-diagnoz-zaimi-4.jpg",
+        "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-08-25-diagnoz-zaimi-5.jpg",
+        "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-08-25-diagnoz-zaimi-6.jpg",
+        "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-08-25-diagnoz-zaimi-7.jpg",
+        "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-08-25-diagnoz-zaimi-8.jpg"
+      ]
+    },
+    {
       "id": "2026-08-24-odna-n",
       "date": "2026-08-24",
       "rubric": "ЕГЭ, задание 15",

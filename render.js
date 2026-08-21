@@ -143,8 +143,57 @@ function tableHtml(slide, index, total, handle, postId) {
   });
 }
 
+/** Слайд-пара для каруселей-«диагнозов»: ошибка зачёркнута, норма крупно. */
+function pairHtml(slide, index, total, handle, postId) {
+  const [wrong, right, why] = slide.pair;
+  return `<!doctype html><html lang="ru"><head><meta charset="utf-8"><style>
+    ${FONTS.fontFaceCss()}
+    @page { margin: 0 }
+    * { box-sizing: border-box; margin: 0; padding: 0 }
+    body {
+      width: ${W}px; height: ${H}px; background: ${PALETTE.bg}; color: ${PALETTE.ink};
+      font-family: ${FONTS.body()};
+      display: flex; flex-direction: column; padding: 90px 80px;
+      position: relative; overflow: hidden;
+    }
+    .kicker {
+      font-family: ${FONTS.head()};
+      font-size: 30px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase;
+      color: ${PALETTE.accent}; margin-bottom: 40px; min-height: 36px;
+    }
+    .mid { flex: 1; display: flex; flex-direction: column; justify-content: center; gap: 34px }
+    .wrong {
+      font-size: ${fontSize(wrong)}px; font-weight: 700; line-height: 1.2;
+      color: ${PALETTE.accent}; text-decoration: line-through;
+      text-decoration-thickness: 4px;
+    }
+    .right { font-size: ${fontSize(right)}px; font-weight: 700; line-height: 1.2; color: ${PALETTE.right} }
+    .why { font-size: 40px; line-height: 1.4; color: ${PALETTE.ink}; margin-top: 26px; max-width: 24ch }
+    .foot {
+      display: flex; justify-content: space-between; align-items: flex-end;
+      font-family: ${FONTS.head()}; font-size: 26px; color: ${PALETTE.muted};
+    }
+    .dots { display: flex; gap: 10px; align-items: center }
+    .dot { width: 12px; height: 12px; border-radius: 50%; background: #ded6c8 }
+    .dot.on { background: ${PALETTE.accent} }
+  </style></head><body>
+    <div class="kicker">${esc(slide.kicker || '')}</div>
+    <div class="mid">
+      <div class="wrong">${esc(wrong)}</div>
+      <div class="right">${esc(right)}</div>
+      <div class="why">${esc(why)}</div>
+    </div>
+    <div class="foot">
+      <span>@${esc(handle)}</span>
+      <span class="dots">${Array.from({ length: total }, (_, i) =>
+        `<span class="dot${i === index ? ' on' : ''}"></span>`).join('')}</span>
+    </div>
+  </body></html>`;
+}
+
 function slideHtml(slide, index, total, handle, postId) {
   if (slide.layout === 'table') return tableHtml(slide, index, total, handle, postId);
+  if (slide.layout === 'pair') return pairHtml(slide, index, total, handle, postId);
   const mark = slide.mark;
   // Обложка карусели — на фотографии автора: первый слайд решает, листать ли.
   // Текст лежит на бумажной карточке (по снимку он нечитаем), внутренние
