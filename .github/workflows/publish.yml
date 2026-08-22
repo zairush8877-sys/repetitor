@@ -66,4 +66,9 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add content/queue.json
           git commit -m "Опубликовано в Instagram"
-          git push
+          # Параллельный прогон мог запушить раньше (22.08 сторис и сводка
+          # столкнулись — статус публикации потерялся): rebase и повтор.
+          for i in 1 2 3; do
+            git push && break
+            git pull --rebase origin main
+          done
