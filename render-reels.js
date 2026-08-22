@@ -139,7 +139,16 @@ function pageHtml(post, handle) {
       ${hasPhoto ? `background: #ffffff; border-radius: 22px;
       padding: 30px 44px 20px; box-shadow: 0 24px 70px rgba(0,0,0,.35);` : 'flex: 1;'}
       display: flex; flex-direction: column; justify-content: flex-start;
+      position: relative;
     }
+    /* Полоса прогресса: рассеянному вниманию нужен сигнал «конец близко» —
+       заполняющаяся полоса поднимает досмотры (разбор виральных механик 19.08). */
+    .progress {
+      position: absolute; top: 0; left: 0; right: 0; height: 7px;
+      background: rgba(33,29,24,.10); overflow: hidden;
+      border-radius: ${hasPhoto ? '22px 22px 0 0' : '4px'};
+    }
+    .progress i { display: block; height: 100%; width: 0; background: ${PRAVKA.err} }
     .foot { margin-top: auto }
     .head {
       display: grid; grid-template-columns: 1fr 1fr; gap: 24px;
@@ -199,6 +208,7 @@ function pageHtml(post, handle) {
     <div class="kicker"><span class="plate">${esc(post.kicker || '')}</span></div>
     <div class="title"><span class="plate">${esc(post.title || '').replace(/\n/g, '<br>')}</span></div>
     <div class="card">
+      <div class="progress"><i></i></div>
       <div class="head">
         <span class="h-bad"><i class="m-x"></i>Неправильно</span>
         <span class="h-good"><i class="m-v"></i>Правильно</span>
@@ -225,6 +235,11 @@ function pageHtml(post, handle) {
           g.style.opacity = good;
           g.style.transform = 'translateX(' + (1 - good) * 22 + 'px)';
         });
+        const bar = document.querySelector('.progress i');
+        if (bar) {
+          const totalT = intro + document.querySelectorAll('.row').length * step + ${OUTRO};
+          bar.style.width = Math.min(100, Math.max(0, t / totalT * 100)) + '%';
+        }
         const card = document.querySelector('.card');
         if (!card) return;
         // Карточка входит мягко, чуть раньше первой строки, — а не вспыхивает
