@@ -68,7 +68,9 @@ jobs:
           git commit -m "Опубликовано в Instagram"
           # Параллельный прогон мог запушить раньше (22.08 сторис и сводка
           # столкнулись — статус публикации потерялся): rebase и повтор.
+          ok=0
           for i in 1 2 3; do
-            git push && break
+            if git push; then ok=1; break; fi
             git pull --rebase origin main
           done
+          [ "$ok" = "1" ]
