@@ -432,7 +432,7 @@
       "date": "2026-08-22",
       "rubric": "Взрослая грамматика",
       "format": "Reels",
-      "status": "approved",
+      "status": "published",
       "kicker": "Цифры в отчёте вас выдают",
       "title": "Числительные\nбез паники",
       "rows": [
@@ -486,7 +486,9 @@
         "composer": "Эдвард Григ",
         "piece": "«В пещере горного короля»",
         "license": "Public domain"
-      }
+      },
+      "publishedMediaId": "17940412389321003",
+      "publishedAt": "2026-08-22T14:52:58.849Z"
     },
     {
       "id": "2026-08-17-svodka",
