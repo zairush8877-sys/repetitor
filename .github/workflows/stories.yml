@@ -49,7 +49,7 @@ jobs:
             ${{ inputs.story_id }}
 
       - name: Отметить в банке
-        if: ${{ !inputs.dry_run }}
+        if: ${{ always() && !inputs.dry_run }}
         run: |
           if git diff --quiet content/stories.json; then
             echo "Банк не изменился — публиковать было нечего."
