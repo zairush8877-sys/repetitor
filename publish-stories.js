@@ -64,14 +64,25 @@ async function waitReady(containerId, label, tries = 30) {
  * с классикой, вопрос сменяется ответом сам. Видео обрабатывается дольше,
  * отсюда и запас по числу проверок.
  */
-async function publishFrame(url, label, isVideo) {
-  const { id } = await api('POST', `${IG_USER_ID}/media`, {
-    media_type: 'STORIES',
-    ...(isVideo ? { video_url: url } : { image_url: url }),
-  });
-  await waitReady(id, label, isVideo ? 60 : 30);
-  const { id: mediaId } = await api('POST', `${IG_USER_ID}/media_publish`, { creation_id: id });
-  return mediaId;
+async function publishFrame(url, label, isVideo, attempt = 1) {
+  try {
+    const { id } = await api('POST', `${IG_USER_ID}/media`, {
+      media_type: 'STORIES',
+      ...(isVideo ? { video_url: url } : { image_url: url }),
+    });
+    await waitReady(id, label, isVideo ? 60 : 30);
+    const { id: mediaId } = await api('POST', `${IG_USER_ID}/media_publish`, { creation_id: id });
+    return mediaId;
+  } catch (e) {
+    // ERROR у контейнера часто временный (обработка видео); одна повторная
+    // попытка спасает прогон — 22.08 без неё ответ викторины не вышел вовсе.
+    if (attempt < 2) {
+      console.log(`  … ${label}: ${e.message} — повтор через 15 сек`);
+      await new Promise(r => setTimeout(r, 15000));
+      return publishFrame(url, label, isVideo, attempt + 1);
+    }
+    throw e;
+  }
 }
 
 /** Есть ли у сторис собранное видео — проверяем по репозиторию, а не по диску: */
@@ -115,15 +126,19 @@ async function hasVideo(url) {
     return;
   }
 
-  const ids = [];
+  // Части публикуются с сохранением прогресса: если ответ упал после
+  // вышедшего вопроса, повторный запуск не дублирует вопрос в сторис.
+  const ids = story.publishedMediaIds || [];
   for (const [i, u] of urls.entries()) {
-    ids.push(await publishFrame(u, `${story.id} часть ${i + 1}`, video));
+    if (ids[i]) { console.log(`  – ${video ? 'видео' : 'кадр'} ${i + 1} уже выходил: ${ids[i]}`); continue; }
+    ids[i] = await publishFrame(u, `${story.id} часть ${i + 1}`, video);
+    story.publishedMediaIds = ids;
+    fs.writeFileSync(BANK, JSON.stringify(bank, null, 2));
     console.log(`  ✓ ${video ? 'видео' : 'кадр'} ${i + 1}: ${ids[i]}`);
   }
 
   story.status = 'published';
   story.publishedAt = new Date().toISOString();
-  story.publishedMediaIds = ids;
   fs.writeFileSync(BANK, JSON.stringify(bank, null, 2));
   console.log(`Готово. В банке осталось ${pending.length - 1}.`);
 })().catch(e => { console.error('Ошибка:', e.message); process.exit(1); });
