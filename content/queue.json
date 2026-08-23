@@ -371,7 +371,7 @@
       "date": "2026-08-23",
       "rubric": "Деловой русский",
       "format": "Reels",
-      "status": "approved",
+      "status": "published",
       "kicker": "Словари этого не подпишут",
       "title": "Деловая переписка\nбез позора",
       "rows": [
@@ -425,7 +425,9 @@
         "composer": "Рихард Вагнер",
         "piece": "«Полёт валькирий»",
         "license": "Public domain"
-      }
+      },
+      "publishedMediaId": "18091631687417361",
+      "publishedAt": "2026-08-23T15:09:13.862Z"
     },
     {
       "id": "2026-08-19-chislitelnye",
