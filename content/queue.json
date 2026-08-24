@@ -59,7 +59,13 @@
         "#орфография"
       ],
       "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-09-03-defis.mp4",
-      "videoBg": "content/bgvideo/video-shahmaty.mp4"
+      "videoBg": "content/bgvideo/video-shahmaty.mp4",
+      "coverOffsetMs": 14100,
+      "music": {
+        "composer": "Модест Мусоргский",
+        "piece": "«Ночь на Лысой горе»",
+        "license": "Public domain"
+      }
     },
     {
       "id": "2026-09-02-daty-v-dokumentah",
@@ -119,7 +125,13 @@
         "#русскийязык"
       ],
       "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-09-02-daty-v-dokumentah.mp4",
-      "plainBg": true
+      "plainBg": true,
+      "coverOffsetMs": 14100,
+      "music": {
+        "composer": "Рихард Вагнер",
+        "piece": "«Полёт валькирий»",
+        "license": "Public domain"
+      }
     },
     {
       "id": "2026-09-01-pre-pri",
@@ -179,7 +191,13 @@
         "#грамотность"
       ],
       "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-09-01-pre-pri.mp4",
-      "videoBg": "content/bgvideo/video-kolonny.mp4"
+      "videoBg": "content/bgvideo/video-kolonny.mp4",
+      "coverOffsetMs": 14100,
+      "music": {
+        "composer": "Эдвард Григ",
+        "piece": "«В пещере горного короля»",
+        "license": "Public domain"
+      }
     },
     {
       "id": "2026-08-31-iz-ili-s",
@@ -238,7 +256,13 @@
         "#грамотность"
       ],
       "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-08-31-iz-ili-s.mp4",
-      "videoBg": "content/bgvideo/video-samovar.mp4"
+      "videoBg": "content/bgvideo/video-samovar.mp4",
+      "coverOffsetMs": 14100,
+      "music": {
+        "composer": "Джоаккино Россини",
+        "piece": "увертюра к «Вильгельму Теллю»",
+        "license": "Public domain"
+      }
     },
     {
       "id": "2026-08-30-o-yo",
@@ -297,7 +321,13 @@
         "#грамотность"
       ],
       "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-08-30-o-yo.mp4",
-      "videoBg": "content/bgvideo/video-svecha.mp4"
+      "videoBg": "content/bgvideo/video-svecha.mp4",
+      "coverOffsetMs": 14100,
+      "music": {
+        "composer": "Рихард Вагнер",
+        "piece": "«Полёт валькирий»",
+        "license": "Public domain"
+      }
     },
     {
       "id": "2026-08-29-familii",
@@ -357,7 +387,13 @@
         "#кадровоеделопроизводство"
       ],
       "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-08-29-familii.mp4",
-      "videoBg": "content/bgvideo/video-mashinka.mp4"
+      "videoBg": "content/bgvideo/video-mashinka.mp4",
+      "coverOffsetMs": 14100,
+      "music": {
+        "composer": "Людвиг ван Бетховен",
+        "piece": "Пятая симфония",
+        "license": "Public domain"
+      }
     },
     {
       "id": "2026-08-25-diagnoz-zaimi",
