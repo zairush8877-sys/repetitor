@@ -122,7 +122,7 @@
       "date": "2026-08-24",
       "rubric": "ЕГЭ, задание 15",
       "format": "Reels",
-      "status": "approved",
+      "status": "published",
       "kicker": "Одна буква Н решает всё",
       "title": "Гостиная\nбез второй Н",
       "rows": [
@@ -176,7 +176,9 @@
         "composer": "Эдвард Григ",
         "piece": "«В пещере горного короля»",
         "license": "Public domain"
-      }
+      },
+      "publishedMediaId": "18111260888015287",
+      "publishedAt": "2026-08-24T15:25:43.275Z"
     },
     {
       "id": "2026-08-23-upravlenie",
