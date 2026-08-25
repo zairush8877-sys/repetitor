@@ -213,10 +213,19 @@ async function publishPost(post) {
     await waitReady(id, post.id);
     creationId = id;
   } else {
+    // Карусель со звуком (правило автора «везде фотки и музыка»): у слайда-видео
+    // звуковая дорожка есть, у картинки — нет. Если рендер собрал ролики,
+    // публикуем их; картинки остаются запасным путём.
+    const slideVideos = (post.videoUrls || []).map(assetUrl);
+    const items = slideVideos.length === urls.length ? slideVideos : urls;
+    const asVideo = items === slideVideos;
     const children = [];
-    for (const [i, u] of urls.entries()) {
-      const { id } = await api('POST', `${IG_USER_ID}/media`, { image_url: u, is_carousel_item: 'true' });
-      await waitReady(id, `${post.id} слайд ${i + 1}`);
+    for (const [i, u] of items.entries()) {
+      const { id } = await api('POST', `${IG_USER_ID}/media`, {
+        is_carousel_item: 'true',
+        ...(asVideo ? { media_type: 'VIDEO', video_url: u } : { image_url: u }),
+      });
+      await waitReady(id, `${post.id} слайд ${i + 1}`, asVideo ? 60 : 30);
       children.push(id);
     }
     const { id } = await api('POST', `${IG_USER_ID}/media`, {

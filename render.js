@@ -97,6 +97,36 @@ function frame({ body, kicker, bg, fg, accentColor, kickerColor, dotBg, dotOn, i
  * поста: лента должна выглядеть одним аккаунтом, а не двумя.
  */
 const ROTATION = require('./rotation');
+const { execFileSync } = require('child_process');
+const ffmpeg = require('ffmpeg-static');
+
+/**
+ * Карусель со звуком (правило автора «везде фотки и музыка»): каждый слайд
+ * кодируется коротким роликом со своим куском общей записи. У статичной
+ * картинки в ленте звуковой дорожки нет, а у видео в карусели — есть,
+ * и Instagram принимает смешанные и целиком видеокарусели.
+ */
+const SLIDE_SEC = 6;
+function buildSlideVideos(postId, files) {
+  const track = ROTATION.chooseTrack(postId);
+  const music = track && path.join(__dirname, 'content', 'music', track.file);
+  const out = [];
+  for (const [i, frame] of files.entries()) {
+    const dst = frame.replace(/\.jpg$/, '.mp4');
+    const audio = music && fs.existsSync(music)
+      ? ['-ss', String(i * SLIDE_SEC), '-i', music]
+      : ['-f', 'lavfi', '-i', 'anullsrc=channel_layout=stereo:sample_rate=44100'];
+    execFileSync(ffmpeg, [
+      '-y', '-loop', '1', '-framerate', '30', '-t', String(SLIDE_SEC), '-i', frame,
+      ...audio, '-t', String(SLIDE_SEC),
+      ...(music ? ['-af', `afade=t=in:st=0:d=0.5,afade=t=out:st=${SLIDE_SEC - 0.8}:d=0.8`] : []),
+      '-c:v', 'libx264', '-preset', 'medium', '-crf', '20', '-pix_fmt', 'yuv420p',
+      '-c:a', 'aac', '-b:a', '128k', '-movflags', '+faststart', '-shortest', dst,
+    ], { stdio: ['ignore', 'ignore', 'ignore'] });
+    out.push(dst);
+  }
+  return { track, files: out };
+}
 
 function chooseBackground(id) {
   const bg = ROTATION.chooseBackground({ id });
@@ -106,8 +136,24 @@ function chooseBackground(id) {
   return { ...bg, dataUri: `data:image/jpeg;base64,${fs.readFileSync(file).toString('base64')}` };
 }
 
+/**
+ * Фотография для конкретного слайда карусели (правило автора: «везде фотки»).
+ * Пустая бумага между фотослайдами читалась как недоделанный пост, поэтому
+ * снимок получает каждый слайд, а свой у каждого — чтобы листать было живо.
+ */
+const BG_INDEX_FILE = path.join(__dirname, 'content', 'bg', 'index.json');
+function photoForSlide(postId, index) {
+  if (!fs.existsSync(BG_INDEX_FILE)) return null;
+  const photos = (JSON.parse(fs.readFileSync(BG_INDEX_FILE, 'utf8')).backgrounds || [])
+    .filter(b => path.basename(b.file).startsWith('foto-'))
+    .filter(b => fs.existsSync(path.join(__dirname, b.file)));
+  if (!photos.length) return null;
+  const bg = ROTATION.pickFrom(photos, `${postId}#${index}`);
+  return { ...bg, dataUri: `data:image/jpeg;base64,${fs.readFileSync(path.join(__dirname, bg.file)).toString('base64')}` };
+}
+
 function tableHtml(slide, index, total, handle, postId) {
-  const bg = chooseBackground(postId);
+  const bg = photoForSlide(postId, index) || chooseBackground(postId);
   const rows = slide.rows || [];
   // Чем больше строк, тем мельче шрифт — таблица должна уместиться целиком
   const size = rows.length <= 6 ? 46 : rows.length <= 8 ? 40 : rows.length <= 10 ? 35 : 30;
@@ -146,22 +192,32 @@ function tableHtml(slide, index, total, handle, postId) {
 /** Слайд-пара для каруселей-«диагнозов»: ошибка зачёркнута, норма крупно. */
 function pairHtml(slide, index, total, handle, postId) {
   const [wrong, right, why] = slide.pair;
+  const photo = photoForSlide(postId, index);
   return `<!doctype html><html lang="ru"><head><meta charset="utf-8"><style>
     ${FONTS.fontFaceCss()}
     @page { margin: 0 }
     * { box-sizing: border-box; margin: 0; padding: 0 }
     body {
-      width: ${W}px; height: ${H}px; background: ${PALETTE.bg}; color: ${PALETTE.ink};
+      width: ${W}px; height: ${H}px; color: ${PALETTE.ink};
+      background: ${photo
+        ? `linear-gradient(rgba(24,18,12,.20), rgba(24,18,12,.42)), url(${photo.dataUri}) center/cover`
+        : PALETTE.bg};
       font-family: ${FONTS.body()};
-      display: flex; flex-direction: column; padding: 90px 80px;
+      display: flex; flex-direction: column; padding: 90px 70px;
       position: relative; overflow: hidden;
+    }
+    /* На снимке текст живёт на бумажной карточке — правило системы «Правка». */
+    .sheet {
+      ${photo ? `background: ${PALETTE.bg}; border-radius: 26px; padding: 64px 56px;
+      box-shadow: 0 28px 80px rgba(0,0,0,.35); margin: auto 0;` : 'flex: 1; display: flex; flex-direction: column'}
+      position: relative; z-index: 1;
     }
     .kicker {
       font-family: ${FONTS.head()};
       font-size: 30px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase;
       color: ${PALETTE.accent}; margin-bottom: 40px; min-height: 36px;
     }
-    .mid { flex: 1; display: flex; flex-direction: column; justify-content: center; gap: 34px }
+    .mid { display: flex; flex-direction: column; gap: 30px }
     .wrong {
       font-size: ${fontSize(wrong)}px; font-weight: 700; line-height: 1.2;
       color: ${PALETTE.accent}; text-decoration: line-through;
@@ -171,17 +227,23 @@ function pairHtml(slide, index, total, handle, postId) {
     .why { font-size: 40px; line-height: 1.4; color: ${PALETTE.ink}; margin-top: 26px; max-width: 24ch }
     .foot {
       display: flex; justify-content: space-between; align-items: flex-end;
-      font-family: ${FONTS.head()}; font-size: 26px; color: ${PALETTE.muted};
+      font-family: ${FONTS.head()}; font-size: 26px;
+      color: ${photo ? 'rgba(255,248,238,.88)' : PALETTE.muted};
+      ${photo ? 'text-shadow: 0 2px 12px rgba(0,0,0,.45);' : ''}
+      position: relative; z-index: 1; margin-top: auto;
     }
     .dots { display: flex; gap: 10px; align-items: center }
-    .dot { width: 12px; height: 12px; border-radius: 50%; background: #ded6c8 }
-    .dot.on { background: ${PALETTE.accent} }
+    .dot { width: 12px; height: 12px; border-radius: 50%;
+           background: ${photo ? 'rgba(255,248,238,.4)' : '#ded6c8'} }
+    .dot.on { background: ${photo ? '#fff' : PALETTE.accent} }
   </style></head><body>
-    <div class="kicker">${esc(slide.kicker || '')}</div>
-    <div class="mid">
-      <div class="wrong">${esc(wrong)}</div>
-      <div class="right">${esc(right)}</div>
-      <div class="why">${esc(why)}</div>
+    <div class="sheet">
+      <div class="kicker">${esc(slide.kicker || '')}</div>
+      <div class="mid">
+        <div class="wrong">${esc(wrong)}</div>
+        <div class="right">${esc(right)}</div>
+        <div class="why">${esc(why)}</div>
+      </div>
     </div>
     <div class="foot">
       <span>@${esc(handle)}</span>
@@ -441,6 +503,23 @@ function previewHtml(queue, rendered) {
   }
 
   await browser.close();
+
+  // Карусели получают звук: слайды становятся роликами с общей музыкой.
+  if (!pinMode && !process.argv.includes('--no-video')) {
+    for (const [id, files] of Object.entries(rendered)) {
+      const post = queue.posts.find(p => p.id === id);
+      if (!post || !/карусель/i.test(post.format || '') || !files.length) continue;
+      const { track, files: vids } = buildSlideVideos(id, files);
+      const fresh = JSON.parse(fs.readFileSync(QUEUE, 'utf8'));
+      const qp = fresh.posts.find(p => p.id === id);
+      if (qp) {
+        qp.videoUrls = vids.map(f => `https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/${path.basename(f)}`);
+        if (track) qp.music = { composer: track.composer, piece: track.piece, license: track.license };
+        fs.writeFileSync(QUEUE, JSON.stringify(fresh, null, 2));
+      }
+      console.log(`${id}: ${vids.length} слайдов со звуком — ${track ? track.composer : 'без музыки'}`);
+    }
+  }
 
   if (pinMode) {
     console.log(`\nГотово. Картинки для Pinterest — в content/pins/ (1000×1500).`);
