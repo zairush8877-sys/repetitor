@@ -177,14 +177,23 @@ function shell(p, body, extra = '', credit = '', photo = null) {
 
 /** Кадр 1: вопрос с двумя вариантами — зритель отвечает про себя. */
 function askHtml(s, p, credit, photo) {
+  // Вопрос — главное в кадре, а не служебная подпись: моноширинный кикер
+  // вразрядку в 32 пункта с телефона просто не читался («сверху не видно»).
+  // Здесь тот же серифный шрифт и та же роль, что у заголовка в Reels.
+  const qLen = Math.max(...s.q.split('\n').map(l => l.length));
+  const qSize = qLen <= 14 ? 62 : qLen <= 20 ? 54 : 48;
   return shell(p, `
-    <div class="kicker">${esc(s.q)}</div>
+    <div class="question">${nl2br(s.q)}</div>
     <div class="opts">
       <div class="opt">${esc(s.a)}</div>
       <div class="or">или</div>
       <div class="opt">${esc(s.b)}</div>
     </div>
     <div class="hint">Ответ — на следующем кадре</div>`, `
+    .question {
+      font-family: ${FONTS.serif()}; font-size: ${qSize}px; font-weight: 700;
+      line-height: 1.2; color: ${p.ink}; margin-bottom: 52px;
+    }
     .opts { display: flex; flex-direction: column; gap: 30px; align-items: center; width: 100% }
     .opt {
       font-size: ${size(s.a.length > s.b.length ? s.a : s.b, 96)}px; font-weight: 700;
