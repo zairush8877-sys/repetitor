@@ -79,6 +79,26 @@ for (const p of QUEUE.posts) {
     err(p.id, 'таблица одиночным статичным постом — конвертируйте в Reels (анимация + музыка)');
   }
 
+  // Карусель со звуком: слайды публикуются роликами, и каждый должен быть
+  // цел. 25.08 последний слайд вышел файлом в 261 байт — музыка кончилась
+  // раньше, чем до него дошла очередь, и публикация упала бы на нём одном.
+  if (/карусель/i.test(p.format || '')) {
+    const imgs = p.imageUrls || [];
+    const vids = p.videoUrls || [];
+    if (imgs.length !== slides.length) {
+      err(p.id, `imageUrls: ${imgs.length} ссылок на ${slides.length} слайдов — публикация выйдет неполной`);
+    }
+    if (vids.length && vids.length !== slides.length) {
+      err(p.id, `videoUrls: ${vids.length} роликов на ${slides.length} слайдов — звука в карусели не будет`);
+    }
+    for (const [i, url] of vids.entries()) {
+      const file = path.join(__dirname, 'content', 'images', path.basename(url));
+      if (!fs.existsSync(file)) { err(p.id, `слайд ${i + 1}: нет файла ${path.basename(file)}`); continue; }
+      const a = probeAudio(file);
+      if (!a.ok) err(p.id, `слайд ${i + 1}: ${a.why}`);
+    }
+  }
+
   if (isReels) {
     const video = path.join(__dirname, 'content', 'reels', `${p.id}.mp4`);
     if (!fs.existsSync(video)) {
