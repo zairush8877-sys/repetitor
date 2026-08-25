@@ -107,19 +107,34 @@ const ffmpeg = require('ffmpeg-static');
  * и Instagram принимает смешанные и целиком видеокарусели.
  */
 const SLIDE_SEC = 6;
+
+/** Длительность записи в секундах — нужна, чтобы не просить у неё лишнего. */
+function trackSeconds(file) {
+  const r = require('child_process').spawnSync(ffmpeg, ['-i', file], { encoding: 'utf8' });
+  const m = /Duration: (\d+):(\d+):([\d.]+)/.exec(r.stderr || '');
+  return m ? Number(m[1]) * 3600 + Number(m[2]) * 60 + Number(m[3]) : 0;
+}
+
 function buildSlideVideos(postId, files) {
   const track = ROTATION.chooseTrack(postId);
   const music = track && path.join(__dirname, 'content', 'music', track.file);
+  const hasMusic = music && fs.existsSync(music);
+  // Записи в библиотеке — по 40 секунд, а восьмому слайду смещение выпадало
+  // на 42-ю: ffmpeg не находил там ничего и писал пустой файл в 261 байт.
+  // Публикация на таком слайде упала бы целиком. Теперь запись зациклена,
+  // а смещение берётся по кругу — музыка всё так же идёт без повторов подряд.
+  const dur = hasMusic ? trackSeconds(music) : 0;
   const out = [];
   for (const [i, frame] of files.entries()) {
     const dst = frame.replace(/\.jpg$/, '.mp4');
-    const audio = music && fs.existsSync(music)
-      ? ['-ss', String(i * SLIDE_SEC), '-i', music]
+    const offset = dur ? (i * SLIDE_SEC) % dur : 0;
+    const audio = hasMusic
+      ? ['-stream_loop', '-1', '-ss', String(offset), '-i', music]
       : ['-f', 'lavfi', '-i', 'anullsrc=channel_layout=stereo:sample_rate=44100'];
     execFileSync(ffmpeg, [
       '-y', '-loop', '1', '-framerate', '30', '-t', String(SLIDE_SEC), '-i', frame,
       ...audio, '-t', String(SLIDE_SEC),
-      ...(music ? ['-af', `afade=t=in:st=0:d=0.5,afade=t=out:st=${SLIDE_SEC - 0.8}:d=0.8`] : []),
+      ...(hasMusic ? ['-af', `afade=t=in:st=0:d=0.5,afade=t=out:st=${SLIDE_SEC - 0.8}:d=0.8`] : []),
       '-c:v', 'libx264', '-preset', 'medium', '-crf', '20', '-pix_fmt', 'yuv420p',
       '-c:a', 'aac', '-b:a', '128k', '-movflags', '+faststart', '-shortest', dst,
     ], { stdio: ['ignore', 'ignore', 'ignore'] });
@@ -152,37 +167,57 @@ function photoForSlide(postId, index) {
   return { ...bg, dataUri: `data:image/jpeg;base64,${fs.readFileSync(path.join(__dirname, bg.file)).toString('base64')}` };
 }
 
+/**
+ * Памятка-таблица. По умолчанию левый столбец зачёркнут — это список ошибок.
+ * С флагом `plain` зачёркивания нет: в подборках вроде «что слово значило
+ * раньше» левый столбец — не ошибка, а вторая половина пары.
+ */
 function tableHtml(slide, index, total, handle, postId) {
   const bg = photoForSlide(postId, index) || chooseBackground(postId);
   const rows = slide.rows || [];
-  // Чем больше строк, тем мельче шрифт — таблица должна уместиться целиком
-  const size = rows.length <= 6 ? 46 : rows.length <= 8 ? 40 : rows.length <= 10 ? 35 : 30;
+  // Чем больше строк, тем мельче шрифт — таблица должна уместиться целиком.
+  // Длина ячейки важна не меньше: «официально одобрить» в 46 пунктов вылезало
+  // за край карточки, поэтому кегль берём по худшему из двух ограничений.
+  const longest = Math.max(1, ...rows.flat().map(c => String(c).length));
+  const byRows = rows.length <= 6 ? 46 : rows.length <= 8 ? 40 : rows.length <= 10 ? 35 : 30;
+  const byLen = longest <= 14 ? 46 : longest <= 18 ? 40 : longest <= 24 ? 34 : 29;
+  const size = Math.min(byRows, byLen);
 
-  const body = `
+  // Заголовок памятки живёт на той же бумаге, что и таблица. Раньше он лежал
+  // прямо на снимке, и на тёмном кадре, который индекс считает светлым,
+  // чернильный текст пропадал совсем.
+  const table = `
     <div class="title">${nl2br(slide.text || '')}</div>
     <table>${rows.map(([bad, good]) => `<tr>
       <td class="bad">${esc(bad)}</td>
       <td class="arrow">→</td>
       <td class="good">${esc(good)}</td>
     </tr>`).join('')}</table>`;
+  // Кикер на снимке тоже нечитаем (терракота по тёмному дереву), поэтому
+  // на фотофоне он уезжает на бумагу вместе с заголовком и таблицей.
+  const head = `<div class="kicker">${esc(slide.kicker || '')}</div>`;
+  const body = bg ? `<div class="paper">${head}${table}</div>` : table;
 
   return frame({
-    body, kicker: slide.kicker,
+    body, kicker: bg ? '' : slide.kicker,
     bg: bg ? `url(${bg.dataUri}) center/cover` : PALETTE.bg,
     fg: bg && !bg.light ? '#fff' : PALETTE.ink,
     accentColor: PALETTE.accent, kickerColor: PALETTE.accent,
     dotBg: '#ded6c8', dotOn: PALETTE.accent,
     index, total, handle,
     extraCss: `
-      ${bg ? `.title, table, .foot { position: relative; z-index: 1 }
-      table { background: #fffdfa; border-radius: 20px; padding: 8px 28px;
-              box-shadow: 0 18px 50px rgba(40,30,18,.22) }` : ''}
-      .title { font-size: 44px; line-height: 1.2; font-weight: 700; margin-bottom: 36px;
-               ${bg && !bg.light ? 'color: #fff; text-shadow: 0 3px 18px rgba(0,0,0,.45)' : ''} }
-      table { flex: 1; width: 100%; border-collapse: collapse; font-size: ${size}px }
+      ${bg ? `.paper, .foot { position: relative; z-index: 1 }
+      .paper { background: #fffdfa; border-radius: 24px; padding: 44px 40px;
+               box-shadow: 0 18px 50px rgba(40,30,18,.22); margin: auto 0 }
+      .paper .kicker { margin-bottom: 22px; min-height: 0 }` : ''}
+      .title { font-size: 44px; line-height: 1.2; font-weight: 700; margin-bottom: 30px }
+      table { ${bg ? '' : 'flex: 1;'} width: 100%; border-collapse: collapse; font-size: ${size}px }
       td { padding: ${size > 34 ? 14 : 10}px 0; border-bottom: 1px solid #e5ded1; vertical-align: middle }
-      .bad { color: ${PALETTE.accent}; text-decoration: line-through;
-             text-decoration-thickness: 2px; width: 44% }
+      /* В обычной памятке левый столбец — ошибка, отсюда красная краска.
+         В plain-варианте там стоит само слово, и красным оно читалось бы как
+         «так нельзя», поэтому цвет спокойный. */
+      .bad { width: 44%; color: ${slide.plain ? PALETTE.ink : PALETTE.accent};
+             ${slide.plain ? '' : 'text-decoration: line-through; text-decoration-thickness: 2px'} }
       .arrow { color: ${PALETTE.muted}; text-align: center; width: 12%; font-size: ${size - 6}px }
       .good { color: ${PALETTE.right}; font-weight: 700; width: 44% }
       tr:last-child td { border-bottom: none }`,
@@ -193,6 +228,9 @@ function tableHtml(slide, index, total, handle, postId) {
 function pairHtml(slide, index, total, handle, postId) {
   const [wrong, right, why] = slide.pair;
   const photo = photoForSlide(postId, index);
+  // Как и в «было — стало»: если слайд про одно слово, оно стоит заголовком,
+  // а внизу — только два значения, без повтора самого слова в каждой строке.
+  const val = t => Math.min(fontSize(t), slide.word ? 62 : 96);
   return `<!doctype html><html lang="ru"><head><meta charset="utf-8"><style>
     ${FONTS.fontFaceCss()}
     @page { margin: 0 }
@@ -218,12 +256,16 @@ function pairHtml(slide, index, total, handle, postId) {
       color: ${PALETTE.accent}; margin-bottom: 40px; min-height: 36px;
     }
     .mid { display: flex; flex-direction: column; gap: 30px }
+    .word {
+      font-family: ${FONTS.head()}; font-size: 78px; font-weight: 700;
+      line-height: 1.1; color: ${PALETTE.ink}; margin-bottom: 24px;
+    }
     .wrong {
-      font-size: ${fontSize(wrong)}px; font-weight: 700; line-height: 1.2;
+      font-size: ${val(wrong)}px; font-weight: 700; line-height: 1.2;
       color: ${PALETTE.accent}; text-decoration: line-through;
       text-decoration-thickness: 4px;
     }
-    .right { font-size: ${fontSize(right)}px; font-weight: 700; line-height: 1.2; color: ${PALETTE.right} }
+    .right { font-size: ${val(right)}px; font-weight: 700; line-height: 1.2; color: ${PALETTE.right} }
     .why { font-size: 40px; line-height: 1.4; color: ${PALETTE.ink}; margin-top: 26px; max-width: 24ch }
     .foot {
       display: flex; justify-content: space-between; align-items: flex-end;
@@ -239,6 +281,7 @@ function pairHtml(slide, index, total, handle, postId) {
   </style></head><body>
     <div class="sheet">
       <div class="kicker">${esc(slide.kicker || '')}</div>
+      ${slide.word ? `<div class="word">${esc(slide.word)}</div>` : ''}
       <div class="mid">
         <div class="wrong">${esc(wrong)}</div>
         <div class="right">${esc(right)}</div>
@@ -253,9 +296,89 @@ function pairHtml(slide, index, total, handle, postId) {
   </body></html>`;
 }
 
+/**
+ * Слайд «было — стало» для каруселей про историю слов.
+ * Отдельная раскладка, а не `pair`: там первая строка зачёркнута как ошибка,
+ * а здесь оба значения верны — просто в разные века. Зачеркнуть «семь дней»
+ * у слова «неделя» значило бы соврать, поэтому старое и нынешнее значения
+ * стоят рядом и подписаны эпохами.
+ */
+function thenHtml(slide, index, total, handle, postId) {
+  const [before, now, why] = slide.then;
+  const photo = photoForSlide(postId, index);
+  // Заголовочное слово выносится наверх, чтобы не повторять его в обеих
+  // строках («неделя — выходной» / «неделя — семь дней»): тогда значения
+  // остаются короткими и читаются как две колонки одного слова.
+  const val = t => Math.min(fontSize(t), slide.word ? 62 : 96);
+  return `<!doctype html><html lang="ru"><head><meta charset="utf-8"><style>
+    ${FONTS.fontFaceCss()}
+    @page { margin: 0 }
+    * { box-sizing: border-box; margin: 0; padding: 0 }
+    body {
+      width: ${W}px; height: ${H}px; color: ${PALETTE.ink};
+      background: ${photo
+        ? `linear-gradient(rgba(24,18,12,.20), rgba(24,18,12,.42)), url(${photo.dataUri}) center/cover`
+        : PALETTE.bg};
+      font-family: ${FONTS.body()};
+      display: flex; flex-direction: column; padding: 90px 70px;
+      position: relative; overflow: hidden;
+    }
+    .sheet {
+      ${photo ? `background: ${PALETTE.bg}; border-radius: 26px; padding: 64px 56px;
+      box-shadow: 0 28px 80px rgba(0,0,0,.35); margin: auto 0;` : 'flex: 1; display: flex; flex-direction: column'}
+      position: relative; z-index: 1;
+    }
+    .kicker {
+      font-family: ${FONTS.head()};
+      font-size: 30px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase;
+      color: ${PALETTE.accent}; margin-bottom: 40px; min-height: 36px;
+    }
+    .mid { display: flex; flex-direction: column; gap: 34px }
+    .era {
+      font-family: ${FONTS.head()}; font-size: 26px; font-weight: 700;
+      letter-spacing: .12em; text-transform: uppercase;
+      color: ${PALETTE.muted}; margin-bottom: 10px;
+    }
+    .word {
+      font-family: ${FONTS.head()}; font-size: 78px; font-weight: 700;
+      line-height: 1.1; color: ${PALETTE.ink}; margin-bottom: 24px;
+    }
+    .before { font-size: ${val(before)}px; font-weight: 700; line-height: 1.2; color: ${PALETTE.accent} }
+    .now { font-size: ${val(now)}px; font-weight: 700; line-height: 1.2; color: ${PALETTE.right} }
+    .why { font-size: 40px; line-height: 1.4; color: ${PALETTE.ink}; margin-top: 20px; max-width: 24ch }
+    .foot {
+      display: flex; justify-content: space-between; align-items: flex-end;
+      font-family: ${FONTS.head()}; font-size: 26px;
+      color: ${photo ? 'rgba(255,248,238,.88)' : PALETTE.muted};
+      ${photo ? 'text-shadow: 0 2px 12px rgba(0,0,0,.45);' : ''}
+      position: relative; z-index: 1; margin-top: auto;
+    }
+    .dots { display: flex; gap: 10px; align-items: center }
+    .dot { width: 12px; height: 12px; border-radius: 50%;
+           background: ${photo ? 'rgba(255,248,238,.4)' : '#ded6c8'} }
+    .dot.on { background: ${photo ? '#fff' : PALETTE.accent} }
+  </style></head><body>
+    <div class="sheet">
+      <div class="kicker">${esc(slide.kicker || '')}</div>
+      ${slide.word ? `<div class="word">${esc(slide.word)}</div>` : ''}
+      <div class="mid">
+        <div><div class="era">Было</div><div class="before">${esc(before)}</div></div>
+        <div><div class="era">Сейчас</div><div class="now">${esc(now)}</div></div>
+        <div class="why">${esc(why)}</div>
+      </div>
+    </div>
+    <div class="foot">
+      <span>@${esc(handle)}</span>
+      <span class="dots">${Array.from({ length: total }, (_, i) =>
+        `<span class="dot${i === index ? ' on' : ''}"></span>`).join('')}</span>
+    </div>
+  </body></html>`;
+}
+
 function slideHtml(slide, index, total, handle, postId) {
   if (slide.layout === 'table') return tableHtml(slide, index, total, handle, postId);
   if (slide.layout === 'pair') return pairHtml(slide, index, total, handle, postId);
+  if (slide.layout === 'then') return thenHtml(slide, index, total, handle, postId);
   const mark = slide.mark;
   // Обложка карусели — на фотографии автора: первый слайд решает, листать ли.
   // Текст лежит на бумажной карточке (по снимку он нечитаем), внутренние
@@ -513,7 +636,12 @@ function previewHtml(queue, rendered) {
       const fresh = JSON.parse(fs.readFileSync(QUEUE, 'utf8'));
       const qp = fresh.posts.find(p => p.id === id);
       if (qp) {
-        qp.videoUrls = vids.map(f => `https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/${path.basename(f)}`);
+        // imageUrls — запасной путь публикации и мерило длины: publish.js
+        // берёт видеослайды, только если их ровно столько же, сколько картинок.
+        // Без этого поля карусель уходила бы в ленту пустой.
+        const raw = f => `https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/${path.basename(f)}`;
+        qp.imageUrls = files.map(raw);
+        qp.videoUrls = vids.map(raw);
         if (track) qp.music = { composer: track.composer, piece: track.piece, license: track.license };
         fs.writeFileSync(QUEUE, JSON.stringify(fresh, null, 2));
       }

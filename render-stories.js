@@ -181,7 +181,7 @@ function askHtml(s, p, credit, photo) {
   // вразрядку в 32 пункта с телефона просто не читался («сверху не видно»).
   // Здесь тот же серифный шрифт и та же роль, что у заголовка в Reels.
   const qLen = Math.max(...s.q.split('\n').map(l => l.length));
-  const qSize = qLen <= 14 ? 62 : qLen <= 20 ? 54 : 48;
+  const qSize = qLen <= 14 ? 68 : qLen <= 20 ? 60 : qLen <= 26 ? 52 : 46;
   return shell(p, `
     <div class="question">${nl2br(s.q)}</div>
     <div class="opts">
@@ -190,9 +190,11 @@ function askHtml(s, p, credit, photo) {
       <div class="opt">${esc(s.b)}</div>
     </div>
     <div class="hint">Ответ — на следующем кадре</div>`, `
+    /* Вопрос — цветом акцента: рядом с двумя вариантами основной краски он
+       иначе сливается с ними в один блок. Кегль оставляем крупным. */
     .question {
       font-family: ${FONTS.serif()}; font-size: ${qSize}px; font-weight: 700;
-      line-height: 1.2; color: ${p.ink}; margin-bottom: 52px;
+      line-height: 1.2; color: ${p.accent}; margin-bottom: 52px;
     }
     .opts { display: flex; flex-direction: column; gap: 30px; align-items: center; width: 100% }
     .opt {
