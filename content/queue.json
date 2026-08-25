@@ -7,7 +7,7 @@
       "date": "2026-09-03",
       "rubric": "Дефис и пробел",
       "format": "Reels",
-      "status": "pending",
+      "status": "approved",
       "kicker": "Видно в любом сообщении",
       "title": "ДЕФИС\nИЛИ ПРОБЕЛ",
       "rows": [
@@ -72,7 +72,7 @@
       "date": "2026-09-02",
       "rubric": "Оформление документов",
       "format": "Reels",
-      "status": "pending",
+      "status": "approved",
       "kicker": "На этом горит бухгалтерия",
       "title": "ДАТЫ И ЧИСЛА\nВ ДОКУМЕНТАХ",
       "rows": [
@@ -138,7 +138,7 @@
       "date": "2026-09-01",
       "rubric": "ЕГЭ, задание 10",
       "format": "Reels",
-      "status": "pending",
+      "status": "approved",
       "kicker": "Приставка меняет смысл",
       "title": "ПРЕ- ИЛИ ПРИ-\nСМЫСЛ РЕШАЕТ",
       "rows": [
@@ -204,7 +204,7 @@
       "date": "2026-08-31",
       "rubric": "Речь взрослых",
       "format": "Reels",
-      "status": "pending",
+      "status": "approved",
       "kicker": "Слышно с первой фразы",
       "title": "ИЗ ИЛИ С\nВ ИЛИ НА",
       "rows": [
@@ -269,7 +269,7 @@
       "date": "2026-08-30",
       "rubric": "Орфография взрослых",
       "format": "Reels",
-      "status": "pending",
+      "status": "approved",
       "kicker": "Одна буква — другое слово",
       "title": "О ИЛИ Ё\nПОСЛЕ ШИПЯЩИХ",
       "rows": [
@@ -334,7 +334,7 @@
       "date": "2026-08-29",
       "rubric": "Документы и письма",
       "format": "Reels",
-      "status": "pending",
+      "status": "approved",
       "kicker": "Отдел кадров, это к вам",
       "title": "СКЛОНЕНИЕ\nФАМИЛИЙ",
       "rows": [
@@ -508,7 +508,22 @@
         "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-08-25-diagnoz-zaimi-6.jpg",
         "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-08-25-diagnoz-zaimi-7.jpg",
         "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-08-25-diagnoz-zaimi-8.jpg"
-      ]
+      ],
+      "videoUrls": [
+        "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-08-25-diagnoz-zaimi-1.mp4",
+        "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-08-25-diagnoz-zaimi-2.mp4",
+        "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-08-25-diagnoz-zaimi-3.mp4",
+        "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-08-25-diagnoz-zaimi-4.mp4",
+        "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-08-25-diagnoz-zaimi-5.mp4",
+        "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-08-25-diagnoz-zaimi-6.mp4",
+        "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-08-25-diagnoz-zaimi-7.mp4",
+        "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-08-25-diagnoz-zaimi-8.mp4"
+      ],
+      "music": {
+        "composer": "Джоаккино Россини",
+        "piece": "увертюра к «Вильгельму Теллю»",
+        "license": "Public domain"
+      }
     },
     {
       "id": "2026-08-24-odna-n",
