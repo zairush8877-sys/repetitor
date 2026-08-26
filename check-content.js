@@ -30,11 +30,52 @@ const warnings = [];
 const err = (id, msg) => errors.push(`${id}: ${msg}`);
 const warn = (id, msg) => warnings.push(`${id}: ${msg}`);
 
-/** Пары из школьного учебника — по правилам автора им не место в контенте. */
+/**
+ * Пары из школьного учебника. Раньше они были браком везде: взрослому, который
+ * правило знает, такой пост читается уроком, о котором не просили, — он не
+ * сохранит и не перешлёт. Но и совсем без них лента отрывается от школы, для
+ * которой аккаунт и существует, поэтому автор оставила квоту: одна школьная
+ * единица в неделю. Разборы ЕГЭ/ОГЭ в квоту не входят — там школьный материал
+ * и есть тема, а не снисходительный тон.
+ */
 const SCHOOL_PAIRS = [
   /одеть/i, /надеть/i, /эффектн/i, /эффективн/i, /представить/i, /предоставить/i,
   /зв[оо]́?нит/i, /в течени/i, /также.*так же|так же.*также/is, /придти/i,
+  /ложить/i, /класть/i,
+  // Дефисы обязательны и разбег короткий: без этого «тся» и «ться» находились
+  // в любом тексте с двумя глаголами, и подсказка срабатывала где попало.
+  /-тся[\s\S]{0,40}-ться|-ться[\s\S]{0,40}-тся/i,
 ];
+
+/** Норма выпуска школьного: не чаще одного раза в неделю. */
+const SCHOOL_PER_WEEK = 1;
+
+/**
+ * Школьное определяется полем `school: true`, а не догадкой по тексту.
+ * Пока это был запрет, грубого списка слов хватало: лишний раз не пропустить —
+ * малая цена. Для квоты цена другая: ложное срабатывание («в течение» в
+ * подписи про запятые) съедает единственный слот недели. Поэтому список слов
+ * оставлен подсказкой — он предупреждает, что материал похож на школьный, а
+ * решает автор.
+
+/** Номер недели по дате — единица календаря, в которой считается квота. */
+function weekKey(date) {
+  const d = new Date(`${date}T00:00:00Z`);
+  if (Number.isNaN(d.getTime())) return null;
+  // Понедельник недели, к которой относится дата: воскресенье считаем седьмым днём.
+  const shift = (d.getUTCDay() + 6) % 7;
+  d.setUTCDate(d.getUTCDate() - shift);
+  return d.toISOString().slice(0, 10);
+}
+
+function isSchool(obj) {
+  return obj.school === true;
+}
+
+function looksSchool(obj) {
+  const text = JSON.stringify(obj);
+  return SCHOOL_PAIRS.some(re => re.test(text));
+}
 
 /** Звук в файле: дорожка есть и не тишина. Пустой ответ ffmpeg — сбой, не вердикт. */
 function probeAudio(file) {
@@ -48,9 +89,52 @@ function probeAudio(file) {
   return { ok: true };
 }
 
-function checkSchoolPairs(id, text) {
-  for (const re of SCHOOL_PAIRS) {
-    if (re.test(text)) err(id, `школьная пара в тексте (${re}) — по правилам автора брак`);
+/**
+ * Квота школьного контента. Считается по всей ленте и по всему банку сторис
+ * сразу, а не по одному посту: одиночная проверка `node check-content.js <id>`
+ * иначе всегда видела бы ровно одну единицу и квоту не поймала бы никогда.
+ */
+function checkSchoolQuota() {
+  // Лента: неделя берётся по дате выпуска. Уже вышедшее считается — слот недели
+  // оно занимает, — но ругаться есть смысл только там, где ещё можно подвинуть.
+  const weeks = new Map();
+  for (const p of QUEUE.posts) {
+    if (p.status === 'rejected') continue;
+    const exam = /ege|oge/i.test(p.id) || /ЕГЭ|ОГЭ/i.test(p.rubric || '');
+    if (exam) continue;
+    if (p.status !== 'published' && !isSchool(p) && looksSchool(p)) {
+      warn(p.id, 'похоже на школьный материал — если это он, поставьте "school": true, иначе он пройдёт мимо квоты');
+    }
+    if (!isSchool(p)) continue;
+    const key = weekKey(p.date);
+    if (!key) { warn(p.id, 'нет разбираемой даты — школьная квота не считается'); continue; }
+    const week = weeks.get(key) || { ids: [], movable: [] };
+    week.ids.push(p.id);
+    if (p.status !== 'published') week.movable.push(p.id);
+    weeks.set(key, week);
+  }
+  for (const [week, { ids, movable }] of weeks) {
+    if (ids.length > SCHOOL_PER_WEEK && movable.length) {
+      err(movable.join(', '), `${ids.length} школьных публикации на неделе с ${week} — норма ${SCHOOL_PER_WEEK} в неделю, перенесите лишние`);
+    }
+  }
+
+  // Сторис: дат в банке нет, они выходят по одной в день по порядку —
+  // значит неделя это семь подряд идущих неопубликованных сторис.
+  const queue = BANK.stories.filter(s => s.status !== 'published');
+  const perWeek = new Map();
+  queue.forEach((s, i) => {
+    if (!isSchool(s) && looksSchool(s)) {
+      warn(s.id, 'похоже на школьный материал — если это он, поставьте "school": true');
+    }
+    if (!isSchool(s)) return;
+    const week = Math.floor(i / 7);
+    perWeek.set(week, [...(perWeek.get(week) || []), s.id]);
+  });
+  for (const [week, ids] of perWeek) {
+    if (ids.length > SCHOOL_PER_WEEK) {
+      err(ids.join(', '), `${ids.length} школьных сторис в неделе ${week + 1} очереди — норма ${SCHOOL_PER_WEEK} в неделю`);
+    }
   }
 }
 
@@ -63,8 +147,8 @@ for (const p of QUEUE.posts) {
   const isReels = /reels/i.test(p.format || '');
   // Разборы ЕГЭ/ОГЭ законно состоят из школьного материала — паронимы и есть
   // задание 5. Фильтр примитивности бьёт по контенту для взрослых.
-  const isExam = /ege|oge/i.test(p.id) || /ЕГЭ|ОГЭ/i.test(p.rubric || '');
-  if (!isExam) checkSchoolPairs(p.id, JSON.stringify(p));
+  // Школьное больше не брак поштучно — оно ограничено квотой, её считает
+  // checkSchoolQuota() по всей ленте разом.
 
   if (typeof p.caption !== 'string' || !p.caption.trim()) {
     err(p.id, 'нет подписи — публикация её не выпустит (правило «всегда подпись»)');
@@ -124,8 +208,6 @@ for (const s of BANK.stories) {
   if (onlyId && s.id !== onlyId) continue;
   if (!onlyId && s.status === 'published') continue;
 
-  checkSchoolPairs(s.id, JSON.stringify(s));
-
   if (s.type === 'vopros') {
     for (const [k, lim] of [['q', 24], ['a', 16], ['b', 16]]) {
       if (!s[k]) err(s.id, `нет поля ${k} — вопрос без вариантов не работает`);
@@ -152,6 +234,11 @@ for (const s of BANK.stories) {
     if (!a.ok) err(s.id, `музыка в части ${n}: ${a.why}`);
   }
 }
+
+// ---- Квота школьного контента ----
+// Считается всегда по всей ленте и всему банку, даже при проверке одного поста:
+// «одна в неделю» — свойство расписания, а не отдельной публикации.
+checkSchoolQuota();
 
 // ---- Фотофоны из папки автора ----
 const bgIndex = path.join(__dirname, 'content', 'bg', 'index.json');
