@@ -722,7 +722,7 @@
       "date": "2026-08-26",
       "rubric": "Как писать названия",
       "format": "Reels",
-      "status": "approved",
+      "status": "published",
       "kicker": "Визитка кричит капслоком",
       "title": "ООО «РОМАШКА»\nтак нельзя",
       "rows": [
@@ -776,7 +776,9 @@
         "composer": "Людвиг ван Бетховен",
         "piece": "Пятая симфония",
         "license": "Public domain"
-      }
+      },
+      "publishedMediaId": "18136947787610949",
+      "publishedAt": "2026-08-26T16:07:26.971Z"
     },
     {
       "id": "2026-08-20-delovaya-perepiska",
