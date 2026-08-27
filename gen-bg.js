@@ -17,8 +17,11 @@
  *   light     — светлый или тёмный: от этого зависит цвет заголовка;
  *   generated — нарисован кодом или сфотографирован: код строится под текст
  *               и затемняющая плёнка ему не нужна, тёмной фотографии — нужна.
- * Файл не правится руками: его целиком перезаписывает запуск этого скрипта,
- * а новые фотографии добавляются в карту PHOTO ниже.
+ * Файл не правится руками: его целиком перезаписывает запуск этого скрипта.
+ * Новый фон добавляется так: положить foto-*.jpg (свой снимок), stock-*.jpg
+ * (сток из навыка photo-picker) или gen-*.jpg (сгенерированный) в content/bg
+ * и прогнать этот скрипт — он подхватит файл сам и определит светлоту.
+ * Спорный кадр правится строкой в карте PHOTO: она сильнее автоматики.
  */
 
 const fs = require('fs');
@@ -27,6 +30,25 @@ const { chromium } = require('playwright');
 
 const OUT = path.join(__dirname, 'content', 'bg');
 const W = 1080, H = 1920;
+
+/**
+ * Средняя светлота кадра (0–255). Декодируем в крошечный серый кадр и считаем
+ * среднее по байтам — signalstats пришлось бы вытягивать через metadata=print,
+ * а тут ответ прямо в потоке.
+ */
+function meanLuma(file) {
+  const { spawnSync } = require('child_process');
+  let ffmpeg;
+  try { ffmpeg = require('ffmpeg-static'); } catch { return null; }
+  const r = spawnSync(ffmpeg, ['-v', 'error', '-i', file,
+    '-vf', 'scale=32:32,format=gray', '-frames:v', '1', '-f', 'rawvideo', '-'],
+    { maxBuffer: 1 << 20 });
+  const b = r.stdout;
+  if (!b || !b.length) return null;
+  let sum = 0;
+  for (const v of b) sum += v;
+  return Math.round(sum / b.length);
+}
 
 /** Мягкое пятно света, чтобы заливка не читалась как плоский цвет из палитры. */
 const glow = (color, x, y, r) =>
@@ -134,9 +156,36 @@ const DARK = new Set(['sliva']);
     'foto-lavka.jpg': false, 'foto-arka.jpg': false, 'foto-chehov.jpg': true,
     'foto-mashinka.jpg': false, 'foto-okno.jpg': false, 'foto-figury.jpg': true,
     'foto-keramika.jpg': true,
+    // gen-* — живые фоны Seedance. Их светлота была проставлена глазами и в
+    // карте не значилась: перезапись index.json роняла все шесть. Теперь они
+    // здесь, и заодно подхватились бы автоматикой ниже.
+    'gen-dozhd.jpg': false, 'gen-oranzhereya.jpg': true, 'gen-sokrat.jpg': false,
+    'gen-lestnitsa.jpg': true, 'gen-svechi.jpg': false, 'gen-nisha.jpg': false,
   };
   for (const [f, light] of Object.entries(PHOTO)) {
     if (fs.existsSync(path.join(OUT, f))) made.push({ file: `content/bg/${f}`, light, generated: false });
+  }
+
+  // Снимки, которых нет в карте выше, подхватываются сами: положили файл в
+  // content/bg — он в ротации. Раньше каждый новый фон требовал правки кода,
+  // и фотографии копились в папке автора, не доезжая до ленты.
+  //
+  // Светлоту меряем по кадру, но порог сознательно завышен. Ошибка стоит
+  // по-разному: тёмный снимок, названный светлым, оставляет белый текст без
+  // затемняющей плёнки — и заголовок пропадает совсем. Обратная ошибка даёт
+  // лишнюю плёнку на светлом кадре, это заметно, но читается. Поэтому всё,
+  // что не явно светлое, считается тёмным, а спорное автор поправит в карте.
+  const LIGHT_AT = 96;
+  const seen = new Set(Object.keys(PHOTO));
+  const extra = fs.readdirSync(OUT)
+    .filter(f => /^(foto|stock|gen)-.*\.jpe?g$/i.test(f) && !seen.has(f))
+    .sort();
+  for (const f of extra) {
+    const y = meanLuma(path.join(OUT, f));
+    if (y === null) { console.log(`  ${f}: кадр не читается, пропуск`); continue; }
+    const light = y >= LIGHT_AT;
+    made.push({ file: `content/bg/${f}`, light, generated: false });
+    console.log(`  + ${f}: светлота ${y} → ${light ? 'светлый' : 'тёмный'}`);
   }
 
   fs.writeFileSync(path.join(OUT, 'index.json'), JSON.stringify({ backgrounds: made }, null, 2) + '\n');
