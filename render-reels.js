@@ -53,9 +53,14 @@ function pageHtml(post, handle) {
   // Режим шагов (post.steps): инструкция, а не работа над ошибками — строки
   // нумеруются и появляются без зачёркивания, вся остальная механика общая.
   const steps = !!post.steps;
-  const rows = post.rows.map(([bad, good], i) => steps ? `
+  // Режим сравнения (post.heads): две колонки — но не «ошибка → норма».
+  // Для «как написано → как прочитали» зачёркивать левую нельзя: там не
+  // ошибка, а исходная фраза, и подписи колонок задаёт сам пост.
+  const compare = !!post.heads && !steps;
+  const heads = post.heads || ['Неправильно', 'Правильно'];
+  const rows = post.rows.map(([bad, good], i) => steps || compare ? `
     <div class="row" id="row${i}">
-      <span class="bad"><i class="stepnum">${String(i + 1).padStart(2, '0')}</i>${esc(bad)}</span>
+      <span class="bad">${steps ? `<i class="stepnum">${String(i + 1).padStart(2, '0')}</i>` : ''}${esc(bad)}</span>
       <span class="good">${esc(good)}</span>
     </div>` : `
     <div class="row" id="row${i}">
@@ -196,6 +201,11 @@ function pageHtml(post, handle) {
     .stepnum { font-family: ${FONTS.mono()}; font-style: normal; font-weight: 400;
                color: ${PRAVKA.err}; margin-right: 18px }
     .good { color: rgba(33,29,24,.78); font-weight: 400 }` : ''}
+    ${compare ? `
+    /* Слева исходная фраза — спокойной краской; справа то, как её прочитали,
+       и вот это здесь соль, поэтому цвет остаётся акцентным. */
+    .bad { color: ${PRAVKA.ink} }
+    .h-bad { color: ${PRAVKA.ink} }` : ''}
     .foot {
       font-family: ${FONTS.mono()};
       font-size: 32px;
@@ -210,8 +220,8 @@ function pageHtml(post, handle) {
     <div class="card">
       <div class="progress"><i></i></div>
       <div class="head">
-        <span class="h-bad"><i class="m-x"></i>Неправильно</span>
-        <span class="h-good"><i class="m-v"></i>Правильно</span>
+        <span class="h-bad">${compare ? '' : '<i class="m-x"></i>'}${esc(heads[0])}</span>
+        <span class="h-good">${compare ? '' : '<i class="m-v"></i>'}${esc(heads[1])}</span>
       </div>
       ${rows}</div>
     <div class="foot"><b>@${esc(handle)}</b><span>подготовка к ЕГЭ и ОГЭ</span></div>
