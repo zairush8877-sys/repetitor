@@ -595,7 +595,7 @@
       "date": "2026-08-28",
       "rubric": "ЕГЭ, задание 8",
       "format": "Reels",
-      "status": "approved",
+      "status": "published",
       "kicker": "Фраза из автобуса — в офисе",
       "title": "Оплатите проезд.\nБез «за»",
       "rows": [
@@ -650,7 +650,9 @@
         "composer": "Рихард Вагнер",
         "piece": "«Полёт валькирий»",
         "license": "Public domain"
-      }
+      },
+      "publishedMediaId": "17950128276036230",
+      "publishedAt": "2026-08-28T23:44:50.381Z"
     },
     {
       "id": "2026-08-22-bukva-yo",
