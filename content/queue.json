@@ -657,7 +657,7 @@
       "date": "2026-08-27",
       "rubric": "Буква Ё",
       "format": "Reels",
-      "status": "approved",
+      "status": "published",
       "kicker": "Ё не там, где вы уверены",
       "title": "Куда сбежала\nбуква Ё",
       "rows": [
@@ -715,7 +715,9 @@
         "composer": "Рихард Вагнер",
         "piece": "«Полёт валькирий»",
         "license": "Public domain"
-      }
+      },
+      "publishedMediaId": "18160392313491019",
+      "publishedAt": "2026-08-28T00:06:51.769Z"
     },
     {
       "id": "2026-08-21-kavychki",
