@@ -334,7 +334,7 @@
       "date": "2026-08-29",
       "rubric": "Документы и письма",
       "format": "Reels",
-      "status": "approved",
+      "status": "published",
       "kicker": "Отдел кадров, это к вам",
       "title": "СКЛОНЕНИЕ\nФАМИЛИЙ",
       "rows": [
@@ -393,7 +393,9 @@
         "composer": "Людвиг ван Бетховен",
         "piece": "Пятая симфония",
         "license": "Public domain"
-      }
+      },
+      "publishedMediaId": "18056373938546017",
+      "publishedAt": "2026-08-30T18:13:17.296Z"
     },
     {
       "id": "2026-08-25-diagnoz-zaimi",
