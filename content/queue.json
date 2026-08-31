@@ -269,7 +269,7 @@
       "date": "2026-08-30",
       "rubric": "Орфография взрослых",
       "format": "Reels",
-      "status": "approved",
+      "status": "published",
       "kicker": "Одна буква — другое слово",
       "title": "О ИЛИ Ё\nПОСЛЕ ШИПЯЩИХ",
       "rows": [
@@ -327,7 +327,9 @@
         "composer": "Рихард Вагнер",
         "piece": "«Полёт валькирий»",
         "license": "Public domain"
-      }
+      },
+      "publishedMediaId": "18109882349029227",
+      "publishedAt": "2026-08-31T20:26:06.497Z"
     },
     {
       "id": "2026-08-29-familii",
