@@ -204,7 +204,7 @@
       "date": "2026-08-31",
       "rubric": "Речь взрослых",
       "format": "Reels",
-      "status": "approved",
+      "status": "published",
       "kicker": "Слышно с первой фразы",
       "title": "ИЗ ИЛИ С\nВ ИЛИ НА",
       "rows": [
@@ -262,7 +262,9 @@
         "composer": "Джоаккино Россини",
         "piece": "увертюра к «Вильгельму Теллю»",
         "license": "Public domain"
-      }
+      },
+      "publishedMediaId": "18016865087728985",
+      "publishedAt": "2026-09-01T18:02:08.243Z"
     },
     {
       "id": "2026-08-30-o-yo",
