@@ -138,7 +138,7 @@
       "date": "2026-09-01",
       "rubric": "ЕГЭ, задание 10",
       "format": "Reels",
-      "status": "approved",
+      "status": "published",
       "kicker": "Приставка меняет смысл",
       "title": "ПРЕ- ИЛИ ПРИ-\nСМЫСЛ РЕШАЕТ",
       "rows": [
@@ -197,7 +197,9 @@
         "composer": "Эдвард Григ",
         "piece": "«В пещере горного короля»",
         "license": "Public domain"
-      }
+      },
+      "publishedMediaId": "18105922136270830",
+      "publishedAt": "2026-09-02T18:10:39.762Z"
     },
     {
       "id": "2026-08-31-iz-ili-s",
