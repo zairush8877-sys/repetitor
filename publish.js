@@ -35,7 +35,11 @@ const IG_USER_ID = process.env.IG_USER_ID || queueRaw.account_id;
 const args = process.argv.slice(2);
 const dryRun = args.includes('--dry-run');
 const checkOnly = args.includes('--check');
-const recentOnly = args.includes('--recent');
+const recentArg = args.find(a => a === '--recent' || a.startsWith('--recent='));
+const recentOnly = !!recentArg;
+// Сколько публикаций разбирать: восьми мало, чтобы отличить закономерность от
+// случайности — на такой выборке один удачный пост выглядит трендом.
+const recentLimit = Math.min(50, Number((recentArg || '').split('=')[1]) || 8);
 const audioCheck = args.includes('--audio-check');
 const onlyOne = args.includes('--one');   // ежедневный режим: одна публикация за запуск
 const onlyId = args.find(a => !a.startsWith('--'));
@@ -244,20 +248,62 @@ async function publishPost(post) {
 /** Последние публикации со статистикой — чтобы понимать, что уже вышло и как зашло. */
 async function showRecent(limit = 8) {
   const { data } = await api('GET', `${IG_USER_ID}/media`, {
-    fields: 'id,caption,media_type,timestamp,permalink,like_count,comments_count',
+    fields: 'id,caption,media_type,media_product_type,timestamp,permalink,like_count,comments_count',
     limit: String(limit),
   });
+
+  const rows = [];
   for (const m of data) {
-    const when = new Date(m.timestamp).toLocaleString('ru-RU', { timeZone: 'Europe/Moscow' });
-    const head = (m.caption || '(без подписи)').split('\n')[0].slice(0, 70);
-    let extra = '';
+    const when = new Date(m.timestamp);
+    const head = (m.caption || '(без подписи)').split('\n')[0].slice(0, 60);
+    const ins = {};
     try {
-      const ins = await api('GET', `${m.id}/insights`, { metric: 'reach,saved,shares' });
-      extra = ' | ' + ins.data.map(i => `${i.name}=${i.values[0].value}`).join(' ');
+      const r = await api('GET', `${m.id}/insights`, { metric: 'reach,saved,shares' });
+      for (const i of r.data) ins[i.name] = i.values[0].value;
     } catch { /* статистика доступна не для всех типов и не сразу */ }
-    console.log(`${when} [${m.media_type}] ♥${m.like_count ?? '-'} 💬${m.comments_count ?? '-'}${extra}`);
-    console.log(`   ${head}`);
-    console.log(`   ${m.permalink}`);
+    rows.push({
+      when, head, permalink: m.permalink,
+      kind: m.media_product_type || m.media_type,
+      likes: m.like_count ?? 0, comments: m.comments_count ?? 0,
+      reach: ins.reach ?? null, saved: ins.saved ?? 0, shares: ins.shares ?? 0,
+    });
+  }
+
+  const fmt = d => d.toLocaleString('ru-RU', { timeZone: 'Europe/Moscow', day: '2-digit', month: '2-digit', hour: '2-digit', minute: '2-digit' });
+  const line = r => `${fmt(r.when)} ${String(r.kind).padEnd(9)} ♥${String(r.likes).padStart(3)} `
+    + `💬${String(r.comments).padStart(2)} охват ${String(r.reach ?? '—').padStart(5)} `
+    + `сохр ${String(r.saved).padStart(2)} реп ${String(r.shares).padStart(2)}  ${r.head}`;
+
+  console.log(`\n=== ${rows.length} публикаций, по времени ===`);
+  rows.forEach(r => console.log(line(r)));
+
+  // Отдельные рейтинги: охват показывает, как раздал алгоритм, а лайки и
+  // комментарии — что сделали люди. Это разные вопросы, и совпадают они не всегда.
+  console.log('\n=== по лайкам ===');
+  [...rows].sort((a, b) => b.likes - a.likes).slice(0, 10).forEach(r => console.log(line(r)));
+
+  console.log('\n=== по комментариям ===');
+  [...rows].sort((a, b) => b.comments - a.comments).slice(0, 10).forEach(r => console.log(line(r)));
+
+  // Пересылки и сохранения — самый честный сигнал: лайк ставят из вежливости,
+  // а переслать или сохранить можно только то, что пригодилось.
+  console.log('\n=== по пересылкам ===');
+  [...rows].sort((a, b) => b.shares - a.shares).slice(0, 10).forEach(r => console.log(line(r)));
+
+  console.log('\n=== по сохранениям ===');
+  [...rows].sort((a, b) => b.saved - a.saved).slice(0, 10).forEach(r => console.log(line(r)));
+
+  const byKind = {};
+  for (const r of rows) {
+    const k = byKind[r.kind] || (byKind[r.kind] = { n: 0, likes: 0, comments: 0, reach: 0, reachN: 0, saved: 0, shares: 0 });
+    k.n++; k.likes += r.likes; k.comments += r.comments; k.saved += r.saved; k.shares += r.shares;
+    if (r.reach != null) { k.reach += r.reach; k.reachN++; }
+  }
+  console.log('\n=== в среднем по формату ===');
+  for (const [k, v] of Object.entries(byKind)) {
+    console.log(`${k.padEnd(9)} n=${String(v.n).padStart(2)}  ♥${(v.likes / v.n).toFixed(1).padStart(5)}  `
+      + `💬${(v.comments / v.n).toFixed(1).padStart(4)}  охват ${(v.reachN ? v.reach / v.reachN : 0).toFixed(0).padStart(5)}  `
+      + `сохр ${(v.saved / v.n).toFixed(1)}  реп ${(v.shares / v.n).toFixed(1)}`);
   }
 }
 
@@ -323,7 +369,7 @@ async function showAudioCheck(limit = 6) {
   const me = await api('GET', IG_USER_ID, { fields: 'username,followers_count,media_count' });
   console.log(`Токен действителен: @${me.username} — ${me.followers_count} подписчиков, ${me.media_count} публикаций`);
   if (audioCheck) { await showAudioCheck(); return; }
-  if (recentOnly) { await showRecent(); return; }
+  if (recentOnly) { await showRecent(recentLimit); return; }
   if (checkOnly) return;
 
   const queue = JSON.parse(fs.readFileSync(QUEUE, 'utf8'));

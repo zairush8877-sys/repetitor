@@ -7,6 +7,10 @@ on:
         description: 'Проверить звук последних роликов вместо статистики'
         type: boolean
         default: false
+      limit:
+        description: 'Сколько публикаций разбирать (по умолчанию 8, максимум 50)'
+        required: false
+        default: '30'
 
 jobs:
   recent:
@@ -22,4 +26,4 @@ jobs:
       - name: Последние публикации
         env:
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
-        run: node publish.js ${{ inputs.audio == true && '--audio-check' || '--recent' }}
+        run: node publish.js ${{ inputs.audio == true && '--audio-check' || format('--recent={0}', inputs.limit || '30') }}
