@@ -72,7 +72,7 @@
       "date": "2026-09-02",
       "rubric": "Оформление документов",
       "format": "Reels",
-      "status": "approved",
+      "status": "published",
       "kicker": "На этом горит бухгалтерия",
       "title": "ДАТЫ И ЧИСЛА\nВ ДОКУМЕНТАХ",
       "rows": [
@@ -131,7 +131,9 @@
         "composer": "Рихард Вагнер",
         "piece": "«Полёт валькирий»",
         "license": "Public domain"
-      }
+      },
+      "publishedMediaId": "18146779903556815",
+      "publishedAt": "2026-09-03T18:08:46.359Z"
     },
     {
       "id": "2026-09-01-pre-pri",
