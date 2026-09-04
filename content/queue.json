@@ -3001,6 +3001,43 @@
         "piece": "Пятая симфония",
         "license": "Public domain"
       }
+    },
+    {
+      "id": "2026-09-30-proba-foto",
+      "date": "2026-09-30",
+      "rubric": "История слова",
+      "format": "Карусель",
+      "status": "pending",
+      "caption": "Проба нового оформления: картинка во весь кадр, текст на ней.",
+      "hashtags": [
+        "#русскийязык"
+      ],
+      "slides": [
+        {
+          "layout": "photo",
+          "title": "СЛОВА,\nКОТОРЫЕ\nСОЛГАЛИ",
+          "sub": "История слова",
+          "image": "content/bg/foto-arka.jpg"
+        },
+        {
+          "layout": "photo",
+          "word": "Неделя",
+          "text": "День, когда не делают дел. Понедельник — день ПО неделе.",
+          "image": "content/bg/foto-okno.jpg"
+        },
+        {
+          "layout": "photo",
+          "word": "Прелесть",
+          "text": "Обман и морок. «Прелестные письма» Разина звали к бунту.",
+          "image": "content/bg/foto-kabinet.jpg"
+        },
+        {
+          "layout": "photo",
+          "word": "Позорище",
+          "text": "Зрелище. Позор — родня «взору»: выставленное на обозрение.",
+          "image": "content/bg/foto-kolonny.jpg"
+        }
+      ]
     }
   ],
   "account_id": "17841456632615750"
