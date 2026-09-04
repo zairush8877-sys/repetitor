@@ -3073,7 +3073,7 @@
       "rubric": "История слова",
       "format": "Карусель",
       "status": "pending",
-      "caption": "Проба нового оформления: картинка во весь кадр, текст на ней.",
+      "caption": "Проба формата: картинка про слово, текст на ней.",
       "hashtags": [
         "#русскийязык"
       ],
@@ -3082,25 +3082,25 @@
           "layout": "photo",
           "title": "СЛОВА,\nКОТОРЫЕ\nСОЛГАЛИ",
           "sub": "История слова",
-          "image": "content/bg/foto-arka.jpg"
-        },
-        {
-          "layout": "photo",
-          "word": "Неделя",
-          "text": "День, когда не делают дел. Понедельник — день ПО неделе.",
-          "image": "content/bg/foto-okno.jpg"
+          "image": "content/bg/stock-maska.jpg"
         },
         {
           "layout": "photo",
           "word": "Прелесть",
           "text": "Обман и морок. «Прелестные письма» Разина звали к бунту.",
-          "image": "content/bg/foto-kabinet.jpg"
+          "image": "content/bg/stock-maska.jpg"
         },
         {
           "layout": "photo",
           "word": "Позорище",
-          "text": "Зрелище. Позор — родня «взору»: выставленное на обозрение.",
-          "image": "content/bg/foto-kolonny.jpg"
+          "text": "Зрелище, спектакль. Позор — родня «взору».",
+          "image": "content/bg/stock-teatr.jpg"
+        },
+        {
+          "layout": "photo",
+          "word": "Врач",
+          "text": "Заклинатель. От «врать» — тогда это значило «говорить».",
+          "image": "content/bg/stock-svecha.jpg"
         }
       ]
     }
