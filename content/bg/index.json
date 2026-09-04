@@ -144,6 +144,21 @@
       "file": "content/bg/gen-nisha.jpg",
       "light": false,
       "generated": false
+    },
+    {
+      "file": "content/bg/stock-maska.jpg",
+      "light": false,
+      "generated": false
+    },
+    {
+      "file": "content/bg/stock-svecha.jpg",
+      "light": false,
+      "generated": false
+    },
+    {
+      "file": "content/bg/stock-teatr.jpg",
+      "light": false,
+      "generated": false
     }
   ]
 }
