@@ -375,10 +375,99 @@ function thenHtml(slide, index, total, handle, postId) {
   </body></html>`;
 }
 
+/**
+ * Слайд-картинка: изображение во весь кадр, текст лежит прямо на нём.
+ * Формат из ниши (@rus_yaz и подобные): картинка — не фон под карточкой, а
+ * главное содержание слайда, и она про то самое слово, о котором речь.
+ * У нашей бумажной карточки другая задача — она защищает читаемость на
+ * случайном снимке; здесь снимок подобран под слово, и прятать его незачем.
+ *
+ * Поля: word (заголовочное слово), text (пояснение), image (путь к файлу).
+ * На обложке вместо word/text — title и sub.
+ */
+function photoHtml(slide, index, total, handle, postId) {
+  const file = slide.image && path.join(__dirname, slide.image);
+  const bg = file && fs.existsSync(file)
+    ? `data:image/jpeg;base64,${fs.readFileSync(file).toString('base64')}`
+    : (photoForSlide(postId, index) || {}).dataUri;
+  const cover = !!slide.title;
+  // Текст читается по низу, поэтому затемняем именно низ: ровная плёнка по
+  // всему кадру убила бы картинку, ради которой формат и затевался.
+  const scrim = cover
+    ? 'linear-gradient(rgba(12,9,6,.30) 0%, rgba(12,9,6,.15) 35%, rgba(12,9,6,.82) 100%)'
+    : 'linear-gradient(rgba(12,9,6,.10) 0%, rgba(12,9,6,.10) 30%, rgba(12,9,6,.88) 100%)';
+  const word = esc(slide.word || '');
+  const wSize = word.length <= 9 ? 128 : word.length <= 13 ? 104 : word.length <= 18 ? 84 : 68;
+
+  return `<!doctype html><html lang="ru"><head><meta charset="utf-8"><style>
+    ${FONTS.fontFaceCss()}
+    @page { margin: 0 }
+    * { box-sizing: border-box; margin: 0; padding: 0 }
+    body {
+      width: ${W}px; height: ${H}px; color: #fff;
+      background: ${scrim}, ${bg ? `url(${bg}) center/cover` : PALETTE.ink};
+      font-family: ${FONTS.body()};
+      display: flex; flex-direction: column; justify-content: flex-end;
+      padding: 80px 70px; position: relative; overflow: hidden;
+    }
+    /* Марка сверху — как подпись художника: маленькая, но всегда на месте.
+       У соседей по нише она же и есть узнавание в чужой ленте. */
+    .brand {
+      position: absolute; top: 64px; left: 70px;
+      font-family: ${FONTS.serif()}; font-style: italic;
+      font-size: 34px; color: rgba(255,248,238,.92);
+      text-shadow: 0 2px 16px rgba(0,0,0,.55);
+    }
+    .title {
+      font-family: ${FONTS.serif()}; font-weight: 700;
+      font-size: ${cover ? 104 : wSize}px; line-height: 1.02;
+      letter-spacing: -.01em; text-transform: uppercase;
+      text-shadow: 0 4px 30px rgba(0,0,0,.6);
+    }
+    .sub {
+      font-family: ${FONTS.head()}; font-weight: 700;
+      font-size: 40px; letter-spacing: .08em; text-transform: uppercase;
+      color: ${PALETTE.gold || '#e8b972'}; margin-top: 22px;
+      text-shadow: 0 2px 18px rgba(0,0,0,.6);
+    }
+    .word {
+      font-family: ${FONTS.serif()}; font-weight: 700;
+      font-size: ${wSize}px; line-height: 1.05;
+      color: ${PALETTE.gold || '#e8b972'};
+      text-shadow: 0 4px 26px rgba(0,0,0,.65);
+    }
+    .text {
+      font-size: 42px; line-height: 1.34; max-width: 24ch; margin-top: 20px;
+      text-shadow: 0 2px 16px rgba(0,0,0,.6);
+    }
+    .foot {
+      display: flex; justify-content: space-between; align-items: flex-end;
+      font-family: ${FONTS.head()}; font-size: 26px; margin-top: 44px;
+      color: rgba(255,248,238,.85); text-shadow: 0 2px 12px rgba(0,0,0,.5);
+    }
+    .dots { display: flex; gap: 10px; align-items: center }
+    .dot { width: 12px; height: 12px; border-radius: 50%; background: rgba(255,248,238,.42) }
+    .dot.on { background: #fff }
+  </style></head><body>
+    <div class="brand">Правка</div>
+    ${cover
+      ? `<div class="title">${nl2br(esc(slide.title))}</div>
+         ${slide.sub ? `<div class="sub">${esc(slide.sub)}</div>` : ''}`
+      : `<div class="word">${word}</div>
+         <div class="text">${nl2br(esc(slide.text || ''))}</div>`}
+    <div class="foot">
+      <span>@${esc(handle)}</span>
+      <span class="dots">${Array.from({ length: total }, (_, i) =>
+        `<span class="dot${i === index ? ' on' : ''}"></span>`).join('')}</span>
+    </div>
+  </body></html>`;
+}
+
 function slideHtml(slide, index, total, handle, postId) {
   if (slide.layout === 'table') return tableHtml(slide, index, total, handle, postId);
   if (slide.layout === 'pair') return pairHtml(slide, index, total, handle, postId);
   if (slide.layout === 'then') return thenHtml(slide, index, total, handle, postId);
+  if (slide.layout === 'photo') return photoHtml(slide, index, total, handle, postId);
   const mark = slide.mark;
   // Обложка карусели — на фотографии автора: первый слайд решает, листать ли.
   // Текст лежит на бумажной карточке (по снимку он нечитаем), внутренние
