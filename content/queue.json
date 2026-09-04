@@ -70,7 +70,7 @@
       "date": "2026-09-03",
       "rubric": "Дефис и пробел",
       "format": "Reels",
-      "status": "approved",
+      "status": "published",
       "kicker": "Видно в любом сообщении",
       "title": "ДЕФИС\nИЛИ ПРОБЕЛ",
       "rows": [
@@ -128,7 +128,9 @@
         "composer": "Модест Мусоргский",
         "piece": "«Ночь на Лысой горе»",
         "license": "Public domain"
-      }
+      },
+      "publishedMediaId": "18123015904896979",
+      "publishedAt": "2026-09-04T17:51:33.240Z"
     },
     {
       "id": "2026-09-02-daty-v-dokumentah",
