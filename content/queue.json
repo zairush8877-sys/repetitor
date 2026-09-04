@@ -3,69 +3,6 @@
   "account": "mairova_a_a",
   "posts": [
     {
-      "id": "2026-09-04-svodka",
-      "date": "2026-09-04",
-      "rubric": "Сводка ЕГЭ/ОГЭ",
-      "format": "Карусель",
-      "status": "pending",
-      "caption": "4 сентября начался дополнительный период ЕГЭ-2026: одиннадцатиклассники, которые летом не набрали минимальный балл по русскому языку или базовой математике, выходят на пересдачу. Порог по русскому языку — 24 балла из 100. Резервный день пересдачи — 25 сентября.\n\nПравило на 2026 год простое: пересдать можно только один предмет и только один раз. Право на дополнительный период есть и у тех, кто пропустил основной экзамен по уважительной причине с подтверждающими документами — для них сентябрь тоже часто последняя возможность получить аттестат в этом же году.\n\nПараллельно идёт дополнительный период ОГЭ у девятиклассников: 3 сентября они писали математику, регионы отчитались, что экзамен прошёл в штатном режиме. Русский язык — 7 сентября, результаты обещают не позднее 17–18 сентября.\n\nИсточник: Рособрнадзор — региональные сообщения от 3 сентября 2026 (Владимирская область, Республика Марий Эл, Кировская область, Мурманская область); официальные минимальные баллы ЕГЭ-2026.",
-      "hashtags": [
-        "#егэ",
-        "#русскийязык",
-        "#пересдачаегэ",
-        "#аттестат"
-      ],
-      "slides": [
-        {
-          "kicker": "Сводка · 4 сентября",
-          "text": "Сегодня стартовал\nдополнительный период ЕГЭ —\nпересдают русский язык"
-        },
-        {
-          "kicker": "Дополнительный период стартовал",
-          "text": "4 сентября — основной день пересдачи по русскому языку и базовой математике для тех, кто не сдал их в июне.\nРезервный день — 25 сентября."
-        },
-        {
-          "kicker": "Кто выходит на пересдачу",
-          "text": "Право на пересдачу — у выпускников, не набравших минимальный балл (по русскому языку — 24 из 100), и у тех, кто пропустил основной экзамен по уважительной причине с документами."
-        },
-        {
-          "kicker": "Параллельно идёт ОГЭ",
-          "text": "У девятиклассников тоже дополнительный период: математику пересдавали 3 сентября, регионы отчитались, что экзамен прошёл штатно.\nРусский язык — 7 сентября, результаты — не позднее 17–18 сентября."
-        },
-        {
-          "kicker": "Что важно понимать",
-          "mark": "right",
-          "text": "В 2026 году можно пересдать только один предмет и только один раз.\nДля одиннадцатиклассников сентябрьский период часто последний шанс получить аттестат в этом же году."
-        },
-        {
-          "kicker": "Чтобы не пропустить",
-          "mark": "cta",
-          "text": "Слежу за сроками и правилами итоговой аттестации и пишу, что реально меняется для сдающих.\nПодпишитесь, если в семье есть выпускник."
-        }
-      ],
-      "imageUrls": [
-        "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-09-04-svodka-1.jpg",
-        "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-09-04-svodka-2.jpg",
-        "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-09-04-svodka-3.jpg",
-        "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-09-04-svodka-4.jpg",
-        "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-09-04-svodka-5.jpg",
-        "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-09-04-svodka-6.jpg"
-      ],
-      "videoUrls": [
-        "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-09-04-svodka-1.mp4",
-        "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-09-04-svodka-2.mp4",
-        "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-09-04-svodka-3.mp4",
-        "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-09-04-svodka-4.mp4",
-        "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-09-04-svodka-5.mp4",
-        "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-09-04-svodka-6.mp4"
-      ],
-      "music": {
-        "composer": "Джоаккино Россини",
-        "piece": "увертюра к «Вильгельму Теллю»",
-        "license": "Public domain"
-      }
-    },
-    {
       "id": "2026-08-31-svodka",
       "date": "2026-08-31",
       "rubric": "Сводка ЕГЭ/ОГЭ",
@@ -133,7 +70,7 @@
       "date": "2026-09-03",
       "rubric": "Дефис и пробел",
       "format": "Reels",
-      "status": "approved",
+      "status": "published",
       "kicker": "Видно в любом сообщении",
       "title": "ДЕФИС\nИЛИ ПРОБЕЛ",
       "rows": [
@@ -191,7 +128,9 @@
         "composer": "Модест Мусоргский",
         "piece": "«Ночь на Лысой горе»",
         "license": "Public domain"
-      }
+      },
+      "publishedMediaId": "18123015904896979",
+      "publishedAt": "2026-09-04T17:51:33.240Z"
     },
     {
       "id": "2026-09-02-daty-v-dokumentah",
@@ -3062,6 +3001,69 @@
       "music": {
         "composer": "Людвиг ван Бетховен",
         "piece": "Пятая симфония",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "2026-09-04-svodka",
+      "date": "2026-09-04",
+      "rubric": "Сводка ЕГЭ/ОГЭ",
+      "format": "Карусель",
+      "status": "pending",
+      "caption": "4 сентября начался дополнительный период ЕГЭ-2026: одиннадцатиклассники, которые летом не набрали минимальный балл по русскому языку или базовой математике, выходят на пересдачу. Порог по русскому языку — 24 балла из 100. Резервный день пересдачи — 25 сентября.\n\nПравило на 2026 год простое: пересдать можно только один предмет и только один раз. Право на дополнительный период есть и у тех, кто пропустил основной экзамен по уважительной причине с подтверждающими документами — для них сентябрь тоже часто последняя возможность получить аттестат в этом же году.\n\nПараллельно идёт дополнительный период ОГЭ у девятиклассников: 3 сентября они писали математику, регионы отчитались, что экзамен прошёл в штатном режиме. Русский язык — 7 сентября, результаты обещают не позднее 17–18 сентября.\n\nИсточник: Рособрнадзор — региональные сообщения от 3 сентября 2026 (Владимирская область, Республика Марий Эл, Кировская область, Мурманская область); официальные минимальные баллы ЕГЭ-2026.",
+      "hashtags": [
+        "#егэ",
+        "#русскийязык",
+        "#пересдачаегэ",
+        "#аттестат"
+      ],
+      "slides": [
+        {
+          "kicker": "Сводка · 4 сентября",
+          "text": "Сегодня стартовал\nдополнительный период ЕГЭ —\nпересдают русский язык"
+        },
+        {
+          "kicker": "Дополнительный период стартовал",
+          "text": "4 сентября — основной день пересдачи по русскому языку и базовой математике для тех, кто не сдал их в июне.\nРезервный день — 25 сентября."
+        },
+        {
+          "kicker": "Кто выходит на пересдачу",
+          "text": "Право на пересдачу — у выпускников, не набравших минимальный балл (по русскому языку — 24 из 100), и у тех, кто пропустил основной экзамен по уважительной причине с документами."
+        },
+        {
+          "kicker": "Параллельно идёт ОГЭ",
+          "text": "У девятиклассников тоже дополнительный период: математику пересдавали 3 сентября, регионы отчитались, что экзамен прошёл штатно.\nРусский язык — 7 сентября, результаты — не позднее 17–18 сентября."
+        },
+        {
+          "kicker": "Что важно понимать",
+          "mark": "right",
+          "text": "В 2026 году можно пересдать только один предмет и только один раз.\nДля одиннадцатиклассников сентябрьский период часто последний шанс получить аттестат в этом же году."
+        },
+        {
+          "kicker": "Чтобы не пропустить",
+          "mark": "cta",
+          "text": "Слежу за сроками и правилами итоговой аттестации и пишу, что реально меняется для сдающих.\nПодпишитесь, если в семье есть выпускник."
+        }
+      ],
+      "imageUrls": [
+        "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-09-04-svodka-1.jpg",
+        "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-09-04-svodka-2.jpg",
+        "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-09-04-svodka-3.jpg",
+        "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-09-04-svodka-4.jpg",
+        "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-09-04-svodka-5.jpg",
+        "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-09-04-svodka-6.jpg"
+      ],
+      "videoUrls": [
+        "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-09-04-svodka-1.mp4",
+        "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-09-04-svodka-2.mp4",
+        "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-09-04-svodka-3.mp4",
+        "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-09-04-svodka-4.mp4",
+        "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-09-04-svodka-5.mp4",
+        "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-09-04-svodka-6.mp4"
+      ],
+      "music": {
+        "composer": "Джоаккино Россини",
+        "piece": "увертюра к «Вильгельму Теллю»",
         "license": "Public domain"
       }
     },
