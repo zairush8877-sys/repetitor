@@ -453,21 +453,30 @@ let publicationLock;
   const noCaption = matched.length - approved.length;
   if (noCaption) console.log(`Без подписи, к публикации не допущено: ${noCaption}. Добавьте caption в очередь.`);
 
+  let dailyReady = approved;
+  if (onlyOne && !onlyId) {
+    const { ready, blocked, deferred } = require('./daily-selection').readyForDay(
+      approved, moscowDate(), post => require('./prepared-media').validate(post));
+    dailyReady = ready;
+    for (const item of blocked) console.warn(`Не готов к ежедневному выпуску: ${item.reason}`);
+    if (deferred.length) console.log(`Дата ещё не наступила или не задана: ${deferred.join(', ')}`);
+    if (!ready.length && blocked.length) throw new Error('Нет готовой публикации на сегодня: нужны одобренный материал с датой и полная сборка. Старые материалы автоматически не пересобираются.');
+  }
   // В ежедневном режиме берём одну публикацию — иначе весь банк уйдёт за один запуск.
   // При пустом банке список остаётся пустым: ниже об этом честно сообщается.
-  const targets = onlyOne && !onlyId && approved.length
-    ? [pickDaily(approved)]
+  const targets = onlyOne && !onlyId
+    ? (dailyReady.length ? [pickDaily(dailyReady)] : [])
     : approved;
 
   if (targets.length === 0) {
     console.log(onlyId
       ? `Пост «${onlyId}» не найден в очереди.`
-      : 'Нет постов со статусом approved — публиковать нечего. Пополните банк.');
+      : 'На сегодня нет одобренных публикаций с наступившей датой.');
     return;
   }
   if (onlyOne && !onlyId) {
-    const ege = approved.filter(p => p.rubric === EGE_RUBRIC).length;
-    console.log(`В банке одобрено: ${approved.length} (из них разборов ЕГЭ: ${ege}). Сегодня выходит одна публикация.`);
+    const ege = dailyReady.filter(p => p.rubric === EGE_RUBRIC).length;
+    console.log(`На сегодня подготовлено и одобрено: ${dailyReady.length} (из них разборов ЕГЭ: ${ege}). Выбрана одна публикация.`);
   }
 
   for (const post of targets) {
