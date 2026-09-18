@@ -25,6 +25,8 @@
 ограничением запуска Chromium (`MachPortRendezvousServer Permission denied`).
 Экспорт банка выполнен Remotion в браузере; не считать его рендером HyperFrames.
 
-Фото и лицензии: `assets/photos/index.json`, `assets/photos/wordplay.json`.
-Музыка Easy Lemon, Kevin MacLeod, CC BY 4.0: `content/music/index.json`.
+Фото и лицензии: `assets/photos/index.json`, `assets/photos/wordplay.json`,
+`assets/photos/bank-refresh.json`.
+Музыка новых выпусков: Бах, BWV 988, вариация № 1; Кимико Ишизака, CC0.
+Кредиты и права на запись: `content/music/index.json`. Опубликованный v2 сохраняет Easy Lemon.
 Кредиты подставляются издателем из манифеста. Секреты для рендера не нужны.

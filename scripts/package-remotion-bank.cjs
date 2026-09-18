@@ -41,8 +41,7 @@ function main() {
   const paths = [queuePath, readyPath, repostPath];
   const before = paths.map(file => shaFile(need(file)));
   const queue = read(queuePath), ready = read(readyPath), reposts = read(repostPath);
-  const pilot = ready;
-  const music = pilot.posts?.['2026-09-13-wordplay-reel']?.media?.music;
+  const music = read(path.join(root, 'content/music/index.json')).tracks.find(t => t.file === 'bach-goldberg-var1-ishizaka.mp3');
   if (!music?.composer || !music?.piece || (music.attributionRequired && !music.attribution)) throw new Error('Missing validated v2 musical credit');
   const font = need(path.join(root, 'assets/fonts/IBMPlexSerif-Bold.ttf'));
   run(python, ['-c', 'from PIL import Image, ImageFont']);

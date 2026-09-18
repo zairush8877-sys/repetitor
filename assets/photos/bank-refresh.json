@@ -1,0 +1,29 @@
+{
+  "checkedAt": "2026-09-19",
+  "photos": [
+    {
+      "file": "assets/photos/blue-carriage-nilov.jpg",
+      "author": "Mikhail Nilov",
+      "source": "https://www.pexels.com/photo/a-blue-baby-carriage-8924170/",
+      "download": "https://images.pexels.com/photos/8924170/pexels-photo-8924170.jpeg?cs=srgb&fm=jpg",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    {
+      "file": "assets/photos/envelope-kerngker.jpg",
+      "author": "Kerngker Stock",
+      "source": "https://www.pexels.com/photo/brown-envelope-on-wooden-table-7390818/",
+      "download": "https://images.pexels.com/photos/7390818/pexels-photo-7390818.jpeg?cs=srgb&fm=jpg",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    {
+      "file": "assets/photos/clock-koolshooters.jpg",
+      "author": "KoolShooters",
+      "source": "https://www.pexels.com/photo/yellow-alarm-clock-on-yellow-surface-6976596/",
+      "download": "https://images.pexels.com/photos/6976596/pexels-photo-6976596.jpeg?cs=srgb&fm=jpg",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  ]
+}

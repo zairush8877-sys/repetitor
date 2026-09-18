@@ -38,18 +38,33 @@
     "2026-09-20-amfiboliya": {
       "version": 1,
       "draftKey": "914d9a1e2b2ab38ca6e16f59159d16bfa2146ad2745ac10a2c33e3a0a5572521",
-      "builtAt": "2026-09-19T09:05:27.262Z",
+      "builtAt": "2026-09-19T09:45:22.055Z",
       "media": {
         "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-09-20-amfiboliya.mp4",
         "coverOffsetMs": 24067,
         "music": {
-          "composer": "Kevin MacLeod",
-          "piece": "Easy Lemon",
-          "license": "CC BY 4.0",
-          "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1200076",
-          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-          "attribution": "Easy Lemon — Kevin MacLeod (incompetech.com). CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/. Фрагмент обрезан и сведён с видео.",
-          "attributionRequired": true
+          "file": "bach-goldberg-var1-ishizaka.mp3",
+          "title": "Goldberg Variations, BWV 988: Variatio 1 a 1 Clav.",
+          "piece": "Гольдберг-вариации, BWV 988 — Вариация № 1",
+          "composer": "Иоганн Себастьян Бах",
+          "author": "Kimiko Ishizaka",
+          "performer": "Кимико Ишизака",
+          "license": "CC0 1.0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "source": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+          "rightsSource": "https://opengoldbergvariations.org/",
+          "download": "https://upload.wikimedia.org/wikipedia/commons/2/20/Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+          "attributionRequired": true,
+          "attribution": "И. С. Бах — Гольдберг-вариации, BWV 988, вариация № 1. Фортепиано: Кимико Ишизака, Open Goldberg Variations (2012). Запись CC0 1.0. Фрагмент, громкость изменена.",
+          "checkedAt": "2026-09-19",
+          "excerptFrom": 0.7,
+          "duration": 32,
+          "active": true,
+          "trendVerified": false,
+          "compositionRights": "Public domain: J. S. Bach (1685–1750)",
+          "recordingRights": "Open Goldberg 2012 recording released under CC0; not inferred from composition age",
+          "sourceSha256": "0539f3612413f6077c82e16f92417bad112e44017536f59db257c8179718076f",
+          "sha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8"
         },
         "lightBg": true
       },
@@ -57,32 +72,47 @@
         {
           "relative": "reels/2026-09-20-amfiboliya.mp4",
           "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-09-20-amfiboliya.mp4",
-          "size": 1979602,
-          "sha256": "5903d161f20af26f97ddc2af768a271b3c1da8d4f58f0c84207a9652edce1ee8"
+          "size": 3404724,
+          "sha256": "94a3c0e1863de1e0fdd406c05e71a41fbe430f08b4175a1be3e7cb4d8bcb33f5"
         },
         {
           "relative": "reels/2026-09-20-amfiboliya-frame.jpg",
           "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-09-20-amfiboliya-frame.jpg",
-          "size": 94462,
-          "sha256": "68cc387d19340028326deb7a7d4f30da961632ad97855f7a6ab435168bbb46a7"
+          "size": 106090,
+          "sha256": "ef601b7db871c91f917b7432295cff9c3b3d9f42d07e7683f785e3193d7a255e"
         }
       ]
     },
     "2026-09-20-tsya-tsya": {
       "version": 1,
       "draftKey": "21dc8f501567a8d267de38512f9b727a8cabcfc24462d3635734ad1972d48e3a",
-      "builtAt": "2026-09-19T09:05:27.262Z",
+      "builtAt": "2026-09-19T09:45:22.055Z",
       "media": {
         "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-09-20-tsya-tsya.mp4",
         "coverOffsetMs": 24067,
         "music": {
-          "composer": "Kevin MacLeod",
-          "piece": "Easy Lemon",
-          "license": "CC BY 4.0",
-          "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1200076",
-          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-          "attribution": "Easy Lemon — Kevin MacLeod (incompetech.com). CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/. Фрагмент обрезан и сведён с видео.",
-          "attributionRequired": true
+          "file": "bach-goldberg-var1-ishizaka.mp3",
+          "title": "Goldberg Variations, BWV 988: Variatio 1 a 1 Clav.",
+          "piece": "Гольдберг-вариации, BWV 988 — Вариация № 1",
+          "composer": "Иоганн Себастьян Бах",
+          "author": "Kimiko Ishizaka",
+          "performer": "Кимико Ишизака",
+          "license": "CC0 1.0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "source": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+          "rightsSource": "https://opengoldbergvariations.org/",
+          "download": "https://upload.wikimedia.org/wikipedia/commons/2/20/Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+          "attributionRequired": true,
+          "attribution": "И. С. Бах — Гольдберг-вариации, BWV 988, вариация № 1. Фортепиано: Кимико Ишизака, Open Goldberg Variations (2012). Запись CC0 1.0. Фрагмент, громкость изменена.",
+          "checkedAt": "2026-09-19",
+          "excerptFrom": 0.7,
+          "duration": 32,
+          "active": true,
+          "trendVerified": false,
+          "compositionRights": "Public domain: J. S. Bach (1685–1750)",
+          "recordingRights": "Open Goldberg 2012 recording released under CC0; not inferred from composition age",
+          "sourceSha256": "0539f3612413f6077c82e16f92417bad112e44017536f59db257c8179718076f",
+          "sha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8"
         },
         "lightBg": true
       },
@@ -90,32 +120,47 @@
         {
           "relative": "reels/2026-09-20-tsya-tsya.mp4",
           "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-09-20-tsya-tsya.mp4",
-          "size": 1795800,
-          "sha256": "da98426d48e4a65d04db6aed4e7b8fae0c077766a048b57ca40d0b0948dc0e66"
+          "size": 3161653,
+          "sha256": "68e5168f5533382c01e94d4a9fcd4deee54077e98d6437dd16b4829844387e97"
         },
         {
           "relative": "reels/2026-09-20-tsya-tsya-frame.jpg",
           "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-09-20-tsya-tsya-frame.jpg",
-          "size": 96670,
-          "sha256": "9579f506920e6eab74f501b496044be93bbb221dd8b0d43f1fd2d1b14fe3643e"
+          "size": 90934,
+          "sha256": "6a0c344a9f0a412a43f87f7f9a26b6feac9949cbc180dd8300aed01fa6c3cbfe"
         }
       ]
     },
     "2026-09-20-abonent": {
       "version": 1,
       "draftKey": "69bf0e95328bbd5cfe44e506548c6d500ffe364e3ef39c243bf16d006f0577f1",
-      "builtAt": "2026-09-19T09:05:27.262Z",
+      "builtAt": "2026-09-19T09:45:22.055Z",
       "media": {
         "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-09-20-abonent.mp4",
         "coverOffsetMs": 24067,
         "music": {
-          "composer": "Kevin MacLeod",
-          "piece": "Easy Lemon",
-          "license": "CC BY 4.0",
-          "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1200076",
-          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-          "attribution": "Easy Lemon — Kevin MacLeod (incompetech.com). CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/. Фрагмент обрезан и сведён с видео.",
-          "attributionRequired": true
+          "file": "bach-goldberg-var1-ishizaka.mp3",
+          "title": "Goldberg Variations, BWV 988: Variatio 1 a 1 Clav.",
+          "piece": "Гольдберг-вариации, BWV 988 — Вариация № 1",
+          "composer": "Иоганн Себастьян Бах",
+          "author": "Kimiko Ishizaka",
+          "performer": "Кимико Ишизака",
+          "license": "CC0 1.0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "source": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+          "rightsSource": "https://opengoldbergvariations.org/",
+          "download": "https://upload.wikimedia.org/wikipedia/commons/2/20/Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+          "attributionRequired": true,
+          "attribution": "И. С. Бах — Гольдберг-вариации, BWV 988, вариация № 1. Фортепиано: Кимико Ишизака, Open Goldberg Variations (2012). Запись CC0 1.0. Фрагмент, громкость изменена.",
+          "checkedAt": "2026-09-19",
+          "excerptFrom": 0.7,
+          "duration": 32,
+          "active": true,
+          "trendVerified": false,
+          "compositionRights": "Public domain: J. S. Bach (1685–1750)",
+          "recordingRights": "Open Goldberg 2012 recording released under CC0; not inferred from composition age",
+          "sourceSha256": "0539f3612413f6077c82e16f92417bad112e44017536f59db257c8179718076f",
+          "sha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8"
         },
         "lightBg": true
       },
@@ -123,32 +168,47 @@
         {
           "relative": "reels/2026-09-20-abonent.mp4",
           "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-09-20-abonent.mp4",
-          "size": 1921223,
-          "sha256": "b150ad3625e9a2d2a1c5883a94e6286935cbb9c34012624846a4358280ddeaf1"
+          "size": 3517397,
+          "sha256": "c756e6fecef608d97e7ef163d30e107f4c3f4f93e22bffe7dcabbbd4d2680b4a"
         },
         {
           "relative": "reels/2026-09-20-abonent-frame.jpg",
           "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-09-20-abonent-frame.jpg",
-          "size": 82099,
-          "sha256": "3d6fbd2a4e8e74660334cd9a89046f136e4090e4cf7ab62e0809e61826e6aba6"
+          "size": 88532,
+          "sha256": "82f01d1dd50a506a36fdc832595886af38307fa58c25c2549dfd8dec75fae0cc"
         }
       ]
     },
     "2026-09-20-dosmotryu": {
       "version": 1,
       "draftKey": "ead6d30c52372f503232d44a393ed2c372d47ec56b488ee55bdaef32af4c7f4d",
-      "builtAt": "2026-09-19T09:05:27.262Z",
+      "builtAt": "2026-09-19T09:45:22.055Z",
       "media": {
         "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-09-20-dosmotryu.mp4",
         "coverOffsetMs": 24067,
         "music": {
-          "composer": "Kevin MacLeod",
-          "piece": "Easy Lemon",
-          "license": "CC BY 4.0",
-          "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1200076",
-          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-          "attribution": "Easy Lemon — Kevin MacLeod (incompetech.com). CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/. Фрагмент обрезан и сведён с видео.",
-          "attributionRequired": true
+          "file": "bach-goldberg-var1-ishizaka.mp3",
+          "title": "Goldberg Variations, BWV 988: Variatio 1 a 1 Clav.",
+          "piece": "Гольдберг-вариации, BWV 988 — Вариация № 1",
+          "composer": "Иоганн Себастьян Бах",
+          "author": "Kimiko Ishizaka",
+          "performer": "Кимико Ишизака",
+          "license": "CC0 1.0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "source": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+          "rightsSource": "https://opengoldbergvariations.org/",
+          "download": "https://upload.wikimedia.org/wikipedia/commons/2/20/Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+          "attributionRequired": true,
+          "attribution": "И. С. Бах — Гольдберг-вариации, BWV 988, вариация № 1. Фортепиано: Кимико Ишизака, Open Goldberg Variations (2012). Запись CC0 1.0. Фрагмент, громкость изменена.",
+          "checkedAt": "2026-09-19",
+          "excerptFrom": 0.7,
+          "duration": 32,
+          "active": true,
+          "trendVerified": false,
+          "compositionRights": "Public domain: J. S. Bach (1685–1750)",
+          "recordingRights": "Open Goldberg 2012 recording released under CC0; not inferred from composition age",
+          "sourceSha256": "0539f3612413f6077c82e16f92417bad112e44017536f59db257c8179718076f",
+          "sha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8"
         },
         "lightBg": true
       },
@@ -156,32 +216,47 @@
         {
           "relative": "reels/2026-09-20-dosmotryu.mp4",
           "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-09-20-dosmotryu.mp4",
-          "size": 2069668,
-          "sha256": "4a910c848e3d02282858cc3477a16db1864feca10446b73c6d28fef4a136ceb3"
+          "size": 3295528,
+          "sha256": "ae504b6479e85a2a6fe565693e8a0ffe60231c08e412187b912d4b425b8249ed"
         },
         {
           "relative": "reels/2026-09-20-dosmotryu-frame.jpg",
           "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-09-20-dosmotryu-frame.jpg",
-          "size": 99153,
-          "sha256": "e162af602c70fd653e66c613d895055ed6fc199590703f4bbc5854df239a809c"
+          "size": 95418,
+          "sha256": "5159c4da6210adf293c5ffabbe7cb93b2bd6b44a83e73f2228117b1cf076be32"
         }
       ]
     },
     "2026-09-20-adresant": {
       "version": 1,
       "draftKey": "0c92ab6583f269e18b5de43fad9f345e971620322ecc1a0031a0faa02081a466",
-      "builtAt": "2026-09-19T09:05:27.262Z",
+      "builtAt": "2026-09-19T09:45:22.055Z",
       "media": {
         "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-09-20-adresant.mp4",
         "coverOffsetMs": 24067,
         "music": {
-          "composer": "Kevin MacLeod",
-          "piece": "Easy Lemon",
-          "license": "CC BY 4.0",
-          "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1200076",
-          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-          "attribution": "Easy Lemon — Kevin MacLeod (incompetech.com). CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/. Фрагмент обрезан и сведён с видео.",
-          "attributionRequired": true
+          "file": "bach-goldberg-var1-ishizaka.mp3",
+          "title": "Goldberg Variations, BWV 988: Variatio 1 a 1 Clav.",
+          "piece": "Гольдберг-вариации, BWV 988 — Вариация № 1",
+          "composer": "Иоганн Себастьян Бах",
+          "author": "Kimiko Ishizaka",
+          "performer": "Кимико Ишизака",
+          "license": "CC0 1.0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "source": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+          "rightsSource": "https://opengoldbergvariations.org/",
+          "download": "https://upload.wikimedia.org/wikipedia/commons/2/20/Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+          "attributionRequired": true,
+          "attribution": "И. С. Бах — Гольдберг-вариации, BWV 988, вариация № 1. Фортепиано: Кимико Ишизака, Open Goldberg Variations (2012). Запись CC0 1.0. Фрагмент, громкость изменена.",
+          "checkedAt": "2026-09-19",
+          "excerptFrom": 0.7,
+          "duration": 32,
+          "active": true,
+          "trendVerified": false,
+          "compositionRights": "Public domain: J. S. Bach (1685–1750)",
+          "recordingRights": "Open Goldberg 2012 recording released under CC0; not inferred from composition age",
+          "sourceSha256": "0539f3612413f6077c82e16f92417bad112e44017536f59db257c8179718076f",
+          "sha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8"
         },
         "lightBg": true
       },
@@ -189,32 +264,47 @@
         {
           "relative": "reels/2026-09-20-adresant.mp4",
           "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-09-20-adresant.mp4",
-          "size": 1790027,
-          "sha256": "7bb863c5587987f446208dedb0c8d944081036c001e3b6f3bfea846a3b3e40e9"
+          "size": 4414043,
+          "sha256": "1ea7660136e02c3f3e0aa3791e38aece3e97b8321417b4158b9cc4f6df35726c"
         },
         {
           "relative": "reels/2026-09-20-adresant-frame.jpg",
           "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-09-20-adresant-frame.jpg",
-          "size": 97599,
-          "sha256": "24ea62f642722f5ee387424e79b8ff86debeae7f9644b3abc20effbefd4088a6"
+          "size": 91209,
+          "sha256": "34822fbb65753b2c88a44e0505a20268b5b98a2fbc3c7b5dd141424f75b9aa51"
         }
       ]
     },
     "2026-09-20-nevezha": {
       "version": 1,
       "draftKey": "cddfa60aaf35057a49b5c234b5d4343d2218ceb5970314be628eacbc01695f31",
-      "builtAt": "2026-09-19T09:05:27.262Z",
+      "builtAt": "2026-09-19T09:45:22.055Z",
       "media": {
         "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-09-20-nevezha.mp4",
         "coverOffsetMs": 26072,
         "music": {
-          "composer": "Kevin MacLeod",
-          "piece": "Easy Lemon",
-          "license": "CC BY 4.0",
-          "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1200076",
-          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-          "attribution": "Easy Lemon — Kevin MacLeod (incompetech.com). CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/. Фрагмент обрезан и сведён с видео.",
-          "attributionRequired": true
+          "file": "bach-goldberg-var1-ishizaka.mp3",
+          "title": "Goldberg Variations, BWV 988: Variatio 1 a 1 Clav.",
+          "piece": "Гольдберг-вариации, BWV 988 — Вариация № 1",
+          "composer": "Иоганн Себастьян Бах",
+          "author": "Kimiko Ishizaka",
+          "performer": "Кимико Ишизака",
+          "license": "CC0 1.0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "source": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+          "rightsSource": "https://opengoldbergvariations.org/",
+          "download": "https://upload.wikimedia.org/wikipedia/commons/2/20/Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+          "attributionRequired": true,
+          "attribution": "И. С. Бах — Гольдберг-вариации, BWV 988, вариация № 1. Фортепиано: Кимико Ишизака, Open Goldberg Variations (2012). Запись CC0 1.0. Фрагмент, громкость изменена.",
+          "checkedAt": "2026-09-19",
+          "excerptFrom": 0.7,
+          "duration": 32,
+          "active": true,
+          "trendVerified": false,
+          "compositionRights": "Public domain: J. S. Bach (1685–1750)",
+          "recordingRights": "Open Goldberg 2012 recording released under CC0; not inferred from composition age",
+          "sourceSha256": "0539f3612413f6077c82e16f92417bad112e44017536f59db257c8179718076f",
+          "sha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8"
         },
         "lightBg": true
       },
@@ -222,14 +312,14 @@
         {
           "relative": "reels/2026-09-20-nevezha.mp4",
           "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-09-20-nevezha.mp4",
-          "size": 2240015,
-          "sha256": "28db112d4569199123bb7a3a7f64ee9d198af713e14d68636ad41d849353b1dd"
+          "size": 4082598,
+          "sha256": "8219a017f3f5cf87ba0652daa85882c83f59e86a4be191b2f0a390d5e31bd407"
         },
         {
           "relative": "reels/2026-09-20-nevezha-frame.jpg",
           "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-09-20-nevezha-frame.jpg",
-          "size": 124765,
-          "sha256": "d2f6585f409b0dd0daee59339e32982ab69f90abed3db113ca10df04066fe746"
+          "size": 127674,
+          "sha256": "dcd7071993ba9582825574ebdc1592c24a730d1ab91e94ebb9e2c04c4d7b4707"
         }
       ]
     }
