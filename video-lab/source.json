@@ -1,0 +1,26 @@
+{
+  "source": "content/reels/2026-09-13-wordplay-reel.mp4",
+  "sha256": "381837fb3ff64e245fa48815b8ef1e9adfca06b7ab87f74649721fed865a4f23",
+  "bytes": 1189632,
+  "sourcePostId": "2026-09-13-wordplay-reel",
+  "music": {
+    "composer": "Kevin MacLeod",
+    "piece": "Easy Lemon",
+    "license": "CC BY 4.0",
+    "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1200076",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Easy Lemon — Kevin MacLeod (incompetech.com). CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/. Фрагмент обрезан и сведён с видео.",
+    "attributionRequired": true
+  },
+  "provenance": [
+    "assets/photos/wordplay.json",
+    "content/music/index.json",
+    "outputs/pilot-v2-2026-09-13/editorial/"
+  ],
+  "timeline": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "durationInFrames": 600
+  }
+}

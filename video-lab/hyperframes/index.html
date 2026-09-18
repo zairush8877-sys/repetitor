@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="ru" data-resolution="portrait">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1080, height=1920">
+  <title>Пилот Анны — HyperFrames</title>
+  <script src="assets/gsap.min.js"></script>
+  <style>
+    html, body { margin: 0; width: 1080px; height: 1920px; overflow: hidden; background: #f7f3e9; }
+    #root { position: relative; width: 100%; height: 100%; overflow: hidden; }
+    #pilot-picture { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; }
+  </style>
+</head>
+<body>
+  <div id="root" data-composition-id="mama-pilot" data-width="1080" data-height="1920" data-duration="20">
+    <video id="pilot-picture" class="clip" src="assets/pilot.mp4" data-start="0" data-duration="20" data-track-index="0" muted playsinline></video>
+    <audio id="pilot-sound" src="assets/pilot.mp4" data-start="0" data-duration="20" data-track-index="1" data-volume="1"></audio>
+  </div>
+  <script>window.__timelines["mama-pilot"] = gsap.timeline({ paused: true });</script>
+</body>
+</html>

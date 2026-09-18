@@ -3266,6 +3266,421 @@
         ],
         "sourceKey": "2edab5ebae06f48ee4670466dfb1b1043fede8ab9774238170b6e0c3151e6ad4"
       }
+    },
+    {
+      "id": "2026-09-20-amfiboliya",
+      "date": "2026-09-20",
+      "status": "approved",
+      "format": "Reels",
+      "title": "Синяя коляска. Или ребёнок?",
+      "school": false,
+      "rubric": "Ясная речь",
+      "caption": "«Коляска для ребёнка синего цвета» заставляет перечитать фразу. Определение можно связать не с тем словом. «Синяя коляска для ребёнка» снимает эту двусмысленность. Этот вымышленный пример показывает амфиболию — выражение с двумя возможными прочтениями. Иногда достаточно переставить несколько слов, чтобы собеседнику не пришлось угадывать.\n\n#культураречи #русскийязык",
+      "sources": [
+        "https://gramota.ru/poisk?mode=spravka&query=неясность",
+        "https://gramota.ru/storage/public/normdicts/orfograficheskij_slovar.pdf"
+      ],
+      "rows": [
+        [
+          "Коляска для ребёнка синего цвета",
+          "Возможно двоякое прочтение"
+        ],
+        [
+          "Синяя коляска для ребёнка",
+          "Цвет относится к коляске"
+        ]
+      ],
+      "scenes": [
+        {
+          "headline": "СИНЯЯ КОЛЯСКА.\nИЛИ РЕБЁНОК?",
+          "body": "«Коляска для ребёнка синего цвета»",
+          "seconds": 5,
+          "tone": "yellow"
+        },
+        {
+          "headline": "КТО ЗДЕСЬ СИНИЙ?",
+          "body": "«Синего цвета» можно связать\nи с коляской, и с ребёнком.",
+          "seconds": 5,
+          "tone": "cream"
+        },
+        {
+          "headline": "ПЕРЕСТАВИМ СЛОВА",
+          "body": "«Синяя коляска\nдля ребёнка»",
+          "seconds": 5,
+          "tone": "mint"
+        },
+        {
+          "headline": "АМФИБОЛИЯ",
+          "body": "Так называют двусмысленность выражения.\nПример с коляской — вымышленный.",
+          "seconds": 5,
+          "tone": "cream"
+        },
+        {
+          "headline": "ТЕПЕРЬ ЯСНО",
+          "body": "Синяя — коляска.\nДля ребёнка — коляска.\nПорядок слов помогает понять смысл.",
+          "seconds": 5,
+          "tone": "blue"
+        }
+      ],
+      "plainBg": true,
+      "coverOffsetMs": 24067,
+      "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-09-20-amfiboliya.mp4",
+      "music": {
+        "composer": "Kevin MacLeod",
+        "piece": "Easy Lemon",
+        "license": "CC BY 4.0",
+        "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1200076",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "attribution": "Easy Lemon — Kevin MacLeod (incompetech.com). CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/. Фрагмент обрезан и сведён с видео.",
+        "attributionRequired": true
+      },
+      "lightBg": true
+    },
+    {
+      "id": "2026-09-20-tsya-tsya",
+      "date": "2026-09-21",
+      "status": "approved",
+      "format": "Reels",
+      "title": "Он хочет учит(ь)ся",
+      "school": true,
+      "rubric": "Школьная база",
+      "caption": "Попросите ребёнка объяснить две фразы: «Он хочет учиться» и «Он учится». В первой к глаголу задаём вопрос «что делать?» — пишем -ться. Во второй — «что делает?»: пишем -тся. Важно задать вопрос именно к тому глаголу, чьё написание проверяем.\n\n#родителям #орфография",
+      "sources": [
+        "https://gramota.ru/uchebnik/pravila/pravopisanie-v-glagolnykh-formakh"
+      ],
+      "rows": [
+        [
+          "Хочет — что делать?",
+          "Учиться"
+        ],
+        [
+          "Он — что делает?",
+          "Учится"
+        ]
+      ],
+      "scenes": [
+        {
+          "headline": "ОН ХОЧЕТ\nУЧИТ(Ь)СЯ",
+          "body": "Спросите у ребёнка:\nк какому слову он задаст вопрос?",
+          "seconds": 5,
+          "tone": "yellow"
+        },
+        {
+          "headline": "ХОЧЕТ —\nЧТО ДЕЛАТЬ?",
+          "body": "Учиться.\nВ вопросе есть мягкий знак.",
+          "seconds": 5,
+          "tone": "cream"
+        },
+        {
+          "headline": "А ТЕПЕРЬ:\nОН УЧИТ(Ь)СЯ",
+          "body": "Уберите слово «хочет».\nВопрос изменился.",
+          "seconds": 5,
+          "tone": "mint"
+        },
+        {
+          "headline": "ОН —\nЧТО ДЕЛАЕТ?",
+          "body": "Учится.\nВ вопросе мягкого знака нет.",
+          "seconds": 5,
+          "tone": "cream"
+        },
+        {
+          "headline": "ВОПРОС\nК НУЖНОМУ СЛОВУ",
+          "body": "Что делать? — учиться.\nЧто делает? — учится.",
+          "seconds": 5,
+          "tone": "blue"
+        }
+      ],
+      "plainBg": true,
+      "coverOffsetMs": 24067,
+      "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-09-20-tsya-tsya.mp4",
+      "music": {
+        "composer": "Kevin MacLeod",
+        "piece": "Easy Lemon",
+        "license": "CC BY 4.0",
+        "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1200076",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "attribution": "Easy Lemon — Kevin MacLeod (incompetech.com). CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/. Фрагмент обрезан и сведён с видео.",
+        "attributionRequired": true
+      },
+      "lightBg": true
+    },
+    {
+      "id": "2026-09-20-abonent",
+      "date": "2026-09-22",
+      "status": "approved",
+      "format": "Reels",
+      "title": "Абонемент есть. Абонент не отвечает",
+      "school": false,
+      "rubric": "Слова в быту",
+      "caption": "Две похожие формы называют разные вещи. Абонемент даёт право пользоваться услугой; так же называется подтверждающий документ. Абонент — тот, кто пользуется услугами: например, связью. Поэтому абонемент можно продлить, а абоненту — позвонить.\n\n#значениеслов #русскийязык",
+      "sources": [
+        "https://gramota.ru/meta/abonent",
+        "https://gramota.ru/poisk?mode=all&query=абон*мент",
+        "https://gramota.ru/biblioteka/spravochniki/slovar-trudnostey/abonentnyy-abonentskiy-abonementnyy"
+      ],
+      "rows": [
+        [
+          "Абонемент",
+          "Право на обслуживание; документ"
+        ],
+        [
+          "Абонент",
+          "Пользователь услуг"
+        ]
+      ],
+      "scenes": [
+        {
+          "headline": "АБОНЕМЕНТ ЕСТЬ.\nАБОНЕНТ НЕ ОТВЕЧАЕТ.",
+          "body": "Похожие слова.\nРазные роли.",
+          "seconds": 5,
+          "tone": "yellow"
+        },
+        {
+          "headline": "АБОНЕМЕНТ\nВ БАССЕЙН",
+          "body": "Право посещать бассейн\nи подтверждающий его документ.",
+          "seconds": 5,
+          "tone": "cream"
+        },
+        {
+          "headline": "АБОНЕНТ\nТЕЛЕФОННОЙ СЕТИ",
+          "body": "Тот, кто пользуется услугами связи.",
+          "seconds": 5,
+          "tone": "mint"
+        },
+        {
+          "headline": "ПРОДЛИТЬ\nИЛИ ПОЗВОНИТЬ",
+          "body": "Абонемент продлевают.\nАбоненту звонят.",
+          "seconds": 5,
+          "tone": "cream"
+        },
+        {
+          "headline": "ДВА СЛОВА",
+          "body": "Абонемент — право и документ.\nАбонент — пользователь услуг.",
+          "seconds": 5,
+          "tone": "blue"
+        }
+      ],
+      "plainBg": true,
+      "coverOffsetMs": 24067,
+      "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-09-20-abonent.mp4",
+      "music": {
+        "composer": "Kevin MacLeod",
+        "piece": "Easy Lemon",
+        "license": "CC BY 4.0",
+        "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1200076",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "attribution": "Easy Lemon — Kevin MacLeod (incompetech.com). CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/. Фрагмент обрезан и сведён с видео.",
+        "attributionRequired": true
+      },
+      "lightBg": true
+    },
+    {
+      "id": "2026-09-20-dosmotryu",
+      "date": "2026-09-23",
+      "status": "approved",
+      "format": "Reels",
+      "title": "«Досмотрю» не обещает «скоро»",
+      "school": false,
+      "rubric": "Смысл в переписке",
+      "caption": "«Досмотрю серию и приду» можно сказать, даже если посмотрели лишь начало. Глагол указывает на завершение просмотра, а не на короткое ожидание. Если время важно, его лучше назвать отдельно. Пример с 22-минутной серией условный: такую ситуацию разбирала справочная служба Грамоты.\n\n#значениеслов #культураречи",
+      "sources": [
+        "https://gramota.ru/spravka/vopros/333357",
+        "https://gramota.ru/poisk?query=не+досмотреть+или+недосмотреть&simple=0"
+      ],
+      "rows": [
+        [
+          "Досмотрю серию",
+          "Доведу просмотр до конца"
+        ],
+        [
+          "Сколько осталось?",
+          "Сам глагол этого не сообщает"
+        ]
+      ],
+      "scenes": [
+        {
+          "headline": "«ДОСМОТРЮ»\nНЕ ОБЕЩАЕТ «СКОРО»",
+          "body": "«Досмотрю серию и приду».\nЖдать две минуты или двадцать?",
+          "seconds": 5,
+          "tone": "yellow"
+        },
+        {
+          "headline": "СЕРИЯ — 22 МИНУТЫ",
+          "body": "Представим: посмотрели только пять.\n«Досмотрю» уже можно сказать.",
+          "seconds": 5,
+          "tone": "cream"
+        },
+        {
+          "headline": "ДОСМОТРЕТЬ",
+          "body": "Посмотреть до конца.\nСлово указывает на завершение просмотра.",
+          "seconds": 5,
+          "tone": "mint"
+        },
+        {
+          "headline": "СКОЛЬКО ОСТАЛОСЬ?",
+          "body": "Сам глагол этого не сообщает.\nВремя лучше назвать отдельно.",
+          "seconds": 5,
+          "tone": "cream"
+        },
+        {
+          "headline": "ЧТО СКАЗАНО ТОЧНО",
+          "body": "«Досмотрю» — закончу просмотр.\n«Скоро» — отдельное обещание.",
+          "seconds": 5,
+          "tone": "blue"
+        }
+      ],
+      "plainBg": true,
+      "coverOffsetMs": 24067,
+      "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-09-20-dosmotryu.mp4",
+      "music": {
+        "composer": "Kevin MacLeod",
+        "piece": "Easy Lemon",
+        "license": "CC BY 4.0",
+        "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1200076",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "attribution": "Easy Lemon — Kevin MacLeod (incompetech.com). CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/. Фрагмент обрезан и сведён с видео.",
+        "attributionRequired": true
+      },
+      "lightBg": true
+    },
+    {
+      "id": "2026-09-20-adresant",
+      "date": "2026-09-24",
+      "status": "approved",
+      "format": "Reels",
+      "title": "Отправили письмо — стали адресантом",
+      "school": false,
+      "rubric": "Деловая переписка",
+      "caption": "Адресант отправляет сообщение, адресат его получает. В переписке один человек может по очереди быть и тем и другим: сначала отправить письмо, затем получить ответ. Роль меняется вместе с направлением сообщения.\n\n#деловаяпереписка #значениеслов",
+      "sources": [
+        "https://gramota.ru/storage/public/normdicts/orfograficheskij_slovar.pdf",
+        "https://gramota.ru/storage/public/normdicts/slovar_inostr_slov.pdf",
+        "https://gramota.ru/biblioteka/spravochniki/pismovnik/rekvizity-chto-eto-takoe"
+      ],
+      "rows": [
+        [
+          "Адресант",
+          "Отправитель"
+        ],
+        [
+          "Адресат",
+          "Получатель"
+        ]
+      ],
+      "scenes": [
+        {
+          "headline": "ОТПРАВИЛИ ПИСЬМО —\nСТАЛИ АДРЕСАНТОМ",
+          "body": "Одна буква меняет роль\nв переписке.",
+          "seconds": 5,
+          "tone": "yellow"
+        },
+        {
+          "headline": "ВЫ — АДРЕСАНТ",
+          "body": "Вы отправили письмо.\nСообщение идёт от вас.",
+          "seconds": 5,
+          "tone": "cream"
+        },
+        {
+          "headline": "ПОЛУЧАТЕЛЬ —\nАДРЕСАТ",
+          "body": "Ему предназначено\nваше письмо.",
+          "seconds": 5,
+          "tone": "mint"
+        },
+        {
+          "headline": "ВАМ ОТВЕТИЛИ",
+          "body": "Теперь вы — адресат\nответного письма.",
+          "seconds": 5,
+          "tone": "cream"
+        },
+        {
+          "headline": "НАПРАВЛЕНИЕ\nМЕНЯЕТ РОЛЬ",
+          "body": "Адресант — отправляет.\nАдресат — получает.",
+          "seconds": 5,
+          "tone": "blue"
+        }
+      ],
+      "plainBg": true,
+      "coverOffsetMs": 24067,
+      "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-09-20-adresant.mp4",
+      "music": {
+        "composer": "Kevin MacLeod",
+        "piece": "Easy Lemon",
+        "license": "CC BY 4.0",
+        "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1200076",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "attribution": "Easy Lemon — Kevin MacLeod (incompetech.com). CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/. Фрагмент обрезан и сведён с видео.",
+        "attributionRequired": true
+      },
+      "lightBg": true
+    },
+    {
+      "id": "2026-09-20-nevezha",
+      "date": "2026-09-25",
+      "status": "approved",
+      "format": "Reels",
+      "title": "Образованный — ещё не значит вежливый",
+      "school": false,
+      "rubric": "Словарные тонкости",
+      "caption": "В основном значении невежа — невоспитанный человек, невежда — малосведущий. Можно быть невеждой в конкретной области: например, в музыке. У «невежи» словарь отмечает и разговорное значение «невежда», поэтому категорическое «никогда не синонимы» было бы неточным.\n\n#значениеслов #культураречи",
+      "sources": [
+        "https://gramota.ru/meta/nevezha",
+        "https://gramota.ru/poisk?mode=slovari&query=невежда*"
+      ],
+      "rows": [
+        [
+          "Невежа",
+          "Невоспитанный; разг. также невежда"
+        ],
+        [
+          "Невежда",
+          "Малосведущий человек"
+        ]
+      ],
+      "scenes": [
+        {
+          "headline": "ОБРАЗОВАННЫЙ —\nЕЩЁ НЕ ЗНАЧИТ ВЕЖЛИВЫЙ",
+          "body": "Невежа и невежда.\nРазница не только в букве.",
+          "seconds": 5,
+          "tone": "yellow"
+        },
+        {
+          "headline": "НЕВЕЖА",
+          "body": "В основном значении —\nгрубый, невоспитанный человек.",
+          "seconds": 5,
+          "tone": "cream"
+        },
+        {
+          "headline": "НЕВЕЖДА В МУЗЫКЕ",
+          "body": "Человек, который мало знает\nоб этой области.",
+          "seconds": 5,
+          "tone": "mint"
+        },
+        {
+          "headline": "ЕСТЬ ОГОВОРКА",
+          "body": "«Невежа» в значении «невежда»\nтоже есть в словаре.\nПомета: разговорное.",
+          "seconds": 6,
+          "tone": "cream"
+        },
+        {
+          "headline": "ОСНОВНОЕ РАЗЛИЧИЕ",
+          "body": "Невежа — о невоспитанности.\nНевежда — о недостатке знаний.\nРазговорное значение может совпадать.",
+          "seconds": 6,
+          "tone": "blue"
+        }
+      ],
+      "plainBg": true,
+      "coverOffsetMs": 26072,
+      "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-09-20-nevezha.mp4",
+      "music": {
+        "composer": "Kevin MacLeod",
+        "piece": "Easy Lemon",
+        "license": "CC BY 4.0",
+        "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1200076",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "attribution": "Easy Lemon — Kevin MacLeod (incompetech.com). CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/. Фрагмент обрезан и сведён с видео.",
+        "attributionRequired": true
+      },
+      "lightBg": true
     }
   ],
   "account_id": "17841456632615750"

@@ -34,6 +34,204 @@
           "sha256": "0d10070b9265c4c04dc004e6788d34de78b87481c64d6b386bb28b43f5b31d84"
         }
       ]
+    },
+    "2026-09-20-amfiboliya": {
+      "version": 1,
+      "draftKey": "914d9a1e2b2ab38ca6e16f59159d16bfa2146ad2745ac10a2c33e3a0a5572521",
+      "builtAt": "2026-09-19T09:05:27.262Z",
+      "media": {
+        "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-09-20-amfiboliya.mp4",
+        "coverOffsetMs": 24067,
+        "music": {
+          "composer": "Kevin MacLeod",
+          "piece": "Easy Lemon",
+          "license": "CC BY 4.0",
+          "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1200076",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "attribution": "Easy Lemon — Kevin MacLeod (incompetech.com). CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/. Фрагмент обрезан и сведён с видео.",
+          "attributionRequired": true
+        },
+        "lightBg": true
+      },
+      "files": [
+        {
+          "relative": "reels/2026-09-20-amfiboliya.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-09-20-amfiboliya.mp4",
+          "size": 1979602,
+          "sha256": "5903d161f20af26f97ddc2af768a271b3c1da8d4f58f0c84207a9652edce1ee8"
+        },
+        {
+          "relative": "reels/2026-09-20-amfiboliya-frame.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-09-20-amfiboliya-frame.jpg",
+          "size": 94462,
+          "sha256": "68cc387d19340028326deb7a7d4f30da961632ad97855f7a6ab435168bbb46a7"
+        }
+      ]
+    },
+    "2026-09-20-tsya-tsya": {
+      "version": 1,
+      "draftKey": "21dc8f501567a8d267de38512f9b727a8cabcfc24462d3635734ad1972d48e3a",
+      "builtAt": "2026-09-19T09:05:27.262Z",
+      "media": {
+        "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-09-20-tsya-tsya.mp4",
+        "coverOffsetMs": 24067,
+        "music": {
+          "composer": "Kevin MacLeod",
+          "piece": "Easy Lemon",
+          "license": "CC BY 4.0",
+          "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1200076",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "attribution": "Easy Lemon — Kevin MacLeod (incompetech.com). CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/. Фрагмент обрезан и сведён с видео.",
+          "attributionRequired": true
+        },
+        "lightBg": true
+      },
+      "files": [
+        {
+          "relative": "reels/2026-09-20-tsya-tsya.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-09-20-tsya-tsya.mp4",
+          "size": 1795800,
+          "sha256": "da98426d48e4a65d04db6aed4e7b8fae0c077766a048b57ca40d0b0948dc0e66"
+        },
+        {
+          "relative": "reels/2026-09-20-tsya-tsya-frame.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-09-20-tsya-tsya-frame.jpg",
+          "size": 96670,
+          "sha256": "9579f506920e6eab74f501b496044be93bbb221dd8b0d43f1fd2d1b14fe3643e"
+        }
+      ]
+    },
+    "2026-09-20-abonent": {
+      "version": 1,
+      "draftKey": "69bf0e95328bbd5cfe44e506548c6d500ffe364e3ef39c243bf16d006f0577f1",
+      "builtAt": "2026-09-19T09:05:27.262Z",
+      "media": {
+        "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-09-20-abonent.mp4",
+        "coverOffsetMs": 24067,
+        "music": {
+          "composer": "Kevin MacLeod",
+          "piece": "Easy Lemon",
+          "license": "CC BY 4.0",
+          "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1200076",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "attribution": "Easy Lemon — Kevin MacLeod (incompetech.com). CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/. Фрагмент обрезан и сведён с видео.",
+          "attributionRequired": true
+        },
+        "lightBg": true
+      },
+      "files": [
+        {
+          "relative": "reels/2026-09-20-abonent.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-09-20-abonent.mp4",
+          "size": 1921223,
+          "sha256": "b150ad3625e9a2d2a1c5883a94e6286935cbb9c34012624846a4358280ddeaf1"
+        },
+        {
+          "relative": "reels/2026-09-20-abonent-frame.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-09-20-abonent-frame.jpg",
+          "size": 82099,
+          "sha256": "3d6fbd2a4e8e74660334cd9a89046f136e4090e4cf7ab62e0809e61826e6aba6"
+        }
+      ]
+    },
+    "2026-09-20-dosmotryu": {
+      "version": 1,
+      "draftKey": "ead6d30c52372f503232d44a393ed2c372d47ec56b488ee55bdaef32af4c7f4d",
+      "builtAt": "2026-09-19T09:05:27.262Z",
+      "media": {
+        "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-09-20-dosmotryu.mp4",
+        "coverOffsetMs": 24067,
+        "music": {
+          "composer": "Kevin MacLeod",
+          "piece": "Easy Lemon",
+          "license": "CC BY 4.0",
+          "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1200076",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "attribution": "Easy Lemon — Kevin MacLeod (incompetech.com). CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/. Фрагмент обрезан и сведён с видео.",
+          "attributionRequired": true
+        },
+        "lightBg": true
+      },
+      "files": [
+        {
+          "relative": "reels/2026-09-20-dosmotryu.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-09-20-dosmotryu.mp4",
+          "size": 2069668,
+          "sha256": "4a910c848e3d02282858cc3477a16db1864feca10446b73c6d28fef4a136ceb3"
+        },
+        {
+          "relative": "reels/2026-09-20-dosmotryu-frame.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-09-20-dosmotryu-frame.jpg",
+          "size": 99153,
+          "sha256": "e162af602c70fd653e66c613d895055ed6fc199590703f4bbc5854df239a809c"
+        }
+      ]
+    },
+    "2026-09-20-adresant": {
+      "version": 1,
+      "draftKey": "0c92ab6583f269e18b5de43fad9f345e971620322ecc1a0031a0faa02081a466",
+      "builtAt": "2026-09-19T09:05:27.262Z",
+      "media": {
+        "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-09-20-adresant.mp4",
+        "coverOffsetMs": 24067,
+        "music": {
+          "composer": "Kevin MacLeod",
+          "piece": "Easy Lemon",
+          "license": "CC BY 4.0",
+          "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1200076",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "attribution": "Easy Lemon — Kevin MacLeod (incompetech.com). CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/. Фрагмент обрезан и сведён с видео.",
+          "attributionRequired": true
+        },
+        "lightBg": true
+      },
+      "files": [
+        {
+          "relative": "reels/2026-09-20-adresant.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-09-20-adresant.mp4",
+          "size": 1790027,
+          "sha256": "7bb863c5587987f446208dedb0c8d944081036c001e3b6f3bfea846a3b3e40e9"
+        },
+        {
+          "relative": "reels/2026-09-20-adresant-frame.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-09-20-adresant-frame.jpg",
+          "size": 97599,
+          "sha256": "24ea62f642722f5ee387424e79b8ff86debeae7f9644b3abc20effbefd4088a6"
+        }
+      ]
+    },
+    "2026-09-20-nevezha": {
+      "version": 1,
+      "draftKey": "cddfa60aaf35057a49b5c234b5d4343d2218ceb5970314be628eacbc01695f31",
+      "builtAt": "2026-09-19T09:05:27.262Z",
+      "media": {
+        "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-09-20-nevezha.mp4",
+        "coverOffsetMs": 26072,
+        "music": {
+          "composer": "Kevin MacLeod",
+          "piece": "Easy Lemon",
+          "license": "CC BY 4.0",
+          "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1200076",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "attribution": "Easy Lemon — Kevin MacLeod (incompetech.com). CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/. Фрагмент обрезан и сведён с видео.",
+          "attributionRequired": true
+        },
+        "lightBg": true
+      },
+      "files": [
+        {
+          "relative": "reels/2026-09-20-nevezha.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-09-20-nevezha.mp4",
+          "size": 2240015,
+          "sha256": "28db112d4569199123bb7a3a7f64ee9d198af713e14d68636ad41d849353b1dd"
+        },
+        {
+          "relative": "reels/2026-09-20-nevezha-frame.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-09-20-nevezha-frame.jpg",
+          "size": 124765,
+          "sha256": "d2f6585f409b0dd0daee59339e32982ab69f90abed3db113ca10df04066fe746"
+        }
+      ]
     }
   }
 }

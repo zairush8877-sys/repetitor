@@ -1,0 +1,32 @@
+[
+  {
+    "id": "2026-09-20-amfiboliya",
+    "audioRms": 0.01669,
+    "nonSilent": true
+  },
+  {
+    "id": "2026-09-20-tsya-tsya",
+    "audioRms": 0.01669,
+    "nonSilent": true
+  },
+  {
+    "id": "2026-09-20-abonent",
+    "audioRms": 0.01669,
+    "nonSilent": true
+  },
+  {
+    "id": "2026-09-20-dosmotryu",
+    "audioRms": 0.01669,
+    "nonSilent": true
+  },
+  {
+    "id": "2026-09-20-adresant",
+    "audioRms": 0.01669,
+    "nonSilent": true
+  },
+  {
+    "id": "2026-09-20-nevezha",
+    "audioRms": 0.01669,
+    "nonSilent": true
+  }
+]

@@ -21,3 +21,12 @@ outputs/style-review-2026-09-11/video-frames/
 outputs/pilot-2026-09-12/design/cover-debug.jpg
 outputs/pilot-2026-09-12/build*.log
 content/music/originals/
+
+# Staged copies of the pilot; recreated by video-lab/prepare.cjs.
+video-lab/hyperframes/assets/pilot.mp4
+video-lab/remotion/public/pilot.mp4
+video-lab/remotion/public/fonts/
+video-lab/remotion/public/photos/
+video-lab/remotion/public/music.mp3
+video-lab/**/.hyperframes/
+video-lab/remotion/build/
