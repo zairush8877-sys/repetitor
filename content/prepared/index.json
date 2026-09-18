@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "posts": {
+    "2026-09-13-wordplay-reel": {
+      "version": 1,
+      "draftKey": "cc4c17cfb14140315318b774383e4b21cd82069ad56bcef1dcfc3544ffe6815e",
+      "builtAt": "2026-09-12T22:10:05.468Z",
+      "media": {
+        "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-09-13-wordplay-reel.mp4",
+        "coverOffsetMs": 19000,
+        "music": {
+          "composer": "Kevin MacLeod",
+          "piece": "Easy Lemon",
+          "license": "CC BY 4.0",
+          "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1200076",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "attribution": "Easy Lemon — Kevin MacLeod (incompetech.com). CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/. Фрагмент обрезан и сведён с видео.",
+          "attributionRequired": true
+        },
+        "background": "assets/photos/red-phone-outdoors.jpg",
+        "lightBg": true
+      },
+      "files": [
+        {
+          "relative": "reels/2026-09-13-wordplay-reel.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-09-13-wordplay-reel.mp4",
+          "size": 1189632,
+          "sha256": "381837fb3ff64e245fa48815b8ef1e9adfca06b7ab87f74649721fed865a4f23"
+        },
+        {
+          "relative": "reels/2026-09-13-wordplay-reel-frame.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-09-13-wordplay-reel-frame.jpg",
+          "size": 139276,
+          "sha256": "0d10070b9265c4c04dc004e6788d34de78b87481c64d6b386bb28b43f5b31d84"
+        }
+      ]
+    }
+  }
+}
