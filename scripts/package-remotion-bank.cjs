@@ -67,20 +67,19 @@ function main() {
       const coverName = `${post.id}-frame.jpg`, storyName = `${post.id}-1.jpg`;
       const cover = path.join(temp, coverName), story = path.join(temp, storyName);
       run(ffmpeg, ['-v', 'error', '-y', '-ss', String(post.coverOffsetMs / 1000), '-i', path.join(content, 'reels', `${post.id}.mp4`), '-frames:v', '1', '-q:v', '2', cover]);
-      // Full source frame, uniform contain, inside x=90..990 / y=360..1660.
+      // Full 1080x1920 source, with no frame or crop. The composition itself
+      // keeps all educational text within the common Reels/Stories safe area.
       const geometry = JSON.parse(run(python, ['-c', `
 import json,sys
 from PIL import Image,ImageFont,ImageDraw
 source,out,font=sys.argv[1:]
 im=Image.open(source).convert('RGB')
 sw,sh=im.size
-scale=min(900/sw,1300/sh)
-w,h=round(sw*scale),round(sh*scale)
-x,y=(1080-w)//2,360+(1300-h)//2
-canvas=Image.new('RGB',(1080,1920),'#f7f3e9')
-canvas.paste(im.resize((w,h),Image.Resampling.LANCZOS),(x,y))
+if (sw,sh)!=(1080,1920): raise ValueError('Expected full portrait cover')
+x,y,w,h=0,0,sw,sh
+canvas=im.copy()
 draw=ImageDraw.Draw(canvas)
-draw.text((90,300),'Анонс Reels',font=ImageFont.truetype(font,40),fill='#153f92')
+draw.text((90,1595),'Анонс Reels',font=ImageFont.truetype(font,36),fill='white',stroke_width=2,stroke_fill='#152a39')
 canvas.save(out,quality=95,subsampling=0)
 print(json.dumps(dict(sourceWidth=sw,sourceHeight=sh,x=x,y=y,width=w,height=h,outputWidth=1080,outputHeight=1920)))
 `, cover, story, font]));

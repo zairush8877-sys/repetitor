@@ -38,7 +38,7 @@
     "2026-09-20-amfiboliya": {
       "version": 1,
       "draftKey": "914d9a1e2b2ab38ca6e16f59159d16bfa2146ad2745ac10a2c33e3a0a5572521",
-      "builtAt": "2026-09-19T09:45:22.055Z",
+      "builtAt": "2026-09-19T10:42:31.662Z",
       "media": {
         "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-09-20-amfiboliya.mp4",
         "coverOffsetMs": 24067,
@@ -72,21 +72,21 @@
         {
           "relative": "reels/2026-09-20-amfiboliya.mp4",
           "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-09-20-amfiboliya.mp4",
-          "size": 3404724,
-          "sha256": "94a3c0e1863de1e0fdd406c05e71a41fbe430f08b4175a1be3e7cb4d8bcb33f5"
+          "size": 11352712,
+          "sha256": "39bcfc17809e2413dce36b91c2650ff9cebd29016a77b9b3ee30b7be6e3564de"
         },
         {
           "relative": "reels/2026-09-20-amfiboliya-frame.jpg",
           "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-09-20-amfiboliya-frame.jpg",
-          "size": 106090,
-          "sha256": "ef601b7db871c91f917b7432295cff9c3b3d9f42d07e7683f785e3193d7a255e"
+          "size": 347204,
+          "sha256": "74fbc782666fc45ccd5277d81d4d3d07de6f2ae5b22ca6ff4109e056f83e6454"
         }
       ]
     },
     "2026-09-20-tsya-tsya": {
       "version": 1,
       "draftKey": "21dc8f501567a8d267de38512f9b727a8cabcfc24462d3635734ad1972d48e3a",
-      "builtAt": "2026-09-19T09:45:22.055Z",
+      "builtAt": "2026-09-19T10:42:31.662Z",
       "media": {
         "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-09-20-tsya-tsya.mp4",
         "coverOffsetMs": 24067,
@@ -120,21 +120,21 @@
         {
           "relative": "reels/2026-09-20-tsya-tsya.mp4",
           "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-09-20-tsya-tsya.mp4",
-          "size": 3161653,
-          "sha256": "68e5168f5533382c01e94d4a9fcd4deee54077e98d6437dd16b4829844387e97"
+          "size": 7751865,
+          "sha256": "c2deb978f2d04013a6499659566d49a8693fcf3d3a007f880222af1627ed226e"
         },
         {
           "relative": "reels/2026-09-20-tsya-tsya-frame.jpg",
           "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-09-20-tsya-tsya-frame.jpg",
-          "size": 90934,
-          "sha256": "6a0c344a9f0a412a43f87f7f9a26b6feac9949cbc180dd8300aed01fa6c3cbfe"
+          "size": 233346,
+          "sha256": "20a201430545a2f6d15c17352bd1ee5cafc88cb9a6d35f443a14445ff3f17f52"
         }
       ]
     },
     "2026-09-20-abonent": {
       "version": 1,
       "draftKey": "69bf0e95328bbd5cfe44e506548c6d500ffe364e3ef39c243bf16d006f0577f1",
-      "builtAt": "2026-09-19T09:45:22.055Z",
+      "builtAt": "2026-09-19T10:42:31.662Z",
       "media": {
         "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-09-20-abonent.mp4",
         "coverOffsetMs": 24067,
@@ -168,21 +168,21 @@
         {
           "relative": "reels/2026-09-20-abonent.mp4",
           "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-09-20-abonent.mp4",
-          "size": 3517397,
-          "sha256": "c756e6fecef608d97e7ef163d30e107f4c3f4f93e22bffe7dcabbbd4d2680b4a"
+          "size": 10708150,
+          "sha256": "dfa6f95626bb094a25177c3415c54311ca25117a707b20730a6cbf588a05c279"
         },
         {
           "relative": "reels/2026-09-20-abonent-frame.jpg",
           "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-09-20-abonent-frame.jpg",
-          "size": 88532,
-          "sha256": "82f01d1dd50a506a36fdc832595886af38307fa58c25c2549dfd8dec75fae0cc"
+          "size": 323387,
+          "sha256": "e05e71c436ecd914795f81ccc21325facc239de567551387417a35b15a331c8d"
         }
       ]
     },
     "2026-09-20-dosmotryu": {
       "version": 1,
       "draftKey": "ead6d30c52372f503232d44a393ed2c372d47ec56b488ee55bdaef32af4c7f4d",
-      "builtAt": "2026-09-19T09:45:22.055Z",
+      "builtAt": "2026-09-19T10:42:31.662Z",
       "media": {
         "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-09-20-dosmotryu.mp4",
         "coverOffsetMs": 24067,
@@ -216,21 +216,21 @@
         {
           "relative": "reels/2026-09-20-dosmotryu.mp4",
           "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-09-20-dosmotryu.mp4",
-          "size": 3295528,
-          "sha256": "ae504b6479e85a2a6fe565693e8a0ffe60231c08e412187b912d4b425b8249ed"
+          "size": 7999203,
+          "sha256": "20dfd49a405c63136669b65c92d3ed2f19a24cb9e893cee76cba680fc0c24c22"
         },
         {
           "relative": "reels/2026-09-20-dosmotryu-frame.jpg",
           "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-09-20-dosmotryu-frame.jpg",
-          "size": 95418,
-          "sha256": "5159c4da6210adf293c5ffabbe7cb93b2bd6b44a83e73f2228117b1cf076be32"
+          "size": 254067,
+          "sha256": "0189af6a15b50edcc583a43fbe1912a882a06a89289797238295e3e5a23ec88a"
         }
       ]
     },
     "2026-09-20-adresant": {
       "version": 1,
       "draftKey": "0c92ab6583f269e18b5de43fad9f345e971620322ecc1a0031a0faa02081a466",
-      "builtAt": "2026-09-19T09:45:22.055Z",
+      "builtAt": "2026-09-19T10:42:31.662Z",
       "media": {
         "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-09-20-adresant.mp4",
         "coverOffsetMs": 24067,
@@ -264,21 +264,21 @@
         {
           "relative": "reels/2026-09-20-adresant.mp4",
           "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-09-20-adresant.mp4",
-          "size": 4414043,
-          "sha256": "1ea7660136e02c3f3e0aa3791e38aece3e97b8321417b4158b9cc4f6df35726c"
+          "size": 10140615,
+          "sha256": "1ac13a6f728dc78b4fed29796a50cab80f6976cd162ecfb09b6dfc10984e30ce"
         },
         {
           "relative": "reels/2026-09-20-adresant-frame.jpg",
           "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-09-20-adresant-frame.jpg",
-          "size": 91209,
-          "sha256": "34822fbb65753b2c88a44e0505a20268b5b98a2fbc3c7b5dd141424f75b9aa51"
+          "size": 276452,
+          "sha256": "90217da729391e67df9dda264d1b79946598d0596246ddfb454575c4744eebde"
         }
       ]
     },
     "2026-09-20-nevezha": {
       "version": 1,
       "draftKey": "cddfa60aaf35057a49b5c234b5d4343d2218ceb5970314be628eacbc01695f31",
-      "builtAt": "2026-09-19T09:45:22.055Z",
+      "builtAt": "2026-09-19T10:42:31.662Z",
       "media": {
         "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-09-20-nevezha.mp4",
         "coverOffsetMs": 26072,
@@ -312,14 +312,14 @@
         {
           "relative": "reels/2026-09-20-nevezha.mp4",
           "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-09-20-nevezha.mp4",
-          "size": 4082598,
-          "sha256": "8219a017f3f5cf87ba0652daa85882c83f59e86a4be191b2f0a390d5e31bd407"
+          "size": 9578552,
+          "sha256": "f8714068a244c0e4c5569287dad99664de21427fee78c51633c80fe9ab799727"
         },
         {
           "relative": "reels/2026-09-20-nevezha-frame.jpg",
           "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-09-20-nevezha-frame.jpg",
-          "size": 127674,
-          "sha256": "dcd7071993ba9582825574ebdc1592c24a730d1ab91e94ebb9e2c04c4d7b4707"
+          "size": 287541,
+          "sha256": "758e3ff4e63b56771deb67cbd6b8b98134e33f99e3df69957c8817946bddce66"
         }
       ]
     }

@@ -25,10 +25,15 @@ fs.writeFileSync(path.join(__dirname, 'source.json'), JSON.stringify(manifest, n
 for (const [sourceDir, targetDir, files] of [
   ['assets/fonts', 'fonts', ['IBMPlexSerif-Bold.ttf', 'Oswald-variable.ttf', 'manrope-400.woff2', 'manrope-600.woff2']],
   ['assets/photos', 'photos', ['jeshoots-notebook.jpg', 'clay-banks-notebook.jpg', 'red-phone-outdoors.jpg', 'atlas-anez.jpg', 'blue-carriage-nilov.jpg', 'envelope-kerngker.jpg', 'clock-koolshooters.jpg']],
+  ['assets/photos/photo-v3', 'photos/photo-v3', ['amfiboliya.png', 'tsya-tsya.png', 'abonent.png', 'dosmotryu.png', 'adresant.png', 'nevezha.png']],
 ]) {
   const target = path.join(__dirname, 'remotion/public', targetDir);
   fs.mkdirSync(target, { recursive: true });
-  for (const file of files) fs.copyFileSync(path.join(root, sourceDir, file), path.join(target, file));
+  for (const file of files) {
+    const input = path.join(root, sourceDir, file);
+    if (!fs.existsSync(input)) throw new Error(`Не готов обязательный исходник: ${input}`);
+    fs.copyFileSync(input, path.join(target, file));
+  }
 }
 fs.copyFileSync(path.join(root, 'content/music/light-easy-lemon.mp3'), path.join(__dirname, 'remotion/public/music.mp3'));
 fs.copyFileSync(path.join(root, 'content/music/bach-goldberg-var1-ishizaka.mp3'), path.join(__dirname, 'remotion/public/classical.mp3'));

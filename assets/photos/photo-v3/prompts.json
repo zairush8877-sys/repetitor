@@ -1,0 +1,50 @@
+{
+  "createdAt": "2026-09-19",
+  "method": "built-in image_gen",
+  "kind": "generated illustrative photorealistic scenes",
+  "rightsBasis": "Generated for this project at the user's request; no claim of documentary photography or depiction of Anna or her students.",
+  "items": [
+    {
+      "file": "amfiboliya.png",
+      "prompt": "Photorealistic editorial portrait of an empty cobalt-blue stroller in a bright terracotta courtyard; quiet upper third for code-added text; no people, logos, words, graphic ornaments.",
+      "sha256": "2072c1f8c585079d25a892ab11e5c9093192e061641fecb90c45a413da7f377d",
+      "width": 941,
+      "height": 1672
+    },
+    {
+      "file": "tsya-tsya.png",
+      "prompt": "Use case: photorealistic-natural. Create ONE exceptionally crisp full-bleed photoreal editorial still for a Russian educational Instagram Reel, portrait9:16, highresolution. A joyful modern home study table: an open pristine white notebook without any writing, three richly colored pencils (coral, cobalt, sunny yellow), a small glass of water and a single fresh orange on a warm honey wooden desk next to a window. Low close editorial angle, crisp pencils and paper in the lower half, sunlit mint wall taking the upper third, a soft green houseplant at one far edge. Fresh tactile real materials, sharp foreground, no people, no handwriting, no letters. Visually arresting and vivid, not generic gloomy school stationery. Composition: main recognizable subject central/lowerhalf, generous quiet upper35percent for text that will be added later in code. Lighting natural bright sunny daylight, realistic nuanced shadows, fresh saturated colors, optically sharp subject, energetic and inviting. No poster layout, no collage, no card or frame, no typography, no graphic lines, no watermarks. This is a fictional illustrative scene, not documentary evidence.",
+      "sha256": "3dfe954390d9b00dd06746580e7f9d615d37b134496c8744bfa513a5771a8fe1",
+      "width": 941,
+      "height": 1672
+    },
+    {
+      "file": "abonent.png",
+      "prompt": "Use case: photorealistic-natural. Create ONE exceptionally crisp full-bleed photoreal editorial still for a Russian educational Instagram Reel, portrait9:16, highresolution. A vivid glossy red retro telephone on a small lemon-yellow outdoor cafe table by a turquoise swimming pool; a pair of swim goggles and a folded sky-blue towel beside it, suggesting a funny collision of phone subscriber and pool membership. The complete phone and recognizable receiver occupy the central lower half. Upper third is a calm vivid turquoise pool surface with gorgeous real sun caustics and plenty of quiet space. Contemporary high-end playful still-life photography, tactile gloss, crystal sharp details. No people, no text, no readable numbers, no logos. Composition: main recognizable subject central/lowerhalf, generous quiet upper35percent for text that will be added later in code. Lighting natural bright sunny daylight, realistic nuanced shadows, fresh saturated colors, optically sharp subject, energetic and inviting. No poster layout, no collage, no card or frame, no typography, no graphic lines, no watermarks. This is a fictional illustrative scene, not documentary evidence.",
+      "sha256": "ce6bbfc1dedad4f3880ae13c5753d866c8cc30556c43fcd4df817978aa9b55a3",
+      "width": 941,
+      "height": 1672
+    },
+    {
+      "file": "dosmotryu.png",
+      "prompt": "Use case: photorealistic-natural. Create ONE exceptionally crisp full-bleed photoreal editorial still for a Russian educational Instagram Reel, portrait9:16, highresolution. A cozy contemporary home movie moment in fresh daylight: a bowl of golden popcorn and a sleek dark TV remote on a small orange side table, with a bright cobalt sofa behind, warm sunlight. The main objects occupy the lower half. Upper third is a calm warm light plaster wall with an unobtrusive blur of a TV edge to one side. A photogenic green houseplant just at far edge. Crisp popcorn texture and natural reflections, colorful but believable real interior, editorial magazine quality. No people, no written words, no logos, no visible display content. Composition: main recognizable subject central/lowerhalf, generous quiet upper35percent for text that will be added later in code. Lighting natural bright sunny daylight, realistic nuanced shadows, fresh saturated colors, optically sharp subject, energetic and inviting. No poster layout, no collage, no card or frame, no typography, no graphic lines, no watermarks. This is a fictional illustrative scene, not documentary evidence.",
+      "sha256": "7fe59e943c8d1fd9c8dec992ae81632650bca60d4a4d2b1de4f9905bf24eda14",
+      "width": 941,
+      "height": 1672
+    },
+    {
+      "file": "adresant.png",
+      "prompt": "Use case: photorealistic-natural. Create ONE exceptionally crisp full-bleed photoreal editorial still for a Russian educational Instagram Reel, portrait9:16, highresolution. A real-looking vivid coral-red outdoor wall-mounted letter box open slightly, with a plain ivory envelope being inserted by one natural adult hand from the right edge. The envelope has no writing or stamps. Letter box and hand occupy the central lower half. A clean sunlit blue painted wall forms the background and upper third with ample quiet space. Small flowering branch at left edge. Pin sharp metal, paper and skin detail, elegant bright contemporary editorial photograph, realistic hand anatomy. No faces, no words, no numbers, no logos. Composition: main recognizable subject central/lowerhalf, generous quiet upper35percent for text that will be added later in code. Lighting natural bright sunny daylight, realistic nuanced shadows, fresh saturated colors, optically sharp subject, energetic and inviting. No poster layout, no collage, no card or frame, no typography, no graphic lines, no watermarks. This is a fictional illustrative scene, not documentary evidence.",
+      "sha256": "dc616eab5efe1290409ebee8b7cbcffc80bc0f3eb22e87f2501d565008cf29f9",
+      "width": 941,
+      "height": 1672
+    },
+    {
+      "file": "nevezha.png",
+      "prompt": "Use case: photorealistic-natural. Create ONE exceptionally crisp full-bleed photoreal editorial still for a Russian educational Instagram Reel, portrait9:16, highresolution. A gorgeous glossy cherry-red upright acoustic piano with a few ivory and black keys visible in sharp focus, a small stack of three closed books with blank plain cobalt/yellow/cream covers on top, in a bright contemporary creative living room. The instrument keys and books occupy the lower half, upper third a quiet sunlit sage-green wall. Warm sunlight, luscious real paint reflections and paper textures, refined but playful contrast, magazine photography, immediately engaging and clearly about knowledge of music. No people, no text or lettering anywhere, no logos, no sheet music. Composition: main recognizable subject central/lowerhalf, generous quiet upper35percent for text that will be added later in code. Lighting natural bright sunny daylight, realistic nuanced shadows, fresh saturated colors, optically sharp subject, energetic and inviting. No poster layout, no collage, no card or frame, no typography, no graphic lines, no watermarks. This is a fictional illustrative scene, not documentary evidence.",
+      "sha256": "506511495403592ec08b579c8aef8693847fab934e8ee17de3929ad4dec1808c",
+      "width": 941,
+      "height": 1672
+    }
+  ]
+}
