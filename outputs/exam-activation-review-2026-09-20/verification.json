@@ -1,0 +1,311 @@
+{
+  "approved": 20,
+  "calendarDays": 20,
+  "selectedOneEveryDay": true,
+  "earlierPostsPreserved": true,
+  "liveStoriesUnchanged": true,
+  "validations": [
+    {
+      "id": "2026-09-20-amfiboliya",
+      "format": "Reels",
+      "files": 2,
+      "storyFrames": 1,
+      "status": "approved",
+      "prepared": true
+    },
+    {
+      "id": "2026-09-20-tsya-tsya",
+      "format": "Reels",
+      "files": 2,
+      "storyFrames": 1,
+      "status": "approved",
+      "prepared": true
+    },
+    {
+      "id": "2026-09-20-abonent",
+      "format": "Reels",
+      "files": 2,
+      "storyFrames": 1,
+      "status": "approved",
+      "prepared": true
+    },
+    {
+      "id": "2026-09-20-dosmotryu",
+      "format": "Reels",
+      "files": 2,
+      "storyFrames": 1,
+      "status": "approved",
+      "prepared": true
+    },
+    {
+      "id": "2026-09-20-adresant",
+      "format": "Reels",
+      "files": 2,
+      "storyFrames": 1,
+      "status": "approved",
+      "prepared": true
+    },
+    {
+      "id": "2026-09-20-nevezha",
+      "format": "Reels",
+      "files": 2,
+      "storyFrames": 1,
+      "status": "approved",
+      "prepared": true
+    },
+    {
+      "id": "2026-09-26-ege-deeprichastie",
+      "format": "Reels",
+      "files": 2,
+      "storyFrames": 1,
+      "status": "approved",
+      "prepared": true
+    },
+    {
+      "id": "2026-09-27-oge-kazhetsya",
+      "format": "Reels",
+      "files": 2,
+      "storyFrames": 1,
+      "status": "approved",
+      "prepared": true
+    },
+    {
+      "id": "2026-09-28-ege-nesmotrya",
+      "format": "Карусель",
+      "files": 8,
+      "storyFrames": 4,
+      "status": "approved",
+      "prepared": true
+    },
+    {
+      "id": "2026-09-29-oge-svetaet",
+      "format": "Reels",
+      "files": 2,
+      "storyFrames": 1,
+      "status": "approved",
+      "prepared": true
+    },
+    {
+      "id": "2026-09-30-ege-ne-kto",
+      "format": "Reels",
+      "files": 2,
+      "storyFrames": 1,
+      "status": "approved",
+      "prepared": true
+    },
+    {
+      "id": "2026-10-01-oge-svyaz",
+      "format": "Карусель",
+      "files": 8,
+      "storyFrames": 4,
+      "status": "approved",
+      "prepared": true
+    },
+    {
+      "id": "2026-10-02-ege-bsp-colon",
+      "format": "Карусель",
+      "files": 8,
+      "storyFrames": 4,
+      "status": "approved",
+      "prepared": true
+    },
+    {
+      "id": "2026-10-03-oge-bez-bes",
+      "format": "Reels",
+      "files": 2,
+      "storyFrames": 1,
+      "status": "approved",
+      "prepared": true
+    },
+    {
+      "id": "2026-10-04-ege-odnako",
+      "format": "Reels",
+      "files": 2,
+      "storyFrames": 1,
+      "status": "approved",
+      "prepared": true
+    },
+    {
+      "id": "2026-10-05-oge-szhatie",
+      "format": "Карусель",
+      "files": 8,
+      "storyFrames": 4,
+      "status": "approved",
+      "prepared": true
+    },
+    {
+      "id": "2026-10-06-ege-po-pribytii",
+      "format": "Reels",
+      "files": 2,
+      "storyFrames": 1,
+      "status": "approved",
+      "prepared": true
+    },
+    {
+      "id": "2026-10-07-oge-argument",
+      "format": "Карусель",
+      "files": 8,
+      "storyFrames": 4,
+      "status": "approved",
+      "prepared": true
+    },
+    {
+      "id": "2026-10-08-ege-direct-speech",
+      "format": "Карусель",
+      "files": 8,
+      "storyFrames": 4,
+      "status": "approved",
+      "prepared": true
+    },
+    {
+      "id": "2026-10-09-oge-dvoetochie",
+      "format": "Reels",
+      "files": 2,
+      "storyFrames": 1,
+      "status": "approved",
+      "prepared": true
+    }
+  ],
+  "calendar": [
+    {
+      "date": "2026-09-20",
+      "id": "2026-09-20-amfiboliya",
+      "format": "Reels",
+      "prepared": true
+    },
+    {
+      "date": "2026-09-21",
+      "id": "2026-09-20-tsya-tsya",
+      "format": "Reels",
+      "prepared": true
+    },
+    {
+      "date": "2026-09-22",
+      "id": "2026-09-20-abonent",
+      "format": "Reels",
+      "prepared": true
+    },
+    {
+      "date": "2026-09-23",
+      "id": "2026-09-20-dosmotryu",
+      "format": "Reels",
+      "prepared": true
+    },
+    {
+      "date": "2026-09-24",
+      "id": "2026-09-20-adresant",
+      "format": "Reels",
+      "prepared": true
+    },
+    {
+      "date": "2026-09-25",
+      "id": "2026-09-20-nevezha",
+      "format": "Reels",
+      "prepared": true
+    },
+    {
+      "date": "2026-09-26",
+      "id": "2026-09-26-ege-deeprichastie",
+      "format": "Reels",
+      "prepared": true
+    },
+    {
+      "date": "2026-09-27",
+      "id": "2026-09-27-oge-kazhetsya",
+      "format": "Reels",
+      "prepared": true
+    },
+    {
+      "date": "2026-09-28",
+      "id": "2026-09-28-ege-nesmotrya",
+      "format": "Карусель",
+      "prepared": true
+    },
+    {
+      "date": "2026-09-29",
+      "id": "2026-09-29-oge-svetaet",
+      "format": "Reels",
+      "prepared": true
+    },
+    {
+      "date": "2026-09-30",
+      "id": "2026-09-30-ege-ne-kto",
+      "format": "Reels",
+      "prepared": true
+    },
+    {
+      "date": "2026-10-01",
+      "id": "2026-10-01-oge-svyaz",
+      "format": "Карусель",
+      "prepared": true
+    },
+    {
+      "date": "2026-10-02",
+      "id": "2026-10-02-ege-bsp-colon",
+      "format": "Карусель",
+      "prepared": true
+    },
+    {
+      "date": "2026-10-03",
+      "id": "2026-10-03-oge-bez-bes",
+      "format": "Reels",
+      "prepared": true
+    },
+    {
+      "date": "2026-10-04",
+      "id": "2026-10-04-ege-odnako",
+      "format": "Reels",
+      "prepared": true
+    },
+    {
+      "date": "2026-10-05",
+      "id": "2026-10-05-oge-szhatie",
+      "format": "Карусель",
+      "prepared": true
+    },
+    {
+      "date": "2026-10-06",
+      "id": "2026-10-06-ege-po-pribytii",
+      "format": "Reels",
+      "prepared": true
+    },
+    {
+      "date": "2026-10-07",
+      "id": "2026-10-07-oge-argument",
+      "format": "Карусель",
+      "prepared": true
+    },
+    {
+      "date": "2026-10-08",
+      "id": "2026-10-08-ege-direct-speech",
+      "format": "Карусель",
+      "prepared": true
+    },
+    {
+      "date": "2026-10-09",
+      "id": "2026-10-09-oge-dvoetochie",
+      "format": "Reels",
+      "prepared": true
+    }
+  ],
+  "audioVerification": "All 32 new MP4 SHA match the prior loudnorm verification; files not rerendered",
+  "instagramCalls": 0,
+  "tests": {
+    "passed": 18,
+    "failed": 0,
+    "command": "node --test tests/daily-schedule.test.js tests/reposts.test.js"
+  },
+  "todayDryRun": {
+    "postId": "2026-09-20-amfiboliya",
+    "storyFrames": 1,
+    "apiCalls": 0
+  },
+  "schedule": {
+    "timezone": "Europe/Moscow",
+    "targetTime": "19:30",
+    "cronUTC": "30 16 * * *",
+    "personalizedOptimumConfirmed": false
+  },
+  "validationScope": "All 20 approved posts. Blanket --validate-prepared also includes legacy pending drafts and stops on their absent builds; legacy drafts were not activated or rebuilt.",
+  "fullAudioGateLocal": "Not claimed: bundled FFmpeg lacks volumedetect; prior valid loudnorm measurements remain bound by SHA for all 32 new MP4."
+}

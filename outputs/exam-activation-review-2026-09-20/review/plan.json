@@ -1,0 +1,945 @@
+{
+  "schemaVersion": 1,
+  "mode": "review-only",
+  "generatedAt": "2026-09-20T08:37:47.959Z",
+  "source": "outputs/exam-bank-2026-09-26/content",
+  "baseline": {
+    "content/queue.json": "7a0cf370255ce836cb4c5d188c29e4e216e7eb4abc245048cc7e76717eff40e2",
+    "content/prepared/index.json": "eecb630908c805c1f85aa4c4604946d8e0af7a0951341330eb53ea870e89fd27",
+    "content/reposts/index.json": "589429b188414bf234d41811947cec75c0e63972938a6b030a75d2ac69b82a45",
+    "outputs/exam-bank-2026-09-26/content/queue.json": "0ccafa67bc297bd63e7dcb36a6a3994fd83c932a73afb098329ae0ec751a269a",
+    "outputs/exam-bank-2026-09-26/content/prepared/index.json": "844ac767a9a0a4c65761615842b7b1c2545fc946df46109bb937b62d29761a70",
+    "outputs/exam-bank-2026-09-26/content/reposts/index.json": "21cc9fb4fbe3f4e2bc9fbcb1dc5aa51bd8e36e124a7d034459d3e2456b69b728",
+    "content/stories.json": "7b196e1dcf3b2188a772a5bfa3942f0221bfb4314f3a05533ce5e9ad9e41ca35"
+  },
+  "validatedInTemporaryContentTree": true,
+  "liveFilesUnchanged": true,
+  "publicationsAttempted": false,
+  "dates": {
+    "first": "2026-09-26",
+    "last": "2026-10-09"
+  },
+  "posts": [
+    {
+      "id": "2026-09-26-ege-deeprichastie",
+      "format": "Reels",
+      "files": 2,
+      "storyFrames": 1,
+      "status": "approved",
+      "prepared": true,
+      "date": "2026-09-26"
+    },
+    {
+      "id": "2026-09-27-oge-kazhetsya",
+      "format": "Reels",
+      "files": 2,
+      "storyFrames": 1,
+      "status": "approved",
+      "prepared": true,
+      "date": "2026-09-27"
+    },
+    {
+      "id": "2026-09-28-ege-nesmotrya",
+      "format": "Карусель",
+      "files": 8,
+      "storyFrames": 4,
+      "status": "approved",
+      "prepared": true,
+      "date": "2026-09-28"
+    },
+    {
+      "id": "2026-09-29-oge-svetaet",
+      "format": "Reels",
+      "files": 2,
+      "storyFrames": 1,
+      "status": "approved",
+      "prepared": true,
+      "date": "2026-09-29"
+    },
+    {
+      "id": "2026-09-30-ege-ne-kto",
+      "format": "Reels",
+      "files": 2,
+      "storyFrames": 1,
+      "status": "approved",
+      "prepared": true,
+      "date": "2026-09-30"
+    },
+    {
+      "id": "2026-10-01-oge-svyaz",
+      "format": "Карусель",
+      "files": 8,
+      "storyFrames": 4,
+      "status": "approved",
+      "prepared": true,
+      "date": "2026-10-01"
+    },
+    {
+      "id": "2026-10-02-ege-bsp-colon",
+      "format": "Карусель",
+      "files": 8,
+      "storyFrames": 4,
+      "status": "approved",
+      "prepared": true,
+      "date": "2026-10-02"
+    },
+    {
+      "id": "2026-10-03-oge-bez-bes",
+      "format": "Reels",
+      "files": 2,
+      "storyFrames": 1,
+      "status": "approved",
+      "prepared": true,
+      "date": "2026-10-03"
+    },
+    {
+      "id": "2026-10-04-ege-odnako",
+      "format": "Reels",
+      "files": 2,
+      "storyFrames": 1,
+      "status": "approved",
+      "prepared": true,
+      "date": "2026-10-04"
+    },
+    {
+      "id": "2026-10-05-oge-szhatie",
+      "format": "Карусель",
+      "files": 8,
+      "storyFrames": 4,
+      "status": "approved",
+      "prepared": true,
+      "date": "2026-10-05"
+    },
+    {
+      "id": "2026-10-06-ege-po-pribytii",
+      "format": "Reels",
+      "files": 2,
+      "storyFrames": 1,
+      "status": "approved",
+      "prepared": true,
+      "date": "2026-10-06"
+    },
+    {
+      "id": "2026-10-07-oge-argument",
+      "format": "Карусель",
+      "files": 8,
+      "storyFrames": 4,
+      "status": "approved",
+      "prepared": true,
+      "date": "2026-10-07"
+    },
+    {
+      "id": "2026-10-08-ege-direct-speech",
+      "format": "Карусель",
+      "files": 8,
+      "storyFrames": 4,
+      "status": "approved",
+      "prepared": true,
+      "date": "2026-10-08"
+    },
+    {
+      "id": "2026-10-09-oge-dvoetochie",
+      "format": "Reels",
+      "files": 2,
+      "storyFrames": 1,
+      "status": "approved",
+      "prepared": true,
+      "date": "2026-10-09"
+    }
+  ],
+  "copies": [
+    {
+      "from": "outputs/exam-bank-2026-09-26/content/reels/2026-09-26-ege-deeprichastie.mp4",
+      "to": "content/reels/2026-09-26-ege-deeprichastie.mp4",
+      "relative": "reels/2026-09-26-ege-deeprichastie.mp4",
+      "bytes": 12258623,
+      "sha256": "d12a4bd512a836e6e06a9081c145e0ba9df58ace48f7d581ce5ba3a3da606c8c",
+      "gitBlobSha1": "49f2e8181e20a542eba344336fcd245085eff436"
+    },
+    {
+      "from": "outputs/exam-bank-2026-09-26/content/reels/2026-09-26-ege-deeprichastie-frame.jpg",
+      "to": "content/reels/2026-09-26-ege-deeprichastie-frame.jpg",
+      "relative": "reels/2026-09-26-ege-deeprichastie-frame.jpg",
+      "bytes": 285391,
+      "sha256": "8e7f7986b216d495dfe7b11462e2da876095e9fb5b5bc5bccf436154a7115306",
+      "gitBlobSha1": "45d353ab45c032d5e06a0ec7bc388e8701c3bcfa"
+    },
+    {
+      "from": "outputs/exam-bank-2026-09-26/content/reposts/2026-09-26-ege-deeprichastie-1.jpg",
+      "to": "content/reposts/2026-09-26-ege-deeprichastie-1.jpg",
+      "relative": "reposts/2026-09-26-ege-deeprichastie-1.jpg",
+      "bytes": 540633,
+      "sha256": "6c79bc80943f6a66dc6fd3147aee433f6a84e2445aad2597faf1a0a31f7a05db",
+      "gitBlobSha1": "728c5e1229ac296facdf015752da80b3a414fe4a"
+    },
+    {
+      "from": "outputs/exam-bank-2026-09-26/content/reels/2026-09-27-oge-kazhetsya.mp4",
+      "to": "content/reels/2026-09-27-oge-kazhetsya.mp4",
+      "relative": "reels/2026-09-27-oge-kazhetsya.mp4",
+      "bytes": 16469344,
+      "sha256": "122e6a4fa15eaa07647fd126399edbff727db79c0b6fe449cbe5b9769c158d25",
+      "gitBlobSha1": "504941dba2b399cefae0afd9b8dc047657177504"
+    },
+    {
+      "from": "outputs/exam-bank-2026-09-26/content/reels/2026-09-27-oge-kazhetsya-frame.jpg",
+      "to": "content/reels/2026-09-27-oge-kazhetsya-frame.jpg",
+      "relative": "reels/2026-09-27-oge-kazhetsya-frame.jpg",
+      "bytes": 338428,
+      "sha256": "670328eca608e83b57f41f2ae95406e237a48ac9d601335ded41cf4dc8ea1448",
+      "gitBlobSha1": "842241ddbb72a8f63319232a3447cf9341c6be8b"
+    },
+    {
+      "from": "outputs/exam-bank-2026-09-26/content/reposts/2026-09-27-oge-kazhetsya-1.jpg",
+      "to": "content/reposts/2026-09-27-oge-kazhetsya-1.jpg",
+      "relative": "reposts/2026-09-27-oge-kazhetsya-1.jpg",
+      "bytes": 619016,
+      "sha256": "8c7b230bb644bec48d5c7d36e95b0046560a96bc8e395d1aa75899d4138c7094",
+      "gitBlobSha1": "0c3bf11fcb7c3a569f024f49d306f54f56014571"
+    },
+    {
+      "from": "outputs/exam-bank-2026-09-26/content/images/2026-09-28-ege-nesmotrya-1.jpg",
+      "to": "content/images/2026-09-28-ege-nesmotrya-1.jpg",
+      "relative": "images/2026-09-28-ege-nesmotrya-1.jpg",
+      "bytes": 229095,
+      "sha256": "553d1a209ec040b46ebc7f8c3bb4897202f00076e3350544bee033cc6973160e",
+      "gitBlobSha1": "db46e9b41306973a2de30bffb01190cb55596b5d"
+    },
+    {
+      "from": "outputs/exam-bank-2026-09-26/content/images/2026-09-28-ege-nesmotrya-2.jpg",
+      "to": "content/images/2026-09-28-ege-nesmotrya-2.jpg",
+      "relative": "images/2026-09-28-ege-nesmotrya-2.jpg",
+      "bytes": 219563,
+      "sha256": "aff055889edf37b812de3869f853ab521e914ff275f171f7fb78fbba87d48f44",
+      "gitBlobSha1": "4abe212834cebd9fbec64be82596fffccf9252e5"
+    },
+    {
+      "from": "outputs/exam-bank-2026-09-26/content/images/2026-09-28-ege-nesmotrya-3.jpg",
+      "to": "content/images/2026-09-28-ege-nesmotrya-3.jpg",
+      "relative": "images/2026-09-28-ege-nesmotrya-3.jpg",
+      "bytes": 218757,
+      "sha256": "4f0d16dcd8b3fd5693227af7cce35d55b4b0770d818309cc6017bb9085403130",
+      "gitBlobSha1": "31026dee9d7fbb27a302b089b9fd4cd9c9b248ea"
+    },
+    {
+      "from": "outputs/exam-bank-2026-09-26/content/images/2026-09-28-ege-nesmotrya-4.jpg",
+      "to": "content/images/2026-09-28-ege-nesmotrya-4.jpg",
+      "relative": "images/2026-09-28-ege-nesmotrya-4.jpg",
+      "bytes": 229698,
+      "sha256": "8bc82a9a3fa4d8bdb78e281d845a20ac4250f3eedd101190359ce8ca99a1cf92",
+      "gitBlobSha1": "db40f4065eaa8402e08ab1c1cc8657364a3a2007"
+    },
+    {
+      "from": "outputs/exam-bank-2026-09-26/content/images/2026-09-28-ege-nesmotrya-1.mp4",
+      "to": "content/images/2026-09-28-ege-nesmotrya-1.mp4",
+      "relative": "images/2026-09-28-ege-nesmotrya-1.mp4",
+      "bytes": 2464058,
+      "sha256": "13bf66f0a26eb82b94c57b9bdd32b0403baabb7ee713703a11aa1b94da113d1c",
+      "gitBlobSha1": "40a81d157227dfdf4beba5891874a1ecb8030613"
+    },
+    {
+      "from": "outputs/exam-bank-2026-09-26/content/images/2026-09-28-ege-nesmotrya-2.mp4",
+      "to": "content/images/2026-09-28-ege-nesmotrya-2.mp4",
+      "relative": "images/2026-09-28-ege-nesmotrya-2.mp4",
+      "bytes": 2421596,
+      "sha256": "2e80c377b8b3b7dc504207ee590bdebd993e49676ff273c5539dce3b81c85c16",
+      "gitBlobSha1": "8f70f63661a879331e00f52fffd672f117037a57"
+    },
+    {
+      "from": "outputs/exam-bank-2026-09-26/content/images/2026-09-28-ege-nesmotrya-3.mp4",
+      "to": "content/images/2026-09-28-ege-nesmotrya-3.mp4",
+      "relative": "images/2026-09-28-ege-nesmotrya-3.mp4",
+      "bytes": 2639686,
+      "sha256": "865e3c039095b1bdc060230609ea600ab3d8af3f291144c9c6a2463ba4167db0",
+      "gitBlobSha1": "b79c4e11fb72bcb08c14c3bced80048c24694d44"
+    },
+    {
+      "from": "outputs/exam-bank-2026-09-26/content/images/2026-09-28-ege-nesmotrya-4.mp4",
+      "to": "content/images/2026-09-28-ege-nesmotrya-4.mp4",
+      "relative": "images/2026-09-28-ege-nesmotrya-4.mp4",
+      "bytes": 2188404,
+      "sha256": "54b84dcab78aa5319168b6b8b2b47e1d17f132cdf3317af9c4a557690b989bcf",
+      "gitBlobSha1": "b1ea773fb7036a70812985e439fcbeacf663d7d0"
+    },
+    {
+      "from": "outputs/exam-bank-2026-09-26/content/reposts/2026-09-28-ege-nesmotrya-1.jpg",
+      "to": "content/reposts/2026-09-28-ege-nesmotrya-1.jpg",
+      "relative": "reposts/2026-09-28-ege-nesmotrya-1.jpg",
+      "bytes": 393985,
+      "sha256": "d9d3815dd78f56f97d162d3bde9f70d3a4f2681d5fc751cd89e92fd086f5cbd6",
+      "gitBlobSha1": "7d8567bd71b3d403c228e5a0b3a6e4562db6349b"
+    },
+    {
+      "from": "outputs/exam-bank-2026-09-26/content/reposts/2026-09-28-ege-nesmotrya-2.jpg",
+      "to": "content/reposts/2026-09-28-ege-nesmotrya-2.jpg",
+      "relative": "reposts/2026-09-28-ege-nesmotrya-2.jpg",
+      "bytes": 381926,
+      "sha256": "7f6c97112c0395174620b676f14a2b04b6db14273169c4b81d082d818b025b04",
+      "gitBlobSha1": "3368f98eb0a4b391defa32610455feb267f308ca"
+    },
+    {
+      "from": "outputs/exam-bank-2026-09-26/content/reposts/2026-09-28-ege-nesmotrya-3.jpg",
+      "to": "content/reposts/2026-09-28-ege-nesmotrya-3.jpg",
+      "relative": "reposts/2026-09-28-ege-nesmotrya-3.jpg",
+      "bytes": 384501,
+      "sha256": "fab157eb4289e077e24687537b81ed70d3164ffed10ff31b1e2e97deba98cdab",
+      "gitBlobSha1": "e4120033446f56d48faeab9ba97abc76605126c7"
+    },
+    {
+      "from": "outputs/exam-bank-2026-09-26/content/reposts/2026-09-28-ege-nesmotrya-4.jpg",
+      "to": "content/reposts/2026-09-28-ege-nesmotrya-4.jpg",
+      "relative": "reposts/2026-09-28-ege-nesmotrya-4.jpg",
+      "bytes": 391768,
+      "sha256": "2d1da67a08180fb82b14f0d169957262600f846a847a2e5f7e4f71a6d698bbf5",
+      "gitBlobSha1": "b12f3b34e1e07ab99d20326ea0d33ad1a7a1f443"
+    },
+    {
+      "from": "outputs/exam-bank-2026-09-26/content/reels/2026-09-29-oge-svetaet.mp4",
+      "to": "content/reels/2026-09-29-oge-svetaet.mp4",
+      "relative": "reels/2026-09-29-oge-svetaet.mp4",
+      "bytes": 21635924,
+      "sha256": "6520a640fc518b78cd1a93684b4e256ac58f8a4066f60cb0f0d87491b4980a45",
+      "gitBlobSha1": "0508afc62fb769464e96139adfa3b83aefb5d8fc"
+    },
+    {
+      "from": "outputs/exam-bank-2026-09-26/content/reels/2026-09-29-oge-svetaet-frame.jpg",
+      "to": "content/reels/2026-09-29-oge-svetaet-frame.jpg",
+      "relative": "reels/2026-09-29-oge-svetaet-frame.jpg",
+      "bytes": 363862,
+      "sha256": "7fe026b92b27ede12513395322b8a20d87f56f2812dfacfefa5ed4025e40d0fe",
+      "gitBlobSha1": "01c7535e7f642363d1351dd8e608fb88921a28c5"
+    },
+    {
+      "from": "outputs/exam-bank-2026-09-26/content/reposts/2026-09-29-oge-svetaet-1.jpg",
+      "to": "content/reposts/2026-09-29-oge-svetaet-1.jpg",
+      "relative": "reposts/2026-09-29-oge-svetaet-1.jpg",
+      "bytes": 651571,
+      "sha256": "6c2f8edc6fc0bfae7f37cdaee12b79a03222fa1902dc12686cc7b310afe2732a",
+      "gitBlobSha1": "24f12f74884b3369800e47c4320415ffd6f22412"
+    },
+    {
+      "from": "outputs/exam-bank-2026-09-26/content/reels/2026-09-30-ege-ne-kto.mp4",
+      "to": "content/reels/2026-09-30-ege-ne-kto.mp4",
+      "relative": "reels/2026-09-30-ege-ne-kto.mp4",
+      "bytes": 9972800,
+      "sha256": "0152e542b334daacba30a6228f167a581bba8c029c756354a1fd3155382ac911",
+      "gitBlobSha1": "4250fb81debb8a050a802c3dcd520ef56f1fcb17"
+    },
+    {
+      "from": "outputs/exam-bank-2026-09-26/content/reels/2026-09-30-ege-ne-kto-frame.jpg",
+      "to": "content/reels/2026-09-30-ege-ne-kto-frame.jpg",
+      "relative": "reels/2026-09-30-ege-ne-kto-frame.jpg",
+      "bytes": 224268,
+      "sha256": "10b13fc88caedc2ffab6887c26361aa89e75441a3dc7c8ce84ff0365d49210af",
+      "gitBlobSha1": "9912f9ecc6ac9de26d24999a500b4622e4caaf15"
+    },
+    {
+      "from": "outputs/exam-bank-2026-09-26/content/reposts/2026-09-30-ege-ne-kto-1.jpg",
+      "to": "content/reposts/2026-09-30-ege-ne-kto-1.jpg",
+      "relative": "reposts/2026-09-30-ege-ne-kto-1.jpg",
+      "bytes": 434502,
+      "sha256": "c498a4b43266cb59abed10c6b7699d17ad6c4f0345cc42319f88a76da3d48e46",
+      "gitBlobSha1": "f300e84aa25daaa83c1524c80d094fd7a31ea84a"
+    },
+    {
+      "from": "outputs/exam-bank-2026-09-26/content/images/2026-10-01-oge-svyaz-1.jpg",
+      "to": "content/images/2026-10-01-oge-svyaz-1.jpg",
+      "relative": "images/2026-10-01-oge-svyaz-1.jpg",
+      "bytes": 288894,
+      "sha256": "1b68b3670fa46f1cabf2cf1b21aea66e5c39467b34a781da8457019714f655a7",
+      "gitBlobSha1": "1898a6bbd52399c32ead6192cf344c09f4a8d85f"
+    },
+    {
+      "from": "outputs/exam-bank-2026-09-26/content/images/2026-10-01-oge-svyaz-2.jpg",
+      "to": "content/images/2026-10-01-oge-svyaz-2.jpg",
+      "relative": "images/2026-10-01-oge-svyaz-2.jpg",
+      "bytes": 295841,
+      "sha256": "cb91d99e6185be4f655c4d8b8e437a06213da997e089e697ed13d9f538a4e212",
+      "gitBlobSha1": "122f3f3ab5db019611a62e74d2586a70b43184ae"
+    },
+    {
+      "from": "outputs/exam-bank-2026-09-26/content/images/2026-10-01-oge-svyaz-3.jpg",
+      "to": "content/images/2026-10-01-oge-svyaz-3.jpg",
+      "relative": "images/2026-10-01-oge-svyaz-3.jpg",
+      "bytes": 309742,
+      "sha256": "ff92e2a4f80965a8f7b651927cecd72b9c8a9d35bda5e0877a34212a82a82d07",
+      "gitBlobSha1": "f6d484a4cc5f248784da6238fcec14cefbb506d2"
+    },
+    {
+      "from": "outputs/exam-bank-2026-09-26/content/images/2026-10-01-oge-svyaz-4.jpg",
+      "to": "content/images/2026-10-01-oge-svyaz-4.jpg",
+      "relative": "images/2026-10-01-oge-svyaz-4.jpg",
+      "bytes": 302918,
+      "sha256": "92329382b606fc377183136931128b3bdc362be218a67c0aee62e36d7c2f5bf5",
+      "gitBlobSha1": "8465a584f1a50e389731fd3f2f01ab7375e6a0d8"
+    },
+    {
+      "from": "outputs/exam-bank-2026-09-26/content/images/2026-10-01-oge-svyaz-1.mp4",
+      "to": "content/images/2026-10-01-oge-svyaz-1.mp4",
+      "relative": "images/2026-10-01-oge-svyaz-1.mp4",
+      "bytes": 2459764,
+      "sha256": "bf11372249d2f364e21c9233c45900065b5bdf373823fc4f12e4869fa3fe9a77",
+      "gitBlobSha1": "cb6e836c7307e62849070aead3c3198cdb39f304"
+    },
+    {
+      "from": "outputs/exam-bank-2026-09-26/content/images/2026-10-01-oge-svyaz-2.mp4",
+      "to": "content/images/2026-10-01-oge-svyaz-2.mp4",
+      "relative": "images/2026-10-01-oge-svyaz-2.mp4",
+      "bytes": 2547806,
+      "sha256": "52962755e949d543e7b0fdf363d87fac559e3bc4dfe12499e8b96feb0f4e0925",
+      "gitBlobSha1": "aaa675f72451bf05b23f45b7dde556bd37564cfe"
+    },
+    {
+      "from": "outputs/exam-bank-2026-09-26/content/images/2026-10-01-oge-svyaz-3.mp4",
+      "to": "content/images/2026-10-01-oge-svyaz-3.mp4",
+      "relative": "images/2026-10-01-oge-svyaz-3.mp4",
+      "bytes": 2544733,
+      "sha256": "70f5b3677564c24ea04daa39132b9423e583d1e89227ef6f4d14ce2c38710b35",
+      "gitBlobSha1": "04ca4d0267582f1903847b0ac7751d22d0da6856"
+    },
+    {
+      "from": "outputs/exam-bank-2026-09-26/content/images/2026-10-01-oge-svyaz-4.mp4",
+      "to": "content/images/2026-10-01-oge-svyaz-4.mp4",
+      "relative": "images/2026-10-01-oge-svyaz-4.mp4",
+      "bytes": 2273935,
+      "sha256": "087d88671cbf7e47fff4e0201de867d360e7f51d11bfcee993dc16aa241ad057",
+      "gitBlobSha1": "91a8123e4e6fc6aeea566506961754eaf68b4e3e"
+    },
+    {
+      "from": "outputs/exam-bank-2026-09-26/content/reposts/2026-10-01-oge-svyaz-1.jpg",
+      "to": "content/reposts/2026-10-01-oge-svyaz-1.jpg",
+      "relative": "reposts/2026-10-01-oge-svyaz-1.jpg",
+      "bytes": 490996,
+      "sha256": "888edd05304b769cbe7940163dcc150f5ec2497bfad8764be85ee3785aad3660",
+      "gitBlobSha1": "47f90d7563019c3b487703f6aa6461f6e1b92d69"
+    },
+    {
+      "from": "outputs/exam-bank-2026-09-26/content/reposts/2026-10-01-oge-svyaz-2.jpg",
+      "to": "content/reposts/2026-10-01-oge-svyaz-2.jpg",
+      "relative": "reposts/2026-10-01-oge-svyaz-2.jpg",
+      "bytes": 502137,
+      "sha256": "5de8847601a4d5642bdea81a9af7dbcb0bc1058577f6ef24f161dbec4014d0ae",
+      "gitBlobSha1": "3387f558acc33dfbd9e3e713371866ed38026536"
+    },
+    {
+      "from": "outputs/exam-bank-2026-09-26/content/reposts/2026-10-01-oge-svyaz-3.jpg",
+      "to": "content/reposts/2026-10-01-oge-svyaz-3.jpg",
+      "relative": "reposts/2026-10-01-oge-svyaz-3.jpg",
+      "bytes": 517491,
+      "sha256": "937a3aa494a1f34d8a62ff4ebda0f3e5dd5db833008cad564dc55da359f82646",
+      "gitBlobSha1": "446de0d3082103a0f53e5375348823e8d1ec224c"
+    },
+    {
+      "from": "outputs/exam-bank-2026-09-26/content/reposts/2026-10-01-oge-svyaz-4.jpg",
+      "to": "content/reposts/2026-10-01-oge-svyaz-4.jpg",
+      "relative": "reposts/2026-10-01-oge-svyaz-4.jpg",
+      "bytes": 503612,
+      "sha256": "26c354ad1a0ea95281f288a3c34429eb3026a058bf62c17c43329e010312db75",
+      "gitBlobSha1": "b09f96110199fde0b83bed3d073bac7780cf6999"
+    },
+    {
+      "from": "outputs/exam-bank-2026-09-26/content/images/2026-10-02-ege-bsp-colon-1.jpg",
+      "to": "content/images/2026-10-02-ege-bsp-colon-1.jpg",
+      "relative": "images/2026-10-02-ege-bsp-colon-1.jpg",
+      "bytes": 294570,
+      "sha256": "2ab4c8bb1df92fc45e035aec4f22f008897ff6e5b3925c35555f17b312d0baf7",
+      "gitBlobSha1": "885382a3f6a6b98a7179b7504443f4d313924aba"
+    },
+    {
+      "from": "outputs/exam-bank-2026-09-26/content/images/2026-10-02-ege-bsp-colon-2.jpg",
+      "to": "content/images/2026-10-02-ege-bsp-colon-2.jpg",
+      "relative": "images/2026-10-02-ege-bsp-colon-2.jpg",
+      "bytes": 299435,
+      "sha256": "2dba7f02462f69e6325bae58e317d1c8bd359e6c6ff4a74e70e43453b19f2f5b",
+      "gitBlobSha1": "f8a4f97ff65cb8f346452b8cd667f5b6114fc777"
+    },
+    {
+      "from": "outputs/exam-bank-2026-09-26/content/images/2026-10-02-ege-bsp-colon-3.jpg",
+      "to": "content/images/2026-10-02-ege-bsp-colon-3.jpg",
+      "relative": "images/2026-10-02-ege-bsp-colon-3.jpg",
+      "bytes": 292098,
+      "sha256": "4fcc9fcf483b0ffb862c77e01c891350a5f9cb01378723e041cf51eace6c4353",
+      "gitBlobSha1": "25c214e3ecc25c5fa5808099acab78df10802019"
+    },
+    {
+      "from": "outputs/exam-bank-2026-09-26/content/images/2026-10-02-ege-bsp-colon-4.jpg",
+      "to": "content/images/2026-10-02-ege-bsp-colon-4.jpg",
+      "relative": "images/2026-10-02-ege-bsp-colon-4.jpg",
+      "bytes": 304791,
+      "sha256": "1a5e665ec466e25b09c2ec646878fa571ff7159f17fcec1628fbf9525a656263",
+      "gitBlobSha1": "823a4c4a6a0a5bad0c656eedc26ed619aab74476"
+    },
+    {
+      "from": "outputs/exam-bank-2026-09-26/content/images/2026-10-02-ege-bsp-colon-1.mp4",
+      "to": "content/images/2026-10-02-ege-bsp-colon-1.mp4",
+      "relative": "images/2026-10-02-ege-bsp-colon-1.mp4",
+      "bytes": 3632093,
+      "sha256": "b4be8892f20353d5f0a08f090e92cd7e212f1007bf5f1248374984b60cb2be6d",
+      "gitBlobSha1": "8b1ca7f8f5b310342e83d5d934734643dbfbbd30"
+    },
+    {
+      "from": "outputs/exam-bank-2026-09-26/content/images/2026-10-02-ege-bsp-colon-2.mp4",
+      "to": "content/images/2026-10-02-ege-bsp-colon-2.mp4",
+      "relative": "images/2026-10-02-ege-bsp-colon-2.mp4",
+      "bytes": 3635478,
+      "sha256": "2f8876f1845445dc067fe52379778c679d992a9b459376e96dc19364f40cf2c5",
+      "gitBlobSha1": "01fb7b5c95eeb1e18d6b7abbf068c8dc4151b590"
+    },
+    {
+      "from": "outputs/exam-bank-2026-09-26/content/images/2026-10-02-ege-bsp-colon-3.mp4",
+      "to": "content/images/2026-10-02-ege-bsp-colon-3.mp4",
+      "relative": "images/2026-10-02-ege-bsp-colon-3.mp4",
+      "bytes": 3739917,
+      "sha256": "99ce650a06b03bb401f2de29e2e957b558c57fae7928b5541625392092b3e347",
+      "gitBlobSha1": "c786dbbaddae98ca0e7b49f224d8ad58ea670d00"
+    },
+    {
+      "from": "outputs/exam-bank-2026-09-26/content/images/2026-10-02-ege-bsp-colon-4.mp4",
+      "to": "content/images/2026-10-02-ege-bsp-colon-4.mp4",
+      "relative": "images/2026-10-02-ege-bsp-colon-4.mp4",
+      "bytes": 3068654,
+      "sha256": "02bf8cf4253372d4513aac22ae78363ad1821a2ef6399189ae43eeffe45c6f3c",
+      "gitBlobSha1": "09b4daa69d7671d5a009782113c619bb0a9f6edd"
+    },
+    {
+      "from": "outputs/exam-bank-2026-09-26/content/reposts/2026-10-02-ege-bsp-colon-1.jpg",
+      "to": "content/reposts/2026-10-02-ege-bsp-colon-1.jpg",
+      "relative": "reposts/2026-10-02-ege-bsp-colon-1.jpg",
+      "bytes": 462986,
+      "sha256": "0f5d6bde5fd175529c9ce6657d1def450f4be187533d10daf2e2b2c1ba1d88f9",
+      "gitBlobSha1": "519c4fb2e45d6cdc2504d32372ee9c3e9b867493"
+    },
+    {
+      "from": "outputs/exam-bank-2026-09-26/content/reposts/2026-10-02-ege-bsp-colon-2.jpg",
+      "to": "content/reposts/2026-10-02-ege-bsp-colon-2.jpg",
+      "relative": "reposts/2026-10-02-ege-bsp-colon-2.jpg",
+      "bytes": 468726,
+      "sha256": "d2e73378a13514563bd5dd0752808891222ebc20183927eb6a2781cf383eee11",
+      "gitBlobSha1": "32278e1950e7aeabc0b7a8c78124d870364babac"
+    },
+    {
+      "from": "outputs/exam-bank-2026-09-26/content/reposts/2026-10-02-ege-bsp-colon-3.jpg",
+      "to": "content/reposts/2026-10-02-ege-bsp-colon-3.jpg",
+      "relative": "reposts/2026-10-02-ege-bsp-colon-3.jpg",
+      "bytes": 457229,
+      "sha256": "bdcba569e15d542249a71a2e8ad41bc0f2a0984b922e86cfd4edaebe299f198f",
+      "gitBlobSha1": "94f8c9dd0dc0beeb3832ebfdf74b8f0fb41a768b"
+    },
+    {
+      "from": "outputs/exam-bank-2026-09-26/content/reposts/2026-10-02-ege-bsp-colon-4.jpg",
+      "to": "content/reposts/2026-10-02-ege-bsp-colon-4.jpg",
+      "relative": "reposts/2026-10-02-ege-bsp-colon-4.jpg",
+      "bytes": 475527,
+      "sha256": "0fe2c9f5bffdf0cf7be5efbd8301f0f168037afb63fd9a3111253898d40bd515",
+      "gitBlobSha1": "fdd7e720def6dd5a1906c916c63ad719dc007dfe"
+    },
+    {
+      "from": "outputs/exam-bank-2026-09-26/content/reels/2026-10-03-oge-bez-bes.mp4",
+      "to": "content/reels/2026-10-03-oge-bez-bes.mp4",
+      "relative": "reels/2026-10-03-oge-bez-bes.mp4",
+      "bytes": 10566824,
+      "sha256": "8a8f05e6bcc40d82b0582f6e3487899759d9eaf16cf556141c6ac48a8c9e5da6",
+      "gitBlobSha1": "ece68d1301478ac766ceceefe06cbf23e216e6ed"
+    },
+    {
+      "from": "outputs/exam-bank-2026-09-26/content/reels/2026-10-03-oge-bez-bes-frame.jpg",
+      "to": "content/reels/2026-10-03-oge-bez-bes-frame.jpg",
+      "relative": "reels/2026-10-03-oge-bez-bes-frame.jpg",
+      "bytes": 243197,
+      "sha256": "391b1d4fc7dd472a984c0a8473ee5bec80316bc223893dbb225707ab9ee267f4",
+      "gitBlobSha1": "42dfb75e1029b35139f338a8c39f7be9e0b2cf26"
+    },
+    {
+      "from": "outputs/exam-bank-2026-09-26/content/reposts/2026-10-03-oge-bez-bes-1.jpg",
+      "to": "content/reposts/2026-10-03-oge-bez-bes-1.jpg",
+      "relative": "reposts/2026-10-03-oge-bez-bes-1.jpg",
+      "bytes": 466049,
+      "sha256": "4b973b257fba1ff95d9c5feec1500770096c95cf24788bd00b318b1de8375ab7",
+      "gitBlobSha1": "1156a3f389b4a43b401333572c18ea21aca836a8"
+    },
+    {
+      "from": "outputs/exam-bank-2026-09-26/content/reels/2026-10-04-ege-odnako.mp4",
+      "to": "content/reels/2026-10-04-ege-odnako.mp4",
+      "relative": "reels/2026-10-04-ege-odnako.mp4",
+      "bytes": 14045783,
+      "sha256": "e04280633697d83178d5b4de822d04161a03962f61f249f5e7d9be8ce34c605f",
+      "gitBlobSha1": "9a33f3ad64ce87f99efa4da38cd8f419fbf18ac7"
+    },
+    {
+      "from": "outputs/exam-bank-2026-09-26/content/reels/2026-10-04-ege-odnako-frame.jpg",
+      "to": "content/reels/2026-10-04-ege-odnako-frame.jpg",
+      "relative": "reels/2026-10-04-ege-odnako-frame.jpg",
+      "bytes": 305156,
+      "sha256": "2ac3cc3ccc3e1bf2dee3e46af9d1099528247acaa04af675446fb84b39865c71",
+      "gitBlobSha1": "596bef2c25923b4567d04f29b1d4dde363f133af"
+    },
+    {
+      "from": "outputs/exam-bank-2026-09-26/content/reposts/2026-10-04-ege-odnako-1.jpg",
+      "to": "content/reposts/2026-10-04-ege-odnako-1.jpg",
+      "relative": "reposts/2026-10-04-ege-odnako-1.jpg",
+      "bytes": 552992,
+      "sha256": "2f7326dd34da1c3ab94b0ac9edacc76c2109b62e08649336fc69e95c83cac011",
+      "gitBlobSha1": "61f39bbb47cf424f06a3cf9ae3d5459d34b4723a"
+    },
+    {
+      "from": "outputs/exam-bank-2026-09-26/content/images/2026-10-05-oge-szhatie-1.jpg",
+      "to": "content/images/2026-10-05-oge-szhatie-1.jpg",
+      "relative": "images/2026-10-05-oge-szhatie-1.jpg",
+      "bytes": 337216,
+      "sha256": "8c3936bb77c446957d2872b40069f8db8be10bc7cd2b27701b76e199b27b0ca6",
+      "gitBlobSha1": "cec755e113ea696717edb84fbf692a4e80e35cc2"
+    },
+    {
+      "from": "outputs/exam-bank-2026-09-26/content/images/2026-10-05-oge-szhatie-2.jpg",
+      "to": "content/images/2026-10-05-oge-szhatie-2.jpg",
+      "relative": "images/2026-10-05-oge-szhatie-2.jpg",
+      "bytes": 341381,
+      "sha256": "f46fbaadc3d1e35109090bf60f1c11ddac064fbe2aa154ce5e6a023e1ac4c76d",
+      "gitBlobSha1": "678d1636f4947bb30713b59cee9ac0479dce54f0"
+    },
+    {
+      "from": "outputs/exam-bank-2026-09-26/content/images/2026-10-05-oge-szhatie-3.jpg",
+      "to": "content/images/2026-10-05-oge-szhatie-3.jpg",
+      "relative": "images/2026-10-05-oge-szhatie-3.jpg",
+      "bytes": 342676,
+      "sha256": "367a9b6f43428be4ae8f39d98009ff846ca2289aab97dac17d3316c733e507ba",
+      "gitBlobSha1": "60b8310f8ff5bee00ac64b8ba5662f7492504951"
+    },
+    {
+      "from": "outputs/exam-bank-2026-09-26/content/images/2026-10-05-oge-szhatie-4.jpg",
+      "to": "content/images/2026-10-05-oge-szhatie-4.jpg",
+      "relative": "images/2026-10-05-oge-szhatie-4.jpg",
+      "bytes": 328135,
+      "sha256": "7e7664fa8d83caa3f4fea779baf6b6260036fb38de2edd7bcf2c36fae779e85a",
+      "gitBlobSha1": "0677a8a2b3e4aa37284b692c2e48f08d3a22281d"
+    },
+    {
+      "from": "outputs/exam-bank-2026-09-26/content/images/2026-10-05-oge-szhatie-1.mp4",
+      "to": "content/images/2026-10-05-oge-szhatie-1.mp4",
+      "relative": "images/2026-10-05-oge-szhatie-1.mp4",
+      "bytes": 3989907,
+      "sha256": "5fc9ae1130f3fb71b7b4ff76fdb526723d38ddef31bf7c8dde8bdaf88af4b17f",
+      "gitBlobSha1": "3951335958cc41ccd872cda24d203552be66d573"
+    },
+    {
+      "from": "outputs/exam-bank-2026-09-26/content/images/2026-10-05-oge-szhatie-2.mp4",
+      "to": "content/images/2026-10-05-oge-szhatie-2.mp4",
+      "relative": "images/2026-10-05-oge-szhatie-2.mp4",
+      "bytes": 3798650,
+      "sha256": "dba9d40bc8d2a1ffa34fefe72058be939f879cf3965862a665a902e5125cbc59",
+      "gitBlobSha1": "3177fae0e99ec1cbe96e31c2a2244b2365be50f4"
+    },
+    {
+      "from": "outputs/exam-bank-2026-09-26/content/images/2026-10-05-oge-szhatie-3.mp4",
+      "to": "content/images/2026-10-05-oge-szhatie-3.mp4",
+      "relative": "images/2026-10-05-oge-szhatie-3.mp4",
+      "bytes": 4002562,
+      "sha256": "eca75cf8836fe7dd8674de2cb7380f163ed79dbd57e58caa8ab8f97e2b3d0ad8",
+      "gitBlobSha1": "f9224b69a08b815e38a4c1cbb000588961804331"
+    },
+    {
+      "from": "outputs/exam-bank-2026-09-26/content/images/2026-10-05-oge-szhatie-4.mp4",
+      "to": "content/images/2026-10-05-oge-szhatie-4.mp4",
+      "relative": "images/2026-10-05-oge-szhatie-4.mp4",
+      "bytes": 3193950,
+      "sha256": "8e148eea65c060224afb29cb94c0e01e6d038a60832095895d3fc5d9384a911f",
+      "gitBlobSha1": "48e265e4935ac490601d69ff5e92ee07a0110045"
+    },
+    {
+      "from": "outputs/exam-bank-2026-09-26/content/reposts/2026-10-05-oge-szhatie-1.jpg",
+      "to": "content/reposts/2026-10-05-oge-szhatie-1.jpg",
+      "relative": "reposts/2026-10-05-oge-szhatie-1.jpg",
+      "bytes": 527142,
+      "sha256": "eedac9c9429adc5e01f367d88931f4b20859e919f4cc19933d0b1ed7447698bd",
+      "gitBlobSha1": "8d59c1b842ea5f6d60e02bb348f45a9c812bac6a"
+    },
+    {
+      "from": "outputs/exam-bank-2026-09-26/content/reposts/2026-10-05-oge-szhatie-2.jpg",
+      "to": "content/reposts/2026-10-05-oge-szhatie-2.jpg",
+      "relative": "reposts/2026-10-05-oge-szhatie-2.jpg",
+      "bytes": 534165,
+      "sha256": "e7b87109847bd26f6a7347cd67750f3bc5f99a10a21a05fde092bca159892130",
+      "gitBlobSha1": "883bdde2aad63b4c43e875f034234b3ff3785a42"
+    },
+    {
+      "from": "outputs/exam-bank-2026-09-26/content/reposts/2026-10-05-oge-szhatie-3.jpg",
+      "to": "content/reposts/2026-10-05-oge-szhatie-3.jpg",
+      "relative": "reposts/2026-10-05-oge-szhatie-3.jpg",
+      "bytes": 534268,
+      "sha256": "7db23f4e23e9471d4d37a58657fa7963616fd558ff3e4e163c045e20fa64decf",
+      "gitBlobSha1": "f4cee4148eb2d6871962d1785866fd157cad2d97"
+    },
+    {
+      "from": "outputs/exam-bank-2026-09-26/content/reposts/2026-10-05-oge-szhatie-4.jpg",
+      "to": "content/reposts/2026-10-05-oge-szhatie-4.jpg",
+      "relative": "reposts/2026-10-05-oge-szhatie-4.jpg",
+      "bytes": 518264,
+      "sha256": "d8cae59b950b5bfca14c327ecb1925e50027483ddf25c9825041dee1b837ddf4",
+      "gitBlobSha1": "3d10689b152ed035489f3280be2e5c3c54e0bd1f"
+    },
+    {
+      "from": "outputs/exam-bank-2026-09-26/content/reels/2026-10-06-ege-po-pribytii.mp4",
+      "to": "content/reels/2026-10-06-ege-po-pribytii.mp4",
+      "relative": "reels/2026-10-06-ege-po-pribytii.mp4",
+      "bytes": 14530152,
+      "sha256": "e7cce8c4c28045511deec6611a48185e13eaf2c419a82eeb19b42a0e598aff35",
+      "gitBlobSha1": "d7aa514c82e060f9e75266b8d70a67d2f7742db5"
+    },
+    {
+      "from": "outputs/exam-bank-2026-09-26/content/reels/2026-10-06-ege-po-pribytii-frame.jpg",
+      "to": "content/reels/2026-10-06-ege-po-pribytii-frame.jpg",
+      "relative": "reels/2026-10-06-ege-po-pribytii-frame.jpg",
+      "bytes": 272489,
+      "sha256": "1239b2b6736ed22140d934ec7efc936ce6dc3443eab30de85d32923e361f1d71",
+      "gitBlobSha1": "4101f0533a747a175eee0c28264abac26a7559e8"
+    },
+    {
+      "from": "outputs/exam-bank-2026-09-26/content/reposts/2026-10-06-ege-po-pribytii-1.jpg",
+      "to": "content/reposts/2026-10-06-ege-po-pribytii-1.jpg",
+      "relative": "reposts/2026-10-06-ege-po-pribytii-1.jpg",
+      "bytes": 509882,
+      "sha256": "8a10d8d6280816b86b3a1e0cd4a430ca5f0a728766bae36c0c514528814832d6",
+      "gitBlobSha1": "ca0dd4946bc53648814826460722705a32248c3f"
+    },
+    {
+      "from": "outputs/exam-bank-2026-09-26/content/images/2026-10-07-oge-argument-1.jpg",
+      "to": "content/images/2026-10-07-oge-argument-1.jpg",
+      "relative": "images/2026-10-07-oge-argument-1.jpg",
+      "bytes": 318427,
+      "sha256": "7aa9ab558a740f51685f3d0ef47c5570e7fe9a31c1d70fbb5c3323ac6ce26dd7",
+      "gitBlobSha1": "ae7486d3621b4690f48a3e0d175570c8c6510c47"
+    },
+    {
+      "from": "outputs/exam-bank-2026-09-26/content/images/2026-10-07-oge-argument-2.jpg",
+      "to": "content/images/2026-10-07-oge-argument-2.jpg",
+      "relative": "images/2026-10-07-oge-argument-2.jpg",
+      "bytes": 319585,
+      "sha256": "878982173f2c53d1f10d1873ba20ea6b2a93ee9251ed3b7c3c36b8ea16027b9b",
+      "gitBlobSha1": "7b160150eac5cc267ebb667090175e7daa329a28"
+    },
+    {
+      "from": "outputs/exam-bank-2026-09-26/content/images/2026-10-07-oge-argument-3.jpg",
+      "to": "content/images/2026-10-07-oge-argument-3.jpg",
+      "relative": "images/2026-10-07-oge-argument-3.jpg",
+      "bytes": 335810,
+      "sha256": "559c462079433ddc40251862700b3a767e237601913a994bcdaf90441d0a2e69",
+      "gitBlobSha1": "ac8b183ea5c747e89cb7f88da04608d508d29789"
+    },
+    {
+      "from": "outputs/exam-bank-2026-09-26/content/images/2026-10-07-oge-argument-4.jpg",
+      "to": "content/images/2026-10-07-oge-argument-4.jpg",
+      "relative": "images/2026-10-07-oge-argument-4.jpg",
+      "bytes": 302499,
+      "sha256": "14a9e72bd21d3465735fb7bf2acdb19d0b34613e2d062072992fa0c19d7dc996",
+      "gitBlobSha1": "2122e3e421b247fe55f665276d3e4ec19a4f82e5"
+    },
+    {
+      "from": "outputs/exam-bank-2026-09-26/content/images/2026-10-07-oge-argument-1.mp4",
+      "to": "content/images/2026-10-07-oge-argument-1.mp4",
+      "relative": "images/2026-10-07-oge-argument-1.mp4",
+      "bytes": 3454555,
+      "sha256": "25d520edf56e2f6a6ecd3401c8dfe3c7bb1059e4bd2689782c63e1ec299d1620",
+      "gitBlobSha1": "a6485cfd608a9fa39699fc18cf3e683873093a44"
+    },
+    {
+      "from": "outputs/exam-bank-2026-09-26/content/images/2026-10-07-oge-argument-2.mp4",
+      "to": "content/images/2026-10-07-oge-argument-2.mp4",
+      "relative": "images/2026-10-07-oge-argument-2.mp4",
+      "bytes": 3283058,
+      "sha256": "6a61645ae08e480655f07bce2293396f8c3cc865340b0c5ef8a127f94101e0d2",
+      "gitBlobSha1": "af2869e2cd8f58b5a9d0e0d01ea3952f96806fa7"
+    },
+    {
+      "from": "outputs/exam-bank-2026-09-26/content/images/2026-10-07-oge-argument-3.mp4",
+      "to": "content/images/2026-10-07-oge-argument-3.mp4",
+      "relative": "images/2026-10-07-oge-argument-3.mp4",
+      "bytes": 3536484,
+      "sha256": "ae3ed3415e75f958d151e8514842986854c33c1364b05faf3c5cbc8eb6ea86f5",
+      "gitBlobSha1": "833842b5e32804e73dbc7652b8bc8096f6496be5"
+    },
+    {
+      "from": "outputs/exam-bank-2026-09-26/content/images/2026-10-07-oge-argument-4.mp4",
+      "to": "content/images/2026-10-07-oge-argument-4.mp4",
+      "relative": "images/2026-10-07-oge-argument-4.mp4",
+      "bytes": 2606108,
+      "sha256": "d9bfc3ea740eecd14b55fe017975fe5dc771228fd2052c03d1a6d2a429f0ca4b",
+      "gitBlobSha1": "2d82a2fe53e63069bc196b97dded18271a505e13"
+    },
+    {
+      "from": "outputs/exam-bank-2026-09-26/content/reposts/2026-10-07-oge-argument-1.jpg",
+      "to": "content/reposts/2026-10-07-oge-argument-1.jpg",
+      "relative": "reposts/2026-10-07-oge-argument-1.jpg",
+      "bytes": 524520,
+      "sha256": "3aba90cb7ff5b2bfe646b2050fe8256117330697f9ca0fc2c392ced139d85c77",
+      "gitBlobSha1": "b84ebdd253ef5ca1dcf58a0ec8d805a71c3ce99c"
+    },
+    {
+      "from": "outputs/exam-bank-2026-09-26/content/reposts/2026-10-07-oge-argument-2.jpg",
+      "to": "content/reposts/2026-10-07-oge-argument-2.jpg",
+      "relative": "reposts/2026-10-07-oge-argument-2.jpg",
+      "bytes": 526037,
+      "sha256": "97bef1edfcf538fca67c3304beda5565a334169561eac5191320a2cb53cde8c8",
+      "gitBlobSha1": "9c5053ec404889dd566bdd2768d178968e3bd302"
+    },
+    {
+      "from": "outputs/exam-bank-2026-09-26/content/reposts/2026-10-07-oge-argument-3.jpg",
+      "to": "content/reposts/2026-10-07-oge-argument-3.jpg",
+      "relative": "reposts/2026-10-07-oge-argument-3.jpg",
+      "bytes": 542648,
+      "sha256": "b8dfcfacbef6145662283c49977ec0482439975f6d2f91f61bd44aa67aff3eaf",
+      "gitBlobSha1": "03b9d2a27f38381ae24f6cb6d03133752bca8326"
+    },
+    {
+      "from": "outputs/exam-bank-2026-09-26/content/reposts/2026-10-07-oge-argument-4.jpg",
+      "to": "content/reposts/2026-10-07-oge-argument-4.jpg",
+      "relative": "reposts/2026-10-07-oge-argument-4.jpg",
+      "bytes": 497416,
+      "sha256": "ee2991b1e439b55586316bdaf1c3448536f27db6cd3750363d280cc0efa30502",
+      "gitBlobSha1": "47e24dfca593fb38a5bf254ea20146c06b958f64"
+    },
+    {
+      "from": "outputs/exam-bank-2026-09-26/content/images/2026-10-08-ege-direct-speech-1.jpg",
+      "to": "content/images/2026-10-08-ege-direct-speech-1.jpg",
+      "relative": "images/2026-10-08-ege-direct-speech-1.jpg",
+      "bytes": 224523,
+      "sha256": "bdf268511cdb26783e348887b067069de90795276f061b31cba95ec4a87be864",
+      "gitBlobSha1": "46f54f66a634c90100e7297531593564fb3a80bb"
+    },
+    {
+      "from": "outputs/exam-bank-2026-09-26/content/images/2026-10-08-ege-direct-speech-2.jpg",
+      "to": "content/images/2026-10-08-ege-direct-speech-2.jpg",
+      "relative": "images/2026-10-08-ege-direct-speech-2.jpg",
+      "bytes": 215601,
+      "sha256": "f0e8f62ce99075160c6b7699e276f4bf8ece8e4f2412295660d866c057ed7452",
+      "gitBlobSha1": "77345bb3dab7055dff6e44acf15d9c9cc61f7251"
+    },
+    {
+      "from": "outputs/exam-bank-2026-09-26/content/images/2026-10-08-ege-direct-speech-3.jpg",
+      "to": "content/images/2026-10-08-ege-direct-speech-3.jpg",
+      "relative": "images/2026-10-08-ege-direct-speech-3.jpg",
+      "bytes": 217990,
+      "sha256": "85422031f960605effedca68555d703a511f4bb6e0b62ae554892a6f2e128bf4",
+      "gitBlobSha1": "c91a20d3035f9736a915d6d7cd42b421b212aad7"
+    },
+    {
+      "from": "outputs/exam-bank-2026-09-26/content/images/2026-10-08-ege-direct-speech-4.jpg",
+      "to": "content/images/2026-10-08-ege-direct-speech-4.jpg",
+      "relative": "images/2026-10-08-ege-direct-speech-4.jpg",
+      "bytes": 213597,
+      "sha256": "8fc47c326e531da51f65c8e1d51042513b67aeeaced50056c4ccc4d9d8d7057f",
+      "gitBlobSha1": "913078969153c8a29d83e80077b2fbd9cec5bfd5"
+    },
+    {
+      "from": "outputs/exam-bank-2026-09-26/content/images/2026-10-08-ege-direct-speech-1.mp4",
+      "to": "content/images/2026-10-08-ege-direct-speech-1.mp4",
+      "relative": "images/2026-10-08-ege-direct-speech-1.mp4",
+      "bytes": 2229965,
+      "sha256": "a30b7c5243cb5c8aeafaa6def3674a3bfd36c4bc7a3d27a8b120b102836442f2",
+      "gitBlobSha1": "e44d4f0999b568fb02827e8db1df15fd3f39b6d3"
+    },
+    {
+      "from": "outputs/exam-bank-2026-09-26/content/images/2026-10-08-ege-direct-speech-2.mp4",
+      "to": "content/images/2026-10-08-ege-direct-speech-2.mp4",
+      "relative": "images/2026-10-08-ege-direct-speech-2.mp4",
+      "bytes": 2119668,
+      "sha256": "e02360a77cbeefb0a8dc1901d9a902ddbf4f76a72045e9944390e34aa0b1aa66",
+      "gitBlobSha1": "f42ea9fbb5f2824d8455791dafe7e197d0e7f066"
+    },
+    {
+      "from": "outputs/exam-bank-2026-09-26/content/images/2026-10-08-ege-direct-speech-3.mp4",
+      "to": "content/images/2026-10-08-ege-direct-speech-3.mp4",
+      "relative": "images/2026-10-08-ege-direct-speech-3.mp4",
+      "bytes": 2304341,
+      "sha256": "bd575b4cf0f21f6fde178db7e7b63205ff663c09581b11f5cb5712783554043e",
+      "gitBlobSha1": "6c5648b58af325322c3f3a47885c563487a67270"
+    },
+    {
+      "from": "outputs/exam-bank-2026-09-26/content/images/2026-10-08-ege-direct-speech-4.mp4",
+      "to": "content/images/2026-10-08-ege-direct-speech-4.mp4",
+      "relative": "images/2026-10-08-ege-direct-speech-4.mp4",
+      "bytes": 1692915,
+      "sha256": "ed785c940cf769cdf51f316c86c7365a90a34a03dbb4bd348cb2b0706640ad2c",
+      "gitBlobSha1": "9d6f94c698bda8ec1107e69ab6565fa789dd5114"
+    },
+    {
+      "from": "outputs/exam-bank-2026-09-26/content/reposts/2026-10-08-ege-direct-speech-1.jpg",
+      "to": "content/reposts/2026-10-08-ege-direct-speech-1.jpg",
+      "relative": "reposts/2026-10-08-ege-direct-speech-1.jpg",
+      "bytes": 390069,
+      "sha256": "a2a7dab063cbf68d5a57e6bb05b5478a6d0665ea06a40732ea730e5114a68417",
+      "gitBlobSha1": "2eda68873e46e2fa54c908dd66abf8170a49db4a"
+    },
+    {
+      "from": "outputs/exam-bank-2026-09-26/content/reposts/2026-10-08-ege-direct-speech-2.jpg",
+      "to": "content/reposts/2026-10-08-ege-direct-speech-2.jpg",
+      "relative": "reposts/2026-10-08-ege-direct-speech-2.jpg",
+      "bytes": 379688,
+      "sha256": "735994a0aeb057ff99767469acb1329c210cb157de949e764ca741ed22933be1",
+      "gitBlobSha1": "de12eb3bc29113c30ec99582c24c52fd5598548f"
+    },
+    {
+      "from": "outputs/exam-bank-2026-09-26/content/reposts/2026-10-08-ege-direct-speech-3.jpg",
+      "to": "content/reposts/2026-10-08-ege-direct-speech-3.jpg",
+      "relative": "reposts/2026-10-08-ege-direct-speech-3.jpg",
+      "bytes": 382039,
+      "sha256": "1d4feaedbe38a9a7bd0803f9e49663dcf62d7c8966fc6626997425760c46d7af",
+      "gitBlobSha1": "0034db192923d3d2d9721ea14115f3e70774354a"
+    },
+    {
+      "from": "outputs/exam-bank-2026-09-26/content/reposts/2026-10-08-ege-direct-speech-4.jpg",
+      "to": "content/reposts/2026-10-08-ege-direct-speech-4.jpg",
+      "relative": "reposts/2026-10-08-ege-direct-speech-4.jpg",
+      "bytes": 374979,
+      "sha256": "0dcfed67786fb1f30998c3e7cb8ce92f5c5ab9d065006e2f6d373201deba859d",
+      "gitBlobSha1": "d861797a095a41c2bde25638dfb5ed25dd574dfe"
+    },
+    {
+      "from": "outputs/exam-bank-2026-09-26/content/reels/2026-10-09-oge-dvoetochie.mp4",
+      "to": "content/reels/2026-10-09-oge-dvoetochie.mp4",
+      "relative": "reels/2026-10-09-oge-dvoetochie.mp4",
+      "bytes": 23508173,
+      "sha256": "e89630fec05ef67f4199776172a7425fd5331f2a0fa22bccd6258be07f7ab0ac",
+      "gitBlobSha1": "991d11ba20c43045af3f19cc6ee337599099fc87"
+    },
+    {
+      "from": "outputs/exam-bank-2026-09-26/content/reels/2026-10-09-oge-dvoetochie-frame.jpg",
+      "to": "content/reels/2026-10-09-oge-dvoetochie-frame.jpg",
+      "relative": "reels/2026-10-09-oge-dvoetochie-frame.jpg",
+      "bytes": 391958,
+      "sha256": "3d4834a6855f4014d38b3b05fe9d61c44018c971ce731b5d07edccc46412c4b7",
+      "gitBlobSha1": "a982488c671de8533ee1fe16902e1da2eef97aee"
+    },
+    {
+      "from": "outputs/exam-bank-2026-09-26/content/reposts/2026-10-09-oge-dvoetochie-1.jpg",
+      "to": "content/reposts/2026-10-09-oge-dvoetochie-1.jpg",
+      "relative": "reposts/2026-10-09-oge-dvoetochie-1.jpg",
+      "bytes": 708987,
+      "sha256": "81c7d9ffe2f252c05f8109d152e7f8d145dc4cb6ede4f4e8560754194f21ad54",
+      "gitBlobSha1": "8e61680f672c706bbe5d191b2b33a71348d512c5"
+    }
+  ],
+  "totalBytes": 217669252,
+  "stagedMetadata": [
+    {
+      "from": "outputs/exam-activation-review-2026-09-20/content/queue.json",
+      "to": "content/queue.json",
+      "sha256": "cf7e0e1c53931f22609ad7fdf3ce78015b7690d632043b1d712ef898ede2e038"
+    },
+    {
+      "from": "outputs/exam-activation-review-2026-09-20/content/prepared/index.json",
+      "to": "content/prepared/index.json",
+      "sha256": "504f86ad796236652d43c00be4d8a3a885fd64ed16a4a70d793a83497badd908"
+    },
+    {
+      "from": "outputs/exam-activation-review-2026-09-20/content/reposts/index.json",
+      "to": "content/reposts/index.json",
+      "sha256": "c087620f285f1f6a22c9eaee9b0595759463b31b5b002147a14ddb16a7dd2a1b"
+    }
+  ],
+  "applicationOrder": [
+    "Check baseline hashes; stop on any change.",
+    "Copy all 96 media files and verify sha256; preserve outputs URLs.",
+    "Replace prepared and repost indexes atomically, then queue last; preserve existing entries.",
+    "Validate the 14 new IDs and run check-content before committing metadata and all content copies together."
+  ],
+  "storiesNote": "32 feed-repost JPG frames; separate 28 standalone Stories MP4 are not activated by this plan."
+}

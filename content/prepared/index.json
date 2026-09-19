@@ -322,6 +322,940 @@
           "sha256": "758e3ff4e63b56771deb67cbd6b8b98134e33f99e3df69957c8817946bddce66"
         }
       ]
+    },
+    "2026-09-26-ege-deeprichastie": {
+      "version": 1,
+      "builtAt": "2026-09-20T02:25:39.623Z",
+      "draftKey": "0d9fdb1868f221c347daa388e1baa51f52d1c311755cdf0a40642fcf382c983d",
+      "media": {
+        "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reels/2026-09-26-ege-deeprichastie.mp4",
+        "coverOffsetMs": 29000,
+        "music": {
+          "file": "bach-goldberg-var1-ishizaka.mp3",
+          "title": "Goldberg Variations, BWV 988: Variatio 1 a 1 Clav.",
+          "piece": "Гольдберг-вариации, BWV 988 — Вариация № 1",
+          "composer": "Иоганн Себастьян Бах",
+          "author": "Kimiko Ishizaka",
+          "performer": "Кимико Ишизака",
+          "license": "CC0 1.0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "source": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+          "rightsSource": "https://opengoldbergvariations.org/",
+          "download": "https://upload.wikimedia.org/wikipedia/commons/2/20/Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+          "attributionRequired": true,
+          "attribution": "И. С. Бах — Гольдберг-вариации, BWV 988, вариация № 1. Фортепиано: Кимико Ишизака, Open Goldberg Variations (2012). Запись CC0 1.0. Фрагмент, громкость изменена.",
+          "checkedAt": "2026-09-19",
+          "excerptFrom": 0.7,
+          "duration": 32,
+          "active": true,
+          "trendVerified": false,
+          "compositionRights": "Public domain: J. S. Bach (1685–1750)",
+          "recordingRights": "Open Goldberg 2012 recording released under CC0; not inferred from composition age",
+          "sourceSha256": "0539f3612413f6077c82e16f92417bad112e44017536f59db257c8179718076f",
+          "sha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8"
+        }
+      },
+      "files": [
+        {
+          "relative": "reels/2026-09-26-ege-deeprichastie.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reels/2026-09-26-ege-deeprichastie.mp4",
+          "size": 12258623,
+          "sha256": "d12a4bd512a836e6e06a9081c145e0ba9df58ace48f7d581ce5ba3a3da606c8c"
+        },
+        {
+          "relative": "reels/2026-09-26-ege-deeprichastie-frame.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reels/2026-09-26-ege-deeprichastie-frame.jpg",
+          "size": 285391,
+          "sha256": "8e7f7986b216d495dfe7b11462e2da876095e9fb5b5bc5bccf436154a7115306"
+        }
+      ]
+    },
+    "2026-09-27-oge-kazhetsya": {
+      "version": 1,
+      "builtAt": "2026-09-20T02:25:39.623Z",
+      "draftKey": "6a7a582e0d7a16d80a84e0be80f8a09b3111123c65923f3270c611bb80b45fbb",
+      "media": {
+        "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reels/2026-09-27-oge-kazhetsya.mp4",
+        "coverOffsetMs": 29000,
+        "music": {
+          "file": "bach-goldberg-var1-ishizaka.mp3",
+          "title": "Goldberg Variations, BWV 988: Variatio 1 a 1 Clav.",
+          "piece": "Гольдберг-вариации, BWV 988 — Вариация № 1",
+          "composer": "Иоганн Себастьян Бах",
+          "author": "Kimiko Ishizaka",
+          "performer": "Кимико Ишизака",
+          "license": "CC0 1.0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "source": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+          "rightsSource": "https://opengoldbergvariations.org/",
+          "download": "https://upload.wikimedia.org/wikipedia/commons/2/20/Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+          "attributionRequired": true,
+          "attribution": "И. С. Бах — Гольдберг-вариации, BWV 988, вариация № 1. Фортепиано: Кимико Ишизака, Open Goldberg Variations (2012). Запись CC0 1.0. Фрагмент, громкость изменена.",
+          "checkedAt": "2026-09-19",
+          "excerptFrom": 0.7,
+          "duration": 32,
+          "active": true,
+          "trendVerified": false,
+          "compositionRights": "Public domain: J. S. Bach (1685–1750)",
+          "recordingRights": "Open Goldberg 2012 recording released under CC0; not inferred from composition age",
+          "sourceSha256": "0539f3612413f6077c82e16f92417bad112e44017536f59db257c8179718076f",
+          "sha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8"
+        }
+      },
+      "files": [
+        {
+          "relative": "reels/2026-09-27-oge-kazhetsya.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reels/2026-09-27-oge-kazhetsya.mp4",
+          "size": 16469344,
+          "sha256": "122e6a4fa15eaa07647fd126399edbff727db79c0b6fe449cbe5b9769c158d25"
+        },
+        {
+          "relative": "reels/2026-09-27-oge-kazhetsya-frame.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reels/2026-09-27-oge-kazhetsya-frame.jpg",
+          "size": 338428,
+          "sha256": "670328eca608e83b57f41f2ae95406e237a48ac9d601335ded41cf4dc8ea1448"
+        }
+      ]
+    },
+    "2026-09-28-ege-nesmotrya": {
+      "version": 1,
+      "builtAt": "2026-09-20T02:25:39.623Z",
+      "draftKey": "69a349efbabf90e016feab61241d7b17e17e5118c66ae60c6fc3a96c58b44d40",
+      "media": {
+        "imageUrls": [
+          "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-09-28-ege-nesmotrya-1.jpg",
+          "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-09-28-ege-nesmotrya-2.jpg",
+          "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-09-28-ege-nesmotrya-3.jpg",
+          "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-09-28-ege-nesmotrya-4.jpg"
+        ],
+        "videoUrls": [
+          "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-09-28-ege-nesmotrya-1.mp4",
+          "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-09-28-ege-nesmotrya-2.mp4",
+          "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-09-28-ege-nesmotrya-3.mp4",
+          "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-09-28-ege-nesmotrya-4.mp4"
+        ],
+        "music": {
+          "file": "bach-goldberg-var1-ishizaka.mp3",
+          "title": "Goldberg Variations, BWV 988: Variatio 1 a 1 Clav.",
+          "piece": "Гольдберг-вариации, BWV 988 — Вариация № 1",
+          "composer": "Иоганн Себастьян Бах",
+          "author": "Kimiko Ishizaka",
+          "performer": "Кимико Ишизака",
+          "license": "CC0 1.0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "source": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+          "rightsSource": "https://opengoldbergvariations.org/",
+          "download": "https://upload.wikimedia.org/wikipedia/commons/2/20/Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+          "attributionRequired": true,
+          "attribution": "И. С. Бах — Гольдберг-вариации, BWV 988, вариация № 1. Фортепиано: Кимико Ишизака, Open Goldberg Variations (2012). Запись CC0 1.0. Фрагмент, громкость изменена.",
+          "checkedAt": "2026-09-19",
+          "excerptFrom": 0.7,
+          "duration": 32,
+          "active": true,
+          "trendVerified": false,
+          "compositionRights": "Public domain: J. S. Bach (1685–1750)",
+          "recordingRights": "Open Goldberg 2012 recording released under CC0; not inferred from composition age",
+          "sourceSha256": "0539f3612413f6077c82e16f92417bad112e44017536f59db257c8179718076f",
+          "sha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8"
+        }
+      },
+      "files": [
+        {
+          "relative": "images/2026-09-28-ege-nesmotrya-1.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-09-28-ege-nesmotrya-1.jpg",
+          "size": 229095,
+          "sha256": "553d1a209ec040b46ebc7f8c3bb4897202f00076e3350544bee033cc6973160e"
+        },
+        {
+          "relative": "images/2026-09-28-ege-nesmotrya-2.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-09-28-ege-nesmotrya-2.jpg",
+          "size": 219563,
+          "sha256": "aff055889edf37b812de3869f853ab521e914ff275f171f7fb78fbba87d48f44"
+        },
+        {
+          "relative": "images/2026-09-28-ege-nesmotrya-3.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-09-28-ege-nesmotrya-3.jpg",
+          "size": 218757,
+          "sha256": "4f0d16dcd8b3fd5693227af7cce35d55b4b0770d818309cc6017bb9085403130"
+        },
+        {
+          "relative": "images/2026-09-28-ege-nesmotrya-4.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-09-28-ege-nesmotrya-4.jpg",
+          "size": 229698,
+          "sha256": "8bc82a9a3fa4d8bdb78e281d845a20ac4250f3eedd101190359ce8ca99a1cf92"
+        },
+        {
+          "relative": "images/2026-09-28-ege-nesmotrya-1.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-09-28-ege-nesmotrya-1.mp4",
+          "size": 2464058,
+          "sha256": "13bf66f0a26eb82b94c57b9bdd32b0403baabb7ee713703a11aa1b94da113d1c"
+        },
+        {
+          "relative": "images/2026-09-28-ege-nesmotrya-2.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-09-28-ege-nesmotrya-2.mp4",
+          "size": 2421596,
+          "sha256": "2e80c377b8b3b7dc504207ee590bdebd993e49676ff273c5539dce3b81c85c16"
+        },
+        {
+          "relative": "images/2026-09-28-ege-nesmotrya-3.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-09-28-ege-nesmotrya-3.mp4",
+          "size": 2639686,
+          "sha256": "865e3c039095b1bdc060230609ea600ab3d8af3f291144c9c6a2463ba4167db0"
+        },
+        {
+          "relative": "images/2026-09-28-ege-nesmotrya-4.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-09-28-ege-nesmotrya-4.mp4",
+          "size": 2188404,
+          "sha256": "54b84dcab78aa5319168b6b8b2b47e1d17f132cdf3317af9c4a557690b989bcf"
+        }
+      ]
+    },
+    "2026-09-29-oge-svetaet": {
+      "version": 1,
+      "builtAt": "2026-09-20T02:25:39.623Z",
+      "draftKey": "dfb0ba2d4fd7e2be9a4255d989138b1c4671793af3b51798205c5bc8e0b67ad5",
+      "media": {
+        "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reels/2026-09-29-oge-svetaet.mp4",
+        "coverOffsetMs": 29000,
+        "music": {
+          "file": "bach-goldberg-var1-ishizaka.mp3",
+          "title": "Goldberg Variations, BWV 988: Variatio 1 a 1 Clav.",
+          "piece": "Гольдберг-вариации, BWV 988 — Вариация № 1",
+          "composer": "Иоганн Себастьян Бах",
+          "author": "Kimiko Ishizaka",
+          "performer": "Кимико Ишизака",
+          "license": "CC0 1.0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "source": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+          "rightsSource": "https://opengoldbergvariations.org/",
+          "download": "https://upload.wikimedia.org/wikipedia/commons/2/20/Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+          "attributionRequired": true,
+          "attribution": "И. С. Бах — Гольдберг-вариации, BWV 988, вариация № 1. Фортепиано: Кимико Ишизака, Open Goldberg Variations (2012). Запись CC0 1.0. Фрагмент, громкость изменена.",
+          "checkedAt": "2026-09-19",
+          "excerptFrom": 0.7,
+          "duration": 32,
+          "active": true,
+          "trendVerified": false,
+          "compositionRights": "Public domain: J. S. Bach (1685–1750)",
+          "recordingRights": "Open Goldberg 2012 recording released under CC0; not inferred from composition age",
+          "sourceSha256": "0539f3612413f6077c82e16f92417bad112e44017536f59db257c8179718076f",
+          "sha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8"
+        }
+      },
+      "files": [
+        {
+          "relative": "reels/2026-09-29-oge-svetaet.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reels/2026-09-29-oge-svetaet.mp4",
+          "size": 21635924,
+          "sha256": "6520a640fc518b78cd1a93684b4e256ac58f8a4066f60cb0f0d87491b4980a45"
+        },
+        {
+          "relative": "reels/2026-09-29-oge-svetaet-frame.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reels/2026-09-29-oge-svetaet-frame.jpg",
+          "size": 363862,
+          "sha256": "7fe026b92b27ede12513395322b8a20d87f56f2812dfacfefa5ed4025e40d0fe"
+        }
+      ]
+    },
+    "2026-09-30-ege-ne-kto": {
+      "version": 1,
+      "builtAt": "2026-09-20T02:25:39.623Z",
+      "draftKey": "a4c26a276437811d0099a539caefa08dfa45037b0884f118d9d73cca7e14c387",
+      "media": {
+        "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reels/2026-09-30-ege-ne-kto.mp4",
+        "coverOffsetMs": 29000,
+        "music": {
+          "file": "bach-goldberg-var1-ishizaka.mp3",
+          "title": "Goldberg Variations, BWV 988: Variatio 1 a 1 Clav.",
+          "piece": "Гольдберг-вариации, BWV 988 — Вариация № 1",
+          "composer": "Иоганн Себастьян Бах",
+          "author": "Kimiko Ishizaka",
+          "performer": "Кимико Ишизака",
+          "license": "CC0 1.0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "source": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+          "rightsSource": "https://opengoldbergvariations.org/",
+          "download": "https://upload.wikimedia.org/wikipedia/commons/2/20/Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+          "attributionRequired": true,
+          "attribution": "И. С. Бах — Гольдберг-вариации, BWV 988, вариация № 1. Фортепиано: Кимико Ишизака, Open Goldberg Variations (2012). Запись CC0 1.0. Фрагмент, громкость изменена.",
+          "checkedAt": "2026-09-19",
+          "excerptFrom": 0.7,
+          "duration": 32,
+          "active": true,
+          "trendVerified": false,
+          "compositionRights": "Public domain: J. S. Bach (1685–1750)",
+          "recordingRights": "Open Goldberg 2012 recording released under CC0; not inferred from composition age",
+          "sourceSha256": "0539f3612413f6077c82e16f92417bad112e44017536f59db257c8179718076f",
+          "sha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8"
+        }
+      },
+      "files": [
+        {
+          "relative": "reels/2026-09-30-ege-ne-kto.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reels/2026-09-30-ege-ne-kto.mp4",
+          "size": 9972800,
+          "sha256": "0152e542b334daacba30a6228f167a581bba8c029c756354a1fd3155382ac911"
+        },
+        {
+          "relative": "reels/2026-09-30-ege-ne-kto-frame.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reels/2026-09-30-ege-ne-kto-frame.jpg",
+          "size": 224268,
+          "sha256": "10b13fc88caedc2ffab6887c26361aa89e75441a3dc7c8ce84ff0365d49210af"
+        }
+      ]
+    },
+    "2026-10-01-oge-svyaz": {
+      "version": 1,
+      "builtAt": "2026-09-20T02:25:39.623Z",
+      "draftKey": "22f532c03d6b174675a40edb5c69e1201a0bcf5f4cc0160c6b0fcdcff4a05d45",
+      "media": {
+        "imageUrls": [
+          "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-01-oge-svyaz-1.jpg",
+          "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-01-oge-svyaz-2.jpg",
+          "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-01-oge-svyaz-3.jpg",
+          "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-01-oge-svyaz-4.jpg"
+        ],
+        "videoUrls": [
+          "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-01-oge-svyaz-1.mp4",
+          "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-01-oge-svyaz-2.mp4",
+          "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-01-oge-svyaz-3.mp4",
+          "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-01-oge-svyaz-4.mp4"
+        ],
+        "music": {
+          "file": "bach-goldberg-var1-ishizaka.mp3",
+          "title": "Goldberg Variations, BWV 988: Variatio 1 a 1 Clav.",
+          "piece": "Гольдберг-вариации, BWV 988 — Вариация № 1",
+          "composer": "Иоганн Себастьян Бах",
+          "author": "Kimiko Ishizaka",
+          "performer": "Кимико Ишизака",
+          "license": "CC0 1.0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "source": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+          "rightsSource": "https://opengoldbergvariations.org/",
+          "download": "https://upload.wikimedia.org/wikipedia/commons/2/20/Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+          "attributionRequired": true,
+          "attribution": "И. С. Бах — Гольдберг-вариации, BWV 988, вариация № 1. Фортепиано: Кимико Ишизака, Open Goldberg Variations (2012). Запись CC0 1.0. Фрагмент, громкость изменена.",
+          "checkedAt": "2026-09-19",
+          "excerptFrom": 0.7,
+          "duration": 32,
+          "active": true,
+          "trendVerified": false,
+          "compositionRights": "Public domain: J. S. Bach (1685–1750)",
+          "recordingRights": "Open Goldberg 2012 recording released under CC0; not inferred from composition age",
+          "sourceSha256": "0539f3612413f6077c82e16f92417bad112e44017536f59db257c8179718076f",
+          "sha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8"
+        }
+      },
+      "files": [
+        {
+          "relative": "images/2026-10-01-oge-svyaz-1.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-01-oge-svyaz-1.jpg",
+          "size": 288894,
+          "sha256": "1b68b3670fa46f1cabf2cf1b21aea66e5c39467b34a781da8457019714f655a7"
+        },
+        {
+          "relative": "images/2026-10-01-oge-svyaz-2.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-01-oge-svyaz-2.jpg",
+          "size": 295841,
+          "sha256": "cb91d99e6185be4f655c4d8b8e437a06213da997e089e697ed13d9f538a4e212"
+        },
+        {
+          "relative": "images/2026-10-01-oge-svyaz-3.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-01-oge-svyaz-3.jpg",
+          "size": 309742,
+          "sha256": "ff92e2a4f80965a8f7b651927cecd72b9c8a9d35bda5e0877a34212a82a82d07"
+        },
+        {
+          "relative": "images/2026-10-01-oge-svyaz-4.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-01-oge-svyaz-4.jpg",
+          "size": 302918,
+          "sha256": "92329382b606fc377183136931128b3bdc362be218a67c0aee62e36d7c2f5bf5"
+        },
+        {
+          "relative": "images/2026-10-01-oge-svyaz-1.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-01-oge-svyaz-1.mp4",
+          "size": 2459764,
+          "sha256": "bf11372249d2f364e21c9233c45900065b5bdf373823fc4f12e4869fa3fe9a77"
+        },
+        {
+          "relative": "images/2026-10-01-oge-svyaz-2.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-01-oge-svyaz-2.mp4",
+          "size": 2547806,
+          "sha256": "52962755e949d543e7b0fdf363d87fac559e3bc4dfe12499e8b96feb0f4e0925"
+        },
+        {
+          "relative": "images/2026-10-01-oge-svyaz-3.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-01-oge-svyaz-3.mp4",
+          "size": 2544733,
+          "sha256": "70f5b3677564c24ea04daa39132b9423e583d1e89227ef6f4d14ce2c38710b35"
+        },
+        {
+          "relative": "images/2026-10-01-oge-svyaz-4.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-01-oge-svyaz-4.mp4",
+          "size": 2273935,
+          "sha256": "087d88671cbf7e47fff4e0201de867d360e7f51d11bfcee993dc16aa241ad057"
+        }
+      ]
+    },
+    "2026-10-02-ege-bsp-colon": {
+      "version": 1,
+      "builtAt": "2026-09-20T02:25:39.623Z",
+      "draftKey": "b2cedcc46578ae85e646044ecc77cfd0cba8f05effbe2c8612dddcc7d6f65e6a",
+      "media": {
+        "imageUrls": [
+          "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-02-ege-bsp-colon-1.jpg",
+          "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-02-ege-bsp-colon-2.jpg",
+          "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-02-ege-bsp-colon-3.jpg",
+          "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-02-ege-bsp-colon-4.jpg"
+        ],
+        "videoUrls": [
+          "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-02-ege-bsp-colon-1.mp4",
+          "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-02-ege-bsp-colon-2.mp4",
+          "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-02-ege-bsp-colon-3.mp4",
+          "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-02-ege-bsp-colon-4.mp4"
+        ],
+        "music": {
+          "file": "bach-goldberg-var1-ishizaka.mp3",
+          "title": "Goldberg Variations, BWV 988: Variatio 1 a 1 Clav.",
+          "piece": "Гольдберг-вариации, BWV 988 — Вариация № 1",
+          "composer": "Иоганн Себастьян Бах",
+          "author": "Kimiko Ishizaka",
+          "performer": "Кимико Ишизака",
+          "license": "CC0 1.0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "source": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+          "rightsSource": "https://opengoldbergvariations.org/",
+          "download": "https://upload.wikimedia.org/wikipedia/commons/2/20/Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+          "attributionRequired": true,
+          "attribution": "И. С. Бах — Гольдберг-вариации, BWV 988, вариация № 1. Фортепиано: Кимико Ишизака, Open Goldberg Variations (2012). Запись CC0 1.0. Фрагмент, громкость изменена.",
+          "checkedAt": "2026-09-19",
+          "excerptFrom": 0.7,
+          "duration": 32,
+          "active": true,
+          "trendVerified": false,
+          "compositionRights": "Public domain: J. S. Bach (1685–1750)",
+          "recordingRights": "Open Goldberg 2012 recording released under CC0; not inferred from composition age",
+          "sourceSha256": "0539f3612413f6077c82e16f92417bad112e44017536f59db257c8179718076f",
+          "sha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8"
+        }
+      },
+      "files": [
+        {
+          "relative": "images/2026-10-02-ege-bsp-colon-1.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-02-ege-bsp-colon-1.jpg",
+          "size": 294570,
+          "sha256": "2ab4c8bb1df92fc45e035aec4f22f008897ff6e5b3925c35555f17b312d0baf7"
+        },
+        {
+          "relative": "images/2026-10-02-ege-bsp-colon-2.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-02-ege-bsp-colon-2.jpg",
+          "size": 299435,
+          "sha256": "2dba7f02462f69e6325bae58e317d1c8bd359e6c6ff4a74e70e43453b19f2f5b"
+        },
+        {
+          "relative": "images/2026-10-02-ege-bsp-colon-3.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-02-ege-bsp-colon-3.jpg",
+          "size": 292098,
+          "sha256": "4fcc9fcf483b0ffb862c77e01c891350a5f9cb01378723e041cf51eace6c4353"
+        },
+        {
+          "relative": "images/2026-10-02-ege-bsp-colon-4.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-02-ege-bsp-colon-4.jpg",
+          "size": 304791,
+          "sha256": "1a5e665ec466e25b09c2ec646878fa571ff7159f17fcec1628fbf9525a656263"
+        },
+        {
+          "relative": "images/2026-10-02-ege-bsp-colon-1.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-02-ege-bsp-colon-1.mp4",
+          "size": 3632093,
+          "sha256": "b4be8892f20353d5f0a08f090e92cd7e212f1007bf5f1248374984b60cb2be6d"
+        },
+        {
+          "relative": "images/2026-10-02-ege-bsp-colon-2.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-02-ege-bsp-colon-2.mp4",
+          "size": 3635478,
+          "sha256": "2f8876f1845445dc067fe52379778c679d992a9b459376e96dc19364f40cf2c5"
+        },
+        {
+          "relative": "images/2026-10-02-ege-bsp-colon-3.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-02-ege-bsp-colon-3.mp4",
+          "size": 3739917,
+          "sha256": "99ce650a06b03bb401f2de29e2e957b558c57fae7928b5541625392092b3e347"
+        },
+        {
+          "relative": "images/2026-10-02-ege-bsp-colon-4.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-02-ege-bsp-colon-4.mp4",
+          "size": 3068654,
+          "sha256": "02bf8cf4253372d4513aac22ae78363ad1821a2ef6399189ae43eeffe45c6f3c"
+        }
+      ]
+    },
+    "2026-10-03-oge-bez-bes": {
+      "version": 1,
+      "builtAt": "2026-09-20T02:25:39.623Z",
+      "draftKey": "e1ede0f8a96d69e4909c675ceecd732d19715ef7f9bc43338aafa000bbefbe81",
+      "media": {
+        "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reels/2026-10-03-oge-bez-bes.mp4",
+        "coverOffsetMs": 29000,
+        "music": {
+          "file": "bach-goldberg-var1-ishizaka.mp3",
+          "title": "Goldberg Variations, BWV 988: Variatio 1 a 1 Clav.",
+          "piece": "Гольдберг-вариации, BWV 988 — Вариация № 1",
+          "composer": "Иоганн Себастьян Бах",
+          "author": "Kimiko Ishizaka",
+          "performer": "Кимико Ишизака",
+          "license": "CC0 1.0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "source": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+          "rightsSource": "https://opengoldbergvariations.org/",
+          "download": "https://upload.wikimedia.org/wikipedia/commons/2/20/Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+          "attributionRequired": true,
+          "attribution": "И. С. Бах — Гольдберг-вариации, BWV 988, вариация № 1. Фортепиано: Кимико Ишизака, Open Goldberg Variations (2012). Запись CC0 1.0. Фрагмент, громкость изменена.",
+          "checkedAt": "2026-09-19",
+          "excerptFrom": 0.7,
+          "duration": 32,
+          "active": true,
+          "trendVerified": false,
+          "compositionRights": "Public domain: J. S. Bach (1685–1750)",
+          "recordingRights": "Open Goldberg 2012 recording released under CC0; not inferred from composition age",
+          "sourceSha256": "0539f3612413f6077c82e16f92417bad112e44017536f59db257c8179718076f",
+          "sha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8"
+        }
+      },
+      "files": [
+        {
+          "relative": "reels/2026-10-03-oge-bez-bes.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reels/2026-10-03-oge-bez-bes.mp4",
+          "size": 10566824,
+          "sha256": "8a8f05e6bcc40d82b0582f6e3487899759d9eaf16cf556141c6ac48a8c9e5da6"
+        },
+        {
+          "relative": "reels/2026-10-03-oge-bez-bes-frame.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reels/2026-10-03-oge-bez-bes-frame.jpg",
+          "size": 243197,
+          "sha256": "391b1d4fc7dd472a984c0a8473ee5bec80316bc223893dbb225707ab9ee267f4"
+        }
+      ]
+    },
+    "2026-10-04-ege-odnako": {
+      "version": 1,
+      "builtAt": "2026-09-20T02:25:39.623Z",
+      "draftKey": "1cfa316f5f37e1028f2c020c309fdc6f3b895bbd9c2c1cb94b33fd1500234d95",
+      "media": {
+        "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reels/2026-10-04-ege-odnako.mp4",
+        "coverOffsetMs": 29000,
+        "music": {
+          "file": "bach-goldberg-var1-ishizaka.mp3",
+          "title": "Goldberg Variations, BWV 988: Variatio 1 a 1 Clav.",
+          "piece": "Гольдберг-вариации, BWV 988 — Вариация № 1",
+          "composer": "Иоганн Себастьян Бах",
+          "author": "Kimiko Ishizaka",
+          "performer": "Кимико Ишизака",
+          "license": "CC0 1.0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "source": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+          "rightsSource": "https://opengoldbergvariations.org/",
+          "download": "https://upload.wikimedia.org/wikipedia/commons/2/20/Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+          "attributionRequired": true,
+          "attribution": "И. С. Бах — Гольдберг-вариации, BWV 988, вариация № 1. Фортепиано: Кимико Ишизака, Open Goldberg Variations (2012). Запись CC0 1.0. Фрагмент, громкость изменена.",
+          "checkedAt": "2026-09-19",
+          "excerptFrom": 0.7,
+          "duration": 32,
+          "active": true,
+          "trendVerified": false,
+          "compositionRights": "Public domain: J. S. Bach (1685–1750)",
+          "recordingRights": "Open Goldberg 2012 recording released under CC0; not inferred from composition age",
+          "sourceSha256": "0539f3612413f6077c82e16f92417bad112e44017536f59db257c8179718076f",
+          "sha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8"
+        }
+      },
+      "files": [
+        {
+          "relative": "reels/2026-10-04-ege-odnako.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reels/2026-10-04-ege-odnako.mp4",
+          "size": 14045783,
+          "sha256": "e04280633697d83178d5b4de822d04161a03962f61f249f5e7d9be8ce34c605f"
+        },
+        {
+          "relative": "reels/2026-10-04-ege-odnako-frame.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reels/2026-10-04-ege-odnako-frame.jpg",
+          "size": 305156,
+          "sha256": "2ac3cc3ccc3e1bf2dee3e46af9d1099528247acaa04af675446fb84b39865c71"
+        }
+      ]
+    },
+    "2026-10-05-oge-szhatie": {
+      "version": 1,
+      "builtAt": "2026-09-20T02:25:39.623Z",
+      "draftKey": "4486c7f71a6d821fc2cc212b3e6524b3e28fb001958de1d4b72c9fb40e57f160",
+      "media": {
+        "imageUrls": [
+          "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-05-oge-szhatie-1.jpg",
+          "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-05-oge-szhatie-2.jpg",
+          "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-05-oge-szhatie-3.jpg",
+          "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-05-oge-szhatie-4.jpg"
+        ],
+        "videoUrls": [
+          "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-05-oge-szhatie-1.mp4",
+          "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-05-oge-szhatie-2.mp4",
+          "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-05-oge-szhatie-3.mp4",
+          "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-05-oge-szhatie-4.mp4"
+        ],
+        "music": {
+          "file": "bach-goldberg-var1-ishizaka.mp3",
+          "title": "Goldberg Variations, BWV 988: Variatio 1 a 1 Clav.",
+          "piece": "Гольдберг-вариации, BWV 988 — Вариация № 1",
+          "composer": "Иоганн Себастьян Бах",
+          "author": "Kimiko Ishizaka",
+          "performer": "Кимико Ишизака",
+          "license": "CC0 1.0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "source": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+          "rightsSource": "https://opengoldbergvariations.org/",
+          "download": "https://upload.wikimedia.org/wikipedia/commons/2/20/Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+          "attributionRequired": true,
+          "attribution": "И. С. Бах — Гольдберг-вариации, BWV 988, вариация № 1. Фортепиано: Кимико Ишизака, Open Goldberg Variations (2012). Запись CC0 1.0. Фрагмент, громкость изменена.",
+          "checkedAt": "2026-09-19",
+          "excerptFrom": 0.7,
+          "duration": 32,
+          "active": true,
+          "trendVerified": false,
+          "compositionRights": "Public domain: J. S. Bach (1685–1750)",
+          "recordingRights": "Open Goldberg 2012 recording released under CC0; not inferred from composition age",
+          "sourceSha256": "0539f3612413f6077c82e16f92417bad112e44017536f59db257c8179718076f",
+          "sha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8"
+        }
+      },
+      "files": [
+        {
+          "relative": "images/2026-10-05-oge-szhatie-1.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-05-oge-szhatie-1.jpg",
+          "size": 337216,
+          "sha256": "8c3936bb77c446957d2872b40069f8db8be10bc7cd2b27701b76e199b27b0ca6"
+        },
+        {
+          "relative": "images/2026-10-05-oge-szhatie-2.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-05-oge-szhatie-2.jpg",
+          "size": 341381,
+          "sha256": "f46fbaadc3d1e35109090bf60f1c11ddac064fbe2aa154ce5e6a023e1ac4c76d"
+        },
+        {
+          "relative": "images/2026-10-05-oge-szhatie-3.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-05-oge-szhatie-3.jpg",
+          "size": 342676,
+          "sha256": "367a9b6f43428be4ae8f39d98009ff846ca2289aab97dac17d3316c733e507ba"
+        },
+        {
+          "relative": "images/2026-10-05-oge-szhatie-4.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-05-oge-szhatie-4.jpg",
+          "size": 328135,
+          "sha256": "7e7664fa8d83caa3f4fea779baf6b6260036fb38de2edd7bcf2c36fae779e85a"
+        },
+        {
+          "relative": "images/2026-10-05-oge-szhatie-1.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-05-oge-szhatie-1.mp4",
+          "size": 3989907,
+          "sha256": "5fc9ae1130f3fb71b7b4ff76fdb526723d38ddef31bf7c8dde8bdaf88af4b17f"
+        },
+        {
+          "relative": "images/2026-10-05-oge-szhatie-2.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-05-oge-szhatie-2.mp4",
+          "size": 3798650,
+          "sha256": "dba9d40bc8d2a1ffa34fefe72058be939f879cf3965862a665a902e5125cbc59"
+        },
+        {
+          "relative": "images/2026-10-05-oge-szhatie-3.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-05-oge-szhatie-3.mp4",
+          "size": 4002562,
+          "sha256": "eca75cf8836fe7dd8674de2cb7380f163ed79dbd57e58caa8ab8f97e2b3d0ad8"
+        },
+        {
+          "relative": "images/2026-10-05-oge-szhatie-4.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-05-oge-szhatie-4.mp4",
+          "size": 3193950,
+          "sha256": "8e148eea65c060224afb29cb94c0e01e6d038a60832095895d3fc5d9384a911f"
+        }
+      ]
+    },
+    "2026-10-06-ege-po-pribytii": {
+      "version": 1,
+      "builtAt": "2026-09-20T02:25:39.623Z",
+      "draftKey": "f728f0ad555543eaf9b2ee8502dcace60cb397d245ab7bce07dd95a71c897e9e",
+      "media": {
+        "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reels/2026-10-06-ege-po-pribytii.mp4",
+        "coverOffsetMs": 29000,
+        "music": {
+          "file": "bach-goldberg-var1-ishizaka.mp3",
+          "title": "Goldberg Variations, BWV 988: Variatio 1 a 1 Clav.",
+          "piece": "Гольдберг-вариации, BWV 988 — Вариация № 1",
+          "composer": "Иоганн Себастьян Бах",
+          "author": "Kimiko Ishizaka",
+          "performer": "Кимико Ишизака",
+          "license": "CC0 1.0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "source": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+          "rightsSource": "https://opengoldbergvariations.org/",
+          "download": "https://upload.wikimedia.org/wikipedia/commons/2/20/Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+          "attributionRequired": true,
+          "attribution": "И. С. Бах — Гольдберг-вариации, BWV 988, вариация № 1. Фортепиано: Кимико Ишизака, Open Goldberg Variations (2012). Запись CC0 1.0. Фрагмент, громкость изменена.",
+          "checkedAt": "2026-09-19",
+          "excerptFrom": 0.7,
+          "duration": 32,
+          "active": true,
+          "trendVerified": false,
+          "compositionRights": "Public domain: J. S. Bach (1685–1750)",
+          "recordingRights": "Open Goldberg 2012 recording released under CC0; not inferred from composition age",
+          "sourceSha256": "0539f3612413f6077c82e16f92417bad112e44017536f59db257c8179718076f",
+          "sha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8"
+        }
+      },
+      "files": [
+        {
+          "relative": "reels/2026-10-06-ege-po-pribytii.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reels/2026-10-06-ege-po-pribytii.mp4",
+          "size": 14530152,
+          "sha256": "e7cce8c4c28045511deec6611a48185e13eaf2c419a82eeb19b42a0e598aff35"
+        },
+        {
+          "relative": "reels/2026-10-06-ege-po-pribytii-frame.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reels/2026-10-06-ege-po-pribytii-frame.jpg",
+          "size": 272489,
+          "sha256": "1239b2b6736ed22140d934ec7efc936ce6dc3443eab30de85d32923e361f1d71"
+        }
+      ]
+    },
+    "2026-10-07-oge-argument": {
+      "version": 1,
+      "builtAt": "2026-09-20T02:25:39.623Z",
+      "draftKey": "38f9749a89bd8a76c29a77468c1c008998858e675bdd6e8eccab7d8000678f79",
+      "media": {
+        "imageUrls": [
+          "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-07-oge-argument-1.jpg",
+          "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-07-oge-argument-2.jpg",
+          "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-07-oge-argument-3.jpg",
+          "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-07-oge-argument-4.jpg"
+        ],
+        "videoUrls": [
+          "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-07-oge-argument-1.mp4",
+          "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-07-oge-argument-2.mp4",
+          "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-07-oge-argument-3.mp4",
+          "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-07-oge-argument-4.mp4"
+        ],
+        "music": {
+          "file": "bach-goldberg-var1-ishizaka.mp3",
+          "title": "Goldberg Variations, BWV 988: Variatio 1 a 1 Clav.",
+          "piece": "Гольдберг-вариации, BWV 988 — Вариация № 1",
+          "composer": "Иоганн Себастьян Бах",
+          "author": "Kimiko Ishizaka",
+          "performer": "Кимико Ишизака",
+          "license": "CC0 1.0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "source": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+          "rightsSource": "https://opengoldbergvariations.org/",
+          "download": "https://upload.wikimedia.org/wikipedia/commons/2/20/Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+          "attributionRequired": true,
+          "attribution": "И. С. Бах — Гольдберг-вариации, BWV 988, вариация № 1. Фортепиано: Кимико Ишизака, Open Goldberg Variations (2012). Запись CC0 1.0. Фрагмент, громкость изменена.",
+          "checkedAt": "2026-09-19",
+          "excerptFrom": 0.7,
+          "duration": 32,
+          "active": true,
+          "trendVerified": false,
+          "compositionRights": "Public domain: J. S. Bach (1685–1750)",
+          "recordingRights": "Open Goldberg 2012 recording released under CC0; not inferred from composition age",
+          "sourceSha256": "0539f3612413f6077c82e16f92417bad112e44017536f59db257c8179718076f",
+          "sha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8"
+        }
+      },
+      "files": [
+        {
+          "relative": "images/2026-10-07-oge-argument-1.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-07-oge-argument-1.jpg",
+          "size": 318427,
+          "sha256": "7aa9ab558a740f51685f3d0ef47c5570e7fe9a31c1d70fbb5c3323ac6ce26dd7"
+        },
+        {
+          "relative": "images/2026-10-07-oge-argument-2.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-07-oge-argument-2.jpg",
+          "size": 319585,
+          "sha256": "878982173f2c53d1f10d1873ba20ea6b2a93ee9251ed3b7c3c36b8ea16027b9b"
+        },
+        {
+          "relative": "images/2026-10-07-oge-argument-3.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-07-oge-argument-3.jpg",
+          "size": 335810,
+          "sha256": "559c462079433ddc40251862700b3a767e237601913a994bcdaf90441d0a2e69"
+        },
+        {
+          "relative": "images/2026-10-07-oge-argument-4.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-07-oge-argument-4.jpg",
+          "size": 302499,
+          "sha256": "14a9e72bd21d3465735fb7bf2acdb19d0b34613e2d062072992fa0c19d7dc996"
+        },
+        {
+          "relative": "images/2026-10-07-oge-argument-1.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-07-oge-argument-1.mp4",
+          "size": 3454555,
+          "sha256": "25d520edf56e2f6a6ecd3401c8dfe3c7bb1059e4bd2689782c63e1ec299d1620"
+        },
+        {
+          "relative": "images/2026-10-07-oge-argument-2.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-07-oge-argument-2.mp4",
+          "size": 3283058,
+          "sha256": "6a61645ae08e480655f07bce2293396f8c3cc865340b0c5ef8a127f94101e0d2"
+        },
+        {
+          "relative": "images/2026-10-07-oge-argument-3.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-07-oge-argument-3.mp4",
+          "size": 3536484,
+          "sha256": "ae3ed3415e75f958d151e8514842986854c33c1364b05faf3c5cbc8eb6ea86f5"
+        },
+        {
+          "relative": "images/2026-10-07-oge-argument-4.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-07-oge-argument-4.mp4",
+          "size": 2606108,
+          "sha256": "d9bfc3ea740eecd14b55fe017975fe5dc771228fd2052c03d1a6d2a429f0ca4b"
+        }
+      ]
+    },
+    "2026-10-08-ege-direct-speech": {
+      "version": 1,
+      "builtAt": "2026-09-20T02:25:39.623Z",
+      "draftKey": "d860a63a82743c4aa1be98c8b4fa4f566c1bcbe29130951f0ff8114ba62bc2a5",
+      "media": {
+        "imageUrls": [
+          "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-08-ege-direct-speech-1.jpg",
+          "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-08-ege-direct-speech-2.jpg",
+          "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-08-ege-direct-speech-3.jpg",
+          "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-08-ege-direct-speech-4.jpg"
+        ],
+        "videoUrls": [
+          "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-08-ege-direct-speech-1.mp4",
+          "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-08-ege-direct-speech-2.mp4",
+          "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-08-ege-direct-speech-3.mp4",
+          "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-08-ege-direct-speech-4.mp4"
+        ],
+        "music": {
+          "file": "bach-goldberg-var1-ishizaka.mp3",
+          "title": "Goldberg Variations, BWV 988: Variatio 1 a 1 Clav.",
+          "piece": "Гольдберг-вариации, BWV 988 — Вариация № 1",
+          "composer": "Иоганн Себастьян Бах",
+          "author": "Kimiko Ishizaka",
+          "performer": "Кимико Ишизака",
+          "license": "CC0 1.0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "source": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+          "rightsSource": "https://opengoldbergvariations.org/",
+          "download": "https://upload.wikimedia.org/wikipedia/commons/2/20/Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+          "attributionRequired": true,
+          "attribution": "И. С. Бах — Гольдберг-вариации, BWV 988, вариация № 1. Фортепиано: Кимико Ишизака, Open Goldberg Variations (2012). Запись CC0 1.0. Фрагмент, громкость изменена.",
+          "checkedAt": "2026-09-19",
+          "excerptFrom": 0.7,
+          "duration": 32,
+          "active": true,
+          "trendVerified": false,
+          "compositionRights": "Public domain: J. S. Bach (1685–1750)",
+          "recordingRights": "Open Goldberg 2012 recording released under CC0; not inferred from composition age",
+          "sourceSha256": "0539f3612413f6077c82e16f92417bad112e44017536f59db257c8179718076f",
+          "sha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8"
+        }
+      },
+      "files": [
+        {
+          "relative": "images/2026-10-08-ege-direct-speech-1.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-08-ege-direct-speech-1.jpg",
+          "size": 224523,
+          "sha256": "bdf268511cdb26783e348887b067069de90795276f061b31cba95ec4a87be864"
+        },
+        {
+          "relative": "images/2026-10-08-ege-direct-speech-2.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-08-ege-direct-speech-2.jpg",
+          "size": 215601,
+          "sha256": "f0e8f62ce99075160c6b7699e276f4bf8ece8e4f2412295660d866c057ed7452"
+        },
+        {
+          "relative": "images/2026-10-08-ege-direct-speech-3.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-08-ege-direct-speech-3.jpg",
+          "size": 217990,
+          "sha256": "85422031f960605effedca68555d703a511f4bb6e0b62ae554892a6f2e128bf4"
+        },
+        {
+          "relative": "images/2026-10-08-ege-direct-speech-4.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-08-ege-direct-speech-4.jpg",
+          "size": 213597,
+          "sha256": "8fc47c326e531da51f65c8e1d51042513b67aeeaced50056c4ccc4d9d8d7057f"
+        },
+        {
+          "relative": "images/2026-10-08-ege-direct-speech-1.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-08-ege-direct-speech-1.mp4",
+          "size": 2229965,
+          "sha256": "a30b7c5243cb5c8aeafaa6def3674a3bfd36c4bc7a3d27a8b120b102836442f2"
+        },
+        {
+          "relative": "images/2026-10-08-ege-direct-speech-2.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-08-ege-direct-speech-2.mp4",
+          "size": 2119668,
+          "sha256": "e02360a77cbeefb0a8dc1901d9a902ddbf4f76a72045e9944390e34aa0b1aa66"
+        },
+        {
+          "relative": "images/2026-10-08-ege-direct-speech-3.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-08-ege-direct-speech-3.mp4",
+          "size": 2304341,
+          "sha256": "bd575b4cf0f21f6fde178db7e7b63205ff663c09581b11f5cb5712783554043e"
+        },
+        {
+          "relative": "images/2026-10-08-ege-direct-speech-4.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-08-ege-direct-speech-4.mp4",
+          "size": 1692915,
+          "sha256": "ed785c940cf769cdf51f316c86c7365a90a34a03dbb4bd348cb2b0706640ad2c"
+        }
+      ]
+    },
+    "2026-10-09-oge-dvoetochie": {
+      "version": 1,
+      "builtAt": "2026-09-20T02:25:39.623Z",
+      "draftKey": "008763699b73ce179086816ed89002ca91c887de2ce6dfd0ffce9c5c58552ffc",
+      "media": {
+        "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reels/2026-10-09-oge-dvoetochie.mp4",
+        "coverOffsetMs": 29000,
+        "music": {
+          "file": "bach-goldberg-var1-ishizaka.mp3",
+          "title": "Goldberg Variations, BWV 988: Variatio 1 a 1 Clav.",
+          "piece": "Гольдберг-вариации, BWV 988 — Вариация № 1",
+          "composer": "Иоганн Себастьян Бах",
+          "author": "Kimiko Ishizaka",
+          "performer": "Кимико Ишизака",
+          "license": "CC0 1.0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "source": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+          "rightsSource": "https://opengoldbergvariations.org/",
+          "download": "https://upload.wikimedia.org/wikipedia/commons/2/20/Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+          "attributionRequired": true,
+          "attribution": "И. С. Бах — Гольдберг-вариации, BWV 988, вариация № 1. Фортепиано: Кимико Ишизака, Open Goldberg Variations (2012). Запись CC0 1.0. Фрагмент, громкость изменена.",
+          "checkedAt": "2026-09-19",
+          "excerptFrom": 0.7,
+          "duration": 32,
+          "active": true,
+          "trendVerified": false,
+          "compositionRights": "Public domain: J. S. Bach (1685–1750)",
+          "recordingRights": "Open Goldberg 2012 recording released under CC0; not inferred from composition age",
+          "sourceSha256": "0539f3612413f6077c82e16f92417bad112e44017536f59db257c8179718076f",
+          "sha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8"
+        }
+      },
+      "files": [
+        {
+          "relative": "reels/2026-10-09-oge-dvoetochie.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reels/2026-10-09-oge-dvoetochie.mp4",
+          "size": 23508173,
+          "sha256": "e89630fec05ef67f4199776172a7425fd5331f2a0fa22bccd6258be07f7ab0ac"
+        },
+        {
+          "relative": "reels/2026-10-09-oge-dvoetochie-frame.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reels/2026-10-09-oge-dvoetochie-frame.jpg",
+          "size": 391958,
+          "sha256": "3d4834a6855f4014d38b3b05fe9d61c44018c971ce731b5d07edccc46412c4b7"
+        }
+      ]
     }
   }
 }
