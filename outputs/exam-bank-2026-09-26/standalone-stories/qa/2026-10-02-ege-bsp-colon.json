@@ -1,0 +1,136 @@
+{
+  "id": "2026-10-02-ege-bsp-colon-standalone",
+  "sourcePostId": "2026-10-02-ege-bsp-colon",
+  "exam": "ЕГЭ",
+  "title": "Двоеточие объясняет причину",
+  "status": "pending",
+  "proposedDate": "2026-10-02",
+  "kind": "question_answer",
+  "configSha256": "8f29636b7fd3a488a7b3fba13aac8b947731ebf2a73d5643db791025fb1f4f75",
+  "musicSource": "content/music/bach-goldberg-var1-ishizaka.mp3",
+  "musicSha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8",
+  "creditInFinalAnswerScene": true,
+  "parts": [
+    {
+      "index": 1,
+      "role": "question",
+      "file": "2026-10-02-ege-bsp-colon-1.mp4",
+      "sha256": "7ec337dca253650b1b754c833a011bf15dfdba759513b640f9a11c28f9ce3493",
+      "bytes": 3508762,
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "frames": 180,
+      "duration": 6.0,
+      "videoCodec": "h264",
+      "audioCodec": "aac",
+      "sceneIndices": [
+        1
+      ],
+      "geometry": {
+        "x": 0,
+        "y": 285,
+        "width": 1080,
+        "height": 1350,
+        "background": "#dbe9ec",
+        "cropped": false
+      },
+      "decodedFrames": [
+        "qa/2026-10-02-ege-bsp-colon-scene-1.jpg"
+      ],
+      "sourceFiles": [
+        {
+          "file": "outputs/exam-bank-2026-09-26/content/images/2026-10-02-ege-bsp-colon-1.mp4",
+          "sha256": "b4be8892f20353d5f0a08f090e92cd7e212f1007bf5f1248374984b60cb2be6d",
+          "width": 1080,
+          "height": 1350,
+          "fps": 30,
+          "frames": 180,
+          "duration": 6.0,
+          "videoCodec": "h264",
+          "audioCodec": "aac"
+        }
+      ],
+      "audioStartSeconds": 0,
+      "edgeFadeSeconds": {
+        "in": 0.04,
+        "out": 0.12
+      },
+      "musicMode": "continuous verified source music, gain 0.75"
+    },
+    {
+      "index": 2,
+      "role": "answer",
+      "file": "2026-10-02-ege-bsp-colon-2.mp4",
+      "sha256": "c930e62710ec5a2423ff6715a8d83eacc77dfecc553db34510b0ff76f1ecba13",
+      "bytes": 10624794,
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "frames": 540,
+      "duration": 18.0,
+      "videoCodec": "h264",
+      "audioCodec": "aac",
+      "sceneIndices": [
+        2,
+        3,
+        4
+      ],
+      "geometry": {
+        "x": 0,
+        "y": 285,
+        "width": 1080,
+        "height": 1350,
+        "background": "#dbe9ec",
+        "cropped": false
+      },
+      "decodedFrames": [
+        "qa/2026-10-02-ege-bsp-colon-scene-2.jpg",
+        "qa/2026-10-02-ege-bsp-colon-scene-3.jpg",
+        "qa/2026-10-02-ege-bsp-colon-scene-4.jpg"
+      ],
+      "sourceFiles": [
+        {
+          "file": "outputs/exam-bank-2026-09-26/content/images/2026-10-02-ege-bsp-colon-2.mp4",
+          "sha256": "2f8876f1845445dc067fe52379778c679d992a9b459376e96dc19364f40cf2c5",
+          "width": 1080,
+          "height": 1350,
+          "fps": 30,
+          "frames": 180,
+          "duration": 6.0,
+          "videoCodec": "h264",
+          "audioCodec": "aac"
+        },
+        {
+          "file": "outputs/exam-bank-2026-09-26/content/images/2026-10-02-ege-bsp-colon-3.mp4",
+          "sha256": "99ce650a06b03bb401f2de29e2e957b558c57fae7928b5541625392092b3e347",
+          "width": 1080,
+          "height": 1350,
+          "fps": 30,
+          "frames": 180,
+          "duration": 6.0,
+          "videoCodec": "h264",
+          "audioCodec": "aac"
+        },
+        {
+          "file": "outputs/exam-bank-2026-09-26/content/images/2026-10-02-ege-bsp-colon-4.mp4",
+          "sha256": "02bf8cf4253372d4513aac22ae78363ad1821a2ef6399189ae43eeffe45c6f3c",
+          "width": 1080,
+          "height": 1350,
+          "fps": 30,
+          "frames": 180,
+          "duration": 6.0,
+          "videoCodec": "h264",
+          "audioCodec": "aac"
+        }
+      ],
+      "audioStartSeconds": 6,
+      "edgeFadeSeconds": {
+        "in": 0.04,
+        "out": 0.12
+      },
+      "musicMode": "continuous verified source music, gain 0.75"
+    }
+  ],
+  "elapsedSeconds": 18.19
+}

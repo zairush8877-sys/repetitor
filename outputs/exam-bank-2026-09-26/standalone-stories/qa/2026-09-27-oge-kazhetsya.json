@@ -1,0 +1,114 @@
+{
+  "id": "2026-09-27-oge-kazhetsya-standalone",
+  "sourcePostId": "2026-09-27-oge-kazhetsya",
+  "exam": "ОГЭ",
+  "title": "«Кажется» не всегда в запятых",
+  "status": "pending",
+  "proposedDate": "2026-09-27",
+  "kind": "question_answer",
+  "configSha256": "8f29636b7fd3a488a7b3fba13aac8b947731ebf2a73d5643db791025fb1f4f75",
+  "musicSource": "content/music/bach-goldberg-var1-ishizaka.mp3",
+  "musicSha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8",
+  "creditInFinalAnswerScene": true,
+  "parts": [
+    {
+      "index": 1,
+      "role": "question",
+      "file": "2026-09-27-oge-kazhetsya-1.mp4",
+      "sha256": "b68d9a4fdb83281ee9e018ea114077b36ae4721851d2c09eb0dd5bda17b7cf0a",
+      "bytes": 3089341,
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "frames": 180,
+      "duration": 6.0,
+      "videoCodec": "h264",
+      "audioCodec": "aac",
+      "sceneIndices": [
+        1
+      ],
+      "geometry": {
+        "x": 0,
+        "y": 0,
+        "width": 1080,
+        "height": 1920,
+        "cropped": false
+      },
+      "decodedFrames": [
+        "qa/2026-09-27-oge-kazhetsya-scene-1.jpg"
+      ],
+      "sourceFiles": [
+        {
+          "file": "outputs/exam-bank-2026-09-26/content/reels/2026-09-27-oge-kazhetsya.mp4",
+          "sha256": "122e6a4fa15eaa07647fd126399edbff727db79c0b6fe449cbe5b9769c158d25",
+          "width": 1080,
+          "height": 1920,
+          "fps": 30,
+          "frames": 900,
+          "duration": 30.0,
+          "videoCodec": "h264",
+          "audioCodec": "aac"
+        }
+      ],
+      "audioStartSeconds": 0,
+      "edgeFadeSeconds": {
+        "in": 0.04,
+        "out": 0.12
+      },
+      "musicMode": "preserved Reels audio"
+    },
+    {
+      "index": 2,
+      "role": "answer",
+      "file": "2026-09-27-oge-kazhetsya-2.mp4",
+      "sha256": "3afecd898eefef0c242da66fa6df5b9b5d623c76b005c5a80f4ab1a038608671",
+      "bytes": 12440711,
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "frames": 720,
+      "duration": 24.0,
+      "videoCodec": "h264",
+      "audioCodec": "aac",
+      "sceneIndices": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "geometry": {
+        "x": 0,
+        "y": 0,
+        "width": 1080,
+        "height": 1920,
+        "cropped": false
+      },
+      "decodedFrames": [
+        "qa/2026-09-27-oge-kazhetsya-scene-2.jpg",
+        "qa/2026-09-27-oge-kazhetsya-scene-3.jpg",
+        "qa/2026-09-27-oge-kazhetsya-scene-4.jpg",
+        "qa/2026-09-27-oge-kazhetsya-scene-5.jpg"
+      ],
+      "sourceFiles": [
+        {
+          "file": "outputs/exam-bank-2026-09-26/content/reels/2026-09-27-oge-kazhetsya.mp4",
+          "sha256": "122e6a4fa15eaa07647fd126399edbff727db79c0b6fe449cbe5b9769c158d25",
+          "width": 1080,
+          "height": 1920,
+          "fps": 30,
+          "frames": 900,
+          "duration": 30.0,
+          "videoCodec": "h264",
+          "audioCodec": "aac"
+        }
+      ],
+      "audioStartSeconds": 6,
+      "edgeFadeSeconds": {
+        "in": 0.04,
+        "out": 0.12
+      },
+      "musicMode": "preserved Reels audio"
+    }
+  ],
+  "elapsedSeconds": 15.39
+}

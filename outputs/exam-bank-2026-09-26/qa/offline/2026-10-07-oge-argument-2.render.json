@@ -1,0 +1,56 @@
+{
+  "renderer": "offline Pillow + FFmpeg; not Remotion export",
+  "pillowVersion": "12.3.0",
+  "file": "images/2026-10-07-oge-argument-2.mp4",
+  "sha256": "6a61645ae08e480655f07bce2293396f8c3cc865340b0c5ef8a127f94101e0d2",
+  "bytes": 3283058,
+  "width": 1080,
+  "height": 1350,
+  "fps": 30,
+  "duration": 6,
+  "audioCodec": "aac",
+  "audioSource": "content/music/bach-goldberg-var1-ishizaka.mp3",
+  "audioSha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8",
+  "audioStartSeconds": 6,
+  "volume": 0.75,
+  "audioFadeInSeconds": 0.1,
+  "audioFadeOutSeconds": 0.5,
+  "photoSource": "assets/photos/exam-v1/oge-argument.png",
+  "photoSha256": "4b340c989a2c47b46f2dafcc66ae537e59f73a48423d8956775efd3b3d52ab21",
+  "fontWeight": 600,
+  "fallbackFont": "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
+  "fallbackFontSha256": "d72db21f9242aedd6b917d8549ad5921766b24d5f8d0becfda2ff4c620b3c2e0",
+  "configSha256": "8f29636b7fd3a488a7b3fba13aac8b947731ebf2a73d5643db791025fb1f4f75",
+  "layouts": [
+    {
+      "index": 1,
+      "height": 1350,
+      "top": 110,
+      "bodyTop": 252.0,
+      "textEnd": 573.6,
+      "safeEnd": 1220,
+      "creditTop": 1100,
+      "last": false,
+      "title": {
+        "lines": [
+          "Пример из текста"
+        ],
+        "size": 100,
+        "family": "display"
+      },
+      "body": {
+        "lines": [
+          "Наш учебный мини-текст:",
+          "«Лена отдала свой зонт подруге,",
+          "чтобы та не промокла».",
+          "Поступок может подтвердить мысль",
+          "о заботе."
+        ],
+        "size": 48,
+        "family": "sans"
+      },
+      "bodyContrast": null
+    }
+  ],
+  "elapsedSeconds": 11.68
+}

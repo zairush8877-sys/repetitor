@@ -1,0 +1,370 @@
+{
+  "version": 2,
+  "config": "video-lab/exam-bank.json",
+  "gallery": "outputs/exam-bank-2026-09-26/index.html",
+  "posts": [
+    {
+      "id": "2026-09-26-ege-deeprichastie",
+      "format": "Reels",
+      "proposedDate": "2026-09-26",
+      "ready": true,
+      "videoFiles": [
+        "content/reels/2026-09-26-ege-deeprichastie.mp4"
+      ],
+      "coverFiles": [
+        "content/reels/2026-09-26-ege-deeprichastie-frame.jpg"
+      ],
+      "storyFiles": [
+        "content/reposts/2026-09-26-ege-deeprichastie-1.jpg"
+      ],
+      "standaloneVideoFiles": [
+        "standalone-stories/2026-09-26-ege-deeprichastie-1.mp4",
+        "standalone-stories/2026-09-26-ege-deeprichastie-2.mp4"
+      ],
+      "standaloneStatus": "pending",
+      "standalonePublicationDate": null
+    },
+    {
+      "id": "2026-09-27-oge-kazhetsya",
+      "format": "Reels",
+      "proposedDate": "2026-09-27",
+      "ready": true,
+      "videoFiles": [
+        "content/reels/2026-09-27-oge-kazhetsya.mp4"
+      ],
+      "coverFiles": [
+        "content/reels/2026-09-27-oge-kazhetsya-frame.jpg"
+      ],
+      "storyFiles": [
+        "content/reposts/2026-09-27-oge-kazhetsya-1.jpg"
+      ],
+      "standaloneVideoFiles": [
+        "standalone-stories/2026-09-27-oge-kazhetsya-1.mp4",
+        "standalone-stories/2026-09-27-oge-kazhetsya-2.mp4"
+      ],
+      "standaloneStatus": "pending",
+      "standalonePublicationDate": null
+    },
+    {
+      "id": "2026-09-28-ege-nesmotrya",
+      "format": "Карусель",
+      "proposedDate": "2026-09-28",
+      "ready": true,
+      "videoFiles": [
+        "content/images/2026-09-28-ege-nesmotrya-1.mp4",
+        "content/images/2026-09-28-ege-nesmotrya-2.mp4",
+        "content/images/2026-09-28-ege-nesmotrya-3.mp4",
+        "content/images/2026-09-28-ege-nesmotrya-4.mp4"
+      ],
+      "coverFiles": [
+        "content/images/2026-09-28-ege-nesmotrya-1.jpg",
+        "content/images/2026-09-28-ege-nesmotrya-2.jpg",
+        "content/images/2026-09-28-ege-nesmotrya-3.jpg",
+        "content/images/2026-09-28-ege-nesmotrya-4.jpg"
+      ],
+      "storyFiles": [
+        "content/reposts/2026-09-28-ege-nesmotrya-1.jpg",
+        "content/reposts/2026-09-28-ege-nesmotrya-2.jpg",
+        "content/reposts/2026-09-28-ege-nesmotrya-3.jpg",
+        "content/reposts/2026-09-28-ege-nesmotrya-4.jpg"
+      ],
+      "standaloneVideoFiles": [
+        "standalone-stories/2026-09-28-ege-nesmotrya-1.mp4",
+        "standalone-stories/2026-09-28-ege-nesmotrya-2.mp4"
+      ],
+      "standaloneStatus": "pending",
+      "standalonePublicationDate": null
+    },
+    {
+      "id": "2026-09-29-oge-svetaet",
+      "format": "Reels",
+      "proposedDate": "2026-09-29",
+      "ready": true,
+      "videoFiles": [
+        "content/reels/2026-09-29-oge-svetaet.mp4"
+      ],
+      "coverFiles": [
+        "content/reels/2026-09-29-oge-svetaet-frame.jpg"
+      ],
+      "storyFiles": [
+        "content/reposts/2026-09-29-oge-svetaet-1.jpg"
+      ],
+      "standaloneVideoFiles": [
+        "standalone-stories/2026-09-29-oge-svetaet-1.mp4",
+        "standalone-stories/2026-09-29-oge-svetaet-2.mp4"
+      ],
+      "standaloneStatus": "pending",
+      "standalonePublicationDate": null
+    },
+    {
+      "id": "2026-09-30-ege-ne-kto",
+      "format": "Reels",
+      "proposedDate": "2026-09-30",
+      "ready": true,
+      "videoFiles": [
+        "content/reels/2026-09-30-ege-ne-kto.mp4"
+      ],
+      "coverFiles": [
+        "content/reels/2026-09-30-ege-ne-kto-frame.jpg"
+      ],
+      "storyFiles": [
+        "content/reposts/2026-09-30-ege-ne-kto-1.jpg"
+      ],
+      "standaloneVideoFiles": [
+        "standalone-stories/2026-09-30-ege-ne-kto-1.mp4",
+        "standalone-stories/2026-09-30-ege-ne-kto-2.mp4"
+      ],
+      "standaloneStatus": "pending",
+      "standalonePublicationDate": null
+    },
+    {
+      "id": "2026-10-01-oge-svyaz",
+      "format": "Карусель",
+      "proposedDate": "2026-10-01",
+      "ready": true,
+      "videoFiles": [
+        "content/images/2026-10-01-oge-svyaz-1.mp4",
+        "content/images/2026-10-01-oge-svyaz-2.mp4",
+        "content/images/2026-10-01-oge-svyaz-3.mp4",
+        "content/images/2026-10-01-oge-svyaz-4.mp4"
+      ],
+      "coverFiles": [
+        "content/images/2026-10-01-oge-svyaz-1.jpg",
+        "content/images/2026-10-01-oge-svyaz-2.jpg",
+        "content/images/2026-10-01-oge-svyaz-3.jpg",
+        "content/images/2026-10-01-oge-svyaz-4.jpg"
+      ],
+      "storyFiles": [
+        "content/reposts/2026-10-01-oge-svyaz-1.jpg",
+        "content/reposts/2026-10-01-oge-svyaz-2.jpg",
+        "content/reposts/2026-10-01-oge-svyaz-3.jpg",
+        "content/reposts/2026-10-01-oge-svyaz-4.jpg"
+      ],
+      "standaloneVideoFiles": [
+        "standalone-stories/2026-10-01-oge-svyaz-1.mp4",
+        "standalone-stories/2026-10-01-oge-svyaz-2.mp4"
+      ],
+      "standaloneStatus": "pending",
+      "standalonePublicationDate": null
+    },
+    {
+      "id": "2026-10-02-ege-bsp-colon",
+      "format": "Карусель",
+      "proposedDate": "2026-10-02",
+      "ready": true,
+      "videoFiles": [
+        "content/images/2026-10-02-ege-bsp-colon-1.mp4",
+        "content/images/2026-10-02-ege-bsp-colon-2.mp4",
+        "content/images/2026-10-02-ege-bsp-colon-3.mp4",
+        "content/images/2026-10-02-ege-bsp-colon-4.mp4"
+      ],
+      "coverFiles": [
+        "content/images/2026-10-02-ege-bsp-colon-1.jpg",
+        "content/images/2026-10-02-ege-bsp-colon-2.jpg",
+        "content/images/2026-10-02-ege-bsp-colon-3.jpg",
+        "content/images/2026-10-02-ege-bsp-colon-4.jpg"
+      ],
+      "storyFiles": [
+        "content/reposts/2026-10-02-ege-bsp-colon-1.jpg",
+        "content/reposts/2026-10-02-ege-bsp-colon-2.jpg",
+        "content/reposts/2026-10-02-ege-bsp-colon-3.jpg",
+        "content/reposts/2026-10-02-ege-bsp-colon-4.jpg"
+      ],
+      "standaloneVideoFiles": [
+        "standalone-stories/2026-10-02-ege-bsp-colon-1.mp4",
+        "standalone-stories/2026-10-02-ege-bsp-colon-2.mp4"
+      ],
+      "standaloneStatus": "pending",
+      "standalonePublicationDate": null
+    },
+    {
+      "id": "2026-10-03-oge-bez-bes",
+      "format": "Reels",
+      "proposedDate": "2026-10-03",
+      "ready": true,
+      "videoFiles": [
+        "content/reels/2026-10-03-oge-bez-bes.mp4"
+      ],
+      "coverFiles": [
+        "content/reels/2026-10-03-oge-bez-bes-frame.jpg"
+      ],
+      "storyFiles": [
+        "content/reposts/2026-10-03-oge-bez-bes-1.jpg"
+      ],
+      "standaloneVideoFiles": [
+        "standalone-stories/2026-10-03-oge-bez-bes-1.mp4",
+        "standalone-stories/2026-10-03-oge-bez-bes-2.mp4"
+      ],
+      "standaloneStatus": "pending",
+      "standalonePublicationDate": null
+    },
+    {
+      "id": "2026-10-04-ege-odnako",
+      "format": "Reels",
+      "proposedDate": "2026-10-04",
+      "ready": true,
+      "videoFiles": [
+        "content/reels/2026-10-04-ege-odnako.mp4"
+      ],
+      "coverFiles": [
+        "content/reels/2026-10-04-ege-odnako-frame.jpg"
+      ],
+      "storyFiles": [
+        "content/reposts/2026-10-04-ege-odnako-1.jpg"
+      ],
+      "standaloneVideoFiles": [
+        "standalone-stories/2026-10-04-ege-odnako-1.mp4",
+        "standalone-stories/2026-10-04-ege-odnako-2.mp4"
+      ],
+      "standaloneStatus": "pending",
+      "standalonePublicationDate": null
+    },
+    {
+      "id": "2026-10-05-oge-szhatie",
+      "format": "Карусель",
+      "proposedDate": "2026-10-05",
+      "ready": true,
+      "videoFiles": [
+        "content/images/2026-10-05-oge-szhatie-1.mp4",
+        "content/images/2026-10-05-oge-szhatie-2.mp4",
+        "content/images/2026-10-05-oge-szhatie-3.mp4",
+        "content/images/2026-10-05-oge-szhatie-4.mp4"
+      ],
+      "coverFiles": [
+        "content/images/2026-10-05-oge-szhatie-1.jpg",
+        "content/images/2026-10-05-oge-szhatie-2.jpg",
+        "content/images/2026-10-05-oge-szhatie-3.jpg",
+        "content/images/2026-10-05-oge-szhatie-4.jpg"
+      ],
+      "storyFiles": [
+        "content/reposts/2026-10-05-oge-szhatie-1.jpg",
+        "content/reposts/2026-10-05-oge-szhatie-2.jpg",
+        "content/reposts/2026-10-05-oge-szhatie-3.jpg",
+        "content/reposts/2026-10-05-oge-szhatie-4.jpg"
+      ],
+      "standaloneVideoFiles": [
+        "standalone-stories/2026-10-05-oge-szhatie-1.mp4",
+        "standalone-stories/2026-10-05-oge-szhatie-2.mp4"
+      ],
+      "standaloneStatus": "pending",
+      "standalonePublicationDate": null
+    },
+    {
+      "id": "2026-10-06-ege-po-pribytii",
+      "format": "Reels",
+      "proposedDate": "2026-10-06",
+      "ready": true,
+      "videoFiles": [
+        "content/reels/2026-10-06-ege-po-pribytii.mp4"
+      ],
+      "coverFiles": [
+        "content/reels/2026-10-06-ege-po-pribytii-frame.jpg"
+      ],
+      "storyFiles": [
+        "content/reposts/2026-10-06-ege-po-pribytii-1.jpg"
+      ],
+      "standaloneVideoFiles": [
+        "standalone-stories/2026-10-06-ege-po-pribytii-1.mp4",
+        "standalone-stories/2026-10-06-ege-po-pribytii-2.mp4"
+      ],
+      "standaloneStatus": "pending",
+      "standalonePublicationDate": null
+    },
+    {
+      "id": "2026-10-07-oge-argument",
+      "format": "Карусель",
+      "proposedDate": "2026-10-07",
+      "ready": true,
+      "videoFiles": [
+        "content/images/2026-10-07-oge-argument-1.mp4",
+        "content/images/2026-10-07-oge-argument-2.mp4",
+        "content/images/2026-10-07-oge-argument-3.mp4",
+        "content/images/2026-10-07-oge-argument-4.mp4"
+      ],
+      "coverFiles": [
+        "content/images/2026-10-07-oge-argument-1.jpg",
+        "content/images/2026-10-07-oge-argument-2.jpg",
+        "content/images/2026-10-07-oge-argument-3.jpg",
+        "content/images/2026-10-07-oge-argument-4.jpg"
+      ],
+      "storyFiles": [
+        "content/reposts/2026-10-07-oge-argument-1.jpg",
+        "content/reposts/2026-10-07-oge-argument-2.jpg",
+        "content/reposts/2026-10-07-oge-argument-3.jpg",
+        "content/reposts/2026-10-07-oge-argument-4.jpg"
+      ],
+      "standaloneVideoFiles": [
+        "standalone-stories/2026-10-07-oge-argument-1.mp4",
+        "standalone-stories/2026-10-07-oge-argument-2.mp4"
+      ],
+      "standaloneStatus": "pending",
+      "standalonePublicationDate": null
+    },
+    {
+      "id": "2026-10-08-ege-direct-speech",
+      "format": "Карусель",
+      "proposedDate": "2026-10-08",
+      "ready": true,
+      "videoFiles": [
+        "content/images/2026-10-08-ege-direct-speech-1.mp4",
+        "content/images/2026-10-08-ege-direct-speech-2.mp4",
+        "content/images/2026-10-08-ege-direct-speech-3.mp4",
+        "content/images/2026-10-08-ege-direct-speech-4.mp4"
+      ],
+      "coverFiles": [
+        "content/images/2026-10-08-ege-direct-speech-1.jpg",
+        "content/images/2026-10-08-ege-direct-speech-2.jpg",
+        "content/images/2026-10-08-ege-direct-speech-3.jpg",
+        "content/images/2026-10-08-ege-direct-speech-4.jpg"
+      ],
+      "storyFiles": [
+        "content/reposts/2026-10-08-ege-direct-speech-1.jpg",
+        "content/reposts/2026-10-08-ege-direct-speech-2.jpg",
+        "content/reposts/2026-10-08-ege-direct-speech-3.jpg",
+        "content/reposts/2026-10-08-ege-direct-speech-4.jpg"
+      ],
+      "standaloneVideoFiles": [
+        "standalone-stories/2026-10-08-ege-direct-speech-1.mp4",
+        "standalone-stories/2026-10-08-ege-direct-speech-2.mp4"
+      ],
+      "standaloneStatus": "pending",
+      "standalonePublicationDate": null
+    },
+    {
+      "id": "2026-10-09-oge-dvoetochie",
+      "format": "Reels",
+      "proposedDate": "2026-10-09",
+      "ready": true,
+      "videoFiles": [
+        "content/reels/2026-10-09-oge-dvoetochie.mp4"
+      ],
+      "coverFiles": [
+        "content/reels/2026-10-09-oge-dvoetochie-frame.jpg"
+      ],
+      "storyFiles": [
+        "content/reposts/2026-10-09-oge-dvoetochie-1.jpg"
+      ],
+      "standaloneVideoFiles": [
+        "standalone-stories/2026-10-09-oge-dvoetochie-1.mp4",
+        "standalone-stories/2026-10-09-oge-dvoetochie-2.mp4"
+      ],
+      "standaloneStatus": "pending",
+      "standalonePublicationDate": null
+    }
+  ],
+  "counts": {
+    "posts": 14,
+    "reels": 8,
+    "carousels": 6,
+    "feedVideos": 32,
+    "stories": 32,
+    "standaloneVideos": 28,
+    "expectedAssets": 124,
+    "ready": 14,
+    "missingFiles": 0
+  },
+  "standaloneManifestAvailable": true,
+  "missingFiles": [],
+  "status": "all-local-assets-present",
+  "note": "File presence and generated script syntax checked. Media quality is checked by the separate package/QA pipeline; this does not claim publication or visual browser verification."
+}

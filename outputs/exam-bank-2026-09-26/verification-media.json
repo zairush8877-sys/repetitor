@@ -1,0 +1,699 @@
+{
+  "sceneCount": 64,
+  "fileCount": 32,
+  "posts": [
+    {
+      "id": "2026-09-26-ege-deeprichastie",
+      "scenes": 5,
+      "media": [
+        {
+          "file": "outputs/exam-bank-2026-09-26/content/reels/2026-09-26-ege-deeprichastie.mp4",
+          "sha256": "d12a4bd512a836e6e06a9081c145e0ba9df58ace48f7d581ce5ba3a3da606c8c",
+          "duration": 30.0,
+          "video": "h264",
+          "audio": "aac",
+          "loudness": {
+            "input_i": "-20.07",
+            "input_tp": "-6.30",
+            "input_lra": "4.70",
+            "input_thresh": "-30.12",
+            "output_i": "-23.87",
+            "output_tp": "-10.68",
+            "output_lra": "3.40",
+            "output_thresh": "-33.90",
+            "normalization_type": "dynamic",
+            "target_offset": "-0.13"
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-09-27-oge-kazhetsya",
+      "scenes": 5,
+      "media": [
+        {
+          "file": "outputs/exam-bank-2026-09-26/content/reels/2026-09-27-oge-kazhetsya.mp4",
+          "sha256": "122e6a4fa15eaa07647fd126399edbff727db79c0b6fe449cbe5b9769c158d25",
+          "duration": 30.0,
+          "video": "h264",
+          "audio": "aac",
+          "loudness": {
+            "input_i": "-20.07",
+            "input_tp": "-6.30",
+            "input_lra": "4.70",
+            "input_thresh": "-30.12",
+            "output_i": "-23.87",
+            "output_tp": "-10.68",
+            "output_lra": "3.40",
+            "output_thresh": "-33.90",
+            "normalization_type": "dynamic",
+            "target_offset": "-0.13"
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-09-28-ege-nesmotrya",
+      "scenes": 4,
+      "media": [
+        {
+          "file": "outputs/exam-bank-2026-09-26/content/images/2026-09-28-ege-nesmotrya-1.mp4",
+          "sha256": "13bf66f0a26eb82b94c57b9bdd32b0403baabb7ee713703a11aa1b94da113d1c",
+          "duration": 6.0,
+          "video": "h264",
+          "audio": "aac",
+          "loudness": {
+            "input_i": "-20.11",
+            "input_tp": "-6.70",
+            "input_lra": "0.50",
+            "input_thresh": "-30.11",
+            "output_i": "-24.01",
+            "output_tp": "-10.67",
+            "output_lra": "0.40",
+            "output_thresh": "-34.01",
+            "normalization_type": "dynamic",
+            "target_offset": "0.01"
+          }
+        },
+        {
+          "file": "outputs/exam-bank-2026-09-26/content/images/2026-09-28-ege-nesmotrya-2.mp4",
+          "sha256": "2e80c377b8b3b7dc504207ee590bdebd993e49676ff273c5539dce3b81c85c16",
+          "duration": 6.0,
+          "video": "h264",
+          "audio": "aac",
+          "loudness": {
+            "input_i": "-21.14",
+            "input_tp": "-7.87",
+            "input_lra": "1.60",
+            "input_thresh": "-31.14",
+            "output_i": "-22.86",
+            "output_tp": "-9.45",
+            "output_lra": "2.00",
+            "output_thresh": "-32.86",
+            "normalization_type": "dynamic",
+            "target_offset": "-1.14"
+          }
+        },
+        {
+          "file": "outputs/exam-bank-2026-09-26/content/images/2026-09-28-ege-nesmotrya-3.mp4",
+          "sha256": "865e3c039095b1bdc060230609ea600ab3d8af3f291144c9c6a2463ba4167db0",
+          "duration": 6.0,
+          "video": "h264",
+          "audio": "aac",
+          "loudness": {
+            "input_i": "-18.65",
+            "input_tp": "-7.22",
+            "input_lra": "0.60",
+            "input_thresh": "-28.65",
+            "output_i": "-23.99",
+            "output_tp": "-12.74",
+            "output_lra": "0.90",
+            "output_thresh": "-33.99",
+            "normalization_type": "dynamic",
+            "target_offset": "-0.01"
+          }
+        },
+        {
+          "file": "outputs/exam-bank-2026-09-26/content/images/2026-09-28-ege-nesmotrya-4.mp4",
+          "sha256": "54b84dcab78aa5319168b6b8b2b47e1d17f132cdf3317af9c4a557690b989bcf",
+          "duration": 6.0,
+          "video": "h264",
+          "audio": "aac",
+          "loudness": {
+            "input_i": "-20.23",
+            "input_tp": "-9.16",
+            "input_lra": "0.20",
+            "input_thresh": "-30.23",
+            "output_i": "-23.90",
+            "output_tp": "-12.72",
+            "output_lra": "0.30",
+            "output_thresh": "-33.90",
+            "normalization_type": "dynamic",
+            "target_offset": "-0.10"
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-09-29-oge-svetaet",
+      "scenes": 5,
+      "media": [
+        {
+          "file": "outputs/exam-bank-2026-09-26/content/reels/2026-09-29-oge-svetaet.mp4",
+          "sha256": "6520a640fc518b78cd1a93684b4e256ac58f8a4066f60cb0f0d87491b4980a45",
+          "duration": 30.0,
+          "video": "h264",
+          "audio": "aac",
+          "loudness": {
+            "input_i": "-20.07",
+            "input_tp": "-6.30",
+            "input_lra": "4.70",
+            "input_thresh": "-30.12",
+            "output_i": "-23.87",
+            "output_tp": "-10.68",
+            "output_lra": "3.40",
+            "output_thresh": "-33.90",
+            "normalization_type": "dynamic",
+            "target_offset": "-0.13"
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-09-30-ege-ne-kto",
+      "scenes": 5,
+      "media": [
+        {
+          "file": "outputs/exam-bank-2026-09-26/content/reels/2026-09-30-ege-ne-kto.mp4",
+          "sha256": "0152e542b334daacba30a6228f167a581bba8c029c756354a1fd3155382ac911",
+          "duration": 30.0,
+          "video": "h264",
+          "audio": "aac",
+          "loudness": {
+            "input_i": "-20.07",
+            "input_tp": "-6.30",
+            "input_lra": "4.70",
+            "input_thresh": "-30.12",
+            "output_i": "-23.87",
+            "output_tp": "-10.68",
+            "output_lra": "3.40",
+            "output_thresh": "-33.90",
+            "normalization_type": "dynamic",
+            "target_offset": "-0.13"
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-10-01-oge-svyaz",
+      "scenes": 4,
+      "media": [
+        {
+          "file": "outputs/exam-bank-2026-09-26/content/images/2026-10-01-oge-svyaz-1.mp4",
+          "sha256": "bf11372249d2f364e21c9233c45900065b5bdf373823fc4f12e4869fa3fe9a77",
+          "duration": 6.0,
+          "video": "h264",
+          "audio": "aac",
+          "loudness": {
+            "input_i": "-20.11",
+            "input_tp": "-6.70",
+            "input_lra": "0.50",
+            "input_thresh": "-30.11",
+            "output_i": "-24.01",
+            "output_tp": "-10.67",
+            "output_lra": "0.40",
+            "output_thresh": "-34.01",
+            "normalization_type": "dynamic",
+            "target_offset": "0.01"
+          }
+        },
+        {
+          "file": "outputs/exam-bank-2026-09-26/content/images/2026-10-01-oge-svyaz-2.mp4",
+          "sha256": "52962755e949d543e7b0fdf363d87fac559e3bc4dfe12499e8b96feb0f4e0925",
+          "duration": 6.0,
+          "video": "h264",
+          "audio": "aac",
+          "loudness": {
+            "input_i": "-21.14",
+            "input_tp": "-7.87",
+            "input_lra": "1.60",
+            "input_thresh": "-31.14",
+            "output_i": "-22.86",
+            "output_tp": "-9.45",
+            "output_lra": "2.00",
+            "output_thresh": "-32.86",
+            "normalization_type": "dynamic",
+            "target_offset": "-1.14"
+          }
+        },
+        {
+          "file": "outputs/exam-bank-2026-09-26/content/images/2026-10-01-oge-svyaz-3.mp4",
+          "sha256": "70f5b3677564c24ea04daa39132b9423e583d1e89227ef6f4d14ce2c38710b35",
+          "duration": 6.0,
+          "video": "h264",
+          "audio": "aac",
+          "loudness": {
+            "input_i": "-18.65",
+            "input_tp": "-7.22",
+            "input_lra": "0.60",
+            "input_thresh": "-28.65",
+            "output_i": "-23.99",
+            "output_tp": "-12.74",
+            "output_lra": "0.90",
+            "output_thresh": "-33.99",
+            "normalization_type": "dynamic",
+            "target_offset": "-0.01"
+          }
+        },
+        {
+          "file": "outputs/exam-bank-2026-09-26/content/images/2026-10-01-oge-svyaz-4.mp4",
+          "sha256": "087d88671cbf7e47fff4e0201de867d360e7f51d11bfcee993dc16aa241ad057",
+          "duration": 6.0,
+          "video": "h264",
+          "audio": "aac",
+          "loudness": {
+            "input_i": "-20.23",
+            "input_tp": "-9.16",
+            "input_lra": "0.20",
+            "input_thresh": "-30.23",
+            "output_i": "-23.90",
+            "output_tp": "-12.72",
+            "output_lra": "0.30",
+            "output_thresh": "-33.90",
+            "normalization_type": "dynamic",
+            "target_offset": "-0.10"
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-10-02-ege-bsp-colon",
+      "scenes": 4,
+      "media": [
+        {
+          "file": "outputs/exam-bank-2026-09-26/content/images/2026-10-02-ege-bsp-colon-1.mp4",
+          "sha256": "b4be8892f20353d5f0a08f090e92cd7e212f1007bf5f1248374984b60cb2be6d",
+          "duration": 6.0,
+          "video": "h264",
+          "audio": "aac",
+          "loudness": {
+            "input_i": "-20.11",
+            "input_tp": "-6.70",
+            "input_lra": "0.50",
+            "input_thresh": "-30.11",
+            "output_i": "-24.01",
+            "output_tp": "-10.67",
+            "output_lra": "0.40",
+            "output_thresh": "-34.01",
+            "normalization_type": "dynamic",
+            "target_offset": "0.01"
+          }
+        },
+        {
+          "file": "outputs/exam-bank-2026-09-26/content/images/2026-10-02-ege-bsp-colon-2.mp4",
+          "sha256": "2f8876f1845445dc067fe52379778c679d992a9b459376e96dc19364f40cf2c5",
+          "duration": 6.0,
+          "video": "h264",
+          "audio": "aac",
+          "loudness": {
+            "input_i": "-21.14",
+            "input_tp": "-7.87",
+            "input_lra": "1.60",
+            "input_thresh": "-31.14",
+            "output_i": "-22.86",
+            "output_tp": "-9.45",
+            "output_lra": "2.00",
+            "output_thresh": "-32.86",
+            "normalization_type": "dynamic",
+            "target_offset": "-1.14"
+          }
+        },
+        {
+          "file": "outputs/exam-bank-2026-09-26/content/images/2026-10-02-ege-bsp-colon-3.mp4",
+          "sha256": "99ce650a06b03bb401f2de29e2e957b558c57fae7928b5541625392092b3e347",
+          "duration": 6.0,
+          "video": "h264",
+          "audio": "aac",
+          "loudness": {
+            "input_i": "-18.65",
+            "input_tp": "-7.22",
+            "input_lra": "0.60",
+            "input_thresh": "-28.65",
+            "output_i": "-23.99",
+            "output_tp": "-12.74",
+            "output_lra": "0.90",
+            "output_thresh": "-33.99",
+            "normalization_type": "dynamic",
+            "target_offset": "-0.01"
+          }
+        },
+        {
+          "file": "outputs/exam-bank-2026-09-26/content/images/2026-10-02-ege-bsp-colon-4.mp4",
+          "sha256": "02bf8cf4253372d4513aac22ae78363ad1821a2ef6399189ae43eeffe45c6f3c",
+          "duration": 6.0,
+          "video": "h264",
+          "audio": "aac",
+          "loudness": {
+            "input_i": "-20.23",
+            "input_tp": "-9.16",
+            "input_lra": "0.20",
+            "input_thresh": "-30.23",
+            "output_i": "-23.90",
+            "output_tp": "-12.72",
+            "output_lra": "0.30",
+            "output_thresh": "-33.90",
+            "normalization_type": "dynamic",
+            "target_offset": "-0.10"
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-10-03-oge-bez-bes",
+      "scenes": 5,
+      "media": [
+        {
+          "file": "outputs/exam-bank-2026-09-26/content/reels/2026-10-03-oge-bez-bes.mp4",
+          "sha256": "8a8f05e6bcc40d82b0582f6e3487899759d9eaf16cf556141c6ac48a8c9e5da6",
+          "duration": 30.0,
+          "video": "h264",
+          "audio": "aac",
+          "loudness": {
+            "input_i": "-20.07",
+            "input_tp": "-6.30",
+            "input_lra": "4.70",
+            "input_thresh": "-30.12",
+            "output_i": "-23.87",
+            "output_tp": "-10.68",
+            "output_lra": "3.40",
+            "output_thresh": "-33.90",
+            "normalization_type": "dynamic",
+            "target_offset": "-0.13"
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-10-04-ege-odnako",
+      "scenes": 5,
+      "media": [
+        {
+          "file": "outputs/exam-bank-2026-09-26/content/reels/2026-10-04-ege-odnako.mp4",
+          "sha256": "e04280633697d83178d5b4de822d04161a03962f61f249f5e7d9be8ce34c605f",
+          "duration": 30.0,
+          "video": "h264",
+          "audio": "aac",
+          "loudness": {
+            "input_i": "-20.07",
+            "input_tp": "-6.30",
+            "input_lra": "4.70",
+            "input_thresh": "-30.12",
+            "output_i": "-23.87",
+            "output_tp": "-10.68",
+            "output_lra": "3.40",
+            "output_thresh": "-33.90",
+            "normalization_type": "dynamic",
+            "target_offset": "-0.13"
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-10-05-oge-szhatie",
+      "scenes": 4,
+      "media": [
+        {
+          "file": "outputs/exam-bank-2026-09-26/content/images/2026-10-05-oge-szhatie-1.mp4",
+          "sha256": "5fc9ae1130f3fb71b7b4ff76fdb526723d38ddef31bf7c8dde8bdaf88af4b17f",
+          "duration": 6.0,
+          "video": "h264",
+          "audio": "aac",
+          "loudness": {
+            "input_i": "-20.11",
+            "input_tp": "-6.70",
+            "input_lra": "0.50",
+            "input_thresh": "-30.11",
+            "output_i": "-24.01",
+            "output_tp": "-10.67",
+            "output_lra": "0.40",
+            "output_thresh": "-34.01",
+            "normalization_type": "dynamic",
+            "target_offset": "0.01"
+          }
+        },
+        {
+          "file": "outputs/exam-bank-2026-09-26/content/images/2026-10-05-oge-szhatie-2.mp4",
+          "sha256": "dba9d40bc8d2a1ffa34fefe72058be939f879cf3965862a665a902e5125cbc59",
+          "duration": 6.0,
+          "video": "h264",
+          "audio": "aac",
+          "loudness": {
+            "input_i": "-21.14",
+            "input_tp": "-7.87",
+            "input_lra": "1.60",
+            "input_thresh": "-31.14",
+            "output_i": "-22.86",
+            "output_tp": "-9.45",
+            "output_lra": "2.00",
+            "output_thresh": "-32.86",
+            "normalization_type": "dynamic",
+            "target_offset": "-1.14"
+          }
+        },
+        {
+          "file": "outputs/exam-bank-2026-09-26/content/images/2026-10-05-oge-szhatie-3.mp4",
+          "sha256": "eca75cf8836fe7dd8674de2cb7380f163ed79dbd57e58caa8ab8f97e2b3d0ad8",
+          "duration": 6.0,
+          "video": "h264",
+          "audio": "aac",
+          "loudness": {
+            "input_i": "-18.65",
+            "input_tp": "-7.22",
+            "input_lra": "0.60",
+            "input_thresh": "-28.65",
+            "output_i": "-23.99",
+            "output_tp": "-12.74",
+            "output_lra": "0.90",
+            "output_thresh": "-33.99",
+            "normalization_type": "dynamic",
+            "target_offset": "-0.01"
+          }
+        },
+        {
+          "file": "outputs/exam-bank-2026-09-26/content/images/2026-10-05-oge-szhatie-4.mp4",
+          "sha256": "8e148eea65c060224afb29cb94c0e01e6d038a60832095895d3fc5d9384a911f",
+          "duration": 6.0,
+          "video": "h264",
+          "audio": "aac",
+          "loudness": {
+            "input_i": "-20.23",
+            "input_tp": "-9.16",
+            "input_lra": "0.20",
+            "input_thresh": "-30.23",
+            "output_i": "-23.90",
+            "output_tp": "-12.72",
+            "output_lra": "0.30",
+            "output_thresh": "-33.90",
+            "normalization_type": "dynamic",
+            "target_offset": "-0.10"
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-10-06-ege-po-pribytii",
+      "scenes": 5,
+      "media": [
+        {
+          "file": "outputs/exam-bank-2026-09-26/content/reels/2026-10-06-ege-po-pribytii.mp4",
+          "sha256": "e7cce8c4c28045511deec6611a48185e13eaf2c419a82eeb19b42a0e598aff35",
+          "duration": 30.0,
+          "video": "h264",
+          "audio": "aac",
+          "loudness": {
+            "input_i": "-20.07",
+            "input_tp": "-6.30",
+            "input_lra": "4.70",
+            "input_thresh": "-30.12",
+            "output_i": "-23.87",
+            "output_tp": "-10.68",
+            "output_lra": "3.40",
+            "output_thresh": "-33.90",
+            "normalization_type": "dynamic",
+            "target_offset": "-0.13"
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-10-07-oge-argument",
+      "scenes": 4,
+      "media": [
+        {
+          "file": "outputs/exam-bank-2026-09-26/content/images/2026-10-07-oge-argument-1.mp4",
+          "sha256": "25d520edf56e2f6a6ecd3401c8dfe3c7bb1059e4bd2689782c63e1ec299d1620",
+          "duration": 6.0,
+          "video": "h264",
+          "audio": "aac",
+          "loudness": {
+            "input_i": "-20.11",
+            "input_tp": "-6.70",
+            "input_lra": "0.50",
+            "input_thresh": "-30.11",
+            "output_i": "-24.01",
+            "output_tp": "-10.67",
+            "output_lra": "0.40",
+            "output_thresh": "-34.01",
+            "normalization_type": "dynamic",
+            "target_offset": "0.01"
+          }
+        },
+        {
+          "file": "outputs/exam-bank-2026-09-26/content/images/2026-10-07-oge-argument-2.mp4",
+          "sha256": "6a61645ae08e480655f07bce2293396f8c3cc865340b0c5ef8a127f94101e0d2",
+          "duration": 6.0,
+          "video": "h264",
+          "audio": "aac",
+          "loudness": {
+            "input_i": "-21.14",
+            "input_tp": "-7.87",
+            "input_lra": "1.60",
+            "input_thresh": "-31.14",
+            "output_i": "-22.86",
+            "output_tp": "-9.45",
+            "output_lra": "2.00",
+            "output_thresh": "-32.86",
+            "normalization_type": "dynamic",
+            "target_offset": "-1.14"
+          }
+        },
+        {
+          "file": "outputs/exam-bank-2026-09-26/content/images/2026-10-07-oge-argument-3.mp4",
+          "sha256": "ae3ed3415e75f958d151e8514842986854c33c1364b05faf3c5cbc8eb6ea86f5",
+          "duration": 6.0,
+          "video": "h264",
+          "audio": "aac",
+          "loudness": {
+            "input_i": "-18.65",
+            "input_tp": "-7.22",
+            "input_lra": "0.60",
+            "input_thresh": "-28.65",
+            "output_i": "-23.99",
+            "output_tp": "-12.74",
+            "output_lra": "0.90",
+            "output_thresh": "-33.99",
+            "normalization_type": "dynamic",
+            "target_offset": "-0.01"
+          }
+        },
+        {
+          "file": "outputs/exam-bank-2026-09-26/content/images/2026-10-07-oge-argument-4.mp4",
+          "sha256": "d9bfc3ea740eecd14b55fe017975fe5dc771228fd2052c03d1a6d2a429f0ca4b",
+          "duration": 6.0,
+          "video": "h264",
+          "audio": "aac",
+          "loudness": {
+            "input_i": "-20.23",
+            "input_tp": "-9.16",
+            "input_lra": "0.20",
+            "input_thresh": "-30.23",
+            "output_i": "-23.90",
+            "output_tp": "-12.72",
+            "output_lra": "0.30",
+            "output_thresh": "-33.90",
+            "normalization_type": "dynamic",
+            "target_offset": "-0.10"
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-10-08-ege-direct-speech",
+      "scenes": 4,
+      "media": [
+        {
+          "file": "outputs/exam-bank-2026-09-26/content/images/2026-10-08-ege-direct-speech-1.mp4",
+          "sha256": "a30b7c5243cb5c8aeafaa6def3674a3bfd36c4bc7a3d27a8b120b102836442f2",
+          "duration": 6.0,
+          "video": "h264",
+          "audio": "aac",
+          "loudness": {
+            "input_i": "-20.11",
+            "input_tp": "-6.70",
+            "input_lra": "0.50",
+            "input_thresh": "-30.11",
+            "output_i": "-24.01",
+            "output_tp": "-10.67",
+            "output_lra": "0.40",
+            "output_thresh": "-34.01",
+            "normalization_type": "dynamic",
+            "target_offset": "0.01"
+          }
+        },
+        {
+          "file": "outputs/exam-bank-2026-09-26/content/images/2026-10-08-ege-direct-speech-2.mp4",
+          "sha256": "e02360a77cbeefb0a8dc1901d9a902ddbf4f76a72045e9944390e34aa0b1aa66",
+          "duration": 6.0,
+          "video": "h264",
+          "audio": "aac",
+          "loudness": {
+            "input_i": "-21.14",
+            "input_tp": "-7.87",
+            "input_lra": "1.60",
+            "input_thresh": "-31.14",
+            "output_i": "-22.86",
+            "output_tp": "-9.45",
+            "output_lra": "2.00",
+            "output_thresh": "-32.86",
+            "normalization_type": "dynamic",
+            "target_offset": "-1.14"
+          }
+        },
+        {
+          "file": "outputs/exam-bank-2026-09-26/content/images/2026-10-08-ege-direct-speech-3.mp4",
+          "sha256": "bd575b4cf0f21f6fde178db7e7b63205ff663c09581b11f5cb5712783554043e",
+          "duration": 6.0,
+          "video": "h264",
+          "audio": "aac",
+          "loudness": {
+            "input_i": "-18.65",
+            "input_tp": "-7.22",
+            "input_lra": "0.60",
+            "input_thresh": "-28.65",
+            "output_i": "-23.99",
+            "output_tp": "-12.74",
+            "output_lra": "0.90",
+            "output_thresh": "-33.99",
+            "normalization_type": "dynamic",
+            "target_offset": "-0.01"
+          }
+        },
+        {
+          "file": "outputs/exam-bank-2026-09-26/content/images/2026-10-08-ege-direct-speech-4.mp4",
+          "sha256": "ed785c940cf769cdf51f316c86c7365a90a34a03dbb4bd348cb2b0706640ad2c",
+          "duration": 6.0,
+          "video": "h264",
+          "audio": "aac",
+          "loudness": {
+            "input_i": "-20.23",
+            "input_tp": "-9.16",
+            "input_lra": "0.20",
+            "input_thresh": "-30.23",
+            "output_i": "-23.90",
+            "output_tp": "-12.72",
+            "output_lra": "0.30",
+            "output_thresh": "-33.90",
+            "normalization_type": "dynamic",
+            "target_offset": "-0.10"
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-10-09-oge-dvoetochie",
+      "scenes": 5,
+      "media": [
+        {
+          "file": "outputs/exam-bank-2026-09-26/content/reels/2026-10-09-oge-dvoetochie.mp4",
+          "sha256": "e89630fec05ef67f4199776172a7425fd5331f2a0fa22bccd6258be07f7ab0ac",
+          "duration": 30.0,
+          "video": "h264",
+          "audio": "aac",
+          "loudness": {
+            "input_i": "-20.07",
+            "input_tp": "-6.30",
+            "input_lra": "4.70",
+            "input_thresh": "-30.12",
+            "output_i": "-23.87",
+            "output_tp": "-10.68",
+            "output_lra": "3.40",
+            "output_thresh": "-33.90",
+            "normalization_type": "dynamic",
+            "target_offset": "-0.13"
+          }
+        }
+      ]
+    }
+  ],
+  "instagramPublicationPerformed": false
+}

@@ -1,0 +1,54 @@
+{
+  "renderer": "offline Pillow + FFmpeg; not Remotion export",
+  "pillowVersion": "12.3.0",
+  "file": "images/2026-10-08-ege-direct-speech-3.mp4",
+  "sha256": "bd575b4cf0f21f6fde178db7e7b63205ff663c09581b11f5cb5712783554043e",
+  "bytes": 2304341,
+  "width": 1080,
+  "height": 1350,
+  "fps": 30,
+  "duration": 6,
+  "audioCodec": "aac",
+  "audioSource": "content/music/bach-goldberg-var1-ishizaka.mp3",
+  "audioSha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8",
+  "audioStartSeconds": 12,
+  "volume": 0.75,
+  "audioFadeInSeconds": 0.1,
+  "audioFadeOutSeconds": 0.5,
+  "photoSource": "assets/photos/exam-v1/ege-direct-speech.png",
+  "photoSha256": "56ac2ac8af7f704d6ed3a9bd5bd765a9eddab9a7c88bc69f7b566fd5754d80ed",
+  "fontWeight": 600,
+  "fallbackFont": "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
+  "fallbackFontSha256": "d72db21f9242aedd6b917d8549ad5921766b24d5f8d0becfda2ff4c620b3c2e0",
+  "configSha256": "8f29636b7fd3a488a7b3fba13aac8b947731ebf2a73d5643db791025fb1f4f75",
+  "layouts": [
+    {
+      "index": 2,
+      "height": 1350,
+      "top": 110,
+      "bodyTop": 252.0,
+      "textEnd": 509.28000000000003,
+      "safeEnd": 1220,
+      "creditTop": 1100,
+      "last": false,
+      "title": {
+        "lines": [
+          "ВОПРОС"
+        ],
+        "size": 100,
+        "family": "display"
+      },
+      "body": {
+        "lines": [
+          "«Ты вернёшься?» — спросил он.",
+          "Вопросительный знак внутри",
+          "кавычек. Перед тире",
+          "дополнительной запятой нет."
+        ],
+        "size": 48,
+        "family": "sans"
+      }
+    }
+  ],
+  "elapsedSeconds": 11.14
+}

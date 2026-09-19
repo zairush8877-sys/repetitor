@@ -29,6 +29,7 @@ const { chromium } = require('playwright');
 const ffmpeg = require('ffmpeg-static');
 const FONTS = require('./fonts');
 const LIGHT = require('./light-style');
+const STORY_MEDIA = require('./stories-prepared');
 
 const BANK = path.join(__dirname, 'content', 'stories.json');
 const OUT = path.join(__dirname, 'content', 'stories');
@@ -258,8 +259,8 @@ function framesFor(s) {
   const selected = choosePhoto(s.id);
   const frames = legacyFramesFor(s, PALETTES[0]);
   const credit = track?.attributionRequired
-    ? `${track.piece} · Kevin MacLeod / incompetech.com<br>CC BY 4.0 · creativecommons.org/licenses/by/4.0/<br>Фрагмент обрезан и сведён с видео`
-    : track ? `${esc(track.composer)} — ${esc(track.piece)}` : '';
+    ? esc(track.attribution || `${track.composer} — ${track.piece}. ${track.performer || track.author || ''}. ${track.license || ''}.`)
+    : track ? `${esc(track.composer)} — ${esc(track.piece)}${track.performer ? `<br>${esc(track.performer)}` : ''}` : '';
   return frames.map(html => html.replace('</style>', `
     body{background:#fcfbf7!important;color:#253b36!important;padding:300px 72px 660px!important}
     .card{background:none!important;box-shadow:none!important;padding:0!important}
@@ -292,6 +293,12 @@ if (require.main === module) (async () => {
     return;
   }
 
+  if (targets.some(story => story.status === 'published' || story.publishedMediaIds?.some(Boolean) || story.delivery?.parts?.some(part => ['publishing', 'unknown', 'published'].includes(part?.state)))) {
+    throw new Error('Нельзя пересобирать опубликованные или начатые комплекты Stories: сначала сверить состояние отправки.');
+  }
+  // A failed/preview-only rebuild must not leave an old valid-looking manifest.
+  for (const story of targets) STORY_MEDIA.invalidate(story);
+
   fs.mkdirSync(OUT, { recursive: true });
   const preinstalled = '/opt/pw-browsers/chromium';
   const browser = await chromium.launch(
@@ -314,6 +321,7 @@ if (require.main === module) (async () => {
   if (!process.argv.includes('--no-video')) {
     for (const s of targets) {
       const { track, total } = buildVideo(s.id);
+      STORY_MEDIA.writeManifest(s, { music: track, photo: choosePhoto(s.id) });
       console.log(`${s.id}: видео ${total.toFixed(1)} сек — ${track ? track.title : 'без музыки'}`);
     }
   }

@@ -1,0 +1,191 @@
+{
+  "assets": [
+    {
+      "slug": "ege-deeprichastie",
+      "file": "assets/photos/exam-v1/ege-deeprichastie.png",
+      "source": "exec-8117c8ac-6f3c-4bba-918b-18380006c2d3.png",
+      "tool": "built-in image_gen",
+      "generatedIllustration": true,
+      "photoBrief": "Открытая книга на деревянной полке, рядом мягкий свет окна, одна книга слегка выдвинута; без рук. Яркая резкая фотореалистичная сцена, естественный дневной свет, вертикальная композиция. Верхняя половина спокойная светлая для чёрного текста. Без букв, логотипов, рамок, карточек и линий. Не изображать Анну или её учеников.",
+      "promptStatus": "Original creative brief retained; exact expanded prompt belongs to prior tool session",
+      "sha256": "3b2764b0ad2e435559b4044082aa0519e8118399cd6d47a513d5cd12f538f95f",
+      "dimensions": [
+        941,
+        1672
+      ]
+    },
+    {
+      "slug": "ege-ne-kto",
+      "file": "assets/photos/exam-v1/ege-ne-kto.png",
+      "source": "exec-d24976b8-04db-4c5c-a97d-8d4b8cfdd0e2.png",
+      "tool": "built-in image_gen",
+      "generatedIllustration": true,
+      "photoBrief": "Яркий спортивный свисток и компас на светлой скамейке у стадиона, размытый зелёный газон снизу. Яркая резкая фотореалистичная сцена, естественный дневной свет, вертикальная композиция. Верхняя половина спокойная светлая для чёрного текста. Без букв, логотипов, рамок, карточек и линий. Не изображать Анну или её учеников.",
+      "promptStatus": "Original creative brief retained; exact expanded prompt belongs to prior tool session",
+      "sha256": "b03278dde83632ed3564de3e3faca7ecda73bdad66bab633540acc8193a1df20",
+      "dimensions": [
+        941,
+        1672
+      ]
+    },
+    {
+      "slug": "ege-odnako",
+      "file": "assets/photos/exam-v1/ege-odnako.png",
+      "source": "exec-9c9bb15b-1cb3-4ce8-8a10-32a454f05ed8.png",
+      "tool": "built-in image_gen",
+      "generatedIllustration": true,
+      "photoBrief": "Светлая железнодорожная платформа с небольшим дорожным чемоданом внизу, поезд вдалеке без читаемых обозначений. Яркая резкая фотореалистичная сцена, естественный дневной свет, вертикальная композиция. Верхняя половина спокойная светлая для чёрного текста. Без букв, логотипов, рамок, карточек и линий. Не изображать Анну или её учеников.",
+      "promptStatus": "Original creative brief retained; exact expanded prompt belongs to prior tool session",
+      "sha256": "4fa8b9a62acaab61768c1269346f6d6b916f990bba4499c80fbd7e4ab055a075",
+      "dimensions": [
+        941,
+        1672
+      ]
+    },
+    {
+      "slug": "ege-po-pribytii",
+      "file": "assets/photos/exam-v1/ege-po-pribytii.png",
+      "source": "exec-97f4972e-c5e9-47cb-8326-bd83bd17e244.png",
+      "tool": "built-in image_gen",
+      "generatedIllustration": true,
+      "photoBrief": "Бирюзовый чемодан и небольшой выключенный телефон на светлой деревянной поверхности у окна, без надписей. Яркая резкая фотореалистичная сцена, естественный дневной свет, вертикальная композиция. Верхняя половина спокойная светлая для чёрного текста. Без букв, логотипов, рамок, карточек и линий. Не изображать Анну или её учеников.",
+      "promptStatus": "Original creative brief retained; exact expanded prompt belongs to prior tool session",
+      "sha256": "2be345499ea2694677bd239e0bd4722d45ba6d66dcf42ebadc3498f3a51bbb0d",
+      "dimensions": [
+        941,
+        1672
+      ]
+    },
+    {
+      "slug": "ege-nesmotrya",
+      "file": "assets/photos/exam-v1/ege-nesmotrya.png",
+      "source": "exec-412a8bd7-ca03-4ae7-b0c6-6dafaee57534.png",
+      "tool": "built-in image_gen",
+      "generatedIllustration": true,
+      "photoBrief": "Закрытый серебристый ноутбук, чашка и лимон на ярком светлом столе; экран и клавиатура не видны. Яркая резкая фотореалистичная сцена, естественный дневной свет, вертикальная композиция. Верхняя половина спокойная светлая для чёрного текста. Без букв, логотипов, рамок, карточек и линий. Не изображать Анну или её учеников.",
+      "promptStatus": "Original creative brief retained; exact expanded prompt belongs to prior tool session",
+      "sha256": "4b8df101129bb6f57b0d76f9131076c814bc8a5fd20667e9d39d3ae763936802",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "slug": "ege-bsp-colon",
+      "prompt": "Use case: photorealistic-natural. Asset type: full-bleed educational Instagram background. Create a vivid, sharp natural photographic illustration. Subject: Яркий жёлтый дождевик на крючке рядом с окном, на нижней части стекла капли дождя, светлая чистая стена сверху. Яркая резкая фотореалистичная сцена, естественный дневной свет, вертикальная композиция. Верхняя половина спокойная светлая для чёрного текста. Без букв, логотипов, рамок, карточек и линий. Не изображать Анну или её учеников. Composition: portrait 4:5, main objects in lower half, upper 45% clean quiet sky or wall with space for readable typeset text later. Saturated but believable colors, beautiful sunlight, natural textures. No writing, labels, letters, logos, overlays, borders or watermarks. Fictional scene, not a real teacher or real students.",
+      "source": "exec-cd3938af-f3e8-41d4-9778-c4da4aad925f.png",
+      "file": "assets/photos/exam-v1/ege-bsp-colon.png",
+      "tool": "built-in image_gen",
+      "generatedIllustration": true,
+      "sha256": "677e17b684328967059623dc2c5636f633697fde1fef36452b4928c4cd39431a",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "slug": "ege-direct-speech",
+      "prompt": "Use case: photorealistic-natural. Asset type: full-bleed educational Instagram background. Create a vivid, sharp natural photographic illustration. Subject: Две керамические чашки на небольшом круглом столике у светлого окна, одна коралловая другая синяя, без людей. Яркая резкая фотореалистичная сцена, естественный дневной свет, вертикальная композиция. Верхняя половина спокойная светлая для чёрного текста. Без букв, логотипов, рамок, карточек и линий. Не изображать Анну или её учеников. Composition: portrait 4:5, main objects in lower half, upper 45% clean quiet sky or wall with space for readable typeset text later. Saturated but believable colors, beautiful sunlight, natural textures. No writing, labels, letters, logos, overlays, borders or watermarks. Fictional scene, not a real teacher or real students.",
+      "source": "exec-c872507c-9d8e-4f58-8653-8dc6485e916b.png",
+      "file": "assets/photos/exam-v1/ege-direct-speech.png",
+      "tool": "built-in image_gen",
+      "generatedIllustration": true,
+      "sha256": "56ac2ac8af7f704d6ed3a9bd5bd765a9eddab9a7c88bc69f7b566fd5754d80ed",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "slug": "oge-kazhetsya",
+      "prompt": "Use case: photorealistic-natural. Asset type: full-bleed educational Instagram background. Create a vivid, sharp natural photographic illustration. Subject: Новая яркая фотореалистичная иллюстрация: крупный пушистый рыжий кот с полузакрытыми глазами на насыщенно-голубом диване, естественный солнечный свет, чёткая фактура шерсти, выразительная морда, лёгкая улыбка ситуации. Вертикальный кадр во весь экран; спокойная зона для текста. Без букв, логотипов, линий, бумажных плашек. Не представлять как личное фото Анны. Composition: portrait 9:16, main objects in lower half, upper 45% clean quiet sky or wall with space for readable typeset text later. Saturated but believable colors, beautiful sunlight, natural textures. No writing, labels, letters, logos, overlays, borders or watermarks. Fictional scene, not a real teacher or real students.",
+      "source": "exec-d8303f14-1f8d-4903-9c74-7cadd15a543d.png",
+      "file": "assets/photos/exam-v1/oge-kazhetsya.png",
+      "tool": "built-in image_gen",
+      "generatedIllustration": true,
+      "sha256": "90ed624db763496aa51815a8a0a132d43abcb23a549a16e005078d07a23281a1",
+      "dimensions": [
+        941,
+        1672
+      ]
+    },
+    {
+      "slug": "oge-svetaet",
+      "prompt": "Use case: photorealistic-natural. Asset type: full-bleed educational Instagram background. Create a vivid, sharp natural photographic illustration. Subject: Новая яркая фотореалистичная иллюстрация: сияющий золотистый рассвет над разноцветными городскими крышами через большое распахнутое окно, чистое голубое небо и солнечные блики, резкие детали, ощущение начала дня. Вертикальный кадр во весь экран, без людей и букв, без логотипов, линий и плашек. Не изображать конкретный адрес или реальный дом автора. Composition: portrait 9:16, main objects in lower half, upper 45% clean quiet sky or wall with space for readable typeset text later. Saturated but believable colors, beautiful sunlight, natural textures. No writing, labels, letters, logos, overlays, borders or watermarks. Fictional scene, not a real teacher or real students.",
+      "source": "exec-35e87cd4-dd49-4006-a903-7f15e6ce04f6.png",
+      "file": "assets/photos/exam-v1/oge-svetaet.png",
+      "tool": "built-in image_gen",
+      "generatedIllustration": true,
+      "sha256": "173e8b35f967210233669e046acf42f9637540f46c8cde9ed6c6fd70628e2f01",
+      "dimensions": [
+        941,
+        1672
+      ]
+    },
+    {
+      "slug": "oge-svyaz",
+      "prompt": "Use case: photorealistic-natural. Asset type: full-bleed educational Instagram background. Create a vivid, sharp natural photographic illustration. Subject: Новая яркая фотореалистичная иллюстрация: большой оранжевый шерстяной шарф с выразительной чёткой вязкой и мягкими складками, дневной свет, контрастный чистый бирюзовый фон или голубая скамья. Предмет занимает большую часть вертикального кадра. Без этикеток, букв, людей, бумажных блоков и декоративных линий. Composition: portrait 4:5, main objects in lower half, upper 45% clean quiet sky or wall with space for readable typeset text later. Saturated but believable colors, beautiful sunlight, natural textures. No writing, labels, letters, logos, overlays, borders or watermarks. Fictional scene, not a real teacher or real students.",
+      "source": "exec-b7e799f2-c2bd-428f-810d-d55e821fad2b.png",
+      "file": "assets/photos/exam-v1/oge-svyaz.png",
+      "tool": "built-in image_gen",
+      "generatedIllustration": true,
+      "sha256": "8bcac78742616cb96cc56b0fe21383ffa1aa5a3185a47c1cff818ec3899e08ca",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "slug": "oge-bez-bes",
+      "prompt": "Use case: photorealistic-natural. Asset type: full-bleed educational Instagram background. Create a vivid, sharp natural photographic illustration. Subject: Новая яркая фотореалистичная иллюстрация: качественные жёлтые полноразмерные наушники крупным планом на насыщенном бирюзовом фоне, боковой солнечный свет, резкие детали и красивый изгиб оголовья. Вертикальный кадр во весь экран. Без брендов, букв, бумажных блоков, декоративных линий и музыкальной символики, похожей на логотип. Composition: portrait 9:16, main objects in lower half, upper 45% clean quiet sky or wall with space for readable typeset text later. Saturated but believable colors, beautiful sunlight, natural textures. No writing, labels, letters, logos, overlays, borders or watermarks. Fictional scene, not a real teacher or real students.",
+      "source": "exec-15ae31c8-4f69-4661-8bff-728aa4d81a13.png",
+      "file": "assets/photos/exam-v1/oge-bez-bes.png",
+      "tool": "built-in image_gen",
+      "generatedIllustration": true,
+      "sha256": "7effe97c6d34025b20313f44f18ecfddc23eee5d47a7741cfae739eb6e98ae83",
+      "dimensions": [
+        941,
+        1672
+      ]
+    },
+    {
+      "slug": "oge-szhatie",
+      "prompt": "Use case: photorealistic-natural. Asset type: full-bleed educational Instagram background. Create a vivid, sharp natural photographic illustration. Subject: Новая яркая фотореалистичная иллюстрация: сочные красные яблоки, зелёные груши и фиолетовые сливы в открытой льняной сумке на солнечном рынке, аппетитные чёткие фактуры, насыщенные естественные цвета. Вертикальный кадр во весь экран; без ценников, этикеток, любых букв и людей. Никаких бумажных слайдов или декоративных линий. Composition: portrait 4:5, main objects in lower half, upper 45% clean quiet sky or wall with space for readable typeset text later. Saturated but believable colors, beautiful sunlight, natural textures. No writing, labels, letters, logos, overlays, borders or watermarks. Fictional scene, not a real teacher or real students.",
+      "source": "exec-afcf977f-ad5b-4e8c-af4c-298a247e8f0d.png",
+      "file": "assets/photos/exam-v1/oge-szhatie.png",
+      "tool": "built-in image_gen",
+      "generatedIllustration": true,
+      "sha256": "f7e436c51eeb3ac8bbb97a72e964335b1691ff3a92c893f4acc8f7b140db7047",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "slug": "oge-argument",
+      "prompt": "Use case: photorealistic-natural. Asset type: full-bleed educational Instagram background. Create a vivid, sharp natural photographic illustration. Subject: Новая яркая фотореалистичная постановочная иллюстрация: две взрослые руки, одна бережно передаёт другой ярко-красный закрытый зонт, солнечный двор после лёгкого дождя, капли в контровом свете, свежая зелень, чёткие естественные детали. Вертикальный кадр во весь экран, без лиц, букв и логотипов. Не выдавать сцену за реальное событие или учениц Анны. Composition: portrait 4:5, main objects in lower half, upper 45% clean quiet sky or wall with space for readable typeset text later. Saturated but believable colors, beautiful sunlight, natural textures. No writing, labels, letters, logos, overlays, borders or watermarks. Fictional scene, not a real teacher or real students.",
+      "source": "exec-4702611b-9953-4da8-8f29-8f86e2700fa1.png",
+      "file": "assets/photos/exam-v1/oge-argument.png",
+      "tool": "built-in image_gen",
+      "generatedIllustration": true,
+      "sha256": "4b340c989a2c47b46f2dafcc66ae537e59f73a48423d8956775efd3b3d52ab21",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "slug": "oge-dvoetochie",
+      "prompt": "Use case: photorealistic-natural. Asset type: full-bleed educational Instagram background. Create a vivid, sharp natural photographic illustration. Subject: Новая яркая фотореалистичная иллюстрация: раскрытый насыщенно-синий туристический рюкзак, рядом яркая эмалированная кружка, небольшой оранжевый фонарь и сложенная географическая карта без читаемых букв, солнечная зелёная поляна, чёткие предметные детали. Вертикальный кадр во весь экран, все три названных предмета хорошо различимы. Без людей, брендов, текста, декоративных линий и бумажных плашек. Composition: portrait 9:16, main objects in lower half, upper 45% clean quiet sky or wall with space for readable typeset text later. Saturated but believable colors, beautiful sunlight, natural textures. No writing, labels, letters, logos, overlays, borders or watermarks. Fictional scene, not a real teacher or real students.",
+      "source": "exec-424432cc-57d8-463a-9338-2b3acda2e703.png",
+      "file": "assets/photos/exam-v1/oge-dvoetochie.png",
+      "tool": "built-in image_gen",
+      "generatedIllustration": true,
+      "sha256": "d912ad8447bf32f12d29114e1715fe5f12c61d135e24c57cd1e6a4620b7d4502",
+      "dimensions": [
+        941,
+        1672
+      ]
+    }
+  ]
+}

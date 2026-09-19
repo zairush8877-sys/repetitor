@@ -1,0 +1,23 @@
+{
+  "gallery": "index.html",
+  "htmlSha256": "e2c4d7362d1542959513773ea1be2e68a1ec533869439088aa7ded5c4f15b954",
+  "result": "pass",
+  "method": "Python HTMLParser + file URI relative-path resolution; no HTTP server or browser runtime",
+  "counts": {
+    "filters": 5,
+    "posts": 14,
+    "videos": 60,
+    "repostFrames": 32,
+    "standaloneSections": 14,
+    "standaloneParts": 28,
+    "carousels": 6
+  },
+  "all124AssetsPresent": true,
+  "localReferencesChecked": 152,
+  "uniqueDOMIds": true,
+  "remoteMedia": false,
+  "autoplay": false,
+  "allVideosHaveControls": true,
+  "perPostMediaOrder": "matches gallery manifest",
+  "visualBrowserReview": "not performed"
+}

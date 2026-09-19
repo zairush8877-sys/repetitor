@@ -1,0 +1,156 @@
+{
+  "renderer": "offline Pillow + FFmpeg; not Remotion export",
+  "pillowVersion": "12.3.0",
+  "file": "reels/2026-10-03-oge-bez-bes.mp4",
+  "sha256": "8a8f05e6bcc40d82b0582f6e3487899759d9eaf16cf556141c6ac48a8c9e5da6",
+  "bytes": 10566824,
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "duration": 30,
+  "audioCodec": "aac",
+  "audioSource": "content/music/bach-goldberg-var1-ishizaka.mp3",
+  "audioSha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8",
+  "audioStartSeconds": 0,
+  "volume": 0.75,
+  "audioFadeInSeconds": 0.1,
+  "audioFadeOutSeconds": 0.5,
+  "photoSource": "assets/photos/exam-v1/oge-bez-bes.png",
+  "photoSha256": "7effe97c6d34025b20313f44f18ecfddc23eee5d47a7741cfae739eb6e98ae83",
+  "fontWeight": 600,
+  "fallbackFont": "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
+  "fallbackFontSha256": "d72db21f9242aedd6b917d8549ad5921766b24d5f8d0becfda2ff4c620b3c2e0",
+  "configSha256": "8f29636b7fd3a488a7b3fba13aac8b947731ebf2a73d5643db791025fb1f4f75",
+  "layouts": [
+    {
+      "index": 0,
+      "height": 1920,
+      "top": 310,
+      "bodyTop": 609.84,
+      "textEnd": 749.2,
+      "safeEnd": 1630,
+      "creditTop": 1450,
+      "last": false,
+      "title": {
+        "lines": [
+          "Тихо. А приставки",
+          "разные."
+        ],
+        "size": 116,
+        "family": "display"
+      },
+      "body": {
+        "lines": [
+          "Беззвучный режим.",
+          "Бесшумный шаг."
+        ],
+        "size": 52,
+        "family": "sans"
+      }
+    },
+    {
+      "index": 1,
+      "height": 1920,
+      "top": 310,
+      "bodyTop": 479.92,
+      "textEnd": 688.96,
+      "safeEnd": 1630,
+      "creditTop": 1450,
+      "last": false,
+      "title": {
+        "lines": [
+          "Беззвучный"
+        ],
+        "size": 116,
+        "family": "display"
+      },
+      "body": {
+        "lines": [
+          "После приставки — з.",
+          "Это буква звонкого согласного.",
+          "Пишем без-."
+        ],
+        "size": 52,
+        "family": "sans"
+      }
+    },
+    {
+      "index": 2,
+      "height": 1920,
+      "top": 310,
+      "bodyTop": 479.92,
+      "textEnd": 688.96,
+      "safeEnd": 1630,
+      "creditTop": 1450,
+      "last": false,
+      "title": {
+        "lines": [
+          "Бесшумный"
+        ],
+        "size": 116,
+        "family": "display"
+      },
+      "body": {
+        "lines": [
+          "После приставки — ш.",
+          "Это буква глухого согласного.",
+          "Пишем бес-."
+        ],
+        "size": 52,
+        "family": "sans"
+      }
+    },
+    {
+      "index": 3,
+      "height": 1920,
+      "top": 310,
+      "bodyTop": 479.92,
+      "textEnd": 619.28,
+      "safeEnd": 1630,
+      "creditTop": 1450,
+      "last": false,
+      "title": {
+        "lines": [
+          "Безоблачный"
+        ],
+        "size": 116,
+        "family": "display"
+      },
+      "body": {
+        "lines": [
+          "После приставки — гласная о.",
+          "Здесь тоже без-."
+        ],
+        "size": 52,
+        "family": "sans"
+      }
+    },
+    {
+      "index": 4,
+      "height": 1920,
+      "top": 310,
+      "bodyTop": 479.92,
+      "textEnd": 688.96,
+      "safeEnd": 1415,
+      "creditTop": 1450,
+      "last": true,
+      "title": {
+        "lines": [
+          "Без- или бес-"
+        ],
+        "size": 116,
+        "family": "display"
+      },
+      "body": {
+        "lines": [
+          "Беззвучный: з перед з.",
+          "Бесшумный: с перед ш.",
+          "Безоблачный: з перед о."
+        ],
+        "size": 52,
+        "family": "sans"
+      }
+    }
+  ],
+  "elapsedSeconds": 82.21
+}

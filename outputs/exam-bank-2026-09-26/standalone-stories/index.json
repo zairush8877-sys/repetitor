@@ -1,0 +1,1738 @@
+{
+  "version": 1,
+  "purpose": "Isolated ready question/answer Stories; publication not authorized",
+  "status": "pending",
+  "publicationPerformed": false,
+  "liveQueueChanged": false,
+  "sourceMp4Count": 32,
+  "stories": [
+    {
+      "id": "2026-09-26-ege-deeprichastie-standalone",
+      "sourcePostId": "2026-09-26-ege-deeprichastie",
+      "exam": "ЕГЭ",
+      "title": "Книга прочитала себя?",
+      "status": "pending",
+      "proposedDate": "2026-09-26",
+      "kind": "question_answer",
+      "configSha256": "8f29636b7fd3a488a7b3fba13aac8b947731ebf2a73d5643db791025fb1f4f75",
+      "musicSource": "content/music/bach-goldberg-var1-ishizaka.mp3",
+      "musicSha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8",
+      "creditInFinalAnswerScene": true,
+      "parts": [
+        {
+          "index": 1,
+          "role": "question",
+          "file": "2026-09-26-ege-deeprichastie-1.mp4",
+          "sha256": "5202d8d44246ead7d6475785b814f1bb0ae159a4595ee55946c170e01d6425ed",
+          "bytes": 1825636,
+          "width": 1080,
+          "height": 1920,
+          "fps": 30,
+          "frames": 180,
+          "duration": 6.0,
+          "videoCodec": "h264",
+          "audioCodec": "aac",
+          "sceneIndices": [
+            1
+          ],
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "cropped": false
+          },
+          "decodedFrames": [
+            "qa/2026-09-26-ege-deeprichastie-scene-1.jpg"
+          ],
+          "sourceFiles": [
+            {
+              "file": "outputs/exam-bank-2026-09-26/content/reels/2026-09-26-ege-deeprichastie.mp4",
+              "sha256": "d12a4bd512a836e6e06a9081c145e0ba9df58ace48f7d581ce5ba3a3da606c8c",
+              "width": 1080,
+              "height": 1920,
+              "fps": 30,
+              "frames": 900,
+              "duration": 30.0,
+              "videoCodec": "h264",
+              "audioCodec": "aac"
+            }
+          ],
+          "audioStartSeconds": 0,
+          "edgeFadeSeconds": {
+            "in": 0.04,
+            "out": 0.12
+          },
+          "musicMode": "preserved Reels audio"
+        },
+        {
+          "index": 2,
+          "role": "answer",
+          "file": "2026-09-26-ege-deeprichastie-2.mp4",
+          "sha256": "dafeab851e2f9c55ff65cf77f81fac9cea87423a8ca9bf0fe018bf494846b2c7",
+          "bytes": 7563633,
+          "width": 1080,
+          "height": 1920,
+          "fps": 30,
+          "frames": 720,
+          "duration": 24.0,
+          "videoCodec": "h264",
+          "audioCodec": "aac",
+          "sceneIndices": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "cropped": false
+          },
+          "decodedFrames": [
+            "qa/2026-09-26-ege-deeprichastie-scene-2.jpg",
+            "qa/2026-09-26-ege-deeprichastie-scene-3.jpg",
+            "qa/2026-09-26-ege-deeprichastie-scene-4.jpg",
+            "qa/2026-09-26-ege-deeprichastie-scene-5.jpg"
+          ],
+          "sourceFiles": [
+            {
+              "file": "outputs/exam-bank-2026-09-26/content/reels/2026-09-26-ege-deeprichastie.mp4",
+              "sha256": "d12a4bd512a836e6e06a9081c145e0ba9df58ace48f7d581ce5ba3a3da606c8c",
+              "width": 1080,
+              "height": 1920,
+              "fps": 30,
+              "frames": 900,
+              "duration": 30.0,
+              "videoCodec": "h264",
+              "audioCodec": "aac"
+            }
+          ],
+          "audioStartSeconds": 6,
+          "edgeFadeSeconds": {
+            "in": 0.04,
+            "out": 0.12
+          },
+          "musicMode": "preserved Reels audio"
+        }
+      ],
+      "elapsedSeconds": 14.7
+    },
+    {
+      "id": "2026-09-27-oge-kazhetsya-standalone",
+      "sourcePostId": "2026-09-27-oge-kazhetsya",
+      "exam": "ОГЭ",
+      "title": "«Кажется» не всегда в запятых",
+      "status": "pending",
+      "proposedDate": "2026-09-27",
+      "kind": "question_answer",
+      "configSha256": "8f29636b7fd3a488a7b3fba13aac8b947731ebf2a73d5643db791025fb1f4f75",
+      "musicSource": "content/music/bach-goldberg-var1-ishizaka.mp3",
+      "musicSha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8",
+      "creditInFinalAnswerScene": true,
+      "parts": [
+        {
+          "index": 1,
+          "role": "question",
+          "file": "2026-09-27-oge-kazhetsya-1.mp4",
+          "sha256": "b68d9a4fdb83281ee9e018ea114077b36ae4721851d2c09eb0dd5bda17b7cf0a",
+          "bytes": 3089341,
+          "width": 1080,
+          "height": 1920,
+          "fps": 30,
+          "frames": 180,
+          "duration": 6.0,
+          "videoCodec": "h264",
+          "audioCodec": "aac",
+          "sceneIndices": [
+            1
+          ],
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "cropped": false
+          },
+          "decodedFrames": [
+            "qa/2026-09-27-oge-kazhetsya-scene-1.jpg"
+          ],
+          "sourceFiles": [
+            {
+              "file": "outputs/exam-bank-2026-09-26/content/reels/2026-09-27-oge-kazhetsya.mp4",
+              "sha256": "122e6a4fa15eaa07647fd126399edbff727db79c0b6fe449cbe5b9769c158d25",
+              "width": 1080,
+              "height": 1920,
+              "fps": 30,
+              "frames": 900,
+              "duration": 30.0,
+              "videoCodec": "h264",
+              "audioCodec": "aac"
+            }
+          ],
+          "audioStartSeconds": 0,
+          "edgeFadeSeconds": {
+            "in": 0.04,
+            "out": 0.12
+          },
+          "musicMode": "preserved Reels audio"
+        },
+        {
+          "index": 2,
+          "role": "answer",
+          "file": "2026-09-27-oge-kazhetsya-2.mp4",
+          "sha256": "3afecd898eefef0c242da66fa6df5b9b5d623c76b005c5a80f4ab1a038608671",
+          "bytes": 12440711,
+          "width": 1080,
+          "height": 1920,
+          "fps": 30,
+          "frames": 720,
+          "duration": 24.0,
+          "videoCodec": "h264",
+          "audioCodec": "aac",
+          "sceneIndices": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "cropped": false
+          },
+          "decodedFrames": [
+            "qa/2026-09-27-oge-kazhetsya-scene-2.jpg",
+            "qa/2026-09-27-oge-kazhetsya-scene-3.jpg",
+            "qa/2026-09-27-oge-kazhetsya-scene-4.jpg",
+            "qa/2026-09-27-oge-kazhetsya-scene-5.jpg"
+          ],
+          "sourceFiles": [
+            {
+              "file": "outputs/exam-bank-2026-09-26/content/reels/2026-09-27-oge-kazhetsya.mp4",
+              "sha256": "122e6a4fa15eaa07647fd126399edbff727db79c0b6fe449cbe5b9769c158d25",
+              "width": 1080,
+              "height": 1920,
+              "fps": 30,
+              "frames": 900,
+              "duration": 30.0,
+              "videoCodec": "h264",
+              "audioCodec": "aac"
+            }
+          ],
+          "audioStartSeconds": 6,
+          "edgeFadeSeconds": {
+            "in": 0.04,
+            "out": 0.12
+          },
+          "musicMode": "preserved Reels audio"
+        }
+      ],
+      "elapsedSeconds": 15.39
+    },
+    {
+      "id": "2026-09-28-ege-nesmotrya-standalone",
+      "sourcePostId": "2026-09-28-ege-nesmotrya",
+      "exam": "ЕГЭ",
+      "title": "Смотрели или действовали вопреки?",
+      "status": "pending",
+      "proposedDate": "2026-09-28",
+      "kind": "question_answer",
+      "configSha256": "8f29636b7fd3a488a7b3fba13aac8b947731ebf2a73d5643db791025fb1f4f75",
+      "musicSource": "content/music/bach-goldberg-var1-ishizaka.mp3",
+      "musicSha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8",
+      "creditInFinalAnswerScene": true,
+      "parts": [
+        {
+          "index": 1,
+          "role": "question",
+          "file": "2026-09-28-ege-nesmotrya-1.mp4",
+          "sha256": "0d31ef245cef9b234e1b3413eb46a7491ee4b027436360d4945cfafa89baab8d",
+          "bytes": 2401569,
+          "width": 1080,
+          "height": 1920,
+          "fps": 30,
+          "frames": 180,
+          "duration": 6.0,
+          "videoCodec": "h264",
+          "audioCodec": "aac",
+          "sceneIndices": [
+            1
+          ],
+          "geometry": {
+            "x": 0,
+            "y": 285,
+            "width": 1080,
+            "height": 1350,
+            "background": "#dbe9ec",
+            "cropped": false
+          },
+          "decodedFrames": [
+            "qa/2026-09-28-ege-nesmotrya-scene-1.jpg"
+          ],
+          "sourceFiles": [
+            {
+              "file": "outputs/exam-bank-2026-09-26/content/images/2026-09-28-ege-nesmotrya-1.mp4",
+              "sha256": "13bf66f0a26eb82b94c57b9bdd32b0403baabb7ee713703a11aa1b94da113d1c",
+              "width": 1080,
+              "height": 1350,
+              "fps": 30,
+              "frames": 180,
+              "duration": 6.0,
+              "videoCodec": "h264",
+              "audioCodec": "aac"
+            }
+          ],
+          "audioStartSeconds": 0,
+          "edgeFadeSeconds": {
+            "in": 0.04,
+            "out": 0.12
+          },
+          "musicMode": "continuous verified source music, gain 0.75"
+        },
+        {
+          "index": 2,
+          "role": "answer",
+          "file": "2026-09-28-ege-nesmotrya-2.mp4",
+          "sha256": "06593f2f49275dafc5578ab1c71a4cc12deb75bc8d8304567986d8a764ebbd1a",
+          "bytes": 7443332,
+          "width": 1080,
+          "height": 1920,
+          "fps": 30,
+          "frames": 540,
+          "duration": 18.0,
+          "videoCodec": "h264",
+          "audioCodec": "aac",
+          "sceneIndices": [
+            2,
+            3,
+            4
+          ],
+          "geometry": {
+            "x": 0,
+            "y": 285,
+            "width": 1080,
+            "height": 1350,
+            "background": "#dbe9ec",
+            "cropped": false
+          },
+          "decodedFrames": [
+            "qa/2026-09-28-ege-nesmotrya-scene-2.jpg",
+            "qa/2026-09-28-ege-nesmotrya-scene-3.jpg",
+            "qa/2026-09-28-ege-nesmotrya-scene-4.jpg"
+          ],
+          "sourceFiles": [
+            {
+              "file": "outputs/exam-bank-2026-09-26/content/images/2026-09-28-ege-nesmotrya-2.mp4",
+              "sha256": "2e80c377b8b3b7dc504207ee590bdebd993e49676ff273c5539dce3b81c85c16",
+              "width": 1080,
+              "height": 1350,
+              "fps": 30,
+              "frames": 180,
+              "duration": 6.0,
+              "videoCodec": "h264",
+              "audioCodec": "aac"
+            },
+            {
+              "file": "outputs/exam-bank-2026-09-26/content/images/2026-09-28-ege-nesmotrya-3.mp4",
+              "sha256": "865e3c039095b1bdc060230609ea600ab3d8af3f291144c9c6a2463ba4167db0",
+              "width": 1080,
+              "height": 1350,
+              "fps": 30,
+              "frames": 180,
+              "duration": 6.0,
+              "videoCodec": "h264",
+              "audioCodec": "aac"
+            },
+            {
+              "file": "outputs/exam-bank-2026-09-26/content/images/2026-09-28-ege-nesmotrya-4.mp4",
+              "sha256": "54b84dcab78aa5319168b6b8b2b47e1d17f132cdf3317af9c4a557690b989bcf",
+              "width": 1080,
+              "height": 1350,
+              "fps": 30,
+              "frames": 180,
+              "duration": 6.0,
+              "videoCodec": "h264",
+              "audioCodec": "aac"
+            }
+          ],
+          "audioStartSeconds": 6,
+          "edgeFadeSeconds": {
+            "in": 0.04,
+            "out": 0.12
+          },
+          "musicMode": "continuous verified source music, gain 0.75"
+        }
+      ],
+      "elapsedSeconds": 16.71
+    },
+    {
+      "id": "2026-09-29-oge-svetaet-standalone",
+      "sourcePostId": "2026-09-29-oge-svetaet",
+      "exam": "ОГЭ",
+      "title": "Подлежащее не потерялось",
+      "status": "pending",
+      "proposedDate": "2026-09-29",
+      "kind": "question_answer",
+      "configSha256": "8f29636b7fd3a488a7b3fba13aac8b947731ebf2a73d5643db791025fb1f4f75",
+      "musicSource": "content/music/bach-goldberg-var1-ishizaka.mp3",
+      "musicSha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8",
+      "creditInFinalAnswerScene": true,
+      "parts": [
+        {
+          "index": 1,
+          "role": "question",
+          "file": "2026-09-29-oge-svetaet-1.mp4",
+          "sha256": "b4bce8c4c13ff1d43448968899bfe448754054da95178739b6dad3122c93dde3",
+          "bytes": 4105105,
+          "width": 1080,
+          "height": 1920,
+          "fps": 30,
+          "frames": 180,
+          "duration": 6.0,
+          "videoCodec": "h264",
+          "audioCodec": "aac",
+          "sceneIndices": [
+            1
+          ],
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "cropped": false
+          },
+          "decodedFrames": [
+            "qa/2026-09-29-oge-svetaet-scene-1.jpg"
+          ],
+          "sourceFiles": [
+            {
+              "file": "outputs/exam-bank-2026-09-26/content/reels/2026-09-29-oge-svetaet.mp4",
+              "sha256": "6520a640fc518b78cd1a93684b4e256ac58f8a4066f60cb0f0d87491b4980a45",
+              "width": 1080,
+              "height": 1920,
+              "fps": 30,
+              "frames": 900,
+              "duration": 30.0,
+              "videoCodec": "h264",
+              "audioCodec": "aac"
+            }
+          ],
+          "audioStartSeconds": 0,
+          "edgeFadeSeconds": {
+            "in": 0.04,
+            "out": 0.12
+          },
+          "musicMode": "preserved Reels audio"
+        },
+        {
+          "index": 2,
+          "role": "answer",
+          "file": "2026-09-29-oge-svetaet-2.mp4",
+          "sha256": "d44b0537b28ba6fc93b985c1b508603f7e57d403ccf3fc4a7f0242e8446d6c75",
+          "bytes": 16166700,
+          "width": 1080,
+          "height": 1920,
+          "fps": 30,
+          "frames": 720,
+          "duration": 24.0,
+          "videoCodec": "h264",
+          "audioCodec": "aac",
+          "sceneIndices": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "cropped": false
+          },
+          "decodedFrames": [
+            "qa/2026-09-29-oge-svetaet-scene-2.jpg",
+            "qa/2026-09-29-oge-svetaet-scene-3.jpg",
+            "qa/2026-09-29-oge-svetaet-scene-4.jpg",
+            "qa/2026-09-29-oge-svetaet-scene-5.jpg"
+          ],
+          "sourceFiles": [
+            {
+              "file": "outputs/exam-bank-2026-09-26/content/reels/2026-09-29-oge-svetaet.mp4",
+              "sha256": "6520a640fc518b78cd1a93684b4e256ac58f8a4066f60cb0f0d87491b4980a45",
+              "width": 1080,
+              "height": 1920,
+              "fps": 30,
+              "frames": 900,
+              "duration": 30.0,
+              "videoCodec": "h264",
+              "audioCodec": "aac"
+            }
+          ],
+          "audioStartSeconds": 6,
+          "edgeFadeSeconds": {
+            "in": 0.04,
+            "out": 0.12
+          },
+          "musicMode": "preserved Reels audio"
+        }
+      ],
+      "elapsedSeconds": 17.4
+    },
+    {
+      "id": "2026-09-30-ege-ne-kto-standalone",
+      "sourcePostId": "2026-09-30-ege-ne-kto",
+      "exam": "ЕГЭ",
+      "title": "Не кто иной или никто иной?",
+      "status": "pending",
+      "proposedDate": "2026-09-30",
+      "kind": "question_answer",
+      "configSha256": "8f29636b7fd3a488a7b3fba13aac8b947731ebf2a73d5643db791025fb1f4f75",
+      "musicSource": "content/music/bach-goldberg-var1-ishizaka.mp3",
+      "musicSha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8",
+      "creditInFinalAnswerScene": true,
+      "parts": [
+        {
+          "index": 1,
+          "role": "question",
+          "file": "2026-09-30-ege-ne-kto-1.mp4",
+          "sha256": "14b877b973da8ce1749e07687c4d81001911727b9b523fd5f977bdaf5c9c9b11",
+          "bytes": 1684727,
+          "width": 1080,
+          "height": 1920,
+          "fps": 30,
+          "frames": 180,
+          "duration": 6.0,
+          "videoCodec": "h264",
+          "audioCodec": "aac",
+          "sceneIndices": [
+            1
+          ],
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "cropped": false
+          },
+          "decodedFrames": [
+            "qa/2026-09-30-ege-ne-kto-scene-1.jpg"
+          ],
+          "sourceFiles": [
+            {
+              "file": "outputs/exam-bank-2026-09-26/content/reels/2026-09-30-ege-ne-kto.mp4",
+              "sha256": "0152e542b334daacba30a6228f167a581bba8c029c756354a1fd3155382ac911",
+              "width": 1080,
+              "height": 1920,
+              "fps": 30,
+              "frames": 900,
+              "duration": 30.0,
+              "videoCodec": "h264",
+              "audioCodec": "aac"
+            }
+          ],
+          "audioStartSeconds": 0,
+          "edgeFadeSeconds": {
+            "in": 0.04,
+            "out": 0.12
+          },
+          "musicMode": "preserved Reels audio"
+        },
+        {
+          "index": 2,
+          "role": "answer",
+          "file": "2026-09-30-ege-ne-kto-2.mp4",
+          "sha256": "022e46d8773ec23dac37b5bdbd7fe2d692040554377bcf56576af96ef70112d2",
+          "bytes": 6987463,
+          "width": 1080,
+          "height": 1920,
+          "fps": 30,
+          "frames": 720,
+          "duration": 24.0,
+          "videoCodec": "h264",
+          "audioCodec": "aac",
+          "sceneIndices": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "cropped": false
+          },
+          "decodedFrames": [
+            "qa/2026-09-30-ege-ne-kto-scene-2.jpg",
+            "qa/2026-09-30-ege-ne-kto-scene-3.jpg",
+            "qa/2026-09-30-ege-ne-kto-scene-4.jpg",
+            "qa/2026-09-30-ege-ne-kto-scene-5.jpg"
+          ],
+          "sourceFiles": [
+            {
+              "file": "outputs/exam-bank-2026-09-26/content/reels/2026-09-30-ege-ne-kto.mp4",
+              "sha256": "0152e542b334daacba30a6228f167a581bba8c029c756354a1fd3155382ac911",
+              "width": 1080,
+              "height": 1920,
+              "fps": 30,
+              "frames": 900,
+              "duration": 30.0,
+              "videoCodec": "h264",
+              "audioCodec": "aac"
+            }
+          ],
+          "audioStartSeconds": 6,
+          "edgeFadeSeconds": {
+            "in": 0.04,
+            "out": 0.12
+          },
+          "musicMode": "preserved Reels audio"
+        }
+      ],
+      "elapsedSeconds": 15.67
+    },
+    {
+      "id": "2026-10-01-oge-svyaz-standalone",
+      "sourcePostId": "2026-10-01-oge-svyaz",
+      "exam": "ОГЭ",
+      "title": "Один шарф — три связи",
+      "status": "pending",
+      "proposedDate": "2026-10-01",
+      "kind": "question_answer",
+      "configSha256": "8f29636b7fd3a488a7b3fba13aac8b947731ebf2a73d5643db791025fb1f4f75",
+      "musicSource": "content/music/bach-goldberg-var1-ishizaka.mp3",
+      "musicSha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8",
+      "creditInFinalAnswerScene": true,
+      "parts": [
+        {
+          "index": 1,
+          "role": "question",
+          "file": "2026-10-01-oge-svyaz-1.mp4",
+          "sha256": "dab66b39f9663232625982ffc0b9d3700f3144a5515bedda618c66fb77f7bcc8",
+          "bytes": 2111691,
+          "width": 1080,
+          "height": 1920,
+          "fps": 30,
+          "frames": 180,
+          "duration": 6.0,
+          "videoCodec": "h264",
+          "audioCodec": "aac",
+          "sceneIndices": [
+            1
+          ],
+          "geometry": {
+            "x": 0,
+            "y": 285,
+            "width": 1080,
+            "height": 1350,
+            "background": "#f4e7c7",
+            "cropped": false
+          },
+          "decodedFrames": [
+            "qa/2026-10-01-oge-svyaz-scene-1.jpg"
+          ],
+          "sourceFiles": [
+            {
+              "file": "outputs/exam-bank-2026-09-26/content/images/2026-10-01-oge-svyaz-1.mp4",
+              "sha256": "bf11372249d2f364e21c9233c45900065b5bdf373823fc4f12e4869fa3fe9a77",
+              "width": 1080,
+              "height": 1350,
+              "fps": 30,
+              "frames": 180,
+              "duration": 6.0,
+              "videoCodec": "h264",
+              "audioCodec": "aac"
+            }
+          ],
+          "audioStartSeconds": 0,
+          "edgeFadeSeconds": {
+            "in": 0.04,
+            "out": 0.12
+          },
+          "musicMode": "continuous verified source music, gain 0.75"
+        },
+        {
+          "index": 2,
+          "role": "answer",
+          "file": "2026-10-01-oge-svyaz-2.mp4",
+          "sha256": "bc82afb50d2fc43b9971f1a2fc04c3c49b7cfb676182cad7c95ef85365a47cc0",
+          "bytes": 7136181,
+          "width": 1080,
+          "height": 1920,
+          "fps": 30,
+          "frames": 540,
+          "duration": 18.0,
+          "videoCodec": "h264",
+          "audioCodec": "aac",
+          "sceneIndices": [
+            2,
+            3,
+            4
+          ],
+          "geometry": {
+            "x": 0,
+            "y": 285,
+            "width": 1080,
+            "height": 1350,
+            "background": "#f4e7c7",
+            "cropped": false
+          },
+          "decodedFrames": [
+            "qa/2026-10-01-oge-svyaz-scene-2.jpg",
+            "qa/2026-10-01-oge-svyaz-scene-3.jpg",
+            "qa/2026-10-01-oge-svyaz-scene-4.jpg"
+          ],
+          "sourceFiles": [
+            {
+              "file": "outputs/exam-bank-2026-09-26/content/images/2026-10-01-oge-svyaz-2.mp4",
+              "sha256": "52962755e949d543e7b0fdf363d87fac559e3bc4dfe12499e8b96feb0f4e0925",
+              "width": 1080,
+              "height": 1350,
+              "fps": 30,
+              "frames": 180,
+              "duration": 6.0,
+              "videoCodec": "h264",
+              "audioCodec": "aac"
+            },
+            {
+              "file": "outputs/exam-bank-2026-09-26/content/images/2026-10-01-oge-svyaz-3.mp4",
+              "sha256": "70f5b3677564c24ea04daa39132b9423e583d1e89227ef6f4d14ce2c38710b35",
+              "width": 1080,
+              "height": 1350,
+              "fps": 30,
+              "frames": 180,
+              "duration": 6.0,
+              "videoCodec": "h264",
+              "audioCodec": "aac"
+            },
+            {
+              "file": "outputs/exam-bank-2026-09-26/content/images/2026-10-01-oge-svyaz-4.mp4",
+              "sha256": "087d88671cbf7e47fff4e0201de867d360e7f51d11bfcee993dc16aa241ad057",
+              "width": 1080,
+              "height": 1350,
+              "fps": 30,
+              "frames": 180,
+              "duration": 6.0,
+              "videoCodec": "h264",
+              "audioCodec": "aac"
+            }
+          ],
+          "audioStartSeconds": 6,
+          "edgeFadeSeconds": {
+            "in": 0.04,
+            "out": 0.12
+          },
+          "musicMode": "continuous verified source music, gain 0.75"
+        }
+      ],
+      "elapsedSeconds": 17.13
+    },
+    {
+      "id": "2026-10-02-ege-bsp-colon-standalone",
+      "sourcePostId": "2026-10-02-ege-bsp-colon",
+      "exam": "ЕГЭ",
+      "title": "Двоеточие объясняет причину",
+      "status": "pending",
+      "proposedDate": "2026-10-02",
+      "kind": "question_answer",
+      "configSha256": "8f29636b7fd3a488a7b3fba13aac8b947731ebf2a73d5643db791025fb1f4f75",
+      "musicSource": "content/music/bach-goldberg-var1-ishizaka.mp3",
+      "musicSha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8",
+      "creditInFinalAnswerScene": true,
+      "parts": [
+        {
+          "index": 1,
+          "role": "question",
+          "file": "2026-10-02-ege-bsp-colon-1.mp4",
+          "sha256": "7ec337dca253650b1b754c833a011bf15dfdba759513b640f9a11c28f9ce3493",
+          "bytes": 3508762,
+          "width": 1080,
+          "height": 1920,
+          "fps": 30,
+          "frames": 180,
+          "duration": 6.0,
+          "videoCodec": "h264",
+          "audioCodec": "aac",
+          "sceneIndices": [
+            1
+          ],
+          "geometry": {
+            "x": 0,
+            "y": 285,
+            "width": 1080,
+            "height": 1350,
+            "background": "#dbe9ec",
+            "cropped": false
+          },
+          "decodedFrames": [
+            "qa/2026-10-02-ege-bsp-colon-scene-1.jpg"
+          ],
+          "sourceFiles": [
+            {
+              "file": "outputs/exam-bank-2026-09-26/content/images/2026-10-02-ege-bsp-colon-1.mp4",
+              "sha256": "b4be8892f20353d5f0a08f090e92cd7e212f1007bf5f1248374984b60cb2be6d",
+              "width": 1080,
+              "height": 1350,
+              "fps": 30,
+              "frames": 180,
+              "duration": 6.0,
+              "videoCodec": "h264",
+              "audioCodec": "aac"
+            }
+          ],
+          "audioStartSeconds": 0,
+          "edgeFadeSeconds": {
+            "in": 0.04,
+            "out": 0.12
+          },
+          "musicMode": "continuous verified source music, gain 0.75"
+        },
+        {
+          "index": 2,
+          "role": "answer",
+          "file": "2026-10-02-ege-bsp-colon-2.mp4",
+          "sha256": "c930e62710ec5a2423ff6715a8d83eacc77dfecc553db34510b0ff76f1ecba13",
+          "bytes": 10624794,
+          "width": 1080,
+          "height": 1920,
+          "fps": 30,
+          "frames": 540,
+          "duration": 18.0,
+          "videoCodec": "h264",
+          "audioCodec": "aac",
+          "sceneIndices": [
+            2,
+            3,
+            4
+          ],
+          "geometry": {
+            "x": 0,
+            "y": 285,
+            "width": 1080,
+            "height": 1350,
+            "background": "#dbe9ec",
+            "cropped": false
+          },
+          "decodedFrames": [
+            "qa/2026-10-02-ege-bsp-colon-scene-2.jpg",
+            "qa/2026-10-02-ege-bsp-colon-scene-3.jpg",
+            "qa/2026-10-02-ege-bsp-colon-scene-4.jpg"
+          ],
+          "sourceFiles": [
+            {
+              "file": "outputs/exam-bank-2026-09-26/content/images/2026-10-02-ege-bsp-colon-2.mp4",
+              "sha256": "2f8876f1845445dc067fe52379778c679d992a9b459376e96dc19364f40cf2c5",
+              "width": 1080,
+              "height": 1350,
+              "fps": 30,
+              "frames": 180,
+              "duration": 6.0,
+              "videoCodec": "h264",
+              "audioCodec": "aac"
+            },
+            {
+              "file": "outputs/exam-bank-2026-09-26/content/images/2026-10-02-ege-bsp-colon-3.mp4",
+              "sha256": "99ce650a06b03bb401f2de29e2e957b558c57fae7928b5541625392092b3e347",
+              "width": 1080,
+              "height": 1350,
+              "fps": 30,
+              "frames": 180,
+              "duration": 6.0,
+              "videoCodec": "h264",
+              "audioCodec": "aac"
+            },
+            {
+              "file": "outputs/exam-bank-2026-09-26/content/images/2026-10-02-ege-bsp-colon-4.mp4",
+              "sha256": "02bf8cf4253372d4513aac22ae78363ad1821a2ef6399189ae43eeffe45c6f3c",
+              "width": 1080,
+              "height": 1350,
+              "fps": 30,
+              "frames": 180,
+              "duration": 6.0,
+              "videoCodec": "h264",
+              "audioCodec": "aac"
+            }
+          ],
+          "audioStartSeconds": 6,
+          "edgeFadeSeconds": {
+            "in": 0.04,
+            "out": 0.12
+          },
+          "musicMode": "continuous verified source music, gain 0.75"
+        }
+      ],
+      "elapsedSeconds": 18.19
+    },
+    {
+      "id": "2026-10-03-oge-bez-bes-standalone",
+      "sourcePostId": "2026-10-03-oge-bez-bes",
+      "exam": "ОГЭ",
+      "title": "Тихо — а приставки разные",
+      "status": "pending",
+      "proposedDate": "2026-10-03",
+      "kind": "question_answer",
+      "configSha256": "8f29636b7fd3a488a7b3fba13aac8b947731ebf2a73d5643db791025fb1f4f75",
+      "musicSource": "content/music/bach-goldberg-var1-ishizaka.mp3",
+      "musicSha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8",
+      "creditInFinalAnswerScene": true,
+      "parts": [
+        {
+          "index": 1,
+          "role": "question",
+          "file": "2026-10-03-oge-bez-bes-1.mp4",
+          "sha256": "78eba5e401395d322adb4255347990afb65d4c98bb041fec6d82c1508ed5ea03",
+          "bytes": 1692560,
+          "width": 1080,
+          "height": 1920,
+          "fps": 30,
+          "frames": 180,
+          "duration": 6.0,
+          "videoCodec": "h264",
+          "audioCodec": "aac",
+          "sceneIndices": [
+            1
+          ],
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "cropped": false
+          },
+          "decodedFrames": [
+            "qa/2026-10-03-oge-bez-bes-scene-1.jpg"
+          ],
+          "sourceFiles": [
+            {
+              "file": "outputs/exam-bank-2026-09-26/content/reels/2026-10-03-oge-bez-bes.mp4",
+              "sha256": "8a8f05e6bcc40d82b0582f6e3487899759d9eaf16cf556141c6ac48a8c9e5da6",
+              "width": 1080,
+              "height": 1920,
+              "fps": 30,
+              "frames": 900,
+              "duration": 30.0,
+              "videoCodec": "h264",
+              "audioCodec": "aac"
+            }
+          ],
+          "audioStartSeconds": 0,
+          "edgeFadeSeconds": {
+            "in": 0.04,
+            "out": 0.12
+          },
+          "musicMode": "preserved Reels audio"
+        },
+        {
+          "index": 2,
+          "role": "answer",
+          "file": "2026-10-03-oge-bez-bes-2.mp4",
+          "sha256": "e2733fc0d41ec632920258768180ad846bae95e681112ab896cc47b575a81c0c",
+          "bytes": 6958640,
+          "width": 1080,
+          "height": 1920,
+          "fps": 30,
+          "frames": 720,
+          "duration": 24.0,
+          "videoCodec": "h264",
+          "audioCodec": "aac",
+          "sceneIndices": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "cropped": false
+          },
+          "decodedFrames": [
+            "qa/2026-10-03-oge-bez-bes-scene-2.jpg",
+            "qa/2026-10-03-oge-bez-bes-scene-3.jpg",
+            "qa/2026-10-03-oge-bez-bes-scene-4.jpg",
+            "qa/2026-10-03-oge-bez-bes-scene-5.jpg"
+          ],
+          "sourceFiles": [
+            {
+              "file": "outputs/exam-bank-2026-09-26/content/reels/2026-10-03-oge-bez-bes.mp4",
+              "sha256": "8a8f05e6bcc40d82b0582f6e3487899759d9eaf16cf556141c6ac48a8c9e5da6",
+              "width": 1080,
+              "height": 1920,
+              "fps": 30,
+              "frames": 900,
+              "duration": 30.0,
+              "videoCodec": "h264",
+              "audioCodec": "aac"
+            }
+          ],
+          "audioStartSeconds": 6,
+          "edgeFadeSeconds": {
+            "in": 0.04,
+            "out": 0.12
+          },
+          "musicMode": "preserved Reels audio"
+        }
+      ],
+      "elapsedSeconds": 16.02
+    },
+    {
+      "id": "2026-10-04-ege-odnako-standalone",
+      "sourcePostId": "2026-10-04-ege-odnako",
+      "exam": "ЕГЭ",
+      "title": "«Однако» не выдаёт запятую автоматически",
+      "status": "pending",
+      "proposedDate": "2026-10-04",
+      "kind": "question_answer",
+      "configSha256": "8f29636b7fd3a488a7b3fba13aac8b947731ebf2a73d5643db791025fb1f4f75",
+      "musicSource": "content/music/bach-goldberg-var1-ishizaka.mp3",
+      "musicSha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8",
+      "creditInFinalAnswerScene": true,
+      "parts": [
+        {
+          "index": 1,
+          "role": "question",
+          "file": "2026-10-04-ege-odnako-1.mp4",
+          "sha256": "4787c628b65d102755f2ba289268cb87ca52f652df6eb1b363f6c648d77dd943",
+          "bytes": 2159239,
+          "width": 1080,
+          "height": 1920,
+          "fps": 30,
+          "frames": 180,
+          "duration": 6.0,
+          "videoCodec": "h264",
+          "audioCodec": "aac",
+          "sceneIndices": [
+            1
+          ],
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "cropped": false
+          },
+          "decodedFrames": [
+            "qa/2026-10-04-ege-odnako-scene-1.jpg"
+          ],
+          "sourceFiles": [
+            {
+              "file": "outputs/exam-bank-2026-09-26/content/reels/2026-10-04-ege-odnako.mp4",
+              "sha256": "e04280633697d83178d5b4de822d04161a03962f61f249f5e7d9be8ce34c605f",
+              "width": 1080,
+              "height": 1920,
+              "fps": 30,
+              "frames": 900,
+              "duration": 30.0,
+              "videoCodec": "h264",
+              "audioCodec": "aac"
+            }
+          ],
+          "audioStartSeconds": 0,
+          "edgeFadeSeconds": {
+            "in": 0.04,
+            "out": 0.12
+          },
+          "musicMode": "preserved Reels audio"
+        },
+        {
+          "index": 2,
+          "role": "answer",
+          "file": "2026-10-04-ege-odnako-2.mp4",
+          "sha256": "2cc93e43ad71eb7567783223eb5ba61d0c582d52976551d11e3cd83f147ba70c",
+          "bytes": 9778822,
+          "width": 1080,
+          "height": 1920,
+          "fps": 30,
+          "frames": 720,
+          "duration": 24.0,
+          "videoCodec": "h264",
+          "audioCodec": "aac",
+          "sceneIndices": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "cropped": false
+          },
+          "decodedFrames": [
+            "qa/2026-10-04-ege-odnako-scene-2.jpg",
+            "qa/2026-10-04-ege-odnako-scene-3.jpg",
+            "qa/2026-10-04-ege-odnako-scene-4.jpg",
+            "qa/2026-10-04-ege-odnako-scene-5.jpg"
+          ],
+          "sourceFiles": [
+            {
+              "file": "outputs/exam-bank-2026-09-26/content/reels/2026-10-04-ege-odnako.mp4",
+              "sha256": "e04280633697d83178d5b4de822d04161a03962f61f249f5e7d9be8ce34c605f",
+              "width": 1080,
+              "height": 1920,
+              "fps": 30,
+              "frames": 900,
+              "duration": 30.0,
+              "videoCodec": "h264",
+              "audioCodec": "aac"
+            }
+          ],
+          "audioStartSeconds": 6,
+          "edgeFadeSeconds": {
+            "in": 0.04,
+            "out": 0.12
+          },
+          "musicMode": "preserved Reels audio"
+        }
+      ],
+      "elapsedSeconds": 15.1
+    },
+    {
+      "id": "2026-10-05-oge-szhatie-standalone",
+      "sourcePostId": "2026-10-05-oge-szhatie",
+      "exam": "ОГЭ",
+      "title": "Короче — с тем же смыслом",
+      "status": "pending",
+      "proposedDate": "2026-10-05",
+      "kind": "question_answer",
+      "configSha256": "8f29636b7fd3a488a7b3fba13aac8b947731ebf2a73d5643db791025fb1f4f75",
+      "musicSource": "content/music/bach-goldberg-var1-ishizaka.mp3",
+      "musicSha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8",
+      "creditInFinalAnswerScene": true,
+      "parts": [
+        {
+          "index": 1,
+          "role": "question",
+          "file": "2026-10-05-oge-szhatie-1.mp4",
+          "sha256": "e3d860c97b12e480846c0af485f1c86f00c9191270f6a06dbc7c2e6f3632a1a0",
+          "bytes": 3894259,
+          "width": 1080,
+          "height": 1920,
+          "fps": 30,
+          "frames": 180,
+          "duration": 6.0,
+          "videoCodec": "h264",
+          "audioCodec": "aac",
+          "sceneIndices": [
+            1
+          ],
+          "geometry": {
+            "x": 0,
+            "y": 285,
+            "width": 1080,
+            "height": 1350,
+            "background": "#f4e7c7",
+            "cropped": false
+          },
+          "decodedFrames": [
+            "qa/2026-10-05-oge-szhatie-scene-1.jpg"
+          ],
+          "sourceFiles": [
+            {
+              "file": "outputs/exam-bank-2026-09-26/content/images/2026-10-05-oge-szhatie-1.mp4",
+              "sha256": "5fc9ae1130f3fb71b7b4ff76fdb526723d38ddef31bf7c8dde8bdaf88af4b17f",
+              "width": 1080,
+              "height": 1350,
+              "fps": 30,
+              "frames": 180,
+              "duration": 6.0,
+              "videoCodec": "h264",
+              "audioCodec": "aac"
+            }
+          ],
+          "audioStartSeconds": 0,
+          "edgeFadeSeconds": {
+            "in": 0.04,
+            "out": 0.12
+          },
+          "musicMode": "continuous verified source music, gain 0.75"
+        },
+        {
+          "index": 2,
+          "role": "answer",
+          "file": "2026-10-05-oge-szhatie-2.mp4",
+          "sha256": "5e1131ea9eec667f74486c17148e75ce16fccc22e6f33177e2dc8d6eaad985cf",
+          "bytes": 11216782,
+          "width": 1080,
+          "height": 1920,
+          "fps": 30,
+          "frames": 540,
+          "duration": 18.0,
+          "videoCodec": "h264",
+          "audioCodec": "aac",
+          "sceneIndices": [
+            2,
+            3,
+            4
+          ],
+          "geometry": {
+            "x": 0,
+            "y": 285,
+            "width": 1080,
+            "height": 1350,
+            "background": "#f4e7c7",
+            "cropped": false
+          },
+          "decodedFrames": [
+            "qa/2026-10-05-oge-szhatie-scene-2.jpg",
+            "qa/2026-10-05-oge-szhatie-scene-3.jpg",
+            "qa/2026-10-05-oge-szhatie-scene-4.jpg"
+          ],
+          "sourceFiles": [
+            {
+              "file": "outputs/exam-bank-2026-09-26/content/images/2026-10-05-oge-szhatie-2.mp4",
+              "sha256": "dba9d40bc8d2a1ffa34fefe72058be939f879cf3965862a665a902e5125cbc59",
+              "width": 1080,
+              "height": 1350,
+              "fps": 30,
+              "frames": 180,
+              "duration": 6.0,
+              "videoCodec": "h264",
+              "audioCodec": "aac"
+            },
+            {
+              "file": "outputs/exam-bank-2026-09-26/content/images/2026-10-05-oge-szhatie-3.mp4",
+              "sha256": "eca75cf8836fe7dd8674de2cb7380f163ed79dbd57e58caa8ab8f97e2b3d0ad8",
+              "width": 1080,
+              "height": 1350,
+              "fps": 30,
+              "frames": 180,
+              "duration": 6.0,
+              "videoCodec": "h264",
+              "audioCodec": "aac"
+            },
+            {
+              "file": "outputs/exam-bank-2026-09-26/content/images/2026-10-05-oge-szhatie-4.mp4",
+              "sha256": "8e148eea65c060224afb29cb94c0e01e6d038a60832095895d3fc5d9384a911f",
+              "width": 1080,
+              "height": 1350,
+              "fps": 30,
+              "frames": 180,
+              "duration": 6.0,
+              "videoCodec": "h264",
+              "audioCodec": "aac"
+            }
+          ],
+          "audioStartSeconds": 6,
+          "edgeFadeSeconds": {
+            "in": 0.04,
+            "out": 0.12
+          },
+          "musicMode": "continuous verified source music, gain 0.75"
+        }
+      ],
+      "elapsedSeconds": 16.93
+    },
+    {
+      "id": "2026-10-06-ege-po-pribytii-standalone",
+      "sourcePostId": "2026-10-06-ege-po-pribytii",
+      "exam": "ЕГЭ",
+      "title": "Прибытие меняет окончание",
+      "status": "pending",
+      "proposedDate": "2026-10-06",
+      "kind": "question_answer",
+      "configSha256": "8f29636b7fd3a488a7b3fba13aac8b947731ebf2a73d5643db791025fb1f4f75",
+      "musicSource": "content/music/bach-goldberg-var1-ishizaka.mp3",
+      "musicSha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8",
+      "creditInFinalAnswerScene": true,
+      "parts": [
+        {
+          "index": 1,
+          "role": "question",
+          "file": "2026-10-06-ege-po-pribytii-1.mp4",
+          "sha256": "5a452f8d7d40734b90cfecb72973a6156275c1ca8ddf288ac1bc8a8330dfe4fa",
+          "bytes": 1972673,
+          "width": 1080,
+          "height": 1920,
+          "fps": 30,
+          "frames": 180,
+          "duration": 6.0,
+          "videoCodec": "h264",
+          "audioCodec": "aac",
+          "sceneIndices": [
+            1
+          ],
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "cropped": false
+          },
+          "decodedFrames": [
+            "qa/2026-10-06-ege-po-pribytii-scene-1.jpg"
+          ],
+          "sourceFiles": [
+            {
+              "file": "outputs/exam-bank-2026-09-26/content/reels/2026-10-06-ege-po-pribytii.mp4",
+              "sha256": "e7cce8c4c28045511deec6611a48185e13eaf2c419a82eeb19b42a0e598aff35",
+              "width": 1080,
+              "height": 1920,
+              "fps": 30,
+              "frames": 900,
+              "duration": 30.0,
+              "videoCodec": "h264",
+              "audioCodec": "aac"
+            }
+          ],
+          "audioStartSeconds": 0,
+          "edgeFadeSeconds": {
+            "in": 0.04,
+            "out": 0.12
+          },
+          "musicMode": "preserved Reels audio"
+        },
+        {
+          "index": 2,
+          "role": "answer",
+          "file": "2026-10-06-ege-po-pribytii-2.mp4",
+          "sha256": "9d576500b423093c7d0a47accf8f2549bc70f8ccbebb8a471b9338174ff8ca86",
+          "bytes": 9256629,
+          "width": 1080,
+          "height": 1920,
+          "fps": 30,
+          "frames": 720,
+          "duration": 24.0,
+          "videoCodec": "h264",
+          "audioCodec": "aac",
+          "sceneIndices": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "cropped": false
+          },
+          "decodedFrames": [
+            "qa/2026-10-06-ege-po-pribytii-scene-2.jpg",
+            "qa/2026-10-06-ege-po-pribytii-scene-3.jpg",
+            "qa/2026-10-06-ege-po-pribytii-scene-4.jpg",
+            "qa/2026-10-06-ege-po-pribytii-scene-5.jpg"
+          ],
+          "sourceFiles": [
+            {
+              "file": "outputs/exam-bank-2026-09-26/content/reels/2026-10-06-ege-po-pribytii.mp4",
+              "sha256": "e7cce8c4c28045511deec6611a48185e13eaf2c419a82eeb19b42a0e598aff35",
+              "width": 1080,
+              "height": 1920,
+              "fps": 30,
+              "frames": 900,
+              "duration": 30.0,
+              "videoCodec": "h264",
+              "audioCodec": "aac"
+            }
+          ],
+          "audioStartSeconds": 6,
+          "edgeFadeSeconds": {
+            "in": 0.04,
+            "out": 0.12
+          },
+          "musicMode": "preserved Reels audio"
+        }
+      ],
+      "elapsedSeconds": 14.89
+    },
+    {
+      "id": "2026-10-07-oge-argument-standalone",
+      "sourcePostId": "2026-10-07-oge-argument",
+      "exam": "ОГЭ",
+      "title": "После цитаты нужна ваша мысль",
+      "status": "pending",
+      "proposedDate": "2026-10-07",
+      "kind": "question_answer",
+      "configSha256": "8f29636b7fd3a488a7b3fba13aac8b947731ebf2a73d5643db791025fb1f4f75",
+      "musicSource": "content/music/bach-goldberg-var1-ishizaka.mp3",
+      "musicSha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8",
+      "creditInFinalAnswerScene": true,
+      "parts": [
+        {
+          "index": 1,
+          "role": "question",
+          "file": "2026-10-07-oge-argument-1.mp4",
+          "sha256": "2cbfd91c31dbe89a3cf7f98a6fd16128734741c457e3dcbd89f460b25c41cde3",
+          "bytes": 3233112,
+          "width": 1080,
+          "height": 1920,
+          "fps": 30,
+          "frames": 180,
+          "duration": 6.0,
+          "videoCodec": "h264",
+          "audioCodec": "aac",
+          "sceneIndices": [
+            1
+          ],
+          "geometry": {
+            "x": 0,
+            "y": 285,
+            "width": 1080,
+            "height": 1350,
+            "background": "#f4e7c7",
+            "cropped": false
+          },
+          "decodedFrames": [
+            "qa/2026-10-07-oge-argument-scene-1.jpg"
+          ],
+          "sourceFiles": [
+            {
+              "file": "outputs/exam-bank-2026-09-26/content/images/2026-10-07-oge-argument-1.mp4",
+              "sha256": "25d520edf56e2f6a6ecd3401c8dfe3c7bb1059e4bd2689782c63e1ec299d1620",
+              "width": 1080,
+              "height": 1350,
+              "fps": 30,
+              "frames": 180,
+              "duration": 6.0,
+              "videoCodec": "h264",
+              "audioCodec": "aac"
+            }
+          ],
+          "audioStartSeconds": 0,
+          "edgeFadeSeconds": {
+            "in": 0.04,
+            "out": 0.12
+          },
+          "musicMode": "continuous verified source music, gain 0.75"
+        },
+        {
+          "index": 2,
+          "role": "answer",
+          "file": "2026-10-07-oge-argument-2.mp4",
+          "sha256": "f35f8822784106a9a91639f796b83383a076eabf4991c24802e07fd7b52def77",
+          "bytes": 9574285,
+          "width": 1080,
+          "height": 1920,
+          "fps": 30,
+          "frames": 540,
+          "duration": 18.0,
+          "videoCodec": "h264",
+          "audioCodec": "aac",
+          "sceneIndices": [
+            2,
+            3,
+            4
+          ],
+          "geometry": {
+            "x": 0,
+            "y": 285,
+            "width": 1080,
+            "height": 1350,
+            "background": "#f4e7c7",
+            "cropped": false
+          },
+          "decodedFrames": [
+            "qa/2026-10-07-oge-argument-scene-2.jpg",
+            "qa/2026-10-07-oge-argument-scene-3.jpg",
+            "qa/2026-10-07-oge-argument-scene-4.jpg"
+          ],
+          "sourceFiles": [
+            {
+              "file": "outputs/exam-bank-2026-09-26/content/images/2026-10-07-oge-argument-2.mp4",
+              "sha256": "6a61645ae08e480655f07bce2293396f8c3cc865340b0c5ef8a127f94101e0d2",
+              "width": 1080,
+              "height": 1350,
+              "fps": 30,
+              "frames": 180,
+              "duration": 6.0,
+              "videoCodec": "h264",
+              "audioCodec": "aac"
+            },
+            {
+              "file": "outputs/exam-bank-2026-09-26/content/images/2026-10-07-oge-argument-3.mp4",
+              "sha256": "ae3ed3415e75f958d151e8514842986854c33c1364b05faf3c5cbc8eb6ea86f5",
+              "width": 1080,
+              "height": 1350,
+              "fps": 30,
+              "frames": 180,
+              "duration": 6.0,
+              "videoCodec": "h264",
+              "audioCodec": "aac"
+            },
+            {
+              "file": "outputs/exam-bank-2026-09-26/content/images/2026-10-07-oge-argument-4.mp4",
+              "sha256": "d9bfc3ea740eecd14b55fe017975fe5dc771228fd2052c03d1a6d2a429f0ca4b",
+              "width": 1080,
+              "height": 1350,
+              "fps": 30,
+              "frames": 180,
+              "duration": 6.0,
+              "videoCodec": "h264",
+              "audioCodec": "aac"
+            }
+          ],
+          "audioStartSeconds": 6,
+          "edgeFadeSeconds": {
+            "in": 0.04,
+            "out": 0.12
+          },
+          "musicMode": "continuous verified source music, gain 0.75"
+        }
+      ],
+      "elapsedSeconds": 15.94
+    },
+    {
+      "id": "2026-10-08-ege-direct-speech-standalone",
+      "sourcePostId": "2026-10-08-ege-direct-speech",
+      "exam": "ЕГЭ",
+      "title": "Точка уступает место запятой",
+      "status": "pending",
+      "proposedDate": "2026-10-08",
+      "kind": "question_answer",
+      "configSha256": "8f29636b7fd3a488a7b3fba13aac8b947731ebf2a73d5643db791025fb1f4f75",
+      "musicSource": "content/music/bach-goldberg-var1-ishizaka.mp3",
+      "musicSha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8",
+      "creditInFinalAnswerScene": true,
+      "parts": [
+        {
+          "index": 1,
+          "role": "question",
+          "file": "2026-10-08-ege-direct-speech-1.mp4",
+          "sha256": "3be25679ce8046ee8cb63c814d8062b3efa3fb8596eb48dbb80c4adb14ab3a4d",
+          "bytes": 1678069,
+          "width": 1080,
+          "height": 1920,
+          "fps": 30,
+          "frames": 180,
+          "duration": 6.0,
+          "videoCodec": "h264",
+          "audioCodec": "aac",
+          "sceneIndices": [
+            1
+          ],
+          "geometry": {
+            "x": 0,
+            "y": 285,
+            "width": 1080,
+            "height": 1350,
+            "background": "#dbe9ec",
+            "cropped": false
+          },
+          "decodedFrames": [
+            "qa/2026-10-08-ege-direct-speech-scene-1.jpg"
+          ],
+          "sourceFiles": [
+            {
+              "file": "outputs/exam-bank-2026-09-26/content/images/2026-10-08-ege-direct-speech-1.mp4",
+              "sha256": "a30b7c5243cb5c8aeafaa6def3674a3bfd36c4bc7a3d27a8b120b102836442f2",
+              "width": 1080,
+              "height": 1350,
+              "fps": 30,
+              "frames": 180,
+              "duration": 6.0,
+              "videoCodec": "h264",
+              "audioCodec": "aac"
+            }
+          ],
+          "audioStartSeconds": 0,
+          "edgeFadeSeconds": {
+            "in": 0.04,
+            "out": 0.12
+          },
+          "musicMode": "continuous verified source music, gain 0.75"
+        },
+        {
+          "index": 2,
+          "role": "answer",
+          "file": "2026-10-08-ege-direct-speech-2.mp4",
+          "sha256": "58d4793254e000328183ccba5eeeb98556ee7cf585d4861d43df2071b93b32c9",
+          "bytes": 5271977,
+          "width": 1080,
+          "height": 1920,
+          "fps": 30,
+          "frames": 540,
+          "duration": 18.0,
+          "videoCodec": "h264",
+          "audioCodec": "aac",
+          "sceneIndices": [
+            2,
+            3,
+            4
+          ],
+          "geometry": {
+            "x": 0,
+            "y": 285,
+            "width": 1080,
+            "height": 1350,
+            "background": "#dbe9ec",
+            "cropped": false
+          },
+          "decodedFrames": [
+            "qa/2026-10-08-ege-direct-speech-scene-2.jpg",
+            "qa/2026-10-08-ege-direct-speech-scene-3.jpg",
+            "qa/2026-10-08-ege-direct-speech-scene-4.jpg"
+          ],
+          "sourceFiles": [
+            {
+              "file": "outputs/exam-bank-2026-09-26/content/images/2026-10-08-ege-direct-speech-2.mp4",
+              "sha256": "e02360a77cbeefb0a8dc1901d9a902ddbf4f76a72045e9944390e34aa0b1aa66",
+              "width": 1080,
+              "height": 1350,
+              "fps": 30,
+              "frames": 180,
+              "duration": 6.0,
+              "videoCodec": "h264",
+              "audioCodec": "aac"
+            },
+            {
+              "file": "outputs/exam-bank-2026-09-26/content/images/2026-10-08-ege-direct-speech-3.mp4",
+              "sha256": "bd575b4cf0f21f6fde178db7e7b63205ff663c09581b11f5cb5712783554043e",
+              "width": 1080,
+              "height": 1350,
+              "fps": 30,
+              "frames": 180,
+              "duration": 6.0,
+              "videoCodec": "h264",
+              "audioCodec": "aac"
+            },
+            {
+              "file": "outputs/exam-bank-2026-09-26/content/images/2026-10-08-ege-direct-speech-4.mp4",
+              "sha256": "ed785c940cf769cdf51f316c86c7365a90a34a03dbb4bd348cb2b0706640ad2c",
+              "width": 1080,
+              "height": 1350,
+              "fps": 30,
+              "frames": 180,
+              "duration": 6.0,
+              "videoCodec": "h264",
+              "audioCodec": "aac"
+            }
+          ],
+          "audioStartSeconds": 6,
+          "edgeFadeSeconds": {
+            "in": 0.04,
+            "out": 0.12
+          },
+          "musicMode": "continuous verified source music, gain 0.75"
+        }
+      ],
+      "elapsedSeconds": 17.34
+    },
+    {
+      "id": "2026-10-09-oge-dvoetochie-standalone",
+      "sourcePostId": "2026-10-09-oge-dvoetochie",
+      "exam": "ОГЭ",
+      "title": "Двоеточие собирает рюкзак",
+      "status": "pending",
+      "proposedDate": "2026-10-09",
+      "kind": "question_answer",
+      "configSha256": "8f29636b7fd3a488a7b3fba13aac8b947731ebf2a73d5643db791025fb1f4f75",
+      "musicSource": "content/music/bach-goldberg-var1-ishizaka.mp3",
+      "musicSha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8",
+      "creditInFinalAnswerScene": true,
+      "parts": [
+        {
+          "index": 1,
+          "role": "question",
+          "file": "2026-10-09-oge-dvoetochie-1.mp4",
+          "sha256": "98e151612eccb262651d7b6aa7e02170d13f01354bc19c8968407c080ad5fe28",
+          "bytes": 4475538,
+          "width": 1080,
+          "height": 1920,
+          "fps": 30,
+          "frames": 180,
+          "duration": 6.0,
+          "videoCodec": "h264",
+          "audioCodec": "aac",
+          "sceneIndices": [
+            1
+          ],
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "cropped": false
+          },
+          "decodedFrames": [
+            "qa/2026-10-09-oge-dvoetochie-scene-1.jpg"
+          ],
+          "sourceFiles": [
+            {
+              "file": "outputs/exam-bank-2026-09-26/content/reels/2026-10-09-oge-dvoetochie.mp4",
+              "sha256": "e89630fec05ef67f4199776172a7425fd5331f2a0fa22bccd6258be07f7ab0ac",
+              "width": 1080,
+              "height": 1920,
+              "fps": 30,
+              "frames": 900,
+              "duration": 30.0,
+              "videoCodec": "h264",
+              "audioCodec": "aac"
+            }
+          ],
+          "audioStartSeconds": 0,
+          "edgeFadeSeconds": {
+            "in": 0.04,
+            "out": 0.12
+          },
+          "musicMode": "preserved Reels audio"
+        },
+        {
+          "index": 2,
+          "role": "answer",
+          "file": "2026-10-09-oge-dvoetochie-2.mp4",
+          "sha256": "e924907e15381f02d7a7fdf6a5060d639b872b583de9eab11de0aae32f8b126b",
+          "bytes": 17542744,
+          "width": 1080,
+          "height": 1920,
+          "fps": 30,
+          "frames": 720,
+          "duration": 24.0,
+          "videoCodec": "h264",
+          "audioCodec": "aac",
+          "sceneIndices": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "cropped": false
+          },
+          "decodedFrames": [
+            "qa/2026-10-09-oge-dvoetochie-scene-2.jpg",
+            "qa/2026-10-09-oge-dvoetochie-scene-3.jpg",
+            "qa/2026-10-09-oge-dvoetochie-scene-4.jpg",
+            "qa/2026-10-09-oge-dvoetochie-scene-5.jpg"
+          ],
+          "sourceFiles": [
+            {
+              "file": "outputs/exam-bank-2026-09-26/content/reels/2026-10-09-oge-dvoetochie.mp4",
+              "sha256": "e89630fec05ef67f4199776172a7425fd5331f2a0fa22bccd6258be07f7ab0ac",
+              "width": 1080,
+              "height": 1920,
+              "fps": 30,
+              "frames": 900,
+              "duration": 30.0,
+              "videoCodec": "h264",
+              "audioCodec": "aac"
+            }
+          ],
+          "audioStartSeconds": 6,
+          "edgeFadeSeconds": {
+            "in": 0.04,
+            "out": 0.12
+          },
+          "musicMode": "preserved Reels audio"
+        }
+      ],
+      "elapsedSeconds": 16.93
+    }
+  ]
+}

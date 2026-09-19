@@ -1,0 +1,114 @@
+{
+  "id": "2026-10-03-oge-bez-bes-standalone",
+  "sourcePostId": "2026-10-03-oge-bez-bes",
+  "exam": "ОГЭ",
+  "title": "Тихо — а приставки разные",
+  "status": "pending",
+  "proposedDate": "2026-10-03",
+  "kind": "question_answer",
+  "configSha256": "8f29636b7fd3a488a7b3fba13aac8b947731ebf2a73d5643db791025fb1f4f75",
+  "musicSource": "content/music/bach-goldberg-var1-ishizaka.mp3",
+  "musicSha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8",
+  "creditInFinalAnswerScene": true,
+  "parts": [
+    {
+      "index": 1,
+      "role": "question",
+      "file": "2026-10-03-oge-bez-bes-1.mp4",
+      "sha256": "78eba5e401395d322adb4255347990afb65d4c98bb041fec6d82c1508ed5ea03",
+      "bytes": 1692560,
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "frames": 180,
+      "duration": 6.0,
+      "videoCodec": "h264",
+      "audioCodec": "aac",
+      "sceneIndices": [
+        1
+      ],
+      "geometry": {
+        "x": 0,
+        "y": 0,
+        "width": 1080,
+        "height": 1920,
+        "cropped": false
+      },
+      "decodedFrames": [
+        "qa/2026-10-03-oge-bez-bes-scene-1.jpg"
+      ],
+      "sourceFiles": [
+        {
+          "file": "outputs/exam-bank-2026-09-26/content/reels/2026-10-03-oge-bez-bes.mp4",
+          "sha256": "8a8f05e6bcc40d82b0582f6e3487899759d9eaf16cf556141c6ac48a8c9e5da6",
+          "width": 1080,
+          "height": 1920,
+          "fps": 30,
+          "frames": 900,
+          "duration": 30.0,
+          "videoCodec": "h264",
+          "audioCodec": "aac"
+        }
+      ],
+      "audioStartSeconds": 0,
+      "edgeFadeSeconds": {
+        "in": 0.04,
+        "out": 0.12
+      },
+      "musicMode": "preserved Reels audio"
+    },
+    {
+      "index": 2,
+      "role": "answer",
+      "file": "2026-10-03-oge-bez-bes-2.mp4",
+      "sha256": "e2733fc0d41ec632920258768180ad846bae95e681112ab896cc47b575a81c0c",
+      "bytes": 6958640,
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "frames": 720,
+      "duration": 24.0,
+      "videoCodec": "h264",
+      "audioCodec": "aac",
+      "sceneIndices": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "geometry": {
+        "x": 0,
+        "y": 0,
+        "width": 1080,
+        "height": 1920,
+        "cropped": false
+      },
+      "decodedFrames": [
+        "qa/2026-10-03-oge-bez-bes-scene-2.jpg",
+        "qa/2026-10-03-oge-bez-bes-scene-3.jpg",
+        "qa/2026-10-03-oge-bez-bes-scene-4.jpg",
+        "qa/2026-10-03-oge-bez-bes-scene-5.jpg"
+      ],
+      "sourceFiles": [
+        {
+          "file": "outputs/exam-bank-2026-09-26/content/reels/2026-10-03-oge-bez-bes.mp4",
+          "sha256": "8a8f05e6bcc40d82b0582f6e3487899759d9eaf16cf556141c6ac48a8c9e5da6",
+          "width": 1080,
+          "height": 1920,
+          "fps": 30,
+          "frames": 900,
+          "duration": 30.0,
+          "videoCodec": "h264",
+          "audioCodec": "aac"
+        }
+      ],
+      "audioStartSeconds": 6,
+      "edgeFadeSeconds": {
+        "in": 0.04,
+        "out": 0.12
+      },
+      "musicMode": "preserved Reels audio"
+    }
+  ],
+  "elapsedSeconds": 16.02
+}

@@ -1,0 +1,165 @@
+{
+  "renderer": "offline Pillow + FFmpeg; not Remotion export",
+  "pillowVersion": "12.3.0",
+  "file": "reels/2026-10-09-oge-dvoetochie.mp4",
+  "sha256": "e89630fec05ef67f4199776172a7425fd5331f2a0fa22bccd6258be07f7ab0ac",
+  "bytes": 23508173,
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "duration": 30,
+  "audioCodec": "aac",
+  "audioSource": "content/music/bach-goldberg-var1-ishizaka.mp3",
+  "audioSha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8",
+  "audioStartSeconds": 0,
+  "volume": 0.75,
+  "audioFadeInSeconds": 0.1,
+  "audioFadeOutSeconds": 0.5,
+  "photoSource": "assets/photos/exam-v1/oge-dvoetochie.png",
+  "photoSha256": "d912ad8447bf32f12d29114e1715fe5f12c61d135e24c57cd1e6a4620b7d4502",
+  "fontWeight": 600,
+  "fallbackFont": "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
+  "fallbackFontSha256": "d72db21f9242aedd6b917d8549ad5921766b24d5f8d0becfda2ff4c620b3c2e0",
+  "configSha256": "8f29636b7fd3a488a7b3fba13aac8b947731ebf2a73d5643db791025fb1f4f75",
+  "layouts": [
+    {
+      "index": 0,
+      "height": 1920,
+      "top": 310,
+      "bodyTop": 609.84,
+      "textEnd": 749.2,
+      "safeEnd": 1630,
+      "creditTop": 1450,
+      "last": false,
+      "title": {
+        "lines": [
+          "Двоеточие",
+          "собирает рюкзак"
+        ],
+        "size": 116,
+        "family": "display"
+      },
+      "body": {
+        "lines": [
+          "В рюкзаке есть всё:",
+          "кружка, фонарь и карта."
+        ],
+        "size": 52,
+        "family": "sans"
+      },
+      "bodyContrast": null
+    },
+    {
+      "index": 1,
+      "height": 1920,
+      "top": 310,
+      "bodyTop": 479.92,
+      "textEnd": 688.96,
+      "safeEnd": 1630,
+      "creditTop": 1450,
+      "last": false,
+      "title": {
+        "lines": [
+          "Слово «всё»"
+        ],
+        "size": 116,
+        "family": "display"
+      },
+      "body": {
+        "lines": [
+          "Обобщает кружку, фонарь и",
+          "карту.",
+          "Это обобщающее слово."
+        ],
+        "size": 52,
+        "family": "sans"
+      },
+      "bodyContrast": null
+    },
+    {
+      "index": 2,
+      "height": 1920,
+      "top": 310,
+      "bodyTop": 479.92,
+      "textEnd": 688.96,
+      "safeEnd": 1630,
+      "creditTop": 1450,
+      "last": false,
+      "title": {
+        "lines": [
+          "Сначала — общее"
+        ],
+        "size": 116,
+        "family": "display"
+      },
+      "body": {
+        "lines": [
+          "После обобщающего слова",
+          "перед перечислением ставим",
+          "двоеточие."
+        ],
+        "size": 52,
+        "family": "sans"
+      },
+      "bodyContrast": null
+    },
+    {
+      "index": 3,
+      "height": 1920,
+      "top": 310,
+      "bodyTop": 479.92,
+      "textEnd": 758.6400000000001,
+      "safeEnd": 1630,
+      "creditTop": 1450,
+      "last": false,
+      "title": {
+        "lines": [
+          "А если наоборот?"
+        ],
+        "size": 116,
+        "family": "display"
+      },
+      "body": {
+        "lines": [
+          "Кружка, фонарь и карта —",
+          "всё в рюкзаке.",
+          "Перед обобщающим словом —",
+          "тире."
+        ],
+        "size": 52,
+        "family": "sans"
+      },
+      "bodyContrast": null
+    },
+    {
+      "index": 4,
+      "height": 1920,
+      "top": 310,
+      "bodyTop": 609.84,
+      "textEnd": 888.5600000000001,
+      "safeEnd": 1415,
+      "creditTop": 1450,
+      "last": true,
+      "title": {
+        "lines": [
+          "Порядок меняет",
+          "знак"
+        ],
+        "size": 116,
+        "family": "display"
+      },
+      "body": {
+        "lines": [
+          "Всё: кружка, фонарь и карта.",
+          "Кружка, фонарь и карта — всё.",
+          "Эти схемы — с обобщающим",
+          "словом."
+        ],
+        "size": 52,
+        "family": "sans"
+      },
+      "bodyContrast": 0.72
+    }
+  ],
+  "elapsedSeconds": 73.35
+}

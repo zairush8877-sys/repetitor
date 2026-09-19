@@ -1,0 +1,54 @@
+{
+  "renderer": "offline Pillow + FFmpeg; not Remotion export",
+  "pillowVersion": "12.3.0",
+  "file": "images/2026-10-08-ege-direct-speech-1.mp4",
+  "sha256": "a30b7c5243cb5c8aeafaa6def3674a3bfd36c4bc7a3d27a8b120b102836442f2",
+  "bytes": 2229965,
+  "width": 1080,
+  "height": 1350,
+  "fps": 30,
+  "duration": 6,
+  "audioCodec": "aac",
+  "audioSource": "content/music/bach-goldberg-var1-ishizaka.mp3",
+  "audioSha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8",
+  "audioStartSeconds": 0,
+  "volume": 0.75,
+  "audioFadeInSeconds": 0.1,
+  "audioFadeOutSeconds": 0.5,
+  "photoSource": "assets/photos/exam-v1/ege-direct-speech.png",
+  "photoSha256": "56ac2ac8af7f704d6ed3a9bd5bd765a9eddab9a7c88bc69f7b566fd5754d80ed",
+  "fontWeight": 600,
+  "fallbackFont": "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
+  "fallbackFontSha256": "d72db21f9242aedd6b917d8549ad5921766b24d5f8d0becfda2ff4c620b3c2e0",
+  "configSha256": "8f29636b7fd3a488a7b3fba13aac8b947731ebf2a73d5643db791025fb1f4f75",
+  "layouts": [
+    {
+      "index": 0,
+      "height": 1350,
+      "top": 110,
+      "bodyTop": 364.0,
+      "textEnd": 556.96,
+      "safeEnd": 1220,
+      "creditTop": 1100,
+      "last": false,
+      "title": {
+        "lines": [
+          "ТОЧКА УСТУПАЕТ",
+          "МЕСТО ЗАПЯТОЙ"
+        ],
+        "size": 100,
+        "family": "display"
+      },
+      "body": {
+        "lines": [
+          "Если после реплики идут слова",
+          "автора. Два образца для письменной",
+          "работы."
+        ],
+        "size": 48,
+        "family": "sans"
+      }
+    }
+  ],
+  "elapsedSeconds": 10.99
+}

@@ -1,0 +1,247 @@
+{
+  "stories": 14,
+  "videos": 28,
+  "decodedScenePreviews": 64,
+  "sourceMp4ShaVerified": 32,
+  "status": "pending",
+  "publicationPerformed": false,
+  "liveQueueChanged": false,
+  "allSourcesAndOutputsSHA256Match": true,
+  "audioAudiblyListened": false,
+  "audioMeasured": true,
+  "checks": [
+    {
+      "file": "2026-09-26-ege-deeprichastie-1.mp4",
+      "sha256": "5202d8d44246ead7d6475785b814f1bb0ae159a4595ee55946c170e01d6425ed",
+      "duration": 6.0,
+      "frames": 180,
+      "audioLUFS": -20.0,
+      "audioTruePeakDBTP": -6.68
+    },
+    {
+      "file": "2026-09-26-ege-deeprichastie-2.mp4",
+      "sha256": "dafeab851e2f9c55ff65cf77f81fac9cea87423a8ca9bf0fe018bf494846b2c7",
+      "duration": 24.0,
+      "frames": 720,
+      "audioLUFS": -20.11,
+      "audioTruePeakDBTP": -6.31
+    },
+    {
+      "file": "2026-09-27-oge-kazhetsya-1.mp4",
+      "sha256": "b68d9a4fdb83281ee9e018ea114077b36ae4721851d2c09eb0dd5bda17b7cf0a",
+      "duration": 6.0,
+      "frames": 180,
+      "audioLUFS": -20.0,
+      "audioTruePeakDBTP": -6.68
+    },
+    {
+      "file": "2026-09-27-oge-kazhetsya-2.mp4",
+      "sha256": "3afecd898eefef0c242da66fa6df5b9b5d623c76b005c5a80f4ab1a038608671",
+      "duration": 24.0,
+      "frames": 720,
+      "audioLUFS": -20.11,
+      "audioTruePeakDBTP": -6.31
+    },
+    {
+      "file": "2026-09-28-ege-nesmotrya-1.mp4",
+      "sha256": "0d31ef245cef9b234e1b3413eb46a7491ee4b027436360d4945cfafa89baab8d",
+      "duration": 6.0,
+      "frames": 180,
+      "audioLUFS": -19.98,
+      "audioTruePeakDBTP": -6.62
+    },
+    {
+      "file": "2026-09-28-ege-nesmotrya-2.mp4",
+      "sha256": "06593f2f49275dafc5578ab1c71a4cc12deb75bc8d8304567986d8a764ebbd1a",
+      "duration": 18.0,
+      "frames": 540,
+      "audioLUFS": -19.7,
+      "audioTruePeakDBTP": -6.93
+    },
+    {
+      "file": "2026-09-29-oge-svetaet-1.mp4",
+      "sha256": "b4bce8c4c13ff1d43448968899bfe448754054da95178739b6dad3122c93dde3",
+      "duration": 6.0,
+      "frames": 180,
+      "audioLUFS": -20.0,
+      "audioTruePeakDBTP": -6.68
+    },
+    {
+      "file": "2026-09-29-oge-svetaet-2.mp4",
+      "sha256": "d44b0537b28ba6fc93b985c1b508603f7e57d403ccf3fc4a7f0242e8446d6c75",
+      "duration": 24.0,
+      "frames": 720,
+      "audioLUFS": -20.11,
+      "audioTruePeakDBTP": -6.31
+    },
+    {
+      "file": "2026-09-30-ege-ne-kto-1.mp4",
+      "sha256": "14b877b973da8ce1749e07687c4d81001911727b9b523fd5f977bdaf5c9c9b11",
+      "duration": 6.0,
+      "frames": 180,
+      "audioLUFS": -20.0,
+      "audioTruePeakDBTP": -6.68
+    },
+    {
+      "file": "2026-09-30-ege-ne-kto-2.mp4",
+      "sha256": "022e46d8773ec23dac37b5bdbd7fe2d692040554377bcf56576af96ef70112d2",
+      "duration": 24.0,
+      "frames": 720,
+      "audioLUFS": -20.11,
+      "audioTruePeakDBTP": -6.31
+    },
+    {
+      "file": "2026-10-01-oge-svyaz-1.mp4",
+      "sha256": "dab66b39f9663232625982ffc0b9d3700f3144a5515bedda618c66fb77f7bcc8",
+      "duration": 6.0,
+      "frames": 180,
+      "audioLUFS": -19.98,
+      "audioTruePeakDBTP": -6.62
+    },
+    {
+      "file": "2026-10-01-oge-svyaz-2.mp4",
+      "sha256": "bc82afb50d2fc43b9971f1a2fc04c3c49b7cfb676182cad7c95ef85365a47cc0",
+      "duration": 18.0,
+      "frames": 540,
+      "audioLUFS": -19.7,
+      "audioTruePeakDBTP": -6.93
+    },
+    {
+      "file": "2026-10-02-ege-bsp-colon-1.mp4",
+      "sha256": "7ec337dca253650b1b754c833a011bf15dfdba759513b640f9a11c28f9ce3493",
+      "duration": 6.0,
+      "frames": 180,
+      "audioLUFS": -19.98,
+      "audioTruePeakDBTP": -6.62
+    },
+    {
+      "file": "2026-10-02-ege-bsp-colon-2.mp4",
+      "sha256": "c930e62710ec5a2423ff6715a8d83eacc77dfecc553db34510b0ff76f1ecba13",
+      "duration": 18.0,
+      "frames": 540,
+      "audioLUFS": -19.7,
+      "audioTruePeakDBTP": -6.93
+    },
+    {
+      "file": "2026-10-03-oge-bez-bes-1.mp4",
+      "sha256": "78eba5e401395d322adb4255347990afb65d4c98bb041fec6d82c1508ed5ea03",
+      "duration": 6.0,
+      "frames": 180,
+      "audioLUFS": -20.0,
+      "audioTruePeakDBTP": -6.68
+    },
+    {
+      "file": "2026-10-03-oge-bez-bes-2.mp4",
+      "sha256": "e2733fc0d41ec632920258768180ad846bae95e681112ab896cc47b575a81c0c",
+      "duration": 24.0,
+      "frames": 720,
+      "audioLUFS": -20.11,
+      "audioTruePeakDBTP": -6.31
+    },
+    {
+      "file": "2026-10-04-ege-odnako-1.mp4",
+      "sha256": "4787c628b65d102755f2ba289268cb87ca52f652df6eb1b363f6c648d77dd943",
+      "duration": 6.0,
+      "frames": 180,
+      "audioLUFS": -20.0,
+      "audioTruePeakDBTP": -6.68
+    },
+    {
+      "file": "2026-10-04-ege-odnako-2.mp4",
+      "sha256": "2cc93e43ad71eb7567783223eb5ba61d0c582d52976551d11e3cd83f147ba70c",
+      "duration": 24.0,
+      "frames": 720,
+      "audioLUFS": -20.11,
+      "audioTruePeakDBTP": -6.31
+    },
+    {
+      "file": "2026-10-05-oge-szhatie-1.mp4",
+      "sha256": "e3d860c97b12e480846c0af485f1c86f00c9191270f6a06dbc7c2e6f3632a1a0",
+      "duration": 6.0,
+      "frames": 180,
+      "audioLUFS": -19.98,
+      "audioTruePeakDBTP": -6.62
+    },
+    {
+      "file": "2026-10-05-oge-szhatie-2.mp4",
+      "sha256": "5e1131ea9eec667f74486c17148e75ce16fccc22e6f33177e2dc8d6eaad985cf",
+      "duration": 18.0,
+      "frames": 540,
+      "audioLUFS": -19.7,
+      "audioTruePeakDBTP": -6.93
+    },
+    {
+      "file": "2026-10-06-ege-po-pribytii-1.mp4",
+      "sha256": "5a452f8d7d40734b90cfecb72973a6156275c1ca8ddf288ac1bc8a8330dfe4fa",
+      "duration": 6.0,
+      "frames": 180,
+      "audioLUFS": -20.0,
+      "audioTruePeakDBTP": -6.68
+    },
+    {
+      "file": "2026-10-06-ege-po-pribytii-2.mp4",
+      "sha256": "9d576500b423093c7d0a47accf8f2549bc70f8ccbebb8a471b9338174ff8ca86",
+      "duration": 24.0,
+      "frames": 720,
+      "audioLUFS": -20.11,
+      "audioTruePeakDBTP": -6.31
+    },
+    {
+      "file": "2026-10-07-oge-argument-1.mp4",
+      "sha256": "2cbfd91c31dbe89a3cf7f98a6fd16128734741c457e3dcbd89f460b25c41cde3",
+      "duration": 6.0,
+      "frames": 180,
+      "audioLUFS": -19.98,
+      "audioTruePeakDBTP": -6.62
+    },
+    {
+      "file": "2026-10-07-oge-argument-2.mp4",
+      "sha256": "f35f8822784106a9a91639f796b83383a076eabf4991c24802e07fd7b52def77",
+      "duration": 18.0,
+      "frames": 540,
+      "audioLUFS": -19.7,
+      "audioTruePeakDBTP": -6.93
+    },
+    {
+      "file": "2026-10-08-ege-direct-speech-1.mp4",
+      "sha256": "3be25679ce8046ee8cb63c814d8062b3efa3fb8596eb48dbb80c4adb14ab3a4d",
+      "duration": 6.0,
+      "frames": 180,
+      "audioLUFS": -19.98,
+      "audioTruePeakDBTP": -6.62
+    },
+    {
+      "file": "2026-10-08-ege-direct-speech-2.mp4",
+      "sha256": "58d4793254e000328183ccba5eeeb98556ee7cf585d4861d43df2071b93b32c9",
+      "duration": 18.0,
+      "frames": 540,
+      "audioLUFS": -19.7,
+      "audioTruePeakDBTP": -6.93
+    },
+    {
+      "file": "2026-10-09-oge-dvoetochie-1.mp4",
+      "sha256": "98e151612eccb262651d7b6aa7e02170d13f01354bc19c8968407c080ad5fe28",
+      "duration": 6.0,
+      "frames": 180,
+      "audioLUFS": -20.0,
+      "audioTruePeakDBTP": -6.68
+    },
+    {
+      "file": "2026-10-09-oge-dvoetochie-2.mp4",
+      "sha256": "e924907e15381f02d7a7fdf6a5060d639b872b583de9eab11de0aae32f8b126b",
+      "duration": 24.0,
+      "frames": 720,
+      "audioLUFS": -20.11,
+      "audioTruePeakDBTP": -6.31
+    }
+  ],
+  "contactSheets": [
+    "qa/verified-contact-1.jpg",
+    "qa/verified-contact-2.jpg",
+    "qa/verified-contact-3.jpg",
+    "qa/verified-contact-4.jpg",
+    "qa/verified-contact-5.jpg",
+    "qa/verified-contact-6.jpg",
+    "qa/verified-contact-7.jpg"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "renderer": "offline Pillow + FFmpeg; not Remotion export",
+  "pillowVersion": "12.3.0",
+  "file": "images/2026-10-07-oge-argument-1.mp4",
+  "sha256": "25d520edf56e2f6a6ecd3401c8dfe3c7bb1059e4bd2689782c63e1ec299d1620",
+  "bytes": 3454555,
+  "width": 1080,
+  "height": 1350,
+  "fps": 30,
+  "duration": 6,
+  "audioCodec": "aac",
+  "audioSource": "content/music/bach-goldberg-var1-ishizaka.mp3",
+  "audioSha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8",
+  "audioStartSeconds": 0,
+  "volume": 0.75,
+  "audioFadeInSeconds": 0.1,
+  "audioFadeOutSeconds": 0.5,
+  "photoSource": "assets/photos/exam-v1/oge-argument.png",
+  "photoSha256": "4b340c989a2c47b46f2dafcc66ae537e59f73a48423d8956775efd3b3d52ab21",
+  "fontWeight": 600,
+  "fallbackFont": "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
+  "fallbackFontSha256": "d72db21f9242aedd6b917d8549ad5921766b24d5f8d0becfda2ff4c620b3c2e0",
+  "configSha256": "8f29636b7fd3a488a7b3fba13aac8b947731ebf2a73d5643db791025fb1f4f75",
+  "layouts": [
+    {
+      "index": 0,
+      "height": 1350,
+      "top": 110,
+      "bodyTop": 364.0,
+      "textEnd": 556.96,
+      "safeEnd": 1220,
+      "creditTop": 1100,
+      "last": false,
+      "title": {
+        "lines": [
+          "После цитаты —",
+          "ваша мысль"
+        ],
+        "size": 100,
+        "family": "display"
+      },
+      "body": {
+        "lines": [
+          "В сочинении важно показать,",
+          "что пример доказывает.",
+          "Тренируем один фрагмент."
+        ],
+        "size": 48,
+        "family": "sans"
+      },
+      "bodyContrast": null
+    }
+  ],
+  "elapsedSeconds": 11.7
+}

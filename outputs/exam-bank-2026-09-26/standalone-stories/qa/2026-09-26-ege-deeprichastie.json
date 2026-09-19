@@ -1,0 +1,114 @@
+{
+  "id": "2026-09-26-ege-deeprichastie-standalone",
+  "sourcePostId": "2026-09-26-ege-deeprichastie",
+  "exam": "ЕГЭ",
+  "title": "Книга прочитала себя?",
+  "status": "pending",
+  "proposedDate": "2026-09-26",
+  "kind": "question_answer",
+  "configSha256": "8f29636b7fd3a488a7b3fba13aac8b947731ebf2a73d5643db791025fb1f4f75",
+  "musicSource": "content/music/bach-goldberg-var1-ishizaka.mp3",
+  "musicSha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8",
+  "creditInFinalAnswerScene": true,
+  "parts": [
+    {
+      "index": 1,
+      "role": "question",
+      "file": "2026-09-26-ege-deeprichastie-1.mp4",
+      "sha256": "5202d8d44246ead7d6475785b814f1bb0ae159a4595ee55946c170e01d6425ed",
+      "bytes": 1825636,
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "frames": 180,
+      "duration": 6.0,
+      "videoCodec": "h264",
+      "audioCodec": "aac",
+      "sceneIndices": [
+        1
+      ],
+      "geometry": {
+        "x": 0,
+        "y": 0,
+        "width": 1080,
+        "height": 1920,
+        "cropped": false
+      },
+      "decodedFrames": [
+        "qa/2026-09-26-ege-deeprichastie-scene-1.jpg"
+      ],
+      "sourceFiles": [
+        {
+          "file": "outputs/exam-bank-2026-09-26/content/reels/2026-09-26-ege-deeprichastie.mp4",
+          "sha256": "d12a4bd512a836e6e06a9081c145e0ba9df58ace48f7d581ce5ba3a3da606c8c",
+          "width": 1080,
+          "height": 1920,
+          "fps": 30,
+          "frames": 900,
+          "duration": 30.0,
+          "videoCodec": "h264",
+          "audioCodec": "aac"
+        }
+      ],
+      "audioStartSeconds": 0,
+      "edgeFadeSeconds": {
+        "in": 0.04,
+        "out": 0.12
+      },
+      "musicMode": "preserved Reels audio"
+    },
+    {
+      "index": 2,
+      "role": "answer",
+      "file": "2026-09-26-ege-deeprichastie-2.mp4",
+      "sha256": "dafeab851e2f9c55ff65cf77f81fac9cea87423a8ca9bf0fe018bf494846b2c7",
+      "bytes": 7563633,
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "frames": 720,
+      "duration": 24.0,
+      "videoCodec": "h264",
+      "audioCodec": "aac",
+      "sceneIndices": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "geometry": {
+        "x": 0,
+        "y": 0,
+        "width": 1080,
+        "height": 1920,
+        "cropped": false
+      },
+      "decodedFrames": [
+        "qa/2026-09-26-ege-deeprichastie-scene-2.jpg",
+        "qa/2026-09-26-ege-deeprichastie-scene-3.jpg",
+        "qa/2026-09-26-ege-deeprichastie-scene-4.jpg",
+        "qa/2026-09-26-ege-deeprichastie-scene-5.jpg"
+      ],
+      "sourceFiles": [
+        {
+          "file": "outputs/exam-bank-2026-09-26/content/reels/2026-09-26-ege-deeprichastie.mp4",
+          "sha256": "d12a4bd512a836e6e06a9081c145e0ba9df58ace48f7d581ce5ba3a3da606c8c",
+          "width": 1080,
+          "height": 1920,
+          "fps": 30,
+          "frames": 900,
+          "duration": 30.0,
+          "videoCodec": "h264",
+          "audioCodec": "aac"
+        }
+      ],
+      "audioStartSeconds": 6,
+      "edgeFadeSeconds": {
+        "in": 0.04,
+        "out": 0.12
+      },
+      "musicMode": "preserved Reels audio"
+    }
+  ],
+  "elapsedSeconds": 14.7
+}

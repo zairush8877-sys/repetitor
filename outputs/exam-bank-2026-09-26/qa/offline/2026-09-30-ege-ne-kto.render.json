@@ -1,0 +1,156 @@
+{
+  "renderer": "offline Pillow + FFmpeg; not Remotion export",
+  "pillowVersion": "12.3.0",
+  "file": "reels/2026-09-30-ege-ne-kto.mp4",
+  "sha256": "0152e542b334daacba30a6228f167a581bba8c029c756354a1fd3155382ac911",
+  "bytes": 9972800,
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "duration": 30,
+  "audioCodec": "aac",
+  "audioSource": "content/music/bach-goldberg-var1-ishizaka.mp3",
+  "audioSha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8",
+  "audioStartSeconds": 0,
+  "volume": 0.75,
+  "audioFadeInSeconds": 0.1,
+  "audioFadeOutSeconds": 0.5,
+  "photoSource": "assets/photos/exam-v1/ege-ne-kto.png",
+  "photoSha256": "b03278dde83632ed3564de3e3faca7ecda73bdad66bab633540acc8193a1df20",
+  "fontWeight": 600,
+  "fallbackFont": "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
+  "fallbackFontSha256": "d72db21f9242aedd6b917d8549ad5921766b24d5f8d0becfda2ff4c620b3c2e0",
+  "configSha256": "8f29636b7fd3a488a7b3fba13aac8b947731ebf2a73d5643db791025fb1f4f75",
+  "layouts": [
+    {
+      "index": 0,
+      "height": 1920,
+      "top": 310,
+      "bodyTop": 609.84,
+      "textEnd": 749.2,
+      "safeEnd": 1630,
+      "creditTop": 1450,
+      "last": false,
+      "title": {
+        "lines": [
+          "ИМЕННО ОН. ИЛИ",
+          "НИКТО ДРУГОЙ?"
+        ],
+        "size": 116,
+        "family": "display"
+      },
+      "body": {
+        "lines": [
+          "«Не кто иной» и «никто иной»",
+          "пишутся по-разному."
+        ],
+        "size": 52,
+        "family": "sans"
+      }
+    },
+    {
+      "index": 1,
+      "height": 1920,
+      "top": 310,
+      "bodyTop": 479.92,
+      "textEnd": 619.28,
+      "safeEnd": 1630,
+      "creditTop": 1450,
+      "last": false,
+      "title": {
+        "lines": [
+          "ИМЕННО ТРЕНЕР"
+        ],
+        "size": 116,
+        "family": "display"
+      },
+      "body": {
+        "lines": [
+          "«Это не кто иной, как наш",
+          "тренер». НЕ — отдельно."
+        ],
+        "size": 52,
+        "family": "sans"
+      }
+    },
+    {
+      "index": 2,
+      "height": 1920,
+      "top": 310,
+      "bodyTop": 609.84,
+      "textEnd": 749.2,
+      "safeEnd": 1630,
+      "creditTop": 1450,
+      "last": false,
+      "title": {
+        "lines": [
+          "ПЕРЕД «КАК» —",
+          "ЗАПЯТАЯ"
+        ],
+        "size": 116,
+        "family": "display"
+      },
+      "body": {
+        "lines": [
+          "Не кто иной, как… Здесь",
+          "называем конкретного человека."
+        ],
+        "size": 52,
+        "family": "sans"
+      }
+    },
+    {
+      "index": 3,
+      "height": 1920,
+      "top": 310,
+      "bodyTop": 479.92,
+      "textEnd": 619.28,
+      "safeEnd": 1630,
+      "creditTop": 1450,
+      "last": false,
+      "title": {
+        "lines": [
+          "НИКТО ДРУГОЙ"
+        ],
+        "size": 116,
+        "family": "display"
+      },
+      "body": {
+        "lines": [
+          "«Никто иной не знал маршрута».",
+          "НИКТО — слитно."
+        ],
+        "size": 52,
+        "family": "sans"
+      }
+    },
+    {
+      "index": 4,
+      "height": 1920,
+      "top": 310,
+      "bodyTop": 609.84,
+      "textEnd": 818.8800000000001,
+      "safeEnd": 1415,
+      "creditTop": 1450,
+      "last": true,
+      "title": {
+        "lines": [
+          "ДВЕ",
+          "КОНСТРУКЦИИ"
+        ],
+        "size": 116,
+        "family": "display"
+      },
+      "body": {
+        "lines": [
+          "Не кто иной, как… = именно.",
+          "Никто иной не… = никто другой",
+          "не…"
+        ],
+        "size": 52,
+        "family": "sans"
+      }
+    }
+  ],
+  "elapsedSeconds": 81.1
+}

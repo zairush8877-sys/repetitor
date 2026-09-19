@@ -1,0 +1,55 @@
+{
+  "renderer": "offline Pillow + FFmpeg; not Remotion export",
+  "pillowVersion": "12.3.0",
+  "file": "images/2026-10-02-ege-bsp-colon-4.mp4",
+  "sha256": "02bf8cf4253372d4513aac22ae78363ad1821a2ef6399189ae43eeffe45c6f3c",
+  "bytes": 3068654,
+  "width": 1080,
+  "height": 1350,
+  "fps": 30,
+  "duration": 6,
+  "audioCodec": "aac",
+  "audioSource": "content/music/bach-goldberg-var1-ishizaka.mp3",
+  "audioSha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8",
+  "audioStartSeconds": 18,
+  "volume": 0.75,
+  "audioFadeInSeconds": 0.1,
+  "audioFadeOutSeconds": 0.5,
+  "photoSource": "assets/photos/exam-v1/ege-bsp-colon.png",
+  "photoSha256": "677e17b684328967059623dc2c5636f633697fde1fef36452b4928c4cd39431a",
+  "fontWeight": 600,
+  "fallbackFont": "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
+  "fallbackFontSha256": "d72db21f9242aedd6b917d8549ad5921766b24d5f8d0becfda2ff4c620b3c2e0",
+  "configSha256": "8f29636b7fd3a488a7b3fba13aac8b947731ebf2a73d5643db791025fb1f4f75",
+  "layouts": [
+    {
+      "index": 3,
+      "height": 1350,
+      "top": 110,
+      "bodyTop": 364.0,
+      "textEnd": 621.28,
+      "safeEnd": 1065,
+      "creditTop": 1100,
+      "last": true,
+      "title": {
+        "lines": [
+          "ДВА ОСНОВАНИЯ",
+          "ДЛЯ ДВОЕТОЧИЯ"
+        ],
+        "size": 100,
+        "family": "display"
+      },
+      "body": {
+        "lines": [
+          "Причина → потому что. Пояснение →",
+          "а именно. Сначала определите",
+          "отношение частей; это не все случаи",
+          "бессоюзной связи."
+        ],
+        "size": 48,
+        "family": "sans"
+      }
+    }
+  ],
+  "elapsedSeconds": 12.59
+}

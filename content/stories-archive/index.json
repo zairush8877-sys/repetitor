@@ -1,0 +1,2033 @@
+{
+  "schemaVersion": 1,
+  "platform": "Instagram",
+  "account": "@mairova_a_a",
+  "note": "IDs are publication evidence from the saved bank, not a fresh API check. Media hashes describe locally available files; historical music/photo metadata is not inferred from current rotation.",
+  "items": [
+    {
+      "storyId": "st-01",
+      "date": "2026-08-05",
+      "content": {
+        "id": "st-01",
+        "type": "vopros",
+        "q": "Как правильно?",
+        "a": "ДоговОр",
+        "b": "ДОговор",
+        "right": "a",
+        "why": "В документе и на экзамене — только договОр.\nА «дОговор» словари помечают как разговорный."
+      },
+      "contentSha256": "7321cadffa360d7cf6ed69c2cc83bb8c15c6cd379213625f580fd53c87ddb94f",
+      "evidence": {
+        "publishedAt": "2026-08-05T15:19:09.429Z",
+        "publishedMediaIds": [
+          "18114172673475939",
+          "18110943758053497"
+        ]
+      },
+      "media": [
+        {
+          "part": 1,
+          "file": "content/stories/st-01-1.jpg",
+          "available": true,
+          "bytes": 65839,
+          "sha256": "52901287704223ddcba7fa991ce56d40c77150dfbdebd509568fda2dcdbdedda"
+        },
+        {
+          "part": 1,
+          "file": "content/stories/st-01-1.mp4",
+          "available": false
+        },
+        {
+          "part": 2,
+          "file": "content/stories/st-01-2.jpg",
+          "available": true,
+          "bytes": 72113,
+          "sha256": "d8c8ce8d6d363820421c7af0cc3176eb62ef7e02a55e6333915f9a908cd0837a"
+        },
+        {
+          "part": 2,
+          "file": "content/stories/st-01-2.mp4",
+          "available": false
+        }
+      ],
+      "editorialStatus": "requires-source-recheck-before-reuse"
+    },
+    {
+      "storyId": "st-02",
+      "date": "2026-08-06",
+      "content": {
+        "id": "st-02",
+        "type": "fakt",
+        "top": "«Каникулы»",
+        "big": "Это\nсобачка",
+        "why": "От латинского canicula — «собачка», так римляне звали Сириус.\nЛетом звезда всходила вместе с солнцем, начиналась жара — и все переставали работать."
+      },
+      "contentSha256": "c8ebf0093ae9da5461afb3504553cfe0e2ad67169af9686a912cce7493fdc822",
+      "evidence": {
+        "publishedAt": "2026-08-06T08:33:10.627Z",
+        "publishedMediaIds": [
+          "18133003558556582",
+          "18116123096486107"
+        ]
+      },
+      "media": [
+        {
+          "part": 1,
+          "file": "content/stories/st-02-1.jpg",
+          "available": true,
+          "bytes": 42269,
+          "sha256": "cd7d51b89ef0b75f8e56bcf7dc987e4e57e7559613e1b8fd3835770b7a34eb04"
+        },
+        {
+          "part": 1,
+          "file": "content/stories/st-02-1.mp4",
+          "available": false
+        },
+        {
+          "part": 2,
+          "file": "content/stories/st-02-2.jpg",
+          "available": true,
+          "bytes": 82320,
+          "sha256": "9e23b6459fb59ca11cc7e0c6ef1c0f82d8cd5759f13b6689328691a34819108c"
+        },
+        {
+          "part": 2,
+          "file": "content/stories/st-02-2.mp4",
+          "available": false
+        }
+      ],
+      "editorialStatus": "requires-source-recheck-before-reuse"
+    },
+    {
+      "storyId": "st-03",
+      "date": "2026-08-07",
+      "content": {
+        "id": "st-03",
+        "type": "vopros",
+        "q": "Метод лечения какой?",
+        "a": "эффектный",
+        "b": "эффективный",
+        "right": "b",
+        "why": "Эффективный — тот, что даёт результат.\nЭффектный — тот, что производит впечатление.",
+        "source": "Словарь паронимов, открытый банк ФИПИ; Ожегов, Шведова"
+      },
+      "contentSha256": "ef914b90ead30c89b5fa45278ae12bbef45da63ea2e89ccba16b89d980bd9de6",
+      "evidence": {
+        "publishedAt": "2026-08-07T16:16:32.274Z",
+        "publishedMediaIds": [
+          "18023093426887941",
+          "18124208449773214"
+        ]
+      },
+      "media": [
+        {
+          "part": 1,
+          "file": "content/stories/st-03-1.jpg",
+          "available": true,
+          "bytes": 70383,
+          "sha256": "7bc11609e752c4668cafa34a301e60f8ece9034736a9bb33917f02a2bff3c70c"
+        },
+        {
+          "part": 1,
+          "file": "content/stories/st-03-1.mp4",
+          "available": false
+        },
+        {
+          "part": 2,
+          "file": "content/stories/st-03-2.jpg",
+          "available": true,
+          "bytes": 85753,
+          "sha256": "f9c945cfdec45a338945138f2e75d0df1a0bf9fba45d6bd7651f56cf706782b0"
+        },
+        {
+          "part": 2,
+          "file": "content/stories/st-03-2.mp4",
+          "available": false
+        }
+      ],
+      "editorialStatus": "requires-source-recheck-before-reuse"
+    },
+    {
+      "storyId": "st-04",
+      "date": "2026-08-08",
+      "content": {
+        "id": "st-04",
+        "type": "vopros",
+        "q": "Кешбэк или кэшбек?",
+        "a": "кешбэк",
+        "b": "кэшбек",
+        "right": "a",
+        "why": "В первом слоге Е, во втором Э — так закрепил словарь РАН.\nБанки пишут по-разному, но норма с 2020 года одна.",
+        "source": "Русский орфографический словарь РАН (2020); gramota.ru/meta/keshbek"
+      },
+      "contentSha256": "3e8e5a6de8b6575fbbf2c1d08562ecd6e72c9389180587e89634d0c522b95b5f",
+      "evidence": {
+        "publishedAt": "2026-08-08T07:37:41.961Z",
+        "publishedMediaIds": [
+          "18102333337917054",
+          "18058172348520828"
+        ]
+      },
+      "media": [
+        {
+          "part": 1,
+          "file": "content/stories/st-04-1.jpg",
+          "available": true,
+          "bytes": 232772,
+          "sha256": "483722b45e54b1242f7c0e198a3cfde1016fbea56333eb6a86c25a1e4b2e6d13"
+        },
+        {
+          "part": 1,
+          "file": "content/stories/st-04-1.mp4",
+          "available": true,
+          "bytes": 275271,
+          "sha256": "ef5c403f5ec7cbfc0899a8c50b858e4a7dc18371fc60d624d94c26fb01a369ca"
+        },
+        {
+          "part": 2,
+          "file": "content/stories/st-04-2.jpg",
+          "available": true,
+          "bytes": 246099,
+          "sha256": "424317b9432bab598769e5dd38d65b091af0186c044f40bfdd5b13adc1432c67"
+        },
+        {
+          "part": 2,
+          "file": "content/stories/st-04-2.mp4",
+          "available": true,
+          "bytes": 354419,
+          "sha256": "c26887bb981a8438137300b816923b4441d61de1c0d71b2e8fd521b1732a12e6"
+        }
+      ],
+      "editorialStatus": "requires-source-recheck-before-reuse"
+    },
+    {
+      "storyId": "st-05",
+      "date": "2026-08-09",
+      "content": {
+        "id": "st-05",
+        "type": "vopros",
+        "q": "Шопинг или шоппинг?",
+        "a": "шопинг",
+        "b": "шоппинг",
+        "right": "a",
+        "why": "В словаре РАН — одна П: рядом однокоренные шоп и шоп-тур.\nТа же логика, что блог — блогер: пишем с одной П.",
+        "source": "РОС РАН; gramota.ru/meta/shoping"
+      },
+      "contentSha256": "ef7f2a5cc1784fd2da2b47c6d1b7043a91dbcd064eb2493599a2a83696112ccf",
+      "evidence": {
+        "publishedAt": "2026-08-09T07:41:43.906Z",
+        "publishedMediaIds": [
+          "18103758464463700",
+          "17863492233639576"
+        ]
+      },
+      "media": [
+        {
+          "part": 1,
+          "file": "content/stories/st-05-1.jpg",
+          "available": true,
+          "bytes": 189906,
+          "sha256": "73221329925adddc60f1d493e35574990d868b0a781289ce7caf4c7ce33fff28"
+        },
+        {
+          "part": 1,
+          "file": "content/stories/st-05-1.mp4",
+          "available": true,
+          "bytes": 222196,
+          "sha256": "e2e496e84e8954614ea25ef017f6c4bc9bc622749314d16fd074cc3e6deb6e41"
+        },
+        {
+          "part": 2,
+          "file": "content/stories/st-05-2.jpg",
+          "available": true,
+          "bytes": 217018,
+          "sha256": "67e22e22b0faad58cd29d874444b3b42078ca65537ac2d5bb24a96b1be385105"
+        },
+        {
+          "part": 2,
+          "file": "content/stories/st-05-2.mp4",
+          "available": true,
+          "bytes": 313043,
+          "sha256": "9c50714a171253d877cd0d3b3c39139de8d7852773adbc3b59506c880a4f0735"
+        }
+      ],
+      "editorialStatus": "requires-source-recheck-before-reuse"
+    },
+    {
+      "storyId": "st-06",
+      "date": "2026-08-10",
+      "content": {
+        "id": "st-06",
+        "type": "vopros",
+        "q": "«Бариста» склоняется?",
+        "a": "да, уже можно",
+        "b": "нет, нельзя",
+        "right": "b",
+        "why": "По словарю РАН бариста не склоняется: спросите у бариста.\nСклонять прощают лишь в живой речи — нормой это не стало.",
+        "source": "РОС РАН; gramota.ru/spravka/vopros/301906"
+      },
+      "contentSha256": "00eab2c2376cb8595e9b28747d4f3423ecc92c702a57108aba39af7616cd5b0c",
+      "evidence": {
+        "publishedAt": "2026-08-10T08:19:21.575Z",
+        "publishedMediaIds": [
+          "17979760656068627",
+          "18129971515570699"
+        ]
+      },
+      "media": [
+        {
+          "part": 1,
+          "file": "content/stories/st-06-1.jpg",
+          "available": true,
+          "bytes": 212975,
+          "sha256": "b01eadbaecf603338bf3a807abb87585d8dba742be5cb3fc0841a43b444e43e6"
+        },
+        {
+          "part": 1,
+          "file": "content/stories/st-06-1.mp4",
+          "available": true,
+          "bytes": 263809,
+          "sha256": "172a732b43a4d7849816ffb323c7e55965fecf2b2e7e7fc8b40bca4339fcb22d"
+        },
+        {
+          "part": 2,
+          "file": "content/stories/st-06-2.jpg",
+          "available": true,
+          "bytes": 230280,
+          "sha256": "89a56d3c3810f76ed5260f052e81eb72dfe4c562e448a21b1f85dacd396f9d0e"
+        },
+        {
+          "part": 2,
+          "file": "content/stories/st-06-2.mp4",
+          "available": true,
+          "bytes": 341826,
+          "sha256": "afada5b7e75f9f800c7d03dbbc9d071bc2d38b484c925f21b6155d3e39110d62"
+        }
+      ],
+      "editorialStatus": "requires-source-recheck-before-reuse"
+    },
+    {
+      "storyId": "st-07",
+      "date": "2026-08-11",
+      "content": {
+        "id": "st-07",
+        "type": "vopros",
+        "q": "«Доброго времени суток»?",
+        "a": "вежливая норма",
+        "b": "нарушение",
+        "right": "b",
+        "why": "Приветствие строится в именительном: добрый день, доброе утро.\n«Доброго времени суток» — гибрид из интернета 2000-х.",
+        "source": "Разборы справочной службы gramota.ru"
+      },
+      "contentSha256": "e827ddd0329ba7df24582a187ccc69ce110f7903d3707cdcde82afb385b0901b",
+      "evidence": {
+        "publishedAt": "2026-08-11T07:58:50.916Z",
+        "publishedMediaIds": [
+          "18121485160858218",
+          "18126533443707158"
+        ]
+      },
+      "media": [
+        {
+          "part": 1,
+          "file": "content/stories/st-07-1.jpg",
+          "available": true,
+          "bytes": 200980,
+          "sha256": "1d565b1b08056fc5686105d2e59fb47007c723db64281d6cf004774b17a3fff3"
+        },
+        {
+          "part": 1,
+          "file": "content/stories/st-07-1.mp4",
+          "available": true,
+          "bytes": 245726,
+          "sha256": "a8b177696ac7e785730758c93ce9797b0e0d88730148a8237a229346e5ff8b54"
+        },
+        {
+          "part": 2,
+          "file": "content/stories/st-07-2.jpg",
+          "available": true,
+          "bytes": 221612,
+          "sha256": "18fd4d7751e44e4bb1dcfc4c42351f1bc23c69c0c85a64572a8eb35cd49a2819"
+        },
+        {
+          "part": 2,
+          "file": "content/stories/st-07-2.mp4",
+          "available": true,
+          "bytes": 325243,
+          "sha256": "aaac2032208357aef218f15530faa5a8ed05eb9013ff6708e7fafcae5bdbff8f"
+        }
+      ],
+      "editorialStatus": "requires-source-recheck-before-reuse"
+    },
+    {
+      "storyId": "st-08",
+      "date": "2026-08-12",
+      "content": {
+        "id": "st-08",
+        "type": "vopros",
+        "q": "«Крайний раз» — норма?",
+        "a": "да, так вежливо",
+        "b": "нет, ошибка",
+        "right": "b",
+        "why": "«Крайний» не значит «последний» — это суеверие лётчиков.\nВне кабины самолёта «крайний раз» остаётся ошибкой.",
+        "source": "Комментарии филологов (Интерфакс, mel.fm)"
+      },
+      "contentSha256": "74ff94a81bc8b64c0b044a3617d0a765ede1b4fad1329f01ed514fa6630691be",
+      "evidence": {
+        "publishedAt": "2026-08-12T08:06:01.212Z",
+        "publishedMediaIds": [
+          "18099225224108670",
+          "18086985077654018"
+        ]
+      },
+      "media": [
+        {
+          "part": 1,
+          "file": "content/stories/st-08-1.jpg",
+          "available": true,
+          "bytes": 242337,
+          "sha256": "49c523eda453758ad7697079f2e5b47d06f2b71159b86e2fb4a0c98e7aa49965"
+        },
+        {
+          "part": 1,
+          "file": "content/stories/st-08-1.mp4",
+          "available": true,
+          "bytes": 279611,
+          "sha256": "058d05d8e9441ddbc5b7f0f2f9c308a47b0ef01c14970325fbeb6fcb0a5efd23"
+        },
+        {
+          "part": 2,
+          "file": "content/stories/st-08-2.jpg",
+          "available": true,
+          "bytes": 259261,
+          "sha256": "2c8dccdfeb5051179b23d760869e95ad9feb6cb28b08d7b68a8b98c731d106aa"
+        },
+        {
+          "part": 2,
+          "file": "content/stories/st-08-2.mp4",
+          "available": true,
+          "bytes": 355397,
+          "sha256": "734a89bd2ac1f57291172f345606aef24fb326c2d22fc76efb72542ce353ea29"
+        }
+      ],
+      "editorialStatus": "requires-source-recheck-before-reuse"
+    },
+    {
+      "storyId": "st-09",
+      "date": "2026-08-13",
+      "content": {
+        "id": "st-09",
+        "type": "vopros",
+        "q": "Пауэрбанк или павербанк?",
+        "a": "пауэрбанк",
+        "b": "павербанк",
+        "right": "a",
+        "why": "В «Академосе» с августа 2025-го закреплено: пауэрбанк.\nПавербанк и пауэр-банк словари не признают.",
+        "source": "«Академос» ИРЯ РАН, 07.08.2025"
+      },
+      "contentSha256": "284180244a88a16da9f4c2a45bc65aceef3b018b11226328afb72e36a60b60a5",
+      "evidence": {
+        "publishedAt": "2026-08-13T08:07:43.374Z",
+        "publishedMediaIds": [
+          "18096076061141144",
+          "18123398284833739"
+        ]
+      },
+      "media": [
+        {
+          "part": 1,
+          "file": "content/stories/st-09-1.jpg",
+          "available": true,
+          "bytes": 203602,
+          "sha256": "5e74493e1938a30fc57fc8e989aa07a6b7b440c74d5889f2e4025eab167b23b9"
+        },
+        {
+          "part": 1,
+          "file": "content/stories/st-09-1.mp4",
+          "available": true,
+          "bytes": 239004,
+          "sha256": "f8de4ee611e9ba0b4bb803c6ecd201546ba65cc7ac15f9eda03a78364f2741a8"
+        },
+        {
+          "part": 2,
+          "file": "content/stories/st-09-2.jpg",
+          "available": true,
+          "bytes": 225510,
+          "sha256": "a82ad365b7a6802c4264c588dda09ab42ff3f9e6c59f6d0b8176833e1a66d261"
+        },
+        {
+          "part": 2,
+          "file": "content/stories/st-09-2.mp4",
+          "available": true,
+          "bytes": 326104,
+          "sha256": "cd81d7d45cfd2ed38fde658a6d3ab16cd7b223a1e02cfa905f995cef7e61e987"
+        }
+      ],
+      "editorialStatus": "requires-source-recheck-before-reuse"
+    },
+    {
+      "storyId": "st-10",
+      "date": "2026-08-14",
+      "content": {
+        "id": "st-10",
+        "type": "vopros",
+        "q": "Шаверма — в словаре?",
+        "a": "да, с 2022 года",
+        "b": "нет, диалект",
+        "right": "a",
+        "why": "В 2022-м «Академос» внёс шаверму наравне с шаурмой.\nПитерский вариант официально стал второй нормой.",
+        "source": "«Академос» ИРЯ РАН, сентябрь 2022"
+      },
+      "contentSha256": "6151564546b360e15c80f2fbef01819a712b32876741949a5b8a9d41a4a2f184",
+      "evidence": {
+        "publishedAt": "2026-08-14T08:04:55.089Z",
+        "publishedMediaIds": [
+          "17909346579453532",
+          "18058256171983139"
+        ]
+      },
+      "media": [
+        {
+          "part": 1,
+          "file": "content/stories/st-10-1.jpg",
+          "available": true,
+          "bytes": 202504,
+          "sha256": "c11f28b7dde47583a99c28acd172addada5f224482a28a7e2c4a47d39203455f"
+        },
+        {
+          "part": 1,
+          "file": "content/stories/st-10-1.mp4",
+          "available": true,
+          "bytes": 234768,
+          "sha256": "877adb70e22287b7222241f325f1dbc1e61d640deec4c2e2a359f5fb0345ee6f"
+        },
+        {
+          "part": 2,
+          "file": "content/stories/st-10-2.jpg",
+          "available": true,
+          "bytes": 217869,
+          "sha256": "5f2da7012390342091008ea5214d442c30d3e82974a5bf442268d54765d29ac1"
+        },
+        {
+          "part": 2,
+          "file": "content/stories/st-10-2.mp4",
+          "available": true,
+          "bytes": 311312,
+          "sha256": "4f77bfce3632dae3c02259f3fb6cfa9e50fd76e757ca32d47715892eccd3f8d8"
+        }
+      ],
+      "editorialStatus": "requires-source-recheck-before-reuse"
+    },
+    {
+      "storyId": "st-11",
+      "date": "2026-08-15",
+      "content": {
+        "id": "st-11",
+        "type": "vopros",
+        "q": "«Моё кофе» — можно?",
+        "a": "да, разговорно",
+        "b": "нет, только он",
+        "right": "a",
+        "why": "С 2009 года словари из перечня допускают средний род (разг.).\nВ строгой письменной речи кофе по-прежнему только мужской.",
+        "source": "Приказ Минобрнауки №195 (2009); словари из перечня"
+      },
+      "contentSha256": "9cd850291c446e97848a6d8b2f462a34831e81b7e8ef6747f23a5c5de2eef171",
+      "evidence": {
+        "publishedAt": "2026-08-15T07:18:25.067Z",
+        "publishedMediaIds": [
+          "18194416204385627",
+          "18223642351325743"
+        ]
+      },
+      "media": [
+        {
+          "part": 1,
+          "file": "content/stories/st-11-1.jpg",
+          "available": true,
+          "bytes": 212227,
+          "sha256": "b19124d8eb4297ce67c6b31e30a0fdb6528a3af0452e45ded3d4f1fde983a0f9"
+        },
+        {
+          "part": 1,
+          "file": "content/stories/st-11-1.mp4",
+          "available": true,
+          "bytes": 257633,
+          "sha256": "d91f60e65eeb2419fc8920d6169325142577defd0116a2c19003be932c19cfcf"
+        },
+        {
+          "part": 2,
+          "file": "content/stories/st-11-2.jpg",
+          "available": true,
+          "bytes": 233230,
+          "sha256": "470a662948efc4a7e84faaf60182bcb35e63b9f255193709c6cdacf11b91b5cb"
+        },
+        {
+          "part": 2,
+          "file": "content/stories/st-11-2.mp4",
+          "available": true,
+          "bytes": 334130,
+          "sha256": "a1d58faac8897d57e27600598ecd26fc78a2645cef96b6f8fd600276fee6ae8a"
+        }
+      ],
+      "editorialStatus": "requires-source-recheck-before-reuse"
+    },
+    {
+      "storyId": "st-12",
+      "date": "2026-08-16",
+      "content": {
+        "id": "st-12",
+        "type": "vopros",
+        "q": "Вывеска Ozon латиницей?",
+        "a": "можно оставить",
+        "b": "нет, кириллицей",
+        "right": "a",
+        "why": "Зарегистрированный товарный знак — прямое исключение из закона.\nС 1 марта 2026 меню и вывески — на русском, но бренды остаются.",
+        "source": "Закон №168-ФЗ от 24.06.2025; обзоры kontur.ru, sovcombank"
+      },
+      "contentSha256": "7a607525609c865fd49a74720879c08d7b1c7037e7a974900f4ed314c392b3a1",
+      "evidence": {
+        "publishedAt": "2026-08-16T07:20:24.210Z",
+        "publishedMediaIds": [
+          "17953081125230857",
+          "18111270038047385"
+        ]
+      },
+      "media": [
+        {
+          "part": 1,
+          "file": "content/stories/st-12-1.jpg",
+          "available": true,
+          "bytes": 201614,
+          "sha256": "e5070639fa25e47abca9e9925dc006c1ff5d0f388c30758db1ef471421c869df"
+        },
+        {
+          "part": 1,
+          "file": "content/stories/st-12-1.mp4",
+          "available": true,
+          "bytes": 253788,
+          "sha256": "9be83d26f2d1318fb4b6ada92db0bf80b8ab7065bc0166cdfcf1bae5d517f313"
+        },
+        {
+          "part": 2,
+          "file": "content/stories/st-12-2.jpg",
+          "available": true,
+          "bytes": 221295,
+          "sha256": "d2d3cb4fce240a43b3ce555db3cd5667e78858b93ccf4ceca13d823bd283716a"
+        },
+        {
+          "part": 2,
+          "file": "content/stories/st-12-2.mp4",
+          "available": true,
+          "bytes": 330531,
+          "sha256": "758980205ef749a98612386c7ac94395cda82e450a176436c3676bcb2411306b"
+        }
+      ],
+      "editorialStatus": "requires-source-recheck-before-reuse"
+    },
+    {
+      "storyId": "st-13",
+      "date": "2026-08-17",
+      "content": {
+        "id": "st-13",
+        "type": "fakt",
+        "top": "Год назад",
+        "big": "657 слов\nза один день",
+        "why": "7 августа 2025 в словарь РАН вошли смузи, тиктокер, пауэрбанк.\nА ещё личка, движуха, раф и даже едальня — всё официально.",
+        "source": "«Академос» ИРЯ РАН, 07.08.2025; gramota.ru, rg.ru, meduza.io"
+      },
+      "contentSha256": "90ed16c5deb37280c5b10f430647e1d53723235636b8a025d6d2b570f45e2264",
+      "evidence": {
+        "publishedAt": "2026-08-17T07:40:15.673Z",
+        "publishedMediaIds": [
+          "18028875158668863",
+          "17944370931281289"
+        ]
+      },
+      "media": [
+        {
+          "part": 1,
+          "file": "content/stories/st-13-1.jpg",
+          "available": true,
+          "bytes": 256788,
+          "sha256": "7d53017b20e8a8841bc1822d7a383ee679bd43ff540bc5794641927e3e091f99"
+        },
+        {
+          "part": 1,
+          "file": "content/stories/st-13-1.mp4",
+          "available": true,
+          "bytes": 289940,
+          "sha256": "8cc5af85b609fbb97b3a72c67dbf5410b86c5b415e6b49b71d76b89d678ac5ff"
+        },
+        {
+          "part": 2,
+          "file": "content/stories/st-13-2.jpg",
+          "available": true,
+          "bytes": 275619,
+          "sha256": "4f6719205cac64a4e2fb4eaa2d547430ad4278fbf0fe0eccacdde8334ff279de"
+        },
+        {
+          "part": 2,
+          "file": "content/stories/st-13-2.mp4",
+          "available": true,
+          "bytes": 369888,
+          "sha256": "519a35814891d81649abd5a077d0fbc67f57fc329d121560c6819e2849e058fe"
+        }
+      ],
+      "editorialStatus": "requires-source-recheck-before-reuse"
+    },
+    {
+      "storyId": "st-14",
+      "date": "2026-08-18",
+      "content": {
+        "id": "st-14",
+        "type": "fakt",
+        "top": "Итоги голосования",
+        "big": "«Зумер» —\nслово 2025 года",
+        "why": "42% голосов — у «зумера», следом «выгорание» и «ред-флаг».\nСлово года по версии Грамоты.ру объявили 11 декабря 2025.",
+        "source": "gramota.ru; ria.ru, 11.12.2025"
+      },
+      "contentSha256": "a8c7de4724c46c14bd87a48d7ecb19244cba439a12dcc09547cce6d7392329ba",
+      "evidence": {
+        "publishedAt": "2026-08-18T07:25:57.352Z",
+        "publishedMediaIds": [
+          "17984653146048225",
+          "18103702717903392"
+        ]
+      },
+      "media": [
+        {
+          "part": 1,
+          "file": "content/stories/st-14-1.jpg",
+          "available": true,
+          "bytes": 224464,
+          "sha256": "6b575cffaa3024b2f1c60feb708f440ae4e0640fffd072f1ea101bf06462774a"
+        },
+        {
+          "part": 1,
+          "file": "content/stories/st-14-1.mp4",
+          "available": true,
+          "bytes": 273109,
+          "sha256": "e1a035fff9250ce6fefde779913b8f31ab5e312306e2d4028423b291ba931c9a"
+        },
+        {
+          "part": 2,
+          "file": "content/stories/st-14-2.jpg",
+          "available": true,
+          "bytes": 233634,
+          "sha256": "fe09b70943ea4397412ad5d372b4dacbddf9074c098867d2034e516e8dffeae3"
+        },
+        {
+          "part": 2,
+          "file": "content/stories/st-14-2.mp4",
+          "available": true,
+          "bytes": 339592,
+          "sha256": "6383881892c13ad86c3eafc6238c8a30723f5c60d5fa65e5b4f6b18453b87c32"
+        }
+      ],
+      "editorialStatus": "requires-source-recheck-before-reuse"
+    },
+    {
+      "storyId": "st-15",
+      "date": "2026-08-19",
+      "content": {
+        "id": "st-15",
+        "type": "fakt",
+        "top": "Новости словаря",
+        "big": "«Незамерзайка»\nтеперь в словаре",
+        "why": "18 мая 2026 «Академос» принял 84 слова: постить, запостить.\nНезамерзайка и самопиар — тоже официально словарные.",
+        "source": "«Академос», 18.05.2026; комментарий Владимира Пахомова, ИРЯ РАН"
+      },
+      "contentSha256": "10f4dc93688dbeaaafd91a40e0da4b6d6ed3a04f313c7a97ae657c4c59bb1f13",
+      "evidence": {
+        "publishedAt": "2026-08-19T07:26:28.318Z",
+        "publishedMediaIds": [
+          "18085713110453554",
+          "18153177190505872"
+        ]
+      },
+      "media": [
+        {
+          "part": 1,
+          "file": "content/stories/st-15-1.jpg",
+          "available": true,
+          "bytes": 280969,
+          "sha256": "a9bc380cb5dc16c73f3e405736150b11fa4a45856cbc7a3360744bb056735774"
+        },
+        {
+          "part": 1,
+          "file": "content/stories/st-15-1.mp4",
+          "available": true,
+          "bytes": 307336,
+          "sha256": "1d37becdb5c89c5c34baf61028106f6ad5e8be9ecab9d6dede7e94b063da301d"
+        },
+        {
+          "part": 2,
+          "file": "content/stories/st-15-2.jpg",
+          "available": true,
+          "bytes": 285152,
+          "sha256": "e64dd596f4a1f089ec49c8d7cacc30ccfadb31417db06b533625f2dbe123a660"
+        },
+        {
+          "part": 2,
+          "file": "content/stories/st-15-2.mp4",
+          "available": true,
+          "bytes": 380217,
+          "sha256": "af325a6327894392976c5386243c0636dc8c5df9a8351c07afc9f12256b062fe"
+        }
+      ],
+      "editorialStatus": "requires-source-recheck-before-reuse"
+    },
+    {
+      "storyId": "st-16",
+      "date": "2026-08-20",
+      "content": {
+        "id": "st-16",
+        "type": "fakt",
+        "top": "Спор в кофейне закрыт",
+        "big": "Один капучино =\nодно капучино",
+        "why": "Грамота.ру признаёт оба рода у капучино и латте равноправными.\nПоправлять чужой заказ больше нет никаких оснований.",
+        "source": "gramota.ru, ответ №278345"
+      },
+      "contentSha256": "ea5251970640ddea325a5144d7ea1dc541d51abf12bf3ea5eac36d9295d5f291",
+      "evidence": {
+        "publishedAt": "2026-08-20T07:28:53.736Z",
+        "publishedMediaIds": [
+          "17892908958405072",
+          "18001089183002560"
+        ]
+      },
+      "media": [
+        {
+          "part": 1,
+          "file": "content/stories/st-16-1.jpg",
+          "available": true,
+          "bytes": 68922,
+          "sha256": "31cb02234ccc3a7cbdee110d072ae52576b2bde97f70af05056e9dd7c2a91b5d"
+        },
+        {
+          "part": 1,
+          "file": "content/stories/st-16-1.mp4",
+          "available": true,
+          "bytes": 142346,
+          "sha256": "fb92c7a245cd67cd919122794146448f2ef57b2c3600e12d4d909b4555a1802c"
+        },
+        {
+          "part": 2,
+          "file": "content/stories/st-16-2.jpg",
+          "available": true,
+          "bytes": 95203,
+          "sha256": "a49bacb0737c44f08d8fd1b4cb28256c940df198c5c73d9f905227c7358275a7"
+        },
+        {
+          "part": 2,
+          "file": "content/stories/st-16-2.mp4",
+          "available": true,
+          "bytes": 217269,
+          "sha256": "657de17e51c0d5adbb46898a7831b82cfafe29f6583846f781592cce67430e99"
+        }
+      ],
+      "editorialStatus": "requires-source-recheck-before-reuse"
+    },
+    {
+      "storyId": "st-17",
+      "date": "2026-08-21",
+      "content": {
+        "id": "st-17",
+        "type": "vopros",
+        "q": "Маркет-плейс. Ошибка?",
+        "a": "да, слитно",
+        "b": "нет, дефис верен",
+        "right": "a",
+        "why": "РОС РАН фиксирует слитное написание: «маркетплейс».\nДефис из английского market place в русский не перешёл.",
+        "source": "Русский орфографический словарь РАН; gramota.ru"
+      },
+      "contentSha256": "452238b1ae85ed407a48bdba51096f4f288ff8b7ecb6a14ce1518807d34e34fc",
+      "evidence": {
+        "publishedAt": "2026-08-21T07:30:24.293Z",
+        "publishedMediaIds": [
+          "17886289623455656",
+          "17991480579009969"
+        ]
+      },
+      "media": [
+        {
+          "part": 1,
+          "file": "content/stories/st-17-1.jpg",
+          "available": true,
+          "bytes": 224294,
+          "sha256": "f8aa76de0af3ecf6c3c09cb9f649ac01c1b42d4be7059321e2f3f2966b4bb284"
+        },
+        {
+          "part": 1,
+          "file": "content/stories/st-17-1.mp4",
+          "available": true,
+          "bytes": 266855,
+          "sha256": "f1672e14d18564682f36fbe2dc1af1d310eeb1610b6f90ff863cb7809915d728"
+        },
+        {
+          "part": 2,
+          "file": "content/stories/st-17-2.jpg",
+          "available": true,
+          "bytes": 238029,
+          "sha256": "7601c99c911871a81195ff1aec38efcce472c0fd89c2ed42ee8a07489a7c0a03"
+        },
+        {
+          "part": 2,
+          "file": "content/stories/st-17-2.mp4",
+          "available": true,
+          "bytes": 346047,
+          "sha256": "83c89d7aff820cd6a6b2aaf98b31ae1f7263ce2df6c8f630e854d6c80093aced"
+        }
+      ],
+      "editorialStatus": "requires-source-recheck-before-reuse"
+    },
+    {
+      "storyId": "st-18",
+      "date": "2026-08-22",
+      "content": {
+        "id": "st-18",
+        "type": "vopros",
+        "q": "Идёте на стенд-ап?",
+        "a": "так и пишется",
+        "b": "стендап, слитно",
+        "right": "b",
+        "why": "Жанр пишется слитно: «стендап» — так в Метасловаре Грамоты.\nНо «стендап-комик» — уже через дефис, как сложное слово.",
+        "source": "gramota.ru, Метасловарь"
+      },
+      "contentSha256": "ea43ddbf19636298f29c5f354669c2e74e61687935ec4384bccb4a2339e96c28",
+      "evidence": {
+        "publishedAt": "2026-08-22T08:07:52.719Z",
+        "publishedMediaIds": [
+          "18373176004225570",
+          "18011794068084630"
+        ]
+      },
+      "media": [
+        {
+          "part": 1,
+          "file": "content/stories/st-18-1.jpg",
+          "available": true,
+          "bytes": 179772,
+          "sha256": "8613a058f21ce7f8ac79e9c6a475204c84fdcdad1e149e296b6c016f8f16671a"
+        },
+        {
+          "part": 1,
+          "file": "content/stories/st-18-1.mp4",
+          "available": true,
+          "bytes": 235549,
+          "sha256": "e59b5fb9b4b472f28901e9f65fdec006c2b85f69c2bfc384f920d4b29e0a27bd"
+        },
+        {
+          "part": 2,
+          "file": "content/stories/st-18-2.jpg",
+          "available": true,
+          "bytes": 198512,
+          "sha256": "e33a38899b47368b29940c1052e51b87e0d74552dcc6778d8b289ccf08be79db"
+        },
+        {
+          "part": 2,
+          "file": "content/stories/st-18-2.mp4",
+          "available": true,
+          "bytes": 313668,
+          "sha256": "30c31c7df7bc1464323f8a4717031ef08ada665eaaf79dfd8236ffeadd352fb6"
+        }
+      ],
+      "editorialStatus": "requires-source-recheck-before-reuse"
+    },
+    {
+      "storyId": "st-19",
+      "date": "2026-08-23",
+      "content": {
+        "id": "st-19",
+        "type": "fakt",
+        "top": "Выбор Грамоты.ру",
+        "big": "«ВАЙБ» —\nслово года",
+        "why": "На голосовании Грамоты.ру «вайб» набрал 256 голосов.\nВторое место — «скуф», третье — «прилёт». Ноябрь 2024-го.",
+        "source": "gramota.ru, итоги конкурса «Слово года — 2024»"
+      },
+      "contentSha256": "0792851e424fdcce56199f004c3c6946ec06dbe0e27c35780a39cdaa1fd27aac",
+      "evidence": {
+        "publishedAt": "2026-08-23T07:21:49.724Z",
+        "publishedMediaIds": [
+          "17908368177467137",
+          "18118330057809888"
+        ]
+      },
+      "media": [
+        {
+          "part": 1,
+          "file": "content/stories/st-19-1.jpg",
+          "available": true,
+          "bytes": 60836,
+          "sha256": "db4ae5a641c9e4c7d6ca65bb5924fddcb3cdb389f95b1a0c81e04b66d27b547c"
+        },
+        {
+          "part": 1,
+          "file": "content/stories/st-19-1.mp4",
+          "available": true,
+          "bytes": 128506,
+          "sha256": "21a25dede58329849654456f5e1801926e8adef19c0cb8923488b5dee830ea94"
+        },
+        {
+          "part": 2,
+          "file": "content/stories/st-19-2.jpg",
+          "available": true,
+          "bytes": 83610,
+          "sha256": "0d6b75735eec0b678992b243417e1ebe6228ae102d7a02698943271aebd248b6"
+        },
+        {
+          "part": 2,
+          "file": "content/stories/st-19-2.mp4",
+          "available": true,
+          "bytes": 201434,
+          "sha256": "731e281fccac4adfcbf14eff7f235285cdf6d36e947034c25cb7f8231ea45f3b"
+        }
+      ],
+      "editorialStatus": "requires-source-recheck-before-reuse"
+    },
+    {
+      "storyId": "st-20",
+      "date": "2026-08-24",
+      "content": {
+        "id": "st-20",
+        "type": "vopros",
+        "q": "100 грамм — ошибка?",
+        "a": "да, граммов",
+        "b": "нет, оба верны",
+        "right": "b",
+        "why": "С числительными верна счётная форма: сто грамм (Грамота.ру).\n«Граммов» тоже верно — обе формы равноправны в этой позиции.",
+        "source": "gramota.ru (счётная форма существительных)"
+      },
+      "contentSha256": "c49d4bbc54776983735d245d30244ded9f39e2629a3916c111e105733622a07c",
+      "evidence": {
+        "publishedAt": "2026-08-24T07:46:37.171Z",
+        "publishedMediaIds": [
+          "17911198629452548",
+          "17960239755194791"
+        ]
+      },
+      "media": [
+        {
+          "part": 1,
+          "file": "content/stories/st-20-1.jpg",
+          "available": true,
+          "bytes": 243564,
+          "sha256": "5b505a7e3b23be75e6c08da9d5c8c473e60cb77362c198f75343e4ef88f1f934"
+        },
+        {
+          "part": 1,
+          "file": "content/stories/st-20-1.mp4",
+          "available": true,
+          "bytes": 283581,
+          "sha256": "be8325a08e4d278593b3a1716d1849166f28015149a4f7157ef612f9f3380006"
+        },
+        {
+          "part": 2,
+          "file": "content/stories/st-20-2.jpg",
+          "available": true,
+          "bytes": 260030,
+          "sha256": "725c64120a3305e7fa3aaa63bf630a6f8b2194502acf4e9ab151fe3050d63f8a"
+        },
+        {
+          "part": 2,
+          "file": "content/stories/st-20-2.mp4",
+          "available": true,
+          "bytes": 361052,
+          "sha256": "56804b2a3dfeef798764f015f028acec1bcbb6a2a9a2b2945750df38665ea0d4"
+        }
+      ],
+      "editorialStatus": "requires-source-recheck-before-reuse"
+    },
+    {
+      "storyId": "st-21",
+      "date": "2026-08-25",
+      "content": {
+        "id": "st-21",
+        "type": "fakt",
+        "top": "Новое в «Академосе»",
+        "big": "«ЗАПОСТИТЬ»\nв словаре",
+        "why": "Весной 2026 «Академос» пополнили 51 статьёй: постить, запостить.\nТам же — «перепостить», «самопиар» и другие сетевые слова.",
+        "source": "gramota.ru, пополнение «Академоса» 07.04.2026"
+      },
+      "contentSha256": "acdd06fca5fb52df80e705c2883d2d098443611985ba3cf1a1aeb81a78647483",
+      "evidence": {
+        "publishedAt": "2026-08-25T07:32:59.050Z",
+        "publishedMediaIds": [
+          "17952105864251286",
+          "18035118857829294"
+        ]
+      },
+      "media": [
+        {
+          "part": 1,
+          "file": "content/stories/st-21-1.jpg",
+          "available": true,
+          "bytes": 68110,
+          "sha256": "365a5278899390c01262a6b491b5136fb02539cbcb24048d7b949dcbf6d1bbce"
+        },
+        {
+          "part": 1,
+          "file": "content/stories/st-21-1.mp4",
+          "available": true,
+          "bytes": 131703,
+          "sha256": "fc51caac84496fb73e11b826764a90cfa2e52165ceed3d7f4e18c7500b42bb61"
+        },
+        {
+          "part": 2,
+          "file": "content/stories/st-21-2.jpg",
+          "available": true,
+          "bytes": 91119,
+          "sha256": "2e1c065eb38d0c8b8d3d8267c65c3410e5b1e3c477ebc2a4836f38fe3e7989db"
+        },
+        {
+          "part": 2,
+          "file": "content/stories/st-21-2.mp4",
+          "available": true,
+          "bytes": 204977,
+          "sha256": "2d6385f4299f708901a896aed92c9386c24b01ed961f358bca1cce7347cd42d5"
+        }
+      ],
+      "editorialStatus": "requires-source-recheck-before-reuse"
+    },
+    {
+      "storyId": "st-22",
+      "date": "2026-08-26",
+      "content": {
+        "id": "st-22",
+        "type": "vopros",
+        "q": "«Кликабельный» — норма?",
+        "a": "да, словарное",
+        "b": "пока жаргон",
+        "right": "a",
+        "why": "«Кликабельный» внесён в «Академос» — словарь ИРЯ РАН — в 2026-м.\nВ том же пакете из 51 слова — «гранола», «виниры», «предзаказ».",
+        "source": "«Академос», пополнение 07.04.2026; gramota.ru"
+      },
+      "contentSha256": "a651dd12b3eb049af0896ab248bdfd37d3e6188974271d6d1af69f340e0a00e3",
+      "evidence": {
+        "publishedAt": "2026-08-26T07:34:04.287Z",
+        "publishedMediaIds": [
+          "18619086307050197",
+          "18344057497255705"
+        ]
+      },
+      "media": [
+        {
+          "part": 1,
+          "file": "content/stories/st-22-1.jpg",
+          "available": true,
+          "bytes": 223027,
+          "sha256": "f24c08a0ed1ffe764c2165a7ca2b1ac078833ea66a44cc270435b214b0382273"
+        },
+        {
+          "part": 1,
+          "file": "content/stories/st-22-1.mp4",
+          "available": true,
+          "bytes": 270652,
+          "sha256": "639e0aeca6a27a80a6f3d0ed8bee00b2b0af182b55758f0a9bf2f5bdd2d8c650"
+        },
+        {
+          "part": 2,
+          "file": "content/stories/st-22-2.jpg",
+          "available": true,
+          "bytes": 236860,
+          "sha256": "5885f1012035170aa43cedf6ba9f55e77edc6899bb13fe5dea1e43375e7e79c7"
+        },
+        {
+          "part": 2,
+          "file": "content/stories/st-22-2.mp4",
+          "available": true,
+          "bytes": 344922,
+          "sha256": "5c263fcbf8c0b6d9584eab8d5dac70afafe724270b4fa1a3c34b1b626025c745"
+        }
+      ],
+      "editorialStatus": "requires-source-recheck-before-reuse"
+    },
+    {
+      "storyId": "st-23",
+      "date": "2026-08-27",
+      "content": {
+        "id": "st-23",
+        "type": "vopros",
+        "q": "«Безвиз» — можно писать?",
+        "a": "можно, словарное",
+        "b": "нет, разговорное",
+        "right": "a",
+        "why": "«Безвиз» кодифицирован — внесён в словарь «Академос» в 2026-м.\nИз новостного словечка стал полноправным словарным словом.",
+        "source": "«Академос», пополнение 07.04.2026"
+      },
+      "contentSha256": "9526fcd2acc383c028f053573c708baeda9ab51f905df2db2a810dc6891d9cfa",
+      "evidence": {
+        "publishedAt": "2026-08-27T17:57:12.234Z",
+        "publishedMediaIds": [
+          "18366897652214001",
+          "18106244246132057"
+        ]
+      },
+      "media": [
+        {
+          "part": 1,
+          "file": "content/stories/st-23-1.jpg",
+          "available": true,
+          "bytes": 186959,
+          "sha256": "1e11a648647e328cf47e731ce0d6d8e46b39ab43b4e744f26f037a9d3bc584ab"
+        },
+        {
+          "part": 1,
+          "file": "content/stories/st-23-1.mp4",
+          "available": true,
+          "bytes": 226928,
+          "sha256": "8601a47366a03e78a83f05ec69f0e56e0a918d443e3bff23e3555f7ee4767aeb"
+        },
+        {
+          "part": 2,
+          "file": "content/stories/st-23-2.jpg",
+          "available": true,
+          "bytes": 208001,
+          "sha256": "78e52e74c64352b4e15b62071e1c985cd9274cfb751bce1e0297a2bb38e34b3d"
+        },
+        {
+          "part": 2,
+          "file": "content/stories/st-23-2.mp4",
+          "available": true,
+          "bytes": 307530,
+          "sha256": "23299f913479b85e3a2a0ac258f85ad3f9ad0c25adb72b6ecdf22d0a7c72b78c"
+        }
+      ],
+      "editorialStatus": "requires-source-recheck-before-reuse"
+    },
+    {
+      "storyId": "st-39",
+      "date": "2026-08-28",
+      "content": {
+        "id": "st-39",
+        "type": "fakt",
+        "top": "Новая рубрика",
+        "big": "Присылайте\nсвои фразы",
+        "why": "Вывеска, объявление, письмо из школы — что режет глаз.\nПо пятницам разбираю присланное. Пишите в директ.",
+        "source": "Анонс рубрики «Разбор присланного»; фактических утверждений не содержит"
+      },
+      "contentSha256": "8961ad2d784b9f7d6c0ecf1685cbbf293e6872bca92dca261adf2dfdb9a6ece7",
+      "evidence": {
+        "publishedAt": "2026-08-28T19:02:43.278Z",
+        "publishedMediaIds": [
+          "18212478835351843",
+          "18439968778120790"
+        ]
+      },
+      "media": [
+        {
+          "part": 1,
+          "file": "content/stories/st-39-1.jpg",
+          "available": true,
+          "bytes": 217381,
+          "sha256": "4a9d5bde7f8f54198d528d24ad470cab06cf361f4af05721c661cc291fc595be"
+        },
+        {
+          "part": 1,
+          "file": "content/stories/st-39-1.mp4",
+          "available": true,
+          "bytes": 249613,
+          "sha256": "4ecd1ddd569859f90181abf2639b1cad52dc000faf2260f758c7bd5ef08e5e29"
+        },
+        {
+          "part": 2,
+          "file": "content/stories/st-39-2.jpg",
+          "available": true,
+          "bytes": 223855,
+          "sha256": "b23d5eba4dc20c4ccac0f12ef8c001c98990919d7605c8c0f8f30bc01fd1bd77"
+        },
+        {
+          "part": 2,
+          "file": "content/stories/st-39-2.mp4",
+          "available": true,
+          "bytes": 320836,
+          "sha256": "16712f35f51c08c2fc854c7193f47c0f0ac9c4f272fe3b237556666f6609af18"
+        }
+      ],
+      "editorialStatus": "requires-source-recheck-before-reuse"
+    },
+    {
+      "storyId": "st-24",
+      "date": "2026-08-29",
+      "content": {
+        "id": "st-24",
+        "type": "fakt",
+        "top": "Это не опечатка",
+        "big": "«ЕДАЛЬНЯ» —\nсловарное",
+        "why": "С 7 августа 2025 «едальня» — в словаре «Академос» РАН.\nИроничное слово про кафе прошло академическую проверку.",
+        "source": "gramota.ru, «Академос», пакет от 07.08.2025"
+      },
+      "contentSha256": "2680fff6b32f2d4b0c741724af102977a1a9317672ffcddedf33c482e152c6c0",
+      "evidence": {
+        "publishedAt": "2026-08-29T12:52:38.972Z",
+        "publishedMediaIds": [
+          "17931425538384792",
+          "17903485440514267"
+        ]
+      },
+      "media": [
+        {
+          "part": 1,
+          "file": "content/stories/st-24-1.jpg",
+          "available": true,
+          "bytes": 228224,
+          "sha256": "1eb1e8e9e57fb1f02a0e3a442a8b85cd93df416a053595012c247ba479c40e84"
+        },
+        {
+          "part": 1,
+          "file": "content/stories/st-24-1.mp4",
+          "available": true,
+          "bytes": 270880,
+          "sha256": "fae19157043a9f863bc66bb7ee8b0095c9e029830a7c5884a1645bf3f25089cb"
+        },
+        {
+          "part": 2,
+          "file": "content/stories/st-24-2.jpg",
+          "available": true,
+          "bytes": 237842,
+          "sha256": "6677ad3a9f1ebcdab5eb4e572f29bc8b3c21b8c86511a5363ce1ee40d6b3cee5"
+        },
+        {
+          "part": 2,
+          "file": "content/stories/st-24-2.mp4",
+          "available": true,
+          "bytes": 340810,
+          "sha256": "b1fb6fe4b6cc29bf59217a2fd353b8b7c89c051308be469e3980bfd230accfd9"
+        }
+      ],
+      "editorialStatus": "requires-source-recheck-before-reuse"
+    },
+    {
+      "storyId": "st-25",
+      "date": "2026-08-30",
+      "content": {
+        "id": "st-25",
+        "type": "vopros",
+        "q": "«Дистант» — это…",
+        "a": "школьный сленг",
+        "b": "словарное слово",
+        "right": "b",
+        "why": "«Дистант» — в орфографическом словаре «Академос» с 2026 года.\nКовидное словечко пережило пандемию и получило прописку.",
+        "source": "«Академос», пополнение 07.04.2026"
+      },
+      "contentSha256": "f5883a82a49db5e203d250bc37ca11c28a822f3597312ce4f79b61bb119df664",
+      "evidence": {
+        "publishedAt": "2026-08-30T12:18:29.638Z",
+        "publishedMediaIds": [
+          "18583086142070270",
+          "18115056688971480"
+        ]
+      },
+      "media": [
+        {
+          "part": 1,
+          "file": "content/stories/st-25-1.jpg",
+          "available": true,
+          "bytes": 71937,
+          "sha256": "0c98320165999fe64343107b1ffb47b321709339fb1bcbca51df6b43ab6c3795"
+        },
+        {
+          "part": 1,
+          "file": "content/stories/st-25-1.mp4",
+          "available": true,
+          "bytes": 128280,
+          "sha256": "95faed124fe93d9a00a58835d1fffe5e4cb60b12f82b9c1003205a18bcc5bb06"
+        },
+        {
+          "part": 2,
+          "file": "content/stories/st-25-2.jpg",
+          "available": true,
+          "bytes": 105419,
+          "sha256": "57f58d16d2744485ecee3d3655d311e63e3d7d3cea5aec4f2f625f84a1333af5"
+        },
+        {
+          "part": 2,
+          "file": "content/stories/st-25-2.mp4",
+          "available": true,
+          "bytes": 215865,
+          "sha256": "d5315b2fc169de26f4d6163d481677fa9f7d0268a08d764dcefc49029b93b270"
+        }
+      ],
+      "editorialStatus": "requires-source-recheck-before-reuse"
+    },
+    {
+      "storyId": "st-26",
+      "date": "2026-08-31",
+      "content": {
+        "id": "st-26",
+        "type": "fakt",
+        "top": "Они уже в словаре",
+        "big": "АВАТАРКА\nИ ДОНАТ",
+        "why": "20 ноября 2024 «Академос» вырос почти на 400 слов.\nСреди них: аватарка, донат, амбассадор и даже «антидронный».",
+        "source": "gramota.ru, «Академос», обновление 20.11.2024"
+      },
+      "contentSha256": "9b2e61c58c8c37340b884bc01786bd217c2c0ff76ec3bbca83a82d58a66ce743",
+      "evidence": {
+        "publishedAt": "2026-08-31T14:29:28.913Z",
+        "publishedMediaIds": [
+          "18106342877150323",
+          "18119371108929026"
+        ]
+      },
+      "media": [
+        {
+          "part": 1,
+          "file": "content/stories/st-26-1.jpg",
+          "available": true,
+          "bytes": 206089,
+          "sha256": "872a2776dab84daeb49dbeb83f794dd5da5b96aab3272842ab942af5bda7073d"
+        },
+        {
+          "part": 1,
+          "file": "content/stories/st-26-1.mp4",
+          "available": true,
+          "bytes": 257259,
+          "sha256": "08eb076ad0f476f10e07c0976cdcca05e02008999b861fcbcb625b72c19c73f1"
+        },
+        {
+          "part": 2,
+          "file": "content/stories/st-26-2.jpg",
+          "available": true,
+          "bytes": 223302,
+          "sha256": "5aee92f530916ad7e74edbadfa4e4ada40965235c3a5fb1cea7200e9b41408c7"
+        },
+        {
+          "part": 2,
+          "file": "content/stories/st-26-2.mp4",
+          "available": true,
+          "bytes": 333401,
+          "sha256": "8d8031e56aa44daf7bfff8293053c27a8b8a3419a566e9e89447d4b628b3504d"
+        }
+      ],
+      "editorialStatus": "requires-source-recheck-before-reuse"
+    },
+    {
+      "storyId": "st-27",
+      "date": "2026-09-01",
+      "content": {
+        "id": "st-27",
+        "type": "vopros",
+        "q": "«Нелицеприятный» — это?",
+        "a": "беспристрастный",
+        "b": "резкий, обидный",
+        "right": "a",
+        "why": "Словарь: «беспристрастный, справедливый» — от «лицеприятия».\n«Нелицеприятная критика» — честная, а не злая.",
+        "source": "Большой толковый словарь (метасловарь Грамоты.ру, ст. «нелицеприятный»): книжн. «беспристрастный, справедливый»"
+      },
+      "contentSha256": "60599dacd0b5171d8d3834776b37134d14becb33d237e4ec63548ae0d4ac7220",
+      "evidence": {
+        "publishedAt": "2026-09-01T12:04:46.423Z",
+        "publishedMediaIds": [
+          "18111048404100690",
+          "17879539602687909"
+        ]
+      },
+      "media": [
+        {
+          "part": 1,
+          "file": "content/stories/st-27-1.jpg",
+          "available": true,
+          "bytes": 252078,
+          "sha256": "fb6cfa5239a3ee2aba8b9e725c8c08d190e478172d4ac4780fe965d7fd1ccafa"
+        },
+        {
+          "part": 1,
+          "file": "content/stories/st-27-1.mp4",
+          "available": true,
+          "bytes": 272815,
+          "sha256": "396f998e8bb5269c1368b4a26e1bd638d652d3f1e6923b78b6ec727b201e3182"
+        },
+        {
+          "part": 2,
+          "file": "content/stories/st-27-2.jpg",
+          "available": true,
+          "bytes": 260981,
+          "sha256": "e103dfa69a9e033aa6601120cd23472bb291e50efed8cd6298040e5a623d5a8e"
+        },
+        {
+          "part": 2,
+          "file": "content/stories/st-27-2.mp4",
+          "available": true,
+          "bytes": 356546,
+          "sha256": "2832d76c9c8d88b683220e1773dc39caa22acb5c0bf15f2d5bf8635945a0cf4f"
+        }
+      ],
+      "editorialStatus": "requires-source-recheck-before-reuse"
+    },
+    {
+      "storyId": "st-28",
+      "date": "2026-09-02",
+      "content": {
+        "id": "st-28",
+        "type": "vopros",
+        "q": "«Довлеть» — исходно?",
+        "a": "быть достаточным",
+        "b": "давить, гнести",
+        "right": "a",
+        "why": "Старое значение — «быть достаточным»: довлеет дневи злоба его.\nСмысл «давить» словари дают с пометой «разговорное».",
+        "source": "Большой толковый словарь (Грамота.ру): 1. книжн. устар. «быть достаточным»; 2. разг. «господствовать, тяготеть над кем-, чем-л.»; цитата — Мф. 6:34"
+      },
+      "contentSha256": "c04af9c42c4bdbc5c3fa68cae1007591853ec13047028e2dbe2b4581e42dfe39",
+      "evidence": {
+        "publishedAt": "2026-09-02T11:46:11.070Z",
+        "publishedMediaIds": [
+          "18059048882546015",
+          "18141728272570837"
+        ]
+      },
+      "media": [
+        {
+          "part": 1,
+          "file": "content/stories/st-28-1.jpg",
+          "available": true,
+          "bytes": 207332,
+          "sha256": "973d02c200042cf65ed75c3e336825cd80ac8896f34fa2d2999b8cda23fcab20"
+        },
+        {
+          "part": 1,
+          "file": "content/stories/st-28-1.mp4",
+          "available": true,
+          "bytes": 237335,
+          "sha256": "db2fd98ce78a93f470e7e81670d76c22f0805b549e2586c62acd46a2e91fc036"
+        },
+        {
+          "part": 2,
+          "file": "content/stories/st-28-2.jpg",
+          "available": true,
+          "bytes": 222157,
+          "sha256": "809c3c92fcb20702545b43d84967a91c0ddf36b0a62b0cdc8a29aad1ad9c53bc"
+        },
+        {
+          "part": 2,
+          "file": "content/stories/st-28-2.mp4",
+          "available": true,
+          "bytes": 315551,
+          "sha256": "121bc2b72609521d49fd1bc80c7b667e2ec6240d05fb76064973ff98a40f1c64"
+        }
+      ],
+      "editorialStatus": "requires-source-recheck-before-reuse"
+    },
+    {
+      "storyId": "st-29",
+      "date": "2026-09-03",
+      "content": {
+        "id": "st-29",
+        "type": "vopros",
+        "q": "«Одиозный» — какой?",
+        "a": "знаменитый",
+        "b": "отвратительный",
+        "right": "b",
+        "why": "Латинское odiosus — «ненавистный». Словарь: «крайне неприятный».\n«Одиозная фигура» — не «известная», а вызывающая неприязнь.",
+        "source": "Большой толковый словарь (Грамота.ру): «вызывающий крайне отрицательное отношение к себе, неприятный»; лат. odiosus «ненавистный»"
+      },
+      "contentSha256": "3210bf2f44b1f58a58b0fe6bdb66f8b3467f0cbc8b2e076bdb199f7493ae6003",
+      "evidence": {
+        "publishedAt": "2026-09-03T11:45:32.792Z",
+        "publishedMediaIds": [
+          "18095156336082448",
+          "18205066639367242"
+        ]
+      },
+      "media": [
+        {
+          "part": 1,
+          "file": "content/stories/st-29-1.jpg",
+          "available": true,
+          "bytes": 77371,
+          "sha256": "b8883924a58a1cbb983dc2e48b419a7bac6613f45cad5a3ecd4f8fd5a05ec2af"
+        },
+        {
+          "part": 1,
+          "file": "content/stories/st-29-1.mp4",
+          "available": true,
+          "bytes": 131907,
+          "sha256": "e1c50035e4ee75303ff8bd7e9ad669085c007b4bf60f7e36dfb122bb90ef44d3"
+        },
+        {
+          "part": 2,
+          "file": "content/stories/st-29-2.jpg",
+          "available": true,
+          "bytes": 105365,
+          "sha256": "4827a2b480d12aa5ccb978f78d61083d7c9f164d94eddaf0a417b7b24e613b09"
+        },
+        {
+          "part": 2,
+          "file": "content/stories/st-29-2.mp4",
+          "available": true,
+          "bytes": 214249,
+          "sha256": "700210cbb0f26809816b13905d8789c0749a5069146c7490115edfc1a0e87c85"
+        }
+      ],
+      "editorialStatus": "requires-source-recheck-before-reuse"
+    },
+    {
+      "storyId": "st-30",
+      "date": "2026-09-04",
+      "content": {
+        "id": "st-30",
+        "type": "vopros",
+        "q": "«Прелесть» встарь — это?",
+        "a": "обман, соблазн",
+        "b": "красота, милота",
+        "right": "a",
+        "why": "«Прелесть» — от «лесть»: обман, морок, соблазн.\n«Прелестные письма» Разина — это призывы к бунту.",
+        "source": "Словарь Даля: прелесть — мана, морока, обман, соблазн; ист. термин «прелестные письма (грамоты)» — воззвания Разина и Пугачёва; корень — ст.-сл. льсть «обман, коварство»"
+      },
+      "contentSha256": "c86995bc2b69891e2fd930fd18601ef181df701820722a29560aa838d23601a7",
+      "evidence": {
+        "publishedAt": "2026-09-04T11:52:03.639Z",
+        "publishedMediaIds": [
+          "18072537944725976",
+          "18092794994431851"
+        ]
+      },
+      "media": [
+        {
+          "part": 1,
+          "file": "content/stories/st-30-1.jpg",
+          "available": true,
+          "bytes": 78548,
+          "sha256": "c21624081dfef5f7345a17952aaa853baf2dc4eb7510265d250600cb908efe03"
+        },
+        {
+          "part": 1,
+          "file": "content/stories/st-30-1.mp4",
+          "available": true,
+          "bytes": 142541,
+          "sha256": "9ce94b126d34d3714cf312fc392e7b3a5c5f14dfd84094427220ea56b46e1812"
+        },
+        {
+          "part": 2,
+          "file": "content/stories/st-30-2.jpg",
+          "available": true,
+          "bytes": 98066,
+          "sha256": "9cdd72da60e157c7e9df43d57db499b74aa82f65b1d88870de3b2fa1427f46f0"
+        },
+        {
+          "part": 2,
+          "file": "content/stories/st-30-2.mp4",
+          "available": true,
+          "bytes": 222540,
+          "sha256": "d31ca01a9c0732f70aede56a9a4979b11c87c3d03090a0b54d55b3fec98d333f"
+        }
+      ],
+      "editorialStatus": "requires-source-recheck-before-reuse"
+    },
+    {
+      "storyId": "st-31",
+      "date": "2026-09-05",
+      "content": {
+        "id": "st-31",
+        "type": "vopros",
+        "q": "Неделя — это сколько?",
+        "a": "семь дней",
+        "b": "один день",
+        "right": "b",
+        "why": "«Не-деля» — день, когда не делают дел: воскресенье.\nПонедельник — день ПО неделе, то есть после выходного.",
+        "source": "Фасмер, ст. «неделя»: первонач. «нерабочий день, воскресенье» (не + дело); «понедельник» — день после воскресенья"
+      },
+      "contentSha256": "778675ff2d97eebb2458c05d7cab8fce6b32ff3145143fb7aa2e5be4449a0ac8",
+      "evidence": {
+        "publishedAt": "2026-09-05T10:57:37.719Z",
+        "publishedMediaIds": [
+          "18453716353187908",
+          "18366357136213720"
+        ]
+      },
+      "media": [
+        {
+          "part": 1,
+          "file": "content/stories/st-31-1.jpg",
+          "available": true,
+          "bytes": 68448,
+          "sha256": "2476ac92d4c4f61e47c4279f6ca41fe99194c10235c14c275b9f027d1308b1cd"
+        },
+        {
+          "part": 1,
+          "file": "content/stories/st-31-1.mp4",
+          "available": true,
+          "bytes": 127968,
+          "sha256": "868022d7ac1dea65c2b412f00937d4d8f03dafdedc559ec5b349129d880bc47e"
+        },
+        {
+          "part": 2,
+          "file": "content/stories/st-31-2.jpg",
+          "available": true,
+          "bytes": 88991,
+          "sha256": "96039f6dfe4fe993faba9802142f91b0e4b8d3ce4ec81402826990cca0027d07"
+        },
+        {
+          "part": 2,
+          "file": "content/stories/st-31-2.mp4",
+          "available": true,
+          "bytes": 202761,
+          "sha256": "c07d8e331acb0073a67d5ab81acebbacc7592bf27b6589f6d3a63df3ae887759"
+        }
+      ],
+      "editorialStatus": "requires-source-recheck-before-reuse"
+    },
+    {
+      "storyId": "st-32",
+      "date": "2026-09-06",
+      "content": {
+        "id": "st-32",
+        "type": "vopros",
+        "q": "Что значило «позорище»?",
+        "a": "зрелище",
+        "b": "жуткий стыд",
+        "right": "a",
+        "why": "«Позорище» — старое слово для зрелища, спектакля.\nПозор — родня «взору»: то, что выставлено на обозрение.",
+        "source": "Фасмер, ст. «позор» (к зьрѣти, ср. взор, чеш. pozor «внимание»); Даль: позорище — зрелище, спектакль, место зрелищ"
+      },
+      "contentSha256": "d6de687bce3c9f443f0922a6514d88acbed11ee5fe4b036fc7572b00d00929d3",
+      "evidence": {
+        "publishedAt": "2026-09-06T11:23:15.756Z",
+        "publishedMediaIds": [
+          "17985451242056847",
+          "18074880518430604"
+        ]
+      },
+      "media": [
+        {
+          "part": 1,
+          "file": "content/stories/st-32-1.jpg",
+          "available": true,
+          "bytes": 244053,
+          "sha256": "6496f744f95ca814b9c75baf4ec913f13d39fca707aaccc90a53605f8282a5bc"
+        },
+        {
+          "part": 1,
+          "file": "content/stories/st-32-1.mp4",
+          "available": true,
+          "bytes": 282412,
+          "sha256": "68d2b05c6a2687913576ff4e65e95e8616ca7c7acb32b493fe738144697dbb0e"
+        },
+        {
+          "part": 2,
+          "file": "content/stories/st-32-2.jpg",
+          "available": true,
+          "bytes": 248129,
+          "sha256": "8c8d17258efb3d806ff68a71f397139ac9177ded0338c2d5913790caeca91d2f"
+        },
+        {
+          "part": 2,
+          "file": "content/stories/st-32-2.mp4",
+          "available": true,
+          "bytes": 353312,
+          "sha256": "4f5cd9d14ce1b645653532528cbb6b64591a2563f11000ed5710a0647c23d647"
+        }
+      ],
+      "editorialStatus": "requires-source-recheck-before-reuse"
+    },
+    {
+      "storyId": "st-33",
+      "date": "2026-09-07",
+      "content": {
+        "id": "st-33",
+        "type": "vopros",
+        "q": "Компот из слив — какой?",
+        "a": "слИвовый",
+        "b": "сливОвый",
+        "right": "a",
+        "why": "Ударение на И: слИвовый — как слИва, сдвига нет.\nСловари дают только этот вариант, «вишнёвый» тут не подсказчик.",
+        "source": "«Русское словесное ударение» Зарвы и метасловарь Грамоты.ру: сли́вовый — единственный нормативный вариант"
+      },
+      "contentSha256": "c5f39749b6573d9c1a613ccb6294e88967011738bfddbfd66b751d1ee27c6b8d",
+      "evidence": {
+        "publishedAt": "2026-09-07T13:04:33.759Z",
+        "publishedMediaIds": [
+          "18140309599612142",
+          "18112593080083460"
+        ]
+      },
+      "media": [
+        {
+          "part": 1,
+          "file": "content/stories/st-33-1.jpg",
+          "available": true,
+          "bytes": 199454,
+          "sha256": "1d663e97b9634b3d1ae6f9b3c9e8ff7b37e8c0eba8c1bd0587e4a3794a405481"
+        },
+        {
+          "part": 1,
+          "file": "content/stories/st-33-1.mp4",
+          "available": true,
+          "bytes": 222067,
+          "sha256": "0ce490c19b3ace52741cabf8e23c14892d63994fa9856283fffeae3c6ca0670f"
+        },
+        {
+          "part": 2,
+          "file": "content/stories/st-33-2.jpg",
+          "available": true,
+          "bytes": 227264,
+          "sha256": "62c0dbda6ea701371136044eedc37d521f985d768af66a40cb0ebc050b8106c6"
+        },
+        {
+          "part": 2,
+          "file": "content/stories/st-33-2.mp4",
+          "available": true,
+          "bytes": 317075,
+          "sha256": "8708d4b16a196736a52f966f4e3c9ebf7d3835dd345981c131f3cd3a1fefa60b"
+        }
+      ],
+      "editorialStatus": "requires-source-recheck-before-reuse"
+    },
+    {
+      "storyId": "st-34",
+      "date": "2026-09-08",
+      "content": {
+        "id": "st-34",
+        "type": "vopros",
+        "q": "Ударение: мусоропровод?",
+        "a": "мусоропровОд",
+        "b": "мусоропрОвод",
+        "right": "a",
+        "why": "Норма одна: мусоропровОд — как газопровОд, нефтепровОд.\n«ПрОвод» — это шнур, а «-провОд» — то, что проводит.",
+        "source": "«Русское словесное ударение» Зарвы, метасловарь Грамоты.ру: мусоропрово́д — единственный вариант"
+      },
+      "contentSha256": "152b5a76d4d491ee4328c0e1c3181226ac640f04837c9ff886d89c2d7f079a58",
+      "evidence": {
+        "publishedAt": "2026-09-08T11:47:20.003Z",
+        "publishedMediaIds": [
+          "18120310330904841",
+          "18114880135781346"
+        ]
+      },
+      "media": [
+        {
+          "part": 1,
+          "file": "content/stories/st-34-1.jpg",
+          "available": true,
+          "bytes": 89201,
+          "sha256": "e0b0e5c1004197519c7cb8d44e51a62443a1ed0f91ba43bdabf8cba89e774fd4"
+        },
+        {
+          "part": 1,
+          "file": "content/stories/st-34-1.mp4",
+          "available": true,
+          "bytes": 149020,
+          "sha256": "1c08a5227043c3a5c8c3fe638d1a976d12c5b40e86f26c3000b7f579620635cc"
+        },
+        {
+          "part": 2,
+          "file": "content/stories/st-34-2.jpg",
+          "available": true,
+          "bytes": 104634,
+          "sha256": "f31dac4594255794174155c5a0557e1d2602e39fd339de0ea0c28b1d6e3572e7"
+        },
+        {
+          "part": 2,
+          "file": "content/stories/st-34-2.mp4",
+          "available": true,
+          "bytes": 224743,
+          "sha256": "3fcc6d507f33e0f00fdcc2caad552fbf01323df69afd4e5f057e17436ea5d894"
+        }
+      ],
+      "editorialStatus": "requires-source-recheck-before-reuse"
+    },
+    {
+      "storyId": "st-35",
+      "date": "2026-09-09",
+      "content": {
+        "id": "st-35",
+        "type": "fakt",
+        "top": "Кого звали «врачом»",
+        "big": "От слова\n«врать»",
+        "why": "Фасмер: врач — от «врать» (тогда — «говорить») и «ворчать».\nПервичный смысл — «заклинатель», тот, кто лечит словом.",
+        "source": "Этимологический словарь Фасмера, ст. «врач»: от врать/ворчать, первонач. знач. «заклинатель, колдун», ср. болг. врач «колдун»"
+      },
+      "contentSha256": "01289f683ebcdd4b33ff1ce2d144b2fc13db89a6111549cea0a395e7ba32c11b",
+      "evidence": {
+        "publishedAt": "2026-09-09T11:55:24.099Z",
+        "publishedMediaIds": [
+          "17927971602162522",
+          "18142418998574294"
+        ]
+      },
+      "media": [
+        {
+          "part": 1,
+          "file": "content/stories/st-35-1.jpg",
+          "available": true,
+          "bytes": 204509,
+          "sha256": "28c7828e96d003d09eb1cb6e21873447ca56d67a83316fb1537b9cdc8af653f0"
+        },
+        {
+          "part": 1,
+          "file": "content/stories/st-35-1.mp4",
+          "available": true,
+          "bytes": 257584,
+          "sha256": "b8777a175a5328f19f755bc4c399dfb487a3ecd585265e9aa19c43006f6c1676"
+        },
+        {
+          "part": 2,
+          "file": "content/stories/st-35-2.jpg",
+          "available": true,
+          "bytes": 224943,
+          "sha256": "3ba85ea2f7033da0c603bbfbf0a1a43d443451152d9bb052d7e577acbef9eafd"
+        },
+        {
+          "part": 2,
+          "file": "content/stories/st-35-2.mp4",
+          "available": true,
+          "bytes": 336536,
+          "sha256": "50e69fb7ccaa6f8f6c5086ec1f64ba9a6e43a7170a428e7bcb201432e8b32f7a"
+        }
+      ],
+      "editorialStatus": "requires-source-recheck-before-reuse"
+    },
+    {
+      "storyId": "st-36",
+      "date": "2026-09-10",
+      "content": {
+        "id": "st-36",
+        "type": "fakt",
+        "top": "Подушка — под ушко?",
+        "big": "Скорее\n«надутая»",
+        "why": "Фасмер: от корня «дух / дуть» — буквально «надутая».\n«Под ухо» словарь называет народной этимологией.",
+        "source": "Фасмер, ст. «подушка»: к «дух», *duti «дуть», буквально «надутое»; версию «под» + «ухо» словарь помечает как народную этимологию"
+      },
+      "contentSha256": "a13d5692f6060f938628fb3afb9e9c9bddd5d07b20da7c5a3ba97d774dd9c3de",
+      "evidence": {
+        "publishedAt": "2026-09-10T11:52:34.966Z",
+        "publishedMediaIds": [
+          "17888091897456727",
+          "18205355485365652"
+        ]
+      },
+      "media": [
+        {
+          "part": 1,
+          "file": "content/stories/st-36-1.jpg",
+          "available": true,
+          "bytes": 251462,
+          "sha256": "061cc43254595b52f9845c56c63fed70a472f7da18596421d32b1c00f6802a6c"
+        },
+        {
+          "part": 1,
+          "file": "content/stories/st-36-1.mp4",
+          "available": true,
+          "bytes": 294100,
+          "sha256": "fd8d326f26ae42de8e70fa2e816805f8281f0c4ff7f6d87bc3d9cff228cdc4bc"
+        },
+        {
+          "part": 2,
+          "file": "content/stories/st-36-2.jpg",
+          "available": true,
+          "bytes": 263971,
+          "sha256": "8501018fa0621178a87df14399b8d6ef4c7cdf911ab657280c997ea9dce7a448"
+        },
+        {
+          "part": 2,
+          "file": "content/stories/st-36-2.mp4",
+          "available": true,
+          "bytes": 365225,
+          "sha256": "781878fb820371575df57bfe13a9fdf0126991d609e0d336a7bf19edf40eb5ec"
+        }
+      ],
+      "editorialStatus": "requires-source-recheck-before-reuse"
+    },
+    {
+      "storyId": "st-37",
+      "date": "2026-09-11",
+      "content": {
+        "id": "st-37",
+        "type": "fakt",
+        "top": "Спор из деловых писем",
+        "big": "Запятая\nнужна",
+        "why": "Правилами она не предусмотрена — это традиция письма.\nСправочник Грамоты фиксирует: «С уважением, Анна».",
+        "source": "«Справочник по пунктуации» Грамоты.ру, статья «с уважением»: сочетание традиционно отделяется от подписи запятой"
+      },
+      "contentSha256": "4a05359137efcae8ce8bf3a62e414a734435925f1cd6da8ffa52f4be377e9cc1",
+      "evidence": {
+        "publishedAt": "2026-09-11T11:51:17.625Z",
+        "publishedMediaIds": [
+          "17883819876492277",
+          "17981265567096569"
+        ]
+      },
+      "media": [
+        {
+          "part": 1,
+          "file": "content/stories/st-37-1.jpg",
+          "available": true,
+          "bytes": 220604,
+          "sha256": "4a45dbbe51b121601de803675b906f4652e710b294917fa1d588aceb57167219"
+        },
+        {
+          "part": 1,
+          "file": "content/stories/st-37-1.mp4",
+          "available": true,
+          "bytes": 264731,
+          "sha256": "9b073d13013bfe53660ee331d7664a5123affbc76198559d7681d47515bae219"
+        },
+        {
+          "part": 2,
+          "file": "content/stories/st-37-2.jpg",
+          "available": true,
+          "bytes": 242686,
+          "sha256": "e0c3c352cdfefefae6285dda39c7daff24705cc3e28de1d19eede500708adfaf"
+        },
+        {
+          "part": 2,
+          "file": "content/stories/st-37-2.mp4",
+          "available": true,
+          "bytes": 344930,
+          "sha256": "6084637e741b29e042d73eeda417d8e974360fc3f7b6d5ad013cb084da73cf74"
+        }
+      ],
+      "editorialStatus": "requires-source-recheck-before-reuse"
+    },
+    {
+      "storyId": "st-38",
+      "date": "2026-09-12",
+      "content": {
+        "id": "st-38",
+        "type": "fakt",
+        "top": "1 сентября, к слову",
+        "big": "«Урок» —\nэто налог",
+        "why": "Фасмер: урок — от «рек-»: уговор, условие, назначенное.\n«Уроки» княгини Ольги — это фиксированный размер дани.",
+        "source": "Фасмер, ст. «урок» (у- + реку́, речь; первонач. «условие, уговор, установленная плата»); «Повесть временных лет»: Ольга «устави уроки и погосты»"
+      },
+      "contentSha256": "51fc100c58638db8b39002a908201fb0f2bb455ef18dffe4fa10455774e7a0d7",
+      "evidence": {
+        "publishedAt": "2026-09-12T11:17:43.576Z",
+        "publishedMediaIds": [
+          "18015247340740866",
+          "18053872007572728"
+        ]
+      },
+      "media": [
+        {
+          "part": 1,
+          "file": "content/stories/st-38-1.jpg",
+          "available": true,
+          "bytes": 61715,
+          "sha256": "c85b5e971393baf6c345fa463cba0455f722c14559ee5a703c5bd3bf50dcdd2a"
+        },
+        {
+          "part": 1,
+          "file": "content/stories/st-38-1.mp4",
+          "available": true,
+          "bytes": 139766,
+          "sha256": "3e8cd34492f50f2892b067b3def4f18d2ea4eb1a08384c228163bb3015a272b6"
+        },
+        {
+          "part": 2,
+          "file": "content/stories/st-38-2.jpg",
+          "available": true,
+          "bytes": 90017,
+          "sha256": "c3b8773ceb1a1700157c4dec4bb2a0a2287b1f813f6ef8f09dea35f3ffa48513"
+        },
+        {
+          "part": 2,
+          "file": "content/stories/st-38-2.mp4",
+          "available": true,
+          "bytes": 215055,
+          "sha256": "1d05187af3c5cb11680cb4d2fe8e2f5ae838517a9fde17e8e8b1c018396ccdc0"
+        }
+      ],
+      "editorialStatus": "requires-source-recheck-before-reuse"
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "renderer": "offline Pillow + FFmpeg; not Remotion export",
+  "pillowVersion": "12.3.0",
+  "file": "reels/2026-09-26-ege-deeprichastie.mp4",
+  "sha256": "d12a4bd512a836e6e06a9081c145e0ba9df58ace48f7d581ce5ba3a3da606c8c",
+  "bytes": 12258623,
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "duration": 30,
+  "audioCodec": "aac",
+  "audioSource": "content/music/bach-goldberg-var1-ishizaka.mp3",
+  "audioSha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8",
+  "audioStartSeconds": 0,
+  "volume": 0.75,
+  "audioFadeInSeconds": 0.1,
+  "audioFadeOutSeconds": 0.5,
+  "photoSource": "assets/photos/exam-v1/ege-deeprichastie.png",
+  "photoSha256": "3b2764b0ad2e435559b4044082aa0519e8118399cd6d47a513d5cd12f538f95f",
+  "fontWeight": 600,
+  "fallbackFont": "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
+  "fallbackFontSha256": "d72db21f9242aedd6b917d8549ad5921766b24d5f8d0becfda2ff4c620b3c2e0",
+  "configSha256": "8f29636b7fd3a488a7b3fba13aac8b947731ebf2a73d5643db791025fb1f4f75",
+  "layouts": [
+    {
+      "index": 0,
+      "height": 1920,
+      "top": 310,
+      "bodyTop": 739.76,
+      "textEnd": 879.12,
+      "safeEnd": 1630,
+      "creditTop": 1450,
+      "last": false,
+      "title": {
+        "lines": [
+          "КНИГА",
+          "ПРОЧИТАЛА",
+          "СЕБЯ?"
+        ],
+        "size": 116,
+        "family": "display"
+      },
+      "body": {
+        "lines": [
+          "Ошибка: «Прочитав рассказ,",
+          "книга вернулась на полку»."
+        ],
+        "size": 52,
+        "family": "sans"
+      }
+    },
+    {
+      "index": 1,
+      "height": 1920,
+      "top": 310,
+      "bodyTop": 479.92,
+      "textEnd": 619.28,
+      "safeEnd": 1630,
+      "creditTop": 1450,
+      "last": false,
+      "title": {
+        "lines": [
+          "КТО ПРОЧИТАЛ?"
+        ],
+        "size": 116,
+        "family": "display"
+      },
+      "body": {
+        "lines": [
+          "Человек. Но в предложении",
+          "подлежащее — книга."
+        ],
+        "size": 52,
+        "family": "sans"
+      }
+    },
+    {
+      "index": 2,
+      "height": 1920,
+      "top": 310,
+      "bodyTop": 609.84,
+      "textEnd": 749.2,
+      "safeEnd": 1630,
+      "creditTop": 1450,
+      "last": false,
+      "title": {
+        "lines": [
+          "ВЕРНЁМ",
+          "ЧИТАТЕЛЯ"
+        ],
+        "size": 116,
+        "family": "display"
+      },
+      "body": {
+        "lines": [
+          "«Прочитав рассказ, я вернул",
+          "книгу на полку»."
+        ],
+        "size": 52,
+        "family": "sans"
+      }
+    },
+    {
+      "index": 3,
+      "height": 1920,
+      "top": 310,
+      "bodyTop": 609.84,
+      "textEnd": 749.2,
+      "safeEnd": 1630,
+      "creditTop": 1450,
+      "last": false,
+      "title": {
+        "lines": [
+          "ДВА ДЕЙСТВИЯ",
+          "— ОДНО ЛИЦО"
+        ],
+        "size": 116,
+        "family": "display"
+      },
+      "body": {
+        "lines": [
+          "Я прочитал рассказ. Я вернул",
+          "книгу. Теперь конструкция верна."
+        ],
+        "size": 52,
+        "family": "sans"
+      }
+    },
+    {
+      "index": 4,
+      "height": 1920,
+      "top": 310,
+      "bodyTop": 609.84,
+      "textEnd": 818.8800000000001,
+      "safeEnd": 1415,
+      "creditTop": 1450,
+      "last": true,
+      "title": {
+        "lines": [
+          "ПРОВЕРКА ДЛЯ",
+          "ЕГЭ"
+        ],
+        "size": 116,
+        "family": "display"
+      },
+      "body": {
+        "lines": [
+          "В этой конструкции найдите",
+          "подлежащее. Проверьте: оно",
+          "выполняет оба действия?"
+        ],
+        "size": 52,
+        "family": "sans"
+      }
+    }
+  ],
+  "elapsedSeconds": 79.73
+}

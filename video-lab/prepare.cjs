@@ -37,4 +37,18 @@ for (const [sourceDir, targetDir, files] of [
 }
 fs.copyFileSync(path.join(root, 'content/music/light-easy-lemon.mp3'), path.join(__dirname, 'remotion/public/music.mp3'));
 fs.copyFileSync(path.join(root, 'content/music/bach-goldberg-var1-ishizaka.mp3'), path.join(__dirname, 'remotion/public/classical.mp3'));
+const examFile = path.join(__dirname, 'exam-bank.json');
+const examSource = fs.existsSync(examFile) ? JSON.parse(fs.readFileSync(examFile, 'utf8')) : [];
+const examBank = Array.isArray(examSource) ? examSource : examSource.posts;
+if (!Array.isArray(examBank)) throw new Error('exam-bank.json: ожидается массив posts');
+for (const post of examBank) {
+  const slug = post.photoSlug || post.slug;
+  if (!/^[a-zA-Z0-9_-]+$/.test(slug)) throw new Error('Неверное имя фотографии экзаменационного банка');
+  const input = path.join(root, 'assets/photos/exam-v1', `${slug}.png`);
+  if (!fs.existsSync(input)) throw new Error(`Не готов обязательный исходник: ${input}`);
+  const target = path.join(__dirname, 'remotion/public/photos/exam-v1', `${slug}.png`);
+  fs.mkdirSync(path.dirname(target), {recursive: true});
+  fs.copyFileSync(input, target);
+}
+fs.writeFileSync(path.join(__dirname, 'remotion/src/exam-bank.json'), JSON.stringify(examBank, null, 2) + '\n');
 console.log(JSON.stringify({copied: 2, sourceHashVerified: true, queueUnchanged: true}));

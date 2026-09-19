@@ -1,0 +1,757 @@
+{
+  "version": 1,
+  "posts": {
+    "2026-09-26-ege-deeprichastie": {
+      "kind": "reel_frame",
+      "sourceKey": "f2196428ce93bd953b3837db1d559680f67d052f7d46470fcdc2140addb772db",
+      "renderedAt": "2026-09-20T02:25:39.623Z",
+      "publicationStatus": "export_only",
+      "assets": [
+        {
+          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reels/2026-09-26-ege-deeprichastie-frame.jpg",
+          "file": "2026-09-26-ege-deeprichastie-1.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reposts/2026-09-26-ege-deeprichastie-1.jpg",
+          "width": 1080,
+          "height": 1920,
+          "sha256": "6c79bc80943f6a66dc6fd3147aee433f6a84e2445aad2597faf1a0a31f7a05db",
+          "geometry": {
+            "sourceWidth": 1080,
+            "sourceHeight": 1920,
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "outputWidth": 1080,
+            "outputHeight": 1920,
+            "sourceSha256": "8e7f7986b216d495dfe7b11462e2da876095e9fb5b5bc5bccf436154a7115306",
+            "sha256": "6c79bc80943f6a66dc6fd3147aee433f6a84e2445aad2597faf1a0a31f7a05db"
+          }
+        }
+      ]
+    },
+    "2026-09-27-oge-kazhetsya": {
+      "kind": "reel_frame",
+      "sourceKey": "ec67ffeb883128d9d7a23cad5abe48407521924e279a5a4ad9e986ca96b17e9c",
+      "renderedAt": "2026-09-20T02:25:39.623Z",
+      "publicationStatus": "export_only",
+      "assets": [
+        {
+          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reels/2026-09-27-oge-kazhetsya-frame.jpg",
+          "file": "2026-09-27-oge-kazhetsya-1.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reposts/2026-09-27-oge-kazhetsya-1.jpg",
+          "width": 1080,
+          "height": 1920,
+          "sha256": "8c7b230bb644bec48d5c7d36e95b0046560a96bc8e395d1aa75899d4138c7094",
+          "geometry": {
+            "sourceWidth": 1080,
+            "sourceHeight": 1920,
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "outputWidth": 1080,
+            "outputHeight": 1920,
+            "sourceSha256": "670328eca608e83b57f41f2ae95406e237a48ac9d601335ded41cf4dc8ea1448",
+            "sha256": "8c7b230bb644bec48d5c7d36e95b0046560a96bc8e395d1aa75899d4138c7094"
+          }
+        }
+      ]
+    },
+    "2026-09-28-ege-nesmotrya": {
+      "kind": "carousel_slides",
+      "sourceKey": "35354470d2ac7ffdd6b2b3b53aef38fe8ca2c718c71f1ef69fe27367c827ed05",
+      "renderedAt": "2026-09-20T02:25:39.623Z",
+      "publicationStatus": "export_only",
+      "assets": [
+        {
+          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-09-28-ege-nesmotrya-1.jpg",
+          "file": "2026-09-28-ege-nesmotrya-1.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reposts/2026-09-28-ege-nesmotrya-1.jpg",
+          "width": 1080,
+          "height": 1920,
+          "sha256": "d9d3815dd78f56f97d162d3bde9f70d3a4f2681d5fc751cd89e92fd086f5cbd6",
+          "geometry": {
+            "sourceWidth": 1080,
+            "sourceHeight": 1350,
+            "x": 90,
+            "y": 447,
+            "width": 900,
+            "height": 1125,
+            "outputWidth": 1080,
+            "outputHeight": 1920,
+            "sourceSha256": "553d1a209ec040b46ebc7f8c3bb4897202f00076e3350544bee033cc6973160e",
+            "sha256": "d9d3815dd78f56f97d162d3bde9f70d3a4f2681d5fc751cd89e92fd086f5cbd6"
+          }
+        },
+        {
+          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-09-28-ege-nesmotrya-2.jpg",
+          "file": "2026-09-28-ege-nesmotrya-2.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reposts/2026-09-28-ege-nesmotrya-2.jpg",
+          "width": 1080,
+          "height": 1920,
+          "sha256": "7f6c97112c0395174620b676f14a2b04b6db14273169c4b81d082d818b025b04",
+          "geometry": {
+            "sourceWidth": 1080,
+            "sourceHeight": 1350,
+            "x": 90,
+            "y": 447,
+            "width": 900,
+            "height": 1125,
+            "outputWidth": 1080,
+            "outputHeight": 1920,
+            "sourceSha256": "aff055889edf37b812de3869f853ab521e914ff275f171f7fb78fbba87d48f44",
+            "sha256": "7f6c97112c0395174620b676f14a2b04b6db14273169c4b81d082d818b025b04"
+          }
+        },
+        {
+          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-09-28-ege-nesmotrya-3.jpg",
+          "file": "2026-09-28-ege-nesmotrya-3.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reposts/2026-09-28-ege-nesmotrya-3.jpg",
+          "width": 1080,
+          "height": 1920,
+          "sha256": "fab157eb4289e077e24687537b81ed70d3164ffed10ff31b1e2e97deba98cdab",
+          "geometry": {
+            "sourceWidth": 1080,
+            "sourceHeight": 1350,
+            "x": 90,
+            "y": 447,
+            "width": 900,
+            "height": 1125,
+            "outputWidth": 1080,
+            "outputHeight": 1920,
+            "sourceSha256": "4f0d16dcd8b3fd5693227af7cce35d55b4b0770d818309cc6017bb9085403130",
+            "sha256": "fab157eb4289e077e24687537b81ed70d3164ffed10ff31b1e2e97deba98cdab"
+          }
+        },
+        {
+          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-09-28-ege-nesmotrya-4.jpg",
+          "file": "2026-09-28-ege-nesmotrya-4.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reposts/2026-09-28-ege-nesmotrya-4.jpg",
+          "width": 1080,
+          "height": 1920,
+          "sha256": "2d1da67a08180fb82b14f0d169957262600f846a847a2e5f7e4f71a6d698bbf5",
+          "geometry": {
+            "sourceWidth": 1080,
+            "sourceHeight": 1350,
+            "x": 90,
+            "y": 447,
+            "width": 900,
+            "height": 1125,
+            "outputWidth": 1080,
+            "outputHeight": 1920,
+            "sourceSha256": "8bc82a9a3fa4d8bdb78e281d845a20ac4250f3eedd101190359ce8ca99a1cf92",
+            "sha256": "2d1da67a08180fb82b14f0d169957262600f846a847a2e5f7e4f71a6d698bbf5"
+          }
+        }
+      ]
+    },
+    "2026-09-29-oge-svetaet": {
+      "kind": "reel_frame",
+      "sourceKey": "838c41f9e1a793fb1d6483d98cc3dedb94c6f6bad18af32941f8d3800f7c777d",
+      "renderedAt": "2026-09-20T02:25:39.623Z",
+      "publicationStatus": "export_only",
+      "assets": [
+        {
+          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reels/2026-09-29-oge-svetaet-frame.jpg",
+          "file": "2026-09-29-oge-svetaet-1.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reposts/2026-09-29-oge-svetaet-1.jpg",
+          "width": 1080,
+          "height": 1920,
+          "sha256": "6c2f8edc6fc0bfae7f37cdaee12b79a03222fa1902dc12686cc7b310afe2732a",
+          "geometry": {
+            "sourceWidth": 1080,
+            "sourceHeight": 1920,
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "outputWidth": 1080,
+            "outputHeight": 1920,
+            "sourceSha256": "7fe026b92b27ede12513395322b8a20d87f56f2812dfacfefa5ed4025e40d0fe",
+            "sha256": "6c2f8edc6fc0bfae7f37cdaee12b79a03222fa1902dc12686cc7b310afe2732a"
+          }
+        }
+      ]
+    },
+    "2026-09-30-ege-ne-kto": {
+      "kind": "reel_frame",
+      "sourceKey": "21b33211364a9a1717d6444d76186db5b3540d8c139b8dba886e15c896f0f650",
+      "renderedAt": "2026-09-20T02:25:39.623Z",
+      "publicationStatus": "export_only",
+      "assets": [
+        {
+          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reels/2026-09-30-ege-ne-kto-frame.jpg",
+          "file": "2026-09-30-ege-ne-kto-1.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reposts/2026-09-30-ege-ne-kto-1.jpg",
+          "width": 1080,
+          "height": 1920,
+          "sha256": "c498a4b43266cb59abed10c6b7699d17ad6c4f0345cc42319f88a76da3d48e46",
+          "geometry": {
+            "sourceWidth": 1080,
+            "sourceHeight": 1920,
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "outputWidth": 1080,
+            "outputHeight": 1920,
+            "sourceSha256": "10b13fc88caedc2ffab6887c26361aa89e75441a3dc7c8ce84ff0365d49210af",
+            "sha256": "c498a4b43266cb59abed10c6b7699d17ad6c4f0345cc42319f88a76da3d48e46"
+          }
+        }
+      ]
+    },
+    "2026-10-01-oge-svyaz": {
+      "kind": "carousel_slides",
+      "sourceKey": "e42a4b9810fd8620d5a1563638d045eaaffae1cd629983901a6ada79fa9faf64",
+      "renderedAt": "2026-09-20T02:25:39.623Z",
+      "publicationStatus": "export_only",
+      "assets": [
+        {
+          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-01-oge-svyaz-1.jpg",
+          "file": "2026-10-01-oge-svyaz-1.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reposts/2026-10-01-oge-svyaz-1.jpg",
+          "width": 1080,
+          "height": 1920,
+          "sha256": "888edd05304b769cbe7940163dcc150f5ec2497bfad8764be85ee3785aad3660",
+          "geometry": {
+            "sourceWidth": 1080,
+            "sourceHeight": 1350,
+            "x": 90,
+            "y": 447,
+            "width": 900,
+            "height": 1125,
+            "outputWidth": 1080,
+            "outputHeight": 1920,
+            "sourceSha256": "1b68b3670fa46f1cabf2cf1b21aea66e5c39467b34a781da8457019714f655a7",
+            "sha256": "888edd05304b769cbe7940163dcc150f5ec2497bfad8764be85ee3785aad3660"
+          }
+        },
+        {
+          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-01-oge-svyaz-2.jpg",
+          "file": "2026-10-01-oge-svyaz-2.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reposts/2026-10-01-oge-svyaz-2.jpg",
+          "width": 1080,
+          "height": 1920,
+          "sha256": "5de8847601a4d5642bdea81a9af7dbcb0bc1058577f6ef24f161dbec4014d0ae",
+          "geometry": {
+            "sourceWidth": 1080,
+            "sourceHeight": 1350,
+            "x": 90,
+            "y": 447,
+            "width": 900,
+            "height": 1125,
+            "outputWidth": 1080,
+            "outputHeight": 1920,
+            "sourceSha256": "cb91d99e6185be4f655c4d8b8e437a06213da997e089e697ed13d9f538a4e212",
+            "sha256": "5de8847601a4d5642bdea81a9af7dbcb0bc1058577f6ef24f161dbec4014d0ae"
+          }
+        },
+        {
+          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-01-oge-svyaz-3.jpg",
+          "file": "2026-10-01-oge-svyaz-3.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reposts/2026-10-01-oge-svyaz-3.jpg",
+          "width": 1080,
+          "height": 1920,
+          "sha256": "937a3aa494a1f34d8a62ff4ebda0f3e5dd5db833008cad564dc55da359f82646",
+          "geometry": {
+            "sourceWidth": 1080,
+            "sourceHeight": 1350,
+            "x": 90,
+            "y": 447,
+            "width": 900,
+            "height": 1125,
+            "outputWidth": 1080,
+            "outputHeight": 1920,
+            "sourceSha256": "ff92e2a4f80965a8f7b651927cecd72b9c8a9d35bda5e0877a34212a82a82d07",
+            "sha256": "937a3aa494a1f34d8a62ff4ebda0f3e5dd5db833008cad564dc55da359f82646"
+          }
+        },
+        {
+          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-01-oge-svyaz-4.jpg",
+          "file": "2026-10-01-oge-svyaz-4.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reposts/2026-10-01-oge-svyaz-4.jpg",
+          "width": 1080,
+          "height": 1920,
+          "sha256": "26c354ad1a0ea95281f288a3c34429eb3026a058bf62c17c43329e010312db75",
+          "geometry": {
+            "sourceWidth": 1080,
+            "sourceHeight": 1350,
+            "x": 90,
+            "y": 447,
+            "width": 900,
+            "height": 1125,
+            "outputWidth": 1080,
+            "outputHeight": 1920,
+            "sourceSha256": "92329382b606fc377183136931128b3bdc362be218a67c0aee62e36d7c2f5bf5",
+            "sha256": "26c354ad1a0ea95281f288a3c34429eb3026a058bf62c17c43329e010312db75"
+          }
+        }
+      ]
+    },
+    "2026-10-02-ege-bsp-colon": {
+      "kind": "carousel_slides",
+      "sourceKey": "f09c4e14e6609ff136ceb364ad3134982bf6602985410c56042f759574f25887",
+      "renderedAt": "2026-09-20T02:25:39.623Z",
+      "publicationStatus": "export_only",
+      "assets": [
+        {
+          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-02-ege-bsp-colon-1.jpg",
+          "file": "2026-10-02-ege-bsp-colon-1.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reposts/2026-10-02-ege-bsp-colon-1.jpg",
+          "width": 1080,
+          "height": 1920,
+          "sha256": "0f5d6bde5fd175529c9ce6657d1def450f4be187533d10daf2e2b2c1ba1d88f9",
+          "geometry": {
+            "sourceWidth": 1080,
+            "sourceHeight": 1350,
+            "x": 90,
+            "y": 447,
+            "width": 900,
+            "height": 1125,
+            "outputWidth": 1080,
+            "outputHeight": 1920,
+            "sourceSha256": "2ab4c8bb1df92fc45e035aec4f22f008897ff6e5b3925c35555f17b312d0baf7",
+            "sha256": "0f5d6bde5fd175529c9ce6657d1def450f4be187533d10daf2e2b2c1ba1d88f9"
+          }
+        },
+        {
+          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-02-ege-bsp-colon-2.jpg",
+          "file": "2026-10-02-ege-bsp-colon-2.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reposts/2026-10-02-ege-bsp-colon-2.jpg",
+          "width": 1080,
+          "height": 1920,
+          "sha256": "d2e73378a13514563bd5dd0752808891222ebc20183927eb6a2781cf383eee11",
+          "geometry": {
+            "sourceWidth": 1080,
+            "sourceHeight": 1350,
+            "x": 90,
+            "y": 447,
+            "width": 900,
+            "height": 1125,
+            "outputWidth": 1080,
+            "outputHeight": 1920,
+            "sourceSha256": "2dba7f02462f69e6325bae58e317d1c8bd359e6c6ff4a74e70e43453b19f2f5b",
+            "sha256": "d2e73378a13514563bd5dd0752808891222ebc20183927eb6a2781cf383eee11"
+          }
+        },
+        {
+          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-02-ege-bsp-colon-3.jpg",
+          "file": "2026-10-02-ege-bsp-colon-3.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reposts/2026-10-02-ege-bsp-colon-3.jpg",
+          "width": 1080,
+          "height": 1920,
+          "sha256": "bdcba569e15d542249a71a2e8ad41bc0f2a0984b922e86cfd4edaebe299f198f",
+          "geometry": {
+            "sourceWidth": 1080,
+            "sourceHeight": 1350,
+            "x": 90,
+            "y": 447,
+            "width": 900,
+            "height": 1125,
+            "outputWidth": 1080,
+            "outputHeight": 1920,
+            "sourceSha256": "4fcc9fcf483b0ffb862c77e01c891350a5f9cb01378723e041cf51eace6c4353",
+            "sha256": "bdcba569e15d542249a71a2e8ad41bc0f2a0984b922e86cfd4edaebe299f198f"
+          }
+        },
+        {
+          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-02-ege-bsp-colon-4.jpg",
+          "file": "2026-10-02-ege-bsp-colon-4.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reposts/2026-10-02-ege-bsp-colon-4.jpg",
+          "width": 1080,
+          "height": 1920,
+          "sha256": "0fe2c9f5bffdf0cf7be5efbd8301f0f168037afb63fd9a3111253898d40bd515",
+          "geometry": {
+            "sourceWidth": 1080,
+            "sourceHeight": 1350,
+            "x": 90,
+            "y": 447,
+            "width": 900,
+            "height": 1125,
+            "outputWidth": 1080,
+            "outputHeight": 1920,
+            "sourceSha256": "1a5e665ec466e25b09c2ec646878fa571ff7159f17fcec1628fbf9525a656263",
+            "sha256": "0fe2c9f5bffdf0cf7be5efbd8301f0f168037afb63fd9a3111253898d40bd515"
+          }
+        }
+      ]
+    },
+    "2026-10-03-oge-bez-bes": {
+      "kind": "reel_frame",
+      "sourceKey": "6cde1e59717ccfb805129419b204b5a413845a23189a89ad7541094a1fe92013",
+      "renderedAt": "2026-09-20T02:25:39.623Z",
+      "publicationStatus": "export_only",
+      "assets": [
+        {
+          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reels/2026-10-03-oge-bez-bes-frame.jpg",
+          "file": "2026-10-03-oge-bez-bes-1.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reposts/2026-10-03-oge-bez-bes-1.jpg",
+          "width": 1080,
+          "height": 1920,
+          "sha256": "4b973b257fba1ff95d9c5feec1500770096c95cf24788bd00b318b1de8375ab7",
+          "geometry": {
+            "sourceWidth": 1080,
+            "sourceHeight": 1920,
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "outputWidth": 1080,
+            "outputHeight": 1920,
+            "sourceSha256": "391b1d4fc7dd472a984c0a8473ee5bec80316bc223893dbb225707ab9ee267f4",
+            "sha256": "4b973b257fba1ff95d9c5feec1500770096c95cf24788bd00b318b1de8375ab7"
+          }
+        }
+      ]
+    },
+    "2026-10-04-ege-odnako": {
+      "kind": "reel_frame",
+      "sourceKey": "a83d404b1ecac398b8c883088656dc70322221bfdff75a0a6ba3edd1a12a8ff6",
+      "renderedAt": "2026-09-20T02:25:39.623Z",
+      "publicationStatus": "export_only",
+      "assets": [
+        {
+          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reels/2026-10-04-ege-odnako-frame.jpg",
+          "file": "2026-10-04-ege-odnako-1.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reposts/2026-10-04-ege-odnako-1.jpg",
+          "width": 1080,
+          "height": 1920,
+          "sha256": "2f7326dd34da1c3ab94b0ac9edacc76c2109b62e08649336fc69e95c83cac011",
+          "geometry": {
+            "sourceWidth": 1080,
+            "sourceHeight": 1920,
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "outputWidth": 1080,
+            "outputHeight": 1920,
+            "sourceSha256": "2ac3cc3ccc3e1bf2dee3e46af9d1099528247acaa04af675446fb84b39865c71",
+            "sha256": "2f7326dd34da1c3ab94b0ac9edacc76c2109b62e08649336fc69e95c83cac011"
+          }
+        }
+      ]
+    },
+    "2026-10-05-oge-szhatie": {
+      "kind": "carousel_slides",
+      "sourceKey": "eec3dbcfbbfe37302a2a95f85ede37c114be6992a798c780fb965e66dc856966",
+      "renderedAt": "2026-09-20T02:25:39.623Z",
+      "publicationStatus": "export_only",
+      "assets": [
+        {
+          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-05-oge-szhatie-1.jpg",
+          "file": "2026-10-05-oge-szhatie-1.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reposts/2026-10-05-oge-szhatie-1.jpg",
+          "width": 1080,
+          "height": 1920,
+          "sha256": "eedac9c9429adc5e01f367d88931f4b20859e919f4cc19933d0b1ed7447698bd",
+          "geometry": {
+            "sourceWidth": 1080,
+            "sourceHeight": 1350,
+            "x": 90,
+            "y": 447,
+            "width": 900,
+            "height": 1125,
+            "outputWidth": 1080,
+            "outputHeight": 1920,
+            "sourceSha256": "8c3936bb77c446957d2872b40069f8db8be10bc7cd2b27701b76e199b27b0ca6",
+            "sha256": "eedac9c9429adc5e01f367d88931f4b20859e919f4cc19933d0b1ed7447698bd"
+          }
+        },
+        {
+          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-05-oge-szhatie-2.jpg",
+          "file": "2026-10-05-oge-szhatie-2.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reposts/2026-10-05-oge-szhatie-2.jpg",
+          "width": 1080,
+          "height": 1920,
+          "sha256": "e7b87109847bd26f6a7347cd67750f3bc5f99a10a21a05fde092bca159892130",
+          "geometry": {
+            "sourceWidth": 1080,
+            "sourceHeight": 1350,
+            "x": 90,
+            "y": 447,
+            "width": 900,
+            "height": 1125,
+            "outputWidth": 1080,
+            "outputHeight": 1920,
+            "sourceSha256": "f46fbaadc3d1e35109090bf60f1c11ddac064fbe2aa154ce5e6a023e1ac4c76d",
+            "sha256": "e7b87109847bd26f6a7347cd67750f3bc5f99a10a21a05fde092bca159892130"
+          }
+        },
+        {
+          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-05-oge-szhatie-3.jpg",
+          "file": "2026-10-05-oge-szhatie-3.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reposts/2026-10-05-oge-szhatie-3.jpg",
+          "width": 1080,
+          "height": 1920,
+          "sha256": "7db23f4e23e9471d4d37a58657fa7963616fd558ff3e4e163c045e20fa64decf",
+          "geometry": {
+            "sourceWidth": 1080,
+            "sourceHeight": 1350,
+            "x": 90,
+            "y": 447,
+            "width": 900,
+            "height": 1125,
+            "outputWidth": 1080,
+            "outputHeight": 1920,
+            "sourceSha256": "367a9b6f43428be4ae8f39d98009ff846ca2289aab97dac17d3316c733e507ba",
+            "sha256": "7db23f4e23e9471d4d37a58657fa7963616fd558ff3e4e163c045e20fa64decf"
+          }
+        },
+        {
+          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-05-oge-szhatie-4.jpg",
+          "file": "2026-10-05-oge-szhatie-4.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reposts/2026-10-05-oge-szhatie-4.jpg",
+          "width": 1080,
+          "height": 1920,
+          "sha256": "d8cae59b950b5bfca14c327ecb1925e50027483ddf25c9825041dee1b837ddf4",
+          "geometry": {
+            "sourceWidth": 1080,
+            "sourceHeight": 1350,
+            "x": 90,
+            "y": 447,
+            "width": 900,
+            "height": 1125,
+            "outputWidth": 1080,
+            "outputHeight": 1920,
+            "sourceSha256": "7e7664fa8d83caa3f4fea779baf6b6260036fb38de2edd7bcf2c36fae779e85a",
+            "sha256": "d8cae59b950b5bfca14c327ecb1925e50027483ddf25c9825041dee1b837ddf4"
+          }
+        }
+      ]
+    },
+    "2026-10-06-ege-po-pribytii": {
+      "kind": "reel_frame",
+      "sourceKey": "3ae1a7f32eb7e444d5d5ef932071b09a476e20b13248a675374ca60c1a518988",
+      "renderedAt": "2026-09-20T02:25:39.623Z",
+      "publicationStatus": "export_only",
+      "assets": [
+        {
+          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reels/2026-10-06-ege-po-pribytii-frame.jpg",
+          "file": "2026-10-06-ege-po-pribytii-1.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reposts/2026-10-06-ege-po-pribytii-1.jpg",
+          "width": 1080,
+          "height": 1920,
+          "sha256": "8a10d8d6280816b86b3a1e0cd4a430ca5f0a728766bae36c0c514528814832d6",
+          "geometry": {
+            "sourceWidth": 1080,
+            "sourceHeight": 1920,
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "outputWidth": 1080,
+            "outputHeight": 1920,
+            "sourceSha256": "1239b2b6736ed22140d934ec7efc936ce6dc3443eab30de85d32923e361f1d71",
+            "sha256": "8a10d8d6280816b86b3a1e0cd4a430ca5f0a728766bae36c0c514528814832d6"
+          }
+        }
+      ]
+    },
+    "2026-10-07-oge-argument": {
+      "kind": "carousel_slides",
+      "sourceKey": "99a33cd38b74cfe2a2a99d2bf2182355e7a795a0f1e9beeb3dd97bb8b8d7fc64",
+      "renderedAt": "2026-09-20T02:25:39.623Z",
+      "publicationStatus": "export_only",
+      "assets": [
+        {
+          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-07-oge-argument-1.jpg",
+          "file": "2026-10-07-oge-argument-1.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reposts/2026-10-07-oge-argument-1.jpg",
+          "width": 1080,
+          "height": 1920,
+          "sha256": "3aba90cb7ff5b2bfe646b2050fe8256117330697f9ca0fc2c392ced139d85c77",
+          "geometry": {
+            "sourceWidth": 1080,
+            "sourceHeight": 1350,
+            "x": 90,
+            "y": 447,
+            "width": 900,
+            "height": 1125,
+            "outputWidth": 1080,
+            "outputHeight": 1920,
+            "sourceSha256": "7aa9ab558a740f51685f3d0ef47c5570e7fe9a31c1d70fbb5c3323ac6ce26dd7",
+            "sha256": "3aba90cb7ff5b2bfe646b2050fe8256117330697f9ca0fc2c392ced139d85c77"
+          }
+        },
+        {
+          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-07-oge-argument-2.jpg",
+          "file": "2026-10-07-oge-argument-2.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reposts/2026-10-07-oge-argument-2.jpg",
+          "width": 1080,
+          "height": 1920,
+          "sha256": "97bef1edfcf538fca67c3304beda5565a334169561eac5191320a2cb53cde8c8",
+          "geometry": {
+            "sourceWidth": 1080,
+            "sourceHeight": 1350,
+            "x": 90,
+            "y": 447,
+            "width": 900,
+            "height": 1125,
+            "outputWidth": 1080,
+            "outputHeight": 1920,
+            "sourceSha256": "878982173f2c53d1f10d1873ba20ea6b2a93ee9251ed3b7c3c36b8ea16027b9b",
+            "sha256": "97bef1edfcf538fca67c3304beda5565a334169561eac5191320a2cb53cde8c8"
+          }
+        },
+        {
+          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-07-oge-argument-3.jpg",
+          "file": "2026-10-07-oge-argument-3.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reposts/2026-10-07-oge-argument-3.jpg",
+          "width": 1080,
+          "height": 1920,
+          "sha256": "b8dfcfacbef6145662283c49977ec0482439975f6d2f91f61bd44aa67aff3eaf",
+          "geometry": {
+            "sourceWidth": 1080,
+            "sourceHeight": 1350,
+            "x": 90,
+            "y": 447,
+            "width": 900,
+            "height": 1125,
+            "outputWidth": 1080,
+            "outputHeight": 1920,
+            "sourceSha256": "559c462079433ddc40251862700b3a767e237601913a994bcdaf90441d0a2e69",
+            "sha256": "b8dfcfacbef6145662283c49977ec0482439975f6d2f91f61bd44aa67aff3eaf"
+          }
+        },
+        {
+          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-07-oge-argument-4.jpg",
+          "file": "2026-10-07-oge-argument-4.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reposts/2026-10-07-oge-argument-4.jpg",
+          "width": 1080,
+          "height": 1920,
+          "sha256": "ee2991b1e439b55586316bdaf1c3448536f27db6cd3750363d280cc0efa30502",
+          "geometry": {
+            "sourceWidth": 1080,
+            "sourceHeight": 1350,
+            "x": 90,
+            "y": 447,
+            "width": 900,
+            "height": 1125,
+            "outputWidth": 1080,
+            "outputHeight": 1920,
+            "sourceSha256": "14a9e72bd21d3465735fb7bf2acdb19d0b34613e2d062072992fa0c19d7dc996",
+            "sha256": "ee2991b1e439b55586316bdaf1c3448536f27db6cd3750363d280cc0efa30502"
+          }
+        }
+      ]
+    },
+    "2026-10-08-ege-direct-speech": {
+      "kind": "carousel_slides",
+      "sourceKey": "6526ff7037300aab9257fb2b87d91bbc0d49720c3fa3fec82b2a3f92fc798530",
+      "renderedAt": "2026-09-20T02:25:39.623Z",
+      "publicationStatus": "export_only",
+      "assets": [
+        {
+          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-08-ege-direct-speech-1.jpg",
+          "file": "2026-10-08-ege-direct-speech-1.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reposts/2026-10-08-ege-direct-speech-1.jpg",
+          "width": 1080,
+          "height": 1920,
+          "sha256": "a2a7dab063cbf68d5a57e6bb05b5478a6d0665ea06a40732ea730e5114a68417",
+          "geometry": {
+            "sourceWidth": 1080,
+            "sourceHeight": 1350,
+            "x": 90,
+            "y": 447,
+            "width": 900,
+            "height": 1125,
+            "outputWidth": 1080,
+            "outputHeight": 1920,
+            "sourceSha256": "bdf268511cdb26783e348887b067069de90795276f061b31cba95ec4a87be864",
+            "sha256": "a2a7dab063cbf68d5a57e6bb05b5478a6d0665ea06a40732ea730e5114a68417"
+          }
+        },
+        {
+          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-08-ege-direct-speech-2.jpg",
+          "file": "2026-10-08-ege-direct-speech-2.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reposts/2026-10-08-ege-direct-speech-2.jpg",
+          "width": 1080,
+          "height": 1920,
+          "sha256": "735994a0aeb057ff99767469acb1329c210cb157de949e764ca741ed22933be1",
+          "geometry": {
+            "sourceWidth": 1080,
+            "sourceHeight": 1350,
+            "x": 90,
+            "y": 447,
+            "width": 900,
+            "height": 1125,
+            "outputWidth": 1080,
+            "outputHeight": 1920,
+            "sourceSha256": "f0e8f62ce99075160c6b7699e276f4bf8ece8e4f2412295660d866c057ed7452",
+            "sha256": "735994a0aeb057ff99767469acb1329c210cb157de949e764ca741ed22933be1"
+          }
+        },
+        {
+          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-08-ege-direct-speech-3.jpg",
+          "file": "2026-10-08-ege-direct-speech-3.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reposts/2026-10-08-ege-direct-speech-3.jpg",
+          "width": 1080,
+          "height": 1920,
+          "sha256": "1d4feaedbe38a9a7bd0803f9e49663dcf62d7c8966fc6626997425760c46d7af",
+          "geometry": {
+            "sourceWidth": 1080,
+            "sourceHeight": 1350,
+            "x": 90,
+            "y": 447,
+            "width": 900,
+            "height": 1125,
+            "outputWidth": 1080,
+            "outputHeight": 1920,
+            "sourceSha256": "85422031f960605effedca68555d703a511f4bb6e0b62ae554892a6f2e128bf4",
+            "sha256": "1d4feaedbe38a9a7bd0803f9e49663dcf62d7c8966fc6626997425760c46d7af"
+          }
+        },
+        {
+          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-08-ege-direct-speech-4.jpg",
+          "file": "2026-10-08-ege-direct-speech-4.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reposts/2026-10-08-ege-direct-speech-4.jpg",
+          "width": 1080,
+          "height": 1920,
+          "sha256": "0dcfed67786fb1f30998c3e7cb8ce92f5c5ab9d065006e2f6d373201deba859d",
+          "geometry": {
+            "sourceWidth": 1080,
+            "sourceHeight": 1350,
+            "x": 90,
+            "y": 447,
+            "width": 900,
+            "height": 1125,
+            "outputWidth": 1080,
+            "outputHeight": 1920,
+            "sourceSha256": "8fc47c326e531da51f65c8e1d51042513b67aeeaced50056c4ccc4d9d8d7057f",
+            "sha256": "0dcfed67786fb1f30998c3e7cb8ce92f5c5ab9d065006e2f6d373201deba859d"
+          }
+        }
+      ]
+    },
+    "2026-10-09-oge-dvoetochie": {
+      "kind": "reel_frame",
+      "sourceKey": "2312fa352fae9a75d3e18b632196a20f668b17627a4bfa61d4fcb249aa9d8062",
+      "renderedAt": "2026-09-20T02:25:39.623Z",
+      "publicationStatus": "export_only",
+      "assets": [
+        {
+          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reels/2026-10-09-oge-dvoetochie-frame.jpg",
+          "file": "2026-10-09-oge-dvoetochie-1.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reposts/2026-10-09-oge-dvoetochie-1.jpg",
+          "width": 1080,
+          "height": 1920,
+          "sha256": "81c7d9ffe2f252c05f8109d152e7f8d145dc4cb6ede4f4e8560754194f21ad54",
+          "geometry": {
+            "sourceWidth": 1080,
+            "sourceHeight": 1920,
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "outputWidth": 1080,
+            "outputHeight": 1920,
+            "sourceSha256": "3d4834a6855f4014d38b3b05fe9d61c44018c971ce731b5d07edccc46412c4b7",
+            "sha256": "81c7d9ffe2f252c05f8109d152e7f8d145dc4cb6ede4f4e8560754194f21ad54"
+          }
+        }
+      ]
+    }
+  }
+}

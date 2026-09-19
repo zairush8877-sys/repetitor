@@ -1,0 +1,136 @@
+{
+  "id": "2026-09-28-ege-nesmotrya-standalone",
+  "sourcePostId": "2026-09-28-ege-nesmotrya",
+  "exam": "ЕГЭ",
+  "title": "Смотрели или действовали вопреки?",
+  "status": "pending",
+  "proposedDate": "2026-09-28",
+  "kind": "question_answer",
+  "configSha256": "8f29636b7fd3a488a7b3fba13aac8b947731ebf2a73d5643db791025fb1f4f75",
+  "musicSource": "content/music/bach-goldberg-var1-ishizaka.mp3",
+  "musicSha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8",
+  "creditInFinalAnswerScene": true,
+  "parts": [
+    {
+      "index": 1,
+      "role": "question",
+      "file": "2026-09-28-ege-nesmotrya-1.mp4",
+      "sha256": "0d31ef245cef9b234e1b3413eb46a7491ee4b027436360d4945cfafa89baab8d",
+      "bytes": 2401569,
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "frames": 180,
+      "duration": 6.0,
+      "videoCodec": "h264",
+      "audioCodec": "aac",
+      "sceneIndices": [
+        1
+      ],
+      "geometry": {
+        "x": 0,
+        "y": 285,
+        "width": 1080,
+        "height": 1350,
+        "background": "#dbe9ec",
+        "cropped": false
+      },
+      "decodedFrames": [
+        "qa/2026-09-28-ege-nesmotrya-scene-1.jpg"
+      ],
+      "sourceFiles": [
+        {
+          "file": "outputs/exam-bank-2026-09-26/content/images/2026-09-28-ege-nesmotrya-1.mp4",
+          "sha256": "13bf66f0a26eb82b94c57b9bdd32b0403baabb7ee713703a11aa1b94da113d1c",
+          "width": 1080,
+          "height": 1350,
+          "fps": 30,
+          "frames": 180,
+          "duration": 6.0,
+          "videoCodec": "h264",
+          "audioCodec": "aac"
+        }
+      ],
+      "audioStartSeconds": 0,
+      "edgeFadeSeconds": {
+        "in": 0.04,
+        "out": 0.12
+      },
+      "musicMode": "continuous verified source music, gain 0.75"
+    },
+    {
+      "index": 2,
+      "role": "answer",
+      "file": "2026-09-28-ege-nesmotrya-2.mp4",
+      "sha256": "06593f2f49275dafc5578ab1c71a4cc12deb75bc8d8304567986d8a764ebbd1a",
+      "bytes": 7443332,
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "frames": 540,
+      "duration": 18.0,
+      "videoCodec": "h264",
+      "audioCodec": "aac",
+      "sceneIndices": [
+        2,
+        3,
+        4
+      ],
+      "geometry": {
+        "x": 0,
+        "y": 285,
+        "width": 1080,
+        "height": 1350,
+        "background": "#dbe9ec",
+        "cropped": false
+      },
+      "decodedFrames": [
+        "qa/2026-09-28-ege-nesmotrya-scene-2.jpg",
+        "qa/2026-09-28-ege-nesmotrya-scene-3.jpg",
+        "qa/2026-09-28-ege-nesmotrya-scene-4.jpg"
+      ],
+      "sourceFiles": [
+        {
+          "file": "outputs/exam-bank-2026-09-26/content/images/2026-09-28-ege-nesmotrya-2.mp4",
+          "sha256": "2e80c377b8b3b7dc504207ee590bdebd993e49676ff273c5539dce3b81c85c16",
+          "width": 1080,
+          "height": 1350,
+          "fps": 30,
+          "frames": 180,
+          "duration": 6.0,
+          "videoCodec": "h264",
+          "audioCodec": "aac"
+        },
+        {
+          "file": "outputs/exam-bank-2026-09-26/content/images/2026-09-28-ege-nesmotrya-3.mp4",
+          "sha256": "865e3c039095b1bdc060230609ea600ab3d8af3f291144c9c6a2463ba4167db0",
+          "width": 1080,
+          "height": 1350,
+          "fps": 30,
+          "frames": 180,
+          "duration": 6.0,
+          "videoCodec": "h264",
+          "audioCodec": "aac"
+        },
+        {
+          "file": "outputs/exam-bank-2026-09-26/content/images/2026-09-28-ege-nesmotrya-4.mp4",
+          "sha256": "54b84dcab78aa5319168b6b8b2b47e1d17f132cdf3317af9c4a557690b989bcf",
+          "width": 1080,
+          "height": 1350,
+          "fps": 30,
+          "frames": 180,
+          "duration": 6.0,
+          "videoCodec": "h264",
+          "audioCodec": "aac"
+        }
+      ],
+      "audioStartSeconds": 6,
+      "edgeFadeSeconds": {
+        "in": 0.04,
+        "out": 0.12
+      },
+      "musicMode": "continuous verified source music, gain 0.75"
+    }
+  ],
+  "elapsedSeconds": 16.71
+}

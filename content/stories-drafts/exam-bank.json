@@ -1,0 +1,2017 @@
+{
+  "schemaVersion": 1,
+  "platform": "Instagram",
+  "account": "@mairova_a_a",
+  "kind": "isolated-standalone-stories-drafts",
+  "source": "video-lab/exam-bank.json",
+  "note": "Все pending, без даты публикации. proposedDate относится к предложенному дню исходного выпуска. Этот файл не читает publish-stories.js.",
+  "stories": [
+    {
+      "id": "draft-story-2026-09-26-ege-deeprichastie",
+      "status": "pending",
+      "type": "exam-draft",
+      "sourcePostId": "2026-09-26-ege-deeprichastie",
+      "proposedDate": "2026-09-26",
+      "sourceContentSha256": "88d7f7719cf6fa8402a52f1c458f7b678cd5a1417f142e869e0e34e360f16781",
+      "rubric": "ЕГЭ",
+      "question": {
+        "headline": "КНИГА ПРОЧИТАЛА СЕБЯ?",
+        "body": "Ошибка: «Прочитав рассказ, книга вернулась на полку»."
+      },
+      "explanation": [
+        {
+          "headline": "КТО ПРОЧИТАЛ?",
+          "body": "Человек. Но в предложении подлежащее — книга."
+        },
+        {
+          "headline": "ВЕРНЁМ ЧИТАТЕЛЯ",
+          "body": "«Прочитав рассказ, я вернул книгу на полку»."
+        },
+        {
+          "headline": "ДВА ДЕЙСТВИЯ — ОДНО ЛИЦО",
+          "body": "Я прочитал рассказ. Я вернул книгу. Теперь конструкция верна."
+        },
+        {
+          "headline": "ПРОВЕРКА ДЛЯ ЕГЭ",
+          "body": "В этой конструкции найдите подлежащее. Проверьте: оно выполняет оба действия?"
+        }
+      ],
+      "sources": [
+        "https://gramota.ru/biblioteka/spravochniki/russkij-yazyk-kratkij-teoreticheskij-kurs-dlya-shkolnikov/deeprichastie",
+        "https://gramota.ru/journal/stati/nauka/kak-vychislenie-skrytogo-subekta-pomogaet-ponyat-smysl-predlozheniya"
+      ],
+      "caption": "«Прочитав рассказ, книга вернулась на полку» — грамматическая ошибка. Читал человек, а подлежащим оказалась книга. В варианте «Прочитав рассказ, я вернул книгу на полку» оба действия относятся к одному лицу. Такой разбор полезен для проверки синтаксических норм и собственной письменной речи.\n\nО музыке. Цикл начинается арией; после тридцати вариаций она возвращается.\n\n#егэрусский #подготовкакегэ",
+      "music": {
+        "file": "bach-goldberg-var1-ishizaka.mp3",
+        "title": "Goldberg Variations, BWV 988: Variatio 1 a 1 Clav.",
+        "piece": "Гольдберг-вариации, BWV 988 — Вариация № 1",
+        "composer": "Иоганн Себастьян Бах",
+        "author": "Kimiko Ishizaka",
+        "performer": "Кимико Ишизака",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "source": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+        "rightsSource": "https://opengoldbergvariations.org/",
+        "download": "https://upload.wikimedia.org/wikipedia/commons/2/20/Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+        "attributionRequired": true,
+        "attribution": "И. С. Бах — Гольдберг-вариации, BWV 988, вариация № 1. Фортепиано: Кимико Ишизака, Open Goldberg Variations (2012). Запись CC0 1.0. Фрагмент, громкость изменена.",
+        "checkedAt": "2026-09-19",
+        "excerptFrom": 0.7,
+        "duration": 32,
+        "active": true,
+        "trendVerified": false,
+        "compositionRights": "Public domain: J. S. Bach (1685–1750)",
+        "recordingRights": "Open Goldberg 2012 recording released under CC0; not inferred from composition age",
+        "sourceSha256": "0539f3612413f6077c82e16f92417bad112e44017536f59db257c8179718076f",
+        "sha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8"
+      },
+      "musicLearning": {
+        "fact": "Цикл начинается арией; после тридцати вариаций она возвращается.",
+        "source": "https://www.bachvereniging.nl/en/bwv/bwv-988",
+        "checkedAt": "2026-09-20"
+      },
+      "sourceMedia": {
+        "role": "reference-to-feed-reposts",
+        "kind": "reel-announcement",
+        "files": [
+          "outputs/exam-bank-2026-09-26/content/reposts/2026-09-26-ege-deeprichastie-1.jpg"
+        ],
+        "ready": true,
+        "note": "Справочные JPG выпуска из ленты; отдельные видео вопроса и ответа указаны в preparedMedia."
+      },
+      "editorialStatus": "ready-for-review",
+      "requiredBeforeRelease": [
+        "Просмотреть готовые вопрос, полный ответ и музыкальную справку",
+        "Одобрить самостоятельный комплект; только затем назначать выпуск и переносить в live банк"
+      ],
+      "sourceHashVersion": 2,
+      "preparedMedia": {
+        "kind": "standalone-question-answer",
+        "storyId": "2026-09-26-ege-deeprichastie-standalone",
+        "manifest": {
+          "file": "outputs/exam-bank-2026-09-26/standalone-stories/index.json",
+          "sha256": "9f942bf9f0eb8790e3163570c2531be4b2b9ccc6e147b91d29815d772caeb110"
+        },
+        "verification": {
+          "file": "outputs/exam-bank-2026-09-26/standalone-stories/qa/verification.json",
+          "sha256": "a67cb828f206af55d0abf62693468c8d6203494ff07ce6d3880035f74b2778f2"
+        },
+        "configSha256": "8f29636b7fd3a488a7b3fba13aac8b947731ebf2a73d5643db791025fb1f4f75",
+        "parts": [
+          {
+            "index": 1,
+            "role": "question",
+            "file": "outputs/exam-bank-2026-09-26/standalone-stories/2026-09-26-ege-deeprichastie-1.mp4",
+            "sha256": "5202d8d44246ead7d6475785b814f1bb0ae159a4595ee55946c170e01d6425ed",
+            "bytes": 1825636,
+            "width": 1080,
+            "height": 1920,
+            "duration": 6,
+            "sceneIndices": [
+              1
+            ],
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 1920,
+              "cropped": false
+            },
+            "audioCodec": "aac"
+          },
+          {
+            "index": 2,
+            "role": "answer",
+            "file": "outputs/exam-bank-2026-09-26/standalone-stories/2026-09-26-ege-deeprichastie-2.mp4",
+            "sha256": "dafeab851e2f9c55ff65cf77f81fac9cea87423a8ca9bf0fe018bf494846b2c7",
+            "bytes": 7563633,
+            "width": 1080,
+            "height": 1920,
+            "duration": 24,
+            "sceneIndices": [
+              2,
+              3,
+              4,
+              5
+            ],
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 1920,
+              "cropped": false
+            },
+            "audioCodec": "aac"
+          }
+        ],
+        "ready": true,
+        "errors": [],
+        "note": "Изолированная сборка для просмотра. Этот manifest не даёт допуска в live банк и не заменяет одобрение выпуска."
+      }
+    },
+    {
+      "id": "draft-story-2026-09-27-oge-kazhetsya",
+      "status": "pending",
+      "type": "exam-draft",
+      "sourcePostId": "2026-09-27-oge-kazhetsya",
+      "proposedDate": "2026-09-27",
+      "sourceContentSha256": "e4fb36340147b42ef984c56fcd2029f59052eec82cf4eeec50d9fb7e03c0a89a",
+      "rubric": "ОГЭ",
+      "question": {
+        "headline": "«Кажется»\nне всегда\nв запятых",
+        "body": "Один кот. Два разных разбора."
+      },
+      "explanation": [
+        {
+          "headline": "Кот, кажется,\nуснул.",
+          "body": "«Кажется» передаёт неуверенность.\nЭто вводное слово."
+        },
+        {
+          "headline": "Можно заменить:\n«вероятно»",
+          "body": "Кот, вероятно, уснул.\nВводное слово выделяем запятыми."
+        },
+        {
+          "headline": "Кот кажется\nсонным.",
+          "body": "«Кажется сонным» — сказуемое.\nЗапятые не нужны."
+        },
+        {
+          "headline": "Сначала —\nроль слова",
+          "body": "Кот, кажется, уснул.\nКот кажется сонным.\nВводное слово или часть сказуемого."
+        }
+      ],
+      "sources": [
+        "https://gramota.ru/biblioteka/spravochniki/spravochnik-po-punktuatsii/kazhetsya",
+        "https://gramota.ru/uchebnik/pravila/normy-postanovki-znakov-prepinaniya-v-predlozheniyakh-s-vvodnymi-slovami",
+        "https://doc.fipi.ru/navigator-podgotovki/navigator-oge/ru-9_5_grammatika._sintaksis.pdf"
+      ],
+      "caption": "Кот, кажется, уснул. Кот кажется сонным. В первой фразе — неуверенность говорящего, во второй — сказуемое «кажется сонным». Запятые зависят от роли слова в предложении.\n\nО музыке. Бах написал этот цикл для клавесина.\n\n#ОГЭрусский #вводныеслова #пунктуация",
+      "music": {
+        "file": "bach-goldberg-var1-ishizaka.mp3",
+        "title": "Goldberg Variations, BWV 988: Variatio 1 a 1 Clav.",
+        "piece": "Гольдберг-вариации, BWV 988 — Вариация № 1",
+        "composer": "Иоганн Себастьян Бах",
+        "author": "Kimiko Ishizaka",
+        "performer": "Кимико Ишизака",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "source": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+        "rightsSource": "https://opengoldbergvariations.org/",
+        "download": "https://upload.wikimedia.org/wikipedia/commons/2/20/Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+        "attributionRequired": true,
+        "attribution": "И. С. Бах — Гольдберг-вариации, BWV 988, вариация № 1. Фортепиано: Кимико Ишизака, Open Goldberg Variations (2012). Запись CC0 1.0. Фрагмент, громкость изменена.",
+        "checkedAt": "2026-09-19",
+        "excerptFrom": 0.7,
+        "duration": 32,
+        "active": true,
+        "trendVerified": false,
+        "compositionRights": "Public domain: J. S. Bach (1685–1750)",
+        "recordingRights": "Open Goldberg 2012 recording released under CC0; not inferred from composition age",
+        "sourceSha256": "0539f3612413f6077c82e16f92417bad112e44017536f59db257c8179718076f",
+        "sha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8"
+      },
+      "musicLearning": {
+        "fact": "Бах написал этот цикл для клавесина.",
+        "source": "https://www.bachvereniging.nl/en/bwv/bwv-988",
+        "checkedAt": "2026-09-20"
+      },
+      "sourceMedia": {
+        "role": "reference-to-feed-reposts",
+        "kind": "reel-announcement",
+        "files": [
+          "outputs/exam-bank-2026-09-26/content/reposts/2026-09-27-oge-kazhetsya-1.jpg"
+        ],
+        "ready": true,
+        "note": "Справочные JPG выпуска из ленты; отдельные видео вопроса и ответа указаны в preparedMedia."
+      },
+      "editorialStatus": "ready-for-review",
+      "requiredBeforeRelease": [
+        "Просмотреть готовые вопрос, полный ответ и музыкальную справку",
+        "Одобрить самостоятельный комплект; только затем назначать выпуск и переносить в live банк"
+      ],
+      "sourceHashVersion": 2,
+      "preparedMedia": {
+        "kind": "standalone-question-answer",
+        "storyId": "2026-09-27-oge-kazhetsya-standalone",
+        "manifest": {
+          "file": "outputs/exam-bank-2026-09-26/standalone-stories/index.json",
+          "sha256": "9f942bf9f0eb8790e3163570c2531be4b2b9ccc6e147b91d29815d772caeb110"
+        },
+        "verification": {
+          "file": "outputs/exam-bank-2026-09-26/standalone-stories/qa/verification.json",
+          "sha256": "a67cb828f206af55d0abf62693468c8d6203494ff07ce6d3880035f74b2778f2"
+        },
+        "configSha256": "8f29636b7fd3a488a7b3fba13aac8b947731ebf2a73d5643db791025fb1f4f75",
+        "parts": [
+          {
+            "index": 1,
+            "role": "question",
+            "file": "outputs/exam-bank-2026-09-26/standalone-stories/2026-09-27-oge-kazhetsya-1.mp4",
+            "sha256": "b68d9a4fdb83281ee9e018ea114077b36ae4721851d2c09eb0dd5bda17b7cf0a",
+            "bytes": 3089341,
+            "width": 1080,
+            "height": 1920,
+            "duration": 6,
+            "sceneIndices": [
+              1
+            ],
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 1920,
+              "cropped": false
+            },
+            "audioCodec": "aac"
+          },
+          {
+            "index": 2,
+            "role": "answer",
+            "file": "outputs/exam-bank-2026-09-26/standalone-stories/2026-09-27-oge-kazhetsya-2.mp4",
+            "sha256": "3afecd898eefef0c242da66fa6df5b9b5d623c76b005c5a80f4ab1a038608671",
+            "bytes": 12440711,
+            "width": 1080,
+            "height": 1920,
+            "duration": 24,
+            "sceneIndices": [
+              2,
+              3,
+              4,
+              5
+            ],
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 1920,
+              "cropped": false
+            },
+            "audioCodec": "aac"
+          }
+        ],
+        "ready": true,
+        "errors": [],
+        "note": "Изолированная сборка для просмотра. Этот manifest не даёт допуска в live банк и не заменяет одобрение выпуска."
+      }
+    },
+    {
+      "id": "draft-story-2026-09-28-ege-nesmotrya",
+      "status": "pending",
+      "type": "exam-draft",
+      "sourcePostId": "2026-09-28-ege-nesmotrya",
+      "proposedDate": "2026-09-28",
+      "sourceContentSha256": "5facecbeaa0441caed01cdcf526f0c403b191400300cc56e36fb6833a911233c",
+      "rubric": "ЕГЭ",
+      "question": {
+        "headline": "СМОТРЕЛИ ИЛИ ДЕЙСТВОВАЛИ ВОПРЕКИ?",
+        "body": "Несмотря на усталость. Не смотря на экран. Пробел меняет смысл."
+      },
+      "explanation": [
+        {
+          "headline": "ВОПРЕКИ УСТАЛОСТИ",
+          "body": "«Несмотря на усталость, мы закончили работу». Предлог НЕСМОТРЯ НА: слитно."
+        },
+        {
+          "headline": "НЕ ГЛЯДЯ НА ЭКРАН",
+          "body": "«Он отвечал, не смотря на экран». Деепричастие с НЕ: раздельно."
+        },
+        {
+          "headline": "СНАЧАЛА — ЗНАЧЕНИЕ",
+          "body": "Вопреки → несмотря на. Не глядя → не смотря. Запятые сами по себе написание не определяют."
+        }
+      ],
+      "sources": [
+        "https://gramota.ru/spravka/vopros/202729",
+        "https://gramota.ru/spravka/vopros/212898",
+        "https://gramota.ru/biblioteka/spravochniki/spravochnik-po-punktuatsii/nesmotrya-na-chto"
+      ],
+      "caption": "В словах «несмотря на усталость» говорится о препятствии: несмотря = вопреки, пишем слитно. В сочетании «не смотря на экран» говорится о взгляде: не смотря = не глядя, пишем раздельно. В приведённых предложениях обороты отделены запятыми; обособление не служит проверкой слитного написания.\n\nО музыке. «Гольдберг-вариации» впервые напечатали в 1741 году.\n\n#егэрусский #подготовкакегэ",
+      "music": {
+        "file": "bach-goldberg-var1-ishizaka.mp3",
+        "title": "Goldberg Variations, BWV 988: Variatio 1 a 1 Clav.",
+        "piece": "Гольдберг-вариации, BWV 988 — Вариация № 1",
+        "composer": "Иоганн Себастьян Бах",
+        "author": "Kimiko Ishizaka",
+        "performer": "Кимико Ишизака",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "source": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+        "rightsSource": "https://opengoldbergvariations.org/",
+        "download": "https://upload.wikimedia.org/wikipedia/commons/2/20/Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+        "attributionRequired": true,
+        "attribution": "И. С. Бах — Гольдберг-вариации, BWV 988, вариация № 1. Фортепиано: Кимико Ишизака, Open Goldberg Variations (2012). Запись CC0 1.0. Фрагмент, громкость изменена.",
+        "checkedAt": "2026-09-19",
+        "excerptFrom": 0.7,
+        "duration": 32,
+        "active": true,
+        "trendVerified": false,
+        "compositionRights": "Public domain: J. S. Bach (1685–1750)",
+        "recordingRights": "Open Goldberg 2012 recording released under CC0; not inferred from composition age",
+        "sourceSha256": "0539f3612413f6077c82e16f92417bad112e44017536f59db257c8179718076f",
+        "sha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8"
+      },
+      "musicLearning": {
+        "fact": "«Гольдберг-вариации» впервые напечатали в 1741 году.",
+        "source": "https://www.bachvereniging.nl/en/bwv/bwv-988",
+        "checkedAt": "2026-09-20"
+      },
+      "sourceMedia": {
+        "role": "reference-to-feed-reposts",
+        "kind": "all-carousel-slides",
+        "files": [
+          "outputs/exam-bank-2026-09-26/content/reposts/2026-09-28-ege-nesmotrya-1.jpg",
+          "outputs/exam-bank-2026-09-26/content/reposts/2026-09-28-ege-nesmotrya-2.jpg",
+          "outputs/exam-bank-2026-09-26/content/reposts/2026-09-28-ege-nesmotrya-3.jpg",
+          "outputs/exam-bank-2026-09-26/content/reposts/2026-09-28-ege-nesmotrya-4.jpg"
+        ],
+        "ready": true,
+        "note": "Справочные JPG выпуска из ленты; отдельные видео вопроса и ответа указаны в preparedMedia."
+      },
+      "editorialStatus": "ready-for-review",
+      "requiredBeforeRelease": [
+        "Просмотреть готовые вопрос, полный ответ и музыкальную справку",
+        "Одобрить самостоятельный комплект; только затем назначать выпуск и переносить в live банк"
+      ],
+      "sourceHashVersion": 2,
+      "preparedMedia": {
+        "kind": "standalone-question-answer",
+        "storyId": "2026-09-28-ege-nesmotrya-standalone",
+        "manifest": {
+          "file": "outputs/exam-bank-2026-09-26/standalone-stories/index.json",
+          "sha256": "9f942bf9f0eb8790e3163570c2531be4b2b9ccc6e147b91d29815d772caeb110"
+        },
+        "verification": {
+          "file": "outputs/exam-bank-2026-09-26/standalone-stories/qa/verification.json",
+          "sha256": "a67cb828f206af55d0abf62693468c8d6203494ff07ce6d3880035f74b2778f2"
+        },
+        "configSha256": "8f29636b7fd3a488a7b3fba13aac8b947731ebf2a73d5643db791025fb1f4f75",
+        "parts": [
+          {
+            "index": 1,
+            "role": "question",
+            "file": "outputs/exam-bank-2026-09-26/standalone-stories/2026-09-28-ege-nesmotrya-1.mp4",
+            "sha256": "0d31ef245cef9b234e1b3413eb46a7491ee4b027436360d4945cfafa89baab8d",
+            "bytes": 2401569,
+            "width": 1080,
+            "height": 1920,
+            "duration": 6,
+            "sceneIndices": [
+              1
+            ],
+            "geometry": {
+              "x": 0,
+              "y": 285,
+              "width": 1080,
+              "height": 1350,
+              "background": "#dbe9ec",
+              "cropped": false
+            },
+            "audioCodec": "aac"
+          },
+          {
+            "index": 2,
+            "role": "answer",
+            "file": "outputs/exam-bank-2026-09-26/standalone-stories/2026-09-28-ege-nesmotrya-2.mp4",
+            "sha256": "06593f2f49275dafc5578ab1c71a4cc12deb75bc8d8304567986d8a764ebbd1a",
+            "bytes": 7443332,
+            "width": 1080,
+            "height": 1920,
+            "duration": 18,
+            "sceneIndices": [
+              2,
+              3,
+              4
+            ],
+            "geometry": {
+              "x": 0,
+              "y": 285,
+              "width": 1080,
+              "height": 1350,
+              "background": "#dbe9ec",
+              "cropped": false
+            },
+            "audioCodec": "aac"
+          }
+        ],
+        "ready": true,
+        "errors": [],
+        "note": "Изолированная сборка для просмотра. Этот manifest не даёт допуска в live банк и не заменяет одобрение выпуска."
+      }
+    },
+    {
+      "id": "draft-story-2026-09-29-oge-svetaet",
+      "status": "pending",
+      "type": "exam-draft",
+      "sourcePostId": "2026-09-29-oge-svetaet",
+      "proposedDate": "2026-09-29",
+      "sourceContentSha256": "f8536fd657356840133fcaffcf6fa5632aaa7a861aac649f614a3845195ace66",
+      "rubric": "ОГЭ",
+      "question": {
+        "headline": "Подлежащее\nне потерялось",
+        "body": "«За окном светает» —\nполное предложение."
+      },
+      "explanation": [
+        {
+          "headline": "Светает",
+          "body": "Один главный член.\nПредложение безличное."
+        },
+        {
+          "headline": "За окном",
+          "body": "Где светает?\nЭто обстоятельство, не подлежащее."
+        },
+        {
+          "headline": "Окно светится",
+          "body": "Здесь «окно» — подлежащее,\n«светится» — сказуемое."
+        },
+        {
+          "headline": "Две разные\nосновы",
+          "body": "За окном светает.\nОснова: светает.\nОкно светится.\nОснова: окно светится."
+        }
+      ],
+      "sources": [
+        "https://gramota.ru/biblioteka/spravochniki/russkij-yazyk-kratkij-teoreticheskij-kurs-dlya-shkolnikov/odnosostavnoe-predlozhenie-vyrazhenie-glavnogo-chlena-v-nem",
+        "https://gramota.ru/biblioteka/spravochniki/russkij-yazyk-kratkij-teoreticheskij-kurs-dlya-shkolnikov/bezlichnye-predlozheniya",
+        "https://gramota.ru/poisk?mode=slovari&query=%D1%81%D0%B2%D0%B5%D1%82%D0%B0%D1%82%D1%8C",
+        "https://doc.fipi.ru/navigator-podgotovki/navigator-oge/ru-9_5_grammatika._sintaksis.pdf"
+      ],
+      "caption": "В предложении «За окном светает» не нужно искать спрятанное подлежащее. Оно односоставное, безличное: главный член — «светает». А в предложении «Окно светится» основа уже из двух главных членов.\n\nО музыке. Название «Гольдберг-вариации» появилось позже: сам Бах так цикл не называл.\n\n#ОГЭрусский #грамматическаяоснова #синтаксис",
+      "music": {
+        "file": "bach-goldberg-var1-ishizaka.mp3",
+        "title": "Goldberg Variations, BWV 988: Variatio 1 a 1 Clav.",
+        "piece": "Гольдберг-вариации, BWV 988 — Вариация № 1",
+        "composer": "Иоганн Себастьян Бах",
+        "author": "Kimiko Ishizaka",
+        "performer": "Кимико Ишизака",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "source": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+        "rightsSource": "https://opengoldbergvariations.org/",
+        "download": "https://upload.wikimedia.org/wikipedia/commons/2/20/Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+        "attributionRequired": true,
+        "attribution": "И. С. Бах — Гольдберг-вариации, BWV 988, вариация № 1. Фортепиано: Кимико Ишизака, Open Goldberg Variations (2012). Запись CC0 1.0. Фрагмент, громкость изменена.",
+        "checkedAt": "2026-09-19",
+        "excerptFrom": 0.7,
+        "duration": 32,
+        "active": true,
+        "trendVerified": false,
+        "compositionRights": "Public domain: J. S. Bach (1685–1750)",
+        "recordingRights": "Open Goldberg 2012 recording released under CC0; not inferred from composition age",
+        "sourceSha256": "0539f3612413f6077c82e16f92417bad112e44017536f59db257c8179718076f",
+        "sha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8"
+      },
+      "musicLearning": {
+        "fact": "Название «Гольдберг-вариации» появилось позже: сам Бах так цикл не называл.",
+        "source": "https://www.bachvereniging.nl/en/bwv/bwv-988",
+        "checkedAt": "2026-09-20"
+      },
+      "sourceMedia": {
+        "role": "reference-to-feed-reposts",
+        "kind": "reel-announcement",
+        "files": [
+          "outputs/exam-bank-2026-09-26/content/reposts/2026-09-29-oge-svetaet-1.jpg"
+        ],
+        "ready": true,
+        "note": "Справочные JPG выпуска из ленты; отдельные видео вопроса и ответа указаны в preparedMedia."
+      },
+      "editorialStatus": "ready-for-review",
+      "requiredBeforeRelease": [
+        "Просмотреть готовые вопрос, полный ответ и музыкальную справку",
+        "Одобрить самостоятельный комплект; только затем назначать выпуск и переносить в live банк"
+      ],
+      "sourceHashVersion": 2,
+      "preparedMedia": {
+        "kind": "standalone-question-answer",
+        "storyId": "2026-09-29-oge-svetaet-standalone",
+        "manifest": {
+          "file": "outputs/exam-bank-2026-09-26/standalone-stories/index.json",
+          "sha256": "9f942bf9f0eb8790e3163570c2531be4b2b9ccc6e147b91d29815d772caeb110"
+        },
+        "verification": {
+          "file": "outputs/exam-bank-2026-09-26/standalone-stories/qa/verification.json",
+          "sha256": "a67cb828f206af55d0abf62693468c8d6203494ff07ce6d3880035f74b2778f2"
+        },
+        "configSha256": "8f29636b7fd3a488a7b3fba13aac8b947731ebf2a73d5643db791025fb1f4f75",
+        "parts": [
+          {
+            "index": 1,
+            "role": "question",
+            "file": "outputs/exam-bank-2026-09-26/standalone-stories/2026-09-29-oge-svetaet-1.mp4",
+            "sha256": "b4bce8c4c13ff1d43448968899bfe448754054da95178739b6dad3122c93dde3",
+            "bytes": 4105105,
+            "width": 1080,
+            "height": 1920,
+            "duration": 6,
+            "sceneIndices": [
+              1
+            ],
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 1920,
+              "cropped": false
+            },
+            "audioCodec": "aac"
+          },
+          {
+            "index": 2,
+            "role": "answer",
+            "file": "outputs/exam-bank-2026-09-26/standalone-stories/2026-09-29-oge-svetaet-2.mp4",
+            "sha256": "d44b0537b28ba6fc93b985c1b508603f7e57d403ccf3fc4a7f0242e8446d6c75",
+            "bytes": 16166700,
+            "width": 1080,
+            "height": 1920,
+            "duration": 24,
+            "sceneIndices": [
+              2,
+              3,
+              4,
+              5
+            ],
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 1920,
+              "cropped": false
+            },
+            "audioCodec": "aac"
+          }
+        ],
+        "ready": true,
+        "errors": [],
+        "note": "Изолированная сборка для просмотра. Этот manifest не даёт допуска в live банк и не заменяет одобрение выпуска."
+      }
+    },
+    {
+      "id": "draft-story-2026-09-30-ege-ne-kto",
+      "status": "pending",
+      "type": "exam-draft",
+      "sourcePostId": "2026-09-30-ege-ne-kto",
+      "proposedDate": "2026-09-30",
+      "sourceContentSha256": "0e2f764b08931105387469c24c59b5a62272e9b077421198d4d08b651506db6b",
+      "rubric": "ЕГЭ",
+      "question": {
+        "headline": "ИМЕННО ОН. ИЛИ НИКТО ДРУГОЙ?",
+        "body": "«Не кто иной» и «никто иной» пишутся по-разному."
+      },
+      "explanation": [
+        {
+          "headline": "ИМЕННО ТРЕНЕР",
+          "body": "«Это не кто иной, как наш тренер». НЕ — отдельно."
+        },
+        {
+          "headline": "ПЕРЕД «КАК» — ЗАПЯТАЯ",
+          "body": "Не кто иной, как… Здесь называем конкретного человека."
+        },
+        {
+          "headline": "НИКТО ДРУГОЙ",
+          "body": "«Никто иной не знал маршрута». НИКТО — слитно."
+        },
+        {
+          "headline": "ДВЕ КОНСТРУКЦИИ",
+          "body": "Не кто иной, как… = именно. Никто иной не… = никто другой не…"
+        }
+      ],
+      "sources": [
+        "https://gramota.ru/uchebnik/pravila/razlichenie-chastits-ne-i-ni",
+        "https://gramota.ru/storage/public/normdicts/orfograficheskij_slovar.pdf",
+        "https://gramota.ru/spravka/vopros/319868"
+      ],
+      "caption": "В фразе «Это не кто иной, как наш тренер» сочетание означает «именно»: НЕ пишется отдельно, перед «как» нужна запятая. В предложении «Никто иной не знал маршрута» местоимение пишется слитно с НИ. Сравнивайте смысл целой конструкции.\n\nО музыке. Цикл начинается арией; после тридцати вариаций она возвращается.\n\n#егэрусский #подготовкакегэ",
+      "music": {
+        "file": "bach-goldberg-var1-ishizaka.mp3",
+        "title": "Goldberg Variations, BWV 988: Variatio 1 a 1 Clav.",
+        "piece": "Гольдберг-вариации, BWV 988 — Вариация № 1",
+        "composer": "Иоганн Себастьян Бах",
+        "author": "Kimiko Ishizaka",
+        "performer": "Кимико Ишизака",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "source": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+        "rightsSource": "https://opengoldbergvariations.org/",
+        "download": "https://upload.wikimedia.org/wikipedia/commons/2/20/Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+        "attributionRequired": true,
+        "attribution": "И. С. Бах — Гольдберг-вариации, BWV 988, вариация № 1. Фортепиано: Кимико Ишизака, Open Goldberg Variations (2012). Запись CC0 1.0. Фрагмент, громкость изменена.",
+        "checkedAt": "2026-09-19",
+        "excerptFrom": 0.7,
+        "duration": 32,
+        "active": true,
+        "trendVerified": false,
+        "compositionRights": "Public domain: J. S. Bach (1685–1750)",
+        "recordingRights": "Open Goldberg 2012 recording released under CC0; not inferred from composition age",
+        "sourceSha256": "0539f3612413f6077c82e16f92417bad112e44017536f59db257c8179718076f",
+        "sha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8"
+      },
+      "musicLearning": {
+        "fact": "Цикл начинается арией; после тридцати вариаций она возвращается.",
+        "source": "https://www.bachvereniging.nl/en/bwv/bwv-988",
+        "checkedAt": "2026-09-20"
+      },
+      "sourceMedia": {
+        "role": "reference-to-feed-reposts",
+        "kind": "reel-announcement",
+        "files": [
+          "outputs/exam-bank-2026-09-26/content/reposts/2026-09-30-ege-ne-kto-1.jpg"
+        ],
+        "ready": true,
+        "note": "Справочные JPG выпуска из ленты; отдельные видео вопроса и ответа указаны в preparedMedia."
+      },
+      "editorialStatus": "ready-for-review",
+      "requiredBeforeRelease": [
+        "Просмотреть готовые вопрос, полный ответ и музыкальную справку",
+        "Одобрить самостоятельный комплект; только затем назначать выпуск и переносить в live банк"
+      ],
+      "sourceHashVersion": 2,
+      "preparedMedia": {
+        "kind": "standalone-question-answer",
+        "storyId": "2026-09-30-ege-ne-kto-standalone",
+        "manifest": {
+          "file": "outputs/exam-bank-2026-09-26/standalone-stories/index.json",
+          "sha256": "9f942bf9f0eb8790e3163570c2531be4b2b9ccc6e147b91d29815d772caeb110"
+        },
+        "verification": {
+          "file": "outputs/exam-bank-2026-09-26/standalone-stories/qa/verification.json",
+          "sha256": "a67cb828f206af55d0abf62693468c8d6203494ff07ce6d3880035f74b2778f2"
+        },
+        "configSha256": "8f29636b7fd3a488a7b3fba13aac8b947731ebf2a73d5643db791025fb1f4f75",
+        "parts": [
+          {
+            "index": 1,
+            "role": "question",
+            "file": "outputs/exam-bank-2026-09-26/standalone-stories/2026-09-30-ege-ne-kto-1.mp4",
+            "sha256": "14b877b973da8ce1749e07687c4d81001911727b9b523fd5f977bdaf5c9c9b11",
+            "bytes": 1684727,
+            "width": 1080,
+            "height": 1920,
+            "duration": 6,
+            "sceneIndices": [
+              1
+            ],
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 1920,
+              "cropped": false
+            },
+            "audioCodec": "aac"
+          },
+          {
+            "index": 2,
+            "role": "answer",
+            "file": "outputs/exam-bank-2026-09-26/standalone-stories/2026-09-30-ege-ne-kto-2.mp4",
+            "sha256": "022e46d8773ec23dac37b5bdbd7fe2d692040554377bcf56576af96ef70112d2",
+            "bytes": 6987463,
+            "width": 1080,
+            "height": 1920,
+            "duration": 24,
+            "sceneIndices": [
+              2,
+              3,
+              4,
+              5
+            ],
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 1920,
+              "cropped": false
+            },
+            "audioCodec": "aac"
+          }
+        ],
+        "ready": true,
+        "errors": [],
+        "note": "Изолированная сборка для просмотра. Этот manifest не даёт допуска в live банк и не заменяет одобрение выпуска."
+      }
+    },
+    {
+      "id": "draft-story-2026-10-01-oge-svyaz",
+      "status": "pending",
+      "type": "exam-draft",
+      "sourcePostId": "2026-10-01-oge-svyaz",
+      "proposedDate": "2026-10-01",
+      "sourceContentSha256": "e69e005aa08ba6d4a81d1296fe198c87801ba2af793af38a6a364e0f1e9d134f",
+      "rubric": "ОГЭ",
+      "question": {
+        "headline": "Один шарф —\nтри связи",
+        "body": "Шерстяной шарф.\nШарф из шерсти.\nОчень мягкий.\nСмысл рядом — грамматика разная."
+      },
+      "explanation": [
+        {
+          "headline": "Согласование",
+          "body": "Шерстяной шарф — шерстяного шарфа.\nГлавное слово: шарф.\nЗависимое прилагательное меняется вместе с ним."
+        },
+        {
+          "headline": "Ещё две связи",
+          "body": "Шарф из шерсти — управление.\n«Из шерсти»: существительное в родительном падеже.\nОчень мягкий — примыкание.\n«Очень»: неизменяемое наречие."
+        },
+        {
+          "headline": "Проверяем\nзависимое слово",
+          "body": "Шерстяной шарф — согласование.\nШарф из шерсти — управление.\nОчень мягкий — примыкание.\nГлавные слова: шарф, шарф, мягкий."
+        }
+      ],
+      "sources": [
+        "https://gramota.ru/biblioteka/spravochniki/russkij-yazyk-kratkij-teoreticheskij-kurs-dlya-shkolnikov/predlozhenie",
+        "https://doc.fipi.ru/navigator-podgotovki/navigator-oge/ru-9_5_grammatika._sintaksis.pdf"
+      ],
+      "caption": "Шерстяной шарф, шарф из шерсти, очень мягкий. Три сочетания про одну вещь — и три способа связи слов. Сначала находим главное слово, затем смотрим, как к нему присоединено зависимое.\n\nО музыке. Бах написал этот цикл для клавесина.\n\n#ОГЭрусский #словосочетание #синтаксис",
+      "music": {
+        "file": "bach-goldberg-var1-ishizaka.mp3",
+        "title": "Goldberg Variations, BWV 988: Variatio 1 a 1 Clav.",
+        "piece": "Гольдберг-вариации, BWV 988 — Вариация № 1",
+        "composer": "Иоганн Себастьян Бах",
+        "author": "Kimiko Ishizaka",
+        "performer": "Кимико Ишизака",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "source": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+        "rightsSource": "https://opengoldbergvariations.org/",
+        "download": "https://upload.wikimedia.org/wikipedia/commons/2/20/Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+        "attributionRequired": true,
+        "attribution": "И. С. Бах — Гольдберг-вариации, BWV 988, вариация № 1. Фортепиано: Кимико Ишизака, Open Goldberg Variations (2012). Запись CC0 1.0. Фрагмент, громкость изменена.",
+        "checkedAt": "2026-09-19",
+        "excerptFrom": 0.7,
+        "duration": 32,
+        "active": true,
+        "trendVerified": false,
+        "compositionRights": "Public domain: J. S. Bach (1685–1750)",
+        "recordingRights": "Open Goldberg 2012 recording released under CC0; not inferred from composition age",
+        "sourceSha256": "0539f3612413f6077c82e16f92417bad112e44017536f59db257c8179718076f",
+        "sha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8"
+      },
+      "musicLearning": {
+        "fact": "Бах написал этот цикл для клавесина.",
+        "source": "https://www.bachvereniging.nl/en/bwv/bwv-988",
+        "checkedAt": "2026-09-20"
+      },
+      "sourceMedia": {
+        "role": "reference-to-feed-reposts",
+        "kind": "all-carousel-slides",
+        "files": [
+          "outputs/exam-bank-2026-09-26/content/reposts/2026-10-01-oge-svyaz-1.jpg",
+          "outputs/exam-bank-2026-09-26/content/reposts/2026-10-01-oge-svyaz-2.jpg",
+          "outputs/exam-bank-2026-09-26/content/reposts/2026-10-01-oge-svyaz-3.jpg",
+          "outputs/exam-bank-2026-09-26/content/reposts/2026-10-01-oge-svyaz-4.jpg"
+        ],
+        "ready": true,
+        "note": "Справочные JPG выпуска из ленты; отдельные видео вопроса и ответа указаны в preparedMedia."
+      },
+      "editorialStatus": "ready-for-review",
+      "requiredBeforeRelease": [
+        "Просмотреть готовые вопрос, полный ответ и музыкальную справку",
+        "Одобрить самостоятельный комплект; только затем назначать выпуск и переносить в live банк"
+      ],
+      "sourceHashVersion": 2,
+      "preparedMedia": {
+        "kind": "standalone-question-answer",
+        "storyId": "2026-10-01-oge-svyaz-standalone",
+        "manifest": {
+          "file": "outputs/exam-bank-2026-09-26/standalone-stories/index.json",
+          "sha256": "9f942bf9f0eb8790e3163570c2531be4b2b9ccc6e147b91d29815d772caeb110"
+        },
+        "verification": {
+          "file": "outputs/exam-bank-2026-09-26/standalone-stories/qa/verification.json",
+          "sha256": "a67cb828f206af55d0abf62693468c8d6203494ff07ce6d3880035f74b2778f2"
+        },
+        "configSha256": "8f29636b7fd3a488a7b3fba13aac8b947731ebf2a73d5643db791025fb1f4f75",
+        "parts": [
+          {
+            "index": 1,
+            "role": "question",
+            "file": "outputs/exam-bank-2026-09-26/standalone-stories/2026-10-01-oge-svyaz-1.mp4",
+            "sha256": "dab66b39f9663232625982ffc0b9d3700f3144a5515bedda618c66fb77f7bcc8",
+            "bytes": 2111691,
+            "width": 1080,
+            "height": 1920,
+            "duration": 6,
+            "sceneIndices": [
+              1
+            ],
+            "geometry": {
+              "x": 0,
+              "y": 285,
+              "width": 1080,
+              "height": 1350,
+              "background": "#f4e7c7",
+              "cropped": false
+            },
+            "audioCodec": "aac"
+          },
+          {
+            "index": 2,
+            "role": "answer",
+            "file": "outputs/exam-bank-2026-09-26/standalone-stories/2026-10-01-oge-svyaz-2.mp4",
+            "sha256": "bc82afb50d2fc43b9971f1a2fc04c3c49b7cfb676182cad7c95ef85365a47cc0",
+            "bytes": 7136181,
+            "width": 1080,
+            "height": 1920,
+            "duration": 18,
+            "sceneIndices": [
+              2,
+              3,
+              4
+            ],
+            "geometry": {
+              "x": 0,
+              "y": 285,
+              "width": 1080,
+              "height": 1350,
+              "background": "#f4e7c7",
+              "cropped": false
+            },
+            "audioCodec": "aac"
+          }
+        ],
+        "ready": true,
+        "errors": [],
+        "note": "Изолированная сборка для просмотра. Этот manifest не даёт допуска в live банк и не заменяет одобрение выпуска."
+      }
+    },
+    {
+      "id": "draft-story-2026-10-02-ege-bsp-colon",
+      "status": "pending",
+      "type": "exam-draft",
+      "sourcePostId": "2026-10-02-ege-bsp-colon",
+      "proposedDate": "2026-10-02",
+      "sourceContentSha256": "9af21765c68d41d7acfc7d791732f378508ec756a953ca8bdaa8b9296980fa63",
+      "rubric": "ЕГЭ",
+      "question": {
+        "headline": "ДВОЕТОЧИЕ — НЕ ТОЛЬКО ПЕРЕД СПИСКОМ",
+        "body": "Во второй части может быть причина или пояснение первой."
+      },
+      "explanation": [
+        {
+          "headline": "ПОЧЕМУ ОСТАЛИСЬ?",
+          "body": "«Мы остались дома: началась гроза». Вторая часть указывает причину. Проверка: потому что."
+        },
+        {
+          "headline": "ЧТО ЗА ПЛАН?",
+          "body": "«План был прост: мы поедем утром». Вторая часть раскрывает план. Проверка: а именно."
+        },
+        {
+          "headline": "ДВА ОСНОВАНИЯ ДЛЯ ДВОЕТОЧИЯ",
+          "body": "Причина → потому что. Пояснение → а именно. Сначала определите отношение частей; это не все случаи бессоюзной связи."
+        }
+      ],
+      "sources": [
+        "https://gramota.ru/uchebnik/pravila/normy-postanovki-znakov-prepinaniya-v-bessoyuznom-slozhnom-predlozhenii",
+        "https://gramota.ru/poisk?mode=spravka&query=обоснования"
+      ],
+      "caption": "В бессоюзном предложении двоеточие может вводить причину или пояснение. «Мы остались дома: началась гроза» — причина. «План был прост: мы поедем утром» — раскрытие плана. Это два основания для выбранного двоеточия, а не вся пунктуация бессоюзных предложений. Подстановка помогает проверить смысл, но не заменяет разбор.\n\nО музыке. «Гольдберг-вариации» впервые напечатали в 1741 году.\n\n#егэрусский #подготовкакегэ",
+      "music": {
+        "file": "bach-goldberg-var1-ishizaka.mp3",
+        "title": "Goldberg Variations, BWV 988: Variatio 1 a 1 Clav.",
+        "piece": "Гольдберг-вариации, BWV 988 — Вариация № 1",
+        "composer": "Иоганн Себастьян Бах",
+        "author": "Kimiko Ishizaka",
+        "performer": "Кимико Ишизака",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "source": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+        "rightsSource": "https://opengoldbergvariations.org/",
+        "download": "https://upload.wikimedia.org/wikipedia/commons/2/20/Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+        "attributionRequired": true,
+        "attribution": "И. С. Бах — Гольдберг-вариации, BWV 988, вариация № 1. Фортепиано: Кимико Ишизака, Open Goldberg Variations (2012). Запись CC0 1.0. Фрагмент, громкость изменена.",
+        "checkedAt": "2026-09-19",
+        "excerptFrom": 0.7,
+        "duration": 32,
+        "active": true,
+        "trendVerified": false,
+        "compositionRights": "Public domain: J. S. Bach (1685–1750)",
+        "recordingRights": "Open Goldberg 2012 recording released under CC0; not inferred from composition age",
+        "sourceSha256": "0539f3612413f6077c82e16f92417bad112e44017536f59db257c8179718076f",
+        "sha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8"
+      },
+      "musicLearning": {
+        "fact": "«Гольдберг-вариации» впервые напечатали в 1741 году.",
+        "source": "https://www.bachvereniging.nl/en/bwv/bwv-988",
+        "checkedAt": "2026-09-20"
+      },
+      "sourceMedia": {
+        "role": "reference-to-feed-reposts",
+        "kind": "all-carousel-slides",
+        "files": [
+          "outputs/exam-bank-2026-09-26/content/reposts/2026-10-02-ege-bsp-colon-1.jpg",
+          "outputs/exam-bank-2026-09-26/content/reposts/2026-10-02-ege-bsp-colon-2.jpg",
+          "outputs/exam-bank-2026-09-26/content/reposts/2026-10-02-ege-bsp-colon-3.jpg",
+          "outputs/exam-bank-2026-09-26/content/reposts/2026-10-02-ege-bsp-colon-4.jpg"
+        ],
+        "ready": true,
+        "note": "Справочные JPG выпуска из ленты; отдельные видео вопроса и ответа указаны в preparedMedia."
+      },
+      "editorialStatus": "ready-for-review",
+      "requiredBeforeRelease": [
+        "Просмотреть готовые вопрос, полный ответ и музыкальную справку",
+        "Одобрить самостоятельный комплект; только затем назначать выпуск и переносить в live банк"
+      ],
+      "sourceHashVersion": 2,
+      "preparedMedia": {
+        "kind": "standalone-question-answer",
+        "storyId": "2026-10-02-ege-bsp-colon-standalone",
+        "manifest": {
+          "file": "outputs/exam-bank-2026-09-26/standalone-stories/index.json",
+          "sha256": "9f942bf9f0eb8790e3163570c2531be4b2b9ccc6e147b91d29815d772caeb110"
+        },
+        "verification": {
+          "file": "outputs/exam-bank-2026-09-26/standalone-stories/qa/verification.json",
+          "sha256": "a67cb828f206af55d0abf62693468c8d6203494ff07ce6d3880035f74b2778f2"
+        },
+        "configSha256": "8f29636b7fd3a488a7b3fba13aac8b947731ebf2a73d5643db791025fb1f4f75",
+        "parts": [
+          {
+            "index": 1,
+            "role": "question",
+            "file": "outputs/exam-bank-2026-09-26/standalone-stories/2026-10-02-ege-bsp-colon-1.mp4",
+            "sha256": "7ec337dca253650b1b754c833a011bf15dfdba759513b640f9a11c28f9ce3493",
+            "bytes": 3508762,
+            "width": 1080,
+            "height": 1920,
+            "duration": 6,
+            "sceneIndices": [
+              1
+            ],
+            "geometry": {
+              "x": 0,
+              "y": 285,
+              "width": 1080,
+              "height": 1350,
+              "background": "#dbe9ec",
+              "cropped": false
+            },
+            "audioCodec": "aac"
+          },
+          {
+            "index": 2,
+            "role": "answer",
+            "file": "outputs/exam-bank-2026-09-26/standalone-stories/2026-10-02-ege-bsp-colon-2.mp4",
+            "sha256": "c930e62710ec5a2423ff6715a8d83eacc77dfecc553db34510b0ff76f1ecba13",
+            "bytes": 10624794,
+            "width": 1080,
+            "height": 1920,
+            "duration": 18,
+            "sceneIndices": [
+              2,
+              3,
+              4
+            ],
+            "geometry": {
+              "x": 0,
+              "y": 285,
+              "width": 1080,
+              "height": 1350,
+              "background": "#dbe9ec",
+              "cropped": false
+            },
+            "audioCodec": "aac"
+          }
+        ],
+        "ready": true,
+        "errors": [],
+        "note": "Изолированная сборка для просмотра. Этот manifest не даёт допуска в live банк и не заменяет одобрение выпуска."
+      }
+    },
+    {
+      "id": "draft-story-2026-10-03-oge-bez-bes",
+      "status": "pending",
+      "type": "exam-draft",
+      "sourcePostId": "2026-10-03-oge-bez-bes",
+      "proposedDate": "2026-10-03",
+      "sourceContentSha256": "c9334352f8820bd890396e2ef1d113e90544b8e204259ec744cdb4cc09814861",
+      "rubric": "ОГЭ",
+      "question": {
+        "headline": "Тихо.\nА приставки\nразные.",
+        "body": "Беззвучный режим.\nБесшумный шаг."
+      },
+      "explanation": [
+        {
+          "headline": "Беззвучный",
+          "body": "После приставки — з.\nЭто буква звонкого согласного.\nПишем без-."
+        },
+        {
+          "headline": "Бесшумный",
+          "body": "После приставки — ш.\nЭто буква глухого согласного.\nПишем бес-."
+        },
+        {
+          "headline": "Безоблачный",
+          "body": "После приставки — гласная о.\nЗдесь тоже без-."
+        },
+        {
+          "headline": "Без- или бес-",
+          "body": "Беззвучный: з перед з.\nБесшумный: с перед ш.\nБезоблачный: з перед о."
+        }
+      ],
+      "sources": [
+        "https://gramota.ru/biblioteka/spravochniki/pravila-russkoy-orfografii-i-punktuatsii/glukhie-i-zvonkie-soglasnye",
+        "https://gramota.ru/poisk?mode=spravka&query=%D0%BF%D1%80%D0%B8%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B0+%D0%B1%D0%B5%D0%B7-&simple=0",
+        "https://gramota.ru/storage/public/normdicts/orfograficheskij_slovar.pdf",
+        "https://gramota.ru/poisk?dicts%5B0%5D=71&mode=slovari&query=%D0%B1%D0%B5%D1%81%D1%88%D1%83%D0%BC%D0%BD%D1%8B%D0%B9&simple=0"
+      ],
+      "caption": "Беззвучный режим и бесшумный шаг. В приставках без-/бес- выбор зависит от следующей буквы: перед буквой звонкого согласного пишем з, перед буквой глухого — с; перед гласной тоже з.\n\nО музыке. Название «Гольдберг-вариации» появилось позже: сам Бах так цикл не называл.\n\n#ОГЭрусский #приставки #орфография",
+      "music": {
+        "file": "bach-goldberg-var1-ishizaka.mp3",
+        "title": "Goldberg Variations, BWV 988: Variatio 1 a 1 Clav.",
+        "piece": "Гольдберг-вариации, BWV 988 — Вариация № 1",
+        "composer": "Иоганн Себастьян Бах",
+        "author": "Kimiko Ishizaka",
+        "performer": "Кимико Ишизака",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "source": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+        "rightsSource": "https://opengoldbergvariations.org/",
+        "download": "https://upload.wikimedia.org/wikipedia/commons/2/20/Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+        "attributionRequired": true,
+        "attribution": "И. С. Бах — Гольдберг-вариации, BWV 988, вариация № 1. Фортепиано: Кимико Ишизака, Open Goldberg Variations (2012). Запись CC0 1.0. Фрагмент, громкость изменена.",
+        "checkedAt": "2026-09-19",
+        "excerptFrom": 0.7,
+        "duration": 32,
+        "active": true,
+        "trendVerified": false,
+        "compositionRights": "Public domain: J. S. Bach (1685–1750)",
+        "recordingRights": "Open Goldberg 2012 recording released under CC0; not inferred from composition age",
+        "sourceSha256": "0539f3612413f6077c82e16f92417bad112e44017536f59db257c8179718076f",
+        "sha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8"
+      },
+      "musicLearning": {
+        "fact": "Название «Гольдберг-вариации» появилось позже: сам Бах так цикл не называл.",
+        "source": "https://www.bachvereniging.nl/en/bwv/bwv-988",
+        "checkedAt": "2026-09-20"
+      },
+      "sourceMedia": {
+        "role": "reference-to-feed-reposts",
+        "kind": "reel-announcement",
+        "files": [
+          "outputs/exam-bank-2026-09-26/content/reposts/2026-10-03-oge-bez-bes-1.jpg"
+        ],
+        "ready": true,
+        "note": "Справочные JPG выпуска из ленты; отдельные видео вопроса и ответа указаны в preparedMedia."
+      },
+      "editorialStatus": "ready-for-review",
+      "requiredBeforeRelease": [
+        "Просмотреть готовые вопрос, полный ответ и музыкальную справку",
+        "Одобрить самостоятельный комплект; только затем назначать выпуск и переносить в live банк"
+      ],
+      "sourceHashVersion": 2,
+      "preparedMedia": {
+        "kind": "standalone-question-answer",
+        "storyId": "2026-10-03-oge-bez-bes-standalone",
+        "manifest": {
+          "file": "outputs/exam-bank-2026-09-26/standalone-stories/index.json",
+          "sha256": "9f942bf9f0eb8790e3163570c2531be4b2b9ccc6e147b91d29815d772caeb110"
+        },
+        "verification": {
+          "file": "outputs/exam-bank-2026-09-26/standalone-stories/qa/verification.json",
+          "sha256": "a67cb828f206af55d0abf62693468c8d6203494ff07ce6d3880035f74b2778f2"
+        },
+        "configSha256": "8f29636b7fd3a488a7b3fba13aac8b947731ebf2a73d5643db791025fb1f4f75",
+        "parts": [
+          {
+            "index": 1,
+            "role": "question",
+            "file": "outputs/exam-bank-2026-09-26/standalone-stories/2026-10-03-oge-bez-bes-1.mp4",
+            "sha256": "78eba5e401395d322adb4255347990afb65d4c98bb041fec6d82c1508ed5ea03",
+            "bytes": 1692560,
+            "width": 1080,
+            "height": 1920,
+            "duration": 6,
+            "sceneIndices": [
+              1
+            ],
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 1920,
+              "cropped": false
+            },
+            "audioCodec": "aac"
+          },
+          {
+            "index": 2,
+            "role": "answer",
+            "file": "outputs/exam-bank-2026-09-26/standalone-stories/2026-10-03-oge-bez-bes-2.mp4",
+            "sha256": "e2733fc0d41ec632920258768180ad846bae95e681112ab896cc47b575a81c0c",
+            "bytes": 6958640,
+            "width": 1080,
+            "height": 1920,
+            "duration": 24,
+            "sceneIndices": [
+              2,
+              3,
+              4,
+              5
+            ],
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 1920,
+              "cropped": false
+            },
+            "audioCodec": "aac"
+          }
+        ],
+        "ready": true,
+        "errors": [],
+        "note": "Изолированная сборка для просмотра. Этот manifest не даёт допуска в live банк и не заменяет одобрение выпуска."
+      }
+    },
+    {
+      "id": "draft-story-2026-10-04-ege-odnako",
+      "status": "pending",
+      "type": "exam-draft",
+      "sourcePostId": "2026-10-04-ege-odnako",
+      "proposedDate": "2026-10-04",
+      "sourceContentSha256": "e189476f2b8134ea56641dd90c5d8f08aec173c670a7829d6b8e0099f297fa08",
+      "rubric": "ЕГЭ",
+      "question": {
+        "headline": "ОДНАКО ПОЕЗД ЗАДЕРЖАЛСЯ",
+        "body": "После «однако» здесь нет запятой."
+      },
+      "explanation": [
+        {
+          "headline": "ЗДЕСЬ ОНО ЗНАЧИТ «НО»",
+          "body": "«Но поезд задержался». Это союз."
+        },
+        {
+          "headline": "ПОЕЗД, ОДНАКО, ЗАДЕРЖАЛСЯ",
+          "body": "В этой фразе «однако» — вводное слово. Нужны две запятые."
+        },
+        {
+          "headline": "ОДНОГО СПИСКА СЛОВ МАЛО",
+          "body": "На ЕГЭ определяйте роль слова в предложении."
+        },
+        {
+          "headline": "ДВА ОБРАЗЦА",
+          "body": "Однако поезд задержался. Поезд, однако, задержался. Запятые зависят от роли слова."
+        }
+      ],
+      "sources": [
+        "https://gramota.ru/biblioteka/spravochniki/pravila-russkoy-orfografii-i-punktuatsii/znaki-prepinaniya-pri-vvodnykh-slovakh-sochetaniyakh-slov-i-predlozheniyakh"
+      ],
+      "caption": "«Однако поезд задержался»: здесь «однако» означает «но», поэтому после него нет запятой. «Поезд, однако, задержался»: вводное слово обособлено. Это разбор двух конкретных конструкций, а не запрет на любую запятую после «однако» в начале предложения: там может начинаться отдельный оборот.\n\nО музыке. Цикл начинается арией; после тридцати вариаций она возвращается.\n\n#егэрусский #подготовкакегэ",
+      "music": {
+        "file": "bach-goldberg-var1-ishizaka.mp3",
+        "title": "Goldberg Variations, BWV 988: Variatio 1 a 1 Clav.",
+        "piece": "Гольдберг-вариации, BWV 988 — Вариация № 1",
+        "composer": "Иоганн Себастьян Бах",
+        "author": "Kimiko Ishizaka",
+        "performer": "Кимико Ишизака",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "source": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+        "rightsSource": "https://opengoldbergvariations.org/",
+        "download": "https://upload.wikimedia.org/wikipedia/commons/2/20/Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+        "attributionRequired": true,
+        "attribution": "И. С. Бах — Гольдберг-вариации, BWV 988, вариация № 1. Фортепиано: Кимико Ишизака, Open Goldberg Variations (2012). Запись CC0 1.0. Фрагмент, громкость изменена.",
+        "checkedAt": "2026-09-19",
+        "excerptFrom": 0.7,
+        "duration": 32,
+        "active": true,
+        "trendVerified": false,
+        "compositionRights": "Public domain: J. S. Bach (1685–1750)",
+        "recordingRights": "Open Goldberg 2012 recording released under CC0; not inferred from composition age",
+        "sourceSha256": "0539f3612413f6077c82e16f92417bad112e44017536f59db257c8179718076f",
+        "sha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8"
+      },
+      "musicLearning": {
+        "fact": "Цикл начинается арией; после тридцати вариаций она возвращается.",
+        "source": "https://www.bachvereniging.nl/en/bwv/bwv-988",
+        "checkedAt": "2026-09-20"
+      },
+      "sourceMedia": {
+        "role": "reference-to-feed-reposts",
+        "kind": "reel-announcement",
+        "files": [
+          "outputs/exam-bank-2026-09-26/content/reposts/2026-10-04-ege-odnako-1.jpg"
+        ],
+        "ready": true,
+        "note": "Справочные JPG выпуска из ленты; отдельные видео вопроса и ответа указаны в preparedMedia."
+      },
+      "editorialStatus": "ready-for-review",
+      "requiredBeforeRelease": [
+        "Просмотреть готовые вопрос, полный ответ и музыкальную справку",
+        "Одобрить самостоятельный комплект; только затем назначать выпуск и переносить в live банк"
+      ],
+      "sourceHashVersion": 2,
+      "preparedMedia": {
+        "kind": "standalone-question-answer",
+        "storyId": "2026-10-04-ege-odnako-standalone",
+        "manifest": {
+          "file": "outputs/exam-bank-2026-09-26/standalone-stories/index.json",
+          "sha256": "9f942bf9f0eb8790e3163570c2531be4b2b9ccc6e147b91d29815d772caeb110"
+        },
+        "verification": {
+          "file": "outputs/exam-bank-2026-09-26/standalone-stories/qa/verification.json",
+          "sha256": "a67cb828f206af55d0abf62693468c8d6203494ff07ce6d3880035f74b2778f2"
+        },
+        "configSha256": "8f29636b7fd3a488a7b3fba13aac8b947731ebf2a73d5643db791025fb1f4f75",
+        "parts": [
+          {
+            "index": 1,
+            "role": "question",
+            "file": "outputs/exam-bank-2026-09-26/standalone-stories/2026-10-04-ege-odnako-1.mp4",
+            "sha256": "4787c628b65d102755f2ba289268cb87ca52f652df6eb1b363f6c648d77dd943",
+            "bytes": 2159239,
+            "width": 1080,
+            "height": 1920,
+            "duration": 6,
+            "sceneIndices": [
+              1
+            ],
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 1920,
+              "cropped": false
+            },
+            "audioCodec": "aac"
+          },
+          {
+            "index": 2,
+            "role": "answer",
+            "file": "outputs/exam-bank-2026-09-26/standalone-stories/2026-10-04-ege-odnako-2.mp4",
+            "sha256": "2cc93e43ad71eb7567783223eb5ba61d0c582d52976551d11e3cd83f147ba70c",
+            "bytes": 9778822,
+            "width": 1080,
+            "height": 1920,
+            "duration": 24,
+            "sceneIndices": [
+              2,
+              3,
+              4,
+              5
+            ],
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 1920,
+              "cropped": false
+            },
+            "audioCodec": "aac"
+          }
+        ],
+        "ready": true,
+        "errors": [],
+        "note": "Изолированная сборка для просмотра. Этот manifest не даёт допуска в live банк и не заменяет одобрение выпуска."
+      }
+    },
+    {
+      "id": "draft-story-2026-10-05-oge-szhatie",
+      "status": "pending",
+      "type": "exam-draft",
+      "sourcePostId": "2026-10-05-oge-szhatie",
+      "proposedDate": "2026-10-05",
+      "sourceContentSha256": "036bb4fa8d81f59082dd064f6db28804386fbd13f57c3fce67244082bc402dd5",
+      "rubric": "ОГЭ",
+      "question": {
+        "headline": "Короче —\nс тем же\nсмыслом",
+        "body": "Два приёма для сжатого изложения.\nНа наших тренировочных примерах."
+      },
+      "explanation": [
+        {
+          "headline": "Обобщаем",
+          "body": "Было: «В сумке лежали яблоки, груши и сливы».\nСтало: «В сумке лежали фрукты».\nТак можно, если виды фруктов не важны для мысли текста."
+        },
+        {
+          "headline": "Объединяем",
+          "body": "Было: «Мы ждали поезд. Ожидание затянулось».\nСтало: «Мы долго ждали поезд».\nСохранены и событие, и его длительность."
+        },
+        {
+          "headline": "Смысл\nостаётся",
+          "body": "Яблоки, груши, сливы — фрукты.\nЖдали; ожидание затянулось — долго ждали.\nПроверка: все основные мысли исходного текста на месте."
+        }
+      ],
+      "sources": [
+        "https://doc.fipi.ru/navigator-podgotovki/navigator-oge/MR_rus_yaz_oge_2026.pdf",
+        "https://doc.fipi.ru/navigator-podgotovki/navigator-oge/ru-9_11_inform._obrabotka.pdf"
+      ],
+      "caption": "В сжатом изложении уменьшаем объём, сохраняя главную информацию. Здесь два наших тренировочных примера: обобщение и объединение предложений. Убирать детали можно лишь тогда, когда они не важны для мысли исходного текста.\n\nО музыке. Бах написал этот цикл для клавесина.\n\n#ОГЭрусский #сжатоеизложение #работастекстом",
+      "music": {
+        "file": "bach-goldberg-var1-ishizaka.mp3",
+        "title": "Goldberg Variations, BWV 988: Variatio 1 a 1 Clav.",
+        "piece": "Гольдберг-вариации, BWV 988 — Вариация № 1",
+        "composer": "Иоганн Себастьян Бах",
+        "author": "Kimiko Ishizaka",
+        "performer": "Кимико Ишизака",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "source": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+        "rightsSource": "https://opengoldbergvariations.org/",
+        "download": "https://upload.wikimedia.org/wikipedia/commons/2/20/Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+        "attributionRequired": true,
+        "attribution": "И. С. Бах — Гольдберг-вариации, BWV 988, вариация № 1. Фортепиано: Кимико Ишизака, Open Goldberg Variations (2012). Запись CC0 1.0. Фрагмент, громкость изменена.",
+        "checkedAt": "2026-09-19",
+        "excerptFrom": 0.7,
+        "duration": 32,
+        "active": true,
+        "trendVerified": false,
+        "compositionRights": "Public domain: J. S. Bach (1685–1750)",
+        "recordingRights": "Open Goldberg 2012 recording released under CC0; not inferred from composition age",
+        "sourceSha256": "0539f3612413f6077c82e16f92417bad112e44017536f59db257c8179718076f",
+        "sha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8"
+      },
+      "musicLearning": {
+        "fact": "Бах написал этот цикл для клавесина.",
+        "source": "https://www.bachvereniging.nl/en/bwv/bwv-988",
+        "checkedAt": "2026-09-20"
+      },
+      "sourceMedia": {
+        "role": "reference-to-feed-reposts",
+        "kind": "all-carousel-slides",
+        "files": [
+          "outputs/exam-bank-2026-09-26/content/reposts/2026-10-05-oge-szhatie-1.jpg",
+          "outputs/exam-bank-2026-09-26/content/reposts/2026-10-05-oge-szhatie-2.jpg",
+          "outputs/exam-bank-2026-09-26/content/reposts/2026-10-05-oge-szhatie-3.jpg",
+          "outputs/exam-bank-2026-09-26/content/reposts/2026-10-05-oge-szhatie-4.jpg"
+        ],
+        "ready": true,
+        "note": "Справочные JPG выпуска из ленты; отдельные видео вопроса и ответа указаны в preparedMedia."
+      },
+      "editorialStatus": "ready-for-review",
+      "requiredBeforeRelease": [
+        "Просмотреть готовые вопрос, полный ответ и музыкальную справку",
+        "Одобрить самостоятельный комплект; только затем назначать выпуск и переносить в live банк"
+      ],
+      "sourceHashVersion": 2,
+      "preparedMedia": {
+        "kind": "standalone-question-answer",
+        "storyId": "2026-10-05-oge-szhatie-standalone",
+        "manifest": {
+          "file": "outputs/exam-bank-2026-09-26/standalone-stories/index.json",
+          "sha256": "9f942bf9f0eb8790e3163570c2531be4b2b9ccc6e147b91d29815d772caeb110"
+        },
+        "verification": {
+          "file": "outputs/exam-bank-2026-09-26/standalone-stories/qa/verification.json",
+          "sha256": "a67cb828f206af55d0abf62693468c8d6203494ff07ce6d3880035f74b2778f2"
+        },
+        "configSha256": "8f29636b7fd3a488a7b3fba13aac8b947731ebf2a73d5643db791025fb1f4f75",
+        "parts": [
+          {
+            "index": 1,
+            "role": "question",
+            "file": "outputs/exam-bank-2026-09-26/standalone-stories/2026-10-05-oge-szhatie-1.mp4",
+            "sha256": "e3d860c97b12e480846c0af485f1c86f00c9191270f6a06dbc7c2e6f3632a1a0",
+            "bytes": 3894259,
+            "width": 1080,
+            "height": 1920,
+            "duration": 6,
+            "sceneIndices": [
+              1
+            ],
+            "geometry": {
+              "x": 0,
+              "y": 285,
+              "width": 1080,
+              "height": 1350,
+              "background": "#f4e7c7",
+              "cropped": false
+            },
+            "audioCodec": "aac"
+          },
+          {
+            "index": 2,
+            "role": "answer",
+            "file": "outputs/exam-bank-2026-09-26/standalone-stories/2026-10-05-oge-szhatie-2.mp4",
+            "sha256": "5e1131ea9eec667f74486c17148e75ce16fccc22e6f33177e2dc8d6eaad985cf",
+            "bytes": 11216782,
+            "width": 1080,
+            "height": 1920,
+            "duration": 18,
+            "sceneIndices": [
+              2,
+              3,
+              4
+            ],
+            "geometry": {
+              "x": 0,
+              "y": 285,
+              "width": 1080,
+              "height": 1350,
+              "background": "#f4e7c7",
+              "cropped": false
+            },
+            "audioCodec": "aac"
+          }
+        ],
+        "ready": true,
+        "errors": [],
+        "note": "Изолированная сборка для просмотра. Этот manifest не даёт допуска в live банк и не заменяет одобрение выпуска."
+      }
+    },
+    {
+      "id": "draft-story-2026-10-06-ege-po-pribytii",
+      "status": "pending",
+      "type": "exam-draft",
+      "sourcePostId": "2026-10-06-ege-po-pribytii",
+      "proposedDate": "2026-10-06",
+      "sourceContentSha256": "4dd392375c49e062f9a37e8e021415ce2eb589ffeb322bfb5a74bcd16bd5db56",
+      "rubric": "ЕГЭ",
+      "question": {
+        "headline": "ПО ПРИБЫТИЮ?",
+        "body": "Если имеется в виду «после прибытия», нужно: по прибытии."
+      },
+      "explanation": [
+        {
+          "headline": "МЫ УЖЕ ПРИБЫЛИ",
+          "body": "«По прибытии мы позвонили домой». Значение: после прибытия."
+        },
+        {
+          "headline": "РАБОТА УЖЕ ЗАВЕРШЕНА",
+          "body": "«По завершении работы выключите свет». Значение: после завершения."
+        },
+        {
+          "headline": "НЕ ЛЮБОЕ «ПО»",
+          "body": "«Идти по дороге» — другое значение. Здесь эта проверка не работает."
+        },
+        {
+          "headline": "ЕСЛИ «ПО» = «ПОСЛЕ»",
+          "body": "По прибытии. По завершении. В этих сочетаниях — предложный падеж."
+        }
+      ],
+      "sources": [
+        "https://gramota.ru/biblioteka/spravochniki/slovar-trudnostey/zavershenie"
+      ],
+      "caption": "Если «по» означает «после», нужны формы «по прибытии», «по завершении». Например: «По прибытии мы позвонили домой». Это не правило «после любого по ставить И»: у предлога есть другие значения и другие падежи.\n\nО музыке. «Гольдберг-вариации» впервые напечатали в 1741 году.\n\n#егэрусский #подготовкакегэ",
+      "music": {
+        "file": "bach-goldberg-var1-ishizaka.mp3",
+        "title": "Goldberg Variations, BWV 988: Variatio 1 a 1 Clav.",
+        "piece": "Гольдберг-вариации, BWV 988 — Вариация № 1",
+        "composer": "Иоганн Себастьян Бах",
+        "author": "Kimiko Ishizaka",
+        "performer": "Кимико Ишизака",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "source": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+        "rightsSource": "https://opengoldbergvariations.org/",
+        "download": "https://upload.wikimedia.org/wikipedia/commons/2/20/Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+        "attributionRequired": true,
+        "attribution": "И. С. Бах — Гольдберг-вариации, BWV 988, вариация № 1. Фортепиано: Кимико Ишизака, Open Goldberg Variations (2012). Запись CC0 1.0. Фрагмент, громкость изменена.",
+        "checkedAt": "2026-09-19",
+        "excerptFrom": 0.7,
+        "duration": 32,
+        "active": true,
+        "trendVerified": false,
+        "compositionRights": "Public domain: J. S. Bach (1685–1750)",
+        "recordingRights": "Open Goldberg 2012 recording released under CC0; not inferred from composition age",
+        "sourceSha256": "0539f3612413f6077c82e16f92417bad112e44017536f59db257c8179718076f",
+        "sha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8"
+      },
+      "musicLearning": {
+        "fact": "«Гольдберг-вариации» впервые напечатали в 1741 году.",
+        "source": "https://www.bachvereniging.nl/en/bwv/bwv-988",
+        "checkedAt": "2026-09-20"
+      },
+      "sourceMedia": {
+        "role": "reference-to-feed-reposts",
+        "kind": "reel-announcement",
+        "files": [
+          "outputs/exam-bank-2026-09-26/content/reposts/2026-10-06-ege-po-pribytii-1.jpg"
+        ],
+        "ready": true,
+        "note": "Справочные JPG выпуска из ленты; отдельные видео вопроса и ответа указаны в preparedMedia."
+      },
+      "editorialStatus": "ready-for-review",
+      "requiredBeforeRelease": [
+        "Просмотреть готовые вопрос, полный ответ и музыкальную справку",
+        "Одобрить самостоятельный комплект; только затем назначать выпуск и переносить в live банк"
+      ],
+      "sourceHashVersion": 2,
+      "preparedMedia": {
+        "kind": "standalone-question-answer",
+        "storyId": "2026-10-06-ege-po-pribytii-standalone",
+        "manifest": {
+          "file": "outputs/exam-bank-2026-09-26/standalone-stories/index.json",
+          "sha256": "9f942bf9f0eb8790e3163570c2531be4b2b9ccc6e147b91d29815d772caeb110"
+        },
+        "verification": {
+          "file": "outputs/exam-bank-2026-09-26/standalone-stories/qa/verification.json",
+          "sha256": "a67cb828f206af55d0abf62693468c8d6203494ff07ce6d3880035f74b2778f2"
+        },
+        "configSha256": "8f29636b7fd3a488a7b3fba13aac8b947731ebf2a73d5643db791025fb1f4f75",
+        "parts": [
+          {
+            "index": 1,
+            "role": "question",
+            "file": "outputs/exam-bank-2026-09-26/standalone-stories/2026-10-06-ege-po-pribytii-1.mp4",
+            "sha256": "5a452f8d7d40734b90cfecb72973a6156275c1ca8ddf288ac1bc8a8330dfe4fa",
+            "bytes": 1972673,
+            "width": 1080,
+            "height": 1920,
+            "duration": 6,
+            "sceneIndices": [
+              1
+            ],
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 1920,
+              "cropped": false
+            },
+            "audioCodec": "aac"
+          },
+          {
+            "index": 2,
+            "role": "answer",
+            "file": "outputs/exam-bank-2026-09-26/standalone-stories/2026-10-06-ege-po-pribytii-2.mp4",
+            "sha256": "9d576500b423093c7d0a47accf8f2549bc70f8ccbebb8a471b9338174ff8ca86",
+            "bytes": 9256629,
+            "width": 1080,
+            "height": 1920,
+            "duration": 24,
+            "sceneIndices": [
+              2,
+              3,
+              4,
+              5
+            ],
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 1920,
+              "cropped": false
+            },
+            "audioCodec": "aac"
+          }
+        ],
+        "ready": true,
+        "errors": [],
+        "note": "Изолированная сборка для просмотра. Этот manifest не даёт допуска в live банк и не заменяет одобрение выпуска."
+      }
+    },
+    {
+      "id": "draft-story-2026-10-07-oge-argument",
+      "status": "pending",
+      "type": "exam-draft",
+      "sourcePostId": "2026-10-07-oge-argument",
+      "proposedDate": "2026-10-07",
+      "sourceContentSha256": "9ab8d64c0e52a85786008660172f2d4888a1c344295f21ac60b68f317f593eb1",
+      "rubric": "ОГЭ",
+      "question": {
+        "headline": "После цитаты —\nваша мысль",
+        "body": "В сочинении важно показать,\nчто пример доказывает.\nТренируем один фрагмент."
+      },
+      "explanation": [
+        {
+          "headline": "Пример\nиз текста",
+          "body": "Наш учебный мини-текст:\n«Лена отдала свой зонт подруге, чтобы та не промокла».\nПоступок может подтвердить мысль о заботе."
+        },
+        {
+          "headline": "Теперь\nпояснение",
+          "body": "«Лена думает о том, что нужно подруге, и помогает ей. Забота проявляется в конкретном поступке».\nЗдесь уже объяснена связь примера с мыслью."
+        },
+        {
+          "headline": "Собираем\nрассуждение",
+          "body": "Мысль: забота выражается в помощи.\nПример: Лена отдаёт зонт.\nПояснение: она помогает подруге не промокнуть.\nЭто фрагмент, не всё сочинение."
+        }
+      ],
+      "sources": [
+        "https://doc.fipi.ru/navigator-podgotovki/navigator-oge/MR_rus_yaz_oge_2026.pdf",
+        "https://gramota.ru/uchebnik/pravila/oformlenie-tsitat"
+      ],
+      "caption": "Цитата показывает, что произошло. Пояснение связывает этот эпизод с вашей мыслью. Тренируем один фрагмент рассуждения на придуманном нами примере про заботу; это не готовое экзаменационное сочинение.\n\nО музыке. Название «Гольдберг-вариации» появилось позже: сам Бах так цикл не называл.\n\n#ОГЭрусский #сочинение #аргументация",
+      "music": {
+        "file": "bach-goldberg-var1-ishizaka.mp3",
+        "title": "Goldberg Variations, BWV 988: Variatio 1 a 1 Clav.",
+        "piece": "Гольдберг-вариации, BWV 988 — Вариация № 1",
+        "composer": "Иоганн Себастьян Бах",
+        "author": "Kimiko Ishizaka",
+        "performer": "Кимико Ишизака",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "source": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+        "rightsSource": "https://opengoldbergvariations.org/",
+        "download": "https://upload.wikimedia.org/wikipedia/commons/2/20/Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+        "attributionRequired": true,
+        "attribution": "И. С. Бах — Гольдберг-вариации, BWV 988, вариация № 1. Фортепиано: Кимико Ишизака, Open Goldberg Variations (2012). Запись CC0 1.0. Фрагмент, громкость изменена.",
+        "checkedAt": "2026-09-19",
+        "excerptFrom": 0.7,
+        "duration": 32,
+        "active": true,
+        "trendVerified": false,
+        "compositionRights": "Public domain: J. S. Bach (1685–1750)",
+        "recordingRights": "Open Goldberg 2012 recording released under CC0; not inferred from composition age",
+        "sourceSha256": "0539f3612413f6077c82e16f92417bad112e44017536f59db257c8179718076f",
+        "sha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8"
+      },
+      "musicLearning": {
+        "fact": "Название «Гольдберг-вариации» появилось позже: сам Бах так цикл не называл.",
+        "source": "https://www.bachvereniging.nl/en/bwv/bwv-988",
+        "checkedAt": "2026-09-20"
+      },
+      "sourceMedia": {
+        "role": "reference-to-feed-reposts",
+        "kind": "all-carousel-slides",
+        "files": [
+          "outputs/exam-bank-2026-09-26/content/reposts/2026-10-07-oge-argument-1.jpg",
+          "outputs/exam-bank-2026-09-26/content/reposts/2026-10-07-oge-argument-2.jpg",
+          "outputs/exam-bank-2026-09-26/content/reposts/2026-10-07-oge-argument-3.jpg",
+          "outputs/exam-bank-2026-09-26/content/reposts/2026-10-07-oge-argument-4.jpg"
+        ],
+        "ready": true,
+        "note": "Справочные JPG выпуска из ленты; отдельные видео вопроса и ответа указаны в preparedMedia."
+      },
+      "editorialStatus": "ready-for-review",
+      "requiredBeforeRelease": [
+        "Просмотреть готовые вопрос, полный ответ и музыкальную справку",
+        "Одобрить самостоятельный комплект; только затем назначать выпуск и переносить в live банк"
+      ],
+      "sourceHashVersion": 2,
+      "preparedMedia": {
+        "kind": "standalone-question-answer",
+        "storyId": "2026-10-07-oge-argument-standalone",
+        "manifest": {
+          "file": "outputs/exam-bank-2026-09-26/standalone-stories/index.json",
+          "sha256": "9f942bf9f0eb8790e3163570c2531be4b2b9ccc6e147b91d29815d772caeb110"
+        },
+        "verification": {
+          "file": "outputs/exam-bank-2026-09-26/standalone-stories/qa/verification.json",
+          "sha256": "a67cb828f206af55d0abf62693468c8d6203494ff07ce6d3880035f74b2778f2"
+        },
+        "configSha256": "8f29636b7fd3a488a7b3fba13aac8b947731ebf2a73d5643db791025fb1f4f75",
+        "parts": [
+          {
+            "index": 1,
+            "role": "question",
+            "file": "outputs/exam-bank-2026-09-26/standalone-stories/2026-10-07-oge-argument-1.mp4",
+            "sha256": "2cbfd91c31dbe89a3cf7f98a6fd16128734741c457e3dcbd89f460b25c41cde3",
+            "bytes": 3233112,
+            "width": 1080,
+            "height": 1920,
+            "duration": 6,
+            "sceneIndices": [
+              1
+            ],
+            "geometry": {
+              "x": 0,
+              "y": 285,
+              "width": 1080,
+              "height": 1350,
+              "background": "#f4e7c7",
+              "cropped": false
+            },
+            "audioCodec": "aac"
+          },
+          {
+            "index": 2,
+            "role": "answer",
+            "file": "outputs/exam-bank-2026-09-26/standalone-stories/2026-10-07-oge-argument-2.mp4",
+            "sha256": "f35f8822784106a9a91639f796b83383a076eabf4991c24802e07fd7b52def77",
+            "bytes": 9574285,
+            "width": 1080,
+            "height": 1920,
+            "duration": 18,
+            "sceneIndices": [
+              2,
+              3,
+              4
+            ],
+            "geometry": {
+              "x": 0,
+              "y": 285,
+              "width": 1080,
+              "height": 1350,
+              "background": "#f4e7c7",
+              "cropped": false
+            },
+            "audioCodec": "aac"
+          }
+        ],
+        "ready": true,
+        "errors": [],
+        "note": "Изолированная сборка для просмотра. Этот manifest не даёт допуска в live банк и не заменяет одобрение выпуска."
+      }
+    },
+    {
+      "id": "draft-story-2026-10-08-ege-direct-speech",
+      "status": "pending",
+      "type": "exam-draft",
+      "sourcePostId": "2026-10-08-ege-direct-speech",
+      "proposedDate": "2026-10-08",
+      "sourceContentSha256": "b22fb5f4118662451839d4f5ac5cd7e16de4a56adc2c3098bd9e5565a3de8e63",
+      "rubric": "ЕГЭ",
+      "question": {
+        "headline": "ТОЧКА УСТУПАЕТ МЕСТО ЗАПЯТОЙ",
+        "body": "Если после реплики идут слова автора. Два образца для письменной работы."
+      },
+      "explanation": [
+        {
+          "headline": "ОБЫЧНОЕ СООБЩЕНИЕ",
+          "body": "«Я вернусь», — сказала она. Запятая после кавычек, затем тире. «Сказала» — со строчной."
+        },
+        {
+          "headline": "ВОПРОС",
+          "body": "«Ты вернёшься?» — спросил он. Вопросительный знак внутри кавычек. Перед тире дополнительной запятой нет."
+        },
+        {
+          "headline": "ДВА ГОТОВЫХ ОБРАЗЦА",
+          "body": "«Я вернусь», — сказала она. «Ты вернёшься?» — спросил он. Слова автора начинаются со строчной буквы."
+        }
+      ],
+      "sources": [
+        "https://gramota.ru/uchebnik/pravila/pryamaya-rech",
+        "https://gramota.ru/biblioteka/spravochniki/pravila-russkoy-orfografii-i-punktuatsii/znaki-prepinaniya-pri-pryamoy-rechi"
+      ],
+      "caption": "Перед словами автора обычная точка прямой речи заменяется запятой после кавычек: «Я вернусь», — сказала она. Вопросительный знак остаётся внутри кавычек, дополнительная запятая не нужна: «Ты вернёшься?» — спросил он. Обе реплики придуманы для разбора; это не цитаты из литературного произведения.\n\nО музыке. Цикл начинается арией; после тридцати вариаций она возвращается.\n\n#егэрусский #подготовкакегэ",
+      "music": {
+        "file": "bach-goldberg-var1-ishizaka.mp3",
+        "title": "Goldberg Variations, BWV 988: Variatio 1 a 1 Clav.",
+        "piece": "Гольдберг-вариации, BWV 988 — Вариация № 1",
+        "composer": "Иоганн Себастьян Бах",
+        "author": "Kimiko Ishizaka",
+        "performer": "Кимико Ишизака",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "source": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+        "rightsSource": "https://opengoldbergvariations.org/",
+        "download": "https://upload.wikimedia.org/wikipedia/commons/2/20/Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+        "attributionRequired": true,
+        "attribution": "И. С. Бах — Гольдберг-вариации, BWV 988, вариация № 1. Фортепиано: Кимико Ишизака, Open Goldberg Variations (2012). Запись CC0 1.0. Фрагмент, громкость изменена.",
+        "checkedAt": "2026-09-19",
+        "excerptFrom": 0.7,
+        "duration": 32,
+        "active": true,
+        "trendVerified": false,
+        "compositionRights": "Public domain: J. S. Bach (1685–1750)",
+        "recordingRights": "Open Goldberg 2012 recording released under CC0; not inferred from composition age",
+        "sourceSha256": "0539f3612413f6077c82e16f92417bad112e44017536f59db257c8179718076f",
+        "sha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8"
+      },
+      "musicLearning": {
+        "fact": "Цикл начинается арией; после тридцати вариаций она возвращается.",
+        "source": "https://www.bachvereniging.nl/en/bwv/bwv-988",
+        "checkedAt": "2026-09-20"
+      },
+      "sourceMedia": {
+        "role": "reference-to-feed-reposts",
+        "kind": "all-carousel-slides",
+        "files": [
+          "outputs/exam-bank-2026-09-26/content/reposts/2026-10-08-ege-direct-speech-1.jpg",
+          "outputs/exam-bank-2026-09-26/content/reposts/2026-10-08-ege-direct-speech-2.jpg",
+          "outputs/exam-bank-2026-09-26/content/reposts/2026-10-08-ege-direct-speech-3.jpg",
+          "outputs/exam-bank-2026-09-26/content/reposts/2026-10-08-ege-direct-speech-4.jpg"
+        ],
+        "ready": true,
+        "note": "Справочные JPG выпуска из ленты; отдельные видео вопроса и ответа указаны в preparedMedia."
+      },
+      "editorialStatus": "ready-for-review",
+      "requiredBeforeRelease": [
+        "Просмотреть готовые вопрос, полный ответ и музыкальную справку",
+        "Одобрить самостоятельный комплект; только затем назначать выпуск и переносить в live банк"
+      ],
+      "sourceHashVersion": 2,
+      "preparedMedia": {
+        "kind": "standalone-question-answer",
+        "storyId": "2026-10-08-ege-direct-speech-standalone",
+        "manifest": {
+          "file": "outputs/exam-bank-2026-09-26/standalone-stories/index.json",
+          "sha256": "9f942bf9f0eb8790e3163570c2531be4b2b9ccc6e147b91d29815d772caeb110"
+        },
+        "verification": {
+          "file": "outputs/exam-bank-2026-09-26/standalone-stories/qa/verification.json",
+          "sha256": "a67cb828f206af55d0abf62693468c8d6203494ff07ce6d3880035f74b2778f2"
+        },
+        "configSha256": "8f29636b7fd3a488a7b3fba13aac8b947731ebf2a73d5643db791025fb1f4f75",
+        "parts": [
+          {
+            "index": 1,
+            "role": "question",
+            "file": "outputs/exam-bank-2026-09-26/standalone-stories/2026-10-08-ege-direct-speech-1.mp4",
+            "sha256": "3be25679ce8046ee8cb63c814d8062b3efa3fb8596eb48dbb80c4adb14ab3a4d",
+            "bytes": 1678069,
+            "width": 1080,
+            "height": 1920,
+            "duration": 6,
+            "sceneIndices": [
+              1
+            ],
+            "geometry": {
+              "x": 0,
+              "y": 285,
+              "width": 1080,
+              "height": 1350,
+              "background": "#dbe9ec",
+              "cropped": false
+            },
+            "audioCodec": "aac"
+          },
+          {
+            "index": 2,
+            "role": "answer",
+            "file": "outputs/exam-bank-2026-09-26/standalone-stories/2026-10-08-ege-direct-speech-2.mp4",
+            "sha256": "58d4793254e000328183ccba5eeeb98556ee7cf585d4861d43df2071b93b32c9",
+            "bytes": 5271977,
+            "width": 1080,
+            "height": 1920,
+            "duration": 18,
+            "sceneIndices": [
+              2,
+              3,
+              4
+            ],
+            "geometry": {
+              "x": 0,
+              "y": 285,
+              "width": 1080,
+              "height": 1350,
+              "background": "#dbe9ec",
+              "cropped": false
+            },
+            "audioCodec": "aac"
+          }
+        ],
+        "ready": true,
+        "errors": [],
+        "note": "Изолированная сборка для просмотра. Этот manifest не даёт допуска в live банк и не заменяет одобрение выпуска."
+      }
+    },
+    {
+      "id": "draft-story-2026-10-09-oge-dvoetochie",
+      "status": "pending",
+      "type": "exam-draft",
+      "sourcePostId": "2026-10-09-oge-dvoetochie",
+      "proposedDate": "2026-10-09",
+      "sourceContentSha256": "2483467259e0a8eb49fe090b94b29052808454fcaa7a4b061c92bc6489bbf191",
+      "rubric": "ОГЭ",
+      "question": {
+        "headline": "Двоеточие\nсобирает\nрюкзак",
+        "body": "В рюкзаке есть всё:\nкружка, фонарь и карта."
+      },
+      "explanation": [
+        {
+          "headline": "Слово «всё»",
+          "body": "Обобщает кружку, фонарь и карту.\nЭто обобщающее слово."
+        },
+        {
+          "headline": "Сначала —\nобщее",
+          "body": "После обобщающего слова\nперед перечислением ставим двоеточие."
+        },
+        {
+          "headline": "А если\nнаоборот?",
+          "body": "Кружка, фонарь и карта —\nвсё в рюкзаке.\nПеред обобщающим словом — тире."
+        },
+        {
+          "headline": "Порядок\nменяет знак",
+          "body": "Всё: кружка, фонарь и карта.\nКружка, фонарь и карта — всё.\nЭти схемы — с обобщающим словом."
+        }
+      ],
+      "sources": [
+        "https://gramota.ru/uchebnik/pravila/normy-postanovki-znakov-prepinaniya-v-predlozheniyakh-s-obobshchayushchim-slovom-pri-odnorodnykh-chlenakh",
+        "https://gramota.ru/biblioteka/spravochniki/pravila-russkoy-orfografii-i-punktuatsii/znaki-prepinaniya-pri-odnorodnykh-chlenakh-predlozheniya-s-soyuzami-i-bez-soyuzov"
+      ],
+      "caption": "В рюкзаке есть всё: кружка, фонарь и карта. Слово «всё» обобщает перечисление. Если поставить его после списка, перед ним понадобится тире: кружка, фонарь и карта — всё в рюкзаке.\n\nО музыке. Бах написал этот цикл для клавесина.\n\n#ОГЭрусский #двоеточие #пунктуация",
+      "music": {
+        "file": "bach-goldberg-var1-ishizaka.mp3",
+        "title": "Goldberg Variations, BWV 988: Variatio 1 a 1 Clav.",
+        "piece": "Гольдберг-вариации, BWV 988 — Вариация № 1",
+        "composer": "Иоганн Себастьян Бах",
+        "author": "Kimiko Ishizaka",
+        "performer": "Кимико Ишизака",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "source": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+        "rightsSource": "https://opengoldbergvariations.org/",
+        "download": "https://upload.wikimedia.org/wikipedia/commons/2/20/Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+        "attributionRequired": true,
+        "attribution": "И. С. Бах — Гольдберг-вариации, BWV 988, вариация № 1. Фортепиано: Кимико Ишизака, Open Goldberg Variations (2012). Запись CC0 1.0. Фрагмент, громкость изменена.",
+        "checkedAt": "2026-09-19",
+        "excerptFrom": 0.7,
+        "duration": 32,
+        "active": true,
+        "trendVerified": false,
+        "compositionRights": "Public domain: J. S. Bach (1685–1750)",
+        "recordingRights": "Open Goldberg 2012 recording released under CC0; not inferred from composition age",
+        "sourceSha256": "0539f3612413f6077c82e16f92417bad112e44017536f59db257c8179718076f",
+        "sha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8"
+      },
+      "musicLearning": {
+        "fact": "Бах написал этот цикл для клавесина.",
+        "source": "https://www.bachvereniging.nl/en/bwv/bwv-988",
+        "checkedAt": "2026-09-20"
+      },
+      "sourceMedia": {
+        "role": "reference-to-feed-reposts",
+        "kind": "reel-announcement",
+        "files": [
+          "outputs/exam-bank-2026-09-26/content/reposts/2026-10-09-oge-dvoetochie-1.jpg"
+        ],
+        "ready": true,
+        "note": "Справочные JPG выпуска из ленты; отдельные видео вопроса и ответа указаны в preparedMedia."
+      },
+      "editorialStatus": "ready-for-review",
+      "requiredBeforeRelease": [
+        "Просмотреть готовые вопрос, полный ответ и музыкальную справку",
+        "Одобрить самостоятельный комплект; только затем назначать выпуск и переносить в live банк"
+      ],
+      "sourceHashVersion": 2,
+      "preparedMedia": {
+        "kind": "standalone-question-answer",
+        "storyId": "2026-10-09-oge-dvoetochie-standalone",
+        "manifest": {
+          "file": "outputs/exam-bank-2026-09-26/standalone-stories/index.json",
+          "sha256": "9f942bf9f0eb8790e3163570c2531be4b2b9ccc6e147b91d29815d772caeb110"
+        },
+        "verification": {
+          "file": "outputs/exam-bank-2026-09-26/standalone-stories/qa/verification.json",
+          "sha256": "a67cb828f206af55d0abf62693468c8d6203494ff07ce6d3880035f74b2778f2"
+        },
+        "configSha256": "8f29636b7fd3a488a7b3fba13aac8b947731ebf2a73d5643db791025fb1f4f75",
+        "parts": [
+          {
+            "index": 1,
+            "role": "question",
+            "file": "outputs/exam-bank-2026-09-26/standalone-stories/2026-10-09-oge-dvoetochie-1.mp4",
+            "sha256": "98e151612eccb262651d7b6aa7e02170d13f01354bc19c8968407c080ad5fe28",
+            "bytes": 4475538,
+            "width": 1080,
+            "height": 1920,
+            "duration": 6,
+            "sceneIndices": [
+              1
+            ],
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 1920,
+              "cropped": false
+            },
+            "audioCodec": "aac"
+          },
+          {
+            "index": 2,
+            "role": "answer",
+            "file": "outputs/exam-bank-2026-09-26/standalone-stories/2026-10-09-oge-dvoetochie-2.mp4",
+            "sha256": "e924907e15381f02d7a7fdf6a5060d639b872b583de9eab11de0aae32f8b126b",
+            "bytes": 17542744,
+            "width": 1080,
+            "height": 1920,
+            "duration": 24,
+            "sceneIndices": [
+              2,
+              3,
+              4,
+              5
+            ],
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 1920,
+              "cropped": false
+            },
+            "audioCodec": "aac"
+          }
+        ],
+        "ready": true,
+        "errors": [],
+        "note": "Изолированная сборка для просмотра. Этот manifest не даёт допуска в live банк и не заменяет одобрение выпуска."
+      }
+    }
+  ]
+}

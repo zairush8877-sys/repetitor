@@ -1,8 +1,8 @@
 name: Сторис каждый день
 
 # Одна сторис в день из банка content/stories.json (два кадра: вопрос и ответ).
-# Банк одобряется целиком, дальше выходит сам; когда он кончится — запуск
-# честно скажет об этом в логе и ничего не опубликует.
+# Выпускается только явно approved комплект. Этот же запуск сохраняет архив
+# и отчёт подготовки для будущей карусели; её дата здесь не назначается.
 on:
   workflow_dispatch:
     inputs:
@@ -42,31 +42,50 @@ jobs:
         with:
           node-version: '22'
 
-      # Контроль качества перед выпуском (скилл my-skill-instmom).
+      - name: Подготовить Stories дня и обновить архив
+        id: prepare
+        env:
+          REQUESTED_STORY_ID: ${{ inputs.story_id }}
+        run: |
+          args=()
+          if [ -n "$REQUESTED_STORY_ID" ]; then args+=(--id "$REQUESTED_STORY_ID"); fi
+          node scripts/stories-pipeline.cjs prepare "${args[@]}"
+
+      # Проверяется выбранный комплект, а не неопубликованный хвост ленты.
       - name: Проверка контента
+        if: steps.prepare.outputs.story_id != ''
+        env:
+          SELECTED_STORY_ID: ${{ steps.prepare.outputs.story_id }}
         run: |
           npm install --no-save ffmpeg-static
-          node check-content.js
+          node check-content.js "$SELECTED_STORY_ID"
 
       - name: Опубликовать сторис дня
+        if: steps.prepare.outputs.story_id != ''
         env:
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          SELECTED_STORY_ID: ${{ steps.prepare.outputs.story_id }}
+          DRY_RUN: ${{ inputs.dry_run }}
         run: |
-          node publish-stories.js \
-            ${{ inputs.dry_run && '--dry-run' || '' }} \
-            ${{ inputs.story_id }}
+          args=("$SELECTED_STORY_ID")
+          if [ "$DRY_RUN" = "true" ]; then args+=(--dry-run); fi
+          node publish-stories.js "${args[@]}"
+
+      - name: Сохранить результат в архиве подготовки
+        if: always()
+        run: node scripts/stories-pipeline.cjs prepare
 
       - name: Отметить в банке
         if: ${{ always() && !inputs.dry_run }}
         run: |
-          if git diff --quiet content/stories.json; then
-            echo "Банк не изменился — публиковать было нечего."
+          git add content/stories.json content/stories-archive content/stories-prepared
+          if git diff --cached --quiet; then
+            echo "Банк и архив не изменились."
             exit 0
           fi
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add content/stories.json
-          git commit -m "Опубликована сторис дня"
+          git commit -m "Состояние ежедневных Stories и архив подготовки"
           # Параллельный прогон мог запушить раньше (22.08 сторис и сводка
           # столкнулись — статус публикации потерялся): rebase и повтор.
           ok=0

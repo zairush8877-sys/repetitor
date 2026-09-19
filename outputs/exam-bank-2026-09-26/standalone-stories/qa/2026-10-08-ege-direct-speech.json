@@ -1,0 +1,136 @@
+{
+  "id": "2026-10-08-ege-direct-speech-standalone",
+  "sourcePostId": "2026-10-08-ege-direct-speech",
+  "exam": "ЕГЭ",
+  "title": "Точка уступает место запятой",
+  "status": "pending",
+  "proposedDate": "2026-10-08",
+  "kind": "question_answer",
+  "configSha256": "8f29636b7fd3a488a7b3fba13aac8b947731ebf2a73d5643db791025fb1f4f75",
+  "musicSource": "content/music/bach-goldberg-var1-ishizaka.mp3",
+  "musicSha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8",
+  "creditInFinalAnswerScene": true,
+  "parts": [
+    {
+      "index": 1,
+      "role": "question",
+      "file": "2026-10-08-ege-direct-speech-1.mp4",
+      "sha256": "3be25679ce8046ee8cb63c814d8062b3efa3fb8596eb48dbb80c4adb14ab3a4d",
+      "bytes": 1678069,
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "frames": 180,
+      "duration": 6.0,
+      "videoCodec": "h264",
+      "audioCodec": "aac",
+      "sceneIndices": [
+        1
+      ],
+      "geometry": {
+        "x": 0,
+        "y": 285,
+        "width": 1080,
+        "height": 1350,
+        "background": "#dbe9ec",
+        "cropped": false
+      },
+      "decodedFrames": [
+        "qa/2026-10-08-ege-direct-speech-scene-1.jpg"
+      ],
+      "sourceFiles": [
+        {
+          "file": "outputs/exam-bank-2026-09-26/content/images/2026-10-08-ege-direct-speech-1.mp4",
+          "sha256": "a30b7c5243cb5c8aeafaa6def3674a3bfd36c4bc7a3d27a8b120b102836442f2",
+          "width": 1080,
+          "height": 1350,
+          "fps": 30,
+          "frames": 180,
+          "duration": 6.0,
+          "videoCodec": "h264",
+          "audioCodec": "aac"
+        }
+      ],
+      "audioStartSeconds": 0,
+      "edgeFadeSeconds": {
+        "in": 0.04,
+        "out": 0.12
+      },
+      "musicMode": "continuous verified source music, gain 0.75"
+    },
+    {
+      "index": 2,
+      "role": "answer",
+      "file": "2026-10-08-ege-direct-speech-2.mp4",
+      "sha256": "58d4793254e000328183ccba5eeeb98556ee7cf585d4861d43df2071b93b32c9",
+      "bytes": 5271977,
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "frames": 540,
+      "duration": 18.0,
+      "videoCodec": "h264",
+      "audioCodec": "aac",
+      "sceneIndices": [
+        2,
+        3,
+        4
+      ],
+      "geometry": {
+        "x": 0,
+        "y": 285,
+        "width": 1080,
+        "height": 1350,
+        "background": "#dbe9ec",
+        "cropped": false
+      },
+      "decodedFrames": [
+        "qa/2026-10-08-ege-direct-speech-scene-2.jpg",
+        "qa/2026-10-08-ege-direct-speech-scene-3.jpg",
+        "qa/2026-10-08-ege-direct-speech-scene-4.jpg"
+      ],
+      "sourceFiles": [
+        {
+          "file": "outputs/exam-bank-2026-09-26/content/images/2026-10-08-ege-direct-speech-2.mp4",
+          "sha256": "e02360a77cbeefb0a8dc1901d9a902ddbf4f76a72045e9944390e34aa0b1aa66",
+          "width": 1080,
+          "height": 1350,
+          "fps": 30,
+          "frames": 180,
+          "duration": 6.0,
+          "videoCodec": "h264",
+          "audioCodec": "aac"
+        },
+        {
+          "file": "outputs/exam-bank-2026-09-26/content/images/2026-10-08-ege-direct-speech-3.mp4",
+          "sha256": "bd575b4cf0f21f6fde178db7e7b63205ff663c09581b11f5cb5712783554043e",
+          "width": 1080,
+          "height": 1350,
+          "fps": 30,
+          "frames": 180,
+          "duration": 6.0,
+          "videoCodec": "h264",
+          "audioCodec": "aac"
+        },
+        {
+          "file": "outputs/exam-bank-2026-09-26/content/images/2026-10-08-ege-direct-speech-4.mp4",
+          "sha256": "ed785c940cf769cdf51f316c86c7365a90a34a03dbb4bd348cb2b0706640ad2c",
+          "width": 1080,
+          "height": 1350,
+          "fps": 30,
+          "frames": 180,
+          "duration": 6.0,
+          "videoCodec": "h264",
+          "audioCodec": "aac"
+        }
+      ],
+      "audioStartSeconds": 6,
+      "edgeFadeSeconds": {
+        "in": 0.04,
+        "out": 0.12
+      },
+      "musicMode": "continuous verified source music, gain 0.75"
+    }
+  ],
+  "elapsedSeconds": 17.34
+}

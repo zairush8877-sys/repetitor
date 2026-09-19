@@ -1,0 +1,114 @@
+{
+  "id": "2026-09-29-oge-svetaet-standalone",
+  "sourcePostId": "2026-09-29-oge-svetaet",
+  "exam": "ОГЭ",
+  "title": "Подлежащее не потерялось",
+  "status": "pending",
+  "proposedDate": "2026-09-29",
+  "kind": "question_answer",
+  "configSha256": "8f29636b7fd3a488a7b3fba13aac8b947731ebf2a73d5643db791025fb1f4f75",
+  "musicSource": "content/music/bach-goldberg-var1-ishizaka.mp3",
+  "musicSha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8",
+  "creditInFinalAnswerScene": true,
+  "parts": [
+    {
+      "index": 1,
+      "role": "question",
+      "file": "2026-09-29-oge-svetaet-1.mp4",
+      "sha256": "b4bce8c4c13ff1d43448968899bfe448754054da95178739b6dad3122c93dde3",
+      "bytes": 4105105,
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "frames": 180,
+      "duration": 6.0,
+      "videoCodec": "h264",
+      "audioCodec": "aac",
+      "sceneIndices": [
+        1
+      ],
+      "geometry": {
+        "x": 0,
+        "y": 0,
+        "width": 1080,
+        "height": 1920,
+        "cropped": false
+      },
+      "decodedFrames": [
+        "qa/2026-09-29-oge-svetaet-scene-1.jpg"
+      ],
+      "sourceFiles": [
+        {
+          "file": "outputs/exam-bank-2026-09-26/content/reels/2026-09-29-oge-svetaet.mp4",
+          "sha256": "6520a640fc518b78cd1a93684b4e256ac58f8a4066f60cb0f0d87491b4980a45",
+          "width": 1080,
+          "height": 1920,
+          "fps": 30,
+          "frames": 900,
+          "duration": 30.0,
+          "videoCodec": "h264",
+          "audioCodec": "aac"
+        }
+      ],
+      "audioStartSeconds": 0,
+      "edgeFadeSeconds": {
+        "in": 0.04,
+        "out": 0.12
+      },
+      "musicMode": "preserved Reels audio"
+    },
+    {
+      "index": 2,
+      "role": "answer",
+      "file": "2026-09-29-oge-svetaet-2.mp4",
+      "sha256": "d44b0537b28ba6fc93b985c1b508603f7e57d403ccf3fc4a7f0242e8446d6c75",
+      "bytes": 16166700,
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "frames": 720,
+      "duration": 24.0,
+      "videoCodec": "h264",
+      "audioCodec": "aac",
+      "sceneIndices": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "geometry": {
+        "x": 0,
+        "y": 0,
+        "width": 1080,
+        "height": 1920,
+        "cropped": false
+      },
+      "decodedFrames": [
+        "qa/2026-09-29-oge-svetaet-scene-2.jpg",
+        "qa/2026-09-29-oge-svetaet-scene-3.jpg",
+        "qa/2026-09-29-oge-svetaet-scene-4.jpg",
+        "qa/2026-09-29-oge-svetaet-scene-5.jpg"
+      ],
+      "sourceFiles": [
+        {
+          "file": "outputs/exam-bank-2026-09-26/content/reels/2026-09-29-oge-svetaet.mp4",
+          "sha256": "6520a640fc518b78cd1a93684b4e256ac58f8a4066f60cb0f0d87491b4980a45",
+          "width": 1080,
+          "height": 1920,
+          "fps": 30,
+          "frames": 900,
+          "duration": 30.0,
+          "videoCodec": "h264",
+          "audioCodec": "aac"
+        }
+      ],
+      "audioStartSeconds": 6,
+      "edgeFadeSeconds": {
+        "in": 0.04,
+        "out": 0.12
+      },
+      "musicMode": "preserved Reels audio"
+    }
+  ],
+  "elapsedSeconds": 17.4
+}

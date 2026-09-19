@@ -1,0 +1,114 @@
+{
+  "id": "2026-09-30-ege-ne-kto-standalone",
+  "sourcePostId": "2026-09-30-ege-ne-kto",
+  "exam": "ЕГЭ",
+  "title": "Не кто иной или никто иной?",
+  "status": "pending",
+  "proposedDate": "2026-09-30",
+  "kind": "question_answer",
+  "configSha256": "8f29636b7fd3a488a7b3fba13aac8b947731ebf2a73d5643db791025fb1f4f75",
+  "musicSource": "content/music/bach-goldberg-var1-ishizaka.mp3",
+  "musicSha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8",
+  "creditInFinalAnswerScene": true,
+  "parts": [
+    {
+      "index": 1,
+      "role": "question",
+      "file": "2026-09-30-ege-ne-kto-1.mp4",
+      "sha256": "14b877b973da8ce1749e07687c4d81001911727b9b523fd5f977bdaf5c9c9b11",
+      "bytes": 1684727,
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "frames": 180,
+      "duration": 6.0,
+      "videoCodec": "h264",
+      "audioCodec": "aac",
+      "sceneIndices": [
+        1
+      ],
+      "geometry": {
+        "x": 0,
+        "y": 0,
+        "width": 1080,
+        "height": 1920,
+        "cropped": false
+      },
+      "decodedFrames": [
+        "qa/2026-09-30-ege-ne-kto-scene-1.jpg"
+      ],
+      "sourceFiles": [
+        {
+          "file": "outputs/exam-bank-2026-09-26/content/reels/2026-09-30-ege-ne-kto.mp4",
+          "sha256": "0152e542b334daacba30a6228f167a581bba8c029c756354a1fd3155382ac911",
+          "width": 1080,
+          "height": 1920,
+          "fps": 30,
+          "frames": 900,
+          "duration": 30.0,
+          "videoCodec": "h264",
+          "audioCodec": "aac"
+        }
+      ],
+      "audioStartSeconds": 0,
+      "edgeFadeSeconds": {
+        "in": 0.04,
+        "out": 0.12
+      },
+      "musicMode": "preserved Reels audio"
+    },
+    {
+      "index": 2,
+      "role": "answer",
+      "file": "2026-09-30-ege-ne-kto-2.mp4",
+      "sha256": "022e46d8773ec23dac37b5bdbd7fe2d692040554377bcf56576af96ef70112d2",
+      "bytes": 6987463,
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "frames": 720,
+      "duration": 24.0,
+      "videoCodec": "h264",
+      "audioCodec": "aac",
+      "sceneIndices": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "geometry": {
+        "x": 0,
+        "y": 0,
+        "width": 1080,
+        "height": 1920,
+        "cropped": false
+      },
+      "decodedFrames": [
+        "qa/2026-09-30-ege-ne-kto-scene-2.jpg",
+        "qa/2026-09-30-ege-ne-kto-scene-3.jpg",
+        "qa/2026-09-30-ege-ne-kto-scene-4.jpg",
+        "qa/2026-09-30-ege-ne-kto-scene-5.jpg"
+      ],
+      "sourceFiles": [
+        {
+          "file": "outputs/exam-bank-2026-09-26/content/reels/2026-09-30-ege-ne-kto.mp4",
+          "sha256": "0152e542b334daacba30a6228f167a581bba8c029c756354a1fd3155382ac911",
+          "width": 1080,
+          "height": 1920,
+          "fps": 30,
+          "frames": 900,
+          "duration": 30.0,
+          "videoCodec": "h264",
+          "audioCodec": "aac"
+        }
+      ],
+      "audioStartSeconds": 6,
+      "edgeFadeSeconds": {
+        "in": 0.04,
+        "out": 0.12
+      },
+      "musicMode": "preserved Reels audio"
+    }
+  ],
+  "elapsedSeconds": 15.67
+}

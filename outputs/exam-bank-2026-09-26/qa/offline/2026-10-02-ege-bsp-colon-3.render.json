@@ -1,0 +1,53 @@
+{
+  "renderer": "offline Pillow + FFmpeg; not Remotion export",
+  "pillowVersion": "12.3.0",
+  "file": "images/2026-10-02-ege-bsp-colon-3.mp4",
+  "sha256": "99ce650a06b03bb401f2de29e2e957b558c57fae7928b5541625392092b3e347",
+  "bytes": 3739917,
+  "width": 1080,
+  "height": 1350,
+  "fps": 30,
+  "duration": 6,
+  "audioCodec": "aac",
+  "audioSource": "content/music/bach-goldberg-var1-ishizaka.mp3",
+  "audioSha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8",
+  "audioStartSeconds": 12,
+  "volume": 0.75,
+  "audioFadeInSeconds": 0.1,
+  "audioFadeOutSeconds": 0.5,
+  "photoSource": "assets/photos/exam-v1/ege-bsp-colon.png",
+  "photoSha256": "677e17b684328967059623dc2c5636f633697fde1fef36452b4928c4cd39431a",
+  "fontWeight": 600,
+  "fallbackFont": "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
+  "fallbackFontSha256": "d72db21f9242aedd6b917d8549ad5921766b24d5f8d0becfda2ff4c620b3c2e0",
+  "configSha256": "8f29636b7fd3a488a7b3fba13aac8b947731ebf2a73d5643db791025fb1f4f75",
+  "layouts": [
+    {
+      "index": 2,
+      "height": 1350,
+      "top": 110,
+      "bodyTop": 252.0,
+      "textEnd": 444.96000000000004,
+      "safeEnd": 1220,
+      "creditTop": 1100,
+      "last": false,
+      "title": {
+        "lines": [
+          "ЧТО ЗА ПЛАН?"
+        ],
+        "size": 100,
+        "family": "display"
+      },
+      "body": {
+        "lines": [
+          "«План был прост: мы поедем утром».",
+          "Вторая часть раскрывает план.",
+          "Проверка: а именно."
+        ],
+        "size": 48,
+        "family": "sans"
+      }
+    }
+  ],
+  "elapsedSeconds": 12.59
+}

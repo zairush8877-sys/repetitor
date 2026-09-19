@@ -1,0 +1,114 @@
+{
+  "id": "2026-10-04-ege-odnako-standalone",
+  "sourcePostId": "2026-10-04-ege-odnako",
+  "exam": "ЕГЭ",
+  "title": "«Однако» не выдаёт запятую автоматически",
+  "status": "pending",
+  "proposedDate": "2026-10-04",
+  "kind": "question_answer",
+  "configSha256": "8f29636b7fd3a488a7b3fba13aac8b947731ebf2a73d5643db791025fb1f4f75",
+  "musicSource": "content/music/bach-goldberg-var1-ishizaka.mp3",
+  "musicSha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8",
+  "creditInFinalAnswerScene": true,
+  "parts": [
+    {
+      "index": 1,
+      "role": "question",
+      "file": "2026-10-04-ege-odnako-1.mp4",
+      "sha256": "4787c628b65d102755f2ba289268cb87ca52f652df6eb1b363f6c648d77dd943",
+      "bytes": 2159239,
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "frames": 180,
+      "duration": 6.0,
+      "videoCodec": "h264",
+      "audioCodec": "aac",
+      "sceneIndices": [
+        1
+      ],
+      "geometry": {
+        "x": 0,
+        "y": 0,
+        "width": 1080,
+        "height": 1920,
+        "cropped": false
+      },
+      "decodedFrames": [
+        "qa/2026-10-04-ege-odnako-scene-1.jpg"
+      ],
+      "sourceFiles": [
+        {
+          "file": "outputs/exam-bank-2026-09-26/content/reels/2026-10-04-ege-odnako.mp4",
+          "sha256": "e04280633697d83178d5b4de822d04161a03962f61f249f5e7d9be8ce34c605f",
+          "width": 1080,
+          "height": 1920,
+          "fps": 30,
+          "frames": 900,
+          "duration": 30.0,
+          "videoCodec": "h264",
+          "audioCodec": "aac"
+        }
+      ],
+      "audioStartSeconds": 0,
+      "edgeFadeSeconds": {
+        "in": 0.04,
+        "out": 0.12
+      },
+      "musicMode": "preserved Reels audio"
+    },
+    {
+      "index": 2,
+      "role": "answer",
+      "file": "2026-10-04-ege-odnako-2.mp4",
+      "sha256": "2cc93e43ad71eb7567783223eb5ba61d0c582d52976551d11e3cd83f147ba70c",
+      "bytes": 9778822,
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "frames": 720,
+      "duration": 24.0,
+      "videoCodec": "h264",
+      "audioCodec": "aac",
+      "sceneIndices": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "geometry": {
+        "x": 0,
+        "y": 0,
+        "width": 1080,
+        "height": 1920,
+        "cropped": false
+      },
+      "decodedFrames": [
+        "qa/2026-10-04-ege-odnako-scene-2.jpg",
+        "qa/2026-10-04-ege-odnako-scene-3.jpg",
+        "qa/2026-10-04-ege-odnako-scene-4.jpg",
+        "qa/2026-10-04-ege-odnako-scene-5.jpg"
+      ],
+      "sourceFiles": [
+        {
+          "file": "outputs/exam-bank-2026-09-26/content/reels/2026-10-04-ege-odnako.mp4",
+          "sha256": "e04280633697d83178d5b4de822d04161a03962f61f249f5e7d9be8ce34c605f",
+          "width": 1080,
+          "height": 1920,
+          "fps": 30,
+          "frames": 900,
+          "duration": 30.0,
+          "videoCodec": "h264",
+          "audioCodec": "aac"
+        }
+      ],
+      "audioStartSeconds": 6,
+      "edgeFadeSeconds": {
+        "in": 0.04,
+        "out": 0.12
+      },
+      "musicMode": "preserved Reels audio"
+    }
+  ],
+  "elapsedSeconds": 15.1
+}

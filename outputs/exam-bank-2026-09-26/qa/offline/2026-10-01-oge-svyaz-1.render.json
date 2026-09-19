@@ -1,0 +1,55 @@
+{
+  "renderer": "offline Pillow + FFmpeg; not Remotion export",
+  "pillowVersion": "12.3.0",
+  "file": "images/2026-10-01-oge-svyaz-1.mp4",
+  "sha256": "bf11372249d2f364e21c9233c45900065b5bdf373823fc4f12e4869fa3fe9a77",
+  "bytes": 2459764,
+  "width": 1080,
+  "height": 1350,
+  "fps": 30,
+  "duration": 6,
+  "audioCodec": "aac",
+  "audioSource": "content/music/bach-goldberg-var1-ishizaka.mp3",
+  "audioSha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8",
+  "audioStartSeconds": 0,
+  "volume": 0.75,
+  "audioFadeInSeconds": 0.1,
+  "audioFadeOutSeconds": 0.5,
+  "photoSource": "assets/photos/exam-v1/oge-svyaz.png",
+  "photoSha256": "8bcac78742616cb96cc56b0fe21383ffa1aa5a3185a47c1cff818ec3899e08ca",
+  "fontWeight": 600,
+  "fallbackFont": "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
+  "fallbackFontSha256": "d72db21f9242aedd6b917d8549ad5921766b24d5f8d0becfda2ff4c620b3c2e0",
+  "configSha256": "8f29636b7fd3a488a7b3fba13aac8b947731ebf2a73d5643db791025fb1f4f75",
+  "layouts": [
+    {
+      "index": 0,
+      "height": 1350,
+      "top": 110,
+      "bodyTop": 364.0,
+      "textEnd": 621.28,
+      "safeEnd": 1220,
+      "creditTop": 1100,
+      "last": false,
+      "title": {
+        "lines": [
+          "Один шарф — три",
+          "связи"
+        ],
+        "size": 100,
+        "family": "display"
+      },
+      "body": {
+        "lines": [
+          "Шерстяной шарф.",
+          "Шарф из шерсти.",
+          "Очень мягкий.",
+          "Смысл рядом — грамматика разная."
+        ],
+        "size": 48,
+        "family": "sans"
+      }
+    }
+  ],
+  "elapsedSeconds": 12.26
+}

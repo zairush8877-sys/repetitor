@@ -1,0 +1,110 @@
+{
+  "scope": "Local Stories preparation, archive, render-manifest, ready-for-review import and publisher checkpoint tests; no Instagram calls",
+  "tests": {
+    "command": "node --test tests/stories-pipeline.test.js",
+    "passed": 28,
+    "failed": 0
+  },
+  "workflow": {
+    "yaml": "pass",
+    "bashSyntax": "pass",
+    "cron": "50 6 * * *",
+    "actionlint": "not installed"
+  },
+  "liveStoriesChanged": false,
+  "archiveRecords": 39,
+  "isolatedDrafts": 14,
+  "publicationDatesAssigned": 0,
+  "carousel": {
+    "stories": 5,
+    "slides": 10,
+    "status": "pending",
+    "publicationDate": null
+  },
+  "files": [
+    {
+      "file": ".github/workflows/stories.yml",
+      "sha256": "02ee3e67adba8a724d191c9179d4ed2b5302f46cac2a258648bb19dc74b17448"
+    },
+    {
+      "file": "publish-stories.js",
+      "sha256": "1801dd1fa9ee85e36a9b3c3c0233b658e6de1e0225340e8495a2aca65749f482"
+    },
+    {
+      "file": "stories-selection.js",
+      "sha256": "a46dd7f1dc8880f6f6546d4f903c7b79ae44b8eb9df4343d9ece79a4a3aaa95a"
+    },
+    {
+      "file": "scripts/stories-pipeline.cjs",
+      "sha256": "2f2bfbdf28b32847a0bd99944ae46923cf0ea908a65f881508121562a60fb5c9"
+    },
+    {
+      "file": "tests/stories-pipeline.test.js",
+      "sha256": "b29f8ed2c6978ebd5fe03eeea397771873936911cc0af0bf0a8c998e4919c73f"
+    },
+    {
+      "file": "content/stories-archive/index.json",
+      "sha256": "f10a3d517e54bd6633e8162b163b1ca676a1a5ec071b7b7af9e92b8bbe36bd1d"
+    },
+    {
+      "file": "content/stories-drafts/exam-bank.json",
+      "sha256": "6dff236a8ebdfd7b7694f76c9a326d5818a4d5156026d7db77cb5e7fe1bd85e2"
+    },
+    {
+      "file": "content/stories-prepared/days/2026-09-20.json",
+      "sha256": "d76fb2fbb6534f48e3ba0abe6315de4ba306dab6caf9c3fa925cb94f2e3e10a7"
+    },
+    {
+      "file": "outputs/stories-carousel/archive-sept-08-12/draft.json",
+      "sha256": "512158c863602ba8169c79e471f9275bc44ae389a421b2521549c549fd6a65b1"
+    },
+    {
+      "file": "outputs/stories-carousel/archive-sept-08-12/draft.md",
+      "sha256": "f7f5ac0735203eb7b72f99edebd389f753d17c5dce0948a1bff964cce507b7c8"
+    },
+    {
+      "file": "docs/STORIES_PIPELINE_2026-09-20.md",
+      "sha256": "ccd186641a613222796522819eebb8a61e146dcbbc03f6e119c5ee8b81f04aca"
+    },
+    {
+      "file": "stories-prepared.js",
+      "sha256": "189932ebb8c2b9f0831793f03dfc1108cb52bec864ca4722902ebc563e11506a"
+    },
+    {
+      "file": "render-stories.js",
+      "sha256": "ed7621c3c09de26c528d7dc3210275e0b722f5f1c1b20f87861670817d1ca768"
+    }
+  ],
+  "reviewedAt": "2026-09-20T02:38:37.610673+00:00",
+  "publisherSafety": {
+    "durableIntentBeforeMediaPublish": "verified with stubbed Git and API",
+    "failedIntentPreventsMediaPublish": true,
+    "failedResultCheckpointLeavesRemotePublishing": true,
+    "unknownBlocksFreshRunner": true,
+    "localLiveRunBlocked": true,
+    "immutableMediaRevision": true,
+    "uncommittedMediaBlocked": true
+  },
+  "preparedContract": {
+    "module": "stories-prepared.js",
+    "contentAndMediaSHA256": "required before API",
+    "writtenBy": "completed two-part render only",
+    "historicalPublishedManifestsCreated": 0,
+    "rendererExecuted": false
+  },
+  "draftMigration": {
+    "sourceHashVersion": 2,
+    "count": 14,
+    "allPending": true,
+    "publicationDatesAssigned": 0,
+    "untouchedLegacyOnly": true
+  },
+  "standaloneStories": {
+    "sets": 14,
+    "videos": 28,
+    "readyForReview": 14,
+    "pending": 14,
+    "publicationDatesAssigned": 0,
+    "qaManifest": "outputs/exam-bank-2026-09-26/standalone-stories/qa/verification.json"
+  }
+}

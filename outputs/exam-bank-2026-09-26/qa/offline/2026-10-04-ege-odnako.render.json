@@ -1,0 +1,157 @@
+{
+  "renderer": "offline Pillow + FFmpeg; not Remotion export",
+  "pillowVersion": "12.3.0",
+  "file": "reels/2026-10-04-ege-odnako.mp4",
+  "sha256": "e04280633697d83178d5b4de822d04161a03962f61f249f5e7d9be8ce34c605f",
+  "bytes": 14045783,
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "duration": 30,
+  "audioCodec": "aac",
+  "audioSource": "content/music/bach-goldberg-var1-ishizaka.mp3",
+  "audioSha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8",
+  "audioStartSeconds": 0,
+  "volume": 0.75,
+  "audioFadeInSeconds": 0.1,
+  "audioFadeOutSeconds": 0.5,
+  "photoSource": "assets/photos/exam-v1/ege-odnako.png",
+  "photoSha256": "4fa8b9a62acaab61768c1269346f6d6b916f990bba4499c80fbd7e4ab055a075",
+  "fontWeight": 600,
+  "fallbackFont": "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
+  "fallbackFontSha256": "d72db21f9242aedd6b917d8549ad5921766b24d5f8d0becfda2ff4c620b3c2e0",
+  "configSha256": "8f29636b7fd3a488a7b3fba13aac8b947731ebf2a73d5643db791025fb1f4f75",
+  "layouts": [
+    {
+      "index": 0,
+      "height": 1920,
+      "top": 310,
+      "bodyTop": 609.84,
+      "textEnd": 749.2,
+      "safeEnd": 1630,
+      "creditTop": 1450,
+      "last": false,
+      "title": {
+        "lines": [
+          "ОДНАКО ПОЕЗД",
+          "ЗАДЕРЖАЛСЯ"
+        ],
+        "size": 116,
+        "family": "display"
+      },
+      "body": {
+        "lines": [
+          "После «однако» здесь нет",
+          "запятой."
+        ],
+        "size": 52,
+        "family": "sans"
+      }
+    },
+    {
+      "index": 1,
+      "height": 1920,
+      "top": 310,
+      "bodyTop": 609.84,
+      "textEnd": 749.2,
+      "safeEnd": 1630,
+      "creditTop": 1450,
+      "last": false,
+      "title": {
+        "lines": [
+          "ЗДЕСЬ ОНО",
+          "ЗНАЧИТ «НО»"
+        ],
+        "size": 116,
+        "family": "display"
+      },
+      "body": {
+        "lines": [
+          "«Но поезд задержался». Это",
+          "союз."
+        ],
+        "size": 52,
+        "family": "sans"
+      }
+    },
+    {
+      "index": 2,
+      "height": 1920,
+      "top": 310,
+      "bodyTop": 609.84,
+      "textEnd": 749.2,
+      "safeEnd": 1630,
+      "creditTop": 1450,
+      "last": false,
+      "title": {
+        "lines": [
+          "ПОЕЗД, ОДНАКО,",
+          "ЗАДЕРЖАЛСЯ"
+        ],
+        "size": 116,
+        "family": "display"
+      },
+      "body": {
+        "lines": [
+          "В этой фразе «однако» — вводное",
+          "слово. Нужны две запятые."
+        ],
+        "size": 52,
+        "family": "sans"
+      }
+    },
+    {
+      "index": 3,
+      "height": 1920,
+      "top": 310,
+      "bodyTop": 609.84,
+      "textEnd": 749.2,
+      "safeEnd": 1630,
+      "creditTop": 1450,
+      "last": false,
+      "title": {
+        "lines": [
+          "ОДНОГО СПИСКА",
+          "СЛОВ МАЛО"
+        ],
+        "size": 116,
+        "family": "display"
+      },
+      "body": {
+        "lines": [
+          "На ЕГЭ определяйте роль слова в",
+          "предложении."
+        ],
+        "size": 52,
+        "family": "sans"
+      }
+    },
+    {
+      "index": 4,
+      "height": 1920,
+      "top": 310,
+      "bodyTop": 479.92,
+      "textEnd": 688.96,
+      "safeEnd": 1415,
+      "creditTop": 1450,
+      "last": true,
+      "title": {
+        "lines": [
+          "ДВА ОБРАЗЦА"
+        ],
+        "size": 116,
+        "family": "display"
+      },
+      "body": {
+        "lines": [
+          "Однако поезд задержался. Поезд,",
+          "однако, задержался. Запятые",
+          "зависят от роли слова."
+        ],
+        "size": 52,
+        "family": "sans"
+      }
+    }
+  ],
+  "elapsedSeconds": 82.33
+}

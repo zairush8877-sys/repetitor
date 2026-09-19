@@ -1,0 +1,1077 @@
+[
+  {
+    "slug": "ege-deeprichastie",
+    "title": "Книга прочитала себя?",
+    "exam": "ЕГЭ",
+    "format": "Reels",
+    "caption": "«Прочитав рассказ, книга вернулась на полку» — грамматическая ошибка. Читал человек, а подлежащим оказалась книга. В варианте «Прочитав рассказ, я вернул книгу на полку» оба действия относятся к одному лицу. Такой разбор полезен для проверки синтаксических норм и собственной письменной речи.\n\nО музыке. Цикл начинается арией; после тридцати вариаций она возвращается.\n\n#егэрусский #подготовкакегэ",
+    "sources": [
+      "https://gramota.ru/biblioteka/spravochniki/russkij-yazyk-kratkij-teoreticheskij-kurs-dlya-shkolnikov/deeprichastie",
+      "https://gramota.ru/journal/stati/nauka/kak-vychislenie-skrytogo-subekta-pomogaet-ponyat-smysl-predlozheniya"
+    ],
+    "scenes": [
+      {
+        "headline": "КНИГА ПРОЧИТАЛА СЕБЯ?",
+        "body": "Ошибка: «Прочитав рассказ, книга вернулась на полку».",
+        "seconds": 6,
+        "tone": "cream"
+      },
+      {
+        "headline": "КТО ПРОЧИТАЛ?",
+        "body": "Человек. Но в предложении подлежащее — книга.",
+        "seconds": 6,
+        "tone": "cream"
+      },
+      {
+        "headline": "ВЕРНЁМ ЧИТАТЕЛЯ",
+        "body": "«Прочитав рассказ, я вернул книгу на полку».",
+        "seconds": 6,
+        "tone": "cream"
+      },
+      {
+        "headline": "ДВА ДЕЙСТВИЯ — ОДНО ЛИЦО",
+        "body": "Я прочитал рассказ. Я вернул книгу. Теперь конструкция верна.",
+        "seconds": 6,
+        "tone": "cream"
+      },
+      {
+        "headline": "ПРОВЕРКА ДЛЯ ЕГЭ",
+        "body": "В этой конструкции найдите подлежащее. Проверьте: оно выполняет оба действия?",
+        "seconds": 6,
+        "tone": "cream"
+      }
+    ],
+    "photoBrief": "Открытая книга на деревянной полке, рядом мягкий свет окна, одна книга слегка выдвинута; без рук. Яркая резкая фотореалистичная сцена, естественный дневной свет, вертикальная композиция. Верхняя половина спокойная светлая для чёрного текста. Без букв, логотипов, рамок, карточек и линий. Не изображать Анну или её учеников.",
+    "id": "2026-09-26-ege-deeprichastie",
+    "photoSlug": "ege-deeprichastie",
+    "proposedDate": "2026-09-26",
+    "status": "pending",
+    "school": false,
+    "rubric": "ЕГЭ",
+    "music": {
+      "file": "bach-goldberg-var1-ishizaka.mp3",
+      "title": "Goldberg Variations, BWV 988: Variatio 1 a 1 Clav.",
+      "piece": "Гольдберг-вариации, BWV 988 — Вариация № 1",
+      "composer": "Иоганн Себастьян Бах",
+      "author": "Kimiko Ishizaka",
+      "performer": "Кимико Ишизака",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+      "rightsSource": "https://opengoldbergvariations.org/",
+      "download": "https://upload.wikimedia.org/wikipedia/commons/2/20/Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+      "attributionRequired": true,
+      "attribution": "И. С. Бах — Гольдберг-вариации, BWV 988, вариация № 1. Фортепиано: Кимико Ишизака, Open Goldberg Variations (2012). Запись CC0 1.0. Фрагмент, громкость изменена.",
+      "checkedAt": "2026-09-19",
+      "excerptFrom": 0.7,
+      "duration": 32,
+      "active": true,
+      "trendVerified": false,
+      "compositionRights": "Public domain: J. S. Bach (1685–1750)",
+      "recordingRights": "Open Goldberg 2012 recording released under CC0; not inferred from composition age",
+      "sourceSha256": "0539f3612413f6077c82e16f92417bad112e44017536f59db257c8179718076f",
+      "sha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8"
+    },
+    "musicLearning": {
+      "fact": "Цикл начинается арией; после тридцати вариаций она возвращается.",
+      "source": "https://www.bachvereniging.nl/en/bwv/bwv-988",
+      "checkedAt": "2026-09-20"
+    }
+  },
+  {
+    "slug": "oge-kazhetsya",
+    "title": "«Кажется» не всегда в запятых",
+    "exam": "ОГЭ",
+    "format": "Reels",
+    "caption": "Кот, кажется, уснул. Кот кажется сонным. В первой фразе — неуверенность говорящего, во второй — сказуемое «кажется сонным». Запятые зависят от роли слова в предложении.\n\nО музыке. Бах написал этот цикл для клавесина.\n\n#ОГЭрусский #вводныеслова #пунктуация",
+    "sources": [
+      "https://gramota.ru/biblioteka/spravochniki/spravochnik-po-punktuatsii/kazhetsya",
+      "https://gramota.ru/uchebnik/pravila/normy-postanovki-znakov-prepinaniya-v-predlozheniyakh-s-vvodnymi-slovami",
+      "https://doc.fipi.ru/navigator-podgotovki/navigator-oge/ru-9_5_grammatika._sintaksis.pdf"
+    ],
+    "scenes": [
+      {
+        "headline": "«Кажется»\nне всегда\nв запятых",
+        "body": "Один кот. Два разных разбора.",
+        "seconds": 6,
+        "tone": "cream"
+      },
+      {
+        "headline": "Кот, кажется,\nуснул.",
+        "body": "«Кажется» передаёт неуверенность.\nЭто вводное слово.",
+        "seconds": 6,
+        "tone": "cream"
+      },
+      {
+        "headline": "Можно заменить:\n«вероятно»",
+        "body": "Кот, вероятно, уснул.\nВводное слово выделяем запятыми.",
+        "seconds": 6,
+        "tone": "cream"
+      },
+      {
+        "headline": "Кот кажется\nсонным.",
+        "body": "«Кажется сонным» — сказуемое.\nЗапятые не нужны.",
+        "seconds": 6,
+        "tone": "cream"
+      },
+      {
+        "headline": "Сначала —\nроль слова",
+        "body": "Кот, кажется, уснул.\nКот кажется сонным.\nВводное слово или часть сказуемого.",
+        "seconds": 6,
+        "tone": "cream"
+      }
+    ],
+    "photoBrief": "Новая яркая фотореалистичная иллюстрация: крупный пушистый рыжий кот с полузакрытыми глазами на насыщенно-голубом диване, естественный солнечный свет, чёткая фактура шерсти, выразительная морда, лёгкая улыбка ситуации. Вертикальный кадр во весь экран; спокойная зона для текста. Без букв, логотипов, линий, бумажных плашек. Не представлять как личное фото Анны.",
+    "id": "2026-09-27-oge-kazhetsya",
+    "photoSlug": "oge-kazhetsya",
+    "proposedDate": "2026-09-27",
+    "status": "pending",
+    "school": false,
+    "rubric": "ОГЭ",
+    "music": {
+      "file": "bach-goldberg-var1-ishizaka.mp3",
+      "title": "Goldberg Variations, BWV 988: Variatio 1 a 1 Clav.",
+      "piece": "Гольдберг-вариации, BWV 988 — Вариация № 1",
+      "composer": "Иоганн Себастьян Бах",
+      "author": "Kimiko Ishizaka",
+      "performer": "Кимико Ишизака",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+      "rightsSource": "https://opengoldbergvariations.org/",
+      "download": "https://upload.wikimedia.org/wikipedia/commons/2/20/Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+      "attributionRequired": true,
+      "attribution": "И. С. Бах — Гольдберг-вариации, BWV 988, вариация № 1. Фортепиано: Кимико Ишизака, Open Goldberg Variations (2012). Запись CC0 1.0. Фрагмент, громкость изменена.",
+      "checkedAt": "2026-09-19",
+      "excerptFrom": 0.7,
+      "duration": 32,
+      "active": true,
+      "trendVerified": false,
+      "compositionRights": "Public domain: J. S. Bach (1685–1750)",
+      "recordingRights": "Open Goldberg 2012 recording released under CC0; not inferred from composition age",
+      "sourceSha256": "0539f3612413f6077c82e16f92417bad112e44017536f59db257c8179718076f",
+      "sha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8"
+    },
+    "musicLearning": {
+      "fact": "Бах написал этот цикл для клавесина.",
+      "source": "https://www.bachvereniging.nl/en/bwv/bwv-988",
+      "checkedAt": "2026-09-20"
+    }
+  },
+  {
+    "slug": "ege-nesmotrya",
+    "title": "Смотрели или действовали вопреки?",
+    "exam": "ЕГЭ",
+    "format": "carousel",
+    "caption": "В словах «несмотря на усталость» говорится о препятствии: несмотря = вопреки, пишем слитно. В сочетании «не смотря на экран» говорится о взгляде: не смотря = не глядя, пишем раздельно. В приведённых предложениях обороты отделены запятыми; обособление не служит проверкой слитного написания.\n\nО музыке. «Гольдберг-вариации» впервые напечатали в 1741 году.\n\n#егэрусский #подготовкакегэ",
+    "sources": [
+      "https://gramota.ru/spravka/vopros/202729",
+      "https://gramota.ru/spravka/vopros/212898",
+      "https://gramota.ru/biblioteka/spravochniki/spravochnik-po-punktuatsii/nesmotrya-na-chto"
+    ],
+    "scenes": [
+      {
+        "headline": "СМОТРЕЛИ ИЛИ ДЕЙСТВОВАЛИ ВОПРЕКИ?",
+        "body": "Несмотря на усталость. Не смотря на экран. Пробел меняет смысл.",
+        "seconds": 6,
+        "tone": "cream"
+      },
+      {
+        "headline": "ВОПРЕКИ УСТАЛОСТИ",
+        "body": "«Несмотря на усталость, мы закончили работу». Предлог НЕСМОТРЯ НА: слитно.",
+        "seconds": 6,
+        "tone": "cream"
+      },
+      {
+        "headline": "НЕ ГЛЯДЯ НА ЭКРАН",
+        "body": "«Он отвечал, не смотря на экран». Деепричастие с НЕ: раздельно.",
+        "seconds": 6,
+        "tone": "cream"
+      },
+      {
+        "headline": "СНАЧАЛА — ЗНАЧЕНИЕ",
+        "body": "Вопреки → несмотря на. Не глядя → не смотря. Запятые сами по себе написание не определяют.",
+        "seconds": 6,
+        "tone": "cream"
+      }
+    ],
+    "photoBrief": "Закрытый серебристый ноутбук, чашка и лимон на ярком светлом столе; экран и клавиатура не видны. Яркая резкая фотореалистичная сцена, естественный дневной свет, вертикальная композиция. Верхняя половина спокойная светлая для чёрного текста. Без букв, логотипов, рамок, карточек и линий. Не изображать Анну или её учеников.",
+    "id": "2026-09-28-ege-nesmotrya",
+    "photoSlug": "ege-nesmotrya",
+    "proposedDate": "2026-09-28",
+    "status": "pending",
+    "school": false,
+    "rubric": "ЕГЭ",
+    "music": {
+      "file": "bach-goldberg-var1-ishizaka.mp3",
+      "title": "Goldberg Variations, BWV 988: Variatio 1 a 1 Clav.",
+      "piece": "Гольдберг-вариации, BWV 988 — Вариация № 1",
+      "composer": "Иоганн Себастьян Бах",
+      "author": "Kimiko Ishizaka",
+      "performer": "Кимико Ишизака",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+      "rightsSource": "https://opengoldbergvariations.org/",
+      "download": "https://upload.wikimedia.org/wikipedia/commons/2/20/Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+      "attributionRequired": true,
+      "attribution": "И. С. Бах — Гольдберг-вариации, BWV 988, вариация № 1. Фортепиано: Кимико Ишизака, Open Goldberg Variations (2012). Запись CC0 1.0. Фрагмент, громкость изменена.",
+      "checkedAt": "2026-09-19",
+      "excerptFrom": 0.7,
+      "duration": 32,
+      "active": true,
+      "trendVerified": false,
+      "compositionRights": "Public domain: J. S. Bach (1685–1750)",
+      "recordingRights": "Open Goldberg 2012 recording released under CC0; not inferred from composition age",
+      "sourceSha256": "0539f3612413f6077c82e16f92417bad112e44017536f59db257c8179718076f",
+      "sha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8"
+    },
+    "musicLearning": {
+      "fact": "«Гольдберг-вариации» впервые напечатали в 1741 году.",
+      "source": "https://www.bachvereniging.nl/en/bwv/bwv-988",
+      "checkedAt": "2026-09-20"
+    }
+  },
+  {
+    "slug": "oge-svetaet",
+    "title": "Подлежащее не потерялось",
+    "exam": "ОГЭ",
+    "format": "Reels",
+    "caption": "В предложении «За окном светает» не нужно искать спрятанное подлежащее. Оно односоставное, безличное: главный член — «светает». А в предложении «Окно светится» основа уже из двух главных членов.\n\nО музыке. Название «Гольдберг-вариации» появилось позже: сам Бах так цикл не называл.\n\n#ОГЭрусский #грамматическаяоснова #синтаксис",
+    "sources": [
+      "https://gramota.ru/biblioteka/spravochniki/russkij-yazyk-kratkij-teoreticheskij-kurs-dlya-shkolnikov/odnosostavnoe-predlozhenie-vyrazhenie-glavnogo-chlena-v-nem",
+      "https://gramota.ru/biblioteka/spravochniki/russkij-yazyk-kratkij-teoreticheskij-kurs-dlya-shkolnikov/bezlichnye-predlozheniya",
+      "https://gramota.ru/poisk?mode=slovari&query=%D1%81%D0%B2%D0%B5%D1%82%D0%B0%D1%82%D1%8C",
+      "https://doc.fipi.ru/navigator-podgotovki/navigator-oge/ru-9_5_grammatika._sintaksis.pdf"
+    ],
+    "scenes": [
+      {
+        "headline": "Подлежащее\nне потерялось",
+        "body": "«За окном светает» —\nполное предложение.",
+        "seconds": 6,
+        "tone": "cream"
+      },
+      {
+        "headline": "Светает",
+        "body": "Один главный член.\nПредложение безличное.",
+        "seconds": 6,
+        "tone": "cream"
+      },
+      {
+        "headline": "За окном",
+        "body": "Где светает?\nЭто обстоятельство, не подлежащее.",
+        "seconds": 6,
+        "tone": "cream"
+      },
+      {
+        "headline": "Окно светится",
+        "body": "Здесь «окно» — подлежащее,\n«светится» — сказуемое.",
+        "seconds": 6,
+        "tone": "cream"
+      },
+      {
+        "headline": "Две разные\nосновы",
+        "body": "За окном светает.\nОснова: светает.\nОкно светится.\nОснова: окно светится.",
+        "seconds": 6,
+        "tone": "cream"
+      }
+    ],
+    "photoBrief": "Новая яркая фотореалистичная иллюстрация: сияющий золотистый рассвет над разноцветными городскими крышами через большое распахнутое окно, чистое голубое небо и солнечные блики, резкие детали, ощущение начала дня. Вертикальный кадр во весь экран, без людей и букв, без логотипов, линий и плашек. Не изображать конкретный адрес или реальный дом автора.",
+    "id": "2026-09-29-oge-svetaet",
+    "photoSlug": "oge-svetaet",
+    "proposedDate": "2026-09-29",
+    "status": "pending",
+    "school": false,
+    "rubric": "ОГЭ",
+    "music": {
+      "file": "bach-goldberg-var1-ishizaka.mp3",
+      "title": "Goldberg Variations, BWV 988: Variatio 1 a 1 Clav.",
+      "piece": "Гольдберг-вариации, BWV 988 — Вариация № 1",
+      "composer": "Иоганн Себастьян Бах",
+      "author": "Kimiko Ishizaka",
+      "performer": "Кимико Ишизака",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+      "rightsSource": "https://opengoldbergvariations.org/",
+      "download": "https://upload.wikimedia.org/wikipedia/commons/2/20/Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+      "attributionRequired": true,
+      "attribution": "И. С. Бах — Гольдберг-вариации, BWV 988, вариация № 1. Фортепиано: Кимико Ишизака, Open Goldberg Variations (2012). Запись CC0 1.0. Фрагмент, громкость изменена.",
+      "checkedAt": "2026-09-19",
+      "excerptFrom": 0.7,
+      "duration": 32,
+      "active": true,
+      "trendVerified": false,
+      "compositionRights": "Public domain: J. S. Bach (1685–1750)",
+      "recordingRights": "Open Goldberg 2012 recording released under CC0; not inferred from composition age",
+      "sourceSha256": "0539f3612413f6077c82e16f92417bad112e44017536f59db257c8179718076f",
+      "sha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8"
+    },
+    "musicLearning": {
+      "fact": "Название «Гольдберг-вариации» появилось позже: сам Бах так цикл не называл.",
+      "source": "https://www.bachvereniging.nl/en/bwv/bwv-988",
+      "checkedAt": "2026-09-20"
+    }
+  },
+  {
+    "slug": "ege-ne-kto",
+    "title": "Не кто иной или никто иной?",
+    "exam": "ЕГЭ",
+    "format": "Reels",
+    "caption": "В фразе «Это не кто иной, как наш тренер» сочетание означает «именно»: НЕ пишется отдельно, перед «как» нужна запятая. В предложении «Никто иной не знал маршрута» местоимение пишется слитно с НИ. Сравнивайте смысл целой конструкции.\n\nО музыке. Цикл начинается арией; после тридцати вариаций она возвращается.\n\n#егэрусский #подготовкакегэ",
+    "sources": [
+      "https://gramota.ru/uchebnik/pravila/razlichenie-chastits-ne-i-ni",
+      "https://gramota.ru/storage/public/normdicts/orfograficheskij_slovar.pdf",
+      "https://gramota.ru/spravka/vopros/319868"
+    ],
+    "scenes": [
+      {
+        "headline": "ИМЕННО ОН. ИЛИ НИКТО ДРУГОЙ?",
+        "body": "«Не кто иной» и «никто иной» пишутся по-разному.",
+        "seconds": 6,
+        "tone": "cream"
+      },
+      {
+        "headline": "ИМЕННО ТРЕНЕР",
+        "body": "«Это не кто иной, как наш тренер». НЕ — отдельно.",
+        "seconds": 6,
+        "tone": "cream"
+      },
+      {
+        "headline": "ПЕРЕД «КАК» — ЗАПЯТАЯ",
+        "body": "Не кто иной, как… Здесь называем конкретного человека.",
+        "seconds": 6,
+        "tone": "cream"
+      },
+      {
+        "headline": "НИКТО ДРУГОЙ",
+        "body": "«Никто иной не знал маршрута». НИКТО — слитно.",
+        "seconds": 6,
+        "tone": "cream"
+      },
+      {
+        "headline": "ДВЕ КОНСТРУКЦИИ",
+        "body": "Не кто иной, как… = именно. Никто иной не… = никто другой не…",
+        "seconds": 6,
+        "tone": "cream"
+      }
+    ],
+    "photoBrief": "Яркий спортивный свисток и компас на светлой скамейке у стадиона, размытый зелёный газон снизу. Яркая резкая фотореалистичная сцена, естественный дневной свет, вертикальная композиция. Верхняя половина спокойная светлая для чёрного текста. Без букв, логотипов, рамок, карточек и линий. Не изображать Анну или её учеников.",
+    "id": "2026-09-30-ege-ne-kto",
+    "photoSlug": "ege-ne-kto",
+    "proposedDate": "2026-09-30",
+    "status": "pending",
+    "school": false,
+    "rubric": "ЕГЭ",
+    "music": {
+      "file": "bach-goldberg-var1-ishizaka.mp3",
+      "title": "Goldberg Variations, BWV 988: Variatio 1 a 1 Clav.",
+      "piece": "Гольдберг-вариации, BWV 988 — Вариация № 1",
+      "composer": "Иоганн Себастьян Бах",
+      "author": "Kimiko Ishizaka",
+      "performer": "Кимико Ишизака",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+      "rightsSource": "https://opengoldbergvariations.org/",
+      "download": "https://upload.wikimedia.org/wikipedia/commons/2/20/Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+      "attributionRequired": true,
+      "attribution": "И. С. Бах — Гольдберг-вариации, BWV 988, вариация № 1. Фортепиано: Кимико Ишизака, Open Goldberg Variations (2012). Запись CC0 1.0. Фрагмент, громкость изменена.",
+      "checkedAt": "2026-09-19",
+      "excerptFrom": 0.7,
+      "duration": 32,
+      "active": true,
+      "trendVerified": false,
+      "compositionRights": "Public domain: J. S. Bach (1685–1750)",
+      "recordingRights": "Open Goldberg 2012 recording released under CC0; not inferred from composition age",
+      "sourceSha256": "0539f3612413f6077c82e16f92417bad112e44017536f59db257c8179718076f",
+      "sha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8"
+    },
+    "musicLearning": {
+      "fact": "Цикл начинается арией; после тридцати вариаций она возвращается.",
+      "source": "https://www.bachvereniging.nl/en/bwv/bwv-988",
+      "checkedAt": "2026-09-20"
+    }
+  },
+  {
+    "slug": "oge-svyaz",
+    "title": "Один шарф — три связи",
+    "exam": "ОГЭ",
+    "format": "carousel",
+    "caption": "Шерстяной шарф, шарф из шерсти, очень мягкий. Три сочетания про одну вещь — и три способа связи слов. Сначала находим главное слово, затем смотрим, как к нему присоединено зависимое.\n\nО музыке. Бах написал этот цикл для клавесина.\n\n#ОГЭрусский #словосочетание #синтаксис",
+    "sources": [
+      "https://gramota.ru/biblioteka/spravochniki/russkij-yazyk-kratkij-teoreticheskij-kurs-dlya-shkolnikov/predlozhenie",
+      "https://doc.fipi.ru/navigator-podgotovki/navigator-oge/ru-9_5_grammatika._sintaksis.pdf"
+    ],
+    "scenes": [
+      {
+        "headline": "Один шарф —\nтри связи",
+        "body": "Шерстяной шарф.\nШарф из шерсти.\nОчень мягкий.\nСмысл рядом — грамматика разная.",
+        "seconds": 6,
+        "tone": "cream"
+      },
+      {
+        "headline": "Согласование",
+        "body": "Шерстяной шарф — шерстяного шарфа.\nГлавное слово: шарф.\nЗависимое прилагательное меняется вместе с ним.",
+        "seconds": 6,
+        "tone": "cream"
+      },
+      {
+        "headline": "Ещё две связи",
+        "body": "Шарф из шерсти — управление.\n«Из шерсти»: существительное в родительном падеже.\nОчень мягкий — примыкание.\n«Очень»: неизменяемое наречие.",
+        "seconds": 6,
+        "tone": "cream"
+      },
+      {
+        "headline": "Проверяем\nзависимое слово",
+        "body": "Шерстяной шарф — согласование.\nШарф из шерсти — управление.\nОчень мягкий — примыкание.\nГлавные слова: шарф, шарф, мягкий.",
+        "seconds": 6,
+        "tone": "cream"
+      }
+    ],
+    "photoBrief": "Новая яркая фотореалистичная иллюстрация: большой оранжевый шерстяной шарф с выразительной чёткой вязкой и мягкими складками, дневной свет, контрастный чистый бирюзовый фон или голубая скамья. Предмет занимает большую часть вертикального кадра. Без этикеток, букв, людей, бумажных блоков и декоративных линий.",
+    "id": "2026-10-01-oge-svyaz",
+    "photoSlug": "oge-svyaz",
+    "proposedDate": "2026-10-01",
+    "status": "pending",
+    "school": false,
+    "rubric": "ОГЭ",
+    "music": {
+      "file": "bach-goldberg-var1-ishizaka.mp3",
+      "title": "Goldberg Variations, BWV 988: Variatio 1 a 1 Clav.",
+      "piece": "Гольдберг-вариации, BWV 988 — Вариация № 1",
+      "composer": "Иоганн Себастьян Бах",
+      "author": "Kimiko Ishizaka",
+      "performer": "Кимико Ишизака",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+      "rightsSource": "https://opengoldbergvariations.org/",
+      "download": "https://upload.wikimedia.org/wikipedia/commons/2/20/Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+      "attributionRequired": true,
+      "attribution": "И. С. Бах — Гольдберг-вариации, BWV 988, вариация № 1. Фортепиано: Кимико Ишизака, Open Goldberg Variations (2012). Запись CC0 1.0. Фрагмент, громкость изменена.",
+      "checkedAt": "2026-09-19",
+      "excerptFrom": 0.7,
+      "duration": 32,
+      "active": true,
+      "trendVerified": false,
+      "compositionRights": "Public domain: J. S. Bach (1685–1750)",
+      "recordingRights": "Open Goldberg 2012 recording released under CC0; not inferred from composition age",
+      "sourceSha256": "0539f3612413f6077c82e16f92417bad112e44017536f59db257c8179718076f",
+      "sha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8"
+    },
+    "musicLearning": {
+      "fact": "Бах написал этот цикл для клавесина.",
+      "source": "https://www.bachvereniging.nl/en/bwv/bwv-988",
+      "checkedAt": "2026-09-20"
+    }
+  },
+  {
+    "slug": "ege-bsp-colon",
+    "title": "Двоеточие объясняет причину",
+    "exam": "ЕГЭ",
+    "format": "carousel",
+    "caption": "В бессоюзном предложении двоеточие может вводить причину или пояснение. «Мы остались дома: началась гроза» — причина. «План был прост: мы поедем утром» — раскрытие плана. Это два основания для выбранного двоеточия, а не вся пунктуация бессоюзных предложений. Подстановка помогает проверить смысл, но не заменяет разбор.\n\nО музыке. «Гольдберг-вариации» впервые напечатали в 1741 году.\n\n#егэрусский #подготовкакегэ",
+    "sources": [
+      "https://gramota.ru/uchebnik/pravila/normy-postanovki-znakov-prepinaniya-v-bessoyuznom-slozhnom-predlozhenii",
+      "https://gramota.ru/poisk?mode=spravka&query=обоснования"
+    ],
+    "scenes": [
+      {
+        "headline": "ДВОЕТОЧИЕ — НЕ ТОЛЬКО ПЕРЕД СПИСКОМ",
+        "body": "Во второй части может быть причина или пояснение первой.",
+        "seconds": 6,
+        "tone": "cream"
+      },
+      {
+        "headline": "ПОЧЕМУ ОСТАЛИСЬ?",
+        "body": "«Мы остались дома: началась гроза». Вторая часть указывает причину. Проверка: потому что.",
+        "seconds": 6,
+        "tone": "cream"
+      },
+      {
+        "headline": "ЧТО ЗА ПЛАН?",
+        "body": "«План был прост: мы поедем утром». Вторая часть раскрывает план. Проверка: а именно.",
+        "seconds": 6,
+        "tone": "cream"
+      },
+      {
+        "headline": "ДВА ОСНОВАНИЯ ДЛЯ ДВОЕТОЧИЯ",
+        "body": "Причина → потому что. Пояснение → а именно. Сначала определите отношение частей; это не все случаи бессоюзной связи.",
+        "seconds": 6,
+        "tone": "cream"
+      }
+    ],
+    "photoBrief": "Яркий жёлтый дождевик на крючке рядом с окном, на нижней части стекла капли дождя, светлая чистая стена сверху. Яркая резкая фотореалистичная сцена, естественный дневной свет, вертикальная композиция. Верхняя половина спокойная светлая для чёрного текста. Без букв, логотипов, рамок, карточек и линий. Не изображать Анну или её учеников.",
+    "id": "2026-10-02-ege-bsp-colon",
+    "photoSlug": "ege-bsp-colon",
+    "proposedDate": "2026-10-02",
+    "status": "pending",
+    "school": false,
+    "rubric": "ЕГЭ",
+    "music": {
+      "file": "bach-goldberg-var1-ishizaka.mp3",
+      "title": "Goldberg Variations, BWV 988: Variatio 1 a 1 Clav.",
+      "piece": "Гольдберг-вариации, BWV 988 — Вариация № 1",
+      "composer": "Иоганн Себастьян Бах",
+      "author": "Kimiko Ishizaka",
+      "performer": "Кимико Ишизака",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+      "rightsSource": "https://opengoldbergvariations.org/",
+      "download": "https://upload.wikimedia.org/wikipedia/commons/2/20/Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+      "attributionRequired": true,
+      "attribution": "И. С. Бах — Гольдберг-вариации, BWV 988, вариация № 1. Фортепиано: Кимико Ишизака, Open Goldberg Variations (2012). Запись CC0 1.0. Фрагмент, громкость изменена.",
+      "checkedAt": "2026-09-19",
+      "excerptFrom": 0.7,
+      "duration": 32,
+      "active": true,
+      "trendVerified": false,
+      "compositionRights": "Public domain: J. S. Bach (1685–1750)",
+      "recordingRights": "Open Goldberg 2012 recording released under CC0; not inferred from composition age",
+      "sourceSha256": "0539f3612413f6077c82e16f92417bad112e44017536f59db257c8179718076f",
+      "sha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8"
+    },
+    "musicLearning": {
+      "fact": "«Гольдберг-вариации» впервые напечатали в 1741 году.",
+      "source": "https://www.bachvereniging.nl/en/bwv/bwv-988",
+      "checkedAt": "2026-09-20"
+    }
+  },
+  {
+    "slug": "oge-bez-bes",
+    "title": "Тихо — а приставки разные",
+    "exam": "ОГЭ",
+    "format": "Reels",
+    "caption": "Беззвучный режим и бесшумный шаг. В приставках без-/бес- выбор зависит от следующей буквы: перед буквой звонкого согласного пишем з, перед буквой глухого — с; перед гласной тоже з.\n\nО музыке. Название «Гольдберг-вариации» появилось позже: сам Бах так цикл не называл.\n\n#ОГЭрусский #приставки #орфография",
+    "sources": [
+      "https://gramota.ru/biblioteka/spravochniki/pravila-russkoy-orfografii-i-punktuatsii/glukhie-i-zvonkie-soglasnye",
+      "https://gramota.ru/poisk?mode=spravka&query=%D0%BF%D1%80%D0%B8%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B0+%D0%B1%D0%B5%D0%B7-&simple=0",
+      "https://gramota.ru/storage/public/normdicts/orfograficheskij_slovar.pdf",
+      "https://gramota.ru/poisk?dicts%5B0%5D=71&mode=slovari&query=%D0%B1%D0%B5%D1%81%D1%88%D1%83%D0%BC%D0%BD%D1%8B%D0%B9&simple=0"
+    ],
+    "scenes": [
+      {
+        "headline": "Тихо.\nА приставки\nразные.",
+        "body": "Беззвучный режим.\nБесшумный шаг.",
+        "seconds": 6,
+        "tone": "cream"
+      },
+      {
+        "headline": "Беззвучный",
+        "body": "После приставки — з.\nЭто буква звонкого согласного.\nПишем без-.",
+        "seconds": 6,
+        "tone": "cream"
+      },
+      {
+        "headline": "Бесшумный",
+        "body": "После приставки — ш.\nЭто буква глухого согласного.\nПишем бес-.",
+        "seconds": 6,
+        "tone": "cream"
+      },
+      {
+        "headline": "Безоблачный",
+        "body": "После приставки — гласная о.\nЗдесь тоже без-.",
+        "seconds": 6,
+        "tone": "cream"
+      },
+      {
+        "headline": "Без- или бес-",
+        "body": "Беззвучный: з перед з.\nБесшумный: с перед ш.\nБезоблачный: з перед о.",
+        "seconds": 6,
+        "tone": "cream"
+      }
+    ],
+    "photoBrief": "Новая яркая фотореалистичная иллюстрация: качественные жёлтые полноразмерные наушники крупным планом на насыщенном бирюзовом фоне, боковой солнечный свет, резкие детали и красивый изгиб оголовья. Вертикальный кадр во весь экран. Без брендов, букв, бумажных блоков, декоративных линий и музыкальной символики, похожей на логотип.",
+    "id": "2026-10-03-oge-bez-bes",
+    "photoSlug": "oge-bez-bes",
+    "proposedDate": "2026-10-03",
+    "status": "pending",
+    "school": false,
+    "rubric": "ОГЭ",
+    "music": {
+      "file": "bach-goldberg-var1-ishizaka.mp3",
+      "title": "Goldberg Variations, BWV 988: Variatio 1 a 1 Clav.",
+      "piece": "Гольдберг-вариации, BWV 988 — Вариация № 1",
+      "composer": "Иоганн Себастьян Бах",
+      "author": "Kimiko Ishizaka",
+      "performer": "Кимико Ишизака",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+      "rightsSource": "https://opengoldbergvariations.org/",
+      "download": "https://upload.wikimedia.org/wikipedia/commons/2/20/Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+      "attributionRequired": true,
+      "attribution": "И. С. Бах — Гольдберг-вариации, BWV 988, вариация № 1. Фортепиано: Кимико Ишизака, Open Goldberg Variations (2012). Запись CC0 1.0. Фрагмент, громкость изменена.",
+      "checkedAt": "2026-09-19",
+      "excerptFrom": 0.7,
+      "duration": 32,
+      "active": true,
+      "trendVerified": false,
+      "compositionRights": "Public domain: J. S. Bach (1685–1750)",
+      "recordingRights": "Open Goldberg 2012 recording released under CC0; not inferred from composition age",
+      "sourceSha256": "0539f3612413f6077c82e16f92417bad112e44017536f59db257c8179718076f",
+      "sha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8"
+    },
+    "musicLearning": {
+      "fact": "Название «Гольдберг-вариации» появилось позже: сам Бах так цикл не называл.",
+      "source": "https://www.bachvereniging.nl/en/bwv/bwv-988",
+      "checkedAt": "2026-09-20"
+    }
+  },
+  {
+    "slug": "ege-odnako",
+    "title": "«Однако» не выдаёт запятую автоматически",
+    "exam": "ЕГЭ",
+    "format": "Reels",
+    "caption": "«Однако поезд задержался»: здесь «однако» означает «но», поэтому после него нет запятой. «Поезд, однако, задержался»: вводное слово обособлено. Это разбор двух конкретных конструкций, а не запрет на любую запятую после «однако» в начале предложения: там может начинаться отдельный оборот.\n\nО музыке. Цикл начинается арией; после тридцати вариаций она возвращается.\n\n#егэрусский #подготовкакегэ",
+    "sources": [
+      "https://gramota.ru/biblioteka/spravochniki/pravila-russkoy-orfografii-i-punktuatsii/znaki-prepinaniya-pri-vvodnykh-slovakh-sochetaniyakh-slov-i-predlozheniyakh"
+    ],
+    "scenes": [
+      {
+        "headline": "ОДНАКО ПОЕЗД ЗАДЕРЖАЛСЯ",
+        "body": "После «однако» здесь нет запятой.",
+        "seconds": 6,
+        "tone": "cream"
+      },
+      {
+        "headline": "ЗДЕСЬ ОНО ЗНАЧИТ «НО»",
+        "body": "«Но поезд задержался». Это союз.",
+        "seconds": 6,
+        "tone": "cream"
+      },
+      {
+        "headline": "ПОЕЗД, ОДНАКО, ЗАДЕРЖАЛСЯ",
+        "body": "В этой фразе «однако» — вводное слово. Нужны две запятые.",
+        "seconds": 6,
+        "tone": "cream"
+      },
+      {
+        "headline": "ОДНОГО СПИСКА СЛОВ МАЛО",
+        "body": "На ЕГЭ определяйте роль слова в предложении.",
+        "seconds": 6,
+        "tone": "cream"
+      },
+      {
+        "headline": "ДВА ОБРАЗЦА",
+        "body": "Однако поезд задержался. Поезд, однако, задержался. Запятые зависят от роли слова.",
+        "seconds": 6,
+        "tone": "cream"
+      }
+    ],
+    "photoBrief": "Светлая железнодорожная платформа с небольшим дорожным чемоданом внизу, поезд вдалеке без читаемых обозначений. Яркая резкая фотореалистичная сцена, естественный дневной свет, вертикальная композиция. Верхняя половина спокойная светлая для чёрного текста. Без букв, логотипов, рамок, карточек и линий. Не изображать Анну или её учеников.",
+    "id": "2026-10-04-ege-odnako",
+    "photoSlug": "ege-odnako",
+    "proposedDate": "2026-10-04",
+    "status": "pending",
+    "school": false,
+    "rubric": "ЕГЭ",
+    "music": {
+      "file": "bach-goldberg-var1-ishizaka.mp3",
+      "title": "Goldberg Variations, BWV 988: Variatio 1 a 1 Clav.",
+      "piece": "Гольдберг-вариации, BWV 988 — Вариация № 1",
+      "composer": "Иоганн Себастьян Бах",
+      "author": "Kimiko Ishizaka",
+      "performer": "Кимико Ишизака",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+      "rightsSource": "https://opengoldbergvariations.org/",
+      "download": "https://upload.wikimedia.org/wikipedia/commons/2/20/Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+      "attributionRequired": true,
+      "attribution": "И. С. Бах — Гольдберг-вариации, BWV 988, вариация № 1. Фортепиано: Кимико Ишизака, Open Goldberg Variations (2012). Запись CC0 1.0. Фрагмент, громкость изменена.",
+      "checkedAt": "2026-09-19",
+      "excerptFrom": 0.7,
+      "duration": 32,
+      "active": true,
+      "trendVerified": false,
+      "compositionRights": "Public domain: J. S. Bach (1685–1750)",
+      "recordingRights": "Open Goldberg 2012 recording released under CC0; not inferred from composition age",
+      "sourceSha256": "0539f3612413f6077c82e16f92417bad112e44017536f59db257c8179718076f",
+      "sha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8"
+    },
+    "musicLearning": {
+      "fact": "Цикл начинается арией; после тридцати вариаций она возвращается.",
+      "source": "https://www.bachvereniging.nl/en/bwv/bwv-988",
+      "checkedAt": "2026-09-20"
+    }
+  },
+  {
+    "slug": "oge-szhatie",
+    "title": "Короче — с тем же смыслом",
+    "exam": "ОГЭ",
+    "format": "carousel",
+    "caption": "В сжатом изложении уменьшаем объём, сохраняя главную информацию. Здесь два наших тренировочных примера: обобщение и объединение предложений. Убирать детали можно лишь тогда, когда они не важны для мысли исходного текста.\n\nО музыке. Бах написал этот цикл для клавесина.\n\n#ОГЭрусский #сжатоеизложение #работастекстом",
+    "sources": [
+      "https://doc.fipi.ru/navigator-podgotovki/navigator-oge/MR_rus_yaz_oge_2026.pdf",
+      "https://doc.fipi.ru/navigator-podgotovki/navigator-oge/ru-9_11_inform._obrabotka.pdf"
+    ],
+    "scenes": [
+      {
+        "headline": "Короче —\nс тем же\nсмыслом",
+        "body": "Два приёма для сжатого изложения.\nНа наших тренировочных примерах.",
+        "seconds": 6,
+        "tone": "cream"
+      },
+      {
+        "headline": "Обобщаем",
+        "body": "Было: «В сумке лежали яблоки, груши и сливы».\nСтало: «В сумке лежали фрукты».\nТак можно, если виды фруктов не важны для мысли текста.",
+        "seconds": 6,
+        "tone": "cream"
+      },
+      {
+        "headline": "Объединяем",
+        "body": "Было: «Мы ждали поезд. Ожидание затянулось».\nСтало: «Мы долго ждали поезд».\nСохранены и событие, и его длительность.",
+        "seconds": 6,
+        "tone": "cream"
+      },
+      {
+        "headline": "Смысл\nостаётся",
+        "body": "Яблоки, груши, сливы — фрукты.\nЖдали; ожидание затянулось — долго ждали.\nПроверка: все основные мысли исходного текста на месте.",
+        "seconds": 6,
+        "tone": "cream"
+      }
+    ],
+    "photoBrief": "Новая яркая фотореалистичная иллюстрация: сочные красные яблоки, зелёные груши и фиолетовые сливы в открытой льняной сумке на солнечном рынке, аппетитные чёткие фактуры, насыщенные естественные цвета. Вертикальный кадр во весь экран; без ценников, этикеток, любых букв и людей. Никаких бумажных слайдов или декоративных линий.",
+    "id": "2026-10-05-oge-szhatie",
+    "photoSlug": "oge-szhatie",
+    "proposedDate": "2026-10-05",
+    "status": "pending",
+    "school": false,
+    "rubric": "ОГЭ",
+    "music": {
+      "file": "bach-goldberg-var1-ishizaka.mp3",
+      "title": "Goldberg Variations, BWV 988: Variatio 1 a 1 Clav.",
+      "piece": "Гольдберг-вариации, BWV 988 — Вариация № 1",
+      "composer": "Иоганн Себастьян Бах",
+      "author": "Kimiko Ishizaka",
+      "performer": "Кимико Ишизака",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+      "rightsSource": "https://opengoldbergvariations.org/",
+      "download": "https://upload.wikimedia.org/wikipedia/commons/2/20/Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+      "attributionRequired": true,
+      "attribution": "И. С. Бах — Гольдберг-вариации, BWV 988, вариация № 1. Фортепиано: Кимико Ишизака, Open Goldberg Variations (2012). Запись CC0 1.0. Фрагмент, громкость изменена.",
+      "checkedAt": "2026-09-19",
+      "excerptFrom": 0.7,
+      "duration": 32,
+      "active": true,
+      "trendVerified": false,
+      "compositionRights": "Public domain: J. S. Bach (1685–1750)",
+      "recordingRights": "Open Goldberg 2012 recording released under CC0; not inferred from composition age",
+      "sourceSha256": "0539f3612413f6077c82e16f92417bad112e44017536f59db257c8179718076f",
+      "sha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8"
+    },
+    "musicLearning": {
+      "fact": "Бах написал этот цикл для клавесина.",
+      "source": "https://www.bachvereniging.nl/en/bwv/bwv-988",
+      "checkedAt": "2026-09-20"
+    }
+  },
+  {
+    "slug": "ege-po-pribytii",
+    "title": "Прибытие меняет окончание",
+    "exam": "ЕГЭ",
+    "format": "Reels",
+    "caption": "Если «по» означает «после», нужны формы «по прибытии», «по завершении». Например: «По прибытии мы позвонили домой». Это не правило «после любого по ставить И»: у предлога есть другие значения и другие падежи.\n\nО музыке. «Гольдберг-вариации» впервые напечатали в 1741 году.\n\n#егэрусский #подготовкакегэ",
+    "sources": [
+      "https://gramota.ru/biblioteka/spravochniki/slovar-trudnostey/zavershenie"
+    ],
+    "scenes": [
+      {
+        "headline": "ПО ПРИБЫТИЮ?",
+        "body": "Если имеется в виду «после прибытия», нужно: по прибытии.",
+        "seconds": 6,
+        "tone": "cream"
+      },
+      {
+        "headline": "МЫ УЖЕ ПРИБЫЛИ",
+        "body": "«По прибытии мы позвонили домой». Значение: после прибытия.",
+        "seconds": 6,
+        "tone": "cream"
+      },
+      {
+        "headline": "РАБОТА УЖЕ ЗАВЕРШЕНА",
+        "body": "«По завершении работы выключите свет». Значение: после завершения.",
+        "seconds": 6,
+        "tone": "cream"
+      },
+      {
+        "headline": "НЕ ЛЮБОЕ «ПО»",
+        "body": "«Идти по дороге» — другое значение. Здесь эта проверка не работает.",
+        "seconds": 6,
+        "tone": "cream"
+      },
+      {
+        "headline": "ЕСЛИ «ПО» = «ПОСЛЕ»",
+        "body": "По прибытии. По завершении. В этих сочетаниях — предложный падеж.",
+        "seconds": 6,
+        "tone": "cream"
+      }
+    ],
+    "photoBrief": "Бирюзовый чемодан и небольшой выключенный телефон на светлой деревянной поверхности у окна, без надписей. Яркая резкая фотореалистичная сцена, естественный дневной свет, вертикальная композиция. Верхняя половина спокойная светлая для чёрного текста. Без букв, логотипов, рамок, карточек и линий. Не изображать Анну или её учеников.",
+    "id": "2026-10-06-ege-po-pribytii",
+    "photoSlug": "ege-po-pribytii",
+    "proposedDate": "2026-10-06",
+    "status": "pending",
+    "school": false,
+    "rubric": "ЕГЭ",
+    "music": {
+      "file": "bach-goldberg-var1-ishizaka.mp3",
+      "title": "Goldberg Variations, BWV 988: Variatio 1 a 1 Clav.",
+      "piece": "Гольдберг-вариации, BWV 988 — Вариация № 1",
+      "composer": "Иоганн Себастьян Бах",
+      "author": "Kimiko Ishizaka",
+      "performer": "Кимико Ишизака",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+      "rightsSource": "https://opengoldbergvariations.org/",
+      "download": "https://upload.wikimedia.org/wikipedia/commons/2/20/Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+      "attributionRequired": true,
+      "attribution": "И. С. Бах — Гольдберг-вариации, BWV 988, вариация № 1. Фортепиано: Кимико Ишизака, Open Goldberg Variations (2012). Запись CC0 1.0. Фрагмент, громкость изменена.",
+      "checkedAt": "2026-09-19",
+      "excerptFrom": 0.7,
+      "duration": 32,
+      "active": true,
+      "trendVerified": false,
+      "compositionRights": "Public domain: J. S. Bach (1685–1750)",
+      "recordingRights": "Open Goldberg 2012 recording released under CC0; not inferred from composition age",
+      "sourceSha256": "0539f3612413f6077c82e16f92417bad112e44017536f59db257c8179718076f",
+      "sha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8"
+    },
+    "musicLearning": {
+      "fact": "«Гольдберг-вариации» впервые напечатали в 1741 году.",
+      "source": "https://www.bachvereniging.nl/en/bwv/bwv-988",
+      "checkedAt": "2026-09-20"
+    }
+  },
+  {
+    "slug": "oge-argument",
+    "title": "После цитаты нужна ваша мысль",
+    "exam": "ОГЭ",
+    "format": "carousel",
+    "caption": "Цитата показывает, что произошло. Пояснение связывает этот эпизод с вашей мыслью. Тренируем один фрагмент рассуждения на придуманном нами примере про заботу; это не готовое экзаменационное сочинение.\n\nО музыке. Название «Гольдберг-вариации» появилось позже: сам Бах так цикл не называл.\n\n#ОГЭрусский #сочинение #аргументация",
+    "sources": [
+      "https://doc.fipi.ru/navigator-podgotovki/navigator-oge/MR_rus_yaz_oge_2026.pdf",
+      "https://gramota.ru/uchebnik/pravila/oformlenie-tsitat"
+    ],
+    "scenes": [
+      {
+        "headline": "После цитаты —\nваша мысль",
+        "body": "В сочинении важно показать,\nчто пример доказывает.\nТренируем один фрагмент.",
+        "seconds": 6,
+        "tone": "cream"
+      },
+      {
+        "headline": "Пример\nиз текста",
+        "body": "Наш учебный мини-текст:\n«Лена отдала свой зонт подруге, чтобы та не промокла».\nПоступок может подтвердить мысль о заботе.",
+        "seconds": 6,
+        "tone": "cream"
+      },
+      {
+        "headline": "Теперь\nпояснение",
+        "body": "«Лена думает о том, что нужно подруге, и помогает ей. Забота проявляется в конкретном поступке».\nЗдесь уже объяснена связь примера с мыслью.",
+        "seconds": 6,
+        "tone": "cream"
+      },
+      {
+        "headline": "Собираем\nрассуждение",
+        "body": "Мысль: забота выражается в помощи.\nПример: Лена отдаёт зонт.\nПояснение: она помогает подруге не промокнуть.\nЭто фрагмент, не всё сочинение.",
+        "seconds": 6,
+        "tone": "cream"
+      }
+    ],
+    "photoBrief": "Новая яркая фотореалистичная постановочная иллюстрация: две взрослые руки, одна бережно передаёт другой ярко-красный закрытый зонт, солнечный двор после лёгкого дождя, капли в контровом свете, свежая зелень, чёткие естественные детали. Вертикальный кадр во весь экран, без лиц, букв и логотипов. Не выдавать сцену за реальное событие или учениц Анны.",
+    "id": "2026-10-07-oge-argument",
+    "photoSlug": "oge-argument",
+    "proposedDate": "2026-10-07",
+    "status": "pending",
+    "school": false,
+    "rubric": "ОГЭ",
+    "music": {
+      "file": "bach-goldberg-var1-ishizaka.mp3",
+      "title": "Goldberg Variations, BWV 988: Variatio 1 a 1 Clav.",
+      "piece": "Гольдберг-вариации, BWV 988 — Вариация № 1",
+      "composer": "Иоганн Себастьян Бах",
+      "author": "Kimiko Ishizaka",
+      "performer": "Кимико Ишизака",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+      "rightsSource": "https://opengoldbergvariations.org/",
+      "download": "https://upload.wikimedia.org/wikipedia/commons/2/20/Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+      "attributionRequired": true,
+      "attribution": "И. С. Бах — Гольдберг-вариации, BWV 988, вариация № 1. Фортепиано: Кимико Ишизака, Open Goldberg Variations (2012). Запись CC0 1.0. Фрагмент, громкость изменена.",
+      "checkedAt": "2026-09-19",
+      "excerptFrom": 0.7,
+      "duration": 32,
+      "active": true,
+      "trendVerified": false,
+      "compositionRights": "Public domain: J. S. Bach (1685–1750)",
+      "recordingRights": "Open Goldberg 2012 recording released under CC0; not inferred from composition age",
+      "sourceSha256": "0539f3612413f6077c82e16f92417bad112e44017536f59db257c8179718076f",
+      "sha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8"
+    },
+    "musicLearning": {
+      "fact": "Название «Гольдберг-вариации» появилось позже: сам Бах так цикл не называл.",
+      "source": "https://www.bachvereniging.nl/en/bwv/bwv-988",
+      "checkedAt": "2026-09-20"
+    }
+  },
+  {
+    "slug": "ege-direct-speech",
+    "title": "Точка уступает место запятой",
+    "exam": "ЕГЭ",
+    "format": "carousel",
+    "caption": "Перед словами автора обычная точка прямой речи заменяется запятой после кавычек: «Я вернусь», — сказала она. Вопросительный знак остаётся внутри кавычек, дополнительная запятая не нужна: «Ты вернёшься?» — спросил он. Обе реплики придуманы для разбора; это не цитаты из литературного произведения.\n\nО музыке. Цикл начинается арией; после тридцати вариаций она возвращается.\n\n#егэрусский #подготовкакегэ",
+    "sources": [
+      "https://gramota.ru/uchebnik/pravila/pryamaya-rech",
+      "https://gramota.ru/biblioteka/spravochniki/pravila-russkoy-orfografii-i-punktuatsii/znaki-prepinaniya-pri-pryamoy-rechi"
+    ],
+    "scenes": [
+      {
+        "headline": "ТОЧКА УСТУПАЕТ МЕСТО ЗАПЯТОЙ",
+        "body": "Если после реплики идут слова автора. Два образца для письменной работы.",
+        "seconds": 6,
+        "tone": "cream"
+      },
+      {
+        "headline": "ОБЫЧНОЕ СООБЩЕНИЕ",
+        "body": "«Я вернусь», — сказала она. Запятая после кавычек, затем тире. «Сказала» — со строчной.",
+        "seconds": 6,
+        "tone": "cream"
+      },
+      {
+        "headline": "ВОПРОС",
+        "body": "«Ты вернёшься?» — спросил он. Вопросительный знак внутри кавычек. Перед тире дополнительной запятой нет.",
+        "seconds": 6,
+        "tone": "cream"
+      },
+      {
+        "headline": "ДВА ГОТОВЫХ ОБРАЗЦА",
+        "body": "«Я вернусь», — сказала она. «Ты вернёшься?» — спросил он. Слова автора начинаются со строчной буквы.",
+        "seconds": 6,
+        "tone": "cream"
+      }
+    ],
+    "photoBrief": "Две керамические чашки на небольшом круглом столике у светлого окна, одна коралловая другая синяя, без людей. Яркая резкая фотореалистичная сцена, естественный дневной свет, вертикальная композиция. Верхняя половина спокойная светлая для чёрного текста. Без букв, логотипов, рамок, карточек и линий. Не изображать Анну или её учеников.",
+    "id": "2026-10-08-ege-direct-speech",
+    "photoSlug": "ege-direct-speech",
+    "proposedDate": "2026-10-08",
+    "status": "pending",
+    "school": false,
+    "rubric": "ЕГЭ",
+    "music": {
+      "file": "bach-goldberg-var1-ishizaka.mp3",
+      "title": "Goldberg Variations, BWV 988: Variatio 1 a 1 Clav.",
+      "piece": "Гольдберг-вариации, BWV 988 — Вариация № 1",
+      "composer": "Иоганн Себастьян Бах",
+      "author": "Kimiko Ishizaka",
+      "performer": "Кимико Ишизака",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+      "rightsSource": "https://opengoldbergvariations.org/",
+      "download": "https://upload.wikimedia.org/wikipedia/commons/2/20/Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+      "attributionRequired": true,
+      "attribution": "И. С. Бах — Гольдберг-вариации, BWV 988, вариация № 1. Фортепиано: Кимико Ишизака, Open Goldberg Variations (2012). Запись CC0 1.0. Фрагмент, громкость изменена.",
+      "checkedAt": "2026-09-19",
+      "excerptFrom": 0.7,
+      "duration": 32,
+      "active": true,
+      "trendVerified": false,
+      "compositionRights": "Public domain: J. S. Bach (1685–1750)",
+      "recordingRights": "Open Goldberg 2012 recording released under CC0; not inferred from composition age",
+      "sourceSha256": "0539f3612413f6077c82e16f92417bad112e44017536f59db257c8179718076f",
+      "sha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8"
+    },
+    "musicLearning": {
+      "fact": "Цикл начинается арией; после тридцати вариаций она возвращается.",
+      "source": "https://www.bachvereniging.nl/en/bwv/bwv-988",
+      "checkedAt": "2026-09-20"
+    }
+  },
+  {
+    "slug": "oge-dvoetochie",
+    "title": "Двоеточие собирает рюкзак",
+    "exam": "ОГЭ",
+    "format": "Reels",
+    "caption": "В рюкзаке есть всё: кружка, фонарь и карта. Слово «всё» обобщает перечисление. Если поставить его после списка, перед ним понадобится тире: кружка, фонарь и карта — всё в рюкзаке.\n\nО музыке. Бах написал этот цикл для клавесина.\n\n#ОГЭрусский #двоеточие #пунктуация",
+    "sources": [
+      "https://gramota.ru/uchebnik/pravila/normy-postanovki-znakov-prepinaniya-v-predlozheniyakh-s-obobshchayushchim-slovom-pri-odnorodnykh-chlenakh",
+      "https://gramota.ru/biblioteka/spravochniki/pravila-russkoy-orfografii-i-punktuatsii/znaki-prepinaniya-pri-odnorodnykh-chlenakh-predlozheniya-s-soyuzami-i-bez-soyuzov"
+    ],
+    "scenes": [
+      {
+        "headline": "Двоеточие\nсобирает\nрюкзак",
+        "body": "В рюкзаке есть всё:\nкружка, фонарь и карта.",
+        "seconds": 6,
+        "tone": "cream"
+      },
+      {
+        "headline": "Слово «всё»",
+        "body": "Обобщает кружку, фонарь и карту.\nЭто обобщающее слово.",
+        "seconds": 6,
+        "tone": "cream"
+      },
+      {
+        "headline": "Сначала —\nобщее",
+        "body": "После обобщающего слова\nперед перечислением ставим двоеточие.",
+        "seconds": 6,
+        "tone": "cream"
+      },
+      {
+        "headline": "А если\nнаоборот?",
+        "body": "Кружка, фонарь и карта —\nвсё в рюкзаке.\nПеред обобщающим словом — тире.",
+        "seconds": 6,
+        "tone": "cream"
+      },
+      {
+        "headline": "Порядок\nменяет знак",
+        "body": "Всё: кружка, фонарь и карта.\nКружка, фонарь и карта — всё.\nЭти схемы — с обобщающим словом.",
+        "seconds": 6,
+        "tone": "cream"
+      }
+    ],
+    "photoBrief": "Новая яркая фотореалистичная иллюстрация: раскрытый насыщенно-синий туристический рюкзак, рядом яркая эмалированная кружка, небольшой оранжевый фонарь и сложенная географическая карта без читаемых букв, солнечная зелёная поляна, чёткие предметные детали. Вертикальный кадр во весь экран, все три названных предмета хорошо различимы. Без людей, брендов, текста, декоративных линий и бумажных плашек.",
+    "id": "2026-10-09-oge-dvoetochie",
+    "photoSlug": "oge-dvoetochie",
+    "proposedDate": "2026-10-09",
+    "status": "pending",
+    "school": false,
+    "rubric": "ОГЭ",
+    "music": {
+      "file": "bach-goldberg-var1-ishizaka.mp3",
+      "title": "Goldberg Variations, BWV 988: Variatio 1 a 1 Clav.",
+      "piece": "Гольдберг-вариации, BWV 988 — Вариация № 1",
+      "composer": "Иоганн Себастьян Бах",
+      "author": "Kimiko Ishizaka",
+      "performer": "Кимико Ишизака",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+      "rightsSource": "https://opengoldbergvariations.org/",
+      "download": "https://upload.wikimedia.org/wikipedia/commons/2/20/Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+      "attributionRequired": true,
+      "attribution": "И. С. Бах — Гольдберг-вариации, BWV 988, вариация № 1. Фортепиано: Кимико Ишизака, Open Goldberg Variations (2012). Запись CC0 1.0. Фрагмент, громкость изменена.",
+      "checkedAt": "2026-09-19",
+      "excerptFrom": 0.7,
+      "duration": 32,
+      "active": true,
+      "trendVerified": false,
+      "compositionRights": "Public domain: J. S. Bach (1685–1750)",
+      "recordingRights": "Open Goldberg 2012 recording released under CC0; not inferred from composition age",
+      "sourceSha256": "0539f3612413f6077c82e16f92417bad112e44017536f59db257c8179718076f",
+      "sha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8"
+    },
+    "musicLearning": {
+      "fact": "Бах написал этот цикл для клавесина.",
+      "source": "https://www.bachvereniging.nl/en/bwv/bwv-988",
+      "checkedAt": "2026-09-20"
+    }
+  }
+]

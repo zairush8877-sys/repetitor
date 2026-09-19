@@ -1,0 +1,19 @@
+{
+  "configUnchanged": true,
+  "unchangedStorySets": 12,
+  "unchangedSourceMP4": 27,
+  "sourcePhotosUnchanged": true,
+  "changedFinalScenes": {
+    "oge-dvoetochie": {
+      "scene": 5,
+      "bodyWhiteOpacity": 0.72
+    },
+    "oge-argument": {
+      "scene": 4,
+      "bodyWhiteOpacity": 0.62
+    }
+  },
+  "updatedStorySets": 2,
+  "status": "pending",
+  "publicationPerformed": false
+}

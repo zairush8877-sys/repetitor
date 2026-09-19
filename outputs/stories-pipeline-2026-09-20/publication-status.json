@@ -1,0 +1,48 @@
+{
+  "checkedAt": "2026-09-20T00:36:51Z",
+  "platform": "Instagram",
+  "account": "mairova_a_a",
+  "scheduledTimeMoscow": "17:50",
+  "todayMoscow": "2026-09-20",
+  "todayPublished": false,
+  "todayPlanned": [
+    {
+      "id": "2026-09-20-amfiboliya",
+      "title": "Синяя коляска. Или ребёнок?",
+      "status": "approved"
+    }
+  ],
+  "latestConfirmed": {
+    "id": "2026-09-13-wordplay-reel",
+    "title": "ПРОСЛУШАЛА. НЕ УСЛЫШАЛА.",
+    "publishedAt": "2026-09-18T23:03:52.842Z",
+    "publishedMediaId": "18135674203723430",
+    "storyRepost": {
+      "version": 1,
+      "feedMediaId": "18135674203723430",
+      "status": "published",
+      "items": [
+        {
+          "index": 1,
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-09-13-wordplay-reel-1.jpg",
+          "sha256": "63675b0648844ad98f789dbacb731ae64086edfe08cd73a90e44ee6b1078a20c",
+          "status": "published",
+          "attempts": 1,
+          "attemptedAt": "2026-09-18T23:03:52.877Z",
+          "containerId": "18027589442887754",
+          "publishedMediaId": "17931894639147030",
+          "publishedAt": "2026-09-18T23:04:00.309Z"
+        }
+      ],
+      "sourceKey": "2edab5ebae06f48ee4670466dfb1b1043fede8ab9774238170b6e0c3151e6ad4"
+    }
+  },
+  "standaloneStories": {
+    "lastPublished": "2026-09-12",
+    "total": 39,
+    "published": 39,
+    "approved": 0,
+    "lastRun": "https://github.com/zairush8877-sys/repetitor/actions/runs/35440473040",
+    "logEvidence": "Банк сторис исчерпан — добавьте новые в content/stories.json."
+  }
+}

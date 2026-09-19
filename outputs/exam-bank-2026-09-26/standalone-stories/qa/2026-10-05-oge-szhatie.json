@@ -1,0 +1,136 @@
+{
+  "id": "2026-10-05-oge-szhatie-standalone",
+  "sourcePostId": "2026-10-05-oge-szhatie",
+  "exam": "ОГЭ",
+  "title": "Короче — с тем же смыслом",
+  "status": "pending",
+  "proposedDate": "2026-10-05",
+  "kind": "question_answer",
+  "configSha256": "8f29636b7fd3a488a7b3fba13aac8b947731ebf2a73d5643db791025fb1f4f75",
+  "musicSource": "content/music/bach-goldberg-var1-ishizaka.mp3",
+  "musicSha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8",
+  "creditInFinalAnswerScene": true,
+  "parts": [
+    {
+      "index": 1,
+      "role": "question",
+      "file": "2026-10-05-oge-szhatie-1.mp4",
+      "sha256": "e3d860c97b12e480846c0af485f1c86f00c9191270f6a06dbc7c2e6f3632a1a0",
+      "bytes": 3894259,
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "frames": 180,
+      "duration": 6.0,
+      "videoCodec": "h264",
+      "audioCodec": "aac",
+      "sceneIndices": [
+        1
+      ],
+      "geometry": {
+        "x": 0,
+        "y": 285,
+        "width": 1080,
+        "height": 1350,
+        "background": "#f4e7c7",
+        "cropped": false
+      },
+      "decodedFrames": [
+        "qa/2026-10-05-oge-szhatie-scene-1.jpg"
+      ],
+      "sourceFiles": [
+        {
+          "file": "outputs/exam-bank-2026-09-26/content/images/2026-10-05-oge-szhatie-1.mp4",
+          "sha256": "5fc9ae1130f3fb71b7b4ff76fdb526723d38ddef31bf7c8dde8bdaf88af4b17f",
+          "width": 1080,
+          "height": 1350,
+          "fps": 30,
+          "frames": 180,
+          "duration": 6.0,
+          "videoCodec": "h264",
+          "audioCodec": "aac"
+        }
+      ],
+      "audioStartSeconds": 0,
+      "edgeFadeSeconds": {
+        "in": 0.04,
+        "out": 0.12
+      },
+      "musicMode": "continuous verified source music, gain 0.75"
+    },
+    {
+      "index": 2,
+      "role": "answer",
+      "file": "2026-10-05-oge-szhatie-2.mp4",
+      "sha256": "5e1131ea9eec667f74486c17148e75ce16fccc22e6f33177e2dc8d6eaad985cf",
+      "bytes": 11216782,
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "frames": 540,
+      "duration": 18.0,
+      "videoCodec": "h264",
+      "audioCodec": "aac",
+      "sceneIndices": [
+        2,
+        3,
+        4
+      ],
+      "geometry": {
+        "x": 0,
+        "y": 285,
+        "width": 1080,
+        "height": 1350,
+        "background": "#f4e7c7",
+        "cropped": false
+      },
+      "decodedFrames": [
+        "qa/2026-10-05-oge-szhatie-scene-2.jpg",
+        "qa/2026-10-05-oge-szhatie-scene-3.jpg",
+        "qa/2026-10-05-oge-szhatie-scene-4.jpg"
+      ],
+      "sourceFiles": [
+        {
+          "file": "outputs/exam-bank-2026-09-26/content/images/2026-10-05-oge-szhatie-2.mp4",
+          "sha256": "dba9d40bc8d2a1ffa34fefe72058be939f879cf3965862a665a902e5125cbc59",
+          "width": 1080,
+          "height": 1350,
+          "fps": 30,
+          "frames": 180,
+          "duration": 6.0,
+          "videoCodec": "h264",
+          "audioCodec": "aac"
+        },
+        {
+          "file": "outputs/exam-bank-2026-09-26/content/images/2026-10-05-oge-szhatie-3.mp4",
+          "sha256": "eca75cf8836fe7dd8674de2cb7380f163ed79dbd57e58caa8ab8f97e2b3d0ad8",
+          "width": 1080,
+          "height": 1350,
+          "fps": 30,
+          "frames": 180,
+          "duration": 6.0,
+          "videoCodec": "h264",
+          "audioCodec": "aac"
+        },
+        {
+          "file": "outputs/exam-bank-2026-09-26/content/images/2026-10-05-oge-szhatie-4.mp4",
+          "sha256": "8e148eea65c060224afb29cb94c0e01e6d038a60832095895d3fc5d9384a911f",
+          "width": 1080,
+          "height": 1350,
+          "fps": 30,
+          "frames": 180,
+          "duration": 6.0,
+          "videoCodec": "h264",
+          "audioCodec": "aac"
+        }
+      ],
+      "audioStartSeconds": 6,
+      "edgeFadeSeconds": {
+        "in": 0.04,
+        "out": 0.12
+      },
+      "musicMode": "continuous verified source music, gain 0.75"
+    }
+  ],
+  "elapsedSeconds": 16.93
+}

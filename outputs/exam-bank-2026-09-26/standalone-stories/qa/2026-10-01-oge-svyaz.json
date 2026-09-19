@@ -1,0 +1,136 @@
+{
+  "id": "2026-10-01-oge-svyaz-standalone",
+  "sourcePostId": "2026-10-01-oge-svyaz",
+  "exam": "ОГЭ",
+  "title": "Один шарф — три связи",
+  "status": "pending",
+  "proposedDate": "2026-10-01",
+  "kind": "question_answer",
+  "configSha256": "8f29636b7fd3a488a7b3fba13aac8b947731ebf2a73d5643db791025fb1f4f75",
+  "musicSource": "content/music/bach-goldberg-var1-ishizaka.mp3",
+  "musicSha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8",
+  "creditInFinalAnswerScene": true,
+  "parts": [
+    {
+      "index": 1,
+      "role": "question",
+      "file": "2026-10-01-oge-svyaz-1.mp4",
+      "sha256": "dab66b39f9663232625982ffc0b9d3700f3144a5515bedda618c66fb77f7bcc8",
+      "bytes": 2111691,
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "frames": 180,
+      "duration": 6.0,
+      "videoCodec": "h264",
+      "audioCodec": "aac",
+      "sceneIndices": [
+        1
+      ],
+      "geometry": {
+        "x": 0,
+        "y": 285,
+        "width": 1080,
+        "height": 1350,
+        "background": "#f4e7c7",
+        "cropped": false
+      },
+      "decodedFrames": [
+        "qa/2026-10-01-oge-svyaz-scene-1.jpg"
+      ],
+      "sourceFiles": [
+        {
+          "file": "outputs/exam-bank-2026-09-26/content/images/2026-10-01-oge-svyaz-1.mp4",
+          "sha256": "bf11372249d2f364e21c9233c45900065b5bdf373823fc4f12e4869fa3fe9a77",
+          "width": 1080,
+          "height": 1350,
+          "fps": 30,
+          "frames": 180,
+          "duration": 6.0,
+          "videoCodec": "h264",
+          "audioCodec": "aac"
+        }
+      ],
+      "audioStartSeconds": 0,
+      "edgeFadeSeconds": {
+        "in": 0.04,
+        "out": 0.12
+      },
+      "musicMode": "continuous verified source music, gain 0.75"
+    },
+    {
+      "index": 2,
+      "role": "answer",
+      "file": "2026-10-01-oge-svyaz-2.mp4",
+      "sha256": "bc82afb50d2fc43b9971f1a2fc04c3c49b7cfb676182cad7c95ef85365a47cc0",
+      "bytes": 7136181,
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "frames": 540,
+      "duration": 18.0,
+      "videoCodec": "h264",
+      "audioCodec": "aac",
+      "sceneIndices": [
+        2,
+        3,
+        4
+      ],
+      "geometry": {
+        "x": 0,
+        "y": 285,
+        "width": 1080,
+        "height": 1350,
+        "background": "#f4e7c7",
+        "cropped": false
+      },
+      "decodedFrames": [
+        "qa/2026-10-01-oge-svyaz-scene-2.jpg",
+        "qa/2026-10-01-oge-svyaz-scene-3.jpg",
+        "qa/2026-10-01-oge-svyaz-scene-4.jpg"
+      ],
+      "sourceFiles": [
+        {
+          "file": "outputs/exam-bank-2026-09-26/content/images/2026-10-01-oge-svyaz-2.mp4",
+          "sha256": "52962755e949d543e7b0fdf363d87fac559e3bc4dfe12499e8b96feb0f4e0925",
+          "width": 1080,
+          "height": 1350,
+          "fps": 30,
+          "frames": 180,
+          "duration": 6.0,
+          "videoCodec": "h264",
+          "audioCodec": "aac"
+        },
+        {
+          "file": "outputs/exam-bank-2026-09-26/content/images/2026-10-01-oge-svyaz-3.mp4",
+          "sha256": "70f5b3677564c24ea04daa39132b9423e583d1e89227ef6f4d14ce2c38710b35",
+          "width": 1080,
+          "height": 1350,
+          "fps": 30,
+          "frames": 180,
+          "duration": 6.0,
+          "videoCodec": "h264",
+          "audioCodec": "aac"
+        },
+        {
+          "file": "outputs/exam-bank-2026-09-26/content/images/2026-10-01-oge-svyaz-4.mp4",
+          "sha256": "087d88671cbf7e47fff4e0201de867d360e7f51d11bfcee993dc16aa241ad057",
+          "width": 1080,
+          "height": 1350,
+          "fps": 30,
+          "frames": 180,
+          "duration": 6.0,
+          "videoCodec": "h264",
+          "audioCodec": "aac"
+        }
+      ],
+      "audioStartSeconds": 6,
+      "edgeFadeSeconds": {
+        "in": 0.04,
+        "out": 0.12
+      },
+      "musicMode": "continuous verified source music, gain 0.75"
+    }
+  ],
+  "elapsedSeconds": 17.13
+}
