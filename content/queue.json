@@ -3270,7 +3270,7 @@
     {
       "id": "2026-09-20-amfiboliya",
       "date": "2026-09-20",
-      "status": "approved",
+      "status": "published",
       "format": "Reels",
       "title": "Синяя коляска. Или ребёнок?",
       "school": false,
@@ -3323,8 +3323,8 @@
         }
       ],
       "plainBg": true,
-      "coverOffsetMs": 24067,
       "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-09-20-amfiboliya.mp4",
+      "coverOffsetMs": 24067,
       "music": {
         "file": "bach-goldberg-var1-ishizaka.mp3",
         "title": "Goldberg Variations, BWV 988: Variatio 1 a 1 Clav.",
@@ -3349,7 +3349,28 @@
         "sourceSha256": "0539f3612413f6077c82e16f92417bad112e44017536f59db257c8179718076f",
         "sha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8"
       },
-      "lightBg": true
+      "lightBg": true,
+      "publishedMediaId": "18075110351435198",
+      "publishedAt": "2026-09-20T18:03:20.955Z",
+      "storyRepost": {
+        "version": 1,
+        "feedMediaId": "18075110351435198",
+        "status": "published",
+        "items": [
+          {
+            "index": 1,
+            "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-09-20-amfiboliya-1.jpg",
+            "sha256": "50a3955354a63d9cfc197e57945f41b50886fe24b731ff015345e6c4e96b60df",
+            "status": "published",
+            "attempts": 1,
+            "attemptedAt": "2026-09-20T18:03:20.992Z",
+            "containerId": "18027857879887754",
+            "publishedMediaId": "17901589767596585",
+            "publishedAt": "2026-09-20T18:03:33.435Z"
+          }
+        ],
+        "sourceKey": "d4851d33bca5dedfab54a8f30f3c9576fd83ff19193a0abc11e060c10fc8e6ad"
+      }
     },
     {
       "id": "2026-09-20-tsya-tsya",
