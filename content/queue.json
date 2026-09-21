@@ -3375,7 +3375,7 @@
     {
       "id": "2026-09-20-tsya-tsya",
       "date": "2026-09-21",
-      "status": "approved",
+      "status": "published",
       "format": "Reels",
       "title": "Он хочет учит(ь)ся",
       "school": true,
@@ -3427,8 +3427,8 @@
         }
       ],
       "plainBg": true,
-      "coverOffsetMs": 24067,
       "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-09-20-tsya-tsya.mp4",
+      "coverOffsetMs": 24067,
       "music": {
         "file": "bach-goldberg-var1-ishizaka.mp3",
         "title": "Goldberg Variations, BWV 988: Variatio 1 a 1 Clav.",
@@ -3453,7 +3453,28 @@
         "sourceSha256": "0539f3612413f6077c82e16f92417bad112e44017536f59db257c8179718076f",
         "sha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8"
       },
-      "lightBg": true
+      "lightBg": true,
+      "publishedMediaId": "18128458180848980",
+      "publishedAt": "2026-09-21T20:32:22.317Z",
+      "storyRepost": {
+        "version": 1,
+        "feedMediaId": "18128458180848980",
+        "status": "published",
+        "items": [
+          {
+            "index": 1,
+            "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-09-20-tsya-tsya-1.jpg",
+            "sha256": "98ffac775967f6c4ff185eb154f8c790477d418a20480d50490d4c73c34587b7",
+            "status": "published",
+            "attempts": 1,
+            "attemptedAt": "2026-09-21T20:32:22.437Z",
+            "containerId": "18028008503887754",
+            "publishedMediaId": "18557242876077044",
+            "publishedAt": "2026-09-21T20:32:31.729Z"
+          }
+        ],
+        "sourceKey": "6e549e626362a63b4a4742dafaef689602a4cba4c10e6d6a7e1c8b31ee123f7c"
+      }
     },
     {
       "id": "2026-09-20-abonent",
