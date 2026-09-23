@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-09-23",
+  "platform": "Instagram",
+  "account": "@mairova_a_a",
+  "kind": "standalone-stories",
+  "selectedStoryId": null,
+  "status": "no-approved-story",
+  "detail": "Нет одобренных самостоятельных Stories. Готово к просмотру 14 комплектов из отдельного банка; выпуск пока не согласован.",
+  "approvedRemaining": 0,
+  "draftRemaining": 0,
+  "archived": 39,
+  "publicationAttempted": false,
+  "isolatedDraftsAvailable": 14,
+  "isolatedDraftsReadyForReview": 14,
+  "nextDraftForReview": {
+    "id": "draft-story-2026-09-26-ege-deeprichastie",
+    "sourcePostId": "2026-09-26-ege-deeprichastie",
+    "note": "Два отдельных видео готовы к просмотру; выпуск ещё не одобрен."
+  },
+  "nextDraftToAdapt": null,
+  "carousel": {
+    "publicationDate": null,
+    "state": "not-scheduled",
+    "command": "node scripts/stories-pipeline.cjs carousel --from YYYY-MM-DD --through YYYY-MM-DD --id chosen-name"
+  }
+}
