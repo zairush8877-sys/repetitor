@@ -3690,7 +3690,7 @@
     {
       "id": "2026-09-20-adresant",
       "date": "2026-09-24",
-      "status": "approved",
+      "status": "published",
       "format": "Reels",
       "title": "Отправили письмо — стали адресантом",
       "school": false,
@@ -3744,8 +3744,8 @@
         }
       ],
       "plainBg": true,
-      "coverOffsetMs": 24067,
       "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-09-20-adresant.mp4",
+      "coverOffsetMs": 24067,
       "music": {
         "file": "bach-goldberg-var1-ishizaka.mp3",
         "title": "Goldberg Variations, BWV 988: Variatio 1 a 1 Clav.",
@@ -3770,7 +3770,28 @@
         "sourceSha256": "0539f3612413f6077c82e16f92417bad112e44017536f59db257c8179718076f",
         "sha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8"
       },
-      "lightBg": true
+      "lightBg": true,
+      "publishedMediaId": "18075661778424434",
+      "publishedAt": "2026-09-24T20:06:11.244Z",
+      "storyRepost": {
+        "version": 1,
+        "feedMediaId": "18075661778424434",
+        "status": "published",
+        "items": [
+          {
+            "index": 1,
+            "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-09-20-adresant-1.jpg",
+            "sha256": "1dbd2a35f77b2d8e2da59fe771d5e998d4d9df6d286fe85ec4a28dd2370ee518",
+            "status": "published",
+            "attempts": 1,
+            "attemptedAt": "2026-09-24T20:06:11.322Z",
+            "containerId": "18028394783887754",
+            "publishedMediaId": "18104782126957869",
+            "publishedAt": "2026-09-24T20:06:26.513Z"
+          }
+        ],
+        "sourceKey": "2173ba9fa6859c15d983dab1ab246f0e114626134f7d221854ca00668c253a9f"
+      }
     },
     {
       "id": "2026-09-20-nevezha",
