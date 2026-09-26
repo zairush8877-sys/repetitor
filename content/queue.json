@@ -3944,9 +3944,18 @@
       "id": "2026-09-26-ege-deeprichastie",
       "photoSlug": "ege-deeprichastie",
       "proposedDate": "2026-09-26",
-      "status": "approved",
+      "status": "published",
       "school": false,
       "rubric": "ЕГЭ",
+      "musicLearning": {
+        "fact": "Цикл начинается арией; после тридцати вариаций она возвращается.",
+        "source": "https://www.bachvereniging.nl/en/bwv/bwv-988",
+        "checkedAt": "2026-09-20"
+      },
+      "plainBg": true,
+      "date": "2026-09-26",
+      "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reels/2026-09-26-ege-deeprichastie.mp4",
+      "coverOffsetMs": 29000,
       "music": {
         "file": "bach-goldberg-var1-ishizaka.mp3",
         "title": "Goldberg Variations, BWV 988: Variatio 1 a 1 Clav.",
@@ -3971,15 +3980,27 @@
         "sourceSha256": "0539f3612413f6077c82e16f92417bad112e44017536f59db257c8179718076f",
         "sha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8"
       },
-      "musicLearning": {
-        "fact": "Цикл начинается арией; после тридцати вариаций она возвращается.",
-        "source": "https://www.bachvereniging.nl/en/bwv/bwv-988",
-        "checkedAt": "2026-09-20"
-      },
-      "plainBg": true,
-      "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reels/2026-09-26-ege-deeprichastie.mp4",
-      "coverOffsetMs": 29000,
-      "date": "2026-09-26"
+      "publishedMediaId": "18127952338835701",
+      "publishedAt": "2026-09-26T19:20:34.802Z",
+      "storyRepost": {
+        "version": 1,
+        "feedMediaId": "18127952338835701",
+        "status": "published",
+        "items": [
+          {
+            "index": 1,
+            "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reposts/2026-09-26-ege-deeprichastie-1.jpg",
+            "sha256": "6c79bc80943f6a66dc6fd3147aee433f6a84e2445aad2597faf1a0a31f7a05db",
+            "status": "published",
+            "attempts": 1,
+            "attemptedAt": "2026-09-26T19:20:34.833Z",
+            "containerId": "18028666424887754",
+            "publishedMediaId": "17949726012297593",
+            "publishedAt": "2026-09-26T19:20:47.291Z"
+          }
+        ],
+        "sourceKey": "f2196428ce93bd953b3837db1d559680f67d052f7d46470fcdc2140addb772db"
+      }
     },
     {
       "slug": "oge-kazhetsya",
