@@ -4049,9 +4049,18 @@
       "id": "2026-09-27-oge-kazhetsya",
       "photoSlug": "oge-kazhetsya",
       "proposedDate": "2026-09-27",
-      "status": "approved",
+      "status": "published",
       "school": false,
       "rubric": "ОГЭ",
+      "musicLearning": {
+        "fact": "Бах написал этот цикл для клавесина.",
+        "source": "https://www.bachvereniging.nl/en/bwv/bwv-988",
+        "checkedAt": "2026-09-20"
+      },
+      "plainBg": true,
+      "date": "2026-09-27",
+      "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reels/2026-09-27-oge-kazhetsya.mp4",
+      "coverOffsetMs": 29000,
       "music": {
         "file": "bach-goldberg-var1-ishizaka.mp3",
         "title": "Goldberg Variations, BWV 988: Variatio 1 a 1 Clav.",
@@ -4076,15 +4085,27 @@
         "sourceSha256": "0539f3612413f6077c82e16f92417bad112e44017536f59db257c8179718076f",
         "sha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8"
       },
-      "musicLearning": {
-        "fact": "Бах написал этот цикл для клавесина.",
-        "source": "https://www.bachvereniging.nl/en/bwv/bwv-988",
-        "checkedAt": "2026-09-20"
-      },
-      "plainBg": true,
-      "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reels/2026-09-27-oge-kazhetsya.mp4",
-      "coverOffsetMs": 29000,
-      "date": "2026-09-27"
+      "publishedMediaId": "18113186885019243",
+      "publishedAt": "2026-09-27T19:53:04.607Z",
+      "storyRepost": {
+        "version": 1,
+        "feedMediaId": "18113186885019243",
+        "status": "published",
+        "items": [
+          {
+            "index": 1,
+            "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reposts/2026-09-27-oge-kazhetsya-1.jpg",
+            "sha256": "8c7b230bb644bec48d5c7d36e95b0046560a96bc8e395d1aa75899d4138c7094",
+            "status": "published",
+            "attempts": 1,
+            "attemptedAt": "2026-09-27T19:53:04.698Z",
+            "containerId": "18028816970887754",
+            "publishedMediaId": "18106078906946737",
+            "publishedAt": "2026-09-27T19:53:12.599Z"
+          }
+        ],
+        "sourceKey": "ec67ffeb883128d9d7a23cad5abe48407521924e279a5a4ad9e986ca96b17e9c"
+      }
     },
     {
       "slug": "ege-nesmotrya",
