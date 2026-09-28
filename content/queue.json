@@ -4148,33 +4148,9 @@
       "id": "2026-09-28-ege-nesmotrya",
       "photoSlug": "ege-nesmotrya",
       "proposedDate": "2026-09-28",
-      "status": "approved",
+      "status": "published",
       "school": false,
       "rubric": "ЕГЭ",
-      "music": {
-        "file": "bach-goldberg-var1-ishizaka.mp3",
-        "title": "Goldberg Variations, BWV 988: Variatio 1 a 1 Clav.",
-        "piece": "Гольдберг-вариации, BWV 988 — Вариация № 1",
-        "composer": "Иоганн Себастьян Бах",
-        "author": "Kimiko Ishizaka",
-        "performer": "Кимико Ишизака",
-        "license": "CC0 1.0",
-        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-        "source": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
-        "rightsSource": "https://opengoldbergvariations.org/",
-        "download": "https://upload.wikimedia.org/wikipedia/commons/2/20/Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
-        "attributionRequired": true,
-        "attribution": "И. С. Бах — Гольдберг-вариации, BWV 988, вариация № 1. Фортепиано: Кимико Ишизака, Open Goldberg Variations (2012). Запись CC0 1.0. Фрагмент, громкость изменена.",
-        "checkedAt": "2026-09-19",
-        "excerptFrom": 0.7,
-        "duration": 32,
-        "active": true,
-        "trendVerified": false,
-        "compositionRights": "Public domain: J. S. Bach (1685–1750)",
-        "recordingRights": "Open Goldberg 2012 recording released under CC0; not inferred from composition age",
-        "sourceSha256": "0539f3612413f6077c82e16f92417bad112e44017536f59db257c8179718076f",
-        "sha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8"
-      },
       "musicLearning": {
         "fact": "«Гольдберг-вариации» впервые напечатали в 1741 году.",
         "source": "https://www.bachvereniging.nl/en/bwv/bwv-988",
@@ -4207,6 +4183,7 @@
           "tone": "cream"
         }
       ],
+      "date": "2026-09-28",
       "imageUrls": [
         "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-09-28-ege-nesmotrya-1.jpg",
         "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-09-28-ege-nesmotrya-2.jpg",
@@ -4219,7 +4196,84 @@
         "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-09-28-ege-nesmotrya-3.mp4",
         "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-09-28-ege-nesmotrya-4.mp4"
       ],
-      "date": "2026-09-28"
+      "music": {
+        "file": "bach-goldberg-var1-ishizaka.mp3",
+        "title": "Goldberg Variations, BWV 988: Variatio 1 a 1 Clav.",
+        "piece": "Гольдберг-вариации, BWV 988 — Вариация № 1",
+        "composer": "Иоганн Себастьян Бах",
+        "author": "Kimiko Ishizaka",
+        "performer": "Кимико Ишизака",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "source": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+        "rightsSource": "https://opengoldbergvariations.org/",
+        "download": "https://upload.wikimedia.org/wikipedia/commons/2/20/Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+        "attributionRequired": true,
+        "attribution": "И. С. Бах — Гольдберг-вариации, BWV 988, вариация № 1. Фортепиано: Кимико Ишизака, Open Goldberg Variations (2012). Запись CC0 1.0. Фрагмент, громкость изменена.",
+        "checkedAt": "2026-09-19",
+        "excerptFrom": 0.7,
+        "duration": 32,
+        "active": true,
+        "trendVerified": false,
+        "compositionRights": "Public domain: J. S. Bach (1685–1750)",
+        "recordingRights": "Open Goldberg 2012 recording released under CC0; not inferred from composition age",
+        "sourceSha256": "0539f3612413f6077c82e16f92417bad112e44017536f59db257c8179718076f",
+        "sha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8"
+      },
+      "publishedMediaId": "18117679409023915",
+      "publishedAt": "2026-09-28T22:17:33.123Z",
+      "storyRepost": {
+        "version": 1,
+        "feedMediaId": "18117679409023915",
+        "status": "published",
+        "items": [
+          {
+            "index": 1,
+            "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reposts/2026-09-28-ege-nesmotrya-1.jpg",
+            "sha256": "d9d3815dd78f56f97d162d3bde9f70d3a4f2681d5fc751cd89e92fd086f5cbd6",
+            "status": "published",
+            "attempts": 1,
+            "attemptedAt": "2026-09-28T22:17:33.634Z",
+            "containerId": "18028951559887754",
+            "publishedMediaId": "18164972680484938",
+            "publishedAt": "2026-09-28T22:17:46.578Z"
+          },
+          {
+            "index": 2,
+            "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reposts/2026-09-28-ege-nesmotrya-2.jpg",
+            "sha256": "7f6c97112c0395174620b676f14a2b04b6db14273169c4b81d082d818b025b04",
+            "status": "published",
+            "attempts": 1,
+            "attemptedAt": "2026-09-28T22:17:46.581Z",
+            "containerId": "18028951595887754",
+            "publishedMediaId": "18354851905175045",
+            "publishedAt": "2026-09-28T22:18:00.440Z"
+          },
+          {
+            "index": 3,
+            "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reposts/2026-09-28-ege-nesmotrya-3.jpg",
+            "sha256": "fab157eb4289e077e24687537b81ed70d3164ffed10ff31b1e2e97deba98cdab",
+            "status": "published",
+            "attempts": 1,
+            "attemptedAt": "2026-09-28T22:18:00.443Z",
+            "containerId": "18028951622887754",
+            "publishedMediaId": "18389688808165145",
+            "publishedAt": "2026-09-28T22:18:14.025Z"
+          },
+          {
+            "index": 4,
+            "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reposts/2026-09-28-ege-nesmotrya-4.jpg",
+            "sha256": "2d1da67a08180fb82b14f0d169957262600f846a847a2e5f7e4f71a6d698bbf5",
+            "status": "published",
+            "attempts": 1,
+            "attemptedAt": "2026-09-28T22:18:14.028Z",
+            "containerId": "18028951649887754",
+            "publishedMediaId": "18116881663954038",
+            "publishedAt": "2026-09-28T22:18:27.539Z"
+          }
+        ],
+        "sourceKey": "35354470d2ac7ffdd6b2b3b53aef38fe8ca2c718c71f1ef69fe27367c827ed05"
+      }
     },
     {
       "slug": "oge-svetaet",
