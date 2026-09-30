@@ -4323,9 +4323,18 @@
       "id": "2026-09-29-oge-svetaet",
       "photoSlug": "oge-svetaet",
       "proposedDate": "2026-09-29",
-      "status": "approved",
+      "status": "published",
       "school": false,
       "rubric": "ОГЭ",
+      "musicLearning": {
+        "fact": "Название «Гольдберг-вариации» появилось позже: сам Бах так цикл не называл.",
+        "source": "https://www.bachvereniging.nl/en/bwv/bwv-988",
+        "checkedAt": "2026-09-20"
+      },
+      "plainBg": true,
+      "date": "2026-09-29",
+      "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reels/2026-09-29-oge-svetaet.mp4",
+      "coverOffsetMs": 29000,
       "music": {
         "file": "bach-goldberg-var1-ishizaka.mp3",
         "title": "Goldberg Variations, BWV 988: Variatio 1 a 1 Clav.",
@@ -4350,15 +4359,27 @@
         "sourceSha256": "0539f3612413f6077c82e16f92417bad112e44017536f59db257c8179718076f",
         "sha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8"
       },
-      "musicLearning": {
-        "fact": "Название «Гольдберг-вариации» появилось позже: сам Бах так цикл не называл.",
-        "source": "https://www.bachvereniging.nl/en/bwv/bwv-988",
-        "checkedAt": "2026-09-20"
-      },
-      "plainBg": true,
-      "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reels/2026-09-29-oge-svetaet.mp4",
-      "coverOffsetMs": 29000,
-      "date": "2026-09-29"
+      "publishedMediaId": "18135782350632266",
+      "publishedAt": "2026-09-30T20:58:40.650Z",
+      "storyRepost": {
+        "version": 1,
+        "feedMediaId": "18135782350632266",
+        "status": "published",
+        "items": [
+          {
+            "index": 1,
+            "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reposts/2026-09-29-oge-svetaet-1.jpg",
+            "sha256": "6c2f8edc6fc0bfae7f37cdaee12b79a03222fa1902dc12686cc7b310afe2732a",
+            "status": "published",
+            "attempts": 1,
+            "attemptedAt": "2026-09-30T20:58:41.099Z",
+            "containerId": "18029211806887754",
+            "publishedMediaId": "18142757002579495",
+            "publishedAt": "2026-09-30T20:58:54.208Z"
+          }
+        ],
+        "sourceKey": "838c41f9e1a793fb1d6483d98cc3dedb94c6f6bad18af32941f8d3800f7c777d"
+      }
     },
     {
       "slug": "ege-ne-kto",
