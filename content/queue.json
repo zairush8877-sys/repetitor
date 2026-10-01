@@ -4428,9 +4428,18 @@
       "id": "2026-09-30-ege-ne-kto",
       "photoSlug": "ege-ne-kto",
       "proposedDate": "2026-09-30",
-      "status": "approved",
+      "status": "published",
       "school": false,
       "rubric": "ЕГЭ",
+      "musicLearning": {
+        "fact": "Цикл начинается арией; после тридцати вариаций она возвращается.",
+        "source": "https://www.bachvereniging.nl/en/bwv/bwv-988",
+        "checkedAt": "2026-09-20"
+      },
+      "plainBg": true,
+      "date": "2026-09-30",
+      "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reels/2026-09-30-ege-ne-kto.mp4",
+      "coverOffsetMs": 29000,
       "music": {
         "file": "bach-goldberg-var1-ishizaka.mp3",
         "title": "Goldberg Variations, BWV 988: Variatio 1 a 1 Clav.",
@@ -4455,15 +4464,27 @@
         "sourceSha256": "0539f3612413f6077c82e16f92417bad112e44017536f59db257c8179718076f",
         "sha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8"
       },
-      "musicLearning": {
-        "fact": "Цикл начинается арией; после тридцати вариаций она возвращается.",
-        "source": "https://www.bachvereniging.nl/en/bwv/bwv-988",
-        "checkedAt": "2026-09-20"
-      },
-      "plainBg": true,
-      "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reels/2026-09-30-ege-ne-kto.mp4",
-      "coverOffsetMs": 29000,
-      "date": "2026-09-30"
+      "publishedMediaId": "18104268677258055",
+      "publishedAt": "2026-10-01T21:14:33.646Z",
+      "storyRepost": {
+        "version": 1,
+        "feedMediaId": "18104268677258055",
+        "status": "published",
+        "items": [
+          {
+            "index": 1,
+            "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reposts/2026-09-30-ege-ne-kto-1.jpg",
+            "sha256": "c498a4b43266cb59abed10c6b7699d17ad6c4f0345cc42319f88a76da3d48e46",
+            "status": "published",
+            "attempts": 1,
+            "attemptedAt": "2026-10-01T21:14:33.743Z",
+            "containerId": "18029356745887754",
+            "publishedMediaId": "18118024948964866",
+            "publishedAt": "2026-10-01T21:14:41.613Z"
+          }
+        ],
+        "sourceKey": "21b33211364a9a1717d6444d76186db5b3540d8c139b8dba886e15c896f0f650"
+      }
     },
     {
       "slug": "oge-svyaz",
