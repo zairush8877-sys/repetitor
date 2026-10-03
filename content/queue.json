@@ -4526,33 +4526,9 @@
       "id": "2026-10-01-oge-svyaz",
       "photoSlug": "oge-svyaz",
       "proposedDate": "2026-10-01",
-      "status": "approved",
+      "status": "published",
       "school": false,
       "rubric": "ОГЭ",
-      "music": {
-        "file": "bach-goldberg-var1-ishizaka.mp3",
-        "title": "Goldberg Variations, BWV 988: Variatio 1 a 1 Clav.",
-        "piece": "Гольдберг-вариации, BWV 988 — Вариация № 1",
-        "composer": "Иоганн Себастьян Бах",
-        "author": "Kimiko Ishizaka",
-        "performer": "Кимико Ишизака",
-        "license": "CC0 1.0",
-        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-        "source": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
-        "rightsSource": "https://opengoldbergvariations.org/",
-        "download": "https://upload.wikimedia.org/wikipedia/commons/2/20/Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
-        "attributionRequired": true,
-        "attribution": "И. С. Бах — Гольдберг-вариации, BWV 988, вариация № 1. Фортепиано: Кимико Ишизака, Open Goldberg Variations (2012). Запись CC0 1.0. Фрагмент, громкость изменена.",
-        "checkedAt": "2026-09-19",
-        "excerptFrom": 0.7,
-        "duration": 32,
-        "active": true,
-        "trendVerified": false,
-        "compositionRights": "Public domain: J. S. Bach (1685–1750)",
-        "recordingRights": "Open Goldberg 2012 recording released under CC0; not inferred from composition age",
-        "sourceSha256": "0539f3612413f6077c82e16f92417bad112e44017536f59db257c8179718076f",
-        "sha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8"
-      },
       "musicLearning": {
         "fact": "Бах написал этот цикл для клавесина.",
         "source": "https://www.bachvereniging.nl/en/bwv/bwv-988",
@@ -4585,6 +4561,7 @@
           "tone": "cream"
         }
       ],
+      "date": "2026-10-01",
       "imageUrls": [
         "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-01-oge-svyaz-1.jpg",
         "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-01-oge-svyaz-2.jpg",
@@ -4597,7 +4574,84 @@
         "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-01-oge-svyaz-3.mp4",
         "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-01-oge-svyaz-4.mp4"
       ],
-      "date": "2026-10-01"
+      "music": {
+        "file": "bach-goldberg-var1-ishizaka.mp3",
+        "title": "Goldberg Variations, BWV 988: Variatio 1 a 1 Clav.",
+        "piece": "Гольдберг-вариации, BWV 988 — Вариация № 1",
+        "composer": "Иоганн Себастьян Бах",
+        "author": "Kimiko Ishizaka",
+        "performer": "Кимико Ишизака",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "source": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+        "rightsSource": "https://opengoldbergvariations.org/",
+        "download": "https://upload.wikimedia.org/wikipedia/commons/2/20/Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+        "attributionRequired": true,
+        "attribution": "И. С. Бах — Гольдберг-вариации, BWV 988, вариация № 1. Фортепиано: Кимико Ишизака, Open Goldberg Variations (2012). Запись CC0 1.0. Фрагмент, громкость изменена.",
+        "checkedAt": "2026-09-19",
+        "excerptFrom": 0.7,
+        "duration": 32,
+        "active": true,
+        "trendVerified": false,
+        "compositionRights": "Public domain: J. S. Bach (1685–1750)",
+        "recordingRights": "Open Goldberg 2012 recording released under CC0; not inferred from composition age",
+        "sourceSha256": "0539f3612413f6077c82e16f92417bad112e44017536f59db257c8179718076f",
+        "sha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8"
+      },
+      "publishedMediaId": "17921652972222095",
+      "publishedAt": "2026-10-03T19:26:31.694Z",
+      "storyRepost": {
+        "version": 1,
+        "feedMediaId": "17921652972222095",
+        "status": "published",
+        "items": [
+          {
+            "index": 1,
+            "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reposts/2026-10-01-oge-svyaz-1.jpg",
+            "sha256": "888edd05304b769cbe7940163dcc150f5ec2497bfad8764be85ee3785aad3660",
+            "status": "published",
+            "attempts": 1,
+            "attemptedAt": "2026-10-03T19:26:32.270Z",
+            "containerId": "18029632079887754",
+            "publishedMediaId": "17975008389137159",
+            "publishedAt": "2026-10-03T19:26:44.199Z"
+          },
+          {
+            "index": 2,
+            "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reposts/2026-10-01-oge-svyaz-2.jpg",
+            "sha256": "5de8847601a4d5642bdea81a9af7dbcb0bc1058577f6ef24f161dbec4014d0ae",
+            "status": "published",
+            "attempts": 1,
+            "attemptedAt": "2026-10-03T19:26:44.202Z",
+            "containerId": "18029632127887754",
+            "publishedMediaId": "18046466066817764",
+            "publishedAt": "2026-10-03T19:26:57.736Z"
+          },
+          {
+            "index": 3,
+            "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reposts/2026-10-01-oge-svyaz-3.jpg",
+            "sha256": "937a3aa494a1f34d8a62ff4ebda0f3e5dd5db833008cad564dc55da359f82646",
+            "status": "published",
+            "attempts": 1,
+            "attemptedAt": "2026-10-03T19:26:57.739Z",
+            "containerId": "18029632214887754",
+            "publishedMediaId": "17968975358964135",
+            "publishedAt": "2026-10-03T19:27:14.203Z"
+          },
+          {
+            "index": 4,
+            "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reposts/2026-10-01-oge-svyaz-4.jpg",
+            "sha256": "26c354ad1a0ea95281f288a3c34429eb3026a058bf62c17c43329e010312db75",
+            "status": "published",
+            "attempts": 1,
+            "attemptedAt": "2026-10-03T19:27:14.206Z",
+            "containerId": "18029632277887754",
+            "publishedMediaId": "17874503859586314",
+            "publishedAt": "2026-10-03T19:27:25.462Z"
+          }
+        ],
+        "sourceKey": "e42a4b9810fd8620d5a1563638d045eaaffae1cd629983901a6ada79fa9faf64"
+      }
     },
     {
       "slug": "ege-bsp-colon",
