@@ -4971,9 +4971,18 @@
       "id": "2026-10-04-ege-odnako",
       "photoSlug": "ege-odnako",
       "proposedDate": "2026-10-04",
-      "status": "approved",
+      "status": "published",
       "school": false,
       "rubric": "ЕГЭ",
+      "musicLearning": {
+        "fact": "Цикл начинается арией; после тридцати вариаций она возвращается.",
+        "source": "https://www.bachvereniging.nl/en/bwv/bwv-988",
+        "checkedAt": "2026-09-20"
+      },
+      "plainBg": true,
+      "date": "2026-10-04",
+      "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reels/2026-10-04-ege-odnako.mp4",
+      "coverOffsetMs": 29000,
       "music": {
         "file": "bach-goldberg-var1-ishizaka.mp3",
         "title": "Goldberg Variations, BWV 988: Variatio 1 a 1 Clav.",
@@ -4998,15 +5007,27 @@
         "sourceSha256": "0539f3612413f6077c82e16f92417bad112e44017536f59db257c8179718076f",
         "sha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8"
       },
-      "musicLearning": {
-        "fact": "Цикл начинается арией; после тридцати вариаций она возвращается.",
-        "source": "https://www.bachvereniging.nl/en/bwv/bwv-988",
-        "checkedAt": "2026-09-20"
-      },
-      "plainBg": true,
-      "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reels/2026-10-04-ege-odnako.mp4",
-      "coverOffsetMs": 29000,
-      "date": "2026-10-04"
+      "publishedMediaId": "18007378034782855",
+      "publishedAt": "2026-10-06T21:10:37.576Z",
+      "storyRepost": {
+        "version": 1,
+        "feedMediaId": "18007378034782855",
+        "status": "published",
+        "items": [
+          {
+            "index": 1,
+            "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reposts/2026-10-04-ege-odnako-1.jpg",
+            "sha256": "2f7326dd34da1c3ab94b0ac9edacc76c2109b62e08649336fc69e95c83cac011",
+            "status": "published",
+            "attempts": 1,
+            "attemptedAt": "2026-10-06T21:10:37.650Z",
+            "containerId": "18030043964887754",
+            "publishedMediaId": "17868208446658613",
+            "publishedAt": "2026-10-06T21:10:50.436Z"
+          }
+        ],
+        "sourceKey": "a83d404b1ecac398b8c883088656dc70322221bfdff75a0a6ba3edd1a12a8ff6"
+      }
     },
     {
       "slug": "oge-szhatie",
