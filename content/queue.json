@@ -5069,33 +5069,9 @@
       "id": "2026-10-05-oge-szhatie",
       "photoSlug": "oge-szhatie",
       "proposedDate": "2026-10-05",
-      "status": "approved",
+      "status": "published",
       "school": false,
       "rubric": "ОГЭ",
-      "music": {
-        "file": "bach-goldberg-var1-ishizaka.mp3",
-        "title": "Goldberg Variations, BWV 988: Variatio 1 a 1 Clav.",
-        "piece": "Гольдберг-вариации, BWV 988 — Вариация № 1",
-        "composer": "Иоганн Себастьян Бах",
-        "author": "Kimiko Ishizaka",
-        "performer": "Кимико Ишизака",
-        "license": "CC0 1.0",
-        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-        "source": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
-        "rightsSource": "https://opengoldbergvariations.org/",
-        "download": "https://upload.wikimedia.org/wikipedia/commons/2/20/Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
-        "attributionRequired": true,
-        "attribution": "И. С. Бах — Гольдберг-вариации, BWV 988, вариация № 1. Фортепиано: Кимико Ишизака, Open Goldberg Variations (2012). Запись CC0 1.0. Фрагмент, громкость изменена.",
-        "checkedAt": "2026-09-19",
-        "excerptFrom": 0.7,
-        "duration": 32,
-        "active": true,
-        "trendVerified": false,
-        "compositionRights": "Public domain: J. S. Bach (1685–1750)",
-        "recordingRights": "Open Goldberg 2012 recording released under CC0; not inferred from composition age",
-        "sourceSha256": "0539f3612413f6077c82e16f92417bad112e44017536f59db257c8179718076f",
-        "sha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8"
-      },
       "musicLearning": {
         "fact": "Бах написал этот цикл для клавесина.",
         "source": "https://www.bachvereniging.nl/en/bwv/bwv-988",
@@ -5128,6 +5104,7 @@
           "tone": "cream"
         }
       ],
+      "date": "2026-10-05",
       "imageUrls": [
         "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-05-oge-szhatie-1.jpg",
         "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-05-oge-szhatie-2.jpg",
@@ -5140,7 +5117,78 @@
         "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-05-oge-szhatie-3.mp4",
         "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-05-oge-szhatie-4.mp4"
       ],
-      "date": "2026-10-05"
+      "music": {
+        "file": "bach-goldberg-var1-ishizaka.mp3",
+        "title": "Goldberg Variations, BWV 988: Variatio 1 a 1 Clav.",
+        "piece": "Гольдберг-вариации, BWV 988 — Вариация № 1",
+        "composer": "Иоганн Себастьян Бах",
+        "author": "Kimiko Ishizaka",
+        "performer": "Кимико Ишизака",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "source": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+        "rightsSource": "https://opengoldbergvariations.org/",
+        "download": "https://upload.wikimedia.org/wikipedia/commons/2/20/Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+        "attributionRequired": true,
+        "attribution": "И. С. Бах — Гольдберг-вариации, BWV 988, вариация № 1. Фортепиано: Кимико Ишизака, Open Goldberg Variations (2012). Запись CC0 1.0. Фрагмент, громкость изменена.",
+        "checkedAt": "2026-09-19",
+        "excerptFrom": 0.7,
+        "duration": 32,
+        "active": true,
+        "trendVerified": false,
+        "compositionRights": "Public domain: J. S. Bach (1685–1750)",
+        "recordingRights": "Open Goldberg 2012 recording released under CC0; not inferred from composition age",
+        "sourceSha256": "0539f3612413f6077c82e16f92417bad112e44017536f59db257c8179718076f",
+        "sha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8"
+      },
+      "publishedMediaId": "17911604889474070",
+      "publishedAt": "2026-10-07T21:32:16.229Z",
+      "storyRepost": {
+        "version": 1,
+        "feedMediaId": "17911604889474070",
+        "status": "partial",
+        "items": [
+          {
+            "index": 1,
+            "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reposts/2026-10-05-oge-szhatie-1.jpg",
+            "sha256": "eedac9c9429adc5e01f367d88931f4b20859e919f4cc19933d0b1ed7447698bd",
+            "status": "published",
+            "attempts": 1,
+            "attemptedAt": "2026-10-07T21:32:17.144Z",
+            "containerId": "18030173018887754",
+            "publishedMediaId": "17922931191224441",
+            "publishedAt": "2026-10-07T21:32:27.288Z"
+          },
+          {
+            "index": 2,
+            "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reposts/2026-10-05-oge-szhatie-2.jpg",
+            "sha256": "e7b87109847bd26f6a7347cd67750f3bc5f99a10a21a05fde092bca159892130",
+            "status": "published",
+            "attempts": 1,
+            "attemptedAt": "2026-10-07T21:32:27.291Z",
+            "containerId": "18030173063887754",
+            "publishedMediaId": "18631515757041619",
+            "publishedAt": "2026-10-07T21:32:38.717Z"
+          },
+          {
+            "index": 3,
+            "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reposts/2026-10-05-oge-szhatie-3.jpg",
+            "sha256": "7db23f4e23e9471d4d37a58657fa7963616fd558ff3e4e163c045e20fa64decf",
+            "status": "failed",
+            "attempts": 1,
+            "attemptedAt": "2026-10-07T21:32:38.719Z",
+            "error": "preparation_failed"
+          },
+          {
+            "index": 4,
+            "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reposts/2026-10-05-oge-szhatie-4.jpg",
+            "sha256": "d8cae59b950b5bfca14c327ecb1925e50027483ddf25c9825041dee1b837ddf4",
+            "status": "pending",
+            "attempts": 0
+          }
+        ],
+        "sourceKey": "eec3dbcfbbfe37302a2a95f85ede37c114be6992a798c780fb965e66dc856966"
+      }
     },
     {
       "slug": "ege-po-pribytii",
