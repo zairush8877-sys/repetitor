@@ -5235,9 +5235,18 @@
       "id": "2026-10-06-ege-po-pribytii",
       "photoSlug": "ege-po-pribytii",
       "proposedDate": "2026-10-06",
-      "status": "approved",
+      "status": "published",
       "school": false,
       "rubric": "ЕГЭ",
+      "musicLearning": {
+        "fact": "«Гольдберг-вариации» впервые напечатали в 1741 году.",
+        "source": "https://www.bachvereniging.nl/en/bwv/bwv-988",
+        "checkedAt": "2026-09-20"
+      },
+      "plainBg": true,
+      "date": "2026-10-06",
+      "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reels/2026-10-06-ege-po-pribytii.mp4",
+      "coverOffsetMs": 29000,
       "music": {
         "file": "bach-goldberg-var1-ishizaka.mp3",
         "title": "Goldberg Variations, BWV 988: Variatio 1 a 1 Clav.",
@@ -5262,15 +5271,27 @@
         "sourceSha256": "0539f3612413f6077c82e16f92417bad112e44017536f59db257c8179718076f",
         "sha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8"
       },
-      "musicLearning": {
-        "fact": "«Гольдберг-вариации» впервые напечатали в 1741 году.",
-        "source": "https://www.bachvereniging.nl/en/bwv/bwv-988",
-        "checkedAt": "2026-09-20"
-      },
-      "plainBg": true,
-      "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reels/2026-10-06-ege-po-pribytii.mp4",
-      "coverOffsetMs": 29000,
-      "date": "2026-10-06"
+      "publishedMediaId": "18104499110203838",
+      "publishedAt": "2026-10-09T21:09:47.714Z",
+      "storyRepost": {
+        "version": 1,
+        "feedMediaId": "18104499110203838",
+        "status": "published",
+        "items": [
+          {
+            "index": 1,
+            "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reposts/2026-10-06-ege-po-pribytii-1.jpg",
+            "sha256": "8a10d8d6280816b86b3a1e0cd4a430ca5f0a728766bae36c0c514528814832d6",
+            "status": "published",
+            "attempts": 1,
+            "attemptedAt": "2026-10-09T21:09:47.809Z",
+            "containerId": "18030426464887754",
+            "publishedMediaId": "18633546496052457",
+            "publishedAt": "2026-10-09T21:09:59.945Z"
+          }
+        ],
+        "sourceKey": "3ae1a7f32eb7e444d5d5ef932071b09a476e20b13248a675374ca60c1a518988"
+      }
     },
     {
       "slug": "oge-argument",
