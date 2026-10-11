@@ -5333,33 +5333,9 @@
       "id": "2026-10-07-oge-argument",
       "photoSlug": "oge-argument",
       "proposedDate": "2026-10-07",
-      "status": "approved",
+      "status": "published",
       "school": false,
       "rubric": "ОГЭ",
-      "music": {
-        "file": "bach-goldberg-var1-ishizaka.mp3",
-        "title": "Goldberg Variations, BWV 988: Variatio 1 a 1 Clav.",
-        "piece": "Гольдберг-вариации, BWV 988 — Вариация № 1",
-        "composer": "Иоганн Себастьян Бах",
-        "author": "Kimiko Ishizaka",
-        "performer": "Кимико Ишизака",
-        "license": "CC0 1.0",
-        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-        "source": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
-        "rightsSource": "https://opengoldbergvariations.org/",
-        "download": "https://upload.wikimedia.org/wikipedia/commons/2/20/Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
-        "attributionRequired": true,
-        "attribution": "И. С. Бах — Гольдберг-вариации, BWV 988, вариация № 1. Фортепиано: Кимико Ишизака, Open Goldberg Variations (2012). Запись CC0 1.0. Фрагмент, громкость изменена.",
-        "checkedAt": "2026-09-19",
-        "excerptFrom": 0.7,
-        "duration": 32,
-        "active": true,
-        "trendVerified": false,
-        "compositionRights": "Public domain: J. S. Bach (1685–1750)",
-        "recordingRights": "Open Goldberg 2012 recording released under CC0; not inferred from composition age",
-        "sourceSha256": "0539f3612413f6077c82e16f92417bad112e44017536f59db257c8179718076f",
-        "sha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8"
-      },
       "musicLearning": {
         "fact": "Название «Гольдберг-вариации» появилось позже: сам Бах так цикл не называл.",
         "source": "https://www.bachvereniging.nl/en/bwv/bwv-988",
@@ -5392,6 +5368,7 @@
           "tone": "cream"
         }
       ],
+      "date": "2026-10-07",
       "imageUrls": [
         "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-07-oge-argument-1.jpg",
         "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-07-oge-argument-2.jpg",
@@ -5404,7 +5381,84 @@
         "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-07-oge-argument-3.mp4",
         "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-07-oge-argument-4.mp4"
       ],
-      "date": "2026-10-07"
+      "music": {
+        "file": "bach-goldberg-var1-ishizaka.mp3",
+        "title": "Goldberg Variations, BWV 988: Variatio 1 a 1 Clav.",
+        "piece": "Гольдберг-вариации, BWV 988 — Вариация № 1",
+        "composer": "Иоганн Себастьян Бах",
+        "author": "Kimiko Ishizaka",
+        "performer": "Кимико Ишизака",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "source": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+        "rightsSource": "https://opengoldbergvariations.org/",
+        "download": "https://upload.wikimedia.org/wikipedia/commons/2/20/Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+        "attributionRequired": true,
+        "attribution": "И. С. Бах — Гольдберг-вариации, BWV 988, вариация № 1. Фортепиано: Кимико Ишизака, Open Goldberg Variations (2012). Запись CC0 1.0. Фрагмент, громкость изменена.",
+        "checkedAt": "2026-09-19",
+        "excerptFrom": 0.7,
+        "duration": 32,
+        "active": true,
+        "trendVerified": false,
+        "compositionRights": "Public domain: J. S. Bach (1685–1750)",
+        "recordingRights": "Open Goldberg 2012 recording released under CC0; not inferred from composition age",
+        "sourceSha256": "0539f3612413f6077c82e16f92417bad112e44017536f59db257c8179718076f",
+        "sha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8"
+      },
+      "publishedMediaId": "18126033103874136",
+      "publishedAt": "2026-10-11T20:32:45.816Z",
+      "storyRepost": {
+        "version": 1,
+        "feedMediaId": "18126033103874136",
+        "status": "published",
+        "items": [
+          {
+            "index": 1,
+            "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reposts/2026-10-07-oge-argument-1.jpg",
+            "sha256": "3aba90cb7ff5b2bfe646b2050fe8256117330697f9ca0fc2c392ced139d85c77",
+            "status": "published",
+            "attempts": 1,
+            "attemptedAt": "2026-10-11T20:32:46.108Z",
+            "containerId": "18030732158887754",
+            "publishedMediaId": "18107586182612283",
+            "publishedAt": "2026-10-11T20:32:57.350Z"
+          },
+          {
+            "index": 2,
+            "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reposts/2026-10-07-oge-argument-2.jpg",
+            "sha256": "97bef1edfcf538fca67c3304beda5565a334169561eac5191320a2cb53cde8c8",
+            "status": "published",
+            "attempts": 1,
+            "attemptedAt": "2026-10-11T20:32:57.353Z",
+            "containerId": "18030732203887754",
+            "publishedMediaId": "18114063992120344",
+            "publishedAt": "2026-10-11T20:33:06.840Z"
+          },
+          {
+            "index": 3,
+            "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reposts/2026-10-07-oge-argument-3.jpg",
+            "sha256": "b8dfcfacbef6145662283c49977ec0482439975f6d2f91f61bd44aa67aff3eaf",
+            "status": "published",
+            "attempts": 1,
+            "attemptedAt": "2026-10-11T20:33:06.843Z",
+            "containerId": "18030732230887754",
+            "publishedMediaId": "18162756334514277",
+            "publishedAt": "2026-10-11T20:33:13.952Z"
+          },
+          {
+            "index": 4,
+            "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reposts/2026-10-07-oge-argument-4.jpg",
+            "sha256": "ee2991b1e439b55586316bdaf1c3448536f27db6cd3750363d280cc0efa30502",
+            "status": "published",
+            "attempts": 1,
+            "attemptedAt": "2026-10-11T20:33:13.955Z",
+            "containerId": "18030732266887754",
+            "publishedMediaId": "17927774031185219",
+            "publishedAt": "2026-10-11T20:33:26.136Z"
+          }
+        ],
+        "sourceKey": "99a33cd38b74cfe2a2a99d2bf2182355e7a795a0f1e9beeb3dd97bb8b8d7fc64"
+      }
     },
     {
       "slug": "ege-direct-speech",
