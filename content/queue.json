@@ -5500,33 +5500,9 @@
       "id": "2026-10-08-ege-direct-speech",
       "photoSlug": "ege-direct-speech",
       "proposedDate": "2026-10-08",
-      "status": "approved",
+      "status": "published",
       "school": false,
       "rubric": "ЕГЭ",
-      "music": {
-        "file": "bach-goldberg-var1-ishizaka.mp3",
-        "title": "Goldberg Variations, BWV 988: Variatio 1 a 1 Clav.",
-        "piece": "Гольдберг-вариации, BWV 988 — Вариация № 1",
-        "composer": "Иоганн Себастьян Бах",
-        "author": "Kimiko Ishizaka",
-        "performer": "Кимико Ишизака",
-        "license": "CC0 1.0",
-        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-        "source": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
-        "rightsSource": "https://opengoldbergvariations.org/",
-        "download": "https://upload.wikimedia.org/wikipedia/commons/2/20/Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
-        "attributionRequired": true,
-        "attribution": "И. С. Бах — Гольдберг-вариации, BWV 988, вариация № 1. Фортепиано: Кимико Ишизака, Open Goldberg Variations (2012). Запись CC0 1.0. Фрагмент, громкость изменена.",
-        "checkedAt": "2026-09-19",
-        "excerptFrom": 0.7,
-        "duration": 32,
-        "active": true,
-        "trendVerified": false,
-        "compositionRights": "Public domain: J. S. Bach (1685–1750)",
-        "recordingRights": "Open Goldberg 2012 recording released under CC0; not inferred from composition age",
-        "sourceSha256": "0539f3612413f6077c82e16f92417bad112e44017536f59db257c8179718076f",
-        "sha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8"
-      },
       "musicLearning": {
         "fact": "Цикл начинается арией; после тридцати вариаций она возвращается.",
         "source": "https://www.bachvereniging.nl/en/bwv/bwv-988",
@@ -5559,6 +5535,7 @@
           "tone": "cream"
         }
       ],
+      "date": "2026-10-08",
       "imageUrls": [
         "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-08-ege-direct-speech-1.jpg",
         "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-08-ege-direct-speech-2.jpg",
@@ -5571,7 +5548,84 @@
         "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-08-ege-direct-speech-3.mp4",
         "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/images/2026-10-08-ege-direct-speech-4.mp4"
       ],
-      "date": "2026-10-08"
+      "music": {
+        "file": "bach-goldberg-var1-ishizaka.mp3",
+        "title": "Goldberg Variations, BWV 988: Variatio 1 a 1 Clav.",
+        "piece": "Гольдберг-вариации, BWV 988 — Вариация № 1",
+        "composer": "Иоганн Себастьян Бах",
+        "author": "Kimiko Ishizaka",
+        "performer": "Кимико Ишизака",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "source": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+        "rightsSource": "https://opengoldbergvariations.org/",
+        "download": "https://upload.wikimedia.org/wikipedia/commons/2/20/Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+        "attributionRequired": true,
+        "attribution": "И. С. Бах — Гольдберг-вариации, BWV 988, вариация № 1. Фортепиано: Кимико Ишизака, Open Goldberg Variations (2012). Запись CC0 1.0. Фрагмент, громкость изменена.",
+        "checkedAt": "2026-09-19",
+        "excerptFrom": 0.7,
+        "duration": 32,
+        "active": true,
+        "trendVerified": false,
+        "compositionRights": "Public domain: J. S. Bach (1685–1750)",
+        "recordingRights": "Open Goldberg 2012 recording released under CC0; not inferred from composition age",
+        "sourceSha256": "0539f3612413f6077c82e16f92417bad112e44017536f59db257c8179718076f",
+        "sha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8"
+      },
+      "publishedMediaId": "18410292244090518",
+      "publishedAt": "2026-10-12T23:12:03.698Z",
+      "storyRepost": {
+        "version": 1,
+        "feedMediaId": "18410292244090518",
+        "status": "published",
+        "items": [
+          {
+            "index": 1,
+            "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reposts/2026-10-08-ege-direct-speech-1.jpg",
+            "sha256": "a2a7dab063cbf68d5a57e6bb05b5478a6d0665ea06a40732ea730e5114a68417",
+            "status": "published",
+            "attempts": 1,
+            "attemptedAt": "2026-10-12T23:12:05.145Z",
+            "containerId": "18030878162887754",
+            "publishedMediaId": "18111239093462744",
+            "publishedAt": "2026-10-12T23:12:18.227Z"
+          },
+          {
+            "index": 2,
+            "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reposts/2026-10-08-ege-direct-speech-2.jpg",
+            "sha256": "735994a0aeb057ff99767469acb1329c210cb157de949e764ca741ed22933be1",
+            "status": "published",
+            "attempts": 1,
+            "attemptedAt": "2026-10-12T23:12:18.230Z",
+            "containerId": "18030878192887754",
+            "publishedMediaId": "18142889716608748",
+            "publishedAt": "2026-10-12T23:12:28.066Z"
+          },
+          {
+            "index": 3,
+            "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reposts/2026-10-08-ege-direct-speech-3.jpg",
+            "sha256": "1d4feaedbe38a9a7bd0803f9e49663dcf62d7c8966fc6626997425760c46d7af",
+            "status": "published",
+            "attempts": 1,
+            "attemptedAt": "2026-10-12T23:12:28.069Z",
+            "containerId": "18030878216887754",
+            "publishedMediaId": "18128064433870873",
+            "publishedAt": "2026-10-12T23:12:41.075Z"
+          },
+          {
+            "index": 4,
+            "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reposts/2026-10-08-ege-direct-speech-4.jpg",
+            "sha256": "0dcfed67786fb1f30998c3e7cb8ce92f5c5ab9d065006e2f6d373201deba859d",
+            "status": "published",
+            "attempts": 1,
+            "attemptedAt": "2026-10-12T23:12:41.078Z",
+            "containerId": "18030878243887754",
+            "publishedMediaId": "18152583703533436",
+            "publishedAt": "2026-10-12T23:12:50.483Z"
+          }
+        ],
+        "sourceKey": "6526ff7037300aab9257fb2b87d91bbc0d49720c3fa3fec82b2a3f92fc798530"
+      }
     },
     {
       "slug": "oge-dvoetochie",
