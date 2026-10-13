@@ -105,6 +105,19 @@ function moscowDate(d = new Date()) {
   return d.toLocaleDateString('en-CA', { timeZone: 'Europe/Moscow' });
 }
 
+/**
+ * Час по Москве. Очередь GitHub Actions задерживает крон на часы: 28 и 29
+ * августа публикации ушли в 03:06 и 02:44 ночи и собрали 182 и 153 охвата при
+ * нулевых сохранениях, тогда как удачные посты месяца выходили с полудня до
+ * семи вечера. Ночной выход сгорает целиком, поэтому лучше пропустить день.
+ */
+function moscowHour(d = new Date()) {
+  return Number(d.toLocaleString('en-GB', { timeZone: 'Europe/Moscow', hour: '2-digit', hour12: false }));
+}
+
+/** Окно, в которое публикацию выпускать не стыдно. */
+const WINDOW = { from: 8, to: 22 };
+
 /** День недели по Москве — раннер живёт в UTC, а расписание у нас московское. */
 function moscowWeekday() {
   const s = new Date().toLocaleDateString('en-US', {
@@ -438,6 +451,15 @@ let publicationLock;
     const already = publishedToday(queue.posts);
     if (already) {
       console.log(`Сегодня уже вышла публикация «${already.id}» — вторая за день не нужна.`);
+      return;
+    }
+    // Ручной запуск с конкретным post_id сюда не попадает: автор вправе
+    // выпустить публикацию когда угодно, окно сторожит только расписание.
+    const hour = moscowHour();
+    if (hour < WINDOW.from || hour >= WINDOW.to) {
+      console.log(`Сейчас ${String(hour).padStart(2, '0')}:xx по Москве — вне окна `
+        + `${WINDOW.from}:00–${WINDOW.to}:00. Прогон опоздал в очереди Actions; `
+        + `ночная публикация сгорает, поэтому пост остаётся в очереди до завтра.`);
       return;
     }
   }
