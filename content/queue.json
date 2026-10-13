@@ -5732,6 +5732,68 @@
         ],
         "sourceKey": "2312fa352fae9a75d3e18b632196a20f668b17627a4bfa61d4fcb249aa9d8062"
       }
+    },
+    {
+      "id": "2026-10-13-svodka",
+      "date": "2026-10-13",
+      "rubric": "Сводка ЕГЭ/ОГЭ",
+      "format": "Карусель",
+      "status": "pending",
+      "caption": "Рособрнадзор опубликовал проекты КИМ ЕГЭ-2027. Изменения затрагивают историю и профильную математику. В истории будет 22 задания вместо 21, максимум — 43 первичных балла. В профильной математике — 20 заданий вместо 19, максимум — 33 балла.\n\nРусского языка в списке изменений нет. Структура экзамена и количество заданий остаются прежними. Дополнительных материалов на экзамене по русскому языку тоже не предусмотрено: орфографический словарь разрешат только на литературе.\n\nПроекты пока не окончательные, финальные версии выйдут позже. Сверяйте детали на сайте ФИПИ. Готовиться по действующей демоверсии можно уже сейчас.\n\nИсточник: сообщения «Известий» от 11 и 12 октября 2026 со ссылкой на материалы Рособрнадзора и ФИПИ.",
+      "hashtags": [
+        "#егэ",
+        "#русскийязык",
+        "#егэ2027"
+      ],
+      "slides": [
+        {
+          "kicker": "Сводка · 12 октября",
+          "text": "Опубликованы проекты КИМ\nЕГЭ-2027.\nРусский язык\nв списке изменений нет"
+        },
+        {
+          "kicker": "Что меняется",
+          "text": "Изменения затронули историю и профильную математику.\nИстория: 22 задания вместо 21, максимум 43 балла.\nМатематика: 20 заданий вместо 19, максимум 33 балла."
+        },
+        {
+          "kicker": "Что с русским языком",
+          "text": "Структура и число заданий остаются прежними. Готовиться по действующей демоверсии можно уже сейчас."
+        },
+        {
+          "kicker": "На экзамене",
+          "text": "Дополнительных материалов по русскому языку не предусмотрено. Орфографический словарь разрешат только на литературе."
+        },
+        {
+          "kicker": "Что делать",
+          "mark": "right",
+          "text": "Выпускнику: не перестраивать подготовку, продолжать по текущей демоверсии.\nРодителю: проверять финальные версии на сайте ФИПИ — проекты ещё могут поправить."
+        },
+        {
+          "kicker": "Чтобы не пропустить",
+          "mark": "cta",
+          "text": "Слежу за правилами итоговой аттестации и пишу, что реально меняется.\nПодпишитесь, чтобы не пропустить."
+        }
+      ],
+      "imageUrls": [
+        "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-10-13-svodka-1.jpg",
+        "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-10-13-svodka-2.jpg",
+        "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-10-13-svodka-3.jpg",
+        "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-10-13-svodka-4.jpg",
+        "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-10-13-svodka-5.jpg",
+        "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-10-13-svodka-6.jpg"
+      ],
+      "videoUrls": [
+        "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-10-13-svodka-1.mp4",
+        "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-10-13-svodka-2.mp4",
+        "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-10-13-svodka-3.mp4",
+        "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-10-13-svodka-4.mp4",
+        "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-10-13-svodka-5.mp4",
+        "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-10-13-svodka-6.mp4"
+      ],
+      "music": {
+        "composer": "Людвиг ван Бетховен",
+        "piece": "Пятая симфония",
+        "license": "Public domain"
+      }
     }
   ],
   "account_id": "17841456632615750"
