@@ -5673,9 +5673,18 @@
       "id": "2026-10-09-oge-dvoetochie",
       "photoSlug": "oge-dvoetochie",
       "proposedDate": "2026-10-09",
-      "status": "approved",
+      "status": "published",
       "school": false,
       "rubric": "ОГЭ",
+      "musicLearning": {
+        "fact": "Бах написал этот цикл для клавесина.",
+        "source": "https://www.bachvereniging.nl/en/bwv/bwv-988",
+        "checkedAt": "2026-09-20"
+      },
+      "plainBg": true,
+      "date": "2026-10-09",
+      "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reels/2026-10-09-oge-dvoetochie.mp4",
+      "coverOffsetMs": 29000,
       "music": {
         "file": "bach-goldberg-var1-ishizaka.mp3",
         "title": "Goldberg Variations, BWV 988: Variatio 1 a 1 Clav.",
@@ -5700,15 +5709,27 @@
         "sourceSha256": "0539f3612413f6077c82e16f92417bad112e44017536f59db257c8179718076f",
         "sha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8"
       },
-      "musicLearning": {
-        "fact": "Бах написал этот цикл для клавесина.",
-        "source": "https://www.bachvereniging.nl/en/bwv/bwv-988",
-        "checkedAt": "2026-09-20"
-      },
-      "plainBg": true,
-      "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reels/2026-10-09-oge-dvoetochie.mp4",
-      "coverOffsetMs": 29000,
-      "date": "2026-10-09"
+      "publishedMediaId": "17938554666386148",
+      "publishedAt": "2026-10-13T21:28:20.678Z",
+      "storyRepost": {
+        "version": 1,
+        "feedMediaId": "17938554666386148",
+        "status": "published",
+        "items": [
+          {
+            "index": 1,
+            "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/outputs/exam-bank-2026-09-26/content/reposts/2026-10-09-oge-dvoetochie-1.jpg",
+            "sha256": "81c7d9ffe2f252c05f8109d152e7f8d145dc4cb6ede4f4e8560754194f21ad54",
+            "status": "published",
+            "attempts": 1,
+            "attemptedAt": "2026-10-13T21:28:20.708Z",
+            "containerId": "18031012217887754",
+            "publishedMediaId": "18467918140185409",
+            "publishedAt": "2026-10-13T21:28:28.259Z"
+          }
+        ],
+        "sourceKey": "2312fa352fae9a75d3e18b632196a20f668b17627a4bfa61d4fcb249aa9d8062"
+      }
     }
   ],
   "account_id": "17841456632615750"
