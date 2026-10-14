@@ -1256,6 +1256,112 @@
           "sha256": "3d4834a6855f4014d38b3b05fe9d61c44018c971ce731b5d07edccc46412c4b7"
         }
       ]
+    },
+    "2026-10-13-svodka": {
+      "version": 1,
+      "draftKey": "d9e56d190e8ad4a7642b71f282c75a84a125bb7d332913624770b4e361c7e906",
+      "builtAt": "2026-10-14T07:47:55.331Z",
+      "media": {
+        "imageUrls": [
+          "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-10-13-svodka-1.jpg",
+          "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-10-13-svodka-2.jpg",
+          "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-10-13-svodka-3.jpg",
+          "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-10-13-svodka-4.jpg",
+          "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-10-13-svodka-5.jpg",
+          "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-10-13-svodka-6.jpg"
+        ],
+        "videoUrls": [
+          "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-10-13-svodka-1.mp4",
+          "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-10-13-svodka-2.mp4",
+          "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-10-13-svodka-3.mp4",
+          "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-10-13-svodka-4.mp4",
+          "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-10-13-svodka-5.mp4",
+          "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-10-13-svodka-6.mp4"
+        ],
+        "music": {
+          "composer": "Иоганн Себастьян Бах",
+          "piece": "Гольдберг-вариации, BWV 988 — Вариация № 1",
+          "license": "CC0 1.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "attribution": "И. С. Бах — Гольдберг-вариации, BWV 988, вариация № 1. Фортепиано: Кимико Ишизака, Open Goldberg Variations (2012). Запись CC0 1.0. Фрагмент, громкость изменена.",
+          "attributionRequired": true
+        }
+      },
+      "files": [
+        {
+          "relative": "images/2026-10-13-svodka-1.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-10-13-svodka-1.jpg",
+          "size": 111450,
+          "sha256": "5c8829e274f423178f75e44a5cccb8da15984db5b71e0e28ad2d107172793205"
+        },
+        {
+          "relative": "images/2026-10-13-svodka-2.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-10-13-svodka-2.jpg",
+          "size": 177008,
+          "sha256": "4e451bda4da3f995ce52305bdd43e5011c3d1ae128be8add109dc3469c14e774"
+        },
+        {
+          "relative": "images/2026-10-13-svodka-3.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-10-13-svodka-3.jpg",
+          "size": 132373,
+          "sha256": "aa808136a0f72c45b90f47c191bc800c106bb0cde4a8bccd0d87721a7057f759"
+        },
+        {
+          "relative": "images/2026-10-13-svodka-4.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-10-13-svodka-4.jpg",
+          "size": 156601,
+          "sha256": "ce98d8f562e6fd0d328439f0042aa13f6b2876bac414e622f9a02c5a521f61ec"
+        },
+        {
+          "relative": "images/2026-10-13-svodka-5.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-10-13-svodka-5.jpg",
+          "size": 158591,
+          "sha256": "379d4ab12025ddedc120f29b8a677d67d85c913515daa59bf6defa39dddbb618"
+        },
+        {
+          "relative": "images/2026-10-13-svodka-6.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-10-13-svodka-6.jpg",
+          "size": 138143,
+          "sha256": "f3fe9efea1a5c47c28c31511f45cb35bfdbe6c9ba8b6c79e542353939ceae1d4"
+        },
+        {
+          "relative": "images/2026-10-13-svodka-1.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-10-13-svodka-1.mp4",
+          "size": 174538,
+          "sha256": "c3ac24d5f0945dae17b6eb2a939bd70dafe173f959f690aaa7b020fe6a60f56e"
+        },
+        {
+          "relative": "images/2026-10-13-svodka-2.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-10-13-svodka-2.mp4",
+          "size": 211632,
+          "sha256": "9ce9336e840dc54a095cab966d1988ce2e9616731ddb5b980772f6b3b1626268"
+        },
+        {
+          "relative": "images/2026-10-13-svodka-3.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-10-13-svodka-3.mp4",
+          "size": 184758,
+          "sha256": "5a17654ff6cc413cda8f08741ddc4eca635bba062b3bb73754706a131064fff6"
+        },
+        {
+          "relative": "images/2026-10-13-svodka-4.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-10-13-svodka-4.mp4",
+          "size": 205584,
+          "sha256": "08e2e2d770b51018d43df01457cddd0669e58b2f7cb94b443b54d404e16ed475"
+        },
+        {
+          "relative": "images/2026-10-13-svodka-5.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-10-13-svodka-5.mp4",
+          "size": 197321,
+          "sha256": "1f58ff2ab5cc8604ade071e63f6897e9360c8e389681d83b796e729c4cfbf068"
+        },
+        {
+          "relative": "images/2026-10-13-svodka-6.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-10-13-svodka-6.mp4",
+          "size": 253899,
+          "sha256": "f3f45117e3505d825e8e7a9a5f0856d7c86e4d847b281555be0191b1a9a8b25c"
+        }
+      ]
     }
   }
 }
