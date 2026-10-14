@@ -598,7 +598,7 @@
     {
       "id": "2026-09-26-ege-deeprichastie-standalone",
       "type": "exam",
-      "status": "approved",
+      "status": "published",
       "rubric": "ЕГЭ",
       "question": {
         "headline": "КНИГА ПРОЧИТАЛА СЕБЯ?",
@@ -678,7 +678,8 @@
       "publishedMediaIds": [
         "18109167209229265",
         "17992722644995355"
-      ]
+      ],
+      "publishedAt": "2026-10-14T12:26:41.397Z"
     },
     {
       "id": "2026-09-27-oge-kazhetsya-standalone",
