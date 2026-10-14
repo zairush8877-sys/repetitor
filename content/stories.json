@@ -658,7 +658,16 @@
       },
       "sourcePostId": "2026-09-26-ege-deeprichastie",
       "proposedDate": "2026-09-26",
-      "approvedFromDraft": "draft-story-2026-09-26-ege-deeprichastie"
+      "approvedFromDraft": "draft-story-2026-09-26-ege-deeprichastie",
+      "delivery": {
+        "parts": [
+          {
+            "state": "publishing",
+            "containerId": "18031090556887754",
+            "attemptedAt": "2026-10-14T12:25:48.278Z"
+          }
+        ]
+      }
     },
     {
       "id": "2026-09-27-oge-kazhetsya-standalone",
