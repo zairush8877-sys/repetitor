@@ -228,6 +228,24 @@ for (const s of BANK.stories) {
   if (onlyId && s.id !== onlyId) continue;
   if (!onlyId && s.status === 'published') continue;
 
+  // Экзаменационные комплекты приходят уже отрисованными: сцена-вопрос и
+  // многочастный разбор собраны отдельным конвейером, музыка записана в самом
+  // комплекте, а не выбрана ротацией. Лимиты 24/16/65 знаков тут ни при чём —
+  // они стерегут render-stories.js, который эти видео не рисовал.
+  if (s.type === 'exam') {
+    if (!s.question?.headline || !s.question?.body) err(s.id, 'нет вопроса — первый кадр пуст');
+    if (!Array.isArray(s.explanation) || !s.explanation.length) err(s.id, 'нет разбора — второй ролик пуст');
+    if (!Array.isArray(s.sources) || !s.sources.length) err(s.id, 'нет источников — факт нечем подтвердить');
+    if (!s.music?.composer || !s.music?.license) err(s.id, 'у музыки комплекта нет композитора или лицензии');
+    for (const n of [1, 2]) {
+      const v = path.join(CONTENT, 'stories', `${s.id}-${n}.mp4`);
+      if (!fs.existsSync(v)) { err(s.id, `нет видео ${s.id}-${n}.mp4`); continue; }
+      const a = probeAudio(v);
+      if (!a.ok) err(s.id, `музыка в части ${n}: ${a.why}`);
+    }
+    continue;
+  }
+
   if (s.type === 'vopros') {
     for (const [k, lim] of [['q', 24], ['a', 16], ['b', 16]]) {
       if (!s[k]) err(s.id, `нет поля ${k} — вопрос без вариантов не работает`);

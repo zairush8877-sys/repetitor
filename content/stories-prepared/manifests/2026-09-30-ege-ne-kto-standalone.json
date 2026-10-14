@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "storyId": "2026-09-30-ege-ne-kto-standalone",
+  "contentSha256": "3353772919e9b7739248438d94916d132583dc6ffee8214a2a9a2b315982be7c",
+  "renderedAt": "2026-10-14T10:04:14.373Z",
+  "assets": [
+    {
+      "part": 1,
+      "file": "content/stories/2026-09-30-ege-ne-kto-standalone-1.mp4",
+      "bytes": 1684727,
+      "sha256": "14b877b973da8ce1749e07687c4d81001911727b9b523fd5f977bdaf5c9c9b11"
+    },
+    {
+      "part": 2,
+      "file": "content/stories/2026-09-30-ege-ne-kto-standalone-2.mp4",
+      "bytes": 6987463,
+      "sha256": "022e46d8773ec23dac37b5bdbd7fe2d692040554377bcf56576af96ef70112d2"
+    }
+  ],
+  "renderSources": {
+    "music": "bach-goldberg-var1-ishizaka.mp3",
+    "photo": null
+  }
+}

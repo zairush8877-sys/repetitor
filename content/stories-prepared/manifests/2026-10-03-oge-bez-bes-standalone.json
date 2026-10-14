@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "storyId": "2026-10-03-oge-bez-bes-standalone",
+  "contentSha256": "8d38e6c540429e61ed4dfd002021513657e3a20c11815c1e35eed986c7b38dfa",
+  "renderedAt": "2026-10-14T10:04:14.813Z",
+  "assets": [
+    {
+      "part": 1,
+      "file": "content/stories/2026-10-03-oge-bez-bes-standalone-1.mp4",
+      "bytes": 1692560,
+      "sha256": "78eba5e401395d322adb4255347990afb65d4c98bb041fec6d82c1508ed5ea03"
+    },
+    {
+      "part": 2,
+      "file": "content/stories/2026-10-03-oge-bez-bes-standalone-2.mp4",
+      "bytes": 6958640,
+      "sha256": "e2733fc0d41ec632920258768180ad846bae95e681112ab896cc47b575a81c0c"
+    }
+  ],
+  "renderSources": {
+    "music": "bach-goldberg-var1-ishizaka.mp3",
+    "photo": null
+  }
+}

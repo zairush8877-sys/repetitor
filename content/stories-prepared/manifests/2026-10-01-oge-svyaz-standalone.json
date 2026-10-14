@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "storyId": "2026-10-01-oge-svyaz-standalone",
+  "contentSha256": "c843802a591d13dcdd1357aa77facfda629e9410f2346a44ba25f1774a7ccaa8",
+  "renderedAt": "2026-10-14T10:04:14.509Z",
+  "assets": [
+    {
+      "part": 1,
+      "file": "content/stories/2026-10-01-oge-svyaz-standalone-1.mp4",
+      "bytes": 2111691,
+      "sha256": "dab66b39f9663232625982ffc0b9d3700f3144a5515bedda618c66fb77f7bcc8"
+    },
+    {
+      "part": 2,
+      "file": "content/stories/2026-10-01-oge-svyaz-standalone-2.mp4",
+      "bytes": 7136181,
+      "sha256": "bc82afb50d2fc43b9971f1a2fc04c3c49b7cfb676182cad7c95ef85365a47cc0"
+    }
+  ],
+  "renderSources": {
+    "music": "bach-goldberg-var1-ishizaka.mp3",
+    "photo": null
+  }
+}
