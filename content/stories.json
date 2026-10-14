@@ -662,12 +662,16 @@
       "delivery": {
         "parts": [
           {
-            "state": "publishing",
+            "state": "published",
             "containerId": "18031090556887754",
-            "attemptedAt": "2026-10-14T12:25:48.278Z"
+            "attemptedAt": "2026-10-14T12:25:48.278Z",
+            "mediaId": "18109167209229265"
           }
         ]
-      }
+      },
+      "publishedMediaIds": [
+        "18109167209229265"
+      ]
     },
     {
       "id": "2026-09-27-oge-kazhetsya-standalone",
