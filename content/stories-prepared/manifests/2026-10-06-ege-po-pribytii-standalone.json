@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "storyId": "2026-10-06-ege-po-pribytii-standalone",
+  "contentSha256": "e832e0e83bd2dbc0c25d2c35531fe9c23a630fe6b05d2534fe724c5c20e8e82b",
+  "renderedAt": "2026-10-14T10:04:15.451Z",
+  "assets": [
+    {
+      "part": 1,
+      "file": "content/stories/2026-10-06-ege-po-pribytii-standalone-1.mp4",
+      "bytes": 1972673,
+      "sha256": "5a452f8d7d40734b90cfecb72973a6156275c1ca8ddf288ac1bc8a8330dfe4fa"
+    },
+    {
+      "part": 2,
+      "file": "content/stories/2026-10-06-ege-po-pribytii-standalone-2.mp4",
+      "bytes": 9256629,
+      "sha256": "9d576500b423093c7d0a47accf8f2549bc70f8ccbebb8a471b9338174ff8ca86"
+    }
+  ],
+  "renderSources": {
+    "music": "bach-goldberg-var1-ishizaka.mp3",
+    "photo": null
+  }
+}

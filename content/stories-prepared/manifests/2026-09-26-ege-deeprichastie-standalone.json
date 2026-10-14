@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "storyId": "2026-09-26-ege-deeprichastie-standalone",
+  "contentSha256": "5268431f2f3689de1b7a73ccf6568bed95e14ef3d1461acda0e63c422df3c911",
+  "renderedAt": "2026-10-14T10:04:13.288Z",
+  "assets": [
+    {
+      "part": 1,
+      "file": "content/stories/2026-09-26-ege-deeprichastie-standalone-1.mp4",
+      "bytes": 1825636,
+      "sha256": "5202d8d44246ead7d6475785b814f1bb0ae159a4595ee55946c170e01d6425ed"
+    },
+    {
+      "part": 2,
+      "file": "content/stories/2026-09-26-ege-deeprichastie-standalone-2.mp4",
+      "bytes": 7563633,
+      "sha256": "dafeab851e2f9c55ff65cf77f81fac9cea87423a8ca9bf0fe018bf494846b2c7"
+    }
+  ],
+  "renderSources": {
+    "music": "bach-goldberg-var1-ishizaka.mp3",
+    "photo": null
+  }
+}

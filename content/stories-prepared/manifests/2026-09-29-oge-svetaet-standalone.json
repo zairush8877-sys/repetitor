@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "storyId": "2026-09-29-oge-svetaet-standalone",
+  "contentSha256": "299e4c7b4be18fc2fe64406b433ecd2b769d91c45b50d8e4696ce220a6aa5a2c",
+  "renderedAt": "2026-10-14T10:04:14.098Z",
+  "assets": [
+    {
+      "part": 1,
+      "file": "content/stories/2026-09-29-oge-svetaet-standalone-1.mp4",
+      "bytes": 4105105,
+      "sha256": "b4bce8c4c13ff1d43448968899bfe448754054da95178739b6dad3122c93dde3"
+    },
+    {
+      "part": 2,
+      "file": "content/stories/2026-09-29-oge-svetaet-standalone-2.mp4",
+      "bytes": 16166700,
+      "sha256": "d44b0537b28ba6fc93b985c1b508603f7e57d403ccf3fc4a7f0242e8446d6c75"
+    }
+  ],
+  "renderSources": {
+    "music": "bach-goldberg-var1-ishizaka.mp3",
+    "photo": null
+  }
+}

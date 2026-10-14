@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "storyId": "2026-09-27-oge-kazhetsya-standalone",
+  "contentSha256": "acc7aab7bcdaa58f2472f93b3d9195e0e613c55eeb9fc254cc11c7fe920c318c",
+  "renderedAt": "2026-10-14T10:04:13.556Z",
+  "assets": [
+    {
+      "part": 1,
+      "file": "content/stories/2026-09-27-oge-kazhetsya-standalone-1.mp4",
+      "bytes": 3089341,
+      "sha256": "b68d9a4fdb83281ee9e018ea114077b36ae4721851d2c09eb0dd5bda17b7cf0a"
+    },
+    {
+      "part": 2,
+      "file": "content/stories/2026-09-27-oge-kazhetsya-standalone-2.mp4",
+      "bytes": 12440711,
+      "sha256": "3afecd898eefef0c242da66fa6df5b9b5d623c76b005c5a80f4ab1a038608671"
+    }
+  ],
+  "renderSources": {
+    "music": "bach-goldberg-var1-ishizaka.mp3",
+    "photo": null
+  }
+}

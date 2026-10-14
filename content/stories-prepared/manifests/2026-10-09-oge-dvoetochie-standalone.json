@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "storyId": "2026-10-09-oge-dvoetochie-standalone",
+  "contentSha256": "df3867b4a86173428025b1584728b8644964060e9cc7454c51f0fb2f2e08e12a",
+  "renderedAt": "2026-10-14T10:04:16.402Z",
+  "assets": [
+    {
+      "part": 1,
+      "file": "content/stories/2026-10-09-oge-dvoetochie-standalone-1.mp4",
+      "bytes": 4475538,
+      "sha256": "98e151612eccb262651d7b6aa7e02170d13f01354bc19c8968407c080ad5fe28"
+    },
+    {
+      "part": 2,
+      "file": "content/stories/2026-10-09-oge-dvoetochie-standalone-2.mp4",
+      "bytes": 17542744,
+      "sha256": "e924907e15381f02d7a7fdf6a5060d639b872b583de9eab11de0aae32f8b126b"
+    }
+  ],
+  "renderSources": {
+    "music": "bach-goldberg-var1-ishizaka.mp3",
+    "photo": null
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "storyId": "2026-10-04-ege-odnako-standalone",
+  "contentSha256": "85141fba0ffa0eb9771ceb462151d569dfd2f26727f4b0535712f66169930bcf",
+  "renderedAt": "2026-10-14T10:04:14.998Z",
+  "assets": [
+    {
+      "part": 1,
+      "file": "content/stories/2026-10-04-ege-odnako-standalone-1.mp4",
+      "bytes": 2159239,
+      "sha256": "4787c628b65d102755f2ba289268cb87ca52f652df6eb1b363f6c648d77dd943"
+    },
+    {
+      "part": 2,
+      "file": "content/stories/2026-10-04-ege-odnako-standalone-2.mp4",
+      "bytes": 9778822,
+      "sha256": "2cc93e43ad71eb7567783223eb5ba61d0c582d52976551d11e3cd83f147ba70c"
+    }
+  ],
+  "renderSources": {
+    "music": "bach-goldberg-var1-ishizaka.mp3",
+    "photo": null
+  }
+}

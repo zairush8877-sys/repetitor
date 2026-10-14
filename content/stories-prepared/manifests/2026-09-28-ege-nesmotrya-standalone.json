@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "storyId": "2026-09-28-ege-nesmotrya-standalone",
+  "contentSha256": "7cb04505cedc4bb569400eb7e090ad77f7dbdb2d6cf8b459693b15395385fa85",
+  "renderedAt": "2026-10-14T10:04:13.763Z",
+  "assets": [
+    {
+      "part": 1,
+      "file": "content/stories/2026-09-28-ege-nesmotrya-standalone-1.mp4",
+      "bytes": 2401569,
+      "sha256": "0d31ef245cef9b234e1b3413eb46a7491ee4b027436360d4945cfafa89baab8d"
+    },
+    {
+      "part": 2,
+      "file": "content/stories/2026-09-28-ege-nesmotrya-standalone-2.mp4",
+      "bytes": 7443332,
+      "sha256": "06593f2f49275dafc5578ab1c71a4cc12deb75bc8d8304567986d8a764ebbd1a"
+    }
+  ],
+  "renderSources": {
+    "music": "bach-goldberg-var1-ishizaka.mp3",
+    "photo": null
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "storyId": "2026-10-07-oge-argument-standalone",
+  "contentSha256": "02be3fa97dda0e29bae5f92f0c48604fc1777dc3d0be3ff6d1fb91872fb1e443",
+  "renderedAt": "2026-10-14T10:04:15.719Z",
+  "assets": [
+    {
+      "part": 1,
+      "file": "content/stories/2026-10-07-oge-argument-standalone-1.mp4",
+      "bytes": 3233112,
+      "sha256": "2cbfd91c31dbe89a3cf7f98a6fd16128734741c457e3dcbd89f460b25c41cde3"
+    },
+    {
+      "part": 2,
+      "file": "content/stories/2026-10-07-oge-argument-standalone-2.mp4",
+      "bytes": 9574285,
+      "sha256": "f35f8822784106a9a91639f796b83383a076eabf4991c24802e07fd7b52def77"
+    }
+  ],
+  "renderSources": {
+    "music": "bach-goldberg-var1-ishizaka.mp3",
+    "photo": null
+  }
+}

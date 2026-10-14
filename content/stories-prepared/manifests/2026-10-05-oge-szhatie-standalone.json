@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "storyId": "2026-10-05-oge-szhatie-standalone",
+  "contentSha256": "6aa2d02cbaa60a759a3cbf9b873209fdfefade655361ad1df96b93df535247f0",
+  "renderedAt": "2026-10-14T10:04:15.239Z",
+  "assets": [
+    {
+      "part": 1,
+      "file": "content/stories/2026-10-05-oge-szhatie-standalone-1.mp4",
+      "bytes": 3894259,
+      "sha256": "e3d860c97b12e480846c0af485f1c86f00c9191270f6a06dbc7c2e6f3632a1a0"
+    },
+    {
+      "part": 2,
+      "file": "content/stories/2026-10-05-oge-szhatie-standalone-2.mp4",
+      "bytes": 11216782,
+      "sha256": "5e1131ea9eec667f74486c17148e75ce16fccc22e6f33177e2dc8d6eaad985cf"
+    }
+  ],
+  "renderSources": {
+    "music": "bach-goldberg-var1-ishizaka.mp3",
+    "photo": null
+  }
+}
