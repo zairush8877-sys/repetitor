@@ -5738,7 +5738,7 @@
       "date": "2026-10-14",
       "rubric": "Сводка ЕГЭ/ОГЭ",
       "format": "Карусель",
-      "status": "approved",
+      "status": "published",
       "caption": "Рособрнадзор опубликовал проекты КИМ ЕГЭ-2027. Изменения затрагивают историю и профильную математику. В истории будет 22 задания вместо 21, максимум — 43 первичных балла. В профильной математике — 20 заданий вместо 19, максимум — 33 балла.\n\nРусского языка в списке изменений нет. Структура экзамена и количество заданий остаются прежними. Дополнительных материалов на экзамене по русскому языку тоже не предусмотрено: орфографический словарь разрешат только на литературе.\n\nПроекты пока не окончательные, финальные версии выйдут позже. Сверяйте детали на сайте ФИПИ. Готовиться по действующей демоверсии можно уже сейчас.\n\nИсточник: сообщения «Известий» от 11 и 12 октября 2026 со ссылкой на материалы Рособрнадзора и ФИПИ.",
       "hashtags": [
         "#егэ",
@@ -5790,9 +5790,89 @@
         "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-10-13-svodka-6.mp4"
       ],
       "music": {
-        "composer": "Людвиг ван Бетховен",
-        "piece": "Пятая симфония",
-        "license": "Public domain"
+        "composer": "Иоганн Себастьян Бах",
+        "piece": "Гольдберг-вариации, BWV 988 — Вариация № 1",
+        "license": "CC0 1.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "attribution": "И. С. Бах — Гольдберг-вариации, BWV 988, вариация № 1. Фортепиано: Кимико Ишизака, Open Goldberg Variations (2012). Запись CC0 1.0. Фрагмент, громкость изменена.",
+        "attributionRequired": true
+      },
+      "publishedMediaId": "18067550684786781",
+      "publishedAt": "2026-10-14T07:52:41.191Z",
+      "storyRepost": {
+        "version": 1,
+        "feedMediaId": "18067550684786781",
+        "status": "published",
+        "items": [
+          {
+            "index": 1,
+            "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-10-13-svodka-1.jpg",
+            "sha256": "13d6ab40fd76d5620a2dc094215f2db76286132f1700d961807dbbe6e8807cf9",
+            "status": "published",
+            "attempts": 1,
+            "attemptedAt": "2026-10-14T07:52:42.538Z",
+            "containerId": "18031066199887754",
+            "publishedMediaId": "17962769421208896",
+            "publishedAt": "2026-10-14T07:52:55.856Z"
+          },
+          {
+            "index": 2,
+            "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-10-13-svodka-2.jpg",
+            "sha256": "10c1891fa38bfab68cd15d60728b5fca06a32361efc720a57e02302484778e19",
+            "status": "published",
+            "attempts": 1,
+            "attemptedAt": "2026-10-14T07:52:55.859Z",
+            "containerId": "18031066223887754",
+            "publishedMediaId": "18099335069644402",
+            "publishedAt": "2026-10-14T07:53:07.621Z"
+          },
+          {
+            "index": 3,
+            "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-10-13-svodka-3.jpg",
+            "sha256": "423601834bfee1288a46f2eca29b452788999c84e81fadb7fd13c9f5fca2a090",
+            "status": "published",
+            "attempts": 1,
+            "attemptedAt": "2026-10-14T07:53:07.624Z",
+            "containerId": "18031066340887754",
+            "publishedMediaId": "17958312054016167",
+            "publishedAt": "2026-10-14T07:53:16.753Z"
+          },
+          {
+            "index": 4,
+            "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-10-13-svodka-4.jpg",
+            "sha256": "3cf103d63b7701b692862ea46e66372f2d96dd566f51778a494ae3e5ccafa2f1",
+            "status": "published",
+            "attempts": 1,
+            "attemptedAt": "2026-10-14T07:53:16.757Z",
+            "containerId": "18031066376887754",
+            "publishedMediaId": "17933817486142225",
+            "publishedAt": "2026-10-14T07:53:29.654Z"
+          },
+          {
+            "index": 5,
+            "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-10-13-svodka-5.jpg",
+            "sha256": "24b076d673ca17fbc51f17a7a2e5bf7198d9b0b9f174a37f11ad3d356a853fd6",
+            "status": "published",
+            "attempts": 1,
+            "attemptedAt": "2026-10-14T07:53:29.658Z",
+            "containerId": "18031066400887754",
+            "publishedMediaId": "18237511639316194",
+            "publishedAt": "2026-10-14T07:53:42.918Z"
+          },
+          {
+            "index": 6,
+            "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-10-13-svodka-6.jpg",
+            "sha256": "034bf1862cb1b9a79415fc8068c4bfa89986fbc75e9c13deac7f1d783b615db0",
+            "status": "published",
+            "attempts": 1,
+            "attemptedAt": "2026-10-14T07:53:42.921Z",
+            "containerId": "18031066427887754",
+            "publishedMediaId": "18107465630195086",
+            "publishedAt": "2026-10-14T07:53:55.245Z"
+          }
+        ],
+        "sourceKey": "56a11cf698e46d251a0eb423fc83163ae3c6212c660aaf948e8bb68a6280abf4"
       }
     }
   ],
