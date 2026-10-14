@@ -2028,6 +2028,84 @@
         }
       ],
       "editorialStatus": "requires-source-recheck-before-reuse"
+    },
+    {
+      "storyId": "2026-09-26-ege-deeprichastie-standalone",
+      "date": "2026-10-14",
+      "content": {
+        "id": "2026-09-26-ege-deeprichastie-standalone",
+        "type": "exam",
+        "sources": [
+          "https://gramota.ru/biblioteka/spravochniki/russkij-yazyk-kratkij-teoreticheskij-kurs-dlya-shkolnikov/deeprichastie",
+          "https://gramota.ru/journal/stati/nauka/kak-vychislenie-skrytogo-subekta-pomogaet-ponyat-smysl-predlozheniya"
+        ],
+        "rubric": "ЕГЭ",
+        "music": {
+          "file": "bach-goldberg-var1-ishizaka.mp3",
+          "title": "Goldberg Variations, BWV 988: Variatio 1 a 1 Clav.",
+          "piece": "Гольдберг-вариации, BWV 988 — Вариация № 1",
+          "composer": "Иоганн Себастьян Бах",
+          "author": "Kimiko Ishizaka",
+          "performer": "Кимико Ишизака",
+          "license": "CC0 1.0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "source": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+          "rightsSource": "https://opengoldbergvariations.org/",
+          "download": "https://upload.wikimedia.org/wikipedia/commons/2/20/Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+          "attributionRequired": true,
+          "attribution": "И. С. Бах — Гольдберг-вариации, BWV 988, вариация № 1. Фортепиано: Кимико Ишизака, Open Goldberg Variations (2012). Запись CC0 1.0. Фрагмент, громкость изменена.",
+          "checkedAt": "2026-09-19",
+          "excerptFrom": 0.7,
+          "duration": 32,
+          "active": true,
+          "trendVerified": false,
+          "compositionRights": "Public domain: J. S. Bach (1685–1750)",
+          "recordingRights": "Open Goldberg 2012 recording released under CC0; not inferred from composition age",
+          "sourceSha256": "0539f3612413f6077c82e16f92417bad112e44017536f59db257c8179718076f",
+          "sha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8"
+        },
+        "caption": "«Прочитав рассказ, книга вернулась на полку» — грамматическая ошибка. Читал человек, а подлежащим оказалась книга. В варианте «Прочитав рассказ, я вернул книгу на полку» оба действия относятся к одному лицу. Такой разбор полезен для проверки синтаксических норм и собственной письменной речи.\n\nО музыке. Цикл начинается арией; после тридцати вариаций она возвращается.\n\n#егэрусский #подготовкакегэ",
+        "musicLearning": {
+          "fact": "Цикл начинается арией; после тридцати вариаций она возвращается.",
+          "source": "https://www.bachvereniging.nl/en/bwv/bwv-988",
+          "checkedAt": "2026-09-20"
+        }
+      },
+      "contentSha256": "5268431f2f3689de1b7a73ccf6568bed95e14ef3d1461acda0e63c422df3c911",
+      "evidence": {
+        "publishedAt": "2026-10-14T12:26:41.397Z",
+        "publishedMediaIds": [
+          "18109167209229265",
+          "17992722644995355"
+        ]
+      },
+      "media": [
+        {
+          "part": 1,
+          "file": "content/stories/2026-09-26-ege-deeprichastie-standalone-1.jpg",
+          "available": false
+        },
+        {
+          "part": 1,
+          "file": "content/stories/2026-09-26-ege-deeprichastie-standalone-1.mp4",
+          "available": true,
+          "bytes": 1825636,
+          "sha256": "5202d8d44246ead7d6475785b814f1bb0ae159a4595ee55946c170e01d6425ed"
+        },
+        {
+          "part": 2,
+          "file": "content/stories/2026-09-26-ege-deeprichastie-standalone-2.jpg",
+          "available": false
+        },
+        {
+          "part": 2,
+          "file": "content/stories/2026-09-26-ege-deeprichastie-standalone-2.mp4",
+          "available": true,
+          "bytes": 7563633,
+          "sha256": "dafeab851e2f9c55ff65cf77f81fac9cea87423a8ca9bf0fe018bf494846b2c7"
+        }
+      ],
+      "editorialStatus": "requires-source-recheck-before-reuse"
     }
   ]
 }
