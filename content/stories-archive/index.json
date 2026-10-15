@@ -2106,6 +2106,85 @@
         }
       ],
       "editorialStatus": "requires-source-recheck-before-reuse"
+    },
+    {
+      "storyId": "2026-09-27-oge-kazhetsya-standalone",
+      "date": "2026-10-15",
+      "content": {
+        "id": "2026-09-27-oge-kazhetsya-standalone",
+        "type": "exam",
+        "sources": [
+          "https://gramota.ru/biblioteka/spravochniki/spravochnik-po-punktuatsii/kazhetsya",
+          "https://gramota.ru/uchebnik/pravila/normy-postanovki-znakov-prepinaniya-v-predlozheniyakh-s-vvodnymi-slovami",
+          "https://doc.fipi.ru/navigator-podgotovki/navigator-oge/ru-9_5_grammatika._sintaksis.pdf"
+        ],
+        "rubric": "ОГЭ",
+        "music": {
+          "file": "bach-goldberg-var1-ishizaka.mp3",
+          "title": "Goldberg Variations, BWV 988: Variatio 1 a 1 Clav.",
+          "piece": "Гольдберг-вариации, BWV 988 — Вариация № 1",
+          "composer": "Иоганн Себастьян Бах",
+          "author": "Kimiko Ishizaka",
+          "performer": "Кимико Ишизака",
+          "license": "CC0 1.0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "source": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+          "rightsSource": "https://opengoldbergvariations.org/",
+          "download": "https://upload.wikimedia.org/wikipedia/commons/2/20/Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+          "attributionRequired": true,
+          "attribution": "И. С. Бах — Гольдберг-вариации, BWV 988, вариация № 1. Фортепиано: Кимико Ишизака, Open Goldberg Variations (2012). Запись CC0 1.0. Фрагмент, громкость изменена.",
+          "checkedAt": "2026-09-19",
+          "excerptFrom": 0.7,
+          "duration": 32,
+          "active": true,
+          "trendVerified": false,
+          "compositionRights": "Public domain: J. S. Bach (1685–1750)",
+          "recordingRights": "Open Goldberg 2012 recording released under CC0; not inferred from composition age",
+          "sourceSha256": "0539f3612413f6077c82e16f92417bad112e44017536f59db257c8179718076f",
+          "sha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8"
+        },
+        "caption": "Кот, кажется, уснул. Кот кажется сонным. В первой фразе — неуверенность говорящего, во второй — сказуемое «кажется сонным». Запятые зависят от роли слова в предложении.\n\nО музыке. Бах написал этот цикл для клавесина.\n\n#ОГЭрусский #вводныеслова #пунктуация",
+        "musicLearning": {
+          "fact": "Бах написал этот цикл для клавесина.",
+          "source": "https://www.bachvereniging.nl/en/bwv/bwv-988",
+          "checkedAt": "2026-09-20"
+        }
+      },
+      "contentSha256": "acc7aab7bcdaa58f2472f93b3d9195e0e613c55eeb9fc254cc11c7fe920c318c",
+      "evidence": {
+        "publishedAt": "2026-10-15T12:10:39.489Z",
+        "publishedMediaIds": [
+          "18022093586867641",
+          "17925204777206099"
+        ]
+      },
+      "media": [
+        {
+          "part": 1,
+          "file": "content/stories/2026-09-27-oge-kazhetsya-standalone-1.jpg",
+          "available": false
+        },
+        {
+          "part": 1,
+          "file": "content/stories/2026-09-27-oge-kazhetsya-standalone-1.mp4",
+          "available": true,
+          "bytes": 3089341,
+          "sha256": "b68d9a4fdb83281ee9e018ea114077b36ae4721851d2c09eb0dd5bda17b7cf0a"
+        },
+        {
+          "part": 2,
+          "file": "content/stories/2026-09-27-oge-kazhetsya-standalone-2.jpg",
+          "available": false
+        },
+        {
+          "part": 2,
+          "file": "content/stories/2026-09-27-oge-kazhetsya-standalone-2.mp4",
+          "available": true,
+          "bytes": 12440711,
+          "sha256": "3afecd898eefef0c242da66fa6df5b9b5d623c76b005c5a80f4ab1a038608671"
+        }
+      ],
+      "editorialStatus": "requires-source-recheck-before-reuse"
     }
   ]
 }
