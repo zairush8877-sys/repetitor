@@ -684,7 +684,7 @@
     {
       "id": "2026-09-27-oge-kazhetsya-standalone",
       "type": "exam",
-      "status": "approved",
+      "status": "published",
       "rubric": "ОГЭ",
       "question": {
         "headline": "«Кажется»\nне всегда\nв запятых",
@@ -765,7 +765,8 @@
       "publishedMediaIds": [
         "18022093586867641",
         "17925204777206099"
-      ]
+      ],
+      "publishedAt": "2026-10-15T12:10:39.489Z"
     },
     {
       "id": "2026-09-28-ege-nesmotrya-standalone",
