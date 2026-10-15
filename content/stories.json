@@ -745,7 +745,16 @@
       },
       "sourcePostId": "2026-09-27-oge-kazhetsya",
       "proposedDate": "2026-09-27",
-      "approvedFromDraft": "draft-story-2026-09-27-oge-kazhetsya"
+      "approvedFromDraft": "draft-story-2026-09-27-oge-kazhetsya",
+      "delivery": {
+        "parts": [
+          {
+            "state": "publishing",
+            "containerId": "18031228175887754",
+            "attemptedAt": "2026-10-15T12:09:48.323Z"
+          }
+        ]
+      }
     },
     {
       "id": "2026-09-28-ege-nesmotrya-standalone",
