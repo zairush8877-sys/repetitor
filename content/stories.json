@@ -749,12 +749,16 @@
       "delivery": {
         "parts": [
           {
-            "state": "publishing",
+            "state": "published",
             "containerId": "18031228175887754",
-            "attemptedAt": "2026-10-15T12:09:48.323Z"
+            "attemptedAt": "2026-10-15T12:09:48.323Z",
+            "mediaId": "18022093586867641"
           }
         ]
-      }
+      },
+      "publishedMediaIds": [
+        "18022093586867641"
+      ]
     },
     {
       "id": "2026-09-28-ege-nesmotrya-standalone",
