@@ -59,10 +59,14 @@ function legacyPageHtml(post, handle) {
   // Для «как написано → как прочитали» зачёркивать левую нельзя: там не
   // ошибка, а исходная фраза, и подписи колонок задаёт сам пост.
   const compare = !!post.heads && !steps;
+  // Нумерация строк (post.numbered): нужна там, где задание в подписи
+  // ссылается на номер — «напишите номер строки, которая не по правилу».
+  // Без номеров такой призыв не имеет проверяемого ответа.
+  const numbered = steps || !!post.numbered;
   const heads = post.heads || ['Неправильно', 'Правильно'];
   const rows = post.rows.map(([bad, good], i) => steps || compare ? `
     <div class="row" id="row${i}">
-      <span class="bad">${steps ? `<i class="stepnum">${String(i + 1).padStart(2, '0')}</i>` : ''}${esc(bad)}</span>
+      <span class="bad">${numbered ? `<i class="stepnum">${String(i + 1).padStart(2, '0')}</i>` : ''}${esc(bad)}</span>
       <span class="good">${esc(good)}</span>
     </div>` : `
     <div class="row" id="row${i}">
@@ -208,6 +212,9 @@ function legacyPageHtml(post, handle) {
        и вот это здесь соль, поэтому цвет остаётся акцентным. */
     .bad { color: ${PRAVKA.ink} }
     .h-bad { color: ${PRAVKA.ink} }` : ''}
+    ${numbered && !steps ? `
+    .stepnum { font-family: ${FONTS.mono()}; font-style: normal; font-weight: 400;
+               color: ${PRAVKA.err}; margin-right: 18px }` : ''}
     .foot {
       font-family: ${FONTS.mono()};
       font-size: 32px;
@@ -233,16 +240,21 @@ function legacyPageHtml(post, handle) {
       // Строки всегда в потоке (иначе карточка меняет размер толчками), видимость
       // гасится прозрачностью, а высота карточки следует за появлением строк —
       // без этого она либо прыгает, либо стоит пустым белым полем на весь ролик.
+      // Задержка ответа внутри шага строки. По умолчанию 0,5 с — ритм таблицы
+      // «неправильно → правильно», где ответ и есть содержание. У теста задача
+      // обратная: за полсекунды никто не успевает выбрать, и тест вырождается
+      // в чтение. Такой пост ставит revealSeconds больше и шаг строки длиннее.
+      const reveal = ${(() => { const r = Number(post.revealSeconds); return Number.isFinite(r) ? r : 0.5; })()};
       window.seek = (t, intro, step) => {
         document.querySelectorAll('.row').forEach((row, i) => {
           const local = t - intro - i * step;
           const appear = easeOut(Math.min(Math.max(local / 0.3, 0), 1));
           row.style.opacity = appear;
           row.style.transform = 'translateY(' + (1 - appear) * 26 + 'px)';
-          const strike = easeOut(Math.min(Math.max((local - 0.32) / 0.26, 0), 1));
+          const strike = easeOut(Math.min(Math.max((local - (reveal - 0.18)) / 0.26, 0), 1));
           const bs = row.querySelector('.badstrike');
           if (bs) bs.style.clipPath = 'inset(-10% ' + (1 - strike) * 100 + '% -10% 0)';
-          const good = easeOut(Math.min(Math.max((local - 0.5) / 0.28, 0), 1));
+          const good = easeOut(Math.min(Math.max((local - reveal) / 0.28, 0), 1));
           const g = row.querySelector('.good');
           g.style.opacity = good;
           g.style.transform = 'translateX(' + (1 - good) * 22 + 'px)';
@@ -290,6 +302,11 @@ function pageHtml(post, handle) {
     .plate{background:none!important;padding:0!important;box-decoration-break:initial!important}
     .card{background:#fff!important;box-shadow:none!important;border:1px solid #dbe5db;padding:24px 30px 20px!important;flex-shrink:0!important}
     .row,.head{flex-shrink:0!important;grid-template-columns:minmax(0,1fr) minmax(0,1fr)!important}
+    ${post.numbered ? `
+    /* Номер строки съедает начало левой колонки, и пара вариантов начинает
+       переноситься там, где без номера помещалась. Левой колонке отдаём
+       больше: справа всё равно стоит одно короткое слово-ответ. */
+    .row,.head{grid-template-columns:minmax(0,1.4fr) minmax(0,1fr)!important}` : ''}
     .bad,.good{overflow-wrap:anywhere}
     .head{letter-spacing:.06em!important;font-size:24px!important}
     .foot,.foot *{color:#526a60!important;text-shadow:none!important}
@@ -325,6 +342,12 @@ if (require.main === module) (async () => {
   const rowStep = post.rowSeconds ?? ROW_STEP;
   const outro = post.outroSeconds ?? OUTRO;
   if (![rowStep, outro].every(n => Number.isFinite(n) && n >= .5 && n <= 10)) throw new Error('rowSeconds/outroSeconds: допустимо от 0.5 до 10 секунд.');
+  // Ответ, который появляется позже конца шага, не появится вовсе: следующая
+  // строка уже пошла. Поэтому задержка проверяется относительно шага.
+  const reveal = post.revealSeconds ?? 0.5;
+  if (!(Number.isFinite(reveal) && reveal >= .2 && reveal <= rowStep - .3)) {
+    throw new Error(`revealSeconds: допустимо от 0.2 до ${(rowStep - .3).toFixed(2)} при шаге строки ${rowStep} с.`);
+  }
   const total = INTRO + post.rows.length * rowStep + outro;
   const frames = Math.round(total * FPS);
   const tmp = fs.mkdtempSync(path.join(os.tmpdir(), 'reels-'));
