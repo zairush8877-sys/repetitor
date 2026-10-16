@@ -832,12 +832,16 @@
       "delivery": {
         "parts": [
           {
-            "state": "publishing",
+            "state": "published",
             "containerId": "18031373477887754",
-            "attemptedAt": "2026-10-16T11:56:13.560Z"
+            "attemptedAt": "2026-10-16T11:56:13.560Z",
+            "mediaId": "17914302267532386"
           }
         ]
-      }
+      },
+      "publishedMediaIds": [
+        "17914302267532386"
+      ]
     },
     {
       "id": "2026-09-29-oge-svetaet-standalone",
