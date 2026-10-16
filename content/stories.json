@@ -771,7 +771,7 @@
     {
       "id": "2026-09-28-ege-nesmotrya-standalone",
       "type": "exam",
-      "status": "approved",
+      "status": "published",
       "rubric": "ЕГЭ",
       "question": {
         "headline": "СМОТРЕЛИ ИЛИ ДЕЙСТВОВАЛИ ВОПРЕКИ?",
@@ -848,7 +848,8 @@
       "publishedMediaIds": [
         "17914302267532386",
         "18098359013431689"
-      ]
+      ],
+      "publishedAt": "2026-10-16T11:57:04.498Z"
     },
     {
       "id": "2026-09-29-oge-svetaet-standalone",
