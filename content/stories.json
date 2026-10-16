@@ -828,7 +828,16 @@
       },
       "sourcePostId": "2026-09-28-ege-nesmotrya",
       "proposedDate": "2026-09-28",
-      "approvedFromDraft": "draft-story-2026-09-28-ege-nesmotrya"
+      "approvedFromDraft": "draft-story-2026-09-28-ege-nesmotrya",
+      "delivery": {
+        "parts": [
+          {
+            "state": "publishing",
+            "containerId": "18031373477887754",
+            "attemptedAt": "2026-10-16T11:56:13.560Z"
+          }
+        ]
+      }
     },
     {
       "id": "2026-09-29-oge-svetaet-standalone",
