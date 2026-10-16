@@ -2185,6 +2185,85 @@
         }
       ],
       "editorialStatus": "requires-source-recheck-before-reuse"
+    },
+    {
+      "storyId": "2026-09-28-ege-nesmotrya-standalone",
+      "date": "2026-10-16",
+      "content": {
+        "id": "2026-09-28-ege-nesmotrya-standalone",
+        "type": "exam",
+        "sources": [
+          "https://gramota.ru/spravka/vopros/202729",
+          "https://gramota.ru/spravka/vopros/212898",
+          "https://gramota.ru/biblioteka/spravochniki/spravochnik-po-punktuatsii/nesmotrya-na-chto"
+        ],
+        "rubric": "ЕГЭ",
+        "music": {
+          "file": "bach-goldberg-var1-ishizaka.mp3",
+          "title": "Goldberg Variations, BWV 988: Variatio 1 a 1 Clav.",
+          "piece": "Гольдберг-вариации, BWV 988 — Вариация № 1",
+          "composer": "Иоганн Себастьян Бах",
+          "author": "Kimiko Ishizaka",
+          "performer": "Кимико Ишизака",
+          "license": "CC0 1.0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "source": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+          "rightsSource": "https://opengoldbergvariations.org/",
+          "download": "https://upload.wikimedia.org/wikipedia/commons/2/20/Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+          "attributionRequired": true,
+          "attribution": "И. С. Бах — Гольдберг-вариации, BWV 988, вариация № 1. Фортепиано: Кимико Ишизака, Open Goldberg Variations (2012). Запись CC0 1.0. Фрагмент, громкость изменена.",
+          "checkedAt": "2026-09-19",
+          "excerptFrom": 0.7,
+          "duration": 32,
+          "active": true,
+          "trendVerified": false,
+          "compositionRights": "Public domain: J. S. Bach (1685–1750)",
+          "recordingRights": "Open Goldberg 2012 recording released under CC0; not inferred from composition age",
+          "sourceSha256": "0539f3612413f6077c82e16f92417bad112e44017536f59db257c8179718076f",
+          "sha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8"
+        },
+        "caption": "В словах «несмотря на усталость» говорится о препятствии: несмотря = вопреки, пишем слитно. В сочетании «не смотря на экран» говорится о взгляде: не смотря = не глядя, пишем раздельно. В приведённых предложениях обороты отделены запятыми; обособление не служит проверкой слитного написания.\n\nО музыке. «Гольдберг-вариации» впервые напечатали в 1741 году.\n\n#егэрусский #подготовкакегэ",
+        "musicLearning": {
+          "fact": "«Гольдберг-вариации» впервые напечатали в 1741 году.",
+          "source": "https://www.bachvereniging.nl/en/bwv/bwv-988",
+          "checkedAt": "2026-09-20"
+        }
+      },
+      "contentSha256": "7cb04505cedc4bb569400eb7e090ad77f7dbdb2d6cf8b459693b15395385fa85",
+      "evidence": {
+        "publishedAt": "2026-10-16T11:57:04.498Z",
+        "publishedMediaIds": [
+          "17914302267532386",
+          "18098359013431689"
+        ]
+      },
+      "media": [
+        {
+          "part": 1,
+          "file": "content/stories/2026-09-28-ege-nesmotrya-standalone-1.jpg",
+          "available": false
+        },
+        {
+          "part": 1,
+          "file": "content/stories/2026-09-28-ege-nesmotrya-standalone-1.mp4",
+          "available": true,
+          "bytes": 2401569,
+          "sha256": "0d31ef245cef9b234e1b3413eb46a7491ee4b027436360d4945cfafa89baab8d"
+        },
+        {
+          "part": 2,
+          "file": "content/stories/2026-09-28-ege-nesmotrya-standalone-2.jpg",
+          "available": false
+        },
+        {
+          "part": 2,
+          "file": "content/stories/2026-09-28-ege-nesmotrya-standalone-2.mp4",
+          "available": true,
+          "bytes": 7443332,
+          "sha256": "06593f2f49275dafc5578ab1c71a4cc12deb75bc8d8304567986d8a764ebbd1a"
+        }
+      ],
+      "editorialStatus": "requires-source-recheck-before-reuse"
     }
   ]
 }
