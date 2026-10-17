@@ -854,7 +854,7 @@
     {
       "id": "2026-09-29-oge-svetaet-standalone",
       "type": "exam",
-      "status": "approved",
+      "status": "published",
       "rubric": "ОГЭ",
       "question": {
         "headline": "Подлежащее\nне потерялось",
@@ -936,7 +936,8 @@
       "publishedMediaIds": [
         "18144209632568038",
         "18124258142489124"
-      ]
+      ],
+      "publishedAt": "2026-10-17T11:13:25.499Z"
     },
     {
       "id": "2026-09-30-ege-ne-kto-standalone",
