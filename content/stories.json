@@ -920,12 +920,16 @@
       "delivery": {
         "parts": [
           {
-            "state": "publishing",
+            "state": "published",
             "containerId": "18031517084887754",
-            "attemptedAt": "2026-10-17T11:12:31.773Z"
+            "attemptedAt": "2026-10-17T11:12:31.773Z",
+            "mediaId": "18144209632568038"
           }
         ]
-      }
+      },
+      "publishedMediaIds": [
+        "18144209632568038"
+      ]
     },
     {
       "id": "2026-09-30-ege-ne-kto-standalone",
