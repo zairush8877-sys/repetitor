@@ -2264,6 +2264,86 @@
         }
       ],
       "editorialStatus": "requires-source-recheck-before-reuse"
+    },
+    {
+      "storyId": "2026-09-29-oge-svetaet-standalone",
+      "date": "2026-10-17",
+      "content": {
+        "id": "2026-09-29-oge-svetaet-standalone",
+        "type": "exam",
+        "sources": [
+          "https://gramota.ru/biblioteka/spravochniki/russkij-yazyk-kratkij-teoreticheskij-kurs-dlya-shkolnikov/odnosostavnoe-predlozhenie-vyrazhenie-glavnogo-chlena-v-nem",
+          "https://gramota.ru/biblioteka/spravochniki/russkij-yazyk-kratkij-teoreticheskij-kurs-dlya-shkolnikov/bezlichnye-predlozheniya",
+          "https://gramota.ru/poisk?mode=slovari&query=%D1%81%D0%B2%D0%B5%D1%82%D0%B0%D1%82%D1%8C",
+          "https://doc.fipi.ru/navigator-podgotovki/navigator-oge/ru-9_5_grammatika._sintaksis.pdf"
+        ],
+        "rubric": "ОГЭ",
+        "music": {
+          "file": "bach-goldberg-var1-ishizaka.mp3",
+          "title": "Goldberg Variations, BWV 988: Variatio 1 a 1 Clav.",
+          "piece": "Гольдберг-вариации, BWV 988 — Вариация № 1",
+          "composer": "Иоганн Себастьян Бах",
+          "author": "Kimiko Ishizaka",
+          "performer": "Кимико Ишизака",
+          "license": "CC0 1.0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "source": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+          "rightsSource": "https://opengoldbergvariations.org/",
+          "download": "https://upload.wikimedia.org/wikipedia/commons/2/20/Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+          "attributionRequired": true,
+          "attribution": "И. С. Бах — Гольдберг-вариации, BWV 988, вариация № 1. Фортепиано: Кимико Ишизака, Open Goldberg Variations (2012). Запись CC0 1.0. Фрагмент, громкость изменена.",
+          "checkedAt": "2026-09-19",
+          "excerptFrom": 0.7,
+          "duration": 32,
+          "active": true,
+          "trendVerified": false,
+          "compositionRights": "Public domain: J. S. Bach (1685–1750)",
+          "recordingRights": "Open Goldberg 2012 recording released under CC0; not inferred from composition age",
+          "sourceSha256": "0539f3612413f6077c82e16f92417bad112e44017536f59db257c8179718076f",
+          "sha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8"
+        },
+        "caption": "В предложении «За окном светает» не нужно искать спрятанное подлежащее. Оно односоставное, безличное: главный член — «светает». А в предложении «Окно светится» основа уже из двух главных членов.\n\nО музыке. Название «Гольдберг-вариации» появилось позже: сам Бах так цикл не называл.\n\n#ОГЭрусский #грамматическаяоснова #синтаксис",
+        "musicLearning": {
+          "fact": "Название «Гольдберг-вариации» появилось позже: сам Бах так цикл не называл.",
+          "source": "https://www.bachvereniging.nl/en/bwv/bwv-988",
+          "checkedAt": "2026-09-20"
+        }
+      },
+      "contentSha256": "299e4c7b4be18fc2fe64406b433ecd2b769d91c45b50d8e4696ce220a6aa5a2c",
+      "evidence": {
+        "publishedAt": "2026-10-17T11:13:25.499Z",
+        "publishedMediaIds": [
+          "18144209632568038",
+          "18124258142489124"
+        ]
+      },
+      "media": [
+        {
+          "part": 1,
+          "file": "content/stories/2026-09-29-oge-svetaet-standalone-1.jpg",
+          "available": false
+        },
+        {
+          "part": 1,
+          "file": "content/stories/2026-09-29-oge-svetaet-standalone-1.mp4",
+          "available": true,
+          "bytes": 4105105,
+          "sha256": "b4bce8c4c13ff1d43448968899bfe448754054da95178739b6dad3122c93dde3"
+        },
+        {
+          "part": 2,
+          "file": "content/stories/2026-09-29-oge-svetaet-standalone-2.jpg",
+          "available": false
+        },
+        {
+          "part": 2,
+          "file": "content/stories/2026-09-29-oge-svetaet-standalone-2.mp4",
+          "available": true,
+          "bytes": 16166700,
+          "sha256": "d44b0537b28ba6fc93b985c1b508603f7e57d403ccf3fc4a7f0242e8446d6c75"
+        }
+      ],
+      "editorialStatus": "requires-source-recheck-before-reuse"
     }
   ]
 }
