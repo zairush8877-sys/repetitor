@@ -2344,6 +2344,85 @@
         }
       ],
       "editorialStatus": "requires-source-recheck-before-reuse"
+    },
+    {
+      "storyId": "2026-09-30-ege-ne-kto-standalone",
+      "date": "2026-10-18",
+      "content": {
+        "id": "2026-09-30-ege-ne-kto-standalone",
+        "type": "exam",
+        "sources": [
+          "https://gramota.ru/uchebnik/pravila/razlichenie-chastits-ne-i-ni",
+          "https://gramota.ru/storage/public/normdicts/orfograficheskij_slovar.pdf",
+          "https://gramota.ru/spravka/vopros/319868"
+        ],
+        "rubric": "ЕГЭ",
+        "music": {
+          "file": "bach-goldberg-var1-ishizaka.mp3",
+          "title": "Goldberg Variations, BWV 988: Variatio 1 a 1 Clav.",
+          "piece": "Гольдберг-вариации, BWV 988 — Вариация № 1",
+          "composer": "Иоганн Себастьян Бах",
+          "author": "Kimiko Ishizaka",
+          "performer": "Кимико Ишизака",
+          "license": "CC0 1.0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "source": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+          "rightsSource": "https://opengoldbergvariations.org/",
+          "download": "https://upload.wikimedia.org/wikipedia/commons/2/20/Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+          "attributionRequired": true,
+          "attribution": "И. С. Бах — Гольдберг-вариации, BWV 988, вариация № 1. Фортепиано: Кимико Ишизака, Open Goldberg Variations (2012). Запись CC0 1.0. Фрагмент, громкость изменена.",
+          "checkedAt": "2026-09-19",
+          "excerptFrom": 0.7,
+          "duration": 32,
+          "active": true,
+          "trendVerified": false,
+          "compositionRights": "Public domain: J. S. Bach (1685–1750)",
+          "recordingRights": "Open Goldberg 2012 recording released under CC0; not inferred from composition age",
+          "sourceSha256": "0539f3612413f6077c82e16f92417bad112e44017536f59db257c8179718076f",
+          "sha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8"
+        },
+        "caption": "В фразе «Это не кто иной, как наш тренер» сочетание означает «именно»: НЕ пишется отдельно, перед «как» нужна запятая. В предложении «Никто иной не знал маршрута» местоимение пишется слитно с НИ. Сравнивайте смысл целой конструкции.\n\nО музыке. Цикл начинается арией; после тридцати вариаций она возвращается.\n\n#егэрусский #подготовкакегэ",
+        "musicLearning": {
+          "fact": "Цикл начинается арией; после тридцати вариаций она возвращается.",
+          "source": "https://www.bachvereniging.nl/en/bwv/bwv-988",
+          "checkedAt": "2026-09-20"
+        }
+      },
+      "contentSha256": "3353772919e9b7739248438d94916d132583dc6ffee8214a2a9a2b315982be7c",
+      "evidence": {
+        "publishedAt": "2026-10-18T11:45:41.812Z",
+        "publishedMediaIds": [
+          "17996537264838057",
+          "18136260805646899"
+        ]
+      },
+      "media": [
+        {
+          "part": 1,
+          "file": "content/stories/2026-09-30-ege-ne-kto-standalone-1.jpg",
+          "available": false
+        },
+        {
+          "part": 1,
+          "file": "content/stories/2026-09-30-ege-ne-kto-standalone-1.mp4",
+          "available": true,
+          "bytes": 1684727,
+          "sha256": "14b877b973da8ce1749e07687c4d81001911727b9b523fd5f977bdaf5c9c9b11"
+        },
+        {
+          "part": 2,
+          "file": "content/stories/2026-09-30-ege-ne-kto-standalone-2.jpg",
+          "available": false
+        },
+        {
+          "part": 2,
+          "file": "content/stories/2026-09-30-ege-ne-kto-standalone-2.mp4",
+          "available": true,
+          "bytes": 6987463,
+          "sha256": "022e46d8773ec23dac37b5bdbd7fe2d692040554377bcf56576af96ef70112d2"
+        }
+      ],
+      "editorialStatus": "requires-source-recheck-before-reuse"
     }
   ]
 }
