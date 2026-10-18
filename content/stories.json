@@ -942,7 +942,7 @@
     {
       "id": "2026-09-30-ege-ne-kto-standalone",
       "type": "exam",
-      "status": "approved",
+      "status": "published",
       "rubric": "ЕГЭ",
       "question": {
         "headline": "ИМЕННО ОН. ИЛИ НИКТО ДРУГОЙ?",
@@ -1023,7 +1023,8 @@
       "publishedMediaIds": [
         "17996537264838057",
         "18136260805646899"
-      ]
+      ],
+      "publishedAt": "2026-10-18T11:45:41.812Z"
     },
     {
       "id": "2026-10-01-oge-svyaz-standalone",
