@@ -1003,7 +1003,16 @@
       },
       "sourcePostId": "2026-09-30-ege-ne-kto",
       "proposedDate": "2026-09-30",
-      "approvedFromDraft": "draft-story-2026-09-30-ege-ne-kto"
+      "approvedFromDraft": "draft-story-2026-09-30-ege-ne-kto",
+      "delivery": {
+        "parts": [
+          {
+            "state": "publishing",
+            "containerId": "18031684382887754",
+            "attemptedAt": "2026-10-18T11:44:49.938Z"
+          }
+        ]
+      }
     },
     {
       "id": "2026-10-01-oge-svyaz-standalone",
