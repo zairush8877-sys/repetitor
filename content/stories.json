@@ -1007,12 +1007,16 @@
       "delivery": {
         "parts": [
           {
-            "state": "publishing",
+            "state": "published",
             "containerId": "18031684382887754",
-            "attemptedAt": "2026-10-18T11:44:49.938Z"
+            "attemptedAt": "2026-10-18T11:44:49.938Z",
+            "mediaId": "17996537264838057"
           }
         ]
-      }
+      },
+      "publishedMediaIds": [
+        "17996537264838057"
+      ]
     },
     {
       "id": "2026-10-01-oge-svyaz-standalone",
