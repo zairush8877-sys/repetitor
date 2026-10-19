@@ -1029,7 +1029,7 @@
     {
       "id": "2026-10-01-oge-svyaz-standalone",
       "type": "exam",
-      "status": "approved",
+      "status": "published",
       "rubric": "ОГЭ",
       "question": {
         "headline": "Один шарф —\nтри связи",
@@ -1105,7 +1105,8 @@
       "publishedMediaIds": [
         "18025436735877010",
         "18137284711648978"
-      ]
+      ],
+      "publishedAt": "2026-10-19T14:00:14.207Z"
     },
     {
       "id": "2026-10-02-ege-bsp-colon-standalone",
