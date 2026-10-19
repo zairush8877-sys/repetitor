@@ -1089,12 +1089,16 @@
       "delivery": {
         "parts": [
           {
-            "state": "publishing",
+            "state": "published",
             "containerId": "18031846043887754",
-            "attemptedAt": "2026-10-19T13:59:25.494Z"
+            "attemptedAt": "2026-10-19T13:59:25.494Z",
+            "mediaId": "18025436735877010"
           }
         ]
-      }
+      },
+      "publishedMediaIds": [
+        "18025436735877010"
+      ]
     },
     {
       "id": "2026-10-02-ege-bsp-colon-standalone",
