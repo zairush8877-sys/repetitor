@@ -2423,6 +2423,84 @@
         }
       ],
       "editorialStatus": "requires-source-recheck-before-reuse"
+    },
+    {
+      "storyId": "2026-10-01-oge-svyaz-standalone",
+      "date": "2026-10-19",
+      "content": {
+        "id": "2026-10-01-oge-svyaz-standalone",
+        "type": "exam",
+        "sources": [
+          "https://gramota.ru/biblioteka/spravochniki/russkij-yazyk-kratkij-teoreticheskij-kurs-dlya-shkolnikov/predlozhenie",
+          "https://doc.fipi.ru/navigator-podgotovki/navigator-oge/ru-9_5_grammatika._sintaksis.pdf"
+        ],
+        "rubric": "ОГЭ",
+        "music": {
+          "file": "bach-goldberg-var1-ishizaka.mp3",
+          "title": "Goldberg Variations, BWV 988: Variatio 1 a 1 Clav.",
+          "piece": "Гольдберг-вариации, BWV 988 — Вариация № 1",
+          "composer": "Иоганн Себастьян Бах",
+          "author": "Kimiko Ishizaka",
+          "performer": "Кимико Ишизака",
+          "license": "CC0 1.0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "source": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+          "rightsSource": "https://opengoldbergvariations.org/",
+          "download": "https://upload.wikimedia.org/wikipedia/commons/2/20/Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+          "attributionRequired": true,
+          "attribution": "И. С. Бах — Гольдберг-вариации, BWV 988, вариация № 1. Фортепиано: Кимико Ишизака, Open Goldberg Variations (2012). Запись CC0 1.0. Фрагмент, громкость изменена.",
+          "checkedAt": "2026-09-19",
+          "excerptFrom": 0.7,
+          "duration": 32,
+          "active": true,
+          "trendVerified": false,
+          "compositionRights": "Public domain: J. S. Bach (1685–1750)",
+          "recordingRights": "Open Goldberg 2012 recording released under CC0; not inferred from composition age",
+          "sourceSha256": "0539f3612413f6077c82e16f92417bad112e44017536f59db257c8179718076f",
+          "sha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8"
+        },
+        "caption": "Шерстяной шарф, шарф из шерсти, очень мягкий. Три сочетания про одну вещь — и три способа связи слов. Сначала находим главное слово, затем смотрим, как к нему присоединено зависимое.\n\nО музыке. Бах написал этот цикл для клавесина.\n\n#ОГЭрусский #словосочетание #синтаксис",
+        "musicLearning": {
+          "fact": "Бах написал этот цикл для клавесина.",
+          "source": "https://www.bachvereniging.nl/en/bwv/bwv-988",
+          "checkedAt": "2026-09-20"
+        }
+      },
+      "contentSha256": "c843802a591d13dcdd1357aa77facfda629e9410f2346a44ba25f1774a7ccaa8",
+      "evidence": {
+        "publishedAt": "2026-10-19T14:00:14.207Z",
+        "publishedMediaIds": [
+          "18025436735877010",
+          "18137284711648978"
+        ]
+      },
+      "media": [
+        {
+          "part": 1,
+          "file": "content/stories/2026-10-01-oge-svyaz-standalone-1.jpg",
+          "available": false
+        },
+        {
+          "part": 1,
+          "file": "content/stories/2026-10-01-oge-svyaz-standalone-1.mp4",
+          "available": true,
+          "bytes": 2111691,
+          "sha256": "dab66b39f9663232625982ffc0b9d3700f3144a5515bedda618c66fb77f7bcc8"
+        },
+        {
+          "part": 2,
+          "file": "content/stories/2026-10-01-oge-svyaz-standalone-2.jpg",
+          "available": false
+        },
+        {
+          "part": 2,
+          "file": "content/stories/2026-10-01-oge-svyaz-standalone-2.mp4",
+          "available": true,
+          "bytes": 7136181,
+          "sha256": "bc82afb50d2fc43b9971f1a2fc04c3c49b7cfb676182cad7c95ef85365a47cc0"
+        }
+      ],
+      "editorialStatus": "requires-source-recheck-before-reuse"
     }
   ]
 }
