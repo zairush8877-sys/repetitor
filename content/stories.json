@@ -1085,7 +1085,16 @@
       },
       "sourcePostId": "2026-10-01-oge-svyaz",
       "proposedDate": "2026-10-01",
-      "approvedFromDraft": "draft-story-2026-10-01-oge-svyaz"
+      "approvedFromDraft": "draft-story-2026-10-01-oge-svyaz",
+      "delivery": {
+        "parts": [
+          {
+            "state": "publishing",
+            "containerId": "18031846043887754",
+            "attemptedAt": "2026-10-19T13:59:25.494Z"
+          }
+        ]
+      }
     },
     {
       "id": "2026-10-02-ege-bsp-colon-standalone",
