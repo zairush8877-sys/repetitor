@@ -2501,6 +2501,84 @@
         }
       ],
       "editorialStatus": "requires-source-recheck-before-reuse"
+    },
+    {
+      "storyId": "2026-10-02-ege-bsp-colon-standalone",
+      "date": "2026-10-20",
+      "content": {
+        "id": "2026-10-02-ege-bsp-colon-standalone",
+        "type": "exam",
+        "sources": [
+          "https://gramota.ru/uchebnik/pravila/normy-postanovki-znakov-prepinaniya-v-bessoyuznom-slozhnom-predlozhenii",
+          "https://gramota.ru/poisk?mode=spravka&query=обоснования"
+        ],
+        "rubric": "ЕГЭ",
+        "music": {
+          "file": "bach-goldberg-var1-ishizaka.mp3",
+          "title": "Goldberg Variations, BWV 988: Variatio 1 a 1 Clav.",
+          "piece": "Гольдберг-вариации, BWV 988 — Вариация № 1",
+          "composer": "Иоганн Себастьян Бах",
+          "author": "Kimiko Ishizaka",
+          "performer": "Кимико Ишизака",
+          "license": "CC0 1.0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "source": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+          "rightsSource": "https://opengoldbergvariations.org/",
+          "download": "https://upload.wikimedia.org/wikipedia/commons/2/20/Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+          "attributionRequired": true,
+          "attribution": "И. С. Бах — Гольдберг-вариации, BWV 988, вариация № 1. Фортепиано: Кимико Ишизака, Open Goldberg Variations (2012). Запись CC0 1.0. Фрагмент, громкость изменена.",
+          "checkedAt": "2026-09-19",
+          "excerptFrom": 0.7,
+          "duration": 32,
+          "active": true,
+          "trendVerified": false,
+          "compositionRights": "Public domain: J. S. Bach (1685–1750)",
+          "recordingRights": "Open Goldberg 2012 recording released under CC0; not inferred from composition age",
+          "sourceSha256": "0539f3612413f6077c82e16f92417bad112e44017536f59db257c8179718076f",
+          "sha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8"
+        },
+        "caption": "В бессоюзном предложении двоеточие может вводить причину или пояснение. «Мы остались дома: началась гроза» — причина. «План был прост: мы поедем утром» — раскрытие плана. Это два основания для выбранного двоеточия, а не вся пунктуация бессоюзных предложений. Подстановка помогает проверить смысл, но не заменяет разбор.\n\nО музыке. «Гольдберг-вариации» впервые напечатали в 1741 году.\n\n#егэрусский #подготовкакегэ",
+        "musicLearning": {
+          "fact": "«Гольдберг-вариации» впервые напечатали в 1741 году.",
+          "source": "https://www.bachvereniging.nl/en/bwv/bwv-988",
+          "checkedAt": "2026-09-20"
+        }
+      },
+      "contentSha256": "a6920108a5a59705291405b7b7dec606a555eab8f05069d006508854ad177cfd",
+      "evidence": {
+        "publishedAt": "2026-10-20T12:16:50.032Z",
+        "publishedMediaIds": [
+          "18035562488900897",
+          "18095278163166948"
+        ]
+      },
+      "media": [
+        {
+          "part": 1,
+          "file": "content/stories/2026-10-02-ege-bsp-colon-standalone-1.jpg",
+          "available": false
+        },
+        {
+          "part": 1,
+          "file": "content/stories/2026-10-02-ege-bsp-colon-standalone-1.mp4",
+          "available": true,
+          "bytes": 3508762,
+          "sha256": "7ec337dca253650b1b754c833a011bf15dfdba759513b640f9a11c28f9ce3493"
+        },
+        {
+          "part": 2,
+          "file": "content/stories/2026-10-02-ege-bsp-colon-standalone-2.jpg",
+          "available": false
+        },
+        {
+          "part": 2,
+          "file": "content/stories/2026-10-02-ege-bsp-colon-standalone-2.mp4",
+          "available": true,
+          "bytes": 10624794,
+          "sha256": "c930e62710ec5a2423ff6715a8d83eacc77dfecc553db34510b0ff76f1ecba13"
+        }
+      ],
+      "editorialStatus": "requires-source-recheck-before-reuse"
     }
   ]
 }
