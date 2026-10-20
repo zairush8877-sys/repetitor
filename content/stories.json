@@ -1171,12 +1171,16 @@
       "delivery": {
         "parts": [
           {
-            "state": "publishing",
+            "state": "published",
             "containerId": "18031987133887754",
-            "attemptedAt": "2026-10-20T12:15:34.642Z"
+            "attemptedAt": "2026-10-20T12:15:34.642Z",
+            "mediaId": "18035562488900897"
           }
         ]
-      }
+      },
+      "publishedMediaIds": [
+        "18035562488900897"
+      ]
     },
     {
       "id": "2026-10-03-oge-bez-bes-standalone",
