@@ -1167,7 +1167,16 @@
       },
       "sourcePostId": "2026-10-02-ege-bsp-colon",
       "proposedDate": "2026-10-02",
-      "approvedFromDraft": "draft-story-2026-10-02-ege-bsp-colon"
+      "approvedFromDraft": "draft-story-2026-10-02-ege-bsp-colon",
+      "delivery": {
+        "parts": [
+          {
+            "state": "publishing",
+            "containerId": "18031987133887754",
+            "attemptedAt": "2026-10-20T12:15:34.642Z"
+          }
+        ]
+      }
     },
     {
       "id": "2026-10-03-oge-bez-bes-standalone",
