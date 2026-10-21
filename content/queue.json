@@ -5880,7 +5880,7 @@
       "status": "pending",
       "format": "Reels",
       "rubric": "Проверьте себя",
-      "school": false,
+      "school": true,
       "kicker": "ТЕСТ НА ГРАМОТНОСТЬ",
       "title": "Она начала́\nили нача́ла?",
       "heads": [
