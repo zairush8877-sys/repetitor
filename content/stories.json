@@ -1259,12 +1259,16 @@
       "delivery": {
         "parts": [
           {
-            "state": "publishing",
+            "state": "published",
             "containerId": "18032133263887754",
-            "attemptedAt": "2026-10-21T12:27:36.283Z"
+            "attemptedAt": "2026-10-21T12:27:36.283Z",
+            "mediaId": "18081693485381202"
           }
         ]
-      }
+      },
+      "publishedMediaIds": [
+        "18081693485381202"
+      ]
     },
     {
       "id": "2026-10-04-ege-odnako-standalone",
