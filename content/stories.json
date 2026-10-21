@@ -1193,7 +1193,7 @@
     {
       "id": "2026-10-03-oge-bez-bes-standalone",
       "type": "exam",
-      "status": "approved",
+      "status": "published",
       "rubric": "ОГЭ",
       "question": {
         "headline": "Тихо.\nА приставки\nразные.",
@@ -1275,7 +1275,8 @@
       "publishedMediaIds": [
         "18081693485381202",
         "18029332607879848"
-      ]
+      ],
+      "publishedAt": "2026-10-21T12:28:23.802Z"
     },
     {
       "id": "2026-10-04-ege-odnako-standalone",
