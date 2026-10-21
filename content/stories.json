@@ -1263,6 +1263,11 @@
             "containerId": "18032133263887754",
             "attemptedAt": "2026-10-21T12:27:36.283Z",
             "mediaId": "18081693485381202"
+          },
+          {
+            "state": "publishing",
+            "containerId": "18032133377887754",
+            "attemptedAt": "2026-10-21T12:28:14.823Z"
           }
         ]
       },
