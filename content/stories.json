@@ -1255,7 +1255,16 @@
       },
       "sourcePostId": "2026-10-03-oge-bez-bes",
       "proposedDate": "2026-10-03",
-      "approvedFromDraft": "draft-story-2026-10-03-oge-bez-bes"
+      "approvedFromDraft": "draft-story-2026-10-03-oge-bez-bes",
+      "delivery": {
+        "parts": [
+          {
+            "state": "publishing",
+            "containerId": "18032133263887754",
+            "attemptedAt": "2026-10-21T12:27:36.283Z"
+          }
+        ]
+      }
     },
     {
       "id": "2026-10-04-ege-odnako-standalone",
