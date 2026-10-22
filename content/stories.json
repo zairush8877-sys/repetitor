@@ -1281,7 +1281,7 @@
     {
       "id": "2026-10-04-ege-odnako-standalone",
       "type": "exam",
-      "status": "approved",
+      "status": "published",
       "rubric": "ЕГЭ",
       "question": {
         "headline": "ОДНАКО ПОЕЗД ЗАДЕРЖАЛСЯ",
@@ -1360,7 +1360,8 @@
       "publishedMediaIds": [
         "18077047190563768",
         "18136422208655555"
-      ]
+      ],
+      "publishedAt": "2026-10-22T12:31:12.213Z"
     },
     {
       "id": "2026-10-05-oge-szhatie-standalone",
