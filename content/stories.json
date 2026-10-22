@@ -1340,7 +1340,16 @@
       },
       "sourcePostId": "2026-10-04-ege-odnako",
       "proposedDate": "2026-10-04",
-      "approvedFromDraft": "draft-story-2026-10-04-ege-odnako"
+      "approvedFromDraft": "draft-story-2026-10-04-ege-odnako",
+      "delivery": {
+        "parts": [
+          {
+            "state": "publishing",
+            "containerId": "18032263595887754",
+            "attemptedAt": "2026-10-22T12:29:43.956Z"
+          }
+        ]
+      }
     },
     {
       "id": "2026-10-05-oge-szhatie-standalone",
