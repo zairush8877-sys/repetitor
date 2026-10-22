@@ -2659,6 +2659,83 @@
         }
       ],
       "editorialStatus": "requires-source-recheck-before-reuse"
+    },
+    {
+      "storyId": "2026-10-04-ege-odnako-standalone",
+      "date": "2026-10-22",
+      "content": {
+        "id": "2026-10-04-ege-odnako-standalone",
+        "type": "exam",
+        "sources": [
+          "https://gramota.ru/biblioteka/spravochniki/pravila-russkoy-orfografii-i-punktuatsii/znaki-prepinaniya-pri-vvodnykh-slovakh-sochetaniyakh-slov-i-predlozheniyakh"
+        ],
+        "rubric": "ЕГЭ",
+        "music": {
+          "file": "bach-goldberg-var1-ishizaka.mp3",
+          "title": "Goldberg Variations, BWV 988: Variatio 1 a 1 Clav.",
+          "piece": "Гольдберг-вариации, BWV 988 — Вариация № 1",
+          "composer": "Иоганн Себастьян Бах",
+          "author": "Kimiko Ishizaka",
+          "performer": "Кимико Ишизака",
+          "license": "CC0 1.0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "source": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+          "rightsSource": "https://opengoldbergvariations.org/",
+          "download": "https://upload.wikimedia.org/wikipedia/commons/2/20/Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+          "attributionRequired": true,
+          "attribution": "И. С. Бах — Гольдберг-вариации, BWV 988, вариация № 1. Фортепиано: Кимико Ишизака, Open Goldberg Variations (2012). Запись CC0 1.0. Фрагмент, громкость изменена.",
+          "checkedAt": "2026-09-19",
+          "excerptFrom": 0.7,
+          "duration": 32,
+          "active": true,
+          "trendVerified": false,
+          "compositionRights": "Public domain: J. S. Bach (1685–1750)",
+          "recordingRights": "Open Goldberg 2012 recording released under CC0; not inferred from composition age",
+          "sourceSha256": "0539f3612413f6077c82e16f92417bad112e44017536f59db257c8179718076f",
+          "sha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8"
+        },
+        "caption": "«Однако поезд задержался»: здесь «однако» означает «но», поэтому после него нет запятой. «Поезд, однако, задержался»: вводное слово обособлено. Это разбор двух конкретных конструкций, а не запрет на любую запятую после «однако» в начале предложения: там может начинаться отдельный оборот.\n\nО музыке. Цикл начинается арией; после тридцати вариаций она возвращается.\n\n#егэрусский #подготовкакегэ",
+        "musicLearning": {
+          "fact": "Цикл начинается арией; после тридцати вариаций она возвращается.",
+          "source": "https://www.bachvereniging.nl/en/bwv/bwv-988",
+          "checkedAt": "2026-09-20"
+        }
+      },
+      "contentSha256": "85141fba0ffa0eb9771ceb462151d569dfd2f26727f4b0535712f66169930bcf",
+      "evidence": {
+        "publishedAt": "2026-10-22T12:31:12.213Z",
+        "publishedMediaIds": [
+          "18077047190563768",
+          "18136422208655555"
+        ]
+      },
+      "media": [
+        {
+          "part": 1,
+          "file": "content/stories/2026-10-04-ege-odnako-standalone-1.jpg",
+          "available": false
+        },
+        {
+          "part": 1,
+          "file": "content/stories/2026-10-04-ege-odnako-standalone-1.mp4",
+          "available": true,
+          "bytes": 2159239,
+          "sha256": "4787c628b65d102755f2ba289268cb87ca52f652df6eb1b363f6c648d77dd943"
+        },
+        {
+          "part": 2,
+          "file": "content/stories/2026-10-04-ege-odnako-standalone-2.jpg",
+          "available": false
+        },
+        {
+          "part": 2,
+          "file": "content/stories/2026-10-04-ege-odnako-standalone-2.mp4",
+          "available": true,
+          "bytes": 9778822,
+          "sha256": "2cc93e43ad71eb7567783223eb5ba61d0c582d52976551d11e3cd83f147ba70c"
+        }
+      ],
+      "editorialStatus": "requires-source-recheck-before-reuse"
     }
   ]
 }
