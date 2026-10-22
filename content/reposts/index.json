@@ -1300,6 +1300,34 @@
           }
         }
       ]
+    },
+    "2026-10-16-test-udarenie": {
+      "kind": "reel_frame",
+      "sourceKey": "6ec069904b063794658dbcc2eab018fa12223680ac0b9a4e6b659b7e6586020e",
+      "renderedAt": "2026-10-22T09:54:43.798Z",
+      "publicationStatus": "export_only",
+      "assets": [
+        {
+          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-16-test-udarenie-frame.jpg",
+          "file": "2026-10-16-test-udarenie-1.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-10-16-test-udarenie-1.jpg",
+          "width": 1080,
+          "height": 1920,
+          "sha256": "0ca68e8af9082f29ec2fe2c179b56679e9dec1c7f719336b42dabd638b0a04da",
+          "geometry": {
+            "sourceWidth": 1080,
+            "sourceHeight": 1920,
+            "x": 174.375,
+            "y": 360,
+            "width": 731.25,
+            "height": 1300,
+            "outputWidth": 1080,
+            "outputHeight": 1920,
+            "sourceSha256": "1de9b80972e14f4e5a57cf97069ddff053579a46bc1c908c5c2843e9621aade3",
+            "sha256": "0ca68e8af9082f29ec2fe2c179b56679e9dec1c7f719336b42dabd638b0a04da"
+          }
+        }
+      ]
     }
   }
 }
