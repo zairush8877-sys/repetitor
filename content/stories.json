@@ -1366,7 +1366,7 @@
     {
       "id": "2026-10-05-oge-szhatie-standalone",
       "type": "exam",
-      "status": "approved",
+      "status": "published",
       "rubric": "ОГЭ",
       "question": {
         "headline": "Короче —\nс тем же\nсмыслом",
@@ -1442,7 +1442,8 @@
       "publishedMediaIds": [
         "18113242373069622",
         "18128416417844737"
-      ]
+      ],
+      "publishedAt": "2026-10-23T12:10:40.232Z"
     },
     {
       "id": "2026-10-06-ege-po-pribytii-standalone",
