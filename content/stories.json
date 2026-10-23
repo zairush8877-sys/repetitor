@@ -1422,7 +1422,16 @@
       },
       "sourcePostId": "2026-10-05-oge-szhatie",
       "proposedDate": "2026-10-05",
-      "approvedFromDraft": "draft-story-2026-10-05-oge-szhatie"
+      "approvedFromDraft": "draft-story-2026-10-05-oge-szhatie",
+      "delivery": {
+        "parts": [
+          {
+            "state": "publishing",
+            "containerId": "18032397107887754",
+            "attemptedAt": "2026-10-23T12:09:43.499Z"
+          }
+        ]
+      }
     },
     {
       "id": "2026-10-06-ege-po-pribytii-standalone",
