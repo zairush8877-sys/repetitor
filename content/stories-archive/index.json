@@ -2736,6 +2736,84 @@
         }
       ],
       "editorialStatus": "requires-source-recheck-before-reuse"
+    },
+    {
+      "storyId": "2026-10-05-oge-szhatie-standalone",
+      "date": "2026-10-23",
+      "content": {
+        "id": "2026-10-05-oge-szhatie-standalone",
+        "type": "exam",
+        "sources": [
+          "https://doc.fipi.ru/navigator-podgotovki/navigator-oge/MR_rus_yaz_oge_2026.pdf",
+          "https://doc.fipi.ru/navigator-podgotovki/navigator-oge/ru-9_11_inform._obrabotka.pdf"
+        ],
+        "rubric": "ОГЭ",
+        "music": {
+          "file": "bach-goldberg-var1-ishizaka.mp3",
+          "title": "Goldberg Variations, BWV 988: Variatio 1 a 1 Clav.",
+          "piece": "Гольдберг-вариации, BWV 988 — Вариация № 1",
+          "composer": "Иоганн Себастьян Бах",
+          "author": "Kimiko Ishizaka",
+          "performer": "Кимико Ишизака",
+          "license": "CC0 1.0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "source": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+          "rightsSource": "https://opengoldbergvariations.org/",
+          "download": "https://upload.wikimedia.org/wikipedia/commons/2/20/Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+          "attributionRequired": true,
+          "attribution": "И. С. Бах — Гольдберг-вариации, BWV 988, вариация № 1. Фортепиано: Кимико Ишизака, Open Goldberg Variations (2012). Запись CC0 1.0. Фрагмент, громкость изменена.",
+          "checkedAt": "2026-09-19",
+          "excerptFrom": 0.7,
+          "duration": 32,
+          "active": true,
+          "trendVerified": false,
+          "compositionRights": "Public domain: J. S. Bach (1685–1750)",
+          "recordingRights": "Open Goldberg 2012 recording released under CC0; not inferred from composition age",
+          "sourceSha256": "0539f3612413f6077c82e16f92417bad112e44017536f59db257c8179718076f",
+          "sha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8"
+        },
+        "caption": "В сжатом изложении уменьшаем объём, сохраняя главную информацию. Здесь два наших тренировочных примера: обобщение и объединение предложений. Убирать детали можно лишь тогда, когда они не важны для мысли исходного текста.\n\nО музыке. Бах написал этот цикл для клавесина.\n\n#ОГЭрусский #сжатоеизложение #работастекстом",
+        "musicLearning": {
+          "fact": "Бах написал этот цикл для клавесина.",
+          "source": "https://www.bachvereniging.nl/en/bwv/bwv-988",
+          "checkedAt": "2026-09-20"
+        }
+      },
+      "contentSha256": "6aa2d02cbaa60a759a3cbf9b873209fdfefade655361ad1df96b93df535247f0",
+      "evidence": {
+        "publishedAt": "2026-10-23T12:10:40.232Z",
+        "publishedMediaIds": [
+          "18113242373069622",
+          "18128416417844737"
+        ]
+      },
+      "media": [
+        {
+          "part": 1,
+          "file": "content/stories/2026-10-05-oge-szhatie-standalone-1.jpg",
+          "available": false
+        },
+        {
+          "part": 1,
+          "file": "content/stories/2026-10-05-oge-szhatie-standalone-1.mp4",
+          "available": true,
+          "bytes": 3894259,
+          "sha256": "e3d860c97b12e480846c0af485f1c86f00c9191270f6a06dbc7c2e6f3632a1a0"
+        },
+        {
+          "part": 2,
+          "file": "content/stories/2026-10-05-oge-szhatie-standalone-2.jpg",
+          "available": false
+        },
+        {
+          "part": 2,
+          "file": "content/stories/2026-10-05-oge-szhatie-standalone-2.mp4",
+          "available": true,
+          "bytes": 11216782,
+          "sha256": "5e1131ea9eec667f74486c17148e75ce16fccc22e6f33177e2dc8d6eaad985cf"
+        }
+      ],
+      "editorialStatus": "requires-source-recheck-before-reuse"
     }
   ]
 }
