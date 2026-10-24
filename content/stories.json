@@ -1448,7 +1448,7 @@
     {
       "id": "2026-10-06-ege-po-pribytii-standalone",
       "type": "exam",
-      "status": "approved",
+      "status": "published",
       "rubric": "ЕГЭ",
       "question": {
         "headline": "ПО ПРИБЫТИЮ?",
@@ -1527,7 +1527,8 @@
       "publishedMediaIds": [
         "18076059653768690",
         "18175374448457236"
-      ]
+      ],
+      "publishedAt": "2026-10-24T11:40:58.557Z"
     },
     {
       "id": "2026-10-07-oge-argument-standalone",
