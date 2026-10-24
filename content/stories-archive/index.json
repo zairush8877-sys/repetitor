@@ -2814,6 +2814,83 @@
         }
       ],
       "editorialStatus": "requires-source-recheck-before-reuse"
+    },
+    {
+      "storyId": "2026-10-06-ege-po-pribytii-standalone",
+      "date": "2026-10-24",
+      "content": {
+        "id": "2026-10-06-ege-po-pribytii-standalone",
+        "type": "exam",
+        "sources": [
+          "https://gramota.ru/biblioteka/spravochniki/slovar-trudnostey/zavershenie"
+        ],
+        "rubric": "ЕГЭ",
+        "music": {
+          "file": "bach-goldberg-var1-ishizaka.mp3",
+          "title": "Goldberg Variations, BWV 988: Variatio 1 a 1 Clav.",
+          "piece": "Гольдберг-вариации, BWV 988 — Вариация № 1",
+          "composer": "Иоганн Себастьян Бах",
+          "author": "Kimiko Ishizaka",
+          "performer": "Кимико Ишизака",
+          "license": "CC0 1.0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "source": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+          "rightsSource": "https://opengoldbergvariations.org/",
+          "download": "https://upload.wikimedia.org/wikipedia/commons/2/20/Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+          "attributionRequired": true,
+          "attribution": "И. С. Бах — Гольдберг-вариации, BWV 988, вариация № 1. Фортепиано: Кимико Ишизака, Open Goldberg Variations (2012). Запись CC0 1.0. Фрагмент, громкость изменена.",
+          "checkedAt": "2026-09-19",
+          "excerptFrom": 0.7,
+          "duration": 32,
+          "active": true,
+          "trendVerified": false,
+          "compositionRights": "Public domain: J. S. Bach (1685–1750)",
+          "recordingRights": "Open Goldberg 2012 recording released under CC0; not inferred from composition age",
+          "sourceSha256": "0539f3612413f6077c82e16f92417bad112e44017536f59db257c8179718076f",
+          "sha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8"
+        },
+        "caption": "Если «по» означает «после», нужны формы «по прибытии», «по завершении». Например: «По прибытии мы позвонили домой». Это не правило «после любого по ставить И»: у предлога есть другие значения и другие падежи.\n\nО музыке. «Гольдберг-вариации» впервые напечатали в 1741 году.\n\n#егэрусский #подготовкакегэ",
+        "musicLearning": {
+          "fact": "«Гольдберг-вариации» впервые напечатали в 1741 году.",
+          "source": "https://www.bachvereniging.nl/en/bwv/bwv-988",
+          "checkedAt": "2026-09-20"
+        }
+      },
+      "contentSha256": "e832e0e83bd2dbc0c25d2c35531fe9c23a630fe6b05d2534fe724c5c20e8e82b",
+      "evidence": {
+        "publishedAt": "2026-10-24T11:40:58.557Z",
+        "publishedMediaIds": [
+          "18076059653768690",
+          "18175374448457236"
+        ]
+      },
+      "media": [
+        {
+          "part": 1,
+          "file": "content/stories/2026-10-06-ege-po-pribytii-standalone-1.jpg",
+          "available": false
+        },
+        {
+          "part": 1,
+          "file": "content/stories/2026-10-06-ege-po-pribytii-standalone-1.mp4",
+          "available": true,
+          "bytes": 1972673,
+          "sha256": "5a452f8d7d40734b90cfecb72973a6156275c1ca8ddf288ac1bc8a8330dfe4fa"
+        },
+        {
+          "part": 2,
+          "file": "content/stories/2026-10-06-ege-po-pribytii-standalone-2.jpg",
+          "available": false
+        },
+        {
+          "part": 2,
+          "file": "content/stories/2026-10-06-ege-po-pribytii-standalone-2.mp4",
+          "available": true,
+          "bytes": 9256629,
+          "sha256": "9d576500b423093c7d0a47accf8f2549bc70f8ccbebb8a471b9338174ff8ca86"
+        }
+      ],
+      "editorialStatus": "requires-source-recheck-before-reuse"
     }
   ]
 }
