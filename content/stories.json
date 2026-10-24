@@ -1507,7 +1507,16 @@
       },
       "sourcePostId": "2026-10-06-ege-po-pribytii",
       "proposedDate": "2026-10-06",
-      "approvedFromDraft": "draft-story-2026-10-06-ege-po-pribytii"
+      "approvedFromDraft": "draft-story-2026-10-06-ege-po-pribytii",
+      "delivery": {
+        "parts": [
+          {
+            "state": "publishing",
+            "containerId": "18032538113887754",
+            "attemptedAt": "2026-10-24T11:39:53.606Z"
+          }
+        ]
+      }
     },
     {
       "id": "2026-10-07-oge-argument-standalone",
