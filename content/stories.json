@@ -1511,12 +1511,16 @@
       "delivery": {
         "parts": [
           {
-            "state": "publishing",
+            "state": "published",
             "containerId": "18032538113887754",
-            "attemptedAt": "2026-10-24T11:39:53.606Z"
+            "attemptedAt": "2026-10-24T11:39:53.606Z",
+            "mediaId": "18076059653768690"
           }
         ]
-      }
+      },
+      "publishedMediaIds": [
+        "18076059653768690"
+      ]
     },
     {
       "id": "2026-10-07-oge-argument-standalone",
