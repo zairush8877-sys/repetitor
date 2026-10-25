@@ -1399,8 +1399,8 @@
     },
     "2026-10-25-test-udareniya-zaprosy": {
       "version": 1,
-      "draftKey": "8021db4b7b80a0786d6a31b740d020714ff4aadea77340e7bcc02a091201201f",
-      "builtAt": "2026-10-25T20:52:28.759Z",
+      "draftKey": "a806857647f40282b6c369849df5b1b9cd9b2a4366a109afbcef22a05a33a1d5",
+      "builtAt": "2026-10-25T20:57:37.716Z",
       "media": {
         "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-25-test-udareniya-zaprosy.mp4",
         "coverOffsetMs": 14600,
@@ -1418,8 +1418,8 @@
         {
           "relative": "reels/2026-10-25-test-udareniya-zaprosy.mp4",
           "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-25-test-udareniya-zaprosy.mp4",
-          "size": 554011,
-          "sha256": "be23d547997f812bd9f352d0cb8647f476e4d07961a71cf67b7313c6e5358778"
+          "size": 554217,
+          "sha256": "90a5b62f890ce67d58a437256c1b8d6bdd6f0694148b38159f71cc5061dab096"
         },
         {
           "relative": "reels/2026-10-25-test-udareniya-zaprosy-frame.jpg",
@@ -1431,8 +1431,8 @@
     },
     "2026-10-25-test-udvoenie-zaimstvovaniya": {
       "version": 1,
-      "draftKey": "0f9e03d42b7e07c66731a73310030de3848a68f8489acf528a3343f3075034c9",
-      "builtAt": "2026-10-25T20:52:28.876Z",
+      "draftKey": "457fc553dd6655075d3c790a03246136e8e02f0a4bda039665cbe431aabd9d8d",
+      "builtAt": "2026-10-25T20:57:37.850Z",
       "media": {
         "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-25-test-udvoenie-zaimstvovaniya.mp4",
         "coverOffsetMs": 14600,
