@@ -1593,12 +1593,16 @@
       "delivery": {
         "parts": [
           {
-            "state": "publishing",
+            "state": "published",
             "containerId": "18032715362887754",
-            "attemptedAt": "2026-10-25T12:02:08.334Z"
+            "attemptedAt": "2026-10-25T12:02:08.334Z",
+            "mediaId": "18130970575753238"
           }
         ]
-      }
+      },
+      "publishedMediaIds": [
+        "18130970575753238"
+      ]
     },
     {
       "id": "2026-10-08-ege-direct-speech-standalone",
