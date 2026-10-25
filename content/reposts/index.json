@@ -1328,6 +1328,62 @@
           }
         }
       ]
+    },
+    "2026-10-25-test-udareniya-zaprosy": {
+      "kind": "reel_frame",
+      "sourceKey": "24f2d18e9eab665813ded9b66499861a0117f31752bf17c5ba18ad28b7400d22",
+      "renderedAt": "2026-10-25T20:52:28.755Z",
+      "publicationStatus": "export_only",
+      "assets": [
+        {
+          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-25-test-udareniya-zaprosy-frame.jpg",
+          "file": "2026-10-25-test-udareniya-zaprosy-1.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-10-25-test-udareniya-zaprosy-1.jpg",
+          "width": 1080,
+          "height": 1920,
+          "sha256": "64bd1a4ea7abea2d2acd1000b75ddac3ea17e73179875c5bf6e0e7700f13435f",
+          "geometry": {
+            "sourceWidth": 1080,
+            "sourceHeight": 1920,
+            "x": 174.375,
+            "y": 360,
+            "width": 731.25,
+            "height": 1300,
+            "outputWidth": 1080,
+            "outputHeight": 1920,
+            "sourceSha256": "84d59cbea34d22cc11005bbe7ea6f8fb2b3216f9d6ba34604267e3d6d778699d",
+            "sha256": "64bd1a4ea7abea2d2acd1000b75ddac3ea17e73179875c5bf6e0e7700f13435f"
+          }
+        }
+      ]
+    },
+    "2026-10-25-test-udvoenie-zaimstvovaniya": {
+      "kind": "reel_frame",
+      "sourceKey": "be793d7b7c58e5fc72d9f4914d1a95a475d13f0bd3f4faaaf5fad06279fe45af",
+      "renderedAt": "2026-10-25T20:52:28.876Z",
+      "publicationStatus": "export_only",
+      "assets": [
+        {
+          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-25-test-udvoenie-zaimstvovaniya-frame.jpg",
+          "file": "2026-10-25-test-udvoenie-zaimstvovaniya-1.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-10-25-test-udvoenie-zaimstvovaniya-1.jpg",
+          "width": 1080,
+          "height": 1920,
+          "sha256": "6cdd6f5f9e5df6152075c150811d74cbd82b768bf229a82b3ef7d81c5da31839",
+          "geometry": {
+            "sourceWidth": 1080,
+            "sourceHeight": 1920,
+            "x": 174.375,
+            "y": 360,
+            "width": 731.25,
+            "height": 1300,
+            "outputWidth": 1080,
+            "outputHeight": 1920,
+            "sourceSha256": "2af2647c7110d2b23737be4a0d41284df63db1c879840651bf6e36f69932b70d",
+            "sha256": "6cdd6f5f9e5df6152075c150811d74cbd82b768bf229a82b3ef7d81c5da31839"
+          }
+        }
+      ]
     }
   }
 }

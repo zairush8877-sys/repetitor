@@ -1396,6 +1396,70 @@
           "sha256": "1de9b80972e14f4e5a57cf97069ddff053579a46bc1c908c5c2843e9621aade3"
         }
       ]
+    },
+    "2026-10-25-test-udareniya-zaprosy": {
+      "version": 1,
+      "draftKey": "8021db4b7b80a0786d6a31b740d020714ff4aadea77340e7bcc02a091201201f",
+      "builtAt": "2026-10-25T20:52:28.759Z",
+      "media": {
+        "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-25-test-udareniya-zaprosy.mp4",
+        "coverOffsetMs": 14600,
+        "music": {
+          "composer": "Иоганн Себастьян Бах",
+          "piece": "Гольдберг-вариации, BWV 988 — Вариация № 1",
+          "license": "CC0 1.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "attribution": "И. С. Бах — Гольдберг-вариации, BWV 988, вариация № 1. Фортепиано: Кимико Ишизака, Open Goldberg Variations (2012). Запись CC0 1.0. Фрагмент, громкость изменена.",
+          "attributionRequired": true
+        }
+      },
+      "files": [
+        {
+          "relative": "reels/2026-10-25-test-udareniya-zaprosy.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-25-test-udareniya-zaprosy.mp4",
+          "size": 554011,
+          "sha256": "be23d547997f812bd9f352d0cb8647f476e4d07961a71cf67b7313c6e5358778"
+        },
+        {
+          "relative": "reels/2026-10-25-test-udareniya-zaprosy-frame.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-25-test-udareniya-zaprosy-frame.jpg",
+          "size": 164030,
+          "sha256": "84d59cbea34d22cc11005bbe7ea6f8fb2b3216f9d6ba34604267e3d6d778699d"
+        }
+      ]
+    },
+    "2026-10-25-test-udvoenie-zaimstvovaniya": {
+      "version": 1,
+      "draftKey": "0f9e03d42b7e07c66731a73310030de3848a68f8489acf528a3343f3075034c9",
+      "builtAt": "2026-10-25T20:52:28.876Z",
+      "media": {
+        "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-25-test-udvoenie-zaimstvovaniya.mp4",
+        "coverOffsetMs": 14600,
+        "music": {
+          "composer": "Иоганн Себастьян Бах",
+          "piece": "Гольдберг-вариации, BWV 988 — Вариация № 1",
+          "license": "CC0 1.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "attribution": "И. С. Бах — Гольдберг-вариации, BWV 988, вариация № 1. Фортепиано: Кимико Ишизака, Open Goldberg Variations (2012). Запись CC0 1.0. Фрагмент, громкость изменена.",
+          "attributionRequired": true
+        }
+      },
+      "files": [
+        {
+          "relative": "reels/2026-10-25-test-udvoenie-zaimstvovaniya.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-25-test-udvoenie-zaimstvovaniya.mp4",
+          "size": 572185,
+          "sha256": "c89b28ea87f40b55bfa658750b8736af990ee7d0ff6e6088ab5473b144971e12"
+        },
+        {
+          "relative": "reels/2026-10-25-test-udvoenie-zaimstvovaniya-frame.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-25-test-udvoenie-zaimstvovaniya-frame.jpg",
+          "size": 177967,
+          "sha256": "2af2647c7110d2b23737be4a0d41284df63db1c879840651bf6e36f69932b70d"
+        }
+      ]
     }
   }
 }
