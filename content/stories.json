@@ -1533,7 +1533,7 @@
     {
       "id": "2026-10-07-oge-argument-standalone",
       "type": "exam",
-      "status": "approved",
+      "status": "published",
       "rubric": "ОГЭ",
       "question": {
         "headline": "После цитаты —\nваша мысль",
@@ -1609,7 +1609,8 @@
       "publishedMediaIds": [
         "18130970575753238",
         "18113401979603179"
-      ]
+      ],
+      "publishedAt": "2026-10-25T12:03:00.842Z"
     },
     {
       "id": "2026-10-08-ege-direct-speech-standalone",
