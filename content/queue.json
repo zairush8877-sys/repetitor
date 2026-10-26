@@ -6045,7 +6045,7 @@
     },
     {
       "id": "2026-10-25-test-udvoenie-zaimstvovaniya",
-      "status": "approved",
+      "status": "published",
       "format": "Reels",
       "rubric": "Проверьте себя",
       "school": false,
@@ -6096,7 +6096,28 @@
       "checkedAt": "2026-10-25",
       "plainBg": true,
       "date": "2026-10-26",
-      "musicFile": "light-carefree.mp3"
+      "musicFile": "light-carefree.mp3",
+      "publishedAt": "2026-10-26T16:18:54.571Z",
+      "publishedMediaId": "18091765127662130",
+      "storyRepost": {
+        "version": 1,
+        "feedMediaId": "18091765127662130",
+        "status": "published",
+        "items": [
+          {
+            "index": 1,
+            "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-10-25-test-udvoenie-zaimstvovaniya-1.jpg",
+            "sha256": "3355f26c51e3a0255277b3f26cc595f597b24d93bd295ce80e17ec7e44999256",
+            "status": "published",
+            "attempts": 1,
+            "attemptedAt": "2026-10-26T16:18:54.594Z",
+            "containerId": "18032941772887754",
+            "publishedMediaId": "18096945104461893",
+            "publishedAt": "2026-10-26T16:19:10.198Z"
+          }
+        ],
+        "sourceKey": "be793d7b7c58e5fc72d9f4914d1a95a475d13f0bd3f4faaaf5fad06279fe45af"
+      }
     },
     {
       "id": "2026-10-25-olimp-bud-zdorov",
@@ -6759,7 +6780,7 @@
       "sourceNote": "В АКАДЕМОСе есть че́стный, изве́стный, ле́стница, преле́стный, чу́вство; написаний из левой колонки нет ни одного. Ответ на задание — строка 5: в «чувстве» теряется «в», в остальных четырёх — «т»."
     },
     {
-      "status": "approved",
+      "status": "published",
       "format": "Reels",
       "school": false,
       "numbered": true,
@@ -6806,7 +6827,28 @@
         "#орфография",
         "#русскийязык"
       ],
-      "sourceNote": "Из АКАДЕМОСа: цыга́не (ед. цыга́н), цыплёнок, на цы́почках, огуре́ц, ци́ркуль. Ответ на задание — строка 5. Подпись правлена по замечанию корректора: в черновике стояло «в конце слова после ц всегда ы», из чего выходит «станцыя»; формулировка сужена до окончания -цы, и добавлена закрывающая строка про цифру, цитату и станцию."
+      "sourceNote": "Из АКАДЕМОСа: цыга́не (ед. цыга́н), цыплёнок, на цы́почках, огуре́ц, ци́ркуль. Ответ на задание — строка 5. Подпись правлена по замечанию корректора: в черновике стояло «в конце слова после ц всегда ы», из чего выходит «станцыя»; формулировка сужена до окончания -цы, и добавлена закрывающая строка про цифру, цитату и станцию.",
+      "publishedAt": "2026-10-26T18:28:39.897Z",
+      "publishedMediaId": "18641510971016683",
+      "storyRepost": {
+        "version": 1,
+        "feedMediaId": "18641510971016683",
+        "status": "published",
+        "items": [
+          {
+            "index": 1,
+            "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-10-26-cy-ci-1.jpg",
+            "sha256": "2784274dca5d52d9fe55fc641abbed139a17b56e03567c61fdcfde2c848dab46",
+            "status": "published",
+            "attempts": 1,
+            "attemptedAt": "2026-10-26T18:28:39.917Z",
+            "containerId": "18032960534887754",
+            "publishedMediaId": "18147337597603447",
+            "publishedAt": "2026-10-26T18:28:52.552Z"
+          }
+        ],
+        "sourceKey": "0b01f1581bf0c9f5825145a044b91000c3be85c26036c7a3bd1d774b32f3f1de"
+      }
     },
     {
       "status": "approved",

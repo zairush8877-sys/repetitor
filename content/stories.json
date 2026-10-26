@@ -1615,7 +1615,7 @@
     {
       "id": "2026-10-08-ege-direct-speech-standalone",
       "type": "exam",
-      "status": "approved",
+      "status": "published",
       "rubric": "ЕГЭ",
       "question": {
         "headline": "ТОЧКА УСТУПАЕТ МЕСТО ЗАПЯТОЙ",
@@ -1671,7 +1671,28 @@
       },
       "sourcePostId": "2026-10-08-ege-direct-speech",
       "proposedDate": "2026-10-08",
-      "approvedFromDraft": "draft-story-2026-10-08-ege-direct-speech"
+      "approvedFromDraft": "draft-story-2026-10-08-ege-direct-speech",
+      "delivery": {
+        "parts": [
+          {
+            "state": "published",
+            "containerId": "18032916101887754",
+            "attemptedAt": "2026-10-26T13:36:42.510Z",
+            "mediaId": "17914415913284063"
+          },
+          {
+            "state": "published",
+            "containerId": "18032916230887754",
+            "attemptedAt": "2026-10-26T13:37:21.720Z",
+            "mediaId": "18640493020062768"
+          }
+        ]
+      },
+      "publishedMediaIds": [
+        "17914415913284063",
+        "18640493020062768"
+      ],
+      "publishedAt": "2026-10-26T13:37:34.211Z"
     },
     {
       "id": "2026-10-09-oge-dvoetochie-standalone",
