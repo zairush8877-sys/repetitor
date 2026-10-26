@@ -1615,7 +1615,7 @@
     {
       "id": "2026-10-08-ege-direct-speech-standalone",
       "type": "exam",
-      "status": "approved",
+      "status": "published",
       "rubric": "ЕГЭ",
       "question": {
         "headline": "ТОЧКА УСТУПАЕТ МЕСТО ЗАПЯТОЙ",
@@ -1691,7 +1691,8 @@
       "publishedMediaIds": [
         "17914415913284063",
         "18640493020062768"
-      ]
+      ],
+      "publishedAt": "2026-10-26T13:37:34.211Z"
     },
     {
       "id": "2026-10-09-oge-dvoetochie-standalone",
