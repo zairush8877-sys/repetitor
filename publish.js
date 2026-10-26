@@ -127,13 +127,28 @@ function moscowWeekday() {
 }
 
 /**
- * Публикацию можно выпустить и руками — тогда ежедневный запуск по расписанию
- * добавит к ней вторую, и обе выйдут в один вечер с разницей в полчаса. Режим
- * «одна публикация в день» должен считать все публикации дня, а не только свои.
+ * Сколько публикаций в ленту допустимо за день. Правило автора от 26.10.2026:
+ * «можно публиковать по 2–3 раза в течение дня, утро, вечер». До этого дня
+ * действовало «одна в день», и в коде стоял запрет на вторую.
+ */
+const PER_DAY = Number(process.env.FEED_PER_DAY) || 3;
+
+/**
+ * Разрыв между публикациями одного дня. Прогоны Actions приходят с задержкой
+ * в три-четыре часа, и без этого порога два опоздавших запуска выпустили бы
+ * посты с разницей в полчаса — вместо утра и вечера получилась бы пачка.
+ */
+const MIN_GAP_HOURS = 2;
+
+/**
+ * Публикацию можно выпустить и руками — тогда запуск по расписанию добавит к
+ * ней следующую. Поэтому считаем все публикации дня, а не только свои.
  */
 function publishedToday(posts) {
   const today = moscowDate();
-  return posts.find(p => p.publishedAt && moscowDate(new Date(p.publishedAt)) === today);
+  return posts
+    .filter(p => p.publishedAt && moscowDate(new Date(p.publishedAt)) === today)
+    .sort((a, b) => (a.publishedAt < b.publishedAt ? -1 : 1));
 }
 
 /**
@@ -448,10 +463,19 @@ let publicationLock;
   }
 
   if (onlyOne && !onlyId) {
-    const already = publishedToday(queue.posts);
-    if (already) {
-      console.log(`Сегодня уже вышла публикация «${already.id}» — вторая за день не нужна.`);
+    const today = publishedToday(queue.posts);
+    if (today.length >= PER_DAY) {
+      console.log(`Сегодня уже вышло публикаций: ${today.length} из ${PER_DAY} — на сегодня хватит.`);
       return;
+    }
+    if (today.length) {
+      const last = new Date(today[today.length - 1].publishedAt);
+      const gap = (Date.now() - last.getTime()) / 3600000;
+      if (gap < MIN_GAP_HOURS) {
+        console.log(`Предыдущая публикация вышла ${gap.toFixed(1)} ч назад. Ждём ${MIN_GAP_HOURS} ч, `
+          + `чтобы утро и вечер не слиплись в одну пачку.`);
+        return;
+      }
     }
     // Ручной запуск с конкретным post_id сюда не попадает: автор вправе
     // выпустить публикацию когда угодно, окно сторожит только расписание.
