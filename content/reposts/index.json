@@ -1360,7 +1360,7 @@
     "2026-10-25-test-udvoenie-zaimstvovaniya": {
       "kind": "reel_frame",
       "sourceKey": "be793d7b7c58e5fc72d9f4914d1a95a475d13f0bd3f4faaaf5fad06279fe45af",
-      "renderedAt": "2026-10-25T21:19:37.153Z",
+      "renderedAt": "2026-10-26T07:25:24.148Z",
       "publicationStatus": "export_only",
       "assets": [
         {
@@ -1388,7 +1388,7 @@
     "2026-10-25-olimp-bud-zdorov": {
       "kind": "reel_frame",
       "sourceKey": "2b60370f0000efb8f621eea0195b136f255cf95962153c2ef41477e1d196c2bf",
-      "renderedAt": "2026-10-26T05:30:48.726Z",
+      "renderedAt": "2026-10-26T07:25:24.251Z",
       "publicationStatus": "export_only",
       "assets": [
         {
@@ -1416,7 +1416,7 @@
     "2026-10-25-olimp-karlson": {
       "kind": "reel_frame",
       "sourceKey": "1145605f5adf1c45aa9fd49e9227c44be3fef121c3f515aa10d286b0a2c7106e",
-      "renderedAt": "2026-10-26T05:30:48.823Z",
+      "renderedAt": "2026-10-26T07:25:24.346Z",
       "publicationStatus": "export_only",
       "assets": [
         {
@@ -1437,6 +1437,62 @@
             "outputHeight": 1920,
             "sourceSha256": "c3eb418333f842a0d512149c81cc94a43ba62f5af4791a4d2c77f0f0723c669d",
             "sha256": "4de77b2ffe8804e6305964e60b5040c79e3deb219551b9bda2367abc784f62ee"
+          }
+        }
+      ]
+    },
+    "2026-10-26-on-ili-ona": {
+      "kind": "reel_frame",
+      "sourceKey": "e61791b8753c62f69ec147c605ccfc06f695eac50c568f77875d7d310c540598",
+      "renderedAt": "2026-10-26T07:25:24.427Z",
+      "publicationStatus": "export_only",
+      "assets": [
+        {
+          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-26-on-ili-ona-frame.jpg",
+          "file": "2026-10-26-on-ili-ona-1.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-10-26-on-ili-ona-1.jpg",
+          "width": 1080,
+          "height": 1920,
+          "sha256": "909af5a58cd1d814f6bddd614502ab4b76bc9ddfe2b54b0a429a17557ec328f1",
+          "geometry": {
+            "sourceWidth": 1080,
+            "sourceHeight": 1920,
+            "x": 174.375,
+            "y": 360,
+            "width": 731.25,
+            "height": 1300,
+            "outputWidth": 1080,
+            "outputHeight": 1920,
+            "sourceSha256": "6f1b5ad97bc2a7d289586985111b141710ee298c17c0f812d967adcb908c1c57",
+            "sha256": "909af5a58cd1d814f6bddd614502ab4b76bc9ddfe2b54b0a429a17557ec328f1"
+          }
+        }
+      ]
+    },
+    "2026-10-26-lishnie-bukvy": {
+      "kind": "reel_frame",
+      "sourceKey": "0c3a821aaee83306713a636ab07b28d8100d4e0a382dbe2016ea9f077991042d",
+      "renderedAt": "2026-10-26T07:25:24.499Z",
+      "publicationStatus": "export_only",
+      "assets": [
+        {
+          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-26-lishnie-bukvy-frame.jpg",
+          "file": "2026-10-26-lishnie-bukvy-1.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-10-26-lishnie-bukvy-1.jpg",
+          "width": 1080,
+          "height": 1920,
+          "sha256": "939254558d18856bca6b8a2599fe1c55f200959e3a00ba94afe796e43503998f",
+          "geometry": {
+            "sourceWidth": 1080,
+            "sourceHeight": 1920,
+            "x": 174.375,
+            "y": 360,
+            "width": 731.25,
+            "height": 1300,
+            "outputWidth": 1080,
+            "outputHeight": 1920,
+            "sourceSha256": "520e95e6c3ef64271871c578f822d78da9580cb0322d0fa972bf3d2e7140c9e8",
+            "sha256": "939254558d18856bca6b8a2599fe1c55f200959e3a00ba94afe796e43503998f"
           }
         }
       ]

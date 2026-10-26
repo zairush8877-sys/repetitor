@@ -77,8 +77,10 @@
       "checkedAt": "2026-09-11",
       "excerptFrom": 0,
       "duration": 40,
-      "active": false,
-      "trendVerified": false
+      "active": true,
+      "trendVerified": false,
+      "activatedAt": "2026-10-26",
+      "activationNote": "Включён по требованию автора «меняй музыку почти постоянно». Лёгкий и спокойный — подходит под правило от 11.09.2026 о музыке без драматичности."
     },
     {
       "file": "light-carefree.mp3",
@@ -97,8 +99,10 @@
       "checkedAt": "2026-09-11",
       "excerptFrom": 0,
       "duration": 40,
-      "active": false,
-      "trendVerified": false
+      "active": true,
+      "trendVerified": false,
+      "activatedAt": "2026-10-26",
+      "activationNote": "Включён по требованию автора «меняй музыку почти постоянно». Лёгкий и спокойный — подходит под правило от 11.09.2026 о музыке без драматичности."
     },
     {
       "file": "bach-goldberg-var1-ishizaka.mp3",
