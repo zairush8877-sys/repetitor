@@ -1608,6 +1608,314 @@
           }
         }
       ]
+    },
+    "2026-10-26-udarenie-zaim": {
+      "kind": "reel_frame",
+      "sourceKey": "cd679a93817a7c1123ab141f5eafe373fd64fca512eac5ce84bbeabb332d3bfe",
+      "renderedAt": "2026-10-26T10:11:03.940Z",
+      "publicationStatus": "export_only",
+      "assets": [
+        {
+          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-26-udarenie-zaim-frame.jpg",
+          "file": "2026-10-26-udarenie-zaim-1.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-10-26-udarenie-zaim-1.jpg",
+          "width": 1080,
+          "height": 1920,
+          "sha256": "39624b53446f28d3c03bc2d8698b8489ba1b3d2d5e4bc9f9c3f77b0cde49405d",
+          "geometry": {
+            "sourceWidth": 1080,
+            "sourceHeight": 1920,
+            "x": 174.375,
+            "y": 360,
+            "width": 731.25,
+            "height": 1300,
+            "outputWidth": 1080,
+            "outputHeight": 1920,
+            "sourceSha256": "4cc932530b56b5e22e94cee88e5279de67b8108a01ab70c364bcbd83b7a40c94",
+            "sha256": "39624b53446f28d3c03bc2d8698b8489ba1b3d2d5e4bc9f9c3f77b0cde49405d"
+          }
+        }
+      ]
+    },
+    "2026-10-26-pol": {
+      "kind": "reel_frame",
+      "sourceKey": "6c9b3ed7c28b658dd45169c0259d064086de225626b31f4689c8b56f45705561",
+      "renderedAt": "2026-10-26T10:11:04.036Z",
+      "publicationStatus": "export_only",
+      "assets": [
+        {
+          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-26-pol-frame.jpg",
+          "file": "2026-10-26-pol-1.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-10-26-pol-1.jpg",
+          "width": 1080,
+          "height": 1920,
+          "sha256": "2b4ab1eb0ff6460fe35f66d5ddd09560d01c1585efef633b48f73a30c6c91579",
+          "geometry": {
+            "sourceWidth": 1080,
+            "sourceHeight": 1920,
+            "x": 174.375,
+            "y": 360,
+            "width": 731.25,
+            "height": 1300,
+            "outputWidth": 1080,
+            "outputHeight": 1920,
+            "sourceSha256": "2c2e17d7bd1f4b0ab97fa019378c70a45f82a5be8b858846ecf3a25797de223a",
+            "sha256": "2b4ab1eb0ff6460fe35f66d5ddd09560d01c1585efef633b48f73a30c6c91579"
+          }
+        }
+      ]
+    },
+    "2026-10-26-prichastiya": {
+      "kind": "reel_frame",
+      "sourceKey": "a8489795d80bf054b9733327cb1bc5d13702c521ce1703d0fecf8cebfd4493b2",
+      "renderedAt": "2026-10-26T10:11:04.120Z",
+      "publicationStatus": "export_only",
+      "assets": [
+        {
+          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-26-prichastiya-frame.jpg",
+          "file": "2026-10-26-prichastiya-1.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-10-26-prichastiya-1.jpg",
+          "width": 1080,
+          "height": 1920,
+          "sha256": "e622f49018cbb8b904094b3469be31a29ee721a8c4b70d44acb887e5bf54c63c",
+          "geometry": {
+            "sourceWidth": 1080,
+            "sourceHeight": 1920,
+            "x": 174.375,
+            "y": 360,
+            "width": 731.25,
+            "height": 1300,
+            "outputWidth": 1080,
+            "outputHeight": 1920,
+            "sourceSha256": "acce158c17f87823d4a0a45a11ba08bf05d080edc3a76d22c245235a0031c4e4",
+            "sha256": "e622f49018cbb8b904094b3469be31a29ee721a8c4b70d44acb887e5bf54c63c"
+          }
+        }
+      ]
+    },
+    "2026-10-26-mn-udarenie": {
+      "kind": "reel_frame",
+      "sourceKey": "8b1a5e5bdf849a29b91a55699eb8ea7c0c08af570a15a74d2fc2e35c6c7e5506",
+      "renderedAt": "2026-10-26T10:11:04.203Z",
+      "publicationStatus": "export_only",
+      "assets": [
+        {
+          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-26-mn-udarenie-frame.jpg",
+          "file": "2026-10-26-mn-udarenie-1.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-10-26-mn-udarenie-1.jpg",
+          "width": 1080,
+          "height": 1920,
+          "sha256": "fe4a28fa18687fe07648ee4429ceb458999cdf72bc4bc4f8d9988e9e0af8a2f7",
+          "geometry": {
+            "sourceWidth": 1080,
+            "sourceHeight": 1920,
+            "x": 174.375,
+            "y": 360,
+            "width": 731.25,
+            "height": 1300,
+            "outputWidth": 1080,
+            "outputHeight": 1920,
+            "sourceSha256": "b960577dfe5885839cd89a4b7f753de02bc31fe226d0f64d29fea32e9d2a1c22",
+            "sha256": "fe4a28fa18687fe07648ee4429ceb458999cdf72bc4bc4f8d9988e9e0af8a2f7"
+          }
+        }
+      ]
+    },
+    "2026-10-26-nepro-soglasnye": {
+      "kind": "reel_frame",
+      "sourceKey": "17749a4db78038fadd4b9cbc4d5ed3abf992787d1c5f036d79489a6e19821dee",
+      "renderedAt": "2026-10-26T10:11:04.286Z",
+      "publicationStatus": "export_only",
+      "assets": [
+        {
+          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-26-nepro-soglasnye-frame.jpg",
+          "file": "2026-10-26-nepro-soglasnye-1.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-10-26-nepro-soglasnye-1.jpg",
+          "width": 1080,
+          "height": 1920,
+          "sha256": "c1c51f15d81210bef0cf02af64bd52fd22a5e3f5d75da356aa9f28277fbd3861",
+          "geometry": {
+            "sourceWidth": 1080,
+            "sourceHeight": 1920,
+            "x": 174.375,
+            "y": 360,
+            "width": 731.25,
+            "height": 1300,
+            "outputWidth": 1080,
+            "outputHeight": 1920,
+            "sourceSha256": "04b116aa220781bf6a0f047cf983eaa3ed0f324b0b6473e73c895818698455e7",
+            "sha256": "c1c51f15d81210bef0cf02af64bd52fd22a5e3f5d75da356aa9f28277fbd3861"
+          }
+        }
+      ]
+    },
+    "2026-10-26-cy-ci": {
+      "kind": "reel_frame",
+      "sourceKey": "0b01f1581bf0c9f5825145a044b91000c3be85c26036c7a3bd1d774b32f3f1de",
+      "renderedAt": "2026-10-26T10:16:29.647Z",
+      "publicationStatus": "export_only",
+      "assets": [
+        {
+          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-26-cy-ci-frame.jpg",
+          "file": "2026-10-26-cy-ci-1.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-10-26-cy-ci-1.jpg",
+          "width": 1080,
+          "height": 1920,
+          "sha256": "2784274dca5d52d9fe55fc641abbed139a17b56e03567c61fdcfde2c848dab46",
+          "geometry": {
+            "sourceWidth": 1080,
+            "sourceHeight": 1920,
+            "x": 174.375,
+            "y": 360,
+            "width": 731.25,
+            "height": 1300,
+            "outputWidth": 1080,
+            "outputHeight": 1920,
+            "sourceSha256": "7fb1f979dd851508618d181ae59b12d9b3ed92a9b0420154739629cf0771ebfe",
+            "sha256": "2784274dca5d52d9fe55fc641abbed139a17b56e03567c61fdcfde2c848dab46"
+          }
+        }
+      ]
+    },
+    "2026-10-26-sh-o-yo": {
+      "kind": "reel_frame",
+      "sourceKey": "c0579dd669442259ebb08cdbda078876cef21253ae6b060a540709c7d9270130",
+      "renderedAt": "2026-10-26T10:16:29.742Z",
+      "publicationStatus": "export_only",
+      "assets": [
+        {
+          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-26-sh-o-yo-frame.jpg",
+          "file": "2026-10-26-sh-o-yo-1.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-10-26-sh-o-yo-1.jpg",
+          "width": 1080,
+          "height": 1920,
+          "sha256": "c97bbbc456580c0168593888c511686b96be046d57e9d8925b64578933abf28c",
+          "geometry": {
+            "sourceWidth": 1080,
+            "sourceHeight": 1920,
+            "x": 174.375,
+            "y": 360,
+            "width": 731.25,
+            "height": 1300,
+            "outputWidth": 1080,
+            "outputHeight": 1920,
+            "sourceSha256": "ad0b3b5640886236800b62e69ee1c367c0320a28045771a3e64cb11e6161185c",
+            "sha256": "c97bbbc456580c0168593888c511686b96be046d57e9d8925b64578933abf28c"
+          }
+        }
+      ]
+    },
+    "2026-10-26-z-s": {
+      "kind": "reel_frame",
+      "sourceKey": "a231048072187e93627bf98774310e31eed51ff96738c61b7c13cc1ee0f98562",
+      "renderedAt": "2026-10-26T10:16:29.843Z",
+      "publicationStatus": "export_only",
+      "assets": [
+        {
+          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-26-z-s-frame.jpg",
+          "file": "2026-10-26-z-s-1.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-10-26-z-s-1.jpg",
+          "width": 1080,
+          "height": 1920,
+          "sha256": "ee1d8d5f436e24bbd098fb98e7b84c565da06c3d9bda2dd55d72dc48f3bc91e1",
+          "geometry": {
+            "sourceWidth": 1080,
+            "sourceHeight": 1920,
+            "x": 174.375,
+            "y": 360,
+            "width": 731.25,
+            "height": 1300,
+            "outputWidth": 1080,
+            "outputHeight": 1920,
+            "sourceSha256": "f46caa42101cef99cae875298981a779f083b5edc19d5fdb82f17933afb884ed",
+            "sha256": "ee1d8d5f436e24bbd098fb98e7b84c565da06c3d9bda2dd55d72dc48f3bc91e1"
+          }
+        }
+      ]
+    },
+    "2026-10-26-mn-ch": {
+      "kind": "reel_frame",
+      "sourceKey": "86dbbe170618d77085329755b931d1cde79dc6495da93491fadbb1065890c972",
+      "renderedAt": "2026-10-26T10:16:29.928Z",
+      "publicationStatus": "export_only",
+      "assets": [
+        {
+          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-26-mn-ch-frame.jpg",
+          "file": "2026-10-26-mn-ch-1.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-10-26-mn-ch-1.jpg",
+          "width": 1080,
+          "height": 1920,
+          "sha256": "b3344252b05b061753034ef56d8c34e8dfac8f7679d893131c0cdac8e6f53481",
+          "geometry": {
+            "sourceWidth": 1080,
+            "sourceHeight": 1920,
+            "x": 174.375,
+            "y": 360,
+            "width": 731.25,
+            "height": 1300,
+            "outputWidth": 1080,
+            "outputHeight": 1920,
+            "sourceSha256": "a9a67321f4b6df78dca0ab6f9819bfcf2fb9856b6d5cac51e29ce300522a8c76",
+            "sha256": "b3344252b05b061753034ef56d8c34e8dfac8f7679d893131c0cdac8e6f53481"
+          }
+        }
+      ]
+    },
+    "2026-10-26-nn": {
+      "kind": "reel_frame",
+      "sourceKey": "0119ca569748a7f31afeafd6080c689e976e4eed4aac33274ef33c4b7fdba590",
+      "renderedAt": "2026-10-26T10:16:30.012Z",
+      "publicationStatus": "export_only",
+      "assets": [
+        {
+          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-26-nn-frame.jpg",
+          "file": "2026-10-26-nn-1.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-10-26-nn-1.jpg",
+          "width": 1080,
+          "height": 1920,
+          "sha256": "823dfa45a1fd4358f017cac7bae4fcab75289625fd272dc1efc5f9fb0e3682b2",
+          "geometry": {
+            "sourceWidth": 1080,
+            "sourceHeight": 1920,
+            "x": 174.375,
+            "y": 360,
+            "width": 731.25,
+            "height": 1300,
+            "outputWidth": 1080,
+            "outputHeight": 1920,
+            "sourceSha256": "42f8b9c9d98610e7bc199f39d1ad067dc4991e11976987cc9606e83f6386f5bc",
+            "sha256": "823dfa45a1fd4358f017cac7bae4fcab75289625fd272dc1efc5f9fb0e3682b2"
+          }
+        }
+      ]
+    },
+    "2026-10-26-defis-vvodnye": {
+      "kind": "reel_frame",
+      "sourceKey": "9a4217f6a6f5581cdd22702343ccb4fa9bdf1627fbe05528fbb824a14f1ef23f",
+      "renderedAt": "2026-10-26T10:16:30.095Z",
+      "publicationStatus": "export_only",
+      "assets": [
+        {
+          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-26-defis-vvodnye-frame.jpg",
+          "file": "2026-10-26-defis-vvodnye-1.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-10-26-defis-vvodnye-1.jpg",
+          "width": 1080,
+          "height": 1920,
+          "sha256": "b89dd8ebd905387156f67fe15615f89c98bc74dda0aba3db4292dd94f34f437d",
+          "geometry": {
+            "sourceWidth": 1080,
+            "sourceHeight": 1920,
+            "x": 174.375,
+            "y": 360,
+            "width": 731.25,
+            "height": 1300,
+            "outputWidth": 1080,
+            "outputHeight": 1920,
+            "sourceSha256": "95a1e901d9956283ddde668f85e25eea38ec4bd0244a053564a474832cf74fb2",
+            "sha256": "b89dd8ebd905387156f67fe15615f89c98bc74dda0aba3db4292dd94f34f437d"
+          }
+        }
+      ]
     }
   }
 }
