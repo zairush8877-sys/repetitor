@@ -6045,7 +6045,7 @@
     },
     {
       "id": "2026-10-25-test-udvoenie-zaimstvovaniya",
-      "status": "approved",
+      "status": "published",
       "format": "Reels",
       "rubric": "Проверьте себя",
       "school": false,
@@ -6096,7 +6096,39 @@
       "checkedAt": "2026-10-25",
       "plainBg": true,
       "date": "2026-10-26",
-      "musicFile": "light-carefree.mp3"
+      "musicFile": "light-carefree.mp3",
+      "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-25-test-udvoenie-zaimstvovaniya.mp4",
+      "coverOffsetMs": 14600,
+      "music": {
+        "composer": "Kevin MacLeod",
+        "piece": "Carefree",
+        "license": "CC BY 4.0",
+        "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1400037",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "attribution": "Carefree — Kevin MacLeod (incompetech.com). CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/. Фрагмент обрезан и сведён с видео.",
+        "attributionRequired": true
+      },
+      "publishedMediaId": "18091765127662130",
+      "publishedAt": "2026-10-26T16:18:54.571Z",
+      "storyRepost": {
+        "version": 1,
+        "feedMediaId": "18091765127662130",
+        "status": "published",
+        "items": [
+          {
+            "index": 1,
+            "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-10-25-test-udvoenie-zaimstvovaniya-1.jpg",
+            "sha256": "3355f26c51e3a0255277b3f26cc595f597b24d93bd295ce80e17ec7e44999256",
+            "status": "published",
+            "attempts": 1,
+            "attemptedAt": "2026-10-26T16:18:54.594Z",
+            "containerId": "18032941772887754",
+            "publishedMediaId": "18096945104461893",
+            "publishedAt": "2026-10-26T16:19:10.198Z"
+          }
+        ],
+        "sourceKey": "be793d7b7c58e5fc72d9f4914d1a95a475d13f0bd3f4faaaf5fad06279fe45af"
+      }
     },
     {
       "id": "2026-10-25-olimp-bud-zdorov",
