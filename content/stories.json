@@ -1679,6 +1679,11 @@
             "containerId": "18032916101887754",
             "attemptedAt": "2026-10-26T13:36:42.510Z",
             "mediaId": "17914415913284063"
+          },
+          {
+            "state": "publishing",
+            "containerId": "18032916230887754",
+            "attemptedAt": "2026-10-26T13:37:21.720Z"
           }
         ]
       },
