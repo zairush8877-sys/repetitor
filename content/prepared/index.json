@@ -1400,7 +1400,7 @@
     "2026-10-25-test-udareniya-zaprosy": {
       "version": 1,
       "draftKey": "a806857647f40282b6c369849df5b1b9cd9b2a4366a109afbcef22a05a33a1d5",
-      "builtAt": "2026-10-25T20:57:37.716Z",
+      "builtAt": "2026-10-25T21:19:37.039Z",
       "media": {
         "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-25-test-udareniya-zaprosy.mp4",
         "coverOffsetMs": 14600,
@@ -1418,21 +1418,21 @@
         {
           "relative": "reels/2026-10-25-test-udareniya-zaprosy.mp4",
           "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-25-test-udareniya-zaprosy.mp4",
-          "size": 554217,
-          "sha256": "90a5b62f890ce67d58a437256c1b8d6bdd6f0694148b38159f71cc5061dab096"
+          "size": 550390,
+          "sha256": "c346a602d01e48874c0cb0bda54d86e1cce983d30c2c84d8e13f033d25b121e3"
         },
         {
           "relative": "reels/2026-10-25-test-udareniya-zaprosy-frame.jpg",
           "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-25-test-udareniya-zaprosy-frame.jpg",
-          "size": 164030,
-          "sha256": "84d59cbea34d22cc11005bbe7ea6f8fb2b3216f9d6ba34604267e3d6d778699d"
+          "size": 159888,
+          "sha256": "f1a9a47605fabf2a04726ba4c6543b3708c724b84e5e28847e1869eedc538f39"
         }
       ]
     },
     "2026-10-25-test-udvoenie-zaimstvovaniya": {
       "version": 1,
       "draftKey": "457fc553dd6655075d3c790a03246136e8e02f0a4bda039665cbe431aabd9d8d",
-      "builtAt": "2026-10-25T20:57:37.850Z",
+      "builtAt": "2026-10-25T21:19:37.153Z",
       "media": {
         "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-25-test-udvoenie-zaimstvovaniya.mp4",
         "coverOffsetMs": 14600,
@@ -1450,14 +1450,78 @@
         {
           "relative": "reels/2026-10-25-test-udvoenie-zaimstvovaniya.mp4",
           "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-25-test-udvoenie-zaimstvovaniya.mp4",
-          "size": 572185,
-          "sha256": "c89b28ea87f40b55bfa658750b8736af990ee7d0ff6e6088ab5473b144971e12"
+          "size": 528431,
+          "sha256": "254b847dfbd1f729e002b60da08d002e8cfb394749c9eb5dbf416b3c23c505f1"
         },
         {
           "relative": "reels/2026-10-25-test-udvoenie-zaimstvovaniya-frame.jpg",
           "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-25-test-udvoenie-zaimstvovaniya-frame.jpg",
-          "size": 177967,
-          "sha256": "2af2647c7110d2b23737be4a0d41284df63db1c879840651bf6e36f69932b70d"
+          "size": 153144,
+          "sha256": "828d69d4dcf49ec60f32ead1ad7245e44a5cbc21a4b87145876033280ee6608b"
+        }
+      ]
+    },
+    "2026-10-25-olimp-bud-zdorov": {
+      "version": 1,
+      "draftKey": "68759705c704f13d0b39a107c164b9417103a676f217efa7f39d45280f399faa",
+      "builtAt": "2026-10-26T05:30:48.728Z",
+      "media": {
+        "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-25-olimp-bud-zdorov.mp4",
+        "coverOffsetMs": 10600,
+        "music": {
+          "composer": "Иоганн Себастьян Бах",
+          "piece": "Гольдберг-вариации, BWV 988 — Вариация № 1",
+          "license": "CC0 1.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "attribution": "И. С. Бах — Гольдберг-вариации, BWV 988, вариация № 1. Фортепиано: Кимико Ишизака, Open Goldberg Variations (2012). Запись CC0 1.0. Фрагмент, громкость изменена.",
+          "attributionRequired": true
+        }
+      },
+      "files": [
+        {
+          "relative": "reels/2026-10-25-olimp-bud-zdorov.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-25-olimp-bud-zdorov.mp4",
+          "size": 460815,
+          "sha256": "70b928810f246d4f04afb9d6eead84bfed58df3911d54b4cce66d10ce9b58156"
+        },
+        {
+          "relative": "reels/2026-10-25-olimp-bud-zdorov-frame.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-25-olimp-bud-zdorov-frame.jpg",
+          "size": 154080,
+          "sha256": "5da573df4d532628cbf957f8a4f6d3ffde25e545414dd82b85a203f0c5b06947"
+        }
+      ]
+    },
+    "2026-10-25-olimp-karlson": {
+      "version": 1,
+      "draftKey": "56e99b38b581fe510d2231203683b2f62cc9d7f12046a8541dfde8e4966fd4e9",
+      "builtAt": "2026-10-26T05:30:48.823Z",
+      "media": {
+        "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-25-olimp-karlson.mp4",
+        "coverOffsetMs": 12600,
+        "music": {
+          "composer": "Иоганн Себастьян Бах",
+          "piece": "Гольдберг-вариации, BWV 988 — Вариация № 1",
+          "license": "CC0 1.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "attribution": "И. С. Бах — Гольдберг-вариации, BWV 988, вариация № 1. Фортепиано: Кимико Ишизака, Open Goldberg Variations (2012). Запись CC0 1.0. Фрагмент, громкость изменена.",
+          "attributionRequired": true
+        }
+      },
+      "files": [
+        {
+          "relative": "reels/2026-10-25-olimp-karlson.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-25-olimp-karlson.mp4",
+          "size": 504224,
+          "sha256": "2cfebc8f30d90bca7b854ac314c35f0b56937e15197cc662fc95f4bc544d05bc"
+        },
+        {
+          "relative": "reels/2026-10-25-olimp-karlson-frame.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-25-olimp-karlson-frame.jpg",
+          "size": 158433,
+          "sha256": "c3eb418333f842a0d512149c81cc94a43ba62f5af4791a4d2c77f0f0723c669d"
         }
       ]
     }

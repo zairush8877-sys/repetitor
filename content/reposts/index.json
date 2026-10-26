@@ -1332,7 +1332,7 @@
     "2026-10-25-test-udareniya-zaprosy": {
       "kind": "reel_frame",
       "sourceKey": "24f2d18e9eab665813ded9b66499861a0117f31752bf17c5ba18ad28b7400d22",
-      "renderedAt": "2026-10-25T20:57:37.716Z",
+      "renderedAt": "2026-10-25T21:19:37.038Z",
       "publicationStatus": "export_only",
       "assets": [
         {
@@ -1341,7 +1341,7 @@
           "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-10-25-test-udareniya-zaprosy-1.jpg",
           "width": 1080,
           "height": 1920,
-          "sha256": "64bd1a4ea7abea2d2acd1000b75ddac3ea17e73179875c5bf6e0e7700f13435f",
+          "sha256": "e8e6ef06e1fb0101925f8589d932ae8e151fb0f001c2e11ee0a28f55582a0511",
           "geometry": {
             "sourceWidth": 1080,
             "sourceHeight": 1920,
@@ -1351,8 +1351,8 @@
             "height": 1300,
             "outputWidth": 1080,
             "outputHeight": 1920,
-            "sourceSha256": "84d59cbea34d22cc11005bbe7ea6f8fb2b3216f9d6ba34604267e3d6d778699d",
-            "sha256": "64bd1a4ea7abea2d2acd1000b75ddac3ea17e73179875c5bf6e0e7700f13435f"
+            "sourceSha256": "f1a9a47605fabf2a04726ba4c6543b3708c724b84e5e28847e1869eedc538f39",
+            "sha256": "e8e6ef06e1fb0101925f8589d932ae8e151fb0f001c2e11ee0a28f55582a0511"
           }
         }
       ]
@@ -1360,7 +1360,7 @@
     "2026-10-25-test-udvoenie-zaimstvovaniya": {
       "kind": "reel_frame",
       "sourceKey": "be793d7b7c58e5fc72d9f4914d1a95a475d13f0bd3f4faaaf5fad06279fe45af",
-      "renderedAt": "2026-10-25T20:57:37.850Z",
+      "renderedAt": "2026-10-25T21:19:37.153Z",
       "publicationStatus": "export_only",
       "assets": [
         {
@@ -1369,7 +1369,7 @@
           "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-10-25-test-udvoenie-zaimstvovaniya-1.jpg",
           "width": 1080,
           "height": 1920,
-          "sha256": "6cdd6f5f9e5df6152075c150811d74cbd82b768bf229a82b3ef7d81c5da31839",
+          "sha256": "3355f26c51e3a0255277b3f26cc595f597b24d93bd295ce80e17ec7e44999256",
           "geometry": {
             "sourceWidth": 1080,
             "sourceHeight": 1920,
@@ -1379,8 +1379,64 @@
             "height": 1300,
             "outputWidth": 1080,
             "outputHeight": 1920,
-            "sourceSha256": "2af2647c7110d2b23737be4a0d41284df63db1c879840651bf6e36f69932b70d",
-            "sha256": "6cdd6f5f9e5df6152075c150811d74cbd82b768bf229a82b3ef7d81c5da31839"
+            "sourceSha256": "828d69d4dcf49ec60f32ead1ad7245e44a5cbc21a4b87145876033280ee6608b",
+            "sha256": "3355f26c51e3a0255277b3f26cc595f597b24d93bd295ce80e17ec7e44999256"
+          }
+        }
+      ]
+    },
+    "2026-10-25-olimp-bud-zdorov": {
+      "kind": "reel_frame",
+      "sourceKey": "2b60370f0000efb8f621eea0195b136f255cf95962153c2ef41477e1d196c2bf",
+      "renderedAt": "2026-10-26T05:30:48.726Z",
+      "publicationStatus": "export_only",
+      "assets": [
+        {
+          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-25-olimp-bud-zdorov-frame.jpg",
+          "file": "2026-10-25-olimp-bud-zdorov-1.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-10-25-olimp-bud-zdorov-1.jpg",
+          "width": 1080,
+          "height": 1920,
+          "sha256": "cc3cd2019d8009005098347a67fd7445beb3fd45c1f14f44d3c35bed92016ed5",
+          "geometry": {
+            "sourceWidth": 1080,
+            "sourceHeight": 1920,
+            "x": 174.375,
+            "y": 360,
+            "width": 731.25,
+            "height": 1300,
+            "outputWidth": 1080,
+            "outputHeight": 1920,
+            "sourceSha256": "5da573df4d532628cbf957f8a4f6d3ffde25e545414dd82b85a203f0c5b06947",
+            "sha256": "cc3cd2019d8009005098347a67fd7445beb3fd45c1f14f44d3c35bed92016ed5"
+          }
+        }
+      ]
+    },
+    "2026-10-25-olimp-karlson": {
+      "kind": "reel_frame",
+      "sourceKey": "1145605f5adf1c45aa9fd49e9227c44be3fef121c3f515aa10d286b0a2c7106e",
+      "renderedAt": "2026-10-26T05:30:48.823Z",
+      "publicationStatus": "export_only",
+      "assets": [
+        {
+          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-25-olimp-karlson-frame.jpg",
+          "file": "2026-10-25-olimp-karlson-1.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-10-25-olimp-karlson-1.jpg",
+          "width": 1080,
+          "height": 1920,
+          "sha256": "4de77b2ffe8804e6305964e60b5040c79e3deb219551b9bda2367abc784f62ee",
+          "geometry": {
+            "sourceWidth": 1080,
+            "sourceHeight": 1920,
+            "x": 174.375,
+            "y": 360,
+            "width": 731.25,
+            "height": 1300,
+            "outputWidth": 1080,
+            "outputHeight": 1920,
+            "sourceSha256": "c3eb418333f842a0d512149c81cc94a43ba62f5af4791a4d2c77f0f0723c669d",
+            "sha256": "4de77b2ffe8804e6305964e60b5040c79e3deb219551b9bda2367abc784f62ee"
           }
         }
       ]

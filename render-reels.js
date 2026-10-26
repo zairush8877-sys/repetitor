@@ -66,7 +66,8 @@ function legacyPageHtml(post, handle) {
   const heads = post.heads || ['Неправильно', 'Правильно'];
   const rows = post.rows.map(([bad, good], i) => steps || compare ? `
     <div class="row" id="row${i}">
-      <span class="bad">${numbered ? `<i class="stepnum">${String(i + 1).padStart(2, '0')}</i>` : ''}${esc(bad)}</span>
+      ${numbered && !steps ? `<i class="stepnum">${post.rows.length > 9 ? String(i + 1).padStart(2, '0') : i + 1}</i>` : ''}
+      <span class="bad">${steps ? `<i class="stepnum">${String(i + 1).padStart(2, '0')}</i>` : ''}${esc(bad)}</span>
       <span class="good">${esc(good)}</span>
     </div>` : `
     <div class="row" id="row${i}">
@@ -103,8 +104,11 @@ function legacyPageHtml(post, handle) {
   // Кегль считается не по числу пар, а по числу СТРОК с учётом переносов:
   // колонка вмещает ~16 знаков, длинная сторона занимает две-три строки,
   // и девять пар с переносами не влезали там, где влезали десять коротких.
+  // Колонка с номером забирает у текста около полусотни пикселей, поэтому в
+  // строку помещается меньше знаков, чем без неё: считаем по тринадцати.
+  const perLine = numbered && !steps ? (post.rows.length > 9 ? 13 : 14) : 16;
   const lines = post.rows.reduce(
-    (n, r) => n + Math.max(1, Math.ceil(Math.max(r[0].length, r[1].length) / 16)), 0);
+    (n, r) => n + Math.max(1, Math.ceil(Math.max(r[0].length, r[1].length) / perLine)), 0);
   const rowSize = lines >= 15 ? 30 : lines >= 12 ? 34 : lines >= 10 ? 39 : 46;
   const rowPad = rowSize >= 46 ? 21 : rowSize >= 39 ? 15 : rowSize >= 34 ? 12 : 10;
   // Подпись на фото стоит на тёмной полосе скрима — тень нужна всегда.
@@ -213,8 +217,12 @@ function legacyPageHtml(post, handle) {
     .bad { color: ${PRAVKA.ink} }
     .h-bad { color: ${PRAVKA.ink} }` : ''}
     ${numbered && !steps ? `
+    /* Номер живёт в собственной колонке сетки. Пока он стоял внутри левой
+       ячейки, он отъедал её ширину: расширишь левую — переносится правая,
+       оставишь поровну — переносится левая. Своя колонка снимает выбор. */
+    .row, .head { grid-template-columns: ${post.rows.length > 9 ? 64 : 38}px minmax(0, 1fr) minmax(0, 1fr) }
     .stepnum { font-family: ${FONTS.mono()}; font-style: normal; font-weight: 400;
-               color: ${PRAVKA.err}; margin-right: 18px }` : ''}
+               color: ${PRAVKA.err}; align-self: baseline }` : ''}
     .foot {
       font-family: ${FONTS.mono()};
       font-size: 32px;
@@ -229,6 +237,7 @@ function legacyPageHtml(post, handle) {
     <div class="card">
       <div class="progress"><i></i></div>
       <div class="head">
+        ${numbered && !steps ? '<i class="stepnum"></i>' : ''}
         <span class="h-bad">${compare ? '' : '<i class="m-x"></i>'}${esc(heads[0])}</span>
         <span class="h-good">${compare ? '' : '<i class="m-v"></i>'}${esc(heads[1])}</span>
       </div>
@@ -302,11 +311,8 @@ function pageHtml(post, handle) {
     .plate{background:none!important;padding:0!important;box-decoration-break:initial!important}
     .card{background:#fff!important;box-shadow:none!important;border:1px solid #dbe5db;padding:24px 30px 20px!important;flex-shrink:0!important}
     .row,.head{flex-shrink:0!important;grid-template-columns:minmax(0,1fr) minmax(0,1fr)!important}
-    ${post.numbered ? `
-    /* Номер строки съедает начало левой колонки, и пара вариантов начинает
-       переноситься там, где без номера помещалась. Левой колонке отдаём
-       больше: справа всё равно стоит одно короткое слово-ответ. */
-    .row,.head{grid-template-columns:minmax(0,1.4fr) minmax(0,1fr)!important}` : ''}
+    ${post.numbered && !post.steps ? `
+    .row,.head{grid-template-columns:${post.rows.length > 9 ? 56 : 34}px minmax(0,1fr) minmax(0,1fr)!important}` : ''}
     .bad,.good{overflow-wrap:anywhere}
     .head{letter-spacing:.06em!important;font-size:24px!important}
     .foot,.foot *{color:#526a60!important;text-shadow:none!important}
