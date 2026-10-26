@@ -1728,6 +1728,176 @@
           "sha256": "af9d8ee16031a38e0bd1b203da980e7741afa291e7d9a8aa55be44b8b19a4f45"
         }
       ]
+    },
+    "2026-10-26-udarenie-zaim": {
+      "version": 1,
+      "draftKey": "594900b54fa0b77bd1c4b272492d0baf32bfde8e268627b2560efe6b9bcb57ed",
+      "builtAt": "2026-10-26T10:11:03.940Z",
+      "media": {
+        "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-26-udarenie-zaim.mp4",
+        "coverOffsetMs": 12600,
+        "music": {
+          "composer": "Kevin MacLeod",
+          "piece": "Crinoline Dreams",
+          "license": "CC BY 4.0",
+          "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1700073",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "attribution": "Crinoline Dreams — Kevin MacLeod (incompetech.com). CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/. Фрагмент обрезан и сведён с видео.",
+          "attributionRequired": true
+        },
+        "background": "assets/photos/jeshoots-notebook.jpg",
+        "lightBg": true
+      },
+      "files": [
+        {
+          "relative": "reels/2026-10-26-udarenie-zaim.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-26-udarenie-zaim.mp4",
+          "size": 493752,
+          "sha256": "de8cb627554dffac68eb2f538d54dfee6bebc3305d11ca1dbbdbf919c09b09af"
+        },
+        {
+          "relative": "reels/2026-10-26-udarenie-zaim-frame.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-26-udarenie-zaim-frame.jpg",
+          "size": 147974,
+          "sha256": "4cc932530b56b5e22e94cee88e5279de67b8108a01ab70c364bcbd83b7a40c94"
+        }
+      ]
+    },
+    "2026-10-26-pol": {
+      "version": 1,
+      "draftKey": "7acec81f6efe1e7b1a1a4f8b7d710c6b33a4bc973fcc4734527f311dd2903692",
+      "builtAt": "2026-10-26T10:11:04.036Z",
+      "media": {
+        "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-26-pol.mp4",
+        "coverOffsetMs": 12600,
+        "music": {
+          "composer": "Kevin MacLeod",
+          "piece": "Onion Capers",
+          "license": "CC BY 4.0",
+          "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1800023",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "attribution": "Onion Capers — Kevin MacLeod (incompetech.com). CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/. Фрагмент обрезан и сведён с видео.",
+          "attributionRequired": true
+        },
+        "background": "assets/photos/jeshoots-notebook.jpg",
+        "lightBg": true
+      },
+      "files": [
+        {
+          "relative": "reels/2026-10-26-pol.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-26-pol.mp4",
+          "size": 486183,
+          "sha256": "a4f0dfe2f0f66fadb9b16d9151e75a07a80f7bd58912344eaff604ce2110a3c1"
+        },
+        {
+          "relative": "reels/2026-10-26-pol-frame.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-26-pol-frame.jpg",
+          "size": 138902,
+          "sha256": "2c2e17d7bd1f4b0ab97fa019378c70a45f82a5be8b858846ecf3a25797de223a"
+        }
+      ]
+    },
+    "2026-10-26-prichastiya": {
+      "version": 1,
+      "draftKey": "a64ee89c6c74863ff4ec9626ec9e3151d4ae5053f73d20ff3421711431c4d4ba",
+      "builtAt": "2026-10-26T10:11:04.120Z",
+      "media": {
+        "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-26-prichastiya.mp4",
+        "coverOffsetMs": 12600,
+        "music": {
+          "composer": "Kevin MacLeod",
+          "piece": "Easy Lemon",
+          "license": "CC BY 4.0",
+          "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1200076",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "attribution": "Easy Lemon — Kevin MacLeod (incompetech.com). CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/. Фрагмент обрезан и сведён с видео.",
+          "attributionRequired": true
+        },
+        "background": "assets/photos/jeshoots-notebook.jpg",
+        "lightBg": true
+      },
+      "files": [
+        {
+          "relative": "reels/2026-10-26-prichastiya.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-26-prichastiya.mp4",
+          "size": 490220,
+          "sha256": "eafe51226f80167f51dc23039183460a85a7cace6cc4f0b2f12c7695161bfefe"
+        },
+        {
+          "relative": "reels/2026-10-26-prichastiya-frame.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-26-prichastiya-frame.jpg",
+          "size": 151142,
+          "sha256": "acce158c17f87823d4a0a45a11ba08bf05d080edc3a76d22c245235a0031c4e4"
+        }
+      ]
+    },
+    "2026-10-26-mn-udarenie": {
+      "version": 1,
+      "draftKey": "6e47c33c24b934414e51f269bc9dc4a9784e8d8ba0d95935ae0200564ecd5e14",
+      "builtAt": "2026-10-26T10:11:04.203Z",
+      "media": {
+        "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-26-mn-udarenie.mp4",
+        "coverOffsetMs": 12600,
+        "music": {
+          "composer": "Kevin MacLeod",
+          "piece": "Study And Relax",
+          "license": "CC BY 4.0",
+          "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1900030",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "attribution": "Study And Relax — Kevin MacLeod (incompetech.com). CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/. Фрагмент обрезан и сведён с видео.",
+          "attributionRequired": true
+        },
+        "background": "assets/photos/jeshoots-notebook.jpg",
+        "lightBg": true
+      },
+      "files": [
+        {
+          "relative": "reels/2026-10-26-mn-udarenie.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-26-mn-udarenie.mp4",
+          "size": 458329,
+          "sha256": "6a1de345e80a185bf6d966f13e3b1ea7b07c22a65ec97fe2f81f4813156b6fa4"
+        },
+        {
+          "relative": "reels/2026-10-26-mn-udarenie-frame.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-26-mn-udarenie-frame.jpg",
+          "size": 132362,
+          "sha256": "b960577dfe5885839cd89a4b7f753de02bc31fe226d0f64d29fea32e9d2a1c22"
+        }
+      ]
+    },
+    "2026-10-26-nepro-soglasnye": {
+      "version": 1,
+      "draftKey": "078ffc8c9f22c1cc81ffb8b34f8674908f9f289c9a35895151f911ffa2741db1",
+      "builtAt": "2026-10-26T10:11:04.287Z",
+      "media": {
+        "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-26-nepro-soglasnye.mp4",
+        "coverOffsetMs": 12600,
+        "music": {
+          "composer": "Иоганн Себастьян Бах",
+          "piece": "Гольдберг-вариации, BWV 988 — Вариация № 1",
+          "license": "CC0 1.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "attribution": "И. С. Бах — Гольдберг-вариации, BWV 988, вариация № 1. Фортепиано: Кимико Ишизака, Open Goldberg Variations (2012). Запись CC0 1.0. Фрагмент, громкость изменена.",
+          "attributionRequired": true
+        },
+        "background": "assets/photos/clay-banks-notebook.jpg",
+        "lightBg": true
+      },
+      "files": [
+        {
+          "relative": "reels/2026-10-26-nepro-soglasnye.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-26-nepro-soglasnye.mp4",
+          "size": 468056,
+          "sha256": "9ed18e8c88b333841d0824a0d9b725fa93def28f5c7630d10cb19f4b864c91d2"
+        },
+        {
+          "relative": "reels/2026-10-26-nepro-soglasnye-frame.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-26-nepro-soglasnye-frame.jpg",
+          "size": 139572,
+          "sha256": "04b116aa220781bf6a0f047cf983eaa3ed0f324b0b6473e73c895818698455e7"
+        }
+      ]
     }
   }
 }
