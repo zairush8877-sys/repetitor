@@ -1675,12 +1675,16 @@
       "delivery": {
         "parts": [
           {
-            "state": "publishing",
+            "state": "published",
             "containerId": "18032916101887754",
-            "attemptedAt": "2026-10-26T13:36:42.510Z"
+            "attemptedAt": "2026-10-26T13:36:42.510Z",
+            "mediaId": "17914415913284063"
           }
         ]
-      }
+      },
+      "publishedMediaIds": [
+        "17914415913284063"
+      ]
     },
     {
       "id": "2026-10-09-oge-dvoetochie-standalone",
