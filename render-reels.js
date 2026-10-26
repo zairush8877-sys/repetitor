@@ -408,7 +408,21 @@ if (require.main === module) (async () => {
 
   // Без музыки ролик в ленте звучит как сбой звука, поэтому дорожка обязательна.
   // Если библиотека пуста, кладём тишину — это хуже, но лучше, чем упасть.
-  const track = ROTATION.chooseTrack(id);
+  // Трек можно назначить вручную полем musicFile. Хеш от id независим между
+  // постами и спокойно выдаёт один и тот же трек трём подряд: 27, 30 и 31
+  // октября так и вышло. Правило автора от 26.10.2026 — «меняй музыку почти
+  // постоянно», а ротация его не гарантирует, поэтому у соседних по дате
+  // постов трек проставляется явно.
+  const track = post.musicFile
+    ? (() => {
+        const list = JSON.parse(fs.readFileSync(path.join(ROTATION.MUSIC_DIR, 'index.json'), 'utf8')).tracks || [];
+        const found = list.find(t => t.file === post.musicFile);
+        if (!found) throw new Error(`musicFile: трека ${post.musicFile} нет в content/music/index.json`);
+        if (found.active === false) throw new Error(`musicFile: трек ${post.musicFile} выключен в index.json`);
+        if (!fs.existsSync(path.join(ROTATION.MUSIC_DIR, found.file))) throw new Error(`musicFile: файл ${post.musicFile} не найден`);
+        return found;
+      })()
+    : ROTATION.chooseTrack(id);
   const audioIn = track
     ? ['-i', path.join(__dirname, 'content', 'music', track.file)]
     : ['-f', 'lavfi', '-i', 'anullsrc=channel_layout=stereo:sample_rate=44100'];
