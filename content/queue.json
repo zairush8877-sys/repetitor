@@ -5969,7 +5969,7 @@
     },
     {
       "id": "2026-10-25-test-udareniya-zaprosy",
-      "status": "approved",
+      "status": "published",
       "format": "Reels",
       "rubric": "Проверьте себя",
       "school": false,
@@ -6020,7 +6020,39 @@
       "sourceNote": "Ударения сверены по академическому орфографическому ресурсу ИРЯ РАН (АКАДЕМОС): хода́тайство, опто́вый, ба́рмен, щаве́ль, диспансе́р, апостро́ф — у всех шести единственная норма. Отброшены как вариативные: обеспе́че́ние, ма́стерски́, фено́ме́н. Снято «новорождённый»: это про букву ё, а не про ударение, и вариант «новоро́жденный» словари фиксируют с пометой, то есть он в словарях есть. Цифра +75,9 % — прирост запросов по топ-20 «Грамоты» за 2025 год в изложении РБК от 30.03.2026; gramota.ru из рабочей среды недоступна (403), первоисточник не открывался.",
       "checkedAt": "2026-10-25",
       "plainBg": true,
-      "date": "2026-10-26"
+      "date": "2026-10-26",
+      "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-25-test-udareniya-zaprosy.mp4",
+      "coverOffsetMs": 14600,
+      "music": {
+        "composer": "Иоганн Себастьян Бах",
+        "piece": "Гольдберг-вариации, BWV 988 — Вариация № 1",
+        "license": "CC0 1.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "attribution": "И. С. Бах — Гольдберг-вариации, BWV 988, вариация № 1. Фортепиано: Кимико Ишизака, Open Goldberg Variations (2012). Запись CC0 1.0. Фрагмент, громкость изменена.",
+        "attributionRequired": true
+      },
+      "publishedMediaId": "18397712956203295",
+      "publishedAt": "2026-10-26T09:45:18.416Z",
+      "storyRepost": {
+        "version": 1,
+        "feedMediaId": "18397712956203295",
+        "status": "published",
+        "items": [
+          {
+            "index": 1,
+            "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-10-25-test-udareniya-zaprosy-1.jpg",
+            "sha256": "e8e6ef06e1fb0101925f8589d932ae8e151fb0f001c2e11ee0a28f55582a0511",
+            "status": "published",
+            "attempts": 1,
+            "attemptedAt": "2026-10-26T09:45:18.545Z",
+            "containerId": "18032885474887754",
+            "publishedMediaId": "18337505884279399",
+            "publishedAt": "2026-10-26T09:45:31.167Z"
+          }
+        ],
+        "sourceKey": "24f2d18e9eab665813ded9b66499861a0117f31752bf17c5ba18ad28b7400d22"
+      }
     },
     {
       "id": "2026-10-25-test-udvoenie-zaimstvovaniya",
