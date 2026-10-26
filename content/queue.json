@@ -6791,7 +6791,7 @@
       "sourceNote": "В АКАДЕМОСе есть че́стный, изве́стный, ле́стница, преле́стный, чу́вство; написаний из левой колонки нет ни одного. Ответ на задание — строка 5: в «чувстве» теряется «в», в остальных четырёх — «т»."
     },
     {
-      "status": "approved",
+      "status": "published",
       "format": "Reels",
       "school": false,
       "numbered": true,
@@ -6838,7 +6838,41 @@
         "#орфография",
         "#русскийязык"
       ],
-      "sourceNote": "Из АКАДЕМОСа: цыга́не (ед. цыга́н), цыплёнок, на цы́почках, огуре́ц, ци́ркуль. Ответ на задание — строка 5. Подпись правлена по замечанию корректора: в черновике стояло «в конце слова после ц всегда ы», из чего выходит «станцыя»; формулировка сужена до окончания -цы, и добавлена закрывающая строка про цифру, цитату и станцию."
+      "sourceNote": "Из АКАДЕМОСа: цыга́не (ед. цыга́н), цыплёнок, на цы́почках, огуре́ц, ци́ркуль. Ответ на задание — строка 5. Подпись правлена по замечанию корректора: в черновике стояло «в конце слова после ц всегда ы», из чего выходит «станцыя»; формулировка сужена до окончания -цы, и добавлена закрывающая строка про цифру, цитату и станцию.",
+      "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-26-cy-ci.mp4",
+      "coverOffsetMs": 12600,
+      "music": {
+        "composer": "Kevin MacLeod",
+        "piece": "Almost Bliss",
+        "license": "CC BY 4.0",
+        "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1900015",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "attribution": "Almost Bliss — Kevin MacLeod (incompetech.com). CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/. Фрагмент обрезан и сведён с видео.",
+        "attributionRequired": true
+      },
+      "background": "assets/photos/jeshoots-notebook.jpg",
+      "lightBg": true,
+      "publishedMediaId": "18641510971016683",
+      "publishedAt": "2026-10-26T18:28:39.897Z",
+      "storyRepost": {
+        "version": 1,
+        "feedMediaId": "18641510971016683",
+        "status": "published",
+        "items": [
+          {
+            "index": 1,
+            "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-10-26-cy-ci-1.jpg",
+            "sha256": "2784274dca5d52d9fe55fc641abbed139a17b56e03567c61fdcfde2c848dab46",
+            "status": "published",
+            "attempts": 1,
+            "attemptedAt": "2026-10-26T18:28:39.917Z",
+            "containerId": "18032960534887754",
+            "publishedMediaId": "18147337597603447",
+            "publishedAt": "2026-10-26T18:28:52.552Z"
+          }
+        ],
+        "sourceKey": "0b01f1581bf0c9f5825145a044b91000c3be85c26036c7a3bd1d774b32f3f1de"
+      }
     },
     {
       "status": "approved",
