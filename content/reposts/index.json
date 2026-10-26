@@ -1496,6 +1496,118 @@
           }
         }
       ]
+    },
+    "2026-10-26-myagkiy-znak": {
+      "kind": "reel_frame",
+      "sourceKey": "074b5efd0dfc9ec3b6dabe06dd6860036ee1ebd579b4131ff877d459e164c3e2",
+      "renderedAt": "2026-10-26T09:36:28.307Z",
+      "publicationStatus": "export_only",
+      "assets": [
+        {
+          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-26-myagkiy-znak-frame.jpg",
+          "file": "2026-10-26-myagkiy-znak-1.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-10-26-myagkiy-znak-1.jpg",
+          "width": 1080,
+          "height": 1920,
+          "sha256": "f2b2fb331f132a074b9a69e27d588f120bd1c9fe34c1489c01fda0d069f4764b",
+          "geometry": {
+            "sourceWidth": 1080,
+            "sourceHeight": 1920,
+            "x": 174.375,
+            "y": 360,
+            "width": 731.25,
+            "height": 1300,
+            "outputWidth": 1080,
+            "outputHeight": 1920,
+            "sourceSha256": "99f5c676e5062b44ff226d722e079c7e6f3740b0d7fea45bb6f7f092afabcac8",
+            "sha256": "f2b2fb331f132a074b9a69e27d588f120bd1c9fe34c1489c01fda0d069f4764b"
+          }
+        }
+      ]
+    },
+    "2026-10-26-udarenie-glagoly": {
+      "kind": "reel_frame",
+      "sourceKey": "7f3b1611640b8b08e7001f9ef25dbfd57e1c050f7373ee91fe27fedd44f26d36",
+      "renderedAt": "2026-10-26T09:36:28.406Z",
+      "publicationStatus": "export_only",
+      "assets": [
+        {
+          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-26-udarenie-glagoly-frame.jpg",
+          "file": "2026-10-26-udarenie-glagoly-1.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-10-26-udarenie-glagoly-1.jpg",
+          "width": 1080,
+          "height": 1920,
+          "sha256": "4e9075bdc6d2d43a68adcbf4b5a3a0f0a1632b6bcab193abe66cd9e545a29a63",
+          "geometry": {
+            "sourceWidth": 1080,
+            "sourceHeight": 1920,
+            "x": 174.375,
+            "y": 360,
+            "width": 731.25,
+            "height": 1300,
+            "outputWidth": 1080,
+            "outputHeight": 1920,
+            "sourceSha256": "edb3504f7002455b2b5098e5960e90f1e7b887f82645b3f51f348333fec9563d",
+            "sha256": "4e9075bdc6d2d43a68adcbf4b5a3a0f0a1632b6bcab193abe66cd9e545a29a63"
+          }
+        }
+      ]
+    },
+    "2026-10-26-slovarnye-2": {
+      "kind": "reel_frame",
+      "sourceKey": "73f5d8afb5724023dd8c7290e629bd75f0aa6a72c1da7bf69ba766c8b6859536",
+      "renderedAt": "2026-10-26T09:36:28.489Z",
+      "publicationStatus": "export_only",
+      "assets": [
+        {
+          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-26-slovarnye-2-frame.jpg",
+          "file": "2026-10-26-slovarnye-2-1.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-10-26-slovarnye-2-1.jpg",
+          "width": 1080,
+          "height": 1920,
+          "sha256": "44f5038dcc4e8653a6fadfbf097189bde38bbfa86026c18d66c8c5dc6dfb535e",
+          "geometry": {
+            "sourceWidth": 1080,
+            "sourceHeight": 1920,
+            "x": 174.375,
+            "y": 360,
+            "width": 731.25,
+            "height": 1300,
+            "outputWidth": 1080,
+            "outputHeight": 1920,
+            "sourceSha256": "57a9d7e952eb3e6b98368bd9b5d9af1cbb9db4cabf2a88f1f378e39e53338a59",
+            "sha256": "44f5038dcc4e8653a6fadfbf097189bde38bbfa86026c18d66c8c5dc6dfb535e"
+          }
+        }
+      ]
+    },
+    "2026-10-26-novye-slova": {
+      "kind": "reel_frame",
+      "sourceKey": "02b880bb847fc8034ad41aab9f83148593bedfe4cbd8c9a79d9fd58f1d3ca89d",
+      "renderedAt": "2026-10-26T09:42:13.429Z",
+      "publicationStatus": "export_only",
+      "assets": [
+        {
+          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-26-novye-slova-frame.jpg",
+          "file": "2026-10-26-novye-slova-1.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-10-26-novye-slova-1.jpg",
+          "width": 1080,
+          "height": 1920,
+          "sha256": "9dc9e93f04b4f2d1cd4db6c1c080a943e71214a306936da2b19c64bcfc438aef",
+          "geometry": {
+            "sourceWidth": 1080,
+            "sourceHeight": 1920,
+            "x": 174.375,
+            "y": 360,
+            "width": 731.25,
+            "height": 1300,
+            "outputWidth": 1080,
+            "outputHeight": 1920,
+            "sourceSha256": "af9d8ee16031a38e0bd1b203da980e7741afa291e7d9a8aa55be44b8b19a4f45",
+            "sha256": "9dc9e93f04b4f2d1cd4db6c1c080a943e71214a306936da2b19c64bcfc438aef"
+          }
+        }
+      ]
     }
   }
 }

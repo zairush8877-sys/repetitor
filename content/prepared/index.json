@@ -1592,6 +1592,142 @@
           "sha256": "520e95e6c3ef64271871c578f822d78da9580cb0322d0fa972bf3d2e7140c9e8"
         }
       ]
+    },
+    "2026-10-26-myagkiy-znak": {
+      "version": 1,
+      "draftKey": "0054ca737dde56057f8b0258f82f51aaf574ee888d0c5d115879cf69c3f4b9f6",
+      "builtAt": "2026-10-26T09:36:28.308Z",
+      "media": {
+        "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-26-myagkiy-znak.mp4",
+        "coverOffsetMs": 14600,
+        "music": {
+          "composer": "Kevin MacLeod",
+          "piece": "Easy Lemon",
+          "license": "CC BY 4.0",
+          "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1200076",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "attribution": "Easy Lemon — Kevin MacLeod (incompetech.com). CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/. Фрагмент обрезан и сведён с видео.",
+          "attributionRequired": true
+        },
+        "background": "assets/photos/clay-banks-notebook.jpg",
+        "lightBg": true
+      },
+      "files": [
+        {
+          "relative": "reels/2026-10-26-myagkiy-znak.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-26-myagkiy-znak.mp4",
+          "size": 501482,
+          "sha256": "586dbb4b8a210ab724553ad5c01e241bcfcb5240be092c2376e0f6362a520613"
+        },
+        {
+          "relative": "reels/2026-10-26-myagkiy-znak-frame.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-26-myagkiy-znak-frame.jpg",
+          "size": 136692,
+          "sha256": "99f5c676e5062b44ff226d722e079c7e6f3740b0d7fea45bb6f7f092afabcac8"
+        }
+      ]
+    },
+    "2026-10-26-udarenie-glagoly": {
+      "version": 1,
+      "draftKey": "4f12f70cbbcd2e66ca26173a95759bf8d29bfd5b6003a0e80345e406c388c3f7",
+      "builtAt": "2026-10-26T09:36:28.406Z",
+      "media": {
+        "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-26-udarenie-glagoly.mp4",
+        "coverOffsetMs": 12600,
+        "music": {
+          "composer": "Kevin MacLeod",
+          "piece": "Carefree",
+          "license": "CC BY 4.0",
+          "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1400037",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "attribution": "Carefree — Kevin MacLeod (incompetech.com). CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/. Фрагмент обрезан и сведён с видео.",
+          "attributionRequired": true
+        },
+        "background": "assets/photos/jeshoots-notebook.jpg",
+        "lightBg": true
+      },
+      "files": [
+        {
+          "relative": "reels/2026-10-26-udarenie-glagoly.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-26-udarenie-glagoly.mp4",
+          "size": 488132,
+          "sha256": "4e4b29b2cecc68163f1a38da964989d2d1e9e23dfcfb698d866688cd328bf678"
+        },
+        {
+          "relative": "reels/2026-10-26-udarenie-glagoly-frame.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-26-udarenie-glagoly-frame.jpg",
+          "size": 146960,
+          "sha256": "edb3504f7002455b2b5098e5960e90f1e7b887f82645b3f51f348333fec9563d"
+        }
+      ]
+    },
+    "2026-10-26-slovarnye-2": {
+      "version": 1,
+      "draftKey": "cbff8e2b898d92d32d6080927b0861ebad96f5b72e28bddd20994b0b1e7d2b1b",
+      "builtAt": "2026-10-26T09:36:28.489Z",
+      "media": {
+        "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-26-slovarnye-2.mp4",
+        "coverOffsetMs": 12600,
+        "music": {
+          "composer": "Иоганн Себастьян Бах",
+          "piece": "Гольдберг-вариации, BWV 988 — Вариация № 1",
+          "license": "CC0 1.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "attribution": "И. С. Бах — Гольдберг-вариации, BWV 988, вариация № 1. Фортепиано: Кимико Ишизака, Open Goldberg Variations (2012). Запись CC0 1.0. Фрагмент, громкость изменена.",
+          "attributionRequired": true
+        },
+        "background": "assets/photos/clay-banks-notebook.jpg",
+        "lightBg": true
+      },
+      "files": [
+        {
+          "relative": "reels/2026-10-26-slovarnye-2.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-26-slovarnye-2.mp4",
+          "size": 491599,
+          "sha256": "76907375c91975688ac9e13dc61f0dd5eec19e1ac2477180ee0cef231016ec55"
+        },
+        {
+          "relative": "reels/2026-10-26-slovarnye-2-frame.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-26-slovarnye-2-frame.jpg",
+          "size": 150976,
+          "sha256": "57a9d7e952eb3e6b98368bd9b5d9af1cbb9db4cabf2a88f1f378e39e53338a59"
+        }
+      ]
+    },
+    "2026-10-26-novye-slova": {
+      "version": 1,
+      "draftKey": "0b1f2f2f359b11bcd57d2a0d6923dae0f9067fb8fd6bf93d8557dbdee6eb2cf2",
+      "builtAt": "2026-10-26T09:42:13.430Z",
+      "media": {
+        "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-26-novye-slova.mp4",
+        "coverOffsetMs": 12600,
+        "music": {
+          "composer": "Kevin MacLeod",
+          "piece": "Easy Lemon",
+          "license": "CC BY 4.0",
+          "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1200076",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "attribution": "Easy Lemon — Kevin MacLeod (incompetech.com). CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/. Фрагмент обрезан и сведён с видео.",
+          "attributionRequired": true
+        },
+        "background": "assets/photos/jeshoots-notebook.jpg",
+        "lightBg": true
+      },
+      "files": [
+        {
+          "relative": "reels/2026-10-26-novye-slova.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-26-novye-slova.mp4",
+          "size": 480713,
+          "sha256": "94857a34ad2cc2934c6e8e609a061ccf05505723d55d857fa0df7abffe1dee32"
+        },
+        {
+          "relative": "reels/2026-10-26-novye-slova-frame.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-26-novye-slova-frame.jpg",
+          "size": 142776,
+          "sha256": "af9d8ee16031a38e0bd1b203da980e7741afa291e7d9a8aa55be44b8b19a4f45"
+        }
+      ]
     }
   }
 }
