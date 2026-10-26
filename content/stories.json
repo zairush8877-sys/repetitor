@@ -1671,7 +1671,16 @@
       },
       "sourcePostId": "2026-10-08-ege-direct-speech",
       "proposedDate": "2026-10-08",
-      "approvedFromDraft": "draft-story-2026-10-08-ege-direct-speech"
+      "approvedFromDraft": "draft-story-2026-10-08-ege-direct-speech",
+      "delivery": {
+        "parts": [
+          {
+            "state": "publishing",
+            "containerId": "18032916101887754",
+            "attemptedAt": "2026-10-26T13:36:42.510Z"
+          }
+        ]
+      }
     },
     {
       "id": "2026-10-09-oge-dvoetochie-standalone",
