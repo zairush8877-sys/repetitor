@@ -1463,8 +1463,8 @@
     },
     "2026-10-25-olimp-bud-zdorov": {
       "version": 1,
-      "draftKey": "5750f43433d9b4475f27bf122e2f49ecf81fdce475279dd283e9eace398caa9d",
-      "builtAt": "2026-10-25T21:21:54.885Z",
+      "draftKey": "68759705c704f13d0b39a107c164b9417103a676f217efa7f39d45280f399faa",
+      "builtAt": "2026-10-26T05:30:48.728Z",
       "media": {
         "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-25-olimp-bud-zdorov.mp4",
         "coverOffsetMs": 10600,
@@ -1495,8 +1495,8 @@
     },
     "2026-10-25-olimp-karlson": {
       "version": 1,
-      "draftKey": "760fe2b6b19aa5f077b578129480ff5fce8a70cc1099b3f4b957b9fbdedbcd56",
-      "builtAt": "2026-10-25T21:21:54.990Z",
+      "draftKey": "56e99b38b581fe510d2231203683b2f62cc9d7f12046a8541dfde8e4966fd4e9",
+      "builtAt": "2026-10-26T05:30:48.823Z",
       "media": {
         "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-25-olimp-karlson.mp4",
         "coverOffsetMs": 12600,
@@ -1515,7 +1515,7 @@
           "relative": "reels/2026-10-25-olimp-karlson.mp4",
           "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-25-olimp-karlson.mp4",
           "size": 504224,
-          "sha256": "a077e7989a166ae628cbda00577f085fc850d4a63bd1faa6585efca8033c9244"
+          "sha256": "2cfebc8f30d90bca7b854ac314c35f0b56937e15197cc662fc95f4bc544d05bc"
         },
         {
           "relative": "reels/2026-10-25-olimp-karlson-frame.jpg",
