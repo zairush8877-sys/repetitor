@@ -1761,12 +1761,16 @@
       "delivery": {
         "parts": [
           {
-            "state": "publishing",
+            "state": "published",
             "containerId": "18033082058887754",
-            "attemptedAt": "2026-10-27T12:42:06.816Z"
+            "attemptedAt": "2026-10-27T12:42:06.816Z",
+            "mediaId": "18104277572310179"
           }
         ]
-      }
+      },
+      "publishedMediaIds": [
+        "18104277572310179"
+      ]
     }
   ]
 }
