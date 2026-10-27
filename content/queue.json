@@ -6915,7 +6915,7 @@
       }
     },
     {
-      "status": "approved",
+      "status": "published",
       "format": "Reels",
       "school": false,
       "numbered": true,
@@ -6962,7 +6962,41 @@
         "#орфография",
         "#грамотность"
       ],
-      "sourceNote": "Из АКАДЕМОСа: обжо́ра, крыжо́вник, трущо́ба, капюшо́н, шёлк. Ответ на задание — строка 5. Пара «шёрох / шорох» снята по замечанию корректора: у «шороха» есть родня с е («шероховатый»), и подсказка из подписи давала бы неверное «шёрох». Вариант редактора «шёв / шов» отклонён — так не пишут; взята пара «трущёба / трущоба» с тем же ударным о после шипящей."
+      "sourceNote": "Из АКАДЕМОСа: обжо́ра, крыжо́вник, трущо́ба, капюшо́н, шёлк. Ответ на задание — строка 5. Пара «шёрох / шорох» снята по замечанию корректора: у «шороха» есть родня с е («шероховатый»), и подсказка из подписи давала бы неверное «шёрох». Вариант редактора «шёв / шов» отклонён — так не пишут; взята пара «трущёба / трущоба» с тем же ударным о после шипящей.",
+      "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-26-sh-o-yo.mp4",
+      "coverOffsetMs": 12600,
+      "music": {
+        "composer": "Kevin MacLeod",
+        "piece": "Crinoline Dreams",
+        "license": "CC BY 4.0",
+        "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1700073",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "attribution": "Crinoline Dreams — Kevin MacLeod (incompetech.com). CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/. Фрагмент обрезан и сведён с видео.",
+        "attributionRequired": true
+      },
+      "background": "assets/photos/clay-banks-notebook.jpg",
+      "lightBg": true,
+      "publishedMediaId": "18061924235566081",
+      "publishedAt": "2026-10-27T15:21:35.953Z",
+      "storyRepost": {
+        "version": 1,
+        "feedMediaId": "18061924235566081",
+        "status": "published",
+        "items": [
+          {
+            "index": 1,
+            "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-10-26-sh-o-yo-1.jpg",
+            "sha256": "c97bbbc456580c0168593888c511686b96be046d57e9d8925b64578933abf28c",
+            "status": "published",
+            "attempts": 1,
+            "attemptedAt": "2026-10-27T15:21:36.264Z",
+            "containerId": "18033105404887754",
+            "publishedMediaId": "18129152929865915",
+            "publishedAt": "2026-10-27T15:21:46.943Z"
+          }
+        ],
+        "sourceKey": "c0579dd669442259ebb08cdbda078876cef21253ae6b060a540709c7d9270130"
+      }
     },
     {
       "status": "approved",
