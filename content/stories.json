@@ -1697,7 +1697,7 @@
     {
       "id": "2026-10-09-oge-dvoetochie-standalone",
       "type": "exam",
-      "status": "approved",
+      "status": "published",
       "rubric": "ОГЭ",
       "question": {
         "headline": "Двоеточие\nсобирает\nрюкзак",
@@ -1777,7 +1777,8 @@
       "publishedMediaIds": [
         "18104277572310179",
         "17907836154596825"
-      ]
+      ],
+      "publishedAt": "2026-10-27T12:43:06.856Z"
     }
   ]
 }
