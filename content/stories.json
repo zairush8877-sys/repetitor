@@ -1757,7 +1757,16 @@
       },
       "sourcePostId": "2026-10-09-oge-dvoetochie",
       "proposedDate": "2026-10-09",
-      "approvedFromDraft": "draft-story-2026-10-09-oge-dvoetochie"
+      "approvedFromDraft": "draft-story-2026-10-09-oge-dvoetochie",
+      "delivery": {
+        "parts": [
+          {
+            "state": "publishing",
+            "containerId": "18033082058887754",
+            "attemptedAt": "2026-10-27T12:42:06.816Z"
+          }
+        ]
+      }
     }
   ]
 }
