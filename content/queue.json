@@ -6121,7 +6121,7 @@
     },
     {
       "id": "2026-10-25-olimp-bud-zdorov",
-      "status": "approved",
+      "status": "published",
       "format": "Reels",
       "rubric": "Задача с олимпиады",
       "school": false,
@@ -6164,7 +6164,39 @@
       "checkedAt": "2026-10-25",
       "plainBg": true,
       "date": "2026-10-27",
-      "musicFile": "bach-goldberg-var1-ishizaka.mp3"
+      "musicFile": "bach-goldberg-var1-ishizaka.mp3",
+      "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-25-olimp-bud-zdorov.mp4",
+      "coverOffsetMs": 10600,
+      "music": {
+        "composer": "Иоганн Себастьян Бах",
+        "piece": "Гольдберг-вариации, BWV 988 — Вариация № 1",
+        "license": "CC0 1.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "attribution": "И. С. Бах — Гольдберг-вариации, BWV 988, вариация № 1. Фортепиано: Кимико Ишизака, Open Goldberg Variations (2012). Запись CC0 1.0. Фрагмент, громкость изменена.",
+        "attributionRequired": true
+      },
+      "publishedMediaId": "18152947036541868",
+      "publishedAt": "2026-10-27T08:54:44.784Z",
+      "storyRepost": {
+        "version": 1,
+        "feedMediaId": "18152947036541868",
+        "status": "published",
+        "items": [
+          {
+            "index": 1,
+            "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-10-25-olimp-bud-zdorov-1.jpg",
+            "sha256": "cc3cd2019d8009005098347a67fd7445beb3fd45c1f14f44d3c35bed92016ed5",
+            "status": "published",
+            "attempts": 1,
+            "attemptedAt": "2026-10-27T08:54:44.866Z",
+            "containerId": "18033053741887754",
+            "publishedMediaId": "18145871695586595",
+            "publishedAt": "2026-10-27T08:54:57.960Z"
+          }
+        ],
+        "sourceKey": "2b60370f0000efb8f621eea0195b136f255cf95962153c2ef41477e1d196c2bf"
+      }
     },
     {
       "id": "2026-10-25-olimp-karlson",
