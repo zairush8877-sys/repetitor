@@ -6200,7 +6200,7 @@
     },
     {
       "id": "2026-10-25-olimp-karlson",
-      "status": "approved",
+      "status": "published",
       "format": "Reels",
       "rubric": "Задача с олимпиады",
       "school": false,
@@ -6247,7 +6247,39 @@
       "checkedAt": "2026-10-25",
       "plainBg": true,
       "date": "2026-10-27",
-      "musicFile": "light-easy-lemon.mp3"
+      "musicFile": "light-easy-lemon.mp3",
+      "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-25-olimp-karlson.mp4",
+      "coverOffsetMs": 12600,
+      "music": {
+        "composer": "Kevin MacLeod",
+        "piece": "Easy Lemon",
+        "license": "CC BY 4.0",
+        "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1200076",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "attribution": "Easy Lemon — Kevin MacLeod (incompetech.com). CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/. Фрагмент обрезан и сведён с видео.",
+        "attributionRequired": true
+      },
+      "publishedMediaId": "18110298283907921",
+      "publishedAt": "2026-10-27T13:17:31.332Z",
+      "storyRepost": {
+        "version": 1,
+        "feedMediaId": "18110298283907921",
+        "status": "published",
+        "items": [
+          {
+            "index": 1,
+            "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-10-25-olimp-karlson-1.jpg",
+            "sha256": "4de77b2ffe8804e6305964e60b5040c79e3deb219551b9bda2367abc784f62ee",
+            "status": "published",
+            "attempts": 1,
+            "attemptedAt": "2026-10-27T13:17:31.461Z",
+            "containerId": "18033087386887754",
+            "publishedMediaId": "18122638252944968",
+            "publishedAt": "2026-10-27T13:17:43.092Z"
+          }
+        ],
+        "sourceKey": "1145605f5adf1c45aa9fd49e9227c44be3fef121c3f515aa10d286b0a2c7106e"
+      }
     },
     {
       "id": "2026-10-26-lishnie-bukvy",
