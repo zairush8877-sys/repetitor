@@ -1444,7 +1444,7 @@
     "2026-10-26-on-ili-ona": {
       "kind": "reel_frame",
       "sourceKey": "e61791b8753c62f69ec147c605ccfc06f695eac50c568f77875d7d310c540598",
-      "renderedAt": "2026-10-26T09:14:11.472Z",
+      "renderedAt": "2026-10-28T12:19:25.407Z",
       "publicationStatus": "export_only",
       "assets": [
         {
@@ -1453,7 +1453,7 @@
           "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-10-26-on-ili-ona-1.jpg",
           "width": 1080,
           "height": 1920,
-          "sha256": "909af5a58cd1d814f6bddd614502ab4b76bc9ddfe2b54b0a429a17557ec328f1",
+          "sha256": "dcca959777bfee560e5a57ec524200f16709e580d6892048b4a42822778fb40f",
           "geometry": {
             "sourceWidth": 1080,
             "sourceHeight": 1920,
@@ -1463,8 +1463,8 @@
             "height": 1300,
             "outputWidth": 1080,
             "outputHeight": 1920,
-            "sourceSha256": "6f1b5ad97bc2a7d289586985111b141710ee298c17c0f812d967adcb908c1c57",
-            "sha256": "909af5a58cd1d814f6bddd614502ab4b76bc9ddfe2b54b0a429a17557ec328f1"
+            "sourceSha256": "87b45edc3369209da6e4c4d7666c2774faa18d26ceacb42299a4dae5bf1c0f4b",
+            "sha256": "dcca959777bfee560e5a57ec524200f16709e580d6892048b4a42822778fb40f"
           }
         }
       ]
@@ -1500,7 +1500,7 @@
     "2026-10-26-myagkiy-znak": {
       "kind": "reel_frame",
       "sourceKey": "074b5efd0dfc9ec3b6dabe06dd6860036ee1ebd579b4131ff877d459e164c3e2",
-      "renderedAt": "2026-10-26T09:36:28.307Z",
+      "renderedAt": "2026-10-28T12:30:03.045Z",
       "publicationStatus": "export_only",
       "assets": [
         {
@@ -1509,7 +1509,7 @@
           "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-10-26-myagkiy-znak-1.jpg",
           "width": 1080,
           "height": 1920,
-          "sha256": "f2b2fb331f132a074b9a69e27d588f120bd1c9fe34c1489c01fda0d069f4764b",
+          "sha256": "cc0dbdebb383a8223e87a178f2b5532c8ab56619c710a8fa3d273b853afb83a4",
           "geometry": {
             "sourceWidth": 1080,
             "sourceHeight": 1920,
@@ -1519,8 +1519,8 @@
             "height": 1300,
             "outputWidth": 1080,
             "outputHeight": 1920,
-            "sourceSha256": "99f5c676e5062b44ff226d722e079c7e6f3740b0d7fea45bb6f7f092afabcac8",
-            "sha256": "f2b2fb331f132a074b9a69e27d588f120bd1c9fe34c1489c01fda0d069f4764b"
+            "sourceSha256": "b5f355e9432185035278761ca117f4992106c3cba6919eec72874ac0e24ca662",
+            "sha256": "cc0dbdebb383a8223e87a178f2b5532c8ab56619c710a8fa3d273b853afb83a4"
           }
         }
       ]
@@ -1528,7 +1528,7 @@
     "2026-10-26-udarenie-glagoly": {
       "kind": "reel_frame",
       "sourceKey": "7f3b1611640b8b08e7001f9ef25dbfd57e1c050f7373ee91fe27fedd44f26d36",
-      "renderedAt": "2026-10-26T09:36:28.406Z",
+      "renderedAt": "2026-10-28T12:30:03.146Z",
       "publicationStatus": "export_only",
       "assets": [
         {
@@ -1537,7 +1537,7 @@
           "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-10-26-udarenie-glagoly-1.jpg",
           "width": 1080,
           "height": 1920,
-          "sha256": "4e9075bdc6d2d43a68adcbf4b5a3a0f0a1632b6bcab193abe66cd9e545a29a63",
+          "sha256": "c2b78ce216bada9992f9dce4c2e7f2b9e8a63bef01747feb3f0ee73816fe7401",
           "geometry": {
             "sourceWidth": 1080,
             "sourceHeight": 1920,
@@ -1547,8 +1547,8 @@
             "height": 1300,
             "outputWidth": 1080,
             "outputHeight": 1920,
-            "sourceSha256": "edb3504f7002455b2b5098e5960e90f1e7b887f82645b3f51f348333fec9563d",
-            "sha256": "4e9075bdc6d2d43a68adcbf4b5a3a0f0a1632b6bcab193abe66cd9e545a29a63"
+            "sourceSha256": "79f000cddbd871f50252deba7ed28cc8f1cc30ddc3787d905f71ed6b965e6094",
+            "sha256": "c2b78ce216bada9992f9dce4c2e7f2b9e8a63bef01747feb3f0ee73816fe7401"
           }
         }
       ]
@@ -1556,7 +1556,7 @@
     "2026-10-26-slovarnye-2": {
       "kind": "reel_frame",
       "sourceKey": "73f5d8afb5724023dd8c7290e629bd75f0aa6a72c1da7bf69ba766c8b6859536",
-      "renderedAt": "2026-10-26T09:36:28.489Z",
+      "renderedAt": "2026-10-28T12:32:50.557Z",
       "publicationStatus": "export_only",
       "assets": [
         {
@@ -1565,7 +1565,7 @@
           "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-10-26-slovarnye-2-1.jpg",
           "width": 1080,
           "height": 1920,
-          "sha256": "44f5038dcc4e8653a6fadfbf097189bde38bbfa86026c18d66c8c5dc6dfb535e",
+          "sha256": "ca965af78e98ca2c88c59996505db9b17842df4e62f8c45dd4ebffc14f158420",
           "geometry": {
             "sourceWidth": 1080,
             "sourceHeight": 1920,
@@ -1575,8 +1575,8 @@
             "height": 1300,
             "outputWidth": 1080,
             "outputHeight": 1920,
-            "sourceSha256": "57a9d7e952eb3e6b98368bd9b5d9af1cbb9db4cabf2a88f1f378e39e53338a59",
-            "sha256": "44f5038dcc4e8653a6fadfbf097189bde38bbfa86026c18d66c8c5dc6dfb535e"
+            "sourceSha256": "e3a3babc52f90da365639dffb907cc6b36050c5089530ad4219deb7343631fba",
+            "sha256": "ca965af78e98ca2c88c59996505db9b17842df4e62f8c45dd4ebffc14f158420"
           }
         }
       ]
@@ -1584,7 +1584,7 @@
     "2026-10-26-novye-slova": {
       "kind": "reel_frame",
       "sourceKey": "02b880bb847fc8034ad41aab9f83148593bedfe4cbd8c9a79d9fd58f1d3ca89d",
-      "renderedAt": "2026-10-26T09:42:13.429Z",
+      "renderedAt": "2026-10-28T12:30:03.458Z",
       "publicationStatus": "export_only",
       "assets": [
         {
@@ -1593,7 +1593,7 @@
           "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-10-26-novye-slova-1.jpg",
           "width": 1080,
           "height": 1920,
-          "sha256": "9dc9e93f04b4f2d1cd4db6c1c080a943e71214a306936da2b19c64bcfc438aef",
+          "sha256": "b18caca430bf668a34500bf6adce69877f11745b084783070a399f2120917876",
           "geometry": {
             "sourceWidth": 1080,
             "sourceHeight": 1920,
@@ -1603,8 +1603,8 @@
             "height": 1300,
             "outputWidth": 1080,
             "outputHeight": 1920,
-            "sourceSha256": "af9d8ee16031a38e0bd1b203da980e7741afa291e7d9a8aa55be44b8b19a4f45",
-            "sha256": "9dc9e93f04b4f2d1cd4db6c1c080a943e71214a306936da2b19c64bcfc438aef"
+            "sourceSha256": "5001d504674d9a87e918a88514b3d930ddb4b80414d452fa2e8e4057f31dabc2",
+            "sha256": "b18caca430bf668a34500bf6adce69877f11745b084783070a399f2120917876"
           }
         }
       ]
@@ -1612,7 +1612,7 @@
     "2026-10-26-udarenie-zaim": {
       "kind": "reel_frame",
       "sourceKey": "cd679a93817a7c1123ab141f5eafe373fd64fca512eac5ce84bbeabb332d3bfe",
-      "renderedAt": "2026-10-26T10:11:03.940Z",
+      "renderedAt": "2026-10-28T12:30:03.663Z",
       "publicationStatus": "export_only",
       "assets": [
         {
@@ -1621,7 +1621,7 @@
           "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-10-26-udarenie-zaim-1.jpg",
           "width": 1080,
           "height": 1920,
-          "sha256": "39624b53446f28d3c03bc2d8698b8489ba1b3d2d5e4bc9f9c3f77b0cde49405d",
+          "sha256": "362c770844cd3ecc7ba75f03aeb81bb39ea2e1c27c3faf0c4f1be9bd29cc0cce",
           "geometry": {
             "sourceWidth": 1080,
             "sourceHeight": 1920,
@@ -1631,8 +1631,8 @@
             "height": 1300,
             "outputWidth": 1080,
             "outputHeight": 1920,
-            "sourceSha256": "4cc932530b56b5e22e94cee88e5279de67b8108a01ab70c364bcbd83b7a40c94",
-            "sha256": "39624b53446f28d3c03bc2d8698b8489ba1b3d2d5e4bc9f9c3f77b0cde49405d"
+            "sourceSha256": "b6e301da38a898c5ec7276083092c7d43d639884aadf7eca61d4258314151812",
+            "sha256": "362c770844cd3ecc7ba75f03aeb81bb39ea2e1c27c3faf0c4f1be9bd29cc0cce"
           }
         }
       ]
@@ -1640,7 +1640,7 @@
     "2026-10-26-pol": {
       "kind": "reel_frame",
       "sourceKey": "6c9b3ed7c28b658dd45169c0259d064086de225626b31f4689c8b56f45705561",
-      "renderedAt": "2026-10-26T10:11:04.036Z",
+      "renderedAt": "2026-10-28T12:30:03.847Z",
       "publicationStatus": "export_only",
       "assets": [
         {
@@ -1649,7 +1649,7 @@
           "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-10-26-pol-1.jpg",
           "width": 1080,
           "height": 1920,
-          "sha256": "2b4ab1eb0ff6460fe35f66d5ddd09560d01c1585efef633b48f73a30c6c91579",
+          "sha256": "a6738c5fe31f08eb9d65650e1b50981efc04005263c0b8962e85e58b19301323",
           "geometry": {
             "sourceWidth": 1080,
             "sourceHeight": 1920,
@@ -1659,8 +1659,8 @@
             "height": 1300,
             "outputWidth": 1080,
             "outputHeight": 1920,
-            "sourceSha256": "2c2e17d7bd1f4b0ab97fa019378c70a45f82a5be8b858846ecf3a25797de223a",
-            "sha256": "2b4ab1eb0ff6460fe35f66d5ddd09560d01c1585efef633b48f73a30c6c91579"
+            "sourceSha256": "2e644c302122ac223a97913573d003746ffd63fadbe54ee319243745d3bb5ced",
+            "sha256": "a6738c5fe31f08eb9d65650e1b50981efc04005263c0b8962e85e58b19301323"
           }
         }
       ]
@@ -1668,7 +1668,7 @@
     "2026-10-26-prichastiya": {
       "kind": "reel_frame",
       "sourceKey": "a8489795d80bf054b9733327cb1bc5d13702c521ce1703d0fecf8cebfd4493b2",
-      "renderedAt": "2026-10-26T10:11:04.120Z",
+      "renderedAt": "2026-10-28T12:30:03.946Z",
       "publicationStatus": "export_only",
       "assets": [
         {
@@ -1677,7 +1677,7 @@
           "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-10-26-prichastiya-1.jpg",
           "width": 1080,
           "height": 1920,
-          "sha256": "e622f49018cbb8b904094b3469be31a29ee721a8c4b70d44acb887e5bf54c63c",
+          "sha256": "01f694c1344ae5ec0a4719196f89fb0a71fd22729e287e9be36e44d334ab0a18",
           "geometry": {
             "sourceWidth": 1080,
             "sourceHeight": 1920,
@@ -1687,8 +1687,8 @@
             "height": 1300,
             "outputWidth": 1080,
             "outputHeight": 1920,
-            "sourceSha256": "acce158c17f87823d4a0a45a11ba08bf05d080edc3a76d22c245235a0031c4e4",
-            "sha256": "e622f49018cbb8b904094b3469be31a29ee721a8c4b70d44acb887e5bf54c63c"
+            "sourceSha256": "2128f994612fd5e9e288cc52333e8daf21583bcb4538fa6809bd0e554b34470c",
+            "sha256": "01f694c1344ae5ec0a4719196f89fb0a71fd22729e287e9be36e44d334ab0a18"
           }
         }
       ]
@@ -1696,7 +1696,7 @@
     "2026-10-26-mn-udarenie": {
       "kind": "reel_frame",
       "sourceKey": "8b1a5e5bdf849a29b91a55699eb8ea7c0c08af570a15a74d2fc2e35c6c7e5506",
-      "renderedAt": "2026-10-26T10:11:04.203Z",
+      "renderedAt": "2026-10-28T12:30:04.041Z",
       "publicationStatus": "export_only",
       "assets": [
         {
@@ -1705,7 +1705,7 @@
           "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-10-26-mn-udarenie-1.jpg",
           "width": 1080,
           "height": 1920,
-          "sha256": "fe4a28fa18687fe07648ee4429ceb458999cdf72bc4bc4f8d9988e9e0af8a2f7",
+          "sha256": "4c76eb365682daa70116a7e030085003de04ff2fd65ef9965ddce1c08a88ddae",
           "geometry": {
             "sourceWidth": 1080,
             "sourceHeight": 1920,
@@ -1715,8 +1715,8 @@
             "height": 1300,
             "outputWidth": 1080,
             "outputHeight": 1920,
-            "sourceSha256": "b960577dfe5885839cd89a4b7f753de02bc31fe226d0f64d29fea32e9d2a1c22",
-            "sha256": "fe4a28fa18687fe07648ee4429ceb458999cdf72bc4bc4f8d9988e9e0af8a2f7"
+            "sourceSha256": "c914e08c73e644426810bca9cb50b00a06514094b04fce4769bf219852f338f5",
+            "sha256": "4c76eb365682daa70116a7e030085003de04ff2fd65ef9965ddce1c08a88ddae"
           }
         }
       ]
@@ -1724,7 +1724,7 @@
     "2026-10-26-nepro-soglasnye": {
       "kind": "reel_frame",
       "sourceKey": "17749a4db78038fadd4b9cbc4d5ed3abf992787d1c5f036d79489a6e19821dee",
-      "renderedAt": "2026-10-26T10:11:04.286Z",
+      "renderedAt": "2026-10-28T12:32:50.668Z",
       "publicationStatus": "export_only",
       "assets": [
         {
@@ -1733,7 +1733,7 @@
           "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-10-26-nepro-soglasnye-1.jpg",
           "width": 1080,
           "height": 1920,
-          "sha256": "c1c51f15d81210bef0cf02af64bd52fd22a5e3f5d75da356aa9f28277fbd3861",
+          "sha256": "bbb0d0440a4203be44ae93e4a65ff09d0f05a7b25ede9395648ccc43bdc127da",
           "geometry": {
             "sourceWidth": 1080,
             "sourceHeight": 1920,
@@ -1743,8 +1743,8 @@
             "height": 1300,
             "outputWidth": 1080,
             "outputHeight": 1920,
-            "sourceSha256": "04b116aa220781bf6a0f047cf983eaa3ed0f324b0b6473e73c895818698455e7",
-            "sha256": "c1c51f15d81210bef0cf02af64bd52fd22a5e3f5d75da356aa9f28277fbd3861"
+            "sourceSha256": "f830a88a2bb1b409d0e9ef62ba480f006279a4833f445ca7d7567cd36cc2e3fc",
+            "sha256": "bbb0d0440a4203be44ae93e4a65ff09d0f05a7b25ede9395648ccc43bdc127da"
           }
         }
       ]
@@ -1808,7 +1808,7 @@
     "2026-10-26-z-s": {
       "kind": "reel_frame",
       "sourceKey": "a231048072187e93627bf98774310e31eed51ff96738c61b7c13cc1ee0f98562",
-      "renderedAt": "2026-10-26T10:16:29.843Z",
+      "renderedAt": "2026-10-28T12:30:02.916Z",
       "publicationStatus": "export_only",
       "assets": [
         {
@@ -1817,7 +1817,7 @@
           "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-10-26-z-s-1.jpg",
           "width": 1080,
           "height": 1920,
-          "sha256": "ee1d8d5f436e24bbd098fb98e7b84c565da06c3d9bda2dd55d72dc48f3bc91e1",
+          "sha256": "b0bb9caeaa1762203ea32fbf86a7178d04396be4e5b15a774e7292a84e515e17",
           "geometry": {
             "sourceWidth": 1080,
             "sourceHeight": 1920,
@@ -1827,8 +1827,8 @@
             "height": 1300,
             "outputWidth": 1080,
             "outputHeight": 1920,
-            "sourceSha256": "f46caa42101cef99cae875298981a779f083b5edc19d5fdb82f17933afb884ed",
-            "sha256": "ee1d8d5f436e24bbd098fb98e7b84c565da06c3d9bda2dd55d72dc48f3bc91e1"
+            "sourceSha256": "966266cbc8ccd8d20575bd767642d17d4cd2a6868e8de86f15afc026f6dd9902",
+            "sha256": "b0bb9caeaa1762203ea32fbf86a7178d04396be4e5b15a774e7292a84e515e17"
           }
         }
       ]
@@ -1836,7 +1836,7 @@
     "2026-10-26-mn-ch": {
       "kind": "reel_frame",
       "sourceKey": "86dbbe170618d77085329755b931d1cde79dc6495da93491fadbb1065890c972",
-      "renderedAt": "2026-10-26T10:16:29.928Z",
+      "renderedAt": "2026-10-28T12:30:03.249Z",
       "publicationStatus": "export_only",
       "assets": [
         {
@@ -1845,7 +1845,7 @@
           "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-10-26-mn-ch-1.jpg",
           "width": 1080,
           "height": 1920,
-          "sha256": "b3344252b05b061753034ef56d8c34e8dfac8f7679d893131c0cdac8e6f53481",
+          "sha256": "e365f01132cb78d464c2713bfea171dc23f0eee7cdae007fbeb69a570ca840cd",
           "geometry": {
             "sourceWidth": 1080,
             "sourceHeight": 1920,
@@ -1855,8 +1855,8 @@
             "height": 1300,
             "outputWidth": 1080,
             "outputHeight": 1920,
-            "sourceSha256": "a9a67321f4b6df78dca0ab6f9819bfcf2fb9856b6d5cac51e29ce300522a8c76",
-            "sha256": "b3344252b05b061753034ef56d8c34e8dfac8f7679d893131c0cdac8e6f53481"
+            "sourceSha256": "e5037c9e1c1fb53d52a654944b6531d6d6ad28b3a1d4018ec8c64129636b4f82",
+            "sha256": "e365f01132cb78d464c2713bfea171dc23f0eee7cdae007fbeb69a570ca840cd"
           }
         }
       ]
@@ -1864,7 +1864,7 @@
     "2026-10-26-nn": {
       "kind": "reel_frame",
       "sourceKey": "0119ca569748a7f31afeafd6080c689e976e4eed4aac33274ef33c4b7fdba590",
-      "renderedAt": "2026-10-26T10:16:30.012Z",
+      "renderedAt": "2026-10-28T12:30:03.560Z",
       "publicationStatus": "export_only",
       "assets": [
         {
@@ -1873,7 +1873,7 @@
           "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-10-26-nn-1.jpg",
           "width": 1080,
           "height": 1920,
-          "sha256": "823dfa45a1fd4358f017cac7bae4fcab75289625fd272dc1efc5f9fb0e3682b2",
+          "sha256": "69652762bf738a71ed01b5e020fe3e1acd80ca7daf0942943c50ad7416d93333",
           "geometry": {
             "sourceWidth": 1080,
             "sourceHeight": 1920,
@@ -1883,8 +1883,8 @@
             "height": 1300,
             "outputWidth": 1080,
             "outputHeight": 1920,
-            "sourceSha256": "42f8b9c9d98610e7bc199f39d1ad067dc4991e11976987cc9606e83f6386f5bc",
-            "sha256": "823dfa45a1fd4358f017cac7bae4fcab75289625fd272dc1efc5f9fb0e3682b2"
+            "sourceSha256": "ad1437c5e08efddcba8a8396931c76f0be5f36004a72b6c4aa52e884e42336a9",
+            "sha256": "69652762bf738a71ed01b5e020fe3e1acd80ca7daf0942943c50ad7416d93333"
           }
         }
       ]
@@ -1892,7 +1892,7 @@
     "2026-10-26-defis-vvodnye": {
       "kind": "reel_frame",
       "sourceKey": "9a4217f6a6f5581cdd22702343ccb4fa9bdf1627fbe05528fbb824a14f1ef23f",
-      "renderedAt": "2026-10-26T10:16:30.095Z",
+      "renderedAt": "2026-10-28T12:30:03.749Z",
       "publicationStatus": "export_only",
       "assets": [
         {
@@ -1901,7 +1901,7 @@
           "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-10-26-defis-vvodnye-1.jpg",
           "width": 1080,
           "height": 1920,
-          "sha256": "b89dd8ebd905387156f67fe15615f89c98bc74dda0aba3db4292dd94f34f437d",
+          "sha256": "288077de5476f3cf01a6494a49de46083402175cf6322087830bee19612f43f9",
           "geometry": {
             "sourceWidth": 1080,
             "sourceHeight": 1920,
@@ -1911,8 +1911,8 @@
             "height": 1300,
             "outputWidth": 1080,
             "outputHeight": 1920,
-            "sourceSha256": "95a1e901d9956283ddde668f85e25eea38ec4bd0244a053564a474832cf74fb2",
-            "sha256": "b89dd8ebd905387156f67fe15615f89c98bc74dda0aba3db4292dd94f34f437d"
+            "sourceSha256": "349e934ad5c84e3b2979bd0a100dd13304ee2ceb07b7e7477eeecf01ab37405d",
+            "sha256": "288077de5476f3cf01a6494a49de46083402175cf6322087830bee19612f43f9"
           }
         }
       ]

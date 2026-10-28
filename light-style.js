@@ -6,10 +6,29 @@ const path = require('path');
 const FONTS = require('./fonts');
 const esc = value => String(value ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 const text = value => esc(value).replace(/\n/g, '<br>');
-function photo(id, index = 0) {
+/**
+ * Снимок для нижнего окна кадра: закреплённый полем photoFile или из ротации.
+ *
+ * Ротация берёт хеш от id, про соседей по дате она не знает. Пока активных
+ * снимков было два, это значило один и тот же блокнот во всех роликах подряд;
+ * даже с восемью снимками в пачке на неделю повторы рядом неизбежны. Поэтому
+ * у поста есть photoFile — ровно как musicFile у трека. Имя поля не из списка
+ * MEDIA_FIELDS намеренно: такое поле входит в ключ черновика, и смена снимка
+ * честно помечает сборку устаревшей.
+ */
+function photo(id, index = 0, pinned) {
   const file = path.join(__dirname, 'assets/photos/index.json');
   if (!fs.existsSync(file)) return null;
-  const list = JSON.parse(fs.readFileSync(file)).photos.filter(p => p.active !== false && fs.existsSync(path.join(__dirname, p.file)));
+  const all = JSON.parse(fs.readFileSync(file)).photos;
+  if (pinned) {
+    const want = pinned.includes('/') ? pinned : `assets/photos/${pinned}`;
+    const found = all.find(p => p.file === want);
+    if (!found) throw new Error(`photoFile: снимка ${pinned} нет в assets/photos/index.json`);
+    if (found.active === false) throw new Error(`photoFile: снимок ${pinned} выключен в каталоге`);
+    if (!fs.existsSync(path.join(__dirname, found.file))) throw new Error(`photoFile: файла ${found.file} нет на диске`);
+    return found;
+  }
+  const list = all.filter(p => p.active !== false && fs.existsSync(path.join(__dirname, p.file)));
   let hash = 0;
   for (const ch of `${id}:${index}`) hash = (31 * hash + ch.codePointAt(0)) >>> 0;
   return list.length ? list[hash % list.length] : null;
