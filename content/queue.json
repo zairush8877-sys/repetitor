@@ -6283,7 +6283,7 @@
     },
     {
       "id": "2026-10-26-lishnie-bukvy",
-      "status": "approved",
+      "status": "published",
       "date": "2026-10-28",
       "format": "Reels",
       "rubric": "Путают даже грамотные",
@@ -6333,7 +6333,41 @@
       ],
       "sourceNote": "Правильные написания есть в АКАДЕМОСе: интрига́н, военача́льник, юрисконсу́льт, эскала́тор, грейпфру́т, я́ства. Ошибочные отсутствуют полностью — по каждому «в словаре ничего не найдено». Арифметика задания: пять слов теряют по одной букве, военноначальник (15) → военачальник (12) теряет три, ответ — строка 2. «Дермантин» снят по замечанию корректора: он уже выходил в августовской таблице словарных слов; заменён на «явства». Редакторская версия на девять строк отклонена по правилу §5 «легко и понятно». Этимология «яств» в подписи не утверждается: сказано только, почему люди ошибаются.",
       "checkedAt": "2026-10-26",
-      "musicFile": "bach-goldberg-var1-ishizaka.mp3"
+      "musicFile": "bach-goldberg-var1-ishizaka.mp3",
+      "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-26-lishnie-bukvy.mp4",
+      "coverOffsetMs": 14600,
+      "music": {
+        "composer": "Иоганн Себастьян Бах",
+        "piece": "Гольдберг-вариации, BWV 988 — Вариация № 1",
+        "license": "CC0 1.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "attribution": "И. С. Бах — Гольдберг-вариации, BWV 988, вариация № 1. Фортепиано: Кимико Ишизака, Open Goldberg Variations (2012). Запись CC0 1.0. Фрагмент, громкость изменена.",
+        "attributionRequired": true
+      },
+      "background": "assets/photos/clay-banks-notebook.jpg",
+      "lightBg": true,
+      "publishedMediaId": "18132865165762936",
+      "publishedAt": "2026-10-28T09:34:45.981Z",
+      "storyRepost": {
+        "version": 1,
+        "feedMediaId": "18132865165762936",
+        "status": "published",
+        "items": [
+          {
+            "index": 1,
+            "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-10-26-lishnie-bukvy-1.jpg",
+            "sha256": "939254558d18856bca6b8a2599fe1c55f200959e3a00ba94afe796e43503998f",
+            "status": "published",
+            "attempts": 1,
+            "attemptedAt": "2026-10-28T09:34:46.153Z",
+            "containerId": "18033224141887754",
+            "publishedMediaId": "18039013679650906",
+            "publishedAt": "2026-10-28T09:34:58.511Z"
+          }
+        ],
+        "sourceKey": "0c3a821aaee83306713a636ab07b28d8100d4e0a382dbe2016ea9f077991042d"
+      }
     },
     {
       "id": "2026-10-26-on-ili-ona",
