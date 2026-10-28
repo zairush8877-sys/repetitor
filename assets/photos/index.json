@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-11",
+  "checkedAt": "2026-10-28",
   "note": "Реальные стоковые фотографии; не изображения Анны, её кабинета или учеников. Используются как иллюстрации. Полный кадр через contain.",
   "photos": [
     {
@@ -20,6 +20,78 @@
       "download": "https://images.unsplash.com/photo-1761322572550-967ea8c0bfd9?auto=format&fit=crop&fm=jpg&q=85&w=1800",
       "license": "Unsplash License",
       "licenseUrl": "https://unsplash.com/license",
+      "active": true
+    },
+    {
+      "file": "assets/photos/typewriter-spratt.jpg",
+      "author": "Annie Spratt",
+      "alt": "Голубая печатная машинка и записная книжка на светлом деревянном столе",
+      "source": "https://commons.wikimedia.org/wiki/File:Desk_Top_(Unsplash).jpg",
+      "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Desk_Top_%28Unsplash%29.jpg/1920px-Desk_Top_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "origin": "Викисклад, зеркало Unsplash времён CC0",
+      "checkedAt": "2026-10-28",
+      "active": true
+    },
+    {
+      "file": "assets/photos/books-marriage.jpg",
+      "author": "Freddie Marriage",
+      "alt": "Стопки книг и лампа на письменном столе у белой стены",
+      "source": "https://commons.wikimedia.org/wiki/File:Laptop_on_desk_book_stacks_(Unsplash).jpg",
+      "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Laptop_on_desk_book_stacks_%28Unsplash%29.jpg/1920px-Laptop_on_desk_book_stacks_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "origin": "Викисклад, зеркало Unsplash времён CC0",
+      "checkedAt": "2026-10-28",
+      "active": true
+    },
+    {
+      "file": "assets/photos/pencils-dorohovich.jpg",
+      "author": "Aleks Dorohovich",
+      "alt": "Раскрытая книга, цветные карандаши и блокнот на тёплом деревянном столе",
+      "source": "https://commons.wikimedia.org/wiki/File:Books,_pencils,_laptop,_and_iphone_on_a_desk_(Unsplash).jpg",
+      "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Books%2C_pencils%2C_laptop%2C_and_iphone_on_a_desk_%28Unsplash%29.jpg/1920px-Books%2C_pencils%2C_laptop%2C_and_iphone_on_a_desk_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "origin": "Викисклад, зеркало Unsplash времён CC0",
+      "checkedAt": "2026-10-28",
+      "active": true
+    },
+    {
+      "file": "assets/photos/marble-pineapple.jpg",
+      "author": "Pineapple Supply Co.",
+      "alt": "Светлый мраморный стол с ноутбуком и очками",
+      "source": "https://commons.wikimedia.org/wiki/File:Marble_work_desk_(Unsplash).jpg",
+      "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Marble_work_desk_%28Unsplash%29.jpg/1920px-Marble_work_desk_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "origin": "Викисклад, зеркало Unsplash времён CC0",
+      "checkedAt": "2026-10-28",
+      "active": true
+    },
+    {
+      "file": "assets/photos/tulips-filonchik.jpg",
+      "author": "Alexander Filonchik",
+      "alt": "Букет тюльпанов рядом с ноутбуком на рабочем столе",
+      "source": "https://commons.wikimedia.org/wiki/File:Tulips_on_a_computer_desk_(Unsplash).jpg",
+      "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Tulips_on_a_computer_desk_%28Unsplash%29.jpg/1920px-Tulips_on_a_computer_desk_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "origin": "Викисклад, зеркало Unsplash времён CC0",
+      "checkedAt": "2026-10-28",
+      "active": true
+    },
+    {
+      "file": "assets/photos/cactus-webb.jpg",
+      "author": "Scott Webb",
+      "alt": "Домашний стол у белой стены: ноутбук, рамка и цветущий кактус",
+      "source": "https://commons.wikimedia.org/wiki/File:Home_desk_(Unsplash).jpg",
+      "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Home_desk_%28Unsplash%29.jpg/1920px-Home_desk_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "origin": "Викисклад, зеркало Unsplash времён CC0",
+      "checkedAt": "2026-10-28",
       "active": true
     }
   ]

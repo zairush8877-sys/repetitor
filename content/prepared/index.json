@@ -1527,8 +1527,8 @@
     },
     "2026-10-26-on-ili-ona": {
       "version": 1,
-      "draftKey": "d539a68835c3d5a97a4afad17d2e9d71ff26af23b65f825113089bce6db2c654",
-      "builtAt": "2026-10-26T09:14:11.472Z",
+      "draftKey": "50e842df29b5a5e6e64f19be6f67e51817d39365f0f95ec48d1b0437b8f4537d",
+      "builtAt": "2026-10-28T12:19:25.410Z",
       "media": {
         "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-26-on-ili-ona.mp4",
         "coverOffsetMs": 14600,
@@ -1548,14 +1548,14 @@
         {
           "relative": "reels/2026-10-26-on-ili-ona.mp4",
           "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-26-on-ili-ona.mp4",
-          "size": 483804,
-          "sha256": "261cb6345e2eb07576cfe47287db09b4d1e7ac0b1fd0b9ed75c0ca00df231efd"
+          "size": 557129,
+          "sha256": "39bfd5bec15441d485778d484b1f4d849790ab71526fe8cf2daffa7defc62828"
         },
         {
           "relative": "reels/2026-10-26-on-ili-ona-frame.jpg",
           "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-26-on-ili-ona-frame.jpg",
-          "size": 126296,
-          "sha256": "6f1b5ad97bc2a7d289586985111b141710ee298c17c0f812d967adcb908c1c57"
+          "size": 159562,
+          "sha256": "87b45edc3369209da6e4c4d7666c2774faa18d26ceacb42299a4dae5bf1c0f4b"
         }
       ]
     },

@@ -301,7 +301,7 @@ const ROTATION = require('./rotation');
 function pageHtml(post, handle) {
   if (post.visualStyle === 'paper-collage') return require('./paper-collage').reelHtml(post, handle, legacyPageHtml);
   // Фотография занимает отдельный блок. Ни затемняющей плёнки, ни растяжения.
-  const selected = LIGHT.photo(post.id);
+  const selected = LIGHT.photo(post.id, 0, post.photoFile);
   const copy = { ...post, background: selected?.file, lightBg: true, videoBg: undefined };
   return legacyPageHtml(copy, handle).replace('</style>', `
     body{background:#fcfbf7!important;padding:300px 72px 570px!important}
