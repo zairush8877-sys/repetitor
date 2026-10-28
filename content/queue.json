@@ -6371,7 +6371,7 @@
     },
     {
       "id": "2026-10-26-on-ili-ona",
-      "status": "approved",
+      "status": "published",
       "date": "2026-10-28",
       "format": "Reels",
       "rubric": "Проверьте себя",
@@ -6422,7 +6422,41 @@
       "sourceNote": "АКАДЕМОС показывает род окончанием: тюль -я, аэрозо́ль -я, роя́ль -я — он; мозо́ль -и, бандеро́ль -и, вермише́ль -и — она. Правки корректора приняты: снят совет подставлять «мой/моя» (для этих слов он вреден — привычка подтверждает ошибку), снято превосходное «ошибаются чаще, чем в любом другом» как непроверяемое, снята метафора про судью. «Шампунь» заменён на «рояль»: словарь даёт мужской род без вариантов, но у Ефремовой есть помета о женском, и пара стала бы магнитом для спора — правило автора о спорных парах. «Гель» заменён на «аэрозоль»: в женском роде гель почти никто не употребляет, подсказка была очевидной. Редакторская версия на восемь строк отклонена по правилу §5 «легко и понятно». Для ответов в комментариях: у Ушакова при «мозоли» стоит помета «простореч. также м.» — просторечие нормой не является.",
       "checkedAt": "2026-10-26",
       "musicFile": "light-carefree.mp3",
-      "photoFile": "typewriter-spratt.jpg"
+      "photoFile": "typewriter-spratt.jpg",
+      "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-26-on-ili-ona.mp4",
+      "coverOffsetMs": 14600,
+      "music": {
+        "composer": "Kevin MacLeod",
+        "piece": "Carefree",
+        "license": "CC BY 4.0",
+        "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1400037",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "attribution": "Carefree — Kevin MacLeod (incompetech.com). CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/. Фрагмент обрезан и сведён с видео.",
+        "attributionRequired": true
+      },
+      "background": "assets/photos/jeshoots-notebook.jpg",
+      "lightBg": true,
+      "publishedMediaId": "18483293743117587",
+      "publishedAt": "2026-10-28T14:05:09.611Z",
+      "storyRepost": {
+        "version": 1,
+        "feedMediaId": "18483293743117587",
+        "status": "published",
+        "items": [
+          {
+            "index": 1,
+            "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-10-26-on-ili-ona-1.jpg",
+            "sha256": "dcca959777bfee560e5a57ec524200f16709e580d6892048b4a42822778fb40f",
+            "status": "published",
+            "attempts": 1,
+            "attemptedAt": "2026-10-28T14:05:09.785Z",
+            "containerId": "18033259508887754",
+            "publishedMediaId": "17917894008260965",
+            "publishedAt": "2026-10-28T14:05:19.116Z"
+          }
+        ],
+        "sourceKey": "e61791b8753c62f69ec147c605ccfc06f695eac50c568f77875d7d310c540598"
+      }
     },
     {
       "status": "approved",
