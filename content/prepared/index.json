@@ -1595,8 +1595,8 @@
     },
     "2026-10-26-myagkiy-znak": {
       "version": 1,
-      "draftKey": "0054ca737dde56057f8b0258f82f51aaf574ee888d0c5d115879cf69c3f4b9f6",
-      "builtAt": "2026-10-26T09:36:28.308Z",
+      "draftKey": "157a55c43291b245720ed7dcfa9c44c07a835d24108984188f27b256dcf880d5",
+      "builtAt": "2026-10-28T12:30:03.045Z",
       "media": {
         "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-26-myagkiy-znak.mp4",
         "coverOffsetMs": 14600,
@@ -1609,28 +1609,28 @@
           "attribution": "Easy Lemon — Kevin MacLeod (incompetech.com). CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/. Фрагмент обрезан и сведён с видео.",
           "attributionRequired": true
         },
-        "background": "assets/photos/clay-banks-notebook.jpg",
+        "background": "assets/photos/marble-pineapple.jpg",
         "lightBg": true
       },
       "files": [
         {
           "relative": "reels/2026-10-26-myagkiy-znak.mp4",
           "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-26-myagkiy-znak.mp4",
-          "size": 501482,
-          "sha256": "586dbb4b8a210ab724553ad5c01e241bcfcb5240be092c2376e0f6362a520613"
+          "size": 533987,
+          "sha256": "bd9b58689a899c7b53b893450c725e0de0296d5c89e00f367340c943bed5e168"
         },
         {
           "relative": "reels/2026-10-26-myagkiy-znak-frame.jpg",
           "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-26-myagkiy-znak-frame.jpg",
-          "size": 136692,
-          "sha256": "99f5c676e5062b44ff226d722e079c7e6f3740b0d7fea45bb6f7f092afabcac8"
+          "size": 156904,
+          "sha256": "b5f355e9432185035278761ca117f4992106c3cba6919eec72874ac0e24ca662"
         }
       ]
     },
     "2026-10-26-udarenie-glagoly": {
       "version": 1,
-      "draftKey": "4f12f70cbbcd2e66ca26173a95759bf8d29bfd5b6003a0e80345e406c388c3f7",
-      "builtAt": "2026-10-26T09:36:28.406Z",
+      "draftKey": "3bb89ddfba24053e88955e5084c862c1ff218334f94a7a7b07b7aa0adf0edc63",
+      "builtAt": "2026-10-28T12:30:03.147Z",
       "media": {
         "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-26-udarenie-glagoly.mp4",
         "coverOffsetMs": 12600,
@@ -1643,28 +1643,28 @@
           "attribution": "Carefree — Kevin MacLeod (incompetech.com). CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/. Фрагмент обрезан и сведён с видео.",
           "attributionRequired": true
         },
-        "background": "assets/photos/jeshoots-notebook.jpg",
+        "background": "assets/photos/pencils-dorohovich.jpg",
         "lightBg": true
       },
       "files": [
         {
           "relative": "reels/2026-10-26-udarenie-glagoly.mp4",
           "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-26-udarenie-glagoly.mp4",
-          "size": 488132,
-          "sha256": "4e4b29b2cecc68163f1a38da964989d2d1e9e23dfcfb698d866688cd328bf678"
+          "size": 523641,
+          "sha256": "ac7dce8a8f75527bc45fccf282a60682f88ff8ddd97862dfdccdc5f78c8cde43"
         },
         {
           "relative": "reels/2026-10-26-udarenie-glagoly-frame.jpg",
           "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-26-udarenie-glagoly-frame.jpg",
-          "size": 146960,
-          "sha256": "edb3504f7002455b2b5098e5960e90f1e7b887f82645b3f51f348333fec9563d"
+          "size": 168920,
+          "sha256": "79f000cddbd871f50252deba7ed28cc8f1cc30ddc3787d905f71ed6b965e6094"
         }
       ]
     },
     "2026-10-26-slovarnye-2": {
       "version": 1,
-      "draftKey": "cbff8e2b898d92d32d6080927b0861ebad96f5b72e28bddd20994b0b1e7d2b1b",
-      "builtAt": "2026-10-26T09:36:28.489Z",
+      "draftKey": "c943a065a1809ab8361fea4563c624c0acb815f4c5cad4fae280dc08e6b64096",
+      "builtAt": "2026-10-28T12:32:50.558Z",
       "media": {
         "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-26-slovarnye-2.mp4",
         "coverOffsetMs": 12600,
@@ -1677,28 +1677,28 @@
           "attribution": "И. С. Бах — Гольдберг-вариации, BWV 988, вариация № 1. Фортепиано: Кимико Ишизака, Open Goldberg Variations (2012). Запись CC0 1.0. Фрагмент, громкость изменена.",
           "attributionRequired": true
         },
-        "background": "assets/photos/clay-banks-notebook.jpg",
+        "background": "assets/photos/marble-pineapple.jpg",
         "lightBg": true
       },
       "files": [
         {
           "relative": "reels/2026-10-26-slovarnye-2.mp4",
           "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-26-slovarnye-2.mp4",
-          "size": 491599,
-          "sha256": "76907375c91975688ac9e13dc61f0dd5eec19e1ac2477180ee0cef231016ec55"
+          "size": 504902,
+          "sha256": "a3dc87849db2ad6fbb81d455f03caa83e53d7a338fdea9ebcd1e60df09ced41e"
         },
         {
           "relative": "reels/2026-10-26-slovarnye-2-frame.jpg",
           "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-26-slovarnye-2-frame.jpg",
-          "size": 150976,
-          "sha256": "57a9d7e952eb3e6b98368bd9b5d9af1cbb9db4cabf2a88f1f378e39e53338a59"
+          "size": 160289,
+          "sha256": "e3a3babc52f90da365639dffb907cc6b36050c5089530ad4219deb7343631fba"
         }
       ]
     },
     "2026-10-26-novye-slova": {
       "version": 1,
-      "draftKey": "0b1f2f2f359b11bcd57d2a0d6923dae0f9067fb8fd6bf93d8557dbdee6eb2cf2",
-      "builtAt": "2026-10-26T09:42:13.430Z",
+      "draftKey": "6039be362a6e2b9d590c180f57f1942ca1f713bc740c3943a3af968bdbea116b",
+      "builtAt": "2026-10-28T12:30:03.458Z",
       "media": {
         "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-26-novye-slova.mp4",
         "coverOffsetMs": 12600,
@@ -1711,28 +1711,28 @@
           "attribution": "Easy Lemon — Kevin MacLeod (incompetech.com). CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/. Фрагмент обрезан и сведён с видео.",
           "attributionRequired": true
         },
-        "background": "assets/photos/jeshoots-notebook.jpg",
+        "background": "assets/photos/pencils-dorohovich.jpg",
         "lightBg": true
       },
       "files": [
         {
           "relative": "reels/2026-10-26-novye-slova.mp4",
           "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-26-novye-slova.mp4",
-          "size": 480713,
-          "sha256": "94857a34ad2cc2934c6e8e609a061ccf05505723d55d857fa0df7abffe1dee32"
+          "size": 467264,
+          "sha256": "febc9671b5cd9c84cf6b956e0273c02b4a49390505e9afbdbe6b94d198a129d8"
         },
         {
           "relative": "reels/2026-10-26-novye-slova-frame.jpg",
           "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-26-novye-slova-frame.jpg",
-          "size": 142776,
-          "sha256": "af9d8ee16031a38e0bd1b203da980e7741afa291e7d9a8aa55be44b8b19a4f45"
+          "size": 138266,
+          "sha256": "5001d504674d9a87e918a88514b3d930ddb4b80414d452fa2e8e4057f31dabc2"
         }
       ]
     },
     "2026-10-26-udarenie-zaim": {
       "version": 1,
-      "draftKey": "594900b54fa0b77bd1c4b272492d0baf32bfde8e268627b2560efe6b9bcb57ed",
-      "builtAt": "2026-10-26T10:11:03.940Z",
+      "draftKey": "ef7b817345af254f53ae9bc470d06bfa3c6f4eac72d2cff3cd70d621532983ac",
+      "builtAt": "2026-10-28T12:30:03.663Z",
       "media": {
         "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-26-udarenie-zaim.mp4",
         "coverOffsetMs": 12600,
@@ -1745,28 +1745,28 @@
           "attribution": "Crinoline Dreams — Kevin MacLeod (incompetech.com). CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/. Фрагмент обрезан и сведён с видео.",
           "attributionRequired": true
         },
-        "background": "assets/photos/jeshoots-notebook.jpg",
+        "background": "assets/photos/typewriter-spratt.jpg",
         "lightBg": true
       },
       "files": [
         {
           "relative": "reels/2026-10-26-udarenie-zaim.mp4",
           "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-26-udarenie-zaim.mp4",
-          "size": 493752,
-          "sha256": "de8cb627554dffac68eb2f538d54dfee6bebc3305d11ca1dbbdbf919c09b09af"
+          "size": 565251,
+          "sha256": "19a4cdddf506e8bef8adcd11868b6020738d22ee3bf8429764d281ff0d142643"
         },
         {
           "relative": "reels/2026-10-26-udarenie-zaim-frame.jpg",
           "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-26-udarenie-zaim-frame.jpg",
-          "size": 147974,
-          "sha256": "4cc932530b56b5e22e94cee88e5279de67b8108a01ab70c364bcbd83b7a40c94"
+          "size": 180581,
+          "sha256": "b6e301da38a898c5ec7276083092c7d43d639884aadf7eca61d4258314151812"
         }
       ]
     },
     "2026-10-26-pol": {
       "version": 1,
-      "draftKey": "7acec81f6efe1e7b1a1a4f8b7d710c6b33a4bc973fcc4734527f311dd2903692",
-      "builtAt": "2026-10-26T10:11:04.036Z",
+      "draftKey": "fc2a637d1eb3375e6ddaa5849c4a0534ee69cb09bb6d4a23ebd25b8b2a2dc43e",
+      "builtAt": "2026-10-28T12:30:03.847Z",
       "media": {
         "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-26-pol.mp4",
         "coverOffsetMs": 12600,
@@ -1779,28 +1779,28 @@
           "attribution": "Onion Capers — Kevin MacLeod (incompetech.com). CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/. Фрагмент обрезан и сведён с видео.",
           "attributionRequired": true
         },
-        "background": "assets/photos/jeshoots-notebook.jpg",
+        "background": "assets/photos/pencils-dorohovich.jpg",
         "lightBg": true
       },
       "files": [
         {
           "relative": "reels/2026-10-26-pol.mp4",
           "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-26-pol.mp4",
-          "size": 486183,
-          "sha256": "a4f0dfe2f0f66fadb9b16d9151e75a07a80f7bd58912344eaff604ce2110a3c1"
+          "size": 504515,
+          "sha256": "984b53ecac706425227435b30a7bcda1adacdb6a4f7c7e64a62881c2903634e3"
         },
         {
           "relative": "reels/2026-10-26-pol-frame.jpg",
           "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-26-pol-frame.jpg",
-          "size": 138902,
-          "sha256": "2c2e17d7bd1f4b0ab97fa019378c70a45f82a5be8b858846ecf3a25797de223a"
+          "size": 154526,
+          "sha256": "2e644c302122ac223a97913573d003746ffd63fadbe54ee319243745d3bb5ced"
         }
       ]
     },
     "2026-10-26-prichastiya": {
       "version": 1,
-      "draftKey": "a64ee89c6c74863ff4ec9626ec9e3151d4ae5053f73d20ff3421711431c4d4ba",
-      "builtAt": "2026-10-26T10:11:04.120Z",
+      "draftKey": "deb924bff0cf8d6517c2351e29f95fff07be0dd6607e072563d7e022c4deee77",
+      "builtAt": "2026-10-28T12:30:03.946Z",
       "media": {
         "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-26-prichastiya.mp4",
         "coverOffsetMs": 12600,
@@ -1813,28 +1813,28 @@
           "attribution": "Easy Lemon — Kevin MacLeod (incompetech.com). CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/. Фрагмент обрезан и сведён с видео.",
           "attributionRequired": true
         },
-        "background": "assets/photos/jeshoots-notebook.jpg",
+        "background": "assets/photos/typewriter-spratt.jpg",
         "lightBg": true
       },
       "files": [
         {
           "relative": "reels/2026-10-26-prichastiya.mp4",
           "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-26-prichastiya.mp4",
-          "size": 490220,
-          "sha256": "eafe51226f80167f51dc23039183460a85a7cace6cc4f0b2f12c7695161bfefe"
+          "size": 525563,
+          "sha256": "1a6da5a001f29a283e1482bbd3f52ab43c77fcc66ab48eae0490c5c742a70bc6"
         },
         {
           "relative": "reels/2026-10-26-prichastiya-frame.jpg",
           "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-26-prichastiya-frame.jpg",
-          "size": 151142,
-          "sha256": "acce158c17f87823d4a0a45a11ba08bf05d080edc3a76d22c245235a0031c4e4"
+          "size": 173015,
+          "sha256": "2128f994612fd5e9e288cc52333e8daf21583bcb4538fa6809bd0e554b34470c"
         }
       ]
     },
     "2026-10-26-mn-udarenie": {
       "version": 1,
-      "draftKey": "6e47c33c24b934414e51f269bc9dc4a9784e8d8ba0d95935ae0200564ecd5e14",
-      "builtAt": "2026-10-26T10:11:04.203Z",
+      "draftKey": "706e8af532c3f3f5763a2e4d44730147594e39bc019a2c6fe35a37b83e6fb3a0",
+      "builtAt": "2026-10-28T12:30:04.041Z",
       "media": {
         "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-26-mn-udarenie.mp4",
         "coverOffsetMs": 12600,
@@ -1854,21 +1854,21 @@
         {
           "relative": "reels/2026-10-26-mn-udarenie.mp4",
           "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-26-mn-udarenie.mp4",
-          "size": 458329,
-          "sha256": "6a1de345e80a185bf6d966f13e3b1ea7b07c22a65ec97fe2f81f4813156b6fa4"
+          "size": 469039,
+          "sha256": "fa92877e0e0af9acf515e18a694b2332c019aeb7df48fd02c8e006577b9070c5"
         },
         {
           "relative": "reels/2026-10-26-mn-udarenie-frame.jpg",
           "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-26-mn-udarenie-frame.jpg",
-          "size": 132362,
-          "sha256": "b960577dfe5885839cd89a4b7f753de02bc31fe226d0f64d29fea32e9d2a1c22"
+          "size": 142860,
+          "sha256": "c914e08c73e644426810bca9cb50b00a06514094b04fce4769bf219852f338f5"
         }
       ]
     },
     "2026-10-26-nepro-soglasnye": {
       "version": 1,
-      "draftKey": "078ffc8c9f22c1cc81ffb8b34f8674908f9f289c9a35895151f911ffa2741db1",
-      "builtAt": "2026-10-26T10:11:04.287Z",
+      "draftKey": "3432f79eb0cd2199dff871345588673635ca693a368aa4bc5b8a8ec279c87ee6",
+      "builtAt": "2026-10-28T12:32:50.668Z",
       "media": {
         "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-26-nepro-soglasnye.mp4",
         "coverOffsetMs": 12600,
@@ -1881,21 +1881,21 @@
           "attribution": "И. С. Бах — Гольдберг-вариации, BWV 988, вариация № 1. Фортепиано: Кимико Ишизака, Open Goldberg Variations (2012). Запись CC0 1.0. Фрагмент, громкость изменена.",
           "attributionRequired": true
         },
-        "background": "assets/photos/clay-banks-notebook.jpg",
+        "background": "assets/photos/desk-sheldon.jpg",
         "lightBg": true
       },
       "files": [
         {
           "relative": "reels/2026-10-26-nepro-soglasnye.mp4",
           "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-26-nepro-soglasnye.mp4",
-          "size": 468056,
-          "sha256": "9ed18e8c88b333841d0824a0d9b725fa93def28f5c7630d10cb19f4b864c91d2"
+          "size": 481538,
+          "sha256": "f8d0df83d3c76632b4b495b4f5822aac68a0c61994e4240020b4feda7b4e2f92"
         },
         {
           "relative": "reels/2026-10-26-nepro-soglasnye-frame.jpg",
           "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-26-nepro-soglasnye-frame.jpg",
-          "size": 139572,
-          "sha256": "04b116aa220781bf6a0f047cf983eaa3ed0f324b0b6473e73c895818698455e7"
+          "size": 148802,
+          "sha256": "f830a88a2bb1b409d0e9ef62ba480f006279a4833f445ca7d7567cd36cc2e3fc"
         }
       ]
     },
@@ -1969,8 +1969,8 @@
     },
     "2026-10-26-z-s": {
       "version": 1,
-      "draftKey": "66fc91c623f3c3cd7cd43516152203b6725ef3e65c68bd1d250f10e462298bff",
-      "builtAt": "2026-10-26T10:16:29.843Z",
+      "draftKey": "7134b91ef797992e49b6c60845d7ae519e7b94e5f741a371afa2a4534c3b39c2",
+      "builtAt": "2026-10-28T12:30:02.916Z",
       "media": {
         "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-26-z-s.mp4",
         "coverOffsetMs": 12600,
@@ -1983,28 +1983,28 @@
           "attribution": "Onion Capers — Kevin MacLeod (incompetech.com). CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/. Фрагмент обрезан и сведён с видео.",
           "attributionRequired": true
         },
-        "background": "assets/photos/clay-banks-notebook.jpg",
+        "background": "assets/photos/cactus-webb.jpg",
         "lightBg": true
       },
       "files": [
         {
           "relative": "reels/2026-10-26-z-s.mp4",
           "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-26-z-s.mp4",
-          "size": 491421,
-          "sha256": "0d1468b63988b05561e2e4b8d6b3a5ffafa849ad429f14dfa360b7020cce2a95"
+          "size": 481087,
+          "sha256": "f1e3060c855d58694e383e38160340b5702cd6c350543c73ae5392f504c0c4ef"
         },
         {
           "relative": "reels/2026-10-26-z-s-frame.jpg",
           "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-26-z-s-frame.jpg",
-          "size": 144264,
-          "sha256": "f46caa42101cef99cae875298981a779f083b5edc19d5fdb82f17933afb884ed"
+          "size": 140561,
+          "sha256": "966266cbc8ccd8d20575bd767642d17d4cd2a6868e8de86f15afc026f6dd9902"
         }
       ]
     },
     "2026-10-26-mn-ch": {
       "version": 1,
-      "draftKey": "57e3d4b538d0de0c74080f1fc8ef4c121350d7d24b693f26c792accaa0f0b356",
-      "builtAt": "2026-10-26T10:16:29.928Z",
+      "draftKey": "25ef2f05680711ff108cd8b91a0c6474b6628f52de355a4cfa4c3101b6148565",
+      "builtAt": "2026-10-28T12:30:03.249Z",
       "media": {
         "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-26-mn-ch.mp4",
         "coverOffsetMs": 12600,
@@ -2024,21 +2024,21 @@
         {
           "relative": "reels/2026-10-26-mn-ch.mp4",
           "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-26-mn-ch.mp4",
-          "size": 493732,
-          "sha256": "3b29ac19c262b5c6aff66116d89e90c93412b9d3672f9b5b4fc8090b7d285cfc"
+          "size": 504396,
+          "sha256": "4f7b16a2b7e4d661af24229e82eae441656e6ebafc57551007b4cdd05d62138c"
         },
         {
           "relative": "reels/2026-10-26-mn-ch-frame.jpg",
           "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-26-mn-ch-frame.jpg",
-          "size": 144866,
-          "sha256": "a9a67321f4b6df78dca0ab6f9819bfcf2fb9856b6d5cac51e29ce300522a8c76"
+          "size": 155282,
+          "sha256": "e5037c9e1c1fb53d52a654944b6531d6d6ad28b3a1d4018ec8c64129636b4f82"
         }
       ]
     },
     "2026-10-26-nn": {
       "version": 1,
-      "draftKey": "b6c25c602ff3b5dcd857787822aba48b166e64ddb4ede7165f721ef01c811cbd",
-      "builtAt": "2026-10-26T10:16:30.012Z",
+      "draftKey": "29fc6edab1e173b6db85a3bb5dec2defeec12b76de94aeeb834cfbc4e0220712",
+      "builtAt": "2026-10-28T12:30:03.560Z",
       "media": {
         "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-26-nn.mp4",
         "coverOffsetMs": 12600,
@@ -2051,28 +2051,28 @@
           "attribution": "Daily Beetle — Kevin MacLeod (incompetech.com). CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/. Фрагмент обрезан и сведён с видео.",
           "attributionRequired": true
         },
-        "background": "assets/photos/clay-banks-notebook.jpg",
+        "background": "assets/photos/books-marriage.jpg",
         "lightBg": true
       },
       "files": [
         {
           "relative": "reels/2026-10-26-nn.mp4",
           "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-26-nn.mp4",
-          "size": 482490,
-          "sha256": "39e7a157407c0e67f3ef169250043e71a4e41416543c338ca5ae75ed0e2b26ac"
+          "size": 495528,
+          "sha256": "77aa95773d2a789ea4923a86197ddc184ff7fbbfcd914f22b563e058d4e69465"
         },
         {
           "relative": "reels/2026-10-26-nn-frame.jpg",
           "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-26-nn-frame.jpg",
-          "size": 145621,
-          "sha256": "42f8b9c9d98610e7bc199f39d1ad067dc4991e11976987cc9606e83f6386f5bc"
+          "size": 150413,
+          "sha256": "ad1437c5e08efddcba8a8396931c76f0be5f36004a72b6c4aa52e884e42336a9"
         }
       ]
     },
     "2026-10-26-defis-vvodnye": {
       "version": 1,
-      "draftKey": "6707e7d5ce772425d9ce9e80459cb48a6b5117f3514acd99252d8eba9bc60d6d",
-      "builtAt": "2026-10-26T10:16:30.095Z",
+      "draftKey": "1088df51bcc886c69821f114021c42a70c16304b9f1c986558b040a85a6dba8d",
+      "builtAt": "2026-10-28T12:30:03.749Z",
       "media": {
         "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-26-defis-vvodnye.mp4",
         "coverOffsetMs": 12600,
@@ -2085,21 +2085,21 @@
           "attribution": "Almost New — Kevin MacLeod (incompetech.com). CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/. Фрагмент обрезан и сведён с видео.",
           "attributionRequired": true
         },
-        "background": "assets/photos/jeshoots-notebook.jpg",
+        "background": "assets/photos/tulips-filonchik.jpg",
         "lightBg": true
       },
       "files": [
         {
           "relative": "reels/2026-10-26-defis-vvodnye.mp4",
           "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-26-defis-vvodnye.mp4",
-          "size": 471483,
-          "sha256": "41b3676aa291daceb318eebbb2dbfe5a0336e50eb332f3878162e1e94963a496"
+          "size": 447687,
+          "sha256": "c291f37be4378713990c7d8d6f12b43811d26876e0c1b8d1219b5764b4dae17f"
         },
         {
           "relative": "reels/2026-10-26-defis-vvodnye-frame.jpg",
           "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-26-defis-vvodnye-frame.jpg",
-          "size": 138669,
-          "sha256": "95a1e901d9956283ddde668f85e25eea38ec4bd0244a053564a474832cf74fb2"
+          "size": 130300,
+          "sha256": "349e934ad5c84e3b2979bd0a100dd13304ee2ceb07b7e7477eeecf01ab37405d"
         }
       ]
     }

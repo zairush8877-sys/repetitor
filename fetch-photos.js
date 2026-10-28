@@ -61,10 +61,10 @@ const PICKS = [
     alt: 'Букет тюльпанов рядом с ноутбуком на рабочем столе',
   },
   {
-    file: 'cactus-webb.jpg',
-    commons: 'Home desk (Unsplash).jpg',
-    author: 'Scott Webb',
-    alt: 'Домашний стол у белой стены: ноутбук, рамка и цветущий кактус',
+    file: 'desk-sheldon.jpg',
+    commons: 'Overhead desktop workspace (Unsplash).jpg',
+    author: 'Jeff Sheldon',
+    alt: 'Рабочий стол сверху: клавиатура, органайзер и деревянная полка',
   },
 ];
 
@@ -86,6 +86,10 @@ async function describe(title) {
   // могут перелицензировать, и тогда снимок молча уедет в ролик с чужими
   // условиями. CC BY потребовал бы строки с автором в каждой подписи.
   if (!/^CC0|public domain/i.test(license)) throw new Error(`${title}: лицензия ${license}, нужна CC0`);
+  // Окно под кадром широкое (936×270) и показывает снимок целиком, без обрезки.
+  // Вертикальный кадр встаёт в нём узкой полосой с полями в пол-окна — так
+  // в сборку уехал «Home desk»: на превью это видно сразу, в ролике — нет.
+  if (info.height > info.width) throw new Error(`${title}: кадр вертикальный (${info.width}×${info.height}), а нижнее окно широкое`);
   return {
     download: info.thumburl || info.url,
     page: info.descriptionurl,
