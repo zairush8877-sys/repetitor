@@ -7077,7 +7077,7 @@
       }
     },
     {
-      "status": "approved",
+      "status": "published",
       "format": "Reels",
       "school": false,
       "numbered": true,
@@ -7125,7 +7125,41 @@
         "#егэпорусскому"
       ],
       "sourceNote": "Из АКАДЕМОСа: бесконе́чный, рассказа́ть, исче́знуть, бесполе́зный, разби́ть. Ответ на задание — строка 5. Тема заменяет «пять помидоров»: редактор заметил, что родительный множественного уже выходил 05.08.2026 постом «Пара чулок, но пара носков», где были и «нет чулков / нет чулок», и «килограмм помидор / помидоров». Вдобавок в таблице фабрики стоял «баклажан / баклажанов», а в АКАДЕМОСе у баклажана допустимы обе формы (-ов и -жа́н), то есть пара была не ошибочной.",
-      "photoFile": "books-marriage.jpg"
+      "photoFile": "books-marriage.jpg",
+      "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-26-z-s.mp4",
+      "coverOffsetMs": 12600,
+      "music": {
+        "composer": "Kevin MacLeod",
+        "piece": "Onion Capers",
+        "license": "CC BY 4.0",
+        "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1800023",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "attribution": "Onion Capers — Kevin MacLeod (incompetech.com). CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/. Фрагмент обрезан и сведён с видео.",
+        "attributionRequired": true
+      },
+      "background": "assets/photos/cactus-webb.jpg",
+      "lightBg": true,
+      "publishedMediaId": "18490833478107247",
+      "publishedAt": "2026-10-28T17:27:04.796Z",
+      "storyRepost": {
+        "version": 1,
+        "feedMediaId": "18490833478107247",
+        "status": "published",
+        "items": [
+          {
+            "index": 1,
+            "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-10-26-z-s-1.jpg",
+            "sha256": "b0bb9caeaa1762203ea32fbf86a7178d04396be4e5b15a774e7292a84e515e17",
+            "status": "published",
+            "attempts": 1,
+            "attemptedAt": "2026-10-28T17:27:04.820Z",
+            "containerId": "18033292379887754",
+            "publishedMediaId": "17999466671823325",
+            "publishedAt": "2026-10-28T17:27:18.028Z"
+          }
+        ],
+        "sourceKey": "a231048072187e93627bf98774310e31eed51ff96738c61b7c13cc1ee0f98562"
+      }
     },
     {
       "status": "approved",
