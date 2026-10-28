@@ -6121,7 +6121,7 @@
     },
     {
       "id": "2026-10-25-olimp-bud-zdorov",
-      "status": "approved",
+      "status": "published",
       "format": "Reels",
       "rubric": "Задача с олимпиады",
       "school": false,
@@ -6164,11 +6164,43 @@
       "checkedAt": "2026-10-25",
       "plainBg": true,
       "date": "2026-10-27",
-      "musicFile": "bach-goldberg-var1-ishizaka.mp3"
+      "musicFile": "bach-goldberg-var1-ishizaka.mp3",
+      "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-25-olimp-bud-zdorov.mp4",
+      "coverOffsetMs": 10600,
+      "music": {
+        "composer": "Иоганн Себастьян Бах",
+        "piece": "Гольдберг-вариации, BWV 988 — Вариация № 1",
+        "license": "CC0 1.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "attribution": "И. С. Бах — Гольдберг-вариации, BWV 988, вариация № 1. Фортепиано: Кимико Ишизака, Open Goldberg Variations (2012). Запись CC0 1.0. Фрагмент, громкость изменена.",
+        "attributionRequired": true
+      },
+      "publishedMediaId": "18152947036541868",
+      "publishedAt": "2026-10-27T08:54:44.784Z",
+      "storyRepost": {
+        "version": 1,
+        "feedMediaId": "18152947036541868",
+        "status": "published",
+        "items": [
+          {
+            "index": 1,
+            "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-10-25-olimp-bud-zdorov-1.jpg",
+            "sha256": "cc3cd2019d8009005098347a67fd7445beb3fd45c1f14f44d3c35bed92016ed5",
+            "status": "published",
+            "attempts": 1,
+            "attemptedAt": "2026-10-27T08:54:44.866Z",
+            "containerId": "18033053741887754",
+            "publishedMediaId": "18145871695586595",
+            "publishedAt": "2026-10-27T08:54:57.960Z"
+          }
+        ],
+        "sourceKey": "2b60370f0000efb8f621eea0195b136f255cf95962153c2ef41477e1d196c2bf"
+      }
     },
     {
       "id": "2026-10-25-olimp-karlson",
-      "status": "approved",
+      "status": "published",
       "format": "Reels",
       "rubric": "Задача с олимпиады",
       "school": false,
@@ -6215,11 +6247,43 @@
       "checkedAt": "2026-10-25",
       "plainBg": true,
       "date": "2026-10-27",
-      "musicFile": "light-easy-lemon.mp3"
+      "musicFile": "light-easy-lemon.mp3",
+      "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-25-olimp-karlson.mp4",
+      "coverOffsetMs": 12600,
+      "music": {
+        "composer": "Kevin MacLeod",
+        "piece": "Easy Lemon",
+        "license": "CC BY 4.0",
+        "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1200076",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "attribution": "Easy Lemon — Kevin MacLeod (incompetech.com). CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/. Фрагмент обрезан и сведён с видео.",
+        "attributionRequired": true
+      },
+      "publishedMediaId": "18110298283907921",
+      "publishedAt": "2026-10-27T13:17:31.332Z",
+      "storyRepost": {
+        "version": 1,
+        "feedMediaId": "18110298283907921",
+        "status": "published",
+        "items": [
+          {
+            "index": 1,
+            "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-10-25-olimp-karlson-1.jpg",
+            "sha256": "4de77b2ffe8804e6305964e60b5040c79e3deb219551b9bda2367abc784f62ee",
+            "status": "published",
+            "attempts": 1,
+            "attemptedAt": "2026-10-27T13:17:31.461Z",
+            "containerId": "18033087386887754",
+            "publishedMediaId": "18122638252944968",
+            "publishedAt": "2026-10-27T13:17:43.092Z"
+          }
+        ],
+        "sourceKey": "1145605f5adf1c45aa9fd49e9227c44be3fef121c3f515aa10d286b0a2c7106e"
+      }
     },
     {
       "id": "2026-10-26-lishnie-bukvy",
-      "status": "approved",
+      "status": "published",
       "date": "2026-10-28",
       "format": "Reels",
       "rubric": "Путают даже грамотные",
@@ -6269,7 +6333,41 @@
       ],
       "sourceNote": "Правильные написания есть в АКАДЕМОСе: интрига́н, военача́льник, юрисконсу́льт, эскала́тор, грейпфру́т, я́ства. Ошибочные отсутствуют полностью — по каждому «в словаре ничего не найдено». Арифметика задания: пять слов теряют по одной букве, военноначальник (15) → военачальник (12) теряет три, ответ — строка 2. «Дермантин» снят по замечанию корректора: он уже выходил в августовской таблице словарных слов; заменён на «явства». Редакторская версия на девять строк отклонена по правилу §5 «легко и понятно». Этимология «яств» в подписи не утверждается: сказано только, почему люди ошибаются.",
       "checkedAt": "2026-10-26",
-      "musicFile": "bach-goldberg-var1-ishizaka.mp3"
+      "musicFile": "bach-goldberg-var1-ishizaka.mp3",
+      "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-26-lishnie-bukvy.mp4",
+      "coverOffsetMs": 14600,
+      "music": {
+        "composer": "Иоганн Себастьян Бах",
+        "piece": "Гольдберг-вариации, BWV 988 — Вариация № 1",
+        "license": "CC0 1.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "attribution": "И. С. Бах — Гольдберг-вариации, BWV 988, вариация № 1. Фортепиано: Кимико Ишизака, Open Goldberg Variations (2012). Запись CC0 1.0. Фрагмент, громкость изменена.",
+        "attributionRequired": true
+      },
+      "background": "assets/photos/clay-banks-notebook.jpg",
+      "lightBg": true,
+      "publishedMediaId": "18132865165762936",
+      "publishedAt": "2026-10-28T09:34:45.981Z",
+      "storyRepost": {
+        "version": 1,
+        "feedMediaId": "18132865165762936",
+        "status": "published",
+        "items": [
+          {
+            "index": 1,
+            "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-10-26-lishnie-bukvy-1.jpg",
+            "sha256": "939254558d18856bca6b8a2599fe1c55f200959e3a00ba94afe796e43503998f",
+            "status": "published",
+            "attempts": 1,
+            "attemptedAt": "2026-10-28T09:34:46.153Z",
+            "containerId": "18033224141887754",
+            "publishedMediaId": "18039013679650906",
+            "publishedAt": "2026-10-28T09:34:58.511Z"
+          }
+        ],
+        "sourceKey": "0c3a821aaee83306713a636ab07b28d8100d4e0a382dbe2016ea9f077991042d"
+      }
     },
     {
       "id": "2026-10-26-on-ili-ona",
@@ -6851,7 +6949,7 @@
       }
     },
     {
-      "status": "approved",
+      "status": "published",
       "format": "Reels",
       "school": false,
       "numbered": true,
@@ -6898,7 +6996,41 @@
         "#орфография",
         "#грамотность"
       ],
-      "sourceNote": "Из АКАДЕМОСа: обжо́ра, крыжо́вник, трущо́ба, капюшо́н, шёлк. Ответ на задание — строка 5. Пара «шёрох / шорох» снята по замечанию корректора: у «шороха» есть родня с е («шероховатый»), и подсказка из подписи давала бы неверное «шёрох». Вариант редактора «шёв / шов» отклонён — так не пишут; взята пара «трущёба / трущоба» с тем же ударным о после шипящей."
+      "sourceNote": "Из АКАДЕМОСа: обжо́ра, крыжо́вник, трущо́ба, капюшо́н, шёлк. Ответ на задание — строка 5. Пара «шёрох / шорох» снята по замечанию корректора: у «шороха» есть родня с е («шероховатый»), и подсказка из подписи давала бы неверное «шёрох». Вариант редактора «шёв / шов» отклонён — так не пишут; взята пара «трущёба / трущоба» с тем же ударным о после шипящей.",
+      "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-26-sh-o-yo.mp4",
+      "coverOffsetMs": 12600,
+      "music": {
+        "composer": "Kevin MacLeod",
+        "piece": "Crinoline Dreams",
+        "license": "CC BY 4.0",
+        "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1700073",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "attribution": "Crinoline Dreams — Kevin MacLeod (incompetech.com). CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/. Фрагмент обрезан и сведён с видео.",
+        "attributionRequired": true
+      },
+      "background": "assets/photos/clay-banks-notebook.jpg",
+      "lightBg": true,
+      "publishedMediaId": "18061924235566081",
+      "publishedAt": "2026-10-27T15:21:35.953Z",
+      "storyRepost": {
+        "version": 1,
+        "feedMediaId": "18061924235566081",
+        "status": "published",
+        "items": [
+          {
+            "index": 1,
+            "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-10-26-sh-o-yo-1.jpg",
+            "sha256": "c97bbbc456580c0168593888c511686b96be046d57e9d8925b64578933abf28c",
+            "status": "published",
+            "attempts": 1,
+            "attemptedAt": "2026-10-27T15:21:36.264Z",
+            "containerId": "18033105404887754",
+            "publishedMediaId": "18129152929865915",
+            "publishedAt": "2026-10-27T15:21:46.943Z"
+          }
+        ],
+        "sourceKey": "c0579dd669442259ebb08cdbda078876cef21253ae6b060a540709c7d9270130"
+      }
     },
     {
       "status": "approved",

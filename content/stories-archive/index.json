@@ -3047,6 +3047,84 @@
         }
       ],
       "editorialStatus": "requires-source-recheck-before-reuse"
+    },
+    {
+      "storyId": "2026-10-09-oge-dvoetochie-standalone",
+      "date": "2026-10-27",
+      "content": {
+        "id": "2026-10-09-oge-dvoetochie-standalone",
+        "type": "exam",
+        "sources": [
+          "https://gramota.ru/uchebnik/pravila/normy-postanovki-znakov-prepinaniya-v-predlozheniyakh-s-obobshchayushchim-slovom-pri-odnorodnykh-chlenakh",
+          "https://gramota.ru/biblioteka/spravochniki/pravila-russkoy-orfografii-i-punktuatsii/znaki-prepinaniya-pri-odnorodnykh-chlenakh-predlozheniya-s-soyuzami-i-bez-soyuzov"
+        ],
+        "rubric": "ОГЭ",
+        "music": {
+          "file": "bach-goldberg-var1-ishizaka.mp3",
+          "title": "Goldberg Variations, BWV 988: Variatio 1 a 1 Clav.",
+          "piece": "Гольдберг-вариации, BWV 988 — Вариация № 1",
+          "composer": "Иоганн Себастьян Бах",
+          "author": "Kimiko Ishizaka",
+          "performer": "Кимико Ишизака",
+          "license": "CC0 1.0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "source": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+          "rightsSource": "https://opengoldbergvariations.org/",
+          "download": "https://upload.wikimedia.org/wikipedia/commons/2/20/Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+          "attributionRequired": true,
+          "attribution": "И. С. Бах — Гольдберг-вариации, BWV 988, вариация № 1. Фортепиано: Кимико Ишизака, Open Goldberg Variations (2012). Запись CC0 1.0. Фрагмент, громкость изменена.",
+          "checkedAt": "2026-09-19",
+          "excerptFrom": 0.7,
+          "duration": 32,
+          "active": true,
+          "trendVerified": false,
+          "compositionRights": "Public domain: J. S. Bach (1685–1750)",
+          "recordingRights": "Open Goldberg 2012 recording released under CC0; not inferred from composition age",
+          "sourceSha256": "0539f3612413f6077c82e16f92417bad112e44017536f59db257c8179718076f",
+          "sha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8"
+        },
+        "caption": "В рюкзаке есть всё: кружка, фонарь и карта. Слово «всё» обобщает перечисление. Если поставить его после списка, перед ним понадобится тире: кружка, фонарь и карта — всё в рюкзаке.\n\nО музыке. Бах написал этот цикл для клавесина.\n\n#ОГЭрусский #двоеточие #пунктуация",
+        "musicLearning": {
+          "fact": "Бах написал этот цикл для клавесина.",
+          "source": "https://www.bachvereniging.nl/en/bwv/bwv-988",
+          "checkedAt": "2026-09-20"
+        }
+      },
+      "contentSha256": "df3867b4a86173428025b1584728b8644964060e9cc7454c51f0fb2f2e08e12a",
+      "evidence": {
+        "publishedAt": "2026-10-27T12:43:06.856Z",
+        "publishedMediaIds": [
+          "18104277572310179",
+          "17907836154596825"
+        ]
+      },
+      "media": [
+        {
+          "part": 1,
+          "file": "content/stories/2026-10-09-oge-dvoetochie-standalone-1.jpg",
+          "available": false
+        },
+        {
+          "part": 1,
+          "file": "content/stories/2026-10-09-oge-dvoetochie-standalone-1.mp4",
+          "available": true,
+          "bytes": 4475538,
+          "sha256": "98e151612eccb262651d7b6aa7e02170d13f01354bc19c8968407c080ad5fe28"
+        },
+        {
+          "part": 2,
+          "file": "content/stories/2026-10-09-oge-dvoetochie-standalone-2.jpg",
+          "available": false
+        },
+        {
+          "part": 2,
+          "file": "content/stories/2026-10-09-oge-dvoetochie-standalone-2.mp4",
+          "available": true,
+          "bytes": 17542744,
+          "sha256": "e924907e15381f02d7a7fdf6a5060d639b872b583de9eab11de0aae32f8b126b"
+        }
+      ],
+      "editorialStatus": "requires-source-recheck-before-reuse"
     }
   ]
 }
