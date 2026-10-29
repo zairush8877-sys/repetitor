@@ -7230,7 +7230,7 @@
       }
     },
     {
-      "status": "approved",
+      "status": "published",
       "format": "Reels",
       "school": false,
       "numbered": true,
@@ -7278,7 +7278,41 @@
         "#культураречи"
       ],
       "sourceNote": "Из АКАДЕМОСа: дире́ктор, мн. директора́; шофёр, инжене́р, бухга́лтер, ле́ктор — без особой формы множественного числа. Ответ на задание — строка 5. «Тренера» заменены «инженерами» по вердикту корректора. Из подписи убрано утверждение редактора, что «директоры» — книжное написание XIX века: источник не проверялся.",
-      "photoFile": "tulips-filonchik.jpg"
+      "photoFile": "tulips-filonchik.jpg",
+      "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-26-mn-ch.mp4",
+      "coverOffsetMs": 12600,
+      "music": {
+        "composer": "Kevin MacLeod",
+        "piece": "Study And Relax",
+        "license": "CC BY 4.0",
+        "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1900030",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "attribution": "Study And Relax — Kevin MacLeod (incompetech.com). CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/. Фрагмент обрезан и сведён с видео.",
+        "attributionRequired": true
+      },
+      "background": "assets/photos/jeshoots-notebook.jpg",
+      "lightBg": true,
+      "publishedMediaId": "18055044911813578",
+      "publishedAt": "2026-10-29T17:33:24.017Z",
+      "storyRepost": {
+        "version": 1,
+        "feedMediaId": "18055044911813578",
+        "status": "published",
+        "items": [
+          {
+            "index": 1,
+            "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-10-26-mn-ch-1.jpg",
+            "sha256": "e365f01132cb78d464c2713bfea171dc23f0eee7cdae007fbeb69a570ca840cd",
+            "status": "published",
+            "attempts": 1,
+            "attemptedAt": "2026-10-29T17:33:24.171Z",
+            "containerId": "18033478052887754",
+            "publishedMediaId": "18494860741108012",
+            "publishedAt": "2026-10-29T17:33:38.276Z"
+          }
+        ],
+        "sourceKey": "86dbbe170618d77085329755b931d1cde79dc6495da93491fadbb1065890c972"
+      }
     },
     {
       "status": "approved",
