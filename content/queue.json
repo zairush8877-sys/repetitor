@@ -6548,7 +6548,7 @@
       }
     },
     {
-      "status": "approved",
+      "status": "published",
       "format": "Reels",
       "school": false,
       "numbered": true,
@@ -6596,7 +6596,41 @@
         "#культураречи"
       ],
       "sourceNote": "Из АКАДЕМОСа: облегчи́ть -чи́т, углуби́ть -би́т, кровоточи́ть -и́т, вручи́ть -чи́т, премирова́ть -ру́ет. «Включит» снят по замечанию корректора: новая редакция большого орфоэпического словаря даёт «вклю́чит» с пометой «допустимо», и для загадки «найди ошибку» пара спорная. Заменён на «вручит», где вариативности нет; арифметика задания пересчитана — ответ прежний, строка 5.",
-      "photoFile": "marble-pineapple.jpg"
+      "photoFile": "marble-pineapple.jpg",
+      "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-26-udarenie-glagoly.mp4",
+      "coverOffsetMs": 12600,
+      "music": {
+        "composer": "Kevin MacLeod",
+        "piece": "Carefree",
+        "license": "CC BY 4.0",
+        "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1400037",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "attribution": "Carefree — Kevin MacLeod (incompetech.com). CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/. Фрагмент обрезан и сведён с видео.",
+        "attributionRequired": true
+      },
+      "background": "assets/photos/pencils-dorohovich.jpg",
+      "lightBg": true,
+      "publishedMediaId": "18143436238611491",
+      "publishedAt": "2026-10-29T14:26:16.470Z",
+      "storyRepost": {
+        "version": 1,
+        "feedMediaId": "18143436238611491",
+        "status": "published",
+        "items": [
+          {
+            "index": 1,
+            "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-10-26-udarenie-glagoly-1.jpg",
+            "sha256": "c2b78ce216bada9992f9dce4c2e7f2b9e8a63bef01747feb3f0ee73816fe7401",
+            "status": "published",
+            "attempts": 1,
+            "attemptedAt": "2026-10-29T14:26:16.686Z",
+            "containerId": "18033448106887754",
+            "publishedMediaId": "18400271863205745",
+            "publishedAt": "2026-10-29T14:26:29.437Z"
+          }
+        ],
+        "sourceKey": "7f3b1611640b8b08e7001f9ef25dbfd57e1c050f7373ee91fe27fedd44f26d36"
+      }
     },
     {
       "status": "approved",
