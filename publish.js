@@ -254,7 +254,9 @@ async function repostToStory(post, queue) {
           const { localSource } = require('./render-reposts');
           if (digest(fs.readFileSync(localSource(a.sourceUrl, CONTENT))) !== a.geometry?.sourceSha256) throw new Error('Исходный кадр изменился: пересоберите репост.');
           const response = await fetch(assetUrl(a.url), { signal: AbortSignal.timeout(20000) });
-          if (!response.ok || !/image\/jpeg/i.test(response.headers.get('content-type') || '')) throw new Error('Готовый кадр Stories ещё недоступен по публичной ссылке.');
+          const contentType = response.headers.get('content-type') || '';
+          const correctType = a.mediaType === 'VIDEO' ? /video\/mp4|application\/octet-stream/i.test(contentType) : /image\/jpeg/i.test(contentType);
+          if (!response.ok || !correctType) throw new Error('Готовый файл Stories ещё недоступен по публичной ссылке.');
           if (digest(Buffer.from(await response.arrayBuffer())) !== a.sha256) throw new Error('На сервере другая версия кадра Stories: дождитесь обновления.');
         }
       },
@@ -498,7 +500,7 @@ let publicationLock;
       }
     }
     await campaignHistory(queueRaw);
-    console.log(`Campaign audit passed: ${campaign.slots.length} exact V3 videos, covers and Story announcements; no publishing calls`);
+    console.log(`Campaign audit passed: ${campaign.slots.length} exact V3 videos, covers and complete Story reposts; no publishing calls`);
     if (campaignUploadProbe) {
       // An unpublished container verifies Meta can ingest this exact encode and cover.
       // It is never passed to media_publish and expires independently of the calendar.

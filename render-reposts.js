@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-/** Local JPEG export only. Never publishes or changes feed/repost delivery statuses. */
+/** Local Story export only. Never publishes or changes delivery statuses. */
 const fs = require('fs');
 const path = require('path');
 const crypto = require('crypto');
@@ -66,6 +66,24 @@ async function renderPost(post, { contentDir = process.env.MEDIA_CONTENT_DIR || 
   const sourceUrls = sourcesFor(post);
   if (!sourceUrls.length) throw new Error(`${post.id}: no prepared source URLs`);
   const base = rawBase || `https://raw.githubusercontent.com/${process.env.GITHUB_REPOSITORY || 'zairush8877-sys/repetitor'}/main/content/reposts`;
+  if (post.storyRepostMode === 'full_video' && post.videoUrl) {
+    const source = localSource(post.videoUrl, contentDir);
+    const filename = `${post.id}-full.mp4`;
+    const destination = path.join(outDir, filename);
+    fs.mkdirSync(outDir, { recursive: true });
+    fs.copyFileSync(source, destination);
+    const sourceSha256 = hash(fs.readFileSync(source));
+    const sha256 = hash(fs.readFileSync(destination));
+    if (sha256 !== sourceSha256) throw new Error(`${post.id}: full Story copy does not match the approved video`);
+    // This path is for the already validated 1080x1920 V3 export. Copy the
+    // complete file, including audio, without encoding, scaling or clipping.
+    const rect = { x: 0, y: 0, width: 1080, height: 1920 };
+    const geometry = { sourceWidth: 1080, sourceHeight: 1920, outputWidth: 1080, outputHeight: 1920,
+      ...rect, scale: 1, sourceRect: { ...rect }, targetRect: { ...rect }, sourceSha256, sha256 };
+    return { kind: 'reel_video', sourceKey: sourceKey(post), renderedAt: new Date().toISOString(), publicationStatus: 'export_only',
+      assets: [{ sourceUrl: post.videoUrl, file: filename, url: `${base}/${filename}`, width: 1080, height: 1920,
+        mediaType: 'VIDEO', mimeType: 'video/mp4', sha256, geometry }] };
+  }
   const assets = [];
   for (const [i, sourceUrl] of sourceUrls.entries()) {
     const filename = `${post.id}-${i + 1}.jpg`;
@@ -84,17 +102,20 @@ async function main() {
   const queue = JSON.parse(fs.readFileSync(path.join(ROOT, 'content', 'queue.json'), 'utf8'));
   const manifestPath = path.join(ROOT, 'content', 'reposts', 'index.json');
   const manifest = fs.existsSync(manifestPath) ? JSON.parse(fs.readFileSync(manifestPath, 'utf8')) : { version: 1, posts: {} };
-  const b = await browser();
+  let b, page;
   try {
-    const page = await b.newPage({ viewport: { width: 1080, height: 1920 }, deviceScaleFactor: 1 });
     for (const id of ids) {
       const post = queue.posts.find(p => p.id === id);
       if (!post) throw new Error(`Пост не найден: ${id}`);
+      if (!(post.storyRepostMode === 'full_video' && post.videoUrl) && !page) {
+        b = await browser();
+        page = await b.newPage({ viewport: { width: 1080, height: 1920 }, deviceScaleFactor: 1 });
+      }
       manifest.posts[id] = await renderPost(post, { page });
-      console.log(`${id}: экспортировано ${manifest.posts[id].assets.length} полных кадров; не опубликовано.`);
+      console.log(`${id}: экспортировано ${manifest.posts[id].assets.length} элементов Stories; не опубликовано.`);
     }
     fs.writeFileSync(manifestPath, JSON.stringify(manifest, null, 2) + '\n');
-  } finally { await b.close(); }
+  } finally { if (b) await b.close(); }
 }
 if (require.main === module) main().catch(e => { console.error(e.message); process.exitCode = 1; });
 module.exports = { SAFE, contain, renderContain, renderPost, localSource };

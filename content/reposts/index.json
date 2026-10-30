@@ -1918,421 +1918,646 @@
       ]
     },
     "anna-v3-20261031-01-nn-okno": {
-      "kind": "reel_frame",
-      "sourceKey": "03f8e6787915f6274bd51929f4c932c065c2e5fcbb323edc94c1f168f32d947f",
-      "renderedAt": "2026-10-30T22:45:12.282Z",
+      "kind": "reel_video",
+      "sourceKey": "1e2ae218ce8518651bf83672e0d207063ffa5c775de8fb6d30dec7b754f8d060",
+      "renderedAt": "2026-10-30T23:27:05.243Z",
       "publicationStatus": "export_only",
       "assets": [
         {
-          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/anna-v3-20261031-01-nn-okno-frame.jpg",
-          "file": "anna-v3-20261031-01-nn-okno-1.jpg",
-          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/anna-v3-20261031-01-nn-okno-1.jpg",
+          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/anna-v3-20261031-01-nn-okno.mp4",
+          "file": "anna-v3-20261031-01-nn-okno-full.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/anna-v3-20261031-01-nn-okno-full.mp4",
           "width": 1080,
           "height": 1920,
-          "sha256": "c9c4367981316a3defad390c38ce0dce174c5a1cf43b7234fc4a7e878ee07ebd",
+          "mediaType": "VIDEO",
+          "mimeType": "video/mp4",
+          "sha256": "1bf697527603204af6f35a4ac74c86e9a0943ade30ad3d28d7f271ba3df88a0c",
           "geometry": {
             "sourceWidth": 1080,
             "sourceHeight": 1920,
-            "x": 174.375,
-            "y": 360,
-            "width": 731.25,
-            "height": 1300,
             "outputWidth": 1080,
             "outputHeight": 1920,
-            "sourceSha256": "bdc815338deda22bf57a7c837bdf7dd7f5e1bdf82e93447c700619283ba5a9ca",
-            "sha256": "c9c4367981316a3defad390c38ce0dce174c5a1cf43b7234fc4a7e878ee07ebd"
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "scale": 1,
+            "sourceRect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 1920
+            },
+            "targetRect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 1920
+            },
+            "sourceSha256": "1bf697527603204af6f35a4ac74c86e9a0943ade30ad3d28d7f271ba3df88a0c",
+            "sha256": "1bf697527603204af6f35a4ac74c86e9a0943ade30ad3d28d7f271ba3df88a0c"
           }
         }
       ]
     },
     "anna-v3-20261031-02-tsya": {
-      "kind": "reel_frame",
-      "sourceKey": "56d2174f2338bb02dfc0331c947fb6a447da5c2bf4c0a922ba22233512cb13d2",
-      "renderedAt": "2026-10-30T22:45:12.398Z",
+      "kind": "reel_video",
+      "sourceKey": "2d65d8c148b7f3fcddea2177e703bb418482305f20f97204266548742c3cb041",
+      "renderedAt": "2026-10-30T23:27:05.306Z",
       "publicationStatus": "export_only",
       "assets": [
         {
-          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/anna-v3-20261031-02-tsya-frame.jpg",
-          "file": "anna-v3-20261031-02-tsya-1.jpg",
-          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/anna-v3-20261031-02-tsya-1.jpg",
+          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/anna-v3-20261031-02-tsya.mp4",
+          "file": "anna-v3-20261031-02-tsya-full.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/anna-v3-20261031-02-tsya-full.mp4",
           "width": 1080,
           "height": 1920,
-          "sha256": "09538f76829cc8da248472a99001eb9c1250129688d4c26d51542d942b1a7583",
+          "mediaType": "VIDEO",
+          "mimeType": "video/mp4",
+          "sha256": "f0fe3fafe08fd2f1477b6d9e0153152b77f272698ded835e991c1a598ff5fcf3",
           "geometry": {
             "sourceWidth": 1080,
             "sourceHeight": 1920,
-            "x": 174.375,
-            "y": 360,
-            "width": 731.25,
-            "height": 1300,
             "outputWidth": 1080,
             "outputHeight": 1920,
-            "sourceSha256": "38ebe043f00c1213b65d86d0fedd891f8b9b3c4ece3a95d12cf234de7c28b26b",
-            "sha256": "09538f76829cc8da248472a99001eb9c1250129688d4c26d51542d942b1a7583"
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "scale": 1,
+            "sourceRect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 1920
+            },
+            "targetRect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 1920
+            },
+            "sourceSha256": "f0fe3fafe08fd2f1477b6d9e0153152b77f272698ded835e991c1a598ff5fcf3",
+            "sha256": "f0fe3fafe08fd2f1477b6d9e0153152b77f272698ded835e991c1a598ff5fcf3"
           }
         }
       ]
     },
     "anna-v3-20261031-03-udareniya": {
-      "kind": "reel_frame",
-      "sourceKey": "dcd6d2e9c33e85aec06b088edadebae534861855e90f74567dcf0369aaec7ea3",
-      "renderedAt": "2026-10-30T22:45:12.530Z",
+      "kind": "reel_video",
+      "sourceKey": "3ef67e8e152dec3e055a13a158109694e073e22b3397023a694c37f62ce51b65",
+      "renderedAt": "2026-10-30T23:27:05.431Z",
       "publicationStatus": "export_only",
       "assets": [
         {
-          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/anna-v3-20261031-03-udareniya-frame.jpg",
-          "file": "anna-v3-20261031-03-udareniya-1.jpg",
-          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/anna-v3-20261031-03-udareniya-1.jpg",
+          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/anna-v3-20261031-03-udareniya.mp4",
+          "file": "anna-v3-20261031-03-udareniya-full.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/anna-v3-20261031-03-udareniya-full.mp4",
           "width": 1080,
           "height": 1920,
-          "sha256": "838ce648a9f7be6f3e9d075c6fe21ed3b8023b00607744eb09e4605fbf7fa10b",
+          "mediaType": "VIDEO",
+          "mimeType": "video/mp4",
+          "sha256": "7d8370e6eaa690a20f520e2e1c483effad30f353254d37155a78337cb6f24d17",
           "geometry": {
             "sourceWidth": 1080,
             "sourceHeight": 1920,
-            "x": 174.375,
-            "y": 360,
-            "width": 731.25,
-            "height": 1300,
             "outputWidth": 1080,
             "outputHeight": 1920,
-            "sourceSha256": "40068971399e8e527f0efa51bdb6c374de2fce364673435650fdc3fc84b719cf",
-            "sha256": "838ce648a9f7be6f3e9d075c6fe21ed3b8023b00607744eb09e4605fbf7fa10b"
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "scale": 1,
+            "sourceRect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 1920
+            },
+            "targetRect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 1920
+            },
+            "sourceSha256": "7d8370e6eaa690a20f520e2e1c483effad30f353254d37155a78337cb6f24d17",
+            "sha256": "7d8370e6eaa690a20f520e2e1c483effad30f353254d37155a78337cb6f24d17"
           }
         }
       ]
     },
     "anna-v3-20261031-04-chto-zapyataya": {
-      "kind": "reel_frame",
-      "sourceKey": "511b413a2007031faa2b15008d036350dd26f8beb680d7e4e9560fd328522f13",
-      "renderedAt": "2026-10-30T22:45:12.631Z",
+      "kind": "reel_video",
+      "sourceKey": "6d047dffd944051e6153e0378d020fdb7b9eb9876672018633cc2ab82a6e4c05",
+      "renderedAt": "2026-10-30T23:27:05.454Z",
       "publicationStatus": "export_only",
       "assets": [
         {
-          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/anna-v3-20261031-04-chto-zapyataya-frame.jpg",
-          "file": "anna-v3-20261031-04-chto-zapyataya-1.jpg",
-          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/anna-v3-20261031-04-chto-zapyataya-1.jpg",
+          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/anna-v3-20261031-04-chto-zapyataya.mp4",
+          "file": "anna-v3-20261031-04-chto-zapyataya-full.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/anna-v3-20261031-04-chto-zapyataya-full.mp4",
           "width": 1080,
           "height": 1920,
-          "sha256": "0b3847ce02ce0cb9571bb388c066ad7e997c92f7dc86017194e2fc271a0dd484",
+          "mediaType": "VIDEO",
+          "mimeType": "video/mp4",
+          "sha256": "cbe6459f3c436f6449c49da308ec02e09ce4a8c1001aa77893abc57d6c1d10ea",
           "geometry": {
             "sourceWidth": 1080,
             "sourceHeight": 1920,
-            "x": 174.375,
-            "y": 360,
-            "width": 731.25,
-            "height": 1300,
             "outputWidth": 1080,
             "outputHeight": 1920,
-            "sourceSha256": "cc4105cc6e348aae9f278e2c285c44dfbd857d2778ed6ce73c8961d111a9303e",
-            "sha256": "0b3847ce02ce0cb9571bb388c066ad7e997c92f7dc86017194e2fc271a0dd484"
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "scale": 1,
+            "sourceRect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 1920
+            },
+            "targetRect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 1920
+            },
+            "sourceSha256": "cbe6459f3c436f6449c49da308ec02e09ce4a8c1001aa77893abc57d6c1d10ea",
+            "sha256": "cbe6459f3c436f6449c49da308ec02e09ce4a8c1001aa77893abc57d6c1d10ea"
           }
         }
       ]
     },
     "anna-v3-20261031-05-po-priezde": {
-      "kind": "reel_frame",
-      "sourceKey": "884218092b8b1a926e391cfd1443c7444f94f0f004c802a5c3dd8f6adac35cf2",
-      "renderedAt": "2026-10-30T22:45:12.764Z",
+      "kind": "reel_video",
+      "sourceKey": "e56cf0bec25cb98d071705102b3e1054be7d3cbe280eb414bbd2d459793e157f",
+      "renderedAt": "2026-10-30T23:27:05.481Z",
       "publicationStatus": "export_only",
       "assets": [
         {
-          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/anna-v3-20261031-05-po-priezde-frame.jpg",
-          "file": "anna-v3-20261031-05-po-priezde-1.jpg",
-          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/anna-v3-20261031-05-po-priezde-1.jpg",
+          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/anna-v3-20261031-05-po-priezde.mp4",
+          "file": "anna-v3-20261031-05-po-priezde-full.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/anna-v3-20261031-05-po-priezde-full.mp4",
           "width": 1080,
           "height": 1920,
-          "sha256": "7f4104e97604dd96d0e7588a3376550a4a5a78c06fe8dcf08b6a43afebd53c68",
+          "mediaType": "VIDEO",
+          "mimeType": "video/mp4",
+          "sha256": "610b4a884ba056ba9229688e5e9061fea314b8b7b1b03604e1460d4e1881cd22",
           "geometry": {
             "sourceWidth": 1080,
             "sourceHeight": 1920,
-            "x": 174.375,
-            "y": 360,
-            "width": 731.25,
-            "height": 1300,
             "outputWidth": 1080,
             "outputHeight": 1920,
-            "sourceSha256": "a55f89e1fea47d77b321e669fdc20592549eb0592fe700450758752cd25cf280",
-            "sha256": "7f4104e97604dd96d0e7588a3376550a4a5a78c06fe8dcf08b6a43afebd53c68"
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "scale": 1,
+            "sourceRect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 1920
+            },
+            "targetRect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 1920
+            },
+            "sourceSha256": "610b4a884ba056ba9229688e5e9061fea314b8b7b1b03604e1460d4e1881cd22",
+            "sha256": "610b4a884ba056ba9229688e5e9061fea314b8b7b1b03604e1460d4e1881cd22"
           }
         }
       ]
     },
     "anna-v3-20261031-06-ne-glagol": {
-      "kind": "reel_frame",
-      "sourceKey": "79572a15e6fed7ce1b5edcced8d9f92305c9d5596ea44e60414e4e207ce555bd",
-      "renderedAt": "2026-10-30T22:45:12.898Z",
+      "kind": "reel_video",
+      "sourceKey": "594a94aad16c824ab891b0d5c20296175e03f195ccd580e6770841d7a11a3299",
+      "renderedAt": "2026-10-30T23:27:05.503Z",
       "publicationStatus": "export_only",
       "assets": [
         {
-          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/anna-v3-20261031-06-ne-glagol-frame.jpg",
-          "file": "anna-v3-20261031-06-ne-glagol-1.jpg",
-          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/anna-v3-20261031-06-ne-glagol-1.jpg",
+          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/anna-v3-20261031-06-ne-glagol.mp4",
+          "file": "anna-v3-20261031-06-ne-glagol-full.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/anna-v3-20261031-06-ne-glagol-full.mp4",
           "width": 1080,
           "height": 1920,
-          "sha256": "8ffb0fe81bb047e02a1a0795848ca031f47d417c18cec313c8a3283e72e09ef8",
+          "mediaType": "VIDEO",
+          "mimeType": "video/mp4",
+          "sha256": "fc791632e3bff5c57b2057eeec7cc234d25fe916ee310491ecec57de255dbca4",
           "geometry": {
             "sourceWidth": 1080,
             "sourceHeight": 1920,
-            "x": 174.375,
-            "y": 360,
-            "width": 731.25,
-            "height": 1300,
             "outputWidth": 1080,
             "outputHeight": 1920,
-            "sourceSha256": "285724660ad33f0c98bdd598c760743f3b52fd06f8e9311ea5dead3aa8fd81de",
-            "sha256": "8ffb0fe81bb047e02a1a0795848ca031f47d417c18cec313c8a3283e72e09ef8"
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "scale": 1,
+            "sourceRect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 1920
+            },
+            "targetRect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 1920
+            },
+            "sourceSha256": "fc791632e3bff5c57b2057eeec7cc234d25fe916ee310491ecec57de255dbca4",
+            "sha256": "fc791632e3bff5c57b2057eeec7cc234d25fe916ee310491ecec57de255dbca4"
           }
         }
       ]
     },
     "anna-v3-20261031-07-kommentariy-ege": {
-      "kind": "reel_frame",
-      "sourceKey": "a39285da2140ff3cc29b54ae1566f631d7415a0ec86dcefbaea7dcc1c532e0b0",
-      "renderedAt": "2026-10-30T22:45:13.034Z",
+      "kind": "reel_video",
+      "sourceKey": "6eb0e23c00e27d2be529e8258285d7a66042812cb765134723311e63f6531986",
+      "renderedAt": "2026-10-30T23:27:05.534Z",
       "publicationStatus": "export_only",
       "assets": [
         {
-          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/anna-v3-20261031-07-kommentariy-ege-frame.jpg",
-          "file": "anna-v3-20261031-07-kommentariy-ege-1.jpg",
-          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/anna-v3-20261031-07-kommentariy-ege-1.jpg",
+          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/anna-v3-20261031-07-kommentariy-ege.mp4",
+          "file": "anna-v3-20261031-07-kommentariy-ege-full.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/anna-v3-20261031-07-kommentariy-ege-full.mp4",
           "width": 1080,
           "height": 1920,
-          "sha256": "e7834f541354eeec8ed91c47531fe1d5e8696b5473386e3012622f411bc143fc",
+          "mediaType": "VIDEO",
+          "mimeType": "video/mp4",
+          "sha256": "646e5cb009d641685b2ca1f7fc6f36b903a8d5acbcf1e85ebe93b09a0aff4dc8",
           "geometry": {
             "sourceWidth": 1080,
             "sourceHeight": 1920,
-            "x": 174.375,
-            "y": 360,
-            "width": 731.25,
-            "height": 1300,
             "outputWidth": 1080,
             "outputHeight": 1920,
-            "sourceSha256": "462fb9bac0990a5bb1f5b159151d579133b5e02e04279b7aab5fd3e35e245e48",
-            "sha256": "e7834f541354eeec8ed91c47531fe1d5e8696b5473386e3012622f411bc143fc"
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "scale": 1,
+            "sourceRect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 1920
+            },
+            "targetRect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 1920
+            },
+            "sourceSha256": "646e5cb009d641685b2ca1f7fc6f36b903a8d5acbcf1e85ebe93b09a0aff4dc8",
+            "sha256": "646e5cb009d641685b2ca1f7fc6f36b903a8d5acbcf1e85ebe93b09a0aff4dc8"
           }
         }
       ]
     },
     "anna-v3-20261031-08-deeprichastie": {
-      "kind": "reel_frame",
-      "sourceKey": "a21ffa59a938725eba54cf7fd6842488ebf19d10b6e0249028e3e62b6e8c60ee",
-      "renderedAt": "2026-10-30T22:45:13.164Z",
+      "kind": "reel_video",
+      "sourceKey": "5f7bc694ab6b877c84180889b9f4cc35efd0ecf22c22858250f56b02c73a56de",
+      "renderedAt": "2026-10-30T23:27:05.558Z",
       "publicationStatus": "export_only",
       "assets": [
         {
-          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/anna-v3-20261031-08-deeprichastie-frame.jpg",
-          "file": "anna-v3-20261031-08-deeprichastie-1.jpg",
-          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/anna-v3-20261031-08-deeprichastie-1.jpg",
+          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/anna-v3-20261031-08-deeprichastie.mp4",
+          "file": "anna-v3-20261031-08-deeprichastie-full.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/anna-v3-20261031-08-deeprichastie-full.mp4",
           "width": 1080,
           "height": 1920,
-          "sha256": "2c1ef53100f292294b39060c82021d91af63ed36cbabc1e276144d2182b7a68f",
+          "mediaType": "VIDEO",
+          "mimeType": "video/mp4",
+          "sha256": "aedb524188158cf5698ea0983df3a1e21eec36ce6705e53d0811ecca8b517fe2",
           "geometry": {
             "sourceWidth": 1080,
             "sourceHeight": 1920,
-            "x": 174.375,
-            "y": 360,
-            "width": 731.25,
-            "height": 1300,
             "outputWidth": 1080,
             "outputHeight": 1920,
-            "sourceSha256": "47957a337483a2165091e5ed1525da1a7a31cc2e08dd8284510e70dd4cade7c3",
-            "sha256": "2c1ef53100f292294b39060c82021d91af63ed36cbabc1e276144d2182b7a68f"
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "scale": 1,
+            "sourceRect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 1920
+            },
+            "targetRect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 1920
+            },
+            "sourceSha256": "aedb524188158cf5698ea0983df3a1e21eec36ce6705e53d0811ecca8b517fe2",
+            "sha256": "aedb524188158cf5698ea0983df3a1e21eec36ce6705e53d0811ecca8b517fe2"
           }
         }
       ]
     },
     "anna-v3-20261031-09-omonimy": {
-      "kind": "reel_frame",
-      "sourceKey": "ac1d2dde2d085a0adf63dcb44f03e3c2edc80e0e6888c86a9f960bd23c0d4732",
-      "renderedAt": "2026-10-30T22:45:13.301Z",
+      "kind": "reel_video",
+      "sourceKey": "d26a4a750b3649b2504920d57bac3665406e1d5c2267ccb0a7c7c5ae71d334e9",
+      "renderedAt": "2026-10-30T23:27:05.595Z",
       "publicationStatus": "export_only",
       "assets": [
         {
-          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/anna-v3-20261031-09-omonimy-frame.jpg",
-          "file": "anna-v3-20261031-09-omonimy-1.jpg",
-          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/anna-v3-20261031-09-omonimy-1.jpg",
+          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/anna-v3-20261031-09-omonimy.mp4",
+          "file": "anna-v3-20261031-09-omonimy-full.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/anna-v3-20261031-09-omonimy-full.mp4",
           "width": 1080,
           "height": 1920,
-          "sha256": "7bcc680f847d666ecf07e01973b7d52f1fb6ac95544a95c5290c8aafadeee923",
+          "mediaType": "VIDEO",
+          "mimeType": "video/mp4",
+          "sha256": "3301e493b17671473d5537d2074bbd38ebc54662d28a5c3feed927a4c80f8e4f",
           "geometry": {
             "sourceWidth": 1080,
             "sourceHeight": 1920,
-            "x": 174.375,
-            "y": 360,
-            "width": 731.25,
-            "height": 1300,
             "outputWidth": 1080,
             "outputHeight": 1920,
-            "sourceSha256": "46edbd890ff3d470e3ec5e12a5b79d09fb00b81f3670b71da72dac02bc17e603",
-            "sha256": "7bcc680f847d666ecf07e01973b7d52f1fb6ac95544a95c5290c8aafadeee923"
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "scale": 1,
+            "sourceRect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 1920
+            },
+            "targetRect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 1920
+            },
+            "sourceSha256": "3301e493b17671473d5537d2074bbd38ebc54662d28a5c3feed927a4c80f8e4f",
+            "sha256": "3301e493b17671473d5537d2074bbd38ebc54662d28a5c3feed927a4c80f8e4f"
           }
         }
       ]
     },
     "anna-v3-20261031-10-odna-bukva": {
-      "kind": "reel_frame",
-      "sourceKey": "70fd02b8b5476ed98815aad6fd809bd3d8b93b1bdb39b55fac996d471cd9481e",
-      "renderedAt": "2026-10-30T22:45:13.435Z",
+      "kind": "reel_video",
+      "sourceKey": "6a8b5b69b1ee1a2efdda6a33fb0b6ee68756c58a6023d1e47b6dcac9d9de2b6b",
+      "renderedAt": "2026-10-30T23:27:05.615Z",
       "publicationStatus": "export_only",
       "assets": [
         {
-          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/anna-v3-20261031-10-odna-bukva-frame.jpg",
-          "file": "anna-v3-20261031-10-odna-bukva-1.jpg",
-          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/anna-v3-20261031-10-odna-bukva-1.jpg",
+          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/anna-v3-20261031-10-odna-bukva.mp4",
+          "file": "anna-v3-20261031-10-odna-bukva-full.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/anna-v3-20261031-10-odna-bukva-full.mp4",
           "width": 1080,
           "height": 1920,
-          "sha256": "42f8af55d7e2fbbf5ad0c63c91077a960dc10bad2feb69d95ff3f95df49a4305",
+          "mediaType": "VIDEO",
+          "mimeType": "video/mp4",
+          "sha256": "af6539ab266eefc4a60b28c86f0e597d1f42e217eff5a50d9be74b96f9f207d9",
           "geometry": {
             "sourceWidth": 1080,
             "sourceHeight": 1920,
-            "x": 174.375,
-            "y": 360,
-            "width": 731.25,
-            "height": 1300,
             "outputWidth": 1080,
             "outputHeight": 1920,
-            "sourceSha256": "4163ffe396812902fe16d5cdf53597f736ec3cfc62bf0495894f13f74c9fea41",
-            "sha256": "42f8af55d7e2fbbf5ad0c63c91077a960dc10bad2feb69d95ff3f95df49a4305"
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "scale": 1,
+            "sourceRect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 1920
+            },
+            "targetRect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 1920
+            },
+            "sourceSha256": "af6539ab266eefc4a60b28c86f0e597d1f42e217eff5a50d9be74b96f9f207d9",
+            "sha256": "af6539ab266eefc4a60b28c86f0e597d1f42e217eff5a50d9be74b96f9f207d9"
           }
         }
       ]
     },
     "anna-v3-20261031-12-skuchayu": {
-      "kind": "reel_frame",
-      "sourceKey": "45edcd60e9224d0acbb5bfb15fb42abf7844e1608c5269ac5dce6714dcbaae09",
-      "renderedAt": "2026-10-30T22:45:13.684Z",
+      "kind": "reel_video",
+      "sourceKey": "441e4d28f4d7986b27122a2b8398d751be193b2af507008624b5dae5b18cf814",
+      "renderedAt": "2026-10-30T23:27:05.634Z",
       "publicationStatus": "export_only",
       "assets": [
         {
-          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/anna-v3-20261031-12-skuchayu-frame.jpg",
-          "file": "anna-v3-20261031-12-skuchayu-1.jpg",
-          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/anna-v3-20261031-12-skuchayu-1.jpg",
+          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/anna-v3-20261031-12-skuchayu.mp4",
+          "file": "anna-v3-20261031-12-skuchayu-full.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/anna-v3-20261031-12-skuchayu-full.mp4",
           "width": 1080,
           "height": 1920,
-          "sha256": "d8f174d7d474d12e28b5628db94a08501d69d8f8a18c908b3c6d69fd57c1e3c0",
+          "mediaType": "VIDEO",
+          "mimeType": "video/mp4",
+          "sha256": "768b533f8de4d4a5dee2fb1f3eac43f19dc30850375463426405486689bdd1b3",
           "geometry": {
             "sourceWidth": 1080,
             "sourceHeight": 1920,
-            "x": 174.375,
-            "y": 360,
-            "width": 731.25,
-            "height": 1300,
             "outputWidth": 1080,
             "outputHeight": 1920,
-            "sourceSha256": "b5c17d49d1ad66563f6c2ebf3e0e42f698b0421230bd351c93cbf4dba8d6eae9",
-            "sha256": "d8f174d7d474d12e28b5628db94a08501d69d8f8a18c908b3c6d69fd57c1e3c0"
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "scale": 1,
+            "sourceRect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 1920
+            },
+            "targetRect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 1920
+            },
+            "sourceSha256": "768b533f8de4d4a5dee2fb1f3eac43f19dc30850375463426405486689bdd1b3",
+            "sha256": "768b533f8de4d4a5dee2fb1f3eac43f19dc30850375463426405486689bdd1b3"
           }
         }
       ]
     },
     "anna-v3-20261031-13-lyag": {
-      "kind": "reel_frame",
-      "sourceKey": "b1f4b66d27a3f441f24241cbefc1d9ada54ee0015602dca846b106191cddd7d4",
-      "renderedAt": "2026-10-30T22:45:13.970Z",
+      "kind": "reel_video",
+      "sourceKey": "91bc8595df8db12bc09e134602c8b6fc0840eca5c01e57fac5cc9c72c0eec231",
+      "renderedAt": "2026-10-30T23:27:05.654Z",
       "publicationStatus": "export_only",
       "assets": [
         {
-          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/anna-v3-20261031-13-lyag-frame.jpg",
-          "file": "anna-v3-20261031-13-lyag-1.jpg",
-          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/anna-v3-20261031-13-lyag-1.jpg",
+          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/anna-v3-20261031-13-lyag.mp4",
+          "file": "anna-v3-20261031-13-lyag-full.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/anna-v3-20261031-13-lyag-full.mp4",
           "width": 1080,
           "height": 1920,
-          "sha256": "d08baa4bc767d82e8b9f737ef714fd57f32ffdde4cc83f5a09d213d77d0a42c2",
+          "mediaType": "VIDEO",
+          "mimeType": "video/mp4",
+          "sha256": "0bdbf9e8cac11f3ff876c727dc7d2068fb584c1c55a01b810541df9ebd15883d",
           "geometry": {
             "sourceWidth": 1080,
             "sourceHeight": 1920,
-            "x": 174.375,
-            "y": 360,
-            "width": 731.25,
-            "height": 1300,
             "outputWidth": 1080,
             "outputHeight": 1920,
-            "sourceSha256": "c2111e81c057289c5684649e064b9884d46ff8584b82114651535c81afeaf078",
-            "sha256": "d08baa4bc767d82e8b9f737ef714fd57f32ffdde4cc83f5a09d213d77d0a42c2"
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "scale": 1,
+            "sourceRect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 1920
+            },
+            "targetRect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 1920
+            },
+            "sourceSha256": "0bdbf9e8cac11f3ff876c727dc7d2068fb584c1c55a01b810541df9ebd15883d",
+            "sha256": "0bdbf9e8cac11f3ff876c727dc7d2068fb584c1c55a01b810541df9ebd15883d"
           }
         }
       ]
     },
     "anna-v3-20261031-14-vetrenyy": {
-      "kind": "reel_frame",
-      "sourceKey": "052e9cbf2b1ca28acd79475f7bcf13ded5dd3380c7b55683c89f5591f4d80db6",
-      "renderedAt": "2026-10-30T22:45:14.231Z",
+      "kind": "reel_video",
+      "sourceKey": "c160267cfe30c900eb753fad665badc915e5caa9d253f458d6d267139e3eb83a",
+      "renderedAt": "2026-10-30T23:27:05.681Z",
       "publicationStatus": "export_only",
       "assets": [
         {
-          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/anna-v3-20261031-14-vetrenyy-frame.jpg",
-          "file": "anna-v3-20261031-14-vetrenyy-1.jpg",
-          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/anna-v3-20261031-14-vetrenyy-1.jpg",
+          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/anna-v3-20261031-14-vetrenyy.mp4",
+          "file": "anna-v3-20261031-14-vetrenyy-full.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/anna-v3-20261031-14-vetrenyy-full.mp4",
           "width": 1080,
           "height": 1920,
-          "sha256": "9c53a20f2aec859189fb8895f3c8483e271f9f3fe45aa149d076ea05424b14d2",
+          "mediaType": "VIDEO",
+          "mimeType": "video/mp4",
+          "sha256": "b4addda35387a27324d4e4acfaa288971023e4633d4c76bb8c50607429de439f",
           "geometry": {
             "sourceWidth": 1080,
             "sourceHeight": 1920,
-            "x": 174.375,
-            "y": 360,
-            "width": 731.25,
-            "height": 1300,
             "outputWidth": 1080,
             "outputHeight": 1920,
-            "sourceSha256": "24cf52e51249dfd2f07b0844a31f9c7f9737f1379ddea530ef738fae50b7835a",
-            "sha256": "9c53a20f2aec859189fb8895f3c8483e271f9f3fe45aa149d076ea05424b14d2"
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "scale": 1,
+            "sourceRect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 1920
+            },
+            "targetRect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 1920
+            },
+            "sourceSha256": "b4addda35387a27324d4e4acfaa288971023e4633d4c76bb8c50607429de439f",
+            "sha256": "b4addda35387a27324d4e4acfaa288971023e4633d4c76bb8c50607429de439f"
           }
         }
       ]
     },
     "anna-v3-20261031-15-kofe": {
-      "kind": "reel_frame",
-      "sourceKey": "6bc93e200fcb5295be2883a6994085276ba6bfea36885a6a72fde457091632d2",
-      "renderedAt": "2026-10-30T22:45:14.424Z",
+      "kind": "reel_video",
+      "sourceKey": "53d7814ce0055e808b2cfbb042afbf2e8c7883810e163f4fd345ca332403dcff",
+      "renderedAt": "2026-10-30T23:27:05.882Z",
       "publicationStatus": "export_only",
       "assets": [
         {
-          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/anna-v3-20261031-15-kofe-frame.jpg",
-          "file": "anna-v3-20261031-15-kofe-1.jpg",
-          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/anna-v3-20261031-15-kofe-1.jpg",
+          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/anna-v3-20261031-15-kofe.mp4",
+          "file": "anna-v3-20261031-15-kofe-full.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/anna-v3-20261031-15-kofe-full.mp4",
           "width": 1080,
           "height": 1920,
-          "sha256": "622909968ab75943818201aefe24f3cb65892f0ef21807a9e731ccf75969c1e4",
+          "mediaType": "VIDEO",
+          "mimeType": "video/mp4",
+          "sha256": "de458281cb8627cdf94b247993f59f8232c8e020491576e2077427ea24d76826",
           "geometry": {
             "sourceWidth": 1080,
             "sourceHeight": 1920,
-            "x": 174.375,
-            "y": 360,
-            "width": 731.25,
-            "height": 1300,
             "outputWidth": 1080,
             "outputHeight": 1920,
-            "sourceSha256": "19c636852abc58c5c50bbfee731d5cd59378c48e6499701216e0f58c0652c1fd",
-            "sha256": "622909968ab75943818201aefe24f3cb65892f0ef21807a9e731ccf75969c1e4"
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "scale": 1,
+            "sourceRect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 1920
+            },
+            "targetRect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 1920
+            },
+            "sourceSha256": "de458281cb8627cdf94b247993f59f8232c8e020491576e2077427ea24d76826",
+            "sha256": "de458281cb8627cdf94b247993f59f8232c8e020491576e2077427ea24d76826"
           }
         }
       ]
     },
     "anna-v3-20261031-16-oblegchit": {
-      "kind": "reel_frame",
-      "sourceKey": "2671b16684844ef056a3bf3bb292f12f4bb7690a626f2285c47ed6e73dee1fae",
-      "renderedAt": "2026-10-30T22:45:14.631Z",
+      "kind": "reel_video",
+      "sourceKey": "518b99cfe4b24ea23e174353b4ca5cb9e11bc6bb61eaa3bf616319cf46144dc8",
+      "renderedAt": "2026-10-30T23:27:06.005Z",
       "publicationStatus": "export_only",
       "assets": [
         {
-          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/anna-v3-20261031-16-oblegchit-frame.jpg",
-          "file": "anna-v3-20261031-16-oblegchit-1.jpg",
-          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/anna-v3-20261031-16-oblegchit-1.jpg",
+          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/anna-v3-20261031-16-oblegchit.mp4",
+          "file": "anna-v3-20261031-16-oblegchit-full.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/anna-v3-20261031-16-oblegchit-full.mp4",
           "width": 1080,
           "height": 1920,
-          "sha256": "ae26cff609f5923f96bab6b14be97fcc3579209f392fab00ad1b921e57242526",
+          "mediaType": "VIDEO",
+          "mimeType": "video/mp4",
+          "sha256": "1aae78f49ea6d2b8b69ce7c37746453cb2411412f0d61109f1e65bbb67aec05a",
           "geometry": {
             "sourceWidth": 1080,
             "sourceHeight": 1920,
-            "x": 174.375,
-            "y": 360,
-            "width": 731.25,
-            "height": 1300,
             "outputWidth": 1080,
             "outputHeight": 1920,
-            "sourceSha256": "b5706d1c9505a8e2b6eb47b23b8226a7c226e679d03fc30d11b5aee8288d86cf",
-            "sha256": "ae26cff609f5923f96bab6b14be97fcc3579209f392fab00ad1b921e57242526"
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "scale": 1,
+            "sourceRect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 1920
+            },
+            "targetRect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 1920
+            },
+            "sourceSha256": "1aae78f49ea6d2b8b69ce7c37746453cb2411412f0d61109f1e65bbb67aec05a",
+            "sha256": "1aae78f49ea6d2b8b69ce7c37746453cb2411412f0d61109f1e65bbb67aec05a"
           }
         }
       ]
