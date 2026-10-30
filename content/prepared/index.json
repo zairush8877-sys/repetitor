@@ -2102,6 +2102,591 @@
           "sha256": "349e934ad5c84e3b2979bd0a100dd13304ee2ceb07b7e7477eeecf01ab37405d"
         }
       ]
+    },
+    "anna-v3-20261031-01-nn-okno": {
+      "version": 1,
+      "draftKey": "fe2ffbb1df38c7a643133795ac866ce8d1259f33126e86309c02715efca538f2",
+      "builtAt": "2026-10-30T22:45:12.282Z",
+      "media": {
+        "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/anna-v3-20261031-01-nn-okno.mp4",
+        "imageUrls": [
+          "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/anna-v3-20261031-01-nn-okno-cover.jpg"
+        ],
+        "coverUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/anna-v3-20261031-01-nn-okno-cover.jpg",
+        "coverOffsetMs": 0,
+        "music": {
+          "composer": "Kevin MacLeod",
+          "piece": "Easy Lemon",
+          "attributionRequired": true,
+          "attribution": "Музыка: Easy Lemon — Kevin MacLeod (incompetech.com), CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/. Источник: https://incompetech.com/music/royalty-free/index.html?Search=Search&isrc=USUAN1200076. Фрагмент обрезан, эквализирован и приглушён под голосом."
+        }
+      },
+      "files": [
+        {
+          "relative": "reels/anna-v3-20261031-01-nn-okno.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/anna-v3-20261031-01-nn-okno.mp4",
+          "size": 20848806,
+          "sha256": "1bf697527603204af6f35a4ac74c86e9a0943ade30ad3d28d7f271ba3df88a0c"
+        },
+        {
+          "relative": "images/anna-v3-20261031-01-nn-okno-cover.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/anna-v3-20261031-01-nn-okno-cover.jpg",
+          "size": 381296,
+          "sha256": "bdc815338deda22bf57a7c837bdf7dd7f5e1bdf82e93447c700619283ba5a9ca"
+        },
+        {
+          "relative": "reels/anna-v3-20261031-01-nn-okno-frame.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/anna-v3-20261031-01-nn-okno-frame.jpg",
+          "size": 381296,
+          "sha256": "bdc815338deda22bf57a7c837bdf7dd7f5e1bdf82e93447c700619283ba5a9ca"
+        }
+      ]
+    },
+    "anna-v3-20261031-02-tsya": {
+      "version": 1,
+      "draftKey": "3293fd51b0ba05b2d6f12f9bd37de08cf23ca0c0a2b92aa855eeb96b944d3e6a",
+      "builtAt": "2026-10-30T22:45:12.398Z",
+      "media": {
+        "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/anna-v3-20261031-02-tsya.mp4",
+        "imageUrls": [
+          "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/anna-v3-20261031-02-tsya-cover.jpg"
+        ],
+        "coverUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/anna-v3-20261031-02-tsya-cover.jpg",
+        "coverOffsetMs": 0,
+        "music": {
+          "composer": "Kevin MacLeod",
+          "piece": "Easy Lemon",
+          "attributionRequired": true,
+          "attribution": "Музыка: Easy Lemon — Kevin MacLeod (incompetech.com), CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/. Источник: https://incompetech.com/music/royalty-free/index.html?Search=Search&isrc=USUAN1200076. Фрагмент обрезан, эквализирован и приглушён под голосом."
+        }
+      },
+      "files": [
+        {
+          "relative": "reels/anna-v3-20261031-02-tsya.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/anna-v3-20261031-02-tsya.mp4",
+          "size": 16150306,
+          "sha256": "f0fe3fafe08fd2f1477b6d9e0153152b77f272698ded835e991c1a598ff5fcf3"
+        },
+        {
+          "relative": "images/anna-v3-20261031-02-tsya-cover.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/anna-v3-20261031-02-tsya-cover.jpg",
+          "size": 416934,
+          "sha256": "38ebe043f00c1213b65d86d0fedd891f8b9b3c4ece3a95d12cf234de7c28b26b"
+        },
+        {
+          "relative": "reels/anna-v3-20261031-02-tsya-frame.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/anna-v3-20261031-02-tsya-frame.jpg",
+          "size": 416934,
+          "sha256": "38ebe043f00c1213b65d86d0fedd891f8b9b3c4ece3a95d12cf234de7c28b26b"
+        }
+      ]
+    },
+    "anna-v3-20261031-03-udareniya": {
+      "version": 1,
+      "draftKey": "0552b3aa146d943fdb06cca4365a6a7fe6827ec6df0b6312548de167c87c76d2",
+      "builtAt": "2026-10-30T22:45:12.530Z",
+      "media": {
+        "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/anna-v3-20261031-03-udareniya.mp4",
+        "imageUrls": [
+          "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/anna-v3-20261031-03-udareniya-cover.jpg"
+        ],
+        "coverUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/anna-v3-20261031-03-udareniya-cover.jpg",
+        "coverOffsetMs": 0,
+        "music": {
+          "composer": "Kevin MacLeod",
+          "piece": "Easy Lemon",
+          "attributionRequired": true,
+          "attribution": "Музыка: Easy Lemon — Kevin MacLeod (incompetech.com), CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/. Источник: https://incompetech.com/music/royalty-free/index.html?Search=Search&isrc=USUAN1200076. Фрагмент обрезан, эквализирован и приглушён под голосом."
+        }
+      },
+      "files": [
+        {
+          "relative": "reels/anna-v3-20261031-03-udareniya.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/anna-v3-20261031-03-udareniya.mp4",
+          "size": 20309495,
+          "sha256": "7d8370e6eaa690a20f520e2e1c483effad30f353254d37155a78337cb6f24d17"
+        },
+        {
+          "relative": "images/anna-v3-20261031-03-udareniya-cover.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/anna-v3-20261031-03-udareniya-cover.jpg",
+          "size": 367642,
+          "sha256": "40068971399e8e527f0efa51bdb6c374de2fce364673435650fdc3fc84b719cf"
+        },
+        {
+          "relative": "reels/anna-v3-20261031-03-udareniya-frame.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/anna-v3-20261031-03-udareniya-frame.jpg",
+          "size": 367642,
+          "sha256": "40068971399e8e527f0efa51bdb6c374de2fce364673435650fdc3fc84b719cf"
+        }
+      ]
+    },
+    "anna-v3-20261031-04-chto-zapyataya": {
+      "version": 1,
+      "draftKey": "396560cf4c17cc39ba87d3b806939d7d715259638f49ba825a1091bc72917a5a",
+      "builtAt": "2026-10-30T22:45:12.631Z",
+      "media": {
+        "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/anna-v3-20261031-04-chto-zapyataya.mp4",
+        "imageUrls": [
+          "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/anna-v3-20261031-04-chto-zapyataya-cover.jpg"
+        ],
+        "coverUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/anna-v3-20261031-04-chto-zapyataya-cover.jpg",
+        "coverOffsetMs": 0,
+        "music": {
+          "composer": "Kevin MacLeod",
+          "piece": "Easy Lemon",
+          "attributionRequired": true,
+          "attribution": "Музыка: Easy Lemon — Kevin MacLeod (incompetech.com), CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/. Источник: https://incompetech.com/music/royalty-free/index.html?Search=Search&isrc=USUAN1200076. Фрагмент обрезан, эквализирован и приглушён под голосом."
+        }
+      },
+      "files": [
+        {
+          "relative": "reels/anna-v3-20261031-04-chto-zapyataya.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/anna-v3-20261031-04-chto-zapyataya.mp4",
+          "size": 19036822,
+          "sha256": "cbe6459f3c436f6449c49da308ec02e09ce4a8c1001aa77893abc57d6c1d10ea"
+        },
+        {
+          "relative": "images/anna-v3-20261031-04-chto-zapyataya-cover.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/anna-v3-20261031-04-chto-zapyataya-cover.jpg",
+          "size": 412894,
+          "sha256": "cc4105cc6e348aae9f278e2c285c44dfbd857d2778ed6ce73c8961d111a9303e"
+        },
+        {
+          "relative": "reels/anna-v3-20261031-04-chto-zapyataya-frame.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/anna-v3-20261031-04-chto-zapyataya-frame.jpg",
+          "size": 412894,
+          "sha256": "cc4105cc6e348aae9f278e2c285c44dfbd857d2778ed6ce73c8961d111a9303e"
+        }
+      ]
+    },
+    "anna-v3-20261031-05-po-priezde": {
+      "version": 1,
+      "draftKey": "b33bb123bf28f279917ec5da977024ca07b12866e8374f4d8fe205aae002727f",
+      "builtAt": "2026-10-30T22:45:12.764Z",
+      "media": {
+        "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/anna-v3-20261031-05-po-priezde.mp4",
+        "imageUrls": [
+          "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/anna-v3-20261031-05-po-priezde-cover.jpg"
+        ],
+        "coverUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/anna-v3-20261031-05-po-priezde-cover.jpg",
+        "coverOffsetMs": 0,
+        "music": {
+          "composer": "Kevin MacLeod",
+          "piece": "Easy Lemon",
+          "attributionRequired": true,
+          "attribution": "Музыка: Easy Lemon — Kevin MacLeod (incompetech.com), CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/. Источник: https://incompetech.com/music/royalty-free/index.html?Search=Search&isrc=USUAN1200076. Фрагмент обрезан, эквализирован и приглушён под голосом."
+        }
+      },
+      "files": [
+        {
+          "relative": "reels/anna-v3-20261031-05-po-priezde.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/anna-v3-20261031-05-po-priezde.mp4",
+          "size": 21115590,
+          "sha256": "610b4a884ba056ba9229688e5e9061fea314b8b7b1b03604e1460d4e1881cd22"
+        },
+        {
+          "relative": "images/anna-v3-20261031-05-po-priezde-cover.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/anna-v3-20261031-05-po-priezde-cover.jpg",
+          "size": 417593,
+          "sha256": "a55f89e1fea47d77b321e669fdc20592549eb0592fe700450758752cd25cf280"
+        },
+        {
+          "relative": "reels/anna-v3-20261031-05-po-priezde-frame.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/anna-v3-20261031-05-po-priezde-frame.jpg",
+          "size": 417593,
+          "sha256": "a55f89e1fea47d77b321e669fdc20592549eb0592fe700450758752cd25cf280"
+        }
+      ]
+    },
+    "anna-v3-20261031-06-ne-glagol": {
+      "version": 1,
+      "draftKey": "bd7981b4f9a12ce80ac3129b8136f1c826ce9611f103a3ac7442baf18f108af8",
+      "builtAt": "2026-10-30T22:45:12.898Z",
+      "media": {
+        "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/anna-v3-20261031-06-ne-glagol.mp4",
+        "imageUrls": [
+          "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/anna-v3-20261031-06-ne-glagol-cover.jpg"
+        ],
+        "coverUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/anna-v3-20261031-06-ne-glagol-cover.jpg",
+        "coverOffsetMs": 0,
+        "music": {
+          "composer": "Kevin MacLeod",
+          "piece": "Easy Lemon",
+          "attributionRequired": true,
+          "attribution": "Музыка: Easy Lemon — Kevin MacLeod (incompetech.com), CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/. Источник: https://incompetech.com/music/royalty-free/index.html?Search=Search&isrc=USUAN1200076. Фрагмент обрезан, эквализирован и приглушён под голосом."
+        }
+      },
+      "files": [
+        {
+          "relative": "reels/anna-v3-20261031-06-ne-glagol.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/anna-v3-20261031-06-ne-glagol.mp4",
+          "size": 17649078,
+          "sha256": "fc791632e3bff5c57b2057eeec7cc234d25fe916ee310491ecec57de255dbca4"
+        },
+        {
+          "relative": "images/anna-v3-20261031-06-ne-glagol-cover.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/anna-v3-20261031-06-ne-glagol-cover.jpg",
+          "size": 409973,
+          "sha256": "285724660ad33f0c98bdd598c760743f3b52fd06f8e9311ea5dead3aa8fd81de"
+        },
+        {
+          "relative": "reels/anna-v3-20261031-06-ne-glagol-frame.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/anna-v3-20261031-06-ne-glagol-frame.jpg",
+          "size": 409973,
+          "sha256": "285724660ad33f0c98bdd598c760743f3b52fd06f8e9311ea5dead3aa8fd81de"
+        }
+      ]
+    },
+    "anna-v3-20261031-07-kommentariy-ege": {
+      "version": 1,
+      "draftKey": "2168a113c69cb2e5af803e5aa793e0fa1d867b020ef33ee33132da5259cc8e47",
+      "builtAt": "2026-10-30T22:45:13.034Z",
+      "media": {
+        "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/anna-v3-20261031-07-kommentariy-ege.mp4",
+        "imageUrls": [
+          "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/anna-v3-20261031-07-kommentariy-ege-cover.jpg"
+        ],
+        "coverUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/anna-v3-20261031-07-kommentariy-ege-cover.jpg",
+        "coverOffsetMs": 0,
+        "music": {
+          "composer": "Kevin MacLeod",
+          "piece": "Easy Lemon",
+          "attributionRequired": true,
+          "attribution": "Музыка: Easy Lemon — Kevin MacLeod (incompetech.com), CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/. Источник: https://incompetech.com/music/royalty-free/index.html?Search=Search&isrc=USUAN1200076. Фрагмент обрезан, эквализирован и приглушён под голосом."
+        }
+      },
+      "files": [
+        {
+          "relative": "reels/anna-v3-20261031-07-kommentariy-ege.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/anna-v3-20261031-07-kommentariy-ege.mp4",
+          "size": 25123019,
+          "sha256": "646e5cb009d641685b2ca1f7fc6f36b903a8d5acbcf1e85ebe93b09a0aff4dc8"
+        },
+        {
+          "relative": "images/anna-v3-20261031-07-kommentariy-ege-cover.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/anna-v3-20261031-07-kommentariy-ege-cover.jpg",
+          "size": 389265,
+          "sha256": "462fb9bac0990a5bb1f5b159151d579133b5e02e04279b7aab5fd3e35e245e48"
+        },
+        {
+          "relative": "reels/anna-v3-20261031-07-kommentariy-ege-frame.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/anna-v3-20261031-07-kommentariy-ege-frame.jpg",
+          "size": 389265,
+          "sha256": "462fb9bac0990a5bb1f5b159151d579133b5e02e04279b7aab5fd3e35e245e48"
+        }
+      ]
+    },
+    "anna-v3-20261031-08-deeprichastie": {
+      "version": 1,
+      "draftKey": "01c5960ce0b981e55dabb7cadd3cd129f311928fc80cf8c439123ff28ea10cd4",
+      "builtAt": "2026-10-30T22:45:13.164Z",
+      "media": {
+        "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/anna-v3-20261031-08-deeprichastie.mp4",
+        "imageUrls": [
+          "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/anna-v3-20261031-08-deeprichastie-cover.jpg"
+        ],
+        "coverUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/anna-v3-20261031-08-deeprichastie-cover.jpg",
+        "coverOffsetMs": 0,
+        "music": {
+          "composer": "Kevin MacLeod",
+          "piece": "Easy Lemon",
+          "attributionRequired": true,
+          "attribution": "Музыка: Easy Lemon — Kevin MacLeod (incompetech.com), CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/. Источник: https://incompetech.com/music/royalty-free/index.html?Search=Search&isrc=USUAN1200076. Фрагмент обрезан, эквализирован и приглушён под голосом."
+        }
+      },
+      "files": [
+        {
+          "relative": "reels/anna-v3-20261031-08-deeprichastie.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/anna-v3-20261031-08-deeprichastie.mp4",
+          "size": 18894312,
+          "sha256": "aedb524188158cf5698ea0983df3a1e21eec36ce6705e53d0811ecca8b517fe2"
+        },
+        {
+          "relative": "images/anna-v3-20261031-08-deeprichastie-cover.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/anna-v3-20261031-08-deeprichastie-cover.jpg",
+          "size": 423210,
+          "sha256": "47957a337483a2165091e5ed1525da1a7a31cc2e08dd8284510e70dd4cade7c3"
+        },
+        {
+          "relative": "reels/anna-v3-20261031-08-deeprichastie-frame.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/anna-v3-20261031-08-deeprichastie-frame.jpg",
+          "size": 423210,
+          "sha256": "47957a337483a2165091e5ed1525da1a7a31cc2e08dd8284510e70dd4cade7c3"
+        }
+      ]
+    },
+    "anna-v3-20261031-09-omonimy": {
+      "version": 1,
+      "draftKey": "57490daf628c63334493d268c77f8a8c4b0911b2ef9d9def6f7185c200821a7a",
+      "builtAt": "2026-10-30T22:45:13.301Z",
+      "media": {
+        "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/anna-v3-20261031-09-omonimy.mp4",
+        "imageUrls": [
+          "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/anna-v3-20261031-09-omonimy-cover.jpg"
+        ],
+        "coverUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/anna-v3-20261031-09-omonimy-cover.jpg",
+        "coverOffsetMs": 0,
+        "music": {
+          "composer": "Kevin MacLeod",
+          "piece": "Easy Lemon",
+          "attributionRequired": true,
+          "attribution": "Музыка: Easy Lemon — Kevin MacLeod (incompetech.com), CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/. Источник: https://incompetech.com/music/royalty-free/index.html?Search=Search&isrc=USUAN1200076. Фрагмент обрезан, эквализирован и приглушён под голосом."
+        }
+      },
+      "files": [
+        {
+          "relative": "reels/anna-v3-20261031-09-omonimy.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/anna-v3-20261031-09-omonimy.mp4",
+          "size": 24021449,
+          "sha256": "3301e493b17671473d5537d2074bbd38ebc54662d28a5c3feed927a4c80f8e4f"
+        },
+        {
+          "relative": "images/anna-v3-20261031-09-omonimy-cover.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/anna-v3-20261031-09-omonimy-cover.jpg",
+          "size": 340384,
+          "sha256": "46edbd890ff3d470e3ec5e12a5b79d09fb00b81f3670b71da72dac02bc17e603"
+        },
+        {
+          "relative": "reels/anna-v3-20261031-09-omonimy-frame.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/anna-v3-20261031-09-omonimy-frame.jpg",
+          "size": 340384,
+          "sha256": "46edbd890ff3d470e3ec5e12a5b79d09fb00b81f3670b71da72dac02bc17e603"
+        }
+      ]
+    },
+    "anna-v3-20261031-10-odna-bukva": {
+      "version": 1,
+      "draftKey": "5be1514178290a7a59321e3f2a9d03e6e1ddee7908ba2bb71a0c7783eff9ed69",
+      "builtAt": "2026-10-30T22:45:13.435Z",
+      "media": {
+        "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/anna-v3-20261031-10-odna-bukva.mp4",
+        "imageUrls": [
+          "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/anna-v3-20261031-10-odna-bukva-cover.jpg"
+        ],
+        "coverUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/anna-v3-20261031-10-odna-bukva-cover.jpg",
+        "coverOffsetMs": 0,
+        "music": {
+          "composer": "Kevin MacLeod",
+          "piece": "Easy Lemon",
+          "attributionRequired": true,
+          "attribution": "Музыка: Easy Lemon — Kevin MacLeod (incompetech.com), CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/. Источник: https://incompetech.com/music/royalty-free/index.html?Search=Search&isrc=USUAN1200076. Фрагмент обрезан, эквализирован и приглушён под голосом."
+        }
+      },
+      "files": [
+        {
+          "relative": "reels/anna-v3-20261031-10-odna-bukva.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/anna-v3-20261031-10-odna-bukva.mp4",
+          "size": 16351792,
+          "sha256": "af6539ab266eefc4a60b28c86f0e597d1f42e217eff5a50d9be74b96f9f207d9"
+        },
+        {
+          "relative": "images/anna-v3-20261031-10-odna-bukva-cover.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/anna-v3-20261031-10-odna-bukva-cover.jpg",
+          "size": 345855,
+          "sha256": "4163ffe396812902fe16d5cdf53597f736ec3cfc62bf0495894f13f74c9fea41"
+        },
+        {
+          "relative": "reels/anna-v3-20261031-10-odna-bukva-frame.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/anna-v3-20261031-10-odna-bukva-frame.jpg",
+          "size": 345855,
+          "sha256": "4163ffe396812902fe16d5cdf53597f736ec3cfc62bf0495894f13f74c9fea41"
+        }
+      ]
+    },
+    "anna-v3-20261031-12-skuchayu": {
+      "version": 1,
+      "draftKey": "0c63df199167621941d837110185b0acb97b484c85826777e332519ec93b9c14",
+      "builtAt": "2026-10-30T22:45:13.687Z",
+      "media": {
+        "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/anna-v3-20261031-12-skuchayu.mp4",
+        "imageUrls": [
+          "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/anna-v3-20261031-12-skuchayu-cover.jpg"
+        ],
+        "coverUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/anna-v3-20261031-12-skuchayu-cover.jpg",
+        "coverOffsetMs": 0,
+        "music": {
+          "composer": "Kevin MacLeod",
+          "piece": "Easy Lemon",
+          "attributionRequired": true,
+          "attribution": "Музыка: Easy Lemon — Kevin MacLeod (incompetech.com), CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/. Источник: https://incompetech.com/music/royalty-free/index.html?Search=Search&isrc=USUAN1200076. Фрагмент обрезан, эквализирован и приглушён под голосом."
+        }
+      },
+      "files": [
+        {
+          "relative": "reels/anna-v3-20261031-12-skuchayu.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/anna-v3-20261031-12-skuchayu.mp4",
+          "size": 14211988,
+          "sha256": "768b533f8de4d4a5dee2fb1f3eac43f19dc30850375463426405486689bdd1b3"
+        },
+        {
+          "relative": "images/anna-v3-20261031-12-skuchayu-cover.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/anna-v3-20261031-12-skuchayu-cover.jpg",
+          "size": 391610,
+          "sha256": "b5c17d49d1ad66563f6c2ebf3e0e42f698b0421230bd351c93cbf4dba8d6eae9"
+        },
+        {
+          "relative": "reels/anna-v3-20261031-12-skuchayu-frame.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/anna-v3-20261031-12-skuchayu-frame.jpg",
+          "size": 391610,
+          "sha256": "b5c17d49d1ad66563f6c2ebf3e0e42f698b0421230bd351c93cbf4dba8d6eae9"
+        }
+      ]
+    },
+    "anna-v3-20261031-13-lyag": {
+      "version": 1,
+      "draftKey": "aabb74030c9e3b928a099f9756137385ae4d24c115b183185b00fc2837ce1248",
+      "builtAt": "2026-10-30T22:45:13.970Z",
+      "media": {
+        "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/anna-v3-20261031-13-lyag.mp4",
+        "imageUrls": [
+          "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/anna-v3-20261031-13-lyag-cover.jpg"
+        ],
+        "coverUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/anna-v3-20261031-13-lyag-cover.jpg",
+        "coverOffsetMs": 0,
+        "music": {
+          "composer": "Kevin MacLeod",
+          "piece": "Easy Lemon",
+          "attributionRequired": true,
+          "attribution": "Музыка: Easy Lemon — Kevin MacLeod (incompetech.com), CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/. Источник: https://incompetech.com/music/royalty-free/index.html?Search=Search&isrc=USUAN1200076. Фрагмент обрезан, эквализирован и приглушён под голосом."
+        }
+      },
+      "files": [
+        {
+          "relative": "reels/anna-v3-20261031-13-lyag.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/anna-v3-20261031-13-lyag.mp4",
+          "size": 16789340,
+          "sha256": "0bdbf9e8cac11f3ff876c727dc7d2068fb584c1c55a01b810541df9ebd15883d"
+        },
+        {
+          "relative": "images/anna-v3-20261031-13-lyag-cover.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/anna-v3-20261031-13-lyag-cover.jpg",
+          "size": 401131,
+          "sha256": "c2111e81c057289c5684649e064b9884d46ff8584b82114651535c81afeaf078"
+        },
+        {
+          "relative": "reels/anna-v3-20261031-13-lyag-frame.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/anna-v3-20261031-13-lyag-frame.jpg",
+          "size": 401131,
+          "sha256": "c2111e81c057289c5684649e064b9884d46ff8584b82114651535c81afeaf078"
+        }
+      ]
+    },
+    "anna-v3-20261031-14-vetrenyy": {
+      "version": 1,
+      "draftKey": "b5d64ab8753e3a3ce6e29cb3d9d7a87319f40568158455e3ca020580776f75ce",
+      "builtAt": "2026-10-30T22:45:14.231Z",
+      "media": {
+        "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/anna-v3-20261031-14-vetrenyy.mp4",
+        "imageUrls": [
+          "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/anna-v3-20261031-14-vetrenyy-cover.jpg"
+        ],
+        "coverUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/anna-v3-20261031-14-vetrenyy-cover.jpg",
+        "coverOffsetMs": 0,
+        "music": {
+          "composer": "Kevin MacLeod",
+          "piece": "Easy Lemon",
+          "attributionRequired": true,
+          "attribution": "Музыка: Easy Lemon — Kevin MacLeod (incompetech.com), CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/. Источник: https://incompetech.com/music/royalty-free/index.html?Search=Search&isrc=USUAN1200076. Фрагмент обрезан, эквализирован и приглушён под голосом."
+        }
+      },
+      "files": [
+        {
+          "relative": "reels/anna-v3-20261031-14-vetrenyy.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/anna-v3-20261031-14-vetrenyy.mp4",
+          "size": 20283701,
+          "sha256": "b4addda35387a27324d4e4acfaa288971023e4633d4c76bb8c50607429de439f"
+        },
+        {
+          "relative": "images/anna-v3-20261031-14-vetrenyy-cover.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/anna-v3-20261031-14-vetrenyy-cover.jpg",
+          "size": 386770,
+          "sha256": "24cf52e51249dfd2f07b0844a31f9c7f9737f1379ddea530ef738fae50b7835a"
+        },
+        {
+          "relative": "reels/anna-v3-20261031-14-vetrenyy-frame.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/anna-v3-20261031-14-vetrenyy-frame.jpg",
+          "size": 386770,
+          "sha256": "24cf52e51249dfd2f07b0844a31f9c7f9737f1379ddea530ef738fae50b7835a"
+        }
+      ]
+    },
+    "anna-v3-20261031-15-kofe": {
+      "version": 1,
+      "draftKey": "a74cd76c9becccbd5946f8a036fba3b750606ff3b29b9ade1025ce3087315a95",
+      "builtAt": "2026-10-30T22:45:14.424Z",
+      "media": {
+        "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/anna-v3-20261031-15-kofe.mp4",
+        "imageUrls": [
+          "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/anna-v3-20261031-15-kofe-cover.jpg"
+        ],
+        "coverUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/anna-v3-20261031-15-kofe-cover.jpg",
+        "coverOffsetMs": 0,
+        "music": {
+          "composer": "Kevin MacLeod",
+          "piece": "Easy Lemon",
+          "attributionRequired": true,
+          "attribution": "Музыка: Easy Lemon — Kevin MacLeod (incompetech.com), CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/. Источник: https://incompetech.com/music/royalty-free/index.html?Search=Search&isrc=USUAN1200076. Фрагмент обрезан, эквализирован и приглушён под голосом."
+        }
+      },
+      "files": [
+        {
+          "relative": "reels/anna-v3-20261031-15-kofe.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/anna-v3-20261031-15-kofe.mp4",
+          "size": 24062072,
+          "sha256": "de458281cb8627cdf94b247993f59f8232c8e020491576e2077427ea24d76826"
+        },
+        {
+          "relative": "images/anna-v3-20261031-15-kofe-cover.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/anna-v3-20261031-15-kofe-cover.jpg",
+          "size": 404712,
+          "sha256": "19c636852abc58c5c50bbfee731d5cd59378c48e6499701216e0f58c0652c1fd"
+        },
+        {
+          "relative": "reels/anna-v3-20261031-15-kofe-frame.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/anna-v3-20261031-15-kofe-frame.jpg",
+          "size": 404712,
+          "sha256": "19c636852abc58c5c50bbfee731d5cd59378c48e6499701216e0f58c0652c1fd"
+        }
+      ]
+    },
+    "anna-v3-20261031-16-oblegchit": {
+      "version": 1,
+      "draftKey": "0d61d601def75cd185612ca839d4f280f77dfc81bc68ab290a282d4444b76c67",
+      "builtAt": "2026-10-30T22:45:14.631Z",
+      "media": {
+        "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/anna-v3-20261031-16-oblegchit.mp4",
+        "imageUrls": [
+          "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/anna-v3-20261031-16-oblegchit-cover.jpg"
+        ],
+        "coverUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/anna-v3-20261031-16-oblegchit-cover.jpg",
+        "coverOffsetMs": 0,
+        "music": {
+          "composer": "Kevin MacLeod",
+          "piece": "Easy Lemon",
+          "attributionRequired": true,
+          "attribution": "Музыка: Easy Lemon — Kevin MacLeod (incompetech.com), CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/. Источник: https://incompetech.com/music/royalty-free/index.html?Search=Search&isrc=USUAN1200076. Фрагмент обрезан, эквализирован и приглушён под голосом."
+        }
+      },
+      "files": [
+        {
+          "relative": "reels/anna-v3-20261031-16-oblegchit.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/anna-v3-20261031-16-oblegchit.mp4",
+          "size": 9719973,
+          "sha256": "1aae78f49ea6d2b8b69ce7c37746453cb2411412f0d61109f1e65bbb67aec05a"
+        },
+        {
+          "relative": "images/anna-v3-20261031-16-oblegchit-cover.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/anna-v3-20261031-16-oblegchit-cover.jpg",
+          "size": 395980,
+          "sha256": "b5706d1c9505a8e2b6eb47b23b8226a7c226e679d03fc30d11b5aee8288d86cf"
+        },
+        {
+          "relative": "reels/anna-v3-20261031-16-oblegchit-frame.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/anna-v3-20261031-16-oblegchit-frame.jpg",
+          "size": 395980,
+          "sha256": "b5706d1c9505a8e2b6eb47b23b8226a7c226e679d03fc30d11b5aee8288d86cf"
+        }
+      ]
     }
   }
 }

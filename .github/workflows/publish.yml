@@ -5,41 +5,18 @@ on:
   workflow_dispatch:
     inputs:
       post_id:
-        description: 'ID поста из content/queue.json (пусто — все со статусом approved)'
+        description: 'ID из активной серии (пусто — один разрешённый слот)'
         required: false
       dry_run:
-        description: 'Только показать, что было бы опубликовано'
+        description: 'Полная проверка 15 файлов, обложек, аккаунта и истории без публикации'
         type: boolean
         default: false
   schedule:
-    # Очередь GitHub Actions держит задание по 3,5–4,5 часа — прогон приходит
-    # сильно позже своего крона. Под эту задержку расписание уже двигали
-    # 22.10.2026 (ночные выпуски сгорали за окном 8:00–22:00 МСК), а 26.10
-    # запусков стало три: автор разрешила 2–3 публикации в день, «утро, вечер».
-    #
-    # 26.10.2026 выяснилось худшее: задержка — не единственная беда. В тот день
-    # не пришёл НИ ОДИН прогон по расписанию. Утренний (5:09 UTC) не успел
-    # зарегистрироваться: три крона попали в main в 9:15 UTC. А дневные —
-    # 11:17 и 13:41 UTC — не пришли вовсе, ни через пять часов, ни к ночи.
-    # Все три публикации дня пришлось выпускать вручную. GitHub о доставке
-    # запусков по расписанию ничего не обещает и при нагрузке их отбрасывает.
-    #
-    # Поэтому запусков теперь шесть вместо трёх — это не шесть публикаций,
-    # а страховка от пропажи. Лишний прогон ничего не делает: publish.js
-    # считает публикации дня (PER_DAY = 3) и держит разрыв между ними
-    # (MIN_GAP_HOURS = 2), а ночью не публикует вовсе. Чтобы выйти, дню
-    # достаточно, чтобы доехала половина прогонов.
-    #
-    # С поправкой на ту же задержку прогоны приходят примерно с 9:40 до 21:10
-    # МСК — весь дневной коридор. Позже 14:00 UTC крон не ставим: прогон
-    # пришёл бы после 22:00 МСК, и ночной сторож его отклонит.
-    # Минуты нечётные намеренно: на :00 и :30 очередь длиннее.
-    - cron: '9 3 * * *'
-    - cron: '9 5 * * *'
-    - cron: '17 7 * * *'
-    - cron: '17 9 * * *'
-    - cron: '41 11 * * *'
-    - cron: '41 13 * * *'
+    # Daily wakeups; the explicit Moscow calendar allows ONE selected V3 Reel
+    # every two days, starting 31 October. Early/late/off-day runs are no-ops.
+    # Multiple wakeups tolerate delayed/dropped GitHub cron deliveries.
+    - cron: '37 12-18 * * *'
+    - cron: '30 16 * * *'
 
 permissions:
   contents: write         # чтобы записать обратно статус published
@@ -63,27 +40,57 @@ jobs:
         with:
           node-version: '22'
 
-      # Контроль качества перед выпуском (скилл my-skill-instmom): музыка,
-      # композитор, обложка, подпись, фотофоны, лимиты. Красный — не публикуем.
-      - name: Проверка контента
+      - name: Выбрать разрешённый слот серии
+        id: slot
+        env:
+          REQUESTED_POST_ID: ${{ inputs.post_id }}
+          DRY_RUN: ${{ inputs.dry_run }}
+        run: |
+          node - <<'JS'
+          const fs = require('fs');
+          const c = require('./campaign-feed');
+          const q = require('./content/queue.json');
+          const campaign = c.readCampaign('content');
+          if (!campaign) throw new Error('Active series calendar is required');
+          c.validate(campaign, q.posts);
+          const audit = process.env.DRY_RUN === 'true';
+          const choice = c.select(campaign, q.posts, new Date(), process.env.REQUESTED_POST_ID || undefined);
+          console.log(choice.reason);
+          fs.appendFileSync(process.env.GITHUB_OUTPUT, `run=${audit || !!choice.post}\naudit=${audit}\npost_id=${choice.post?.id || ''}\n`);
+          JS
+
+      - name: Проверка выбранных материалов
+        if: steps.slot.outputs.run == 'true'
+        env:
+          SELECTED_POST_ID: ${{ steps.slot.outputs.post_id }}
+          AUDIT: ${{ steps.slot.outputs.audit }}
         run: |
           npm install --no-save ffmpeg-static
-          node check-content.js
+          if [ "$AUDIT" = "true" ]; then
+            node -e "for (const s of require('./content/active-feed-campaign.json').slots) console.log(s.postId)" > /tmp/campaign-ids
+            while IFS= read -r post_id; do node check-content.js "$post_id"; done < /tmp/campaign-ids
+          else
+            node check-content.js "$SELECTED_POST_ID"
+          fi
 
-      - name: Проверить токен
+      - name: Проверить аккаунт Instagram
+        if: steps.slot.outputs.run == 'true'
         env:
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
         run: node publish.js --check
 
-      # По расписанию — одна публикация в день; вручную можно выпустить всё сразу
-      - name: Опубликовать одобренные посты
+      - name: Проверить публичные файлы и историю без публикации
+        if: steps.slot.outputs.audit == 'true'
         env:
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
-        run: |
-          node publish.js \
-            ${{ github.event_name == 'schedule' && '--one' || '' }} \
-            ${{ inputs.dry_run && '--dry-run' || '' }} \
-            ${{ inputs.post_id }}
+        run: node publish.js --campaign-audit
+
+      - name: Выпустить один ролик в разрешённый день
+        if: steps.slot.outputs.run == 'true' && steps.slot.outputs.audit != 'true'
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          PERSIST_FEED_INTENT: github
+        run: node publish.js --one
 
       # always(): если публикация упала на середине списка, уже вышедшие посты
       # всё равно должны получить статус published — иначе следующий запуск
@@ -91,14 +98,14 @@ jobs:
       - name: Записать статусы обратно в репозиторий
         if: ${{ always() && !inputs.dry_run }}
         run: |
-          if git diff --quiet content/queue.json; then
+          if git diff --quiet content/queue.json && [ "$(git rev-list --count origin/main..HEAD)" = "0" ]; then
             echo "Очередь не изменилась — публиковать было нечего."
             exit 0
           fi
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add content/queue.json
-          git commit -m "Опубликовано в Instagram"
+          if ! git diff --cached --quiet; then git commit -m "Состояние выпуска Instagram"; fi
           # Параллельный прогон мог запушить раньше (22.08 сторис и сводка
           # столкнулись — статус публикации потерялся): rebase и повтор.
           ok=0

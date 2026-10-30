@@ -135,7 +135,8 @@ test('publisher reports nonzero completion when a repost is awaiting assets, whi
     exit: code => { throw new Error(`unexpected exit ${code}`); } };
   let reads = 0;
   await new vm.Script(fs.readFileSync(path.join(root, 'publish.js'), 'utf8')).runInNewContext({
-    require: name => name === 'fs' ? fakeFs : name === './repost-state' ? require('../repost-state') : require(name),
+    require: name => name === 'fs' ? fakeFs : name === './repost-state' ? require('../repost-state')
+      : name === './campaign-feed' ? { ...require('../campaign-feed'), readCampaign: () => null } : require(name),
     __dirname: root, process: proc, URL, URLSearchParams,
     console: { log: () => {}, error: () => {} },
     fetch: async (_, options) => {

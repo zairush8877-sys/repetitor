@@ -49,7 +49,7 @@ async function deliver(post, { entry, api, waitReady, save, userId, assetUrl = u
       throw new Error('Нет подтверждённых ID всех Stories: требуется сверка.');
     }
     if (!matchesSnapshot(post, state)) {
-      state.status = 'needs_review'; save();
+      state.status = 'needs_review'; await save();
       throw new Error('Состав публикации изменился после подтверждения репоста: требуется сверка, новые слайды не отправлены.');
     }
     log('Все кадры репоста уже подтверждены — повтор пропущен.');
@@ -58,11 +58,11 @@ async function deliver(post, { entry, api, waitReady, save, userId, assetUrl = u
   // A killed process may have sent media_publish. Never infer failure from a timeout.
   if (state.items.some(i => ['publishing', 'unknown'].includes(i.status)
     || (i.status === 'published' && !i.publishedMediaId))) {
-    state.status = 'needs_review'; save();
+    state.status = 'needs_review'; await save();
     throw new Error('Результат отправки неизвестен: повтор заблокирован до сверки Instagram.');
   }
   if (!validManifest(post, entry)) {
-    state.status = 'awaiting_assets'; state.reason = 'render_reposts_required'; save();
+    state.status = 'awaiting_assets'; state.reason = 'render_reposts_required'; await save();
     throw new Error('Нет полного актуального набора 1080×1920: выполните render-reposts.js для этого поста.');
   }
   if (state.items.length && (state.sourceKey !== entry.sourceKey
@@ -75,46 +75,46 @@ async function deliver(post, { entry, api, waitReady, save, userId, assetUrl = u
   if (!state.items.length) {
     state.sourceKey = entry.sourceKey;
     state.items = entry.assets.map((a, i) => ({ index: i + 1, url: a.url, sha256: a.sha256, status: 'pending', attempts: 0 }));
-    save();
+    await save();
   }
   delete state.reason;
   for (const item of state.items) {
     if (item.status === 'published' && item.publishedMediaId) continue;
-    item.attempts++; item.status = 'preparing'; item.attemptedAt = now(); save();
+    item.attempts++; item.status = 'preparing'; item.attemptedAt = now(); await save();
     try {
       // Reuse a ready container after a crash while polling; creation alone cannot publish.
       if (!item.containerId) {
         const container = await api('POST', `${userId}/media`, { media_type: 'STORIES', image_url: assetUrl(item.url) });
         if (!container.id) throw new Error('container_id_missing');
-        item.containerId = container.id; save();
+        item.containerId = container.id; await save();
       }
       await waitReady(item.containerId, `${post.id} репост ${item.index}`);
     } catch {
       item.status = 'failed'; item.error = 'preparation_failed';
       // A failed/expired container is safe to replace: media_publish was never called.
-      delete item.containerId; state.status = overall(state.items); save();
+      delete item.containerId; state.status = overall(state.items); await save();
       log(`Кадр ${item.index}: подготовка не завершена, возможен явный повтор.`);
       return state;
     }
-    item.status = 'publishing'; save(); // Persist before the irreversible call.
+    item.status = 'publishing'; await save(); // Persist before the irreversible call.
     let result;
     try {
       result = await api('POST', `${userId}/media_publish`, { creation_id: item.containerId });
     } catch {
       item.status = 'unknown'; item.error = 'publish_outcome_unknown';
-      state.status = overall(state.items); save();
+      state.status = overall(state.items); await save();
       log(`Кадр ${item.index}: результат отправки неизвестен, автоматический повтор запрещён.`);
       return state;
     }
     if (!result.id) {
       item.status = 'unknown'; item.error = 'publish_id_missing';
-      state.status = overall(state.items); save(); return state;
+      state.status = overall(state.items); await save(); return state;
     }
     item.publishedMediaId = result.id; item.publishedAt = now(); item.status = 'published';
-    delete item.error; state.status = overall(state.items); save();
+    delete item.error; state.status = overall(state.items); await save();
     log(`Кадр ${item.index}/${state.items.length}: Stories подтверждена, id ${result.id}.`);
   }
-  state.status = overall(state.items); save();
+  state.status = overall(state.items); await save();
   return state;
 }
 
