@@ -293,8 +293,9 @@ async function saveFeedState(queue, post) {
 
 async function campaignHistory(queue, publishingPost) {
   const recent = await api('GET', `${IG_USER_ID}/media`, { fields: 'id,caption,timestamp,permalink', limit: '100' });
-  const matches = campaignFeed.reconcile(campaign, queue.posts, recent.data || [], new Date(), publishingPost);
-  console.log(`Live feed reconciliation: ${(recent.data || []).length} recent posts, ${matches.length} campaign receipts matched`);
+  if (!Array.isArray(recent.data)) throw new Error('Instagram feed history unavailable; publication stopped');
+  const matches = campaignFeed.reconcile(campaign, queue.posts, recent.data, new Date(), publishingPost);
+  console.log(`Live feed reconciliation: ${recent.data.length} recent posts, ${matches.length} campaign receipts matched`);
   return matches;
 }
 

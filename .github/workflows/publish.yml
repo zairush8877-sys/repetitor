@@ -54,7 +54,8 @@ jobs:
           if (!campaign) throw new Error('Active series calendar is required');
           c.validate(campaign, q.posts);
           const audit = process.env.DRY_RUN === 'true';
-          const choice = c.select(campaign, q.posts, new Date(), process.env.REQUESTED_POST_ID || undefined);
+          const choice = audit ? { post: null, reason: 'Read-only audit of all fifteen slots' }
+            : c.select(campaign, q.posts, new Date(), process.env.REQUESTED_POST_ID || undefined);
           console.log(choice.reason);
           fs.appendFileSync(process.env.GITHUB_OUTPUT, `run=${audit || !!choice.post}\naudit=${audit}\npost_id=${choice.post?.id || ''}\n`);
           JS
