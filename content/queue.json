@@ -7383,7 +7383,7 @@
       }
     },
     {
-      "status": "approved",
+      "status": "published",
       "format": "Reels",
       "school": false,
       "numbered": true,
@@ -7431,7 +7431,41 @@
         "#какправильно"
       ],
       "sourceNote": "Из АКАДЕМОСа: ко́жаный, песча́ный, сере́бряный, гли́няный, оловя́нный. Ответ на задание — строка 5. «Ветреный» заменён «глиняным» по вердикту корректора: у ветреного рядом стоит безветренный с двумя н, и пара провоцировала спор.",
-      "photoFile": "clay-banks-notebook.jpg"
+      "photoFile": "clay-banks-notebook.jpg",
+      "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-26-nn.mp4",
+      "coverOffsetMs": 12600,
+      "music": {
+        "composer": "Kevin MacLeod",
+        "piece": "Daily Beetle",
+        "license": "CC BY 4.0",
+        "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1500025",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "attribution": "Daily Beetle — Kevin MacLeod (incompetech.com). CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/. Фрагмент обрезан и сведён с видео.",
+        "attributionRequired": true
+      },
+      "background": "assets/photos/books-marriage.jpg",
+      "lightBg": true,
+      "publishedMediaId": "18000049224046837",
+      "publishedAt": "2026-10-30T17:13:18.993Z",
+      "storyRepost": {
+        "version": 1,
+        "feedMediaId": "18000049224046837",
+        "status": "published",
+        "items": [
+          {
+            "index": 1,
+            "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-10-26-nn-1.jpg",
+            "sha256": "69652762bf738a71ed01b5e020fe3e1acd80ca7daf0942943c50ad7416d93333",
+            "status": "published",
+            "attempts": 1,
+            "attemptedAt": "2026-10-30T17:13:19.015Z",
+            "containerId": "18033616535887754",
+            "publishedMediaId": "18360787321218296",
+            "publishedAt": "2026-10-30T17:13:30.840Z"
+          }
+        ],
+        "sourceKey": "0119ca569748a7f31afeafd6080c689e976e4eed4aac33274ef33c4b7fdba590"
+      }
     },
     {
       "status": "approved",
