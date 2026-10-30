@@ -6633,7 +6633,7 @@
       }
     },
     {
-      "status": "approved",
+      "status": "published",
       "format": "Reels",
       "school": false,
       "numbered": true,
@@ -6681,7 +6681,41 @@
         "#какправильно"
       ],
       "sourceNote": "В АКАДЕМОСе есть винегре́т, бюллете́нь, аккомпанеме́нт, мундшту́к, конъюнкту́ра; написаний из левой колонки нет ни одного. Ответ на задание — строка 4: в «мундштуке» теряется согласная «д», в остальных четырёх искажается гласная.",
-      "photoFile": "desk-sheldon.jpg"
+      "photoFile": "desk-sheldon.jpg",
+      "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-26-slovarnye-2.mp4",
+      "coverOffsetMs": 12600,
+      "music": {
+        "composer": "Иоганн Себастьян Бах",
+        "piece": "Гольдберг-вариации, BWV 988 — Вариация № 1",
+        "license": "CC0 1.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "attribution": "И. С. Бах — Гольдберг-вариации, BWV 988, вариация № 1. Фортепиано: Кимико Ишизака, Open Goldberg Variations (2012). Запись CC0 1.0. Фрагмент, громкость изменена.",
+        "attributionRequired": true
+      },
+      "background": "assets/photos/marble-pineapple.jpg",
+      "lightBg": true,
+      "publishedMediaId": "18130416391854207",
+      "publishedAt": "2026-10-30T09:55:48.378Z",
+      "storyRepost": {
+        "version": 1,
+        "feedMediaId": "18130416391854207",
+        "status": "published",
+        "items": [
+          {
+            "index": 1,
+            "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-10-26-slovarnye-2-1.jpg",
+            "sha256": "ca965af78e98ca2c88c59996505db9b17842df4e62f8c45dd4ebffc14f158420",
+            "status": "published",
+            "attempts": 1,
+            "attemptedAt": "2026-10-30T09:55:48.444Z",
+            "containerId": "18033566138887754",
+            "publishedMediaId": "17895230955434120",
+            "publishedAt": "2026-10-30T09:55:59.924Z"
+          }
+        ],
+        "sourceKey": "73f5d8afb5724023dd8c7290e629bd75f0aa6a72c1da7bf69ba766c8b6859536"
+      }
     },
     {
       "status": "approved",
