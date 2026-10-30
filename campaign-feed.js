@@ -10,12 +10,15 @@ function moscowDate(now) { return new Date(now).toLocaleDateString('en-CA', { ti
 function validate(campaign, posts) {
   if (!campaign || campaign.version !== 1 || campaign.status !== 'active' || campaign.timezone !== 'Europe/Moscow') throw new Error('Invalid active feed campaign');
   if (!campaign.id || !Array.isArray(campaign.slots) || campaign.slots.length !== 15) throw new Error('Campaign requires fifteen explicit slots');
+  const targetTime = campaign.targetTime || '19:30';
+  if (!/^\d{2}:\d{2}$/.test(targetTime)) throw new Error('Invalid campaign target time');
   const ids = new Set(), dates = new Set();
   campaign.slots.forEach((slot, i) => {
     const post = posts.find(p => p.id === slot.postId);
     const at = new Date(slot.scheduledAt);
     if (!post || ids.has(slot.postId) || dates.has(slot.date) || !/^\d{4}-\d{2}-\d{2}$/.test(slot.date) || !Number.isFinite(at.getTime())) throw new Error('Invalid or duplicate campaign slot');
-    if (post.campaignId !== campaign.id || post.date !== slot.date || post.scheduledAt !== slot.scheduledAt || moscowDate(at) !== slot.date || at.toISOString().slice(11, 16) !== '16:30') throw new Error(`Campaign calendar mismatch: ${slot.postId}`);
+    const localTime = at.toLocaleTimeString('en-GB', { timeZone: campaign.timezone, hour12: false }).slice(0, 5);
+    if (post.campaignId !== campaign.id || post.date !== slot.date || post.scheduledAt !== slot.scheduledAt || moscowDate(at) !== slot.date || localTime !== targetTime) throw new Error(`Campaign calendar mismatch: ${slot.postId}`);
     if (i && at - new Date(campaign.slots[i - 1].scheduledAt) !== 2 * 86400000) throw new Error('Campaign interval must be two days');
     ids.add(slot.postId); dates.add(slot.date);
   });
@@ -30,7 +33,7 @@ function select(campaign, posts, now = new Date(), onlyId) {
   if (onlyId && onlyId !== slot.postId) throw new Error('Requested post is outside today\'s campaign slot');
   if (new Date(now) < new Date(slot.scheduledAt)) return { post: null, reason: `Next slot: ${slot.scheduledAt}` };
   const hour = Number(new Date(now).toLocaleString('en-GB', { timeZone: 'Europe/Moscow', hour: '2-digit', hour12: false }));
-  if (hour >= 22) return { post: null, reason: 'Evening window closed; no automatic catch-up on off days' };
+  if (hour < 8 || hour >= 22) return { post: null, reason: 'Publishing window closed; no automatic catch-up on off days' };
   const post = posts.find(p => p.id === slot.postId);
   if (post.status === 'published' || post.publishedMediaId || post.publishedAt) return { post: null, reason: 'Today\'s campaign post already has a receipt' };
   if (posts.some(p => p.publishedAt && moscowDate(p.publishedAt) === today)) return { post: null, reason: 'Feed already published today; limit one' };

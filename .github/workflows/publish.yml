@@ -17,10 +17,10 @@ on:
         default: false
   schedule:
     # Daily wakeups; the explicit Moscow calendar allows ONE selected V3 Reel
-    # every two days, starting 31 October. Early/late/off-day runs are no-ops.
+    # every two days, starting 1 November at 09:00 Moscow. Early/off-day runs are no-ops.
     # Multiple wakeups tolerate delayed/dropped GitHub cron deliveries.
-    - cron: '37 12-18 * * *'
-    - cron: '30 16 * * *'
+    - cron: '0 6 * * *'
+    - cron: '17 4-10 * * *'
 
 permissions:
   contents: write         # чтобы записать обратно статус published

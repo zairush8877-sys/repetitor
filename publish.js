@@ -297,6 +297,7 @@ async function campaignHistory(queue, publishingPost) {
   if (!Array.isArray(recent.data)) throw new Error('Instagram feed history unavailable; publication stopped');
   const matches = campaignFeed.reconcile(campaign, queue.posts, recent.data, new Date(), publishingPost);
   console.log(`Live feed reconciliation: ${recent.data.length} recent posts, ${matches.length} campaign receipts matched`);
+  console.log(`CAMPAIGN_RECEIPTS ${JSON.stringify(matches)}`);
   return matches;
 }
 
