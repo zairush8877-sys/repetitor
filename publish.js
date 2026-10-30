@@ -42,6 +42,7 @@ const IG_USER_ID = process.env.IG_USER_ID || queueRaw.account_id;
 const campaign = campaignFeed.readCampaign(CONTENT);
 if (campaign) campaignFeed.validate(campaign, queueRaw.posts);
 const campaignAudit = process.argv.includes('--campaign-audit');
+const campaignUploadProbe = process.argv.includes('--campaign-upload-probe');
 
 const args = process.argv.slice(2);
 const dryRun = args.includes('--dry-run');
@@ -486,7 +487,7 @@ let publicationLock;
   if (audioCheck) { await showAudioCheck(); return; }
   if (recentOnly) { await showRecent(recentLimit); return; }
   if (checkOnly) return;
-  if (campaignAudit) {
+  if (campaignAudit || campaignUploadProbe) {
     if (!campaign) throw new Error('No active campaign');
     for (const slot of campaign.slots) {
       const checked = require('./prepared-media').validate(queueRaw.posts.find(p => p.id === slot.postId));
@@ -497,6 +498,15 @@ let publicationLock;
     }
     await campaignHistory(queueRaw);
     console.log(`Campaign audit passed: ${campaign.slots.length} exact V3 videos, covers and Story announcements; no publishing calls`);
+    if (campaignUploadProbe) {
+      // An unpublished container verifies Meta can ingest this exact encode and cover.
+      // It is never passed to media_publish and expires independently of the calendar.
+      const post = require('./prepared-media').validate(queueRaw.posts.find(p => p.id === campaign.slots[0].postId)).post;
+      const { id } = await api('POST', `${IG_USER_ID}/media`, { media_type: 'REELS', video_url: assetUrl(post.videoUrl), caption: fullCaption(post), share_to_feed: 'true', cover_url: assetUrl(post.coverUrl) });
+      if (!id) throw new Error('Upload probe returned no container ID');
+      await waitReady(id, 'Unpublished V3 upload probe', 120);
+      console.log(`UPLOAD_PROBE_FINISHED container=${id}; exact V3 video and cover accepted; media_publish was NOT called`);
+    }
     return;
   }
 

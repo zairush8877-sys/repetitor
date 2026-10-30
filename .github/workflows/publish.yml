@@ -11,6 +11,10 @@ on:
         description: 'Полная проверка 15 файлов, обложек, аккаунта и истории без публикации'
         type: boolean
         default: false
+      upload_probe:
+        description: 'Дополнительно проверить приём V3 и обложки: только неопубликованный контейнер, без выпуска в ленту'
+        type: boolean
+        default: false
   schedule:
     # Daily wakeups; the explicit Moscow calendar allows ONE selected V3 Reel
     # every two days, starting 31 October. Early/late/off-day runs are no-ops.
@@ -45,6 +49,7 @@ jobs:
         env:
           REQUESTED_POST_ID: ${{ inputs.post_id }}
           DRY_RUN: ${{ inputs.dry_run }}
+          UPLOAD_PROBE: ${{ inputs.upload_probe }}
         run: |
           node - <<'JS'
           const fs = require('fs');
@@ -53,7 +58,7 @@ jobs:
           const campaign = c.readCampaign('content');
           if (!campaign) throw new Error('Active series calendar is required');
           c.validate(campaign, q.posts);
-          const audit = process.env.DRY_RUN === 'true';
+          const audit = process.env.DRY_RUN === 'true' || process.env.UPLOAD_PROBE === 'true';
           const choice = audit ? { post: null, reason: 'Read-only audit of all fifteen slots' }
             : c.select(campaign, q.posts, new Date(), process.env.REQUESTED_POST_ID || undefined);
           console.log(choice.reason);
@@ -84,7 +89,10 @@ jobs:
         if: steps.slot.outputs.audit == 'true'
         env:
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
-        run: node publish.js --campaign-audit
+          UPLOAD_PROBE: ${{ inputs.upload_probe }}
+        run: |
+          if [ "$UPLOAD_PROBE" = "true" ]; then node publish.js --campaign-upload-probe;
+          else node publish.js --campaign-audit; fi
 
       - name: Выпустить один ролик в разрешённый день
         if: steps.slot.outputs.run == 'true' && steps.slot.outputs.audit != 'true'

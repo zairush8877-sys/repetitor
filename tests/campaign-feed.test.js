@@ -213,3 +213,20 @@ test('live duplicate check tolerates line endings, Unicode composition and trail
   const item = live(posts[0], { caption: 'Cafe\u0301\r\n\r\nApproved caption  ' });
   assert.throws(() => campaign.reconcile(c, posts, [item], run(DATES[0]), posts[0]), /already exists|matching caption|reconcile/i);
 });
+
+test('real feed-state phase values block retries when no confirmed receipt exists', () => {
+  for (const phase of ['publishing', 'unknown', 'needs_review', 'published']) {
+    const { c, posts } = fixture();
+    posts[0].feedDelivery = { version: 1, phase, containerId: 'saved-container' };
+    for (const onlyId of [undefined, IDS[0]]) {
+      assert.throws(() => campaign.select(c, posts, run(DATES[0]), onlyId), /reconcil|retry|outcome|review/i, phase);
+    }
+  }
+});
+
+test('a known receipt prevents resend even when the saved feed phase is stale', () => {
+  const { c, posts } = fixture();
+  posts[0].publishedMediaId = 'confirmed-receipt';
+  posts[0].feedDelivery = { version: 1, phase: 'unknown', containerId: 'saved-container' };
+  assert.equal(campaign.select(c, posts, run(DATES[0])).post, null);
+});
