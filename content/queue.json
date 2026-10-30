@@ -6718,7 +6718,7 @@
       }
     },
     {
-      "status": "approved",
+      "status": "published",
       "format": "Reels",
       "school": false,
       "numbered": true,
@@ -6766,7 +6766,41 @@
         "#заимствования"
       ],
       "sourceNote": "Из АКАДЕМОСа: старта́п, ково́ркинг [добавление 2020], карше́ринг [добавление 2020], фрила́нс, веб-са́йт. Написаний левой колонки в словаре нет. Ответ на задание — строка 5. Таблица переделана 26.10.2026: в первом варианте заголовок обещал спор про дефис, а две строки из пяти были про буквы (флэшмоб, смуззи) — вопрос и таблица расходились.",
-      "photoFile": "jeshoots-notebook.jpg"
+      "photoFile": "jeshoots-notebook.jpg",
+      "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-10-26-novye-slova.mp4",
+      "coverOffsetMs": 12600,
+      "music": {
+        "composer": "Kevin MacLeod",
+        "piece": "Easy Lemon",
+        "license": "CC BY 4.0",
+        "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1200076",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "attribution": "Easy Lemon — Kevin MacLeod (incompetech.com). CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/. Фрагмент обрезан и сведён с видео.",
+        "attributionRequired": true
+      },
+      "background": "assets/photos/pencils-dorohovich.jpg",
+      "lightBg": true,
+      "publishedMediaId": "17929624716186025",
+      "publishedAt": "2026-10-30T14:16:16.397Z",
+      "storyRepost": {
+        "version": 1,
+        "feedMediaId": "17929624716186025",
+        "status": "published",
+        "items": [
+          {
+            "index": 1,
+            "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-10-26-novye-slova-1.jpg",
+            "sha256": "b18caca430bf668a34500bf6adce69877f11745b084783070a399f2120917876",
+            "status": "published",
+            "attempts": 1,
+            "attemptedAt": "2026-10-30T14:16:16.436Z",
+            "containerId": "18033593765887754",
+            "publishedMediaId": "18200757166391943",
+            "publishedAt": "2026-10-30T14:16:30.665Z"
+          }
+        ],
+        "sourceKey": "02b880bb847fc8034ad41aab9f83148593bedfe4cbd8c9a79d9fd58f1d3ca89d"
+      }
     },
     {
       "status": "approved",
