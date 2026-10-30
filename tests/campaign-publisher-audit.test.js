@@ -26,7 +26,7 @@ function fixture() {
   return { campaign, queue: { account_id: campaign.accountId, posts } };
 }
 
-async function audit({ history = { data: [] }, corruptAsset = false, unknownPhase = false } = {}) {
+async function audit({ history = { data: [] }, corruptAsset = false, unknownPhase = false, probe = false } = {}) {
   const { campaign, queue } = fixture();
   if (unknownPhase) queue.posts[0].feedDelivery = { phase: 'unknown', containerId: 'saved-container' };
   const before = JSON.stringify(queue);
@@ -46,11 +46,11 @@ async function audit({ history = { data: [] }, corruptAsset = false, unknownPhas
     sha,
     validate: post => {
       validated.push(post.id);
-      return { entry: { files: [{ url: `https://fixture.test/${post.id}`, sha256: sha(bytes) }] }, repost: { assets: [] } };
+      return { post: { ...post, videoUrl: 'https://fixture.test/exact-v3.mp4', coverUrl: 'https://fixture.test/exact-cover.jpg' }, entry: { files: [{ url: `https://fixture.test/${post.id}`, sha256: sha(bytes) }] }, repost: { assets: [] } };
     },
   };
   const proc = {
-    argv: ['node', 'publish.js', '--campaign-audit'],
+    argv: ['node', 'publish.js', probe ? '--campaign-upload-probe' : '--campaign-audit'],
     env: { IG_ACCESS_TOKEN: 'fixture-only-token', MEDIA_CONTENT_DIR: CONTENT },
     pid: 123, exitCode: 0, exit: rejectMutation('process.exit'),
   };
@@ -65,11 +65,20 @@ async function audit({ history = { data: [] }, corruptAsset = false, unknownPhas
     fetch: async (url, options) => {
       const request = { url: String(url), method: options?.method || 'GET' };
       calls.push(request);
+      if (request.method === 'POST') {
+        assert.ok(probe, 'Only an explicitly requested upload probe may create a container');
+        assert.equal(new URL(request.url).pathname, '/v23.0/123/media', 'Probe must never call media_publish');
+        assert.equal(options.body.get('video_url'), 'https://fixture.test/exact-v3.mp4');
+        assert.equal(options.body.get('cover_url'), 'https://fixture.test/exact-cover.jpg');
+        assert.equal(options.body.get('caption'), queue.posts[0].caption);
+        return { json: async () => ({ id: 'upload-probe-container' }) };
+      }
       assert.equal(request.method, 'GET', 'Audit must never create or publish Instagram media');
       if (request.url.startsWith('https://fixture.test/')) {
         return { ok: true, arrayBuffer: async () => corruptAsset ? Buffer.from('wrong-asset') : bytes };
       }
       if (new URL(request.url).pathname.endsWith('/media')) return { json: async () => history };
+      if (new URL(request.url).pathname.endsWith('/upload-probe-container')) return { json: async () => ({ status_code: 'FINISHED' }) };
       return { json: async () => ({ username: campaign.account, followers_count: 0, media_count: 0 }) };
     },
   };
@@ -107,4 +116,12 @@ test('a mismatched public asset hash stops audit before publication or live-hist
   assert.equal(result.validated.length, 1);
   assert.equal(result.calls.length, 2, 'account read then first invalid asset');
   assert.ok(result.calls.every(call => !new URL(call.url).pathname.endsWith('/media')));
+});
+
+test('explicit ingest probe creates exactly one unpublished container using exact V3 video and cover', async () => {
+  const result = await audit({ probe: true });
+  assert.equal(result.exitCode, 0);
+  assert.equal(result.calls.filter(c => c.method === 'POST').length, 1);
+  assert.equal(result.validated.length, 16);
+  assert.ok(result.calls.every(c => !new URL(c.url).pathname.endsWith('/media_publish')));
 });
