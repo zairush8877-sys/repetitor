@@ -7627,7 +7627,7 @@
             "sha256": "1bf697527603204af6f35a4ac74c86e9a0943ade30ad3d28d7f271ba3df88a0c",
             "mediaType": "VIDEO",
             "mimeType": "video/mp4",
-            "status": "preparing",
+            "status": "publishing",
             "attempts": 1,
             "attemptedAt": "2026-10-31T09:05:32.639Z",
             "containerId": "18033702131887754"
