@@ -7585,6 +7585,27 @@
         "source": "user-current-chat",
         "instruction": "Publish first now",
         "note": "09:00 is only the earliest eligibility threshold today; actual release is requested now."
+      },
+      "imageUrls": [
+        "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/anna-v3-20261031-01-nn-okno-cover.jpg"
+      ],
+      "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/anna-v3-20261031-01-nn-okno.mp4",
+      "coverOffsetMs": 0,
+      "coverUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/anna-v3-20261031-01-nn-okno-cover.jpg",
+      "music": {
+        "composer": "Kevin MacLeod",
+        "piece": "Easy Lemon",
+        "attributionRequired": true,
+        "attribution": "Музыка: Easy Lemon — Kevin MacLeod (incompetech.com), CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/. Источник: https://incompetech.com/music/royalty-free/index.html?Search=Search&isrc=USUAN1200076. Фрагмент обрезан, эквализирован и приглушён под голосом."
+      },
+      "feedDelivery": {
+        "fingerprint": "541f8be0d2968920264f08f01a5de9f817e37c1850aaae7e50149fdb484b7af4",
+        "startedAt": "2026-10-31T09:04:46.911Z",
+        "creationAttempts": 1,
+        "lastError": null,
+        "version": 1,
+        "phase": "container",
+        "updatedAt": "2026-10-31T09:04:46.911Z"
       }
     },
     {
