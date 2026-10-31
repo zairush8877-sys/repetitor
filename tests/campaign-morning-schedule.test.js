@@ -10,9 +10,9 @@ const prepared = require('../prepared-media');
 const ROOT = path.resolve(__dirname, '..');
 const CONTENT = path.join(ROOT, 'content');
 const DATES = [
-  '2026-11-01', '2026-11-03', '2026-11-05', '2026-11-07', '2026-11-09',
-  '2026-11-11', '2026-11-13', '2026-11-15', '2026-11-17', '2026-11-19',
-  '2026-11-21', '2026-11-23', '2026-11-25', '2026-11-27', '2026-11-29',
+  '2026-10-31', '2026-11-02', '2026-11-04', '2026-11-06', '2026-11-08',
+  '2026-11-10', '2026-11-12', '2026-11-14', '2026-11-16', '2026-11-18',
+  '2026-11-20', '2026-11-22', '2026-11-24', '2026-11-26', '2026-11-28',
 ];
 
 function live() {
@@ -36,7 +36,7 @@ function scenario() {
 }
 function at(date, time = '09:00:00') { return new Date(`${date}T${time}+03:00`); }
 
-test('live campaign is exactly fifteen morning slots from 1 to 29 November, with matching queue dates', () => {
+test('live campaign is exactly fifteen slots from 31 October to 28 November, with matching queue dates', () => {
   const { c, posts } = live();
   assert.equal(c.targetTime, '09:00');
   assert.equal(c.timezone, 'Europe/Moscow');
@@ -61,12 +61,18 @@ for (let i = 0; i < DATES.length; i++) {
   });
 }
 
-for (const date of ['2026-10-31', '2026-11-02', '2026-11-04', '2026-11-28', '2026-11-30', '2026-12-01']) {
+for (const date of ['2026-10-30', '2026-11-01', '2026-11-03', '2026-11-27', '2026-11-29', '2026-11-30', '2026-12-01']) {
   test(`${date} cannot release an old slot or fall back to legacy approvals`, () => {
     const { c, posts } = scenario();
     for (const time of ['09:00:00', '19:30:00', '21:59:59']) assert.equal(calendar.select(c, posts, at(date, time)).post, null);
   });
 }
+
+test('explicit release-now request can use the first slot at noon on 31 October, while 1 November stays paused', () => {
+  const { c, posts } = scenario();
+  assert.equal(calendar.select(c, posts, at('2026-10-31', '12:00:00')).post.id, c.slots[0].postId);
+  assert.equal(calendar.select(c, posts, at('2026-11-01', '09:00:00')).post, null);
+});
 
 test('morning calendar retains the 08:00-22:00 publication guard', () => {
   const { c, posts } = scenario();
@@ -122,7 +128,7 @@ test('all fifteen live prepared manifests remain valid after the authorised date
 for (const timezone of ['UTC', 'Europe/Moscow', 'America/Los_Angeles']) {
   test(`live morning slot is selected at 06:00 UTC with host TZ=${timezone}`, () => {
     const { c, posts } = scenario();
-    const script = `const x=JSON.parse(process.env.MORNING_FIXTURE);const c=require(${JSON.stringify(path.join(ROOT, 'campaign-feed'))});const p=c.select(x.c,x.posts,new Date('2026-11-01T06:00:00Z')).post;process.stdout.write(p.id);`;
+    const script = `const x=JSON.parse(process.env.MORNING_FIXTURE);const c=require(${JSON.stringify(path.join(ROOT, 'campaign-feed'))});const p=c.select(x.c,x.posts,new Date('2026-10-31T06:00:00Z')).post;process.stdout.write(p.id);`;
     const result = spawnSync(process.execPath, ['-e', script], { encoding: 'utf8', env: { ...process.env, TZ: timezone, MORNING_FIXTURE: JSON.stringify({ c, posts }) } });
     assert.equal(result.status, 0, result.stderr);
     assert.equal(result.stdout, c.slots[0].postId);

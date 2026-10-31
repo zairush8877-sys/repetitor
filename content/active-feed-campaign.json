@@ -13,80 +13,87 @@
   "slots": [
     {
       "postId": "anna-v3-20261031-01-nn-okno",
-      "date": "2026-11-01",
-      "scheduledAt": "2026-11-01T06:00:00.000Z"
+      "date": "2026-10-31",
+      "scheduledAt": "2026-10-31T06:00:00.000Z"
     },
     {
       "postId": "anna-v3-20261031-02-tsya",
-      "date": "2026-11-03",
-      "scheduledAt": "2026-11-03T06:00:00.000Z"
+      "date": "2026-11-02",
+      "scheduledAt": "2026-11-02T06:00:00.000Z"
     },
     {
       "postId": "anna-v3-20261031-03-udareniya",
-      "date": "2026-11-05",
-      "scheduledAt": "2026-11-05T06:00:00.000Z"
+      "date": "2026-11-04",
+      "scheduledAt": "2026-11-04T06:00:00.000Z"
     },
     {
       "postId": "anna-v3-20261031-04-chto-zapyataya",
-      "date": "2026-11-07",
-      "scheduledAt": "2026-11-07T06:00:00.000Z"
+      "date": "2026-11-06",
+      "scheduledAt": "2026-11-06T06:00:00.000Z"
     },
     {
       "postId": "anna-v3-20261031-05-po-priezde",
-      "date": "2026-11-09",
-      "scheduledAt": "2026-11-09T06:00:00.000Z"
+      "date": "2026-11-08",
+      "scheduledAt": "2026-11-08T06:00:00.000Z"
     },
     {
       "postId": "anna-v3-20261031-06-ne-glagol",
-      "date": "2026-11-11",
-      "scheduledAt": "2026-11-11T06:00:00.000Z"
+      "date": "2026-11-10",
+      "scheduledAt": "2026-11-10T06:00:00.000Z"
     },
     {
       "postId": "anna-v3-20261031-07-kommentariy-ege",
-      "date": "2026-11-13",
-      "scheduledAt": "2026-11-13T06:00:00.000Z"
+      "date": "2026-11-12",
+      "scheduledAt": "2026-11-12T06:00:00.000Z"
     },
     {
       "postId": "anna-v3-20261031-08-deeprichastie",
-      "date": "2026-11-15",
-      "scheduledAt": "2026-11-15T06:00:00.000Z"
+      "date": "2026-11-14",
+      "scheduledAt": "2026-11-14T06:00:00.000Z"
     },
     {
       "postId": "anna-v3-20261031-09-omonimy",
-      "date": "2026-11-17",
-      "scheduledAt": "2026-11-17T06:00:00.000Z"
+      "date": "2026-11-16",
+      "scheduledAt": "2026-11-16T06:00:00.000Z"
     },
     {
       "postId": "anna-v3-20261031-10-odna-bukva",
-      "date": "2026-11-19",
-      "scheduledAt": "2026-11-19T06:00:00.000Z"
+      "date": "2026-11-18",
+      "scheduledAt": "2026-11-18T06:00:00.000Z"
     },
     {
       "postId": "anna-v3-20261031-12-skuchayu",
-      "date": "2026-11-21",
-      "scheduledAt": "2026-11-21T06:00:00.000Z"
+      "date": "2026-11-20",
+      "scheduledAt": "2026-11-20T06:00:00.000Z"
     },
     {
       "postId": "anna-v3-20261031-13-lyag",
-      "date": "2026-11-23",
-      "scheduledAt": "2026-11-23T06:00:00.000Z"
+      "date": "2026-11-22",
+      "scheduledAt": "2026-11-22T06:00:00.000Z"
     },
     {
       "postId": "anna-v3-20261031-14-vetrenyy",
-      "date": "2026-11-25",
-      "scheduledAt": "2026-11-25T06:00:00.000Z"
+      "date": "2026-11-24",
+      "scheduledAt": "2026-11-24T06:00:00.000Z"
     },
     {
       "postId": "anna-v3-20261031-15-kofe",
-      "date": "2026-11-27",
-      "scheduledAt": "2026-11-27T06:00:00.000Z"
+      "date": "2026-11-26",
+      "scheduledAt": "2026-11-26T06:00:00.000Z"
     },
     {
       "postId": "anna-v3-20261031-16-oblegchit",
-      "date": "2026-11-29",
-      "scheduledAt": "2026-11-29T06:00:00.000Z"
+      "date": "2026-11-28",
+      "scheduledAt": "2026-11-28T06:00:00.000Z"
     }
   ],
   "scheduleUpdatedAt": "2026-10-31",
-  "scheduleInstruction": "User moved the first publication to tomorrow, 1 November at 09:00 Moscow; keep every-other-day frequency."
+  "scheduleInstruction": "User requested the first Reel immediately on 31 October. Reanchor every-other-day series to 31 October, 2 November ... 28 November; subsequent slots retain 09:00 Moscow.",
+  "immediateFirstRelease": {
+    "postId": "anna-v3-20261031-01-nn-okno",
+    "authorizedAt": "2026-10-31T09:01:53.781Z",
+    "source": "user-current-chat",
+    "instruction": "Publish first now",
+    "note": "09:00 is only the earliest eligibility threshold today; actual release is requested now."
+  }
 }
