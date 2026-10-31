@@ -7563,7 +7563,7 @@
       "format": "Reels",
       "rubric": "Русский с Анной",
       "school": true,
-      "status": "approved",
+      "status": "published",
       "date": "2026-10-31",
       "scheduledAt": "2026-10-31T06:00:00.000Z",
       "publishTime": "09:00",
@@ -7604,14 +7604,18 @@
         "creationAttempts": 1,
         "lastError": null,
         "version": 1,
-        "phase": "publishing",
-        "updatedAt": "2026-10-31T09:05:18.407Z",
+        "phase": "published",
+        "updatedAt": "2026-10-31T09:05:29.617Z",
         "containerId": "18033701972887754",
         "containerCreatedAt": "2026-10-31T09:04:51.724Z",
         "failedStage": null,
         "readyAt": "2026-10-31T09:05:17.094Z",
-        "publishAttemptedAt": "2026-10-31T09:05:18.407Z"
-      }
+        "publishAttemptedAt": "2026-10-31T09:05:18.407Z",
+        "mediaId": "17966970735208469",
+        "publishedAt": "2026-10-31T09:05:29.617Z"
+      },
+      "publishedMediaId": "17966970735208469",
+      "publishedAt": "2026-10-31T09:05:29.617Z"
     },
     {
       "id": "anna-v3-20261031-02-tsya",
