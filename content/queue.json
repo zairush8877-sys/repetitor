@@ -7615,7 +7615,24 @@
         "publishedAt": "2026-10-31T09:05:29.617Z"
       },
       "publishedMediaId": "17966970735208469",
-      "publishedAt": "2026-10-31T09:05:29.617Z"
+      "publishedAt": "2026-10-31T09:05:30.938Z",
+      "storyRepost": {
+        "version": 1,
+        "feedMediaId": "17966970735208469",
+        "status": "pending",
+        "items": [
+          {
+            "index": 1,
+            "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/anna-v3-20261031-01-nn-okno-full.mp4",
+            "sha256": "1bf697527603204af6f35a4ac74c86e9a0943ade30ad3d28d7f271ba3df88a0c",
+            "mediaType": "VIDEO",
+            "mimeType": "video/mp4",
+            "status": "pending",
+            "attempts": 0
+          }
+        ],
+        "sourceKey": "1e2ae218ce8518651bf83672e0d207063ffa5c775de8fb6d30dec7b754f8d060"
+      }
     },
     {
       "id": "anna-v3-20261031-02-tsya",
