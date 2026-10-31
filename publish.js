@@ -651,6 +651,14 @@ let publicationLock;
     saveQueue(queue);
     console.log(`  ✓ Опубликовано, media id: ${mediaId}`);
     await repostToStory(post, queue);
+    if (campaign) {
+      try {
+        const receipt = await api('GET', mediaId, { fields: 'id,permalink,timestamp,media_type,media_product_type' });
+        console.log(`VERIFIED_PUBLISHED_MEDIA ${JSON.stringify({ postId: post.id, ...receipt })}`);
+      } catch (error) {
+        console.warn(`Ссылка ещё не подтверждена чтением Instagram: ${error.message}. Receipt ленты сохранён; повторная отправка не требуется.`);
+      }
+    }
   }
 })().catch(e => { console.error('Ошибка:', e.message); process.exitCode = 1; })
   .finally(() => { if (publicationLock) fs.unlinkSync(publicationLock); });
