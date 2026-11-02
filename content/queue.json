@@ -7681,10 +7681,11 @@
         "lastError": null,
         "version": 1,
         "phase": "preparing",
-        "updatedAt": "2026-11-02T12:31:11.655Z",
+        "updatedAt": "2026-11-02T12:32:19.226Z",
         "containerId": "18034041014887754",
         "containerCreatedAt": "2026-11-02T12:31:11.655Z",
-        "failedStage": null
+        "failedStage": null,
+        "readyAt": "2026-11-02T12:32:19.226Z"
       }
     },
     {
