@@ -7703,7 +7703,7 @@
             "sha256": "f0fe3fafe08fd2f1477b6d9e0153152b77f272698ded835e991c1a598ff5fcf3",
             "mediaType": "VIDEO",
             "mimeType": "video/mp4",
-            "status": "preparing",
+            "status": "publishing",
             "attempts": 1,
             "attemptedAt": "2026-11-02T12:32:37.264Z",
             "containerId": "18034041215887754"
