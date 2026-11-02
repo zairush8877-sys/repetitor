@@ -7691,7 +7691,24 @@
         "publishedAt": "2026-11-02T12:32:34.214Z"
       },
       "publishedMediaId": "18132549829811972",
-      "publishedAt": "2026-11-02T12:32:34.214Z"
+      "publishedAt": "2026-11-02T12:32:35.429Z",
+      "storyRepost": {
+        "version": 1,
+        "feedMediaId": "18132549829811972",
+        "status": "pending",
+        "items": [
+          {
+            "index": 1,
+            "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/anna-v3-20261031-02-tsya-full.mp4",
+            "sha256": "f0fe3fafe08fd2f1477b6d9e0153152b77f272698ded835e991c1a598ff5fcf3",
+            "mediaType": "VIDEO",
+            "mimeType": "video/mp4",
+            "status": "pending",
+            "attempts": 0
+          }
+        ],
+        "sourceKey": "2d65d8c148b7f3fcddea2177e703bb418482305f20f97204266548742c3cb041"
+      }
     },
     {
       "id": "anna-v3-20261031-03-udareniya",
