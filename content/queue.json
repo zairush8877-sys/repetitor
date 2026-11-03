@@ -8125,10 +8125,11 @@
         "lastError": null,
         "version": 1,
         "phase": "preparing",
-        "updatedAt": "2026-11-03T15:34:31.149Z",
+        "updatedAt": "2026-11-03T15:35:00.564Z",
         "containerId": "18034185707887754",
         "containerCreatedAt": "2026-11-03T15:34:31.149Z",
-        "failedStage": null
+        "failedStage": null,
+        "readyAt": "2026-11-03T15:35:00.564Z"
       }
     },
     {
