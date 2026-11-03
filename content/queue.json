@@ -8074,7 +8074,7 @@
         "Тоже верно"
       ],
       "rubric": "Норма языка",
-      "status": "approved",
+      "status": "published",
       "date": "2026-11-03",
       "scheduledAt": "2026-11-03T06:00:00.000Z",
       "campaignId": "anna-retouch-music-v3-20261031",
@@ -8124,14 +8124,18 @@
         "creationAttempts": 1,
         "lastError": null,
         "version": 1,
-        "phase": "publishing",
-        "updatedAt": "2026-11-03T15:35:02.131Z",
+        "phase": "published",
+        "updatedAt": "2026-11-03T15:35:15.058Z",
         "containerId": "18034185707887754",
         "containerCreatedAt": "2026-11-03T15:34:31.149Z",
         "failedStage": null,
         "readyAt": "2026-11-03T15:35:00.564Z",
-        "publishAttemptedAt": "2026-11-03T15:35:02.131Z"
-      }
+        "publishAttemptedAt": "2026-11-03T15:35:02.131Z",
+        "mediaId": "17891778909621915",
+        "publishedAt": "2026-11-03T15:35:15.058Z"
+      },
+      "publishedMediaId": "17891778909621915",
+      "publishedAt": "2026-11-03T15:35:15.058Z"
     },
     {
       "id": "2026-11-classic-02-rast-rashch-ros",
