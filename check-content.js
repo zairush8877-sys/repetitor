@@ -27,8 +27,11 @@ const QUEUE = JSON.parse(fs.readFileSync(path.join(CONTENT, 'queue.json'), 'utf8
 const preparedMedia = require('./prepared-media');
 const preparedIndex = preparedMedia.readIndex();
 const onlyId = process.argv.slice(2).find(a => !a.startsWith('--'));
-const campaign = require('./campaign-feed').readCampaign(CONTENT);
-const selectedCampaignIds = new Set(campaign?.slots.map(s => s.postId) || []);
+const campaignFeed = require('./campaign-feed');
+const campaign = campaignFeed.readCampaign(CONTENT);
+if (campaign) campaignFeed.validate(campaign, QUEUE.posts);
+const primaryCampaignIds = new Set(campaign?.slots.map(s => s.postId) || []);
+const selectedCampaignIds = new Set(campaign ? campaignFeed.allSlots(campaign).map(s => s.postId) : []);
 for (const post of QUEUE.posts) {
   if ((!onlyId || post.id === onlyId) && (!campaign || selectedCampaignIds.has(post.id)) && post.status !== 'published' && preparedIndex.posts?.[post.id]) {
     const ready = preparedMedia.validate(post).post;
@@ -113,7 +116,7 @@ function checkSchoolQuota() {
   for (const p of QUEUE.posts) {
     if (p.status === 'rejected') continue;
     // The author explicitly selected this whole series on 31 October.
-    if (campaign?.schoolQuotaOverride && p.campaignId === campaign.id && selectedCampaignIds.has(p.id)) continue;
+    if (campaign?.schoolQuotaOverride && p.campaignId === campaign.id && primaryCampaignIds.has(p.id)) continue;
     const exam = /ege|oge/i.test(p.id) || /ЕГЭ|ОГЭ/i.test(p.rubric || '');
     if (exam) continue;
     if (p.status !== 'published' && !isSchool(p) && looksSchool(p)) {

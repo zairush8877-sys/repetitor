@@ -18,10 +18,10 @@ const IDS = [
 const CAMPAIGN_ID = 'anna-retouch-music-v3-20261031';
 function fixture() {
   const slots = DATES.map((date, i) => ({ postId: IDS[i], date, scheduledAt: `${date}T19:30:00+03:00` }));
-  const c = { version: 1, status: 'active', timezone: 'Europe/Moscow', id: CAMPAIGN_ID, slots };
+  const c = { version: 1, status: 'active', timezone: 'Europe/Moscow', id: CAMPAIGN_ID, account: 'mairova_a_a', accountId: '17841456632615750', slots };
   const posts = slots.map(s => ({
     id: s.postId, campaignId: c.id, date: s.date, scheduledAt: s.scheduledAt,
-    status: 'approved', captionComplete: true, caption: `Approved caption ${s.postId}`,
+    status: 'approved', format: 'Reels', captionComplete: true, caption: `Approved caption ${s.postId}`,
   }));
   posts.push({ id: 'legacy-approved', status: 'approved', date: '2026-09-01', caption: 'Legacy bank' });
   return { c, posts };

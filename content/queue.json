@@ -8038,6 +8038,562 @@
       "durationSeconds": 8.3,
       "assetVersion": "V3-retouch-music",
       "storyRepostMode": "full_video"
+    },
+    {
+      "id": "2026-11-classic-01-oba-varianta",
+      "format": "Reels",
+      "kicker": "НОРМА ДОПУСКАЕТ ВЫБОР",
+      "rows": [
+        [
+          "тоннель",
+          "туннель"
+        ],
+        [
+          "галоши",
+          "калоши"
+        ],
+        [
+          "фортепиано",
+          "фортепьяно"
+        ],
+        [
+          "ржа́веть",
+          "ржаве́ть"
+        ]
+      ],
+      "school": false,
+      "caption": "Туннель не нужно исправлять на тоннель. В словаре есть оба варианта. Галоши и калоши, фортепиано и фортепьяно тоже допустимы; у глагола «ржаветь» возможны два ударения. Здесь нечего зачёркивать. Устойчивые выражения и названия проверяем отдельно: словарная вариантность не разрешает менять их автоматически.",
+      "hashtags": [
+        "#вариантынормы",
+        "#русскийязык",
+        "#словарь"
+      ],
+      "title": "Тоннель или\nтуннель?",
+      "heads": [
+        "Верно",
+        "Тоже верно"
+      ],
+      "rubric": "Норма языка",
+      "status": "approved",
+      "date": "2026-11-03",
+      "scheduledAt": "2026-11-03T06:00:00.000Z",
+      "campaignId": "anna-retouch-music-v3-20261031",
+      "visualStyle": "classic-table",
+      "hideFooter": true,
+      "showProgress": false,
+      "storyRepostMode": "full_video",
+      "branding": {
+        "show_handle": false,
+        "show_author_signature": false,
+        "show_services_footer": false
+      },
+      "background": "outputs/classic-reels-2026-11-03/assets/library-warm.jpg",
+      "lightBg": true,
+      "generatedBg": false,
+      "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-11-classic-01-oba-varianta.mp4",
+      "coverUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-11-classic-01-oba-varianta-frame.jpg",
+      "coverOffsetMs": 12200,
+      "music": {
+        "file": "bach-goldberg-var1-ishizaka.mp3",
+        "title": "Goldberg Variations, BWV 988: Variatio 1 a 1 Clav.",
+        "piece": "Гольдберг-вариации, BWV 988 — Вариация № 1",
+        "composer": "Иоганн Себастьян Бах",
+        "author": "Kimiko Ishizaka",
+        "performer": "Кимико Ишизака",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "source": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+        "rightsSource": "https://opengoldbergvariations.org/",
+        "download": "https://upload.wikimedia.org/wikipedia/commons/2/20/Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+        "attributionRequired": true,
+        "attribution": "И. С. Бах — Гольдберг-вариации, BWV 988, вариация № 1. Фортепиано: Кимико Ишизака, Open Goldberg Variations (2012). Запись CC0 1.0. Фрагмент, громкость изменена.",
+        "checkedAt": "2026-11-03",
+        "excerptFrom": 0.7,
+        "duration": 32,
+        "active": true,
+        "trendVerified": false,
+        "compositionRights": "Public domain: J. S. Bach (1685–1750)",
+        "recordingRights": "Open Goldberg 2012 recording released under CC0; not inferred from composition age",
+        "sourceSha256": "0539f3612413f6077c82e16f92417bad112e44017536f59db257c8179718076f",
+        "sha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8",
+        "releaseFile": "assets/bach-var1.mp3"
+      }
+    },
+    {
+      "id": "2026-11-classic-02-rast-rashch-ros",
+      "format": "Reels",
+      "kicker": "ЕГЭ • ЧЕРЕДОВАНИЕ В КОРНЕ",
+      "rows": [
+        [
+          "ростение",
+          "растение"
+        ],
+        [
+          "вырощу",
+          "выращу"
+        ],
+        [
+          "вырасли",
+          "выросли"
+        ],
+        [
+          "расток",
+          "росток"
+        ],
+        [
+          "растовщик",
+          "ростовщик"
+        ]
+      ],
+      "school": false,
+      "caption": "Росток и растение пишутся по-разному. Для безударной гласной в корнях раст-/ращ-/рос- обычно перед СТ и Щ пишется А, перед С — О. Но «росток» и «ростовщик» — исключения. Это чередование: одной попытки подобрать ударное слово здесь недостаточно. На экране пять конкретных форм, а не полный список исключений.",
+      "hashtags": [
+        "#егэрусский",
+        "#чередованиекорней",
+        "#орфография"
+      ],
+      "title": "Росток —\nно растение",
+      "rubric": "ЕГЭ — разбор",
+      "status": "approved",
+      "date": "2026-11-05",
+      "scheduledAt": "2026-11-05T06:00:00.000Z",
+      "campaignId": "anna-retouch-music-v3-20261031",
+      "visualStyle": "classic-table",
+      "hideFooter": true,
+      "showProgress": false,
+      "storyRepostMode": "full_video",
+      "branding": {
+        "show_handle": false,
+        "show_author_signature": false,
+        "show_services_footer": false
+      },
+      "background": "outputs/classic-reels-2026-11-03/assets/library-bookshelves.jpg",
+      "lightBg": true,
+      "generatedBg": false,
+      "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-11-classic-02-rast-rashch-ros.mp4",
+      "coverUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-11-classic-02-rast-rashch-ros-frame.jpg",
+      "coverOffsetMs": 14400,
+      "music": {
+        "file": "bach-goldberg-var1-ishizaka.mp3",
+        "title": "Goldberg Variations, BWV 988: Variatio 1 a 1 Clav.",
+        "piece": "Гольдберг-вариации, BWV 988 — Вариация № 1",
+        "composer": "Иоганн Себастьян Бах",
+        "author": "Kimiko Ishizaka",
+        "performer": "Кимико Ишизака",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "source": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+        "rightsSource": "https://opengoldbergvariations.org/",
+        "download": "https://upload.wikimedia.org/wikipedia/commons/2/20/Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+        "attributionRequired": true,
+        "attribution": "И. С. Бах — Гольдберг-вариации, BWV 988, вариация № 1. Фортепиано: Кимико Ишизака, Open Goldberg Variations (2012). Запись CC0 1.0. Фрагмент, громкость изменена.",
+        "checkedAt": "2026-11-03",
+        "excerptFrom": 0.7,
+        "duration": 32,
+        "active": true,
+        "trendVerified": false,
+        "compositionRights": "Public domain: J. S. Bach (1685–1750)",
+        "recordingRights": "Open Goldberg 2012 recording released under CC0; not inferred from composition age",
+        "sourceSha256": "0539f3612413f6077c82e16f92417bad112e44017536f59db257c8179718076f",
+        "sha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8",
+        "releaseFile": "assets/bach-var1.mp3"
+      }
+    },
+    {
+      "id": "2026-11-classic-03-ne-rodstvenniki",
+      "format": "Reels",
+      "kicker": "ОЛИМПИАДНАЯ РАЗМИНКА",
+      "rows": [
+        [
+          "гора — горный",
+          "да"
+        ],
+        [
+          "гора — горевать",
+          "нет"
+        ],
+        [
+          "нос — носовой",
+          "да"
+        ],
+        [
+          "нос — носить",
+          "нет"
+        ]
+      ],
+      "school": true,
+      "caption": "У «горы» и «горного» есть общая смысловая часть. А «гора» и «горевать» не образуют семью однокоренных слов, хотя буквы похожи. Сравните так же нос, носовой и носить. В нашей лингвистической разминке нужно не только ответить «да» или «нет», но и объяснить родство вместе с ребёнком. Совпадения букв для этого недостаточно.",
+      "hashtags": [
+        "#лингвистическаязадача",
+        "#олимпиадапорусскому",
+        "#составслова"
+      ],
+      "title": "Похожи буквы.\nА корни?",
+      "heads": [
+        "Пара",
+        "Родственные?"
+      ],
+      "rubric": "Олимпиадная разминка",
+      "status": "approved",
+      "date": "2026-11-07",
+      "scheduledAt": "2026-11-07T06:00:00.000Z",
+      "campaignId": "anna-retouch-music-v3-20261031",
+      "visualStyle": "classic-table",
+      "hideFooter": true,
+      "showProgress": false,
+      "storyRepostMode": "full_video",
+      "branding": {
+        "show_handle": false,
+        "show_author_signature": false,
+        "show_services_footer": false
+      },
+      "background": "outputs/classic-reels-2026-11-03/assets/library-warm.jpg",
+      "lightBg": true,
+      "generatedBg": false,
+      "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-11-classic-03-ne-rodstvenniki.mp4",
+      "coverUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-11-classic-03-ne-rodstvenniki-frame.jpg",
+      "coverOffsetMs": 12200,
+      "music": {
+        "file": "bach-goldberg-var1-ishizaka.mp3",
+        "title": "Goldberg Variations, BWV 988: Variatio 1 a 1 Clav.",
+        "piece": "Гольдберг-вариации, BWV 988 — Вариация № 1",
+        "composer": "Иоганн Себастьян Бах",
+        "author": "Kimiko Ishizaka",
+        "performer": "Кимико Ишизака",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "source": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+        "rightsSource": "https://opengoldbergvariations.org/",
+        "download": "https://upload.wikimedia.org/wikipedia/commons/2/20/Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+        "attributionRequired": true,
+        "attribution": "И. С. Бах — Гольдберг-вариации, BWV 988, вариация № 1. Фортепиано: Кимико Ишизака, Open Goldberg Variations (2012). Запись CC0 1.0. Фрагмент, громкость изменена.",
+        "checkedAt": "2026-11-03",
+        "excerptFrom": 0.7,
+        "duration": 32,
+        "active": true,
+        "trendVerified": false,
+        "compositionRights": "Public domain: J. S. Bach (1685–1750)",
+        "recordingRights": "Open Goldberg 2012 recording released under CC0; not inferred from composition age",
+        "sourceSha256": "0539f3612413f6077c82e16f92417bad112e44017536f59db257c8179718076f",
+        "sha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8",
+        "releaseFile": "assets/bach-var1.mp3"
+      }
+    },
+    {
+      "id": "2026-11-classic-04-kto-deystvuet",
+      "format": "Reels",
+      "kicker": "ОГЭ • ОДНОСОСТАВНЫЕ ПРЕДЛОЖЕНИЯ",
+      "rows": [
+        [
+          "Пишу письмо.",
+          "определённо-личное"
+        ],
+        [
+          "Позвони мне.",
+          "определённо-личное"
+        ],
+        [
+          "В дверь постучали.",
+          "неопределённо-личное"
+        ],
+        [
+          "На улице поют.",
+          "неопределённо-личное"
+        ]
+      ],
+      "school": false,
+      "caption": "«Пишу письмо» и «на улице поют» устроены по-разному. В первом случае форма глагола указывает на говорящего; в просьбе «Позвони мне» — на собеседника. В двух последних примерах исполнитель не назван и не определён. Разбираем отдельные предложения без предыдущего контекста: если действующее лицо уже известно из разговора, анализ может измениться.",
+      "hashtags": [
+        "#огэрусский",
+        "#односоставныепредложения",
+        "#синтаксис"
+      ],
+      "title": "Подлежащего нет.\nБезличное?",
+      "heads": [
+        "Без подлежащего",
+        "Тип предложения"
+      ],
+      "rubric": "ОГЭ — разбор",
+      "status": "approved",
+      "date": "2026-11-09",
+      "scheduledAt": "2026-11-09T06:00:00.000Z",
+      "campaignId": "anna-retouch-music-v3-20261031",
+      "visualStyle": "classic-table",
+      "hideFooter": true,
+      "showProgress": false,
+      "storyRepostMode": "full_video",
+      "branding": {
+        "show_handle": false,
+        "show_author_signature": false,
+        "show_services_footer": false
+      },
+      "background": "outputs/classic-reels-2026-11-03/assets/library-bookshelves.jpg",
+      "lightBg": true,
+      "generatedBg": false,
+      "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-11-classic-04-kto-deystvuet.mp4",
+      "coverUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-11-classic-04-kto-deystvuet-frame.jpg",
+      "coverOffsetMs": 12200,
+      "music": {
+        "file": "bach-goldberg-var1-ishizaka.mp3",
+        "title": "Goldberg Variations, BWV 988: Variatio 1 a 1 Clav.",
+        "piece": "Гольдберг-вариации, BWV 988 — Вариация № 1",
+        "composer": "Иоганн Себастьян Бах",
+        "author": "Kimiko Ishizaka",
+        "performer": "Кимико Ишизака",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "source": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+        "rightsSource": "https://opengoldbergvariations.org/",
+        "download": "https://upload.wikimedia.org/wikipedia/commons/2/20/Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+        "attributionRequired": true,
+        "attribution": "И. С. Бах — Гольдберг-вариации, BWV 988, вариация № 1. Фортепиано: Кимико Ишизака, Open Goldberg Variations (2012). Запись CC0 1.0. Фрагмент, громкость изменена.",
+        "checkedAt": "2026-11-03",
+        "excerptFrom": 0.7,
+        "duration": 32,
+        "active": true,
+        "trendVerified": false,
+        "compositionRights": "Public domain: J. S. Bach (1685–1750)",
+        "recordingRights": "Open Goldberg 2012 recording released under CC0; not inferred from composition age",
+        "sourceSha256": "0539f3612413f6077c82e16f92417bad112e44017536f59db257c8179718076f",
+        "sha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8",
+        "releaseFile": "assets/bach-var1.mp3"
+      }
+    },
+    {
+      "id": "2026-11-classic-05-probely-v-vyrazheniyah",
+      "format": "Reels",
+      "kicker": "ЧЕТЫРЕ ПРИВЫЧНЫХ ВЫРАЖЕНИЯ",
+      "rows": [
+        [
+          "находу",
+          "на ходу"
+        ],
+        [
+          "сходу",
+          "с ходу"
+        ],
+        [
+          "сразбегу",
+          "с разбегу"
+        ],
+        [
+          "налету",
+          "на лету"
+        ]
+      ],
+      "school": false,
+      "caption": "Ответить с ходу, читать на ходу, прыгнуть с разбегу, схватить на лету. В этих четырёх выражениях нужен пробел. Слитное звучание его не отменяет. Это конкретные словарные сочетания: не стоит превращать таблицу в правило для всех наречий.",
+      "hashtags": [
+        "#русскаяорфография",
+        "#грамотнаяречь",
+        "#написание"
+      ],
+      "title": "На ходу —\nв два слова",
+      "rubric": "Норма языка",
+      "status": "approved",
+      "date": "2026-11-11",
+      "scheduledAt": "2026-11-11T06:00:00.000Z",
+      "campaignId": "anna-retouch-music-v3-20261031",
+      "visualStyle": "classic-table",
+      "hideFooter": true,
+      "showProgress": false,
+      "storyRepostMode": "full_video",
+      "branding": {
+        "show_handle": false,
+        "show_author_signature": false,
+        "show_services_footer": false
+      },
+      "background": "outputs/classic-reels-2026-11-03/assets/library-warm.jpg",
+      "lightBg": true,
+      "generatedBg": false,
+      "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-11-classic-05-probely-v-vyrazheniyah.mp4",
+      "coverUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-11-classic-05-probely-v-vyrazheniyah-frame.jpg",
+      "coverOffsetMs": 12200,
+      "music": {
+        "file": "bach-goldberg-var1-ishizaka.mp3",
+        "title": "Goldberg Variations, BWV 988: Variatio 1 a 1 Clav.",
+        "piece": "Гольдберг-вариации, BWV 988 — Вариация № 1",
+        "composer": "Иоганн Себастьян Бах",
+        "author": "Kimiko Ishizaka",
+        "performer": "Кимико Ишизака",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "source": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+        "rightsSource": "https://opengoldbergvariations.org/",
+        "download": "https://upload.wikimedia.org/wikipedia/commons/2/20/Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+        "attributionRequired": true,
+        "attribution": "И. С. Бах — Гольдберг-вариации, BWV 988, вариация № 1. Фортепиано: Кимико Ишизака, Open Goldberg Variations (2012). Запись CC0 1.0. Фрагмент, громкость изменена.",
+        "checkedAt": "2026-11-03",
+        "excerptFrom": 0.7,
+        "duration": 32,
+        "active": true,
+        "trendVerified": false,
+        "compositionRights": "Public domain: J. S. Bach (1685–1750)",
+        "recordingRights": "Open Goldberg 2012 recording released under CC0; not inferred from composition age",
+        "sourceSha256": "0539f3612413f6077c82e16f92417bad112e44017536f59db257c8179718076f",
+        "sha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8",
+        "releaseFile": "assets/bach-var1.mp3"
+      }
+    },
+    {
+      "id": "2026-11-classic-06-anafora-epifora",
+      "format": "Reels",
+      "kicker": "ЕГЭ • СРЕДСТВА ВЫРАЗИТЕЛЬНОСТИ",
+      "rows": [
+        [
+          "Я жду. Я верю.",
+          "анафора"
+        ],
+        [
+          "Снова дождь. Снова ветер.",
+          "анафора"
+        ],
+        [
+          "Ждали тебя. Искали тебя.",
+          "эпифора"
+        ],
+        [
+          "Говорили тихо. Ушли тихо.",
+          "эпифора"
+        ]
+      ],
+      "school": false,
+      "caption": "В наших коротких примерах повтор занимает разное место. «Я жду. Я верю» — повтор в начале соседних фраз, анафора. «Ждали тебя. Искали тебя» — повтор в конце, эпифора. В экзаменационном тексте проверяем устройство всего фрагмента, а не одно повторившееся слово. Примеры составлены для объяснения и не приписаны писателю.",
+      "hashtags": [
+        "#егэрусский",
+        "#средствавыразительности",
+        "#анафора"
+      ],
+      "title": "Повтор в начале.\nИли в конце?",
+      "heads": [
+        "Где повтор?",
+        "Приём"
+      ],
+      "rubric": "ЕГЭ — разбор",
+      "status": "approved",
+      "date": "2026-11-13",
+      "scheduledAt": "2026-11-13T06:00:00.000Z",
+      "campaignId": "anna-retouch-music-v3-20261031",
+      "visualStyle": "classic-table",
+      "hideFooter": true,
+      "showProgress": false,
+      "storyRepostMode": "full_video",
+      "branding": {
+        "show_handle": false,
+        "show_author_signature": false,
+        "show_services_footer": false
+      },
+      "background": "outputs/classic-reels-2026-11-03/assets/library-bookshelves.jpg",
+      "lightBg": true,
+      "generatedBg": false,
+      "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-11-classic-06-anafora-epifora.mp4",
+      "coverUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-11-classic-06-anafora-epifora-frame.jpg",
+      "coverOffsetMs": 12200,
+      "music": {
+        "file": "bach-goldberg-var1-ishizaka.mp3",
+        "title": "Goldberg Variations, BWV 988: Variatio 1 a 1 Clav.",
+        "piece": "Гольдберг-вариации, BWV 988 — Вариация № 1",
+        "composer": "Иоганн Себастьян Бах",
+        "author": "Kimiko Ishizaka",
+        "performer": "Кимико Ишизака",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "source": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+        "rightsSource": "https://opengoldbergvariations.org/",
+        "download": "https://upload.wikimedia.org/wikipedia/commons/2/20/Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+        "attributionRequired": true,
+        "attribution": "И. С. Бах — Гольдберг-вариации, BWV 988, вариация № 1. Фортепиано: Кимико Ишизака, Open Goldberg Variations (2012). Запись CC0 1.0. Фрагмент, громкость изменена.",
+        "checkedAt": "2026-11-03",
+        "excerptFrom": 0.7,
+        "duration": 32,
+        "active": true,
+        "trendVerified": false,
+        "compositionRights": "Public domain: J. S. Bach (1685–1750)",
+        "recordingRights": "Open Goldberg 2012 recording released under CC0; not inferred from composition age",
+        "sourceSha256": "0539f3612413f6077c82e16f92417bad112e44017536f59db257c8179718076f",
+        "sha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8",
+        "releaseFile": "assets/bach-var1.mp3"
+      }
+    },
+    {
+      "id": "2026-11-classic-07-bukvy-zvuki",
+      "format": "Reels",
+      "kicker": "ОЛИМПИАДНАЯ РАЗМИНКА",
+      "rows": [
+        [
+          "яма: 3 буквы",
+          "4 звука"
+        ],
+        [
+          "мяч: 3 буквы",
+          "3 звука"
+        ],
+        [
+          "семья: 5 букв",
+          "5 звуков"
+        ],
+        [
+          "соль: 4 буквы",
+          "3 звука"
+        ]
+      ],
+      "school": true,
+      "caption": "В слове «семья» пять букв и пять звуков. Но это не значит, что каждая буква обозначает один звук: мягкий знак отдельного звука не даёт, а Я после него обозначает два. Количества сравнялись по разным причинам. Предложите ребёнку сначала объяснить эту строку, а потом проверить остальные три. Это наша авторская лингвистическая разминка.",
+      "hashtags": [
+        "#лингвистическаязадача",
+        "#олимпиадапорусскому",
+        "#буквыизвуки"
+      ],
+      "title": "Поровну —\nне значит по одному",
+      "heads": [
+        "Слово и буквы",
+        "Звуки"
+      ],
+      "rubric": "Олимпиадная разминка",
+      "status": "approved",
+      "date": "2026-11-15",
+      "scheduledAt": "2026-11-15T06:00:00.000Z",
+      "campaignId": "anna-retouch-music-v3-20261031",
+      "visualStyle": "classic-table",
+      "hideFooter": true,
+      "showProgress": false,
+      "storyRepostMode": "full_video",
+      "branding": {
+        "show_handle": false,
+        "show_author_signature": false,
+        "show_services_footer": false
+      },
+      "background": "outputs/classic-reels-2026-11-03/assets/library-warm.jpg",
+      "lightBg": true,
+      "generatedBg": false,
+      "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-11-classic-07-bukvy-zvuki.mp4",
+      "coverUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-11-classic-07-bukvy-zvuki-frame.jpg",
+      "coverOffsetMs": 12200,
+      "music": {
+        "file": "bach-goldberg-var1-ishizaka.mp3",
+        "title": "Goldberg Variations, BWV 988: Variatio 1 a 1 Clav.",
+        "piece": "Гольдберг-вариации, BWV 988 — Вариация № 1",
+        "composer": "Иоганн Себастьян Бах",
+        "author": "Kimiko Ishizaka",
+        "performer": "Кимико Ишизака",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "source": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+        "rightsSource": "https://opengoldbergvariations.org/",
+        "download": "https://upload.wikimedia.org/wikipedia/commons/2/20/Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+        "attributionRequired": true,
+        "attribution": "И. С. Бах — Гольдберг-вариации, BWV 988, вариация № 1. Фортепиано: Кимико Ишизака, Open Goldberg Variations (2012). Запись CC0 1.0. Фрагмент, громкость изменена.",
+        "checkedAt": "2026-11-03",
+        "excerptFrom": 0.7,
+        "duration": 32,
+        "active": true,
+        "trendVerified": false,
+        "compositionRights": "Public domain: J. S. Bach (1685–1750)",
+        "recordingRights": "Open Goldberg 2012 recording released under CC0; not inferred from composition age",
+        "sourceSha256": "0539f3612413f6077c82e16f92417bad112e44017536f59db257c8179718076f",
+        "sha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8",
+        "releaseFile": "assets/bach-var1.mp3"
+      }
     }
   ],
   "account_id": "17841456632615750"

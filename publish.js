@@ -492,7 +492,7 @@ let publicationLock;
   if (checkOnly) return;
   if (campaignAudit || campaignUploadProbe) {
     if (!campaign) throw new Error('No active campaign');
-    for (const slot of campaign.slots) {
+    for (const slot of campaignFeed.allSlots(campaign)) {
       const checked = require('./prepared-media').validate(queueRaw.posts.find(p => p.id === slot.postId));
       for (const a of [...checked.entry.files, ...checked.repost.assets]) {
         const response = await fetch(assetUrl(a.url), { signal: AbortSignal.timeout(45000) });
@@ -500,7 +500,7 @@ let publicationLock;
       }
     }
     await campaignHistory(queueRaw);
-    console.log(`Campaign audit passed: ${campaign.slots.length} exact V3 videos, covers and complete Story reposts; no publishing calls`);
+    console.log(`Campaign audit passed: ${campaignFeed.allSlots(campaign).length} explicitly selected videos, covers and complete Story reposts; no publishing calls`);
     if (campaignUploadProbe) {
       // An unpublished container verifies Meta can ingest this exact encode and cover.
       // It is never passed to media_publish and expires independently of the calendar.

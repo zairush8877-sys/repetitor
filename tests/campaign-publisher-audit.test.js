@@ -18,16 +18,22 @@ function fixture() {
     const at = new Date(Date.UTC(2026, 9, 31 + 2 * i, 16, 30));
     return { postId: `audit-reel-${i + 1}`, date: at.toISOString().slice(0, 10), scheduledAt: at.toISOString() };
   });
-  const campaign = { version: 1, status: 'active', timezone: 'Europe/Moscow', id: 'audit-series', account: 'mairova_a_a', accountId: '123', slots };
+  const campaign = { version: 1, status: 'active', timezone: 'Europe/Moscow', id: 'anna-retouch-music-v3-20261031', account: 'mairova_a_a', accountId: '17841456632615750', slots };
   const posts = slots.map(slot => ({
     id: slot.postId, campaignId: campaign.id, date: slot.date, scheduledAt: slot.scheduledAt,
-    status: 'approved', captionComplete: true, caption: `Approved ${slot.postId}`,
+    status: 'approved', format: 'Reels', captionComplete: true, caption: `Approved ${slot.postId}`,
   }));
   return { campaign, queue: { account_id: campaign.accountId, posts } };
 }
 
-async function audit({ history = { data: [] }, corruptAsset = false, unknownPhase = false, probe = false } = {}) {
+async function audit({ history = { data: [] }, corruptAsset = false, unknownPhase = false, probe = false, additional = false } = {}) {
   const { campaign, queue } = fixture();
+  if (additional) {
+    const slot = { postId: 'audit-classic-extra', date: '2026-11-03', scheduledAt: '2026-11-03T16:30:00.000Z' };
+    campaign.additionalSlots = [slot];
+    queue.posts.push({ id: slot.postId, campaignId: campaign.id, date: slot.date, scheduledAt: slot.scheduledAt,
+      status: 'approved', format: 'Reels', captionComplete: true, caption: 'Additional explicitly selected classic' });
+  }
   if (unknownPhase) queue.posts[0].feedDelivery = { phase: 'unknown', containerId: 'saved-container' };
   const before = JSON.stringify(queue);
   const calls = [], validated = [], forbidden = [];
@@ -67,7 +73,7 @@ async function audit({ history = { data: [] }, corruptAsset = false, unknownPhas
       calls.push(request);
       if (request.method === 'POST') {
         assert.ok(probe, 'Only an explicitly requested upload probe may create a container');
-        assert.equal(new URL(request.url).pathname, '/v23.0/123/media', 'Probe must never call media_publish');
+        assert.equal(new URL(request.url).pathname, `/v23.0/${campaign.accountId}/media`, 'Probe must never call media_publish');
         assert.equal(options.body.get('video_url'), 'https://fixture.test/exact-v3.mp4');
         assert.equal(options.body.get('cover_url'), 'https://fixture.test/exact-cover.jpg');
         assert.equal(options.body.get('caption'), queue.posts[0].caption);
@@ -124,4 +130,14 @@ test('explicit ingest probe creates exactly one unpublished container using exac
   assert.equal(result.calls.filter(c => c.method === 'POST').length, 1);
   assert.equal(result.validated.length, 16);
   assert.ok(result.calls.every(c => !new URL(c.url).pathname.endsWith('/media_publish')));
+});
+
+
+test('read-only audit includes an additional classic without POSTs or persistence', async () => {
+  const result = await audit({ additional: true });
+  assert.equal(result.exitCode, 0);
+  assert.deepEqual(result.validated, result.expectedIds);
+  assert.equal(result.validated.length, 16);
+  assert.ok(result.calls.every(call => call.method === 'GET'));
+  assert.equal(result.calls.length, 18, 'one account read, sixteen assets, one history read');
 });

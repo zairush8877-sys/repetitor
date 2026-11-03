@@ -95,5 +95,48 @@
     "source": "user-current-chat",
     "instruction": "Publish first now",
     "note": "09:00 is only the earliest eligibility threshold today; actual release is requested now."
+  },
+  "additionalSlots": [
+    {
+      "date": "2026-11-03",
+      "scheduledAt": "2026-11-03T06:00:00.000Z",
+      "postId": "2026-11-classic-01-oba-varianta"
+    },
+    {
+      "date": "2026-11-05",
+      "scheduledAt": "2026-11-05T06:00:00.000Z",
+      "postId": "2026-11-classic-02-rast-rashch-ros"
+    },
+    {
+      "date": "2026-11-07",
+      "scheduledAt": "2026-11-07T06:00:00.000Z",
+      "postId": "2026-11-classic-03-ne-rodstvenniki"
+    },
+    {
+      "date": "2026-11-09",
+      "scheduledAt": "2026-11-09T06:00:00.000Z",
+      "postId": "2026-11-classic-04-kto-deystvuet"
+    },
+    {
+      "date": "2026-11-11",
+      "scheduledAt": "2026-11-11T06:00:00.000Z",
+      "postId": "2026-11-classic-05-probely-v-vyrazheniyah"
+    },
+    {
+      "date": "2026-11-13",
+      "scheduledAt": "2026-11-13T06:00:00.000Z",
+      "postId": "2026-11-classic-06-anafora-epifora"
+    },
+    {
+      "date": "2026-11-15",
+      "scheduledAt": "2026-11-15T06:00:00.000Z",
+      "postId": "2026-11-classic-07-bukvy-zvuki"
+    }
+  ],
+  "additionalSlotAuthorization": {
+    "date": "2026-11-03",
+    "scope": "New classic table Reels requested and publication authorized by author; no author/services footer; include Olympiad topics.",
+    "calendarChoice": "Preserve all existing V3 slots; add new materials only on free dates, one feed publication per day.",
+    "firstRelease": "Publish first new approved classic on 3 November after QA, using existing sender and account guard."
   }
 }
