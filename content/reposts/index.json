@@ -2608,7 +2608,7 @@
     "2026-11-classic-02-rast-rashch-ros": {
       "kind": "reel_video",
       "sourceKey": "663962cfb587af32d1e3803183c75320d0665d48465e5005fe09596fb15fb6e4",
-      "renderedAt": "2026-11-03T15:15:22.027Z",
+      "renderedAt": "2026-11-03T20:59:00.843Z",
       "publicationStatus": "export_only",
       "assets": [
         {
@@ -2619,7 +2619,7 @@
           "height": 1920,
           "mediaType": "VIDEO",
           "mimeType": "video/mp4",
-          "sha256": "11271c95440f59649548c111aefa0d96d1810c46e46b56c59f5db4a7a86989db",
+          "sha256": "41f51659dda49f6feb644cbbfe7d3a7a51ef64134790fe7ff7104c743582d40d",
           "geometry": {
             "sourceWidth": 1080,
             "sourceHeight": 1920,
@@ -2642,8 +2642,8 @@
               "width": 1080,
               "height": 1920
             },
-            "sourceSha256": "11271c95440f59649548c111aefa0d96d1810c46e46b56c59f5db4a7a86989db",
-            "sha256": "11271c95440f59649548c111aefa0d96d1810c46e46b56c59f5db4a7a86989db"
+            "sourceSha256": "41f51659dda49f6feb644cbbfe7d3a7a51ef64134790fe7ff7104c743582d40d",
+            "sha256": "41f51659dda49f6feb644cbbfe7d3a7a51ef64134790fe7ff7104c743582d40d"
           }
         }
       ]
@@ -2651,7 +2651,7 @@
     "2026-11-classic-03-ne-rodstvenniki": {
       "kind": "reel_video",
       "sourceKey": "343c463f9f6ff7fb76e65c3e8affe5f3b0d9b9cf8a146bdf8f15d2d4854bc7f2",
-      "renderedAt": "2026-11-03T15:15:22.030Z",
+      "renderedAt": "2026-11-03T20:59:00.859Z",
       "publicationStatus": "export_only",
       "assets": [
         {
@@ -2662,7 +2662,7 @@
           "height": 1920,
           "mediaType": "VIDEO",
           "mimeType": "video/mp4",
-          "sha256": "1e8174ee9fdf74922950828b57a5c67f6a051521633c9a9cb31f45b39d479450",
+          "sha256": "db2e870681aff2a0d8fa434f49c678ccbdffd463e5571a38b6d3c18013f5ac4c",
           "geometry": {
             "sourceWidth": 1080,
             "sourceHeight": 1920,
@@ -2685,8 +2685,8 @@
               "width": 1080,
               "height": 1920
             },
-            "sourceSha256": "1e8174ee9fdf74922950828b57a5c67f6a051521633c9a9cb31f45b39d479450",
-            "sha256": "1e8174ee9fdf74922950828b57a5c67f6a051521633c9a9cb31f45b39d479450"
+            "sourceSha256": "db2e870681aff2a0d8fa434f49c678ccbdffd463e5571a38b6d3c18013f5ac4c",
+            "sha256": "db2e870681aff2a0d8fa434f49c678ccbdffd463e5571a38b6d3c18013f5ac4c"
           }
         }
       ]
@@ -2694,7 +2694,7 @@
     "2026-11-classic-04-kto-deystvuet": {
       "kind": "reel_video",
       "sourceKey": "a29f549119031c9036f996fc963757bad9a1def373a1ebb69bac22a66dfd5c8e",
-      "renderedAt": "2026-11-03T15:15:22.033Z",
+      "renderedAt": "2026-11-03T20:59:00.872Z",
       "publicationStatus": "export_only",
       "assets": [
         {
@@ -2705,7 +2705,7 @@
           "height": 1920,
           "mediaType": "VIDEO",
           "mimeType": "video/mp4",
-          "sha256": "ca8aaa7a44767abaebbab81517ce762097ff58955d03db4db589a9f66cf0ebac",
+          "sha256": "ca353d4de2904dd231f58a27533849dc90b8d308057f5bb36d92014949dc556b",
           "geometry": {
             "sourceWidth": 1080,
             "sourceHeight": 1920,
@@ -2728,8 +2728,8 @@
               "width": 1080,
               "height": 1920
             },
-            "sourceSha256": "ca8aaa7a44767abaebbab81517ce762097ff58955d03db4db589a9f66cf0ebac",
-            "sha256": "ca8aaa7a44767abaebbab81517ce762097ff58955d03db4db589a9f66cf0ebac"
+            "sourceSha256": "ca353d4de2904dd231f58a27533849dc90b8d308057f5bb36d92014949dc556b",
+            "sha256": "ca353d4de2904dd231f58a27533849dc90b8d308057f5bb36d92014949dc556b"
           }
         }
       ]
@@ -2737,7 +2737,7 @@
     "2026-11-classic-05-probely-v-vyrazheniyah": {
       "kind": "reel_video",
       "sourceKey": "088e82a9e4c47ef2f7964c19231a62ad88e39d33b116d4e2f696f2c6e899819d",
-      "renderedAt": "2026-11-03T15:15:22.035Z",
+      "renderedAt": "2026-11-03T20:59:00.885Z",
       "publicationStatus": "export_only",
       "assets": [
         {
@@ -2748,7 +2748,7 @@
           "height": 1920,
           "mediaType": "VIDEO",
           "mimeType": "video/mp4",
-          "sha256": "88deae7b1fc47bb8bafdc7e76a1b0ea49a78657559754eac7549ff70b08baa09",
+          "sha256": "87be335d41bdf9cb8c2fcbb6bb8f0af167c3d1fee2ceff7ceeec9b7e8a42805e",
           "geometry": {
             "sourceWidth": 1080,
             "sourceHeight": 1920,
@@ -2771,8 +2771,8 @@
               "width": 1080,
               "height": 1920
             },
-            "sourceSha256": "88deae7b1fc47bb8bafdc7e76a1b0ea49a78657559754eac7549ff70b08baa09",
-            "sha256": "88deae7b1fc47bb8bafdc7e76a1b0ea49a78657559754eac7549ff70b08baa09"
+            "sourceSha256": "87be335d41bdf9cb8c2fcbb6bb8f0af167c3d1fee2ceff7ceeec9b7e8a42805e",
+            "sha256": "87be335d41bdf9cb8c2fcbb6bb8f0af167c3d1fee2ceff7ceeec9b7e8a42805e"
           }
         }
       ]
@@ -2780,7 +2780,7 @@
     "2026-11-classic-06-anafora-epifora": {
       "kind": "reel_video",
       "sourceKey": "1f9a639be5dc8c10f5c4c3d3cf9ecc4eb284e45f6882fabdabc04d6d848f7ac3",
-      "renderedAt": "2026-11-03T15:15:22.038Z",
+      "renderedAt": "2026-11-03T20:59:00.895Z",
       "publicationStatus": "export_only",
       "assets": [
         {
@@ -2791,7 +2791,7 @@
           "height": 1920,
           "mediaType": "VIDEO",
           "mimeType": "video/mp4",
-          "sha256": "72b5cdaf3e24289e21be74ce5f573a96869f0503178316808742a28b0bf217c9",
+          "sha256": "17c99fb7cdbe296d50d36658e2997865ddcf809b20cb8a494d2d582b26f2a0bf",
           "geometry": {
             "sourceWidth": 1080,
             "sourceHeight": 1920,
@@ -2814,8 +2814,8 @@
               "width": 1080,
               "height": 1920
             },
-            "sourceSha256": "72b5cdaf3e24289e21be74ce5f573a96869f0503178316808742a28b0bf217c9",
-            "sha256": "72b5cdaf3e24289e21be74ce5f573a96869f0503178316808742a28b0bf217c9"
+            "sourceSha256": "17c99fb7cdbe296d50d36658e2997865ddcf809b20cb8a494d2d582b26f2a0bf",
+            "sha256": "17c99fb7cdbe296d50d36658e2997865ddcf809b20cb8a494d2d582b26f2a0bf"
           }
         }
       ]
@@ -2823,7 +2823,7 @@
     "2026-11-classic-07-bukvy-zvuki": {
       "kind": "reel_video",
       "sourceKey": "4378d75637200c126effac6f550d9624d4966e262e52c4ae697ab1dbe3c3f98a",
-      "renderedAt": "2026-11-03T15:15:22.041Z",
+      "renderedAt": "2026-11-03T20:59:00.998Z",
       "publicationStatus": "export_only",
       "assets": [
         {
@@ -2834,7 +2834,7 @@
           "height": 1920,
           "mediaType": "VIDEO",
           "mimeType": "video/mp4",
-          "sha256": "2955673f3c6ed62025326b9abaf9f33f265aebbe8d1f73562e0b1aba257823d4",
+          "sha256": "6f6fdc732c1f94a917685b6c8559af8a158fb2c6a9c27976e29f6d0aa4012ff9",
           "geometry": {
             "sourceWidth": 1080,
             "sourceHeight": 1920,
@@ -2857,8 +2857,8 @@
               "width": 1080,
               "height": 1920
             },
-            "sourceSha256": "2955673f3c6ed62025326b9abaf9f33f265aebbe8d1f73562e0b1aba257823d4",
-            "sha256": "2955673f3c6ed62025326b9abaf9f33f265aebbe8d1f73562e0b1aba257823d4"
+            "sourceSha256": "6f6fdc732c1f94a917685b6c8559af8a158fb2c6a9c27976e29f6d0aa4012ff9",
+            "sha256": "6f6fdc732c1f94a917685b6c8559af8a158fb2c6a9c27976e29f6d0aa4012ff9"
           }
         }
       ]
@@ -2866,7 +2866,7 @@
     "2026-11-classic-08-menu": {
       "kind": "reel_video",
       "sourceKey": "507687c8c36d30ed220024d7826b887f4922ea0bf336551cfbd73e7b76c2e65b",
-      "renderedAt": "2026-11-03T20:31:29.911Z",
+      "renderedAt": "2026-11-03T20:59:00.904Z",
       "publicationStatus": "export_only",
       "assets": [
         {
@@ -2877,7 +2877,7 @@
           "height": 1920,
           "mediaType": "VIDEO",
           "mimeType": "video/mp4",
-          "sha256": "59ecba0bb35bd595a1fd1a47dadc49968d3036356b0fafc34d110f368e84273e",
+          "sha256": "5c460381033e91cf928d73e6ce25d3311212bd800df89d99081c6ab7d4555b36",
           "geometry": {
             "sourceWidth": 1080,
             "sourceHeight": 1920,
@@ -2900,8 +2900,8 @@
               "width": 1080,
               "height": 1920
             },
-            "sourceSha256": "59ecba0bb35bd595a1fd1a47dadc49968d3036356b0fafc34d110f368e84273e",
-            "sha256": "59ecba0bb35bd595a1fd1a47dadc49968d3036356b0fafc34d110f368e84273e"
+            "sourceSha256": "5c460381033e91cf928d73e6ce25d3311212bd800df89d99081c6ab7d4555b36",
+            "sha256": "5c460381033e91cf928d73e6ce25d3311212bd800df89d99081c6ab7d4555b36"
           }
         }
       ]
@@ -2909,7 +2909,7 @@
     "2026-11-classic-09-frukty": {
       "kind": "reel_video",
       "sourceKey": "bb1499529c0dfb69cf9113b75fda43fb5979e5c33832f496cd11591f778a18ff",
-      "renderedAt": "2026-11-03T20:31:29.915Z",
+      "renderedAt": "2026-11-03T20:59:00.913Z",
       "publicationStatus": "export_only",
       "assets": [
         {
@@ -2920,7 +2920,7 @@
           "height": 1920,
           "mediaType": "VIDEO",
           "mimeType": "video/mp4",
-          "sha256": "e42be398c04c76a7749490dc1d3651293354dbf89a7fe76439a0da7f6ab901b7",
+          "sha256": "421ec1a0e3642f90ef97955e998161c10dc48ce5d94db8cca57bb3207dc51b3f",
           "geometry": {
             "sourceWidth": 1080,
             "sourceHeight": 1920,
@@ -2943,8 +2943,8 @@
               "width": 1080,
               "height": 1920
             },
-            "sourceSha256": "e42be398c04c76a7749490dc1d3651293354dbf89a7fe76439a0da7f6ab901b7",
-            "sha256": "e42be398c04c76a7749490dc1d3651293354dbf89a7fe76439a0da7f6ab901b7"
+            "sourceSha256": "421ec1a0e3642f90ef97955e998161c10dc48ce5d94db8cca57bb3207dc51b3f",
+            "sha256": "421ec1a0e3642f90ef97955e998161c10dc48ce5d94db8cca57bb3207dc51b3f"
           }
         }
       ]
@@ -2952,7 +2952,7 @@
     "2026-11-classic-10-sochetaemost": {
       "kind": "reel_video",
       "sourceKey": "727fea4d85e9dd6627ebbb57bda6fa77377e39dca695ddf2a6a721783e5c6990",
-      "renderedAt": "2026-11-03T20:31:29.919Z",
+      "renderedAt": "2026-11-03T20:59:00.920Z",
       "publicationStatus": "export_only",
       "assets": [
         {
@@ -2963,7 +2963,7 @@
           "height": 1920,
           "mediaType": "VIDEO",
           "mimeType": "video/mp4",
-          "sha256": "6978c195fa1d9e2cfe8ca78517503ed645d8fd2ea9d26df235a5aae66804e9d9",
+          "sha256": "d20761cece12a8df9d1f942f71913de871739debcf04dbcf27f758cc9ed535b9",
           "geometry": {
             "sourceWidth": 1080,
             "sourceHeight": 1920,
@@ -2986,8 +2986,8 @@
               "width": 1080,
               "height": 1920
             },
-            "sourceSha256": "6978c195fa1d9e2cfe8ca78517503ed645d8fd2ea9d26df235a5aae66804e9d9",
-            "sha256": "6978c195fa1d9e2cfe8ca78517503ed645d8fd2ea9d26df235a5aae66804e9d9"
+            "sourceSha256": "d20761cece12a8df9d1f942f71913de871739debcf04dbcf27f758cc9ed535b9",
+            "sha256": "d20761cece12a8df9d1f942f71913de871739debcf04dbcf27f758cc9ed535b9"
           }
         }
       ]
@@ -2995,7 +2995,7 @@
     "2026-11-classic-11-vovremya": {
       "kind": "reel_video",
       "sourceKey": "fbf44ea20bb4cdec7434c6b91856da72fc84f534b0228d59fbb54c576d51752d",
-      "renderedAt": "2026-11-03T20:31:29.923Z",
+      "renderedAt": "2026-11-03T20:59:00.926Z",
       "publicationStatus": "export_only",
       "assets": [
         {
@@ -3006,7 +3006,7 @@
           "height": 1920,
           "mediaType": "VIDEO",
           "mimeType": "video/mp4",
-          "sha256": "ee48cb1c20b0f938daf2c872188f8301c277e3e2041d81bb95777aee3e840c75",
+          "sha256": "8ea94a25cd84276331c3272bf7fa6d2c358101b37bd5a574d0f3723f2a3e6f7f",
           "geometry": {
             "sourceWidth": 1080,
             "sourceHeight": 1920,
@@ -3029,8 +3029,8 @@
               "width": 1080,
               "height": 1920
             },
-            "sourceSha256": "ee48cb1c20b0f938daf2c872188f8301c277e3e2041d81bb95777aee3e840c75",
-            "sha256": "ee48cb1c20b0f938daf2c872188f8301c277e3e2041d81bb95777aee3e840c75"
+            "sourceSha256": "8ea94a25cd84276331c3272bf7fa6d2c358101b37bd5a574d0f3723f2a3e6f7f",
+            "sha256": "8ea94a25cd84276331c3272bf7fa6d2c358101b37bd5a574d0f3723f2a3e6f7f"
           }
         }
       ]
@@ -3038,7 +3038,7 @@
     "2026-11-classic-12-mesto-tema": {
       "kind": "reel_video",
       "sourceKey": "303f1e5b316d6d174e95e1f25d1c8e1c927db32f22124f2c3b87e8d33c08c6c3",
-      "renderedAt": "2026-11-03T20:31:29.927Z",
+      "renderedAt": "2026-11-03T20:59:00.935Z",
       "publicationStatus": "export_only",
       "assets": [
         {
@@ -3049,7 +3049,7 @@
           "height": 1920,
           "mediaType": "VIDEO",
           "mimeType": "video/mp4",
-          "sha256": "7f88d4636892f25af23c6fc7660a6d3511e673d121e12db7d3b8903bba01a574",
+          "sha256": "4940fd25f1a2517212b8ea5e894972f5b4881257868d4cb4608d52ef1a55a9b3",
           "geometry": {
             "sourceWidth": 1080,
             "sourceHeight": 1920,
@@ -3072,8 +3072,8 @@
               "width": 1080,
               "height": 1920
             },
-            "sourceSha256": "7f88d4636892f25af23c6fc7660a6d3511e673d121e12db7d3b8903bba01a574",
-            "sha256": "7f88d4636892f25af23c6fc7660a6d3511e673d121e12db7d3b8903bba01a574"
+            "sourceSha256": "4940fd25f1a2517212b8ea5e894972f5b4881257868d4cb4608d52ef1a55a9b3",
+            "sha256": "4940fd25f1a2517212b8ea5e894972f5b4881257868d4cb4608d52ef1a55a9b3"
           }
         }
       ]
@@ -3081,7 +3081,7 @@
     "2026-11-classic-13-mashet": {
       "kind": "reel_video",
       "sourceKey": "159c0388086f09ea75028b93c780b8f488147a4dd5ec05fa724a5faee4e75b91",
-      "renderedAt": "2026-11-03T20:31:29.931Z",
+      "renderedAt": "2026-11-03T20:59:00.947Z",
       "publicationStatus": "export_only",
       "assets": [
         {
@@ -3092,7 +3092,7 @@
           "height": 1920,
           "mediaType": "VIDEO",
           "mimeType": "video/mp4",
-          "sha256": "7897c7b96fd8ce49dce34b28a87f1165cf2ec23c2de394f96b485fa05f6ed5b3",
+          "sha256": "3aa1696ce400297df2b7684a62dc7d123a8a8a731e18945524c7ec84d27b117f",
           "geometry": {
             "sourceWidth": 1080,
             "sourceHeight": 1920,
@@ -3115,8 +3115,8 @@
               "width": 1080,
               "height": 1920
             },
-            "sourceSha256": "7897c7b96fd8ce49dce34b28a87f1165cf2ec23c2de394f96b485fa05f6ed5b3",
-            "sha256": "7897c7b96fd8ce49dce34b28a87f1165cf2ec23c2de394f96b485fa05f6ed5b3"
+            "sourceSha256": "3aa1696ce400297df2b7684a62dc7d123a8a8a731e18945524c7ec84d27b117f",
+            "sha256": "3aa1696ce400297df2b7684a62dc7d123a8a8a731e18945524c7ec84d27b117f"
           }
         }
       ]
@@ -3124,7 +3124,7 @@
     "2026-11-classic-14-ekonomnyy": {
       "kind": "reel_video",
       "sourceKey": "1a058d2eadf68d63e7d5a43acb30d2ed95b49f859e282eca0799b7e0ae7bc016",
-      "renderedAt": "2026-11-03T20:31:29.936Z",
+      "renderedAt": "2026-11-03T20:59:00.958Z",
       "publicationStatus": "export_only",
       "assets": [
         {
@@ -3135,7 +3135,7 @@
           "height": 1920,
           "mediaType": "VIDEO",
           "mimeType": "video/mp4",
-          "sha256": "82ae0a660c1707bde4cf2566205365d283c87db6523452f904d10492d5abf0e2",
+          "sha256": "b608bb78f8f5b5ccedf5f3509eba60e9d013010d8420706323949269468e6f2d",
           "geometry": {
             "sourceWidth": 1080,
             "sourceHeight": 1920,
@@ -3158,8 +3158,8 @@
               "width": 1080,
               "height": 1920
             },
-            "sourceSha256": "82ae0a660c1707bde4cf2566205365d283c87db6523452f904d10492d5abf0e2",
-            "sha256": "82ae0a660c1707bde4cf2566205365d283c87db6523452f904d10492d5abf0e2"
+            "sourceSha256": "b608bb78f8f5b5ccedf5f3509eba60e9d013010d8420706323949269468e6f2d",
+            "sha256": "b608bb78f8f5b5ccedf5f3509eba60e9d013010d8420706323949269468e6f2d"
           }
         }
       ]
@@ -3167,7 +3167,7 @@
     "2026-11-classic-15-kas-kos": {
       "kind": "reel_video",
       "sourceKey": "14086ccd65dcf07ec37c0e21d6c7fd67ba814639bd0c37e52e477fb8ecb3d8dc",
-      "renderedAt": "2026-11-03T20:31:29.941Z",
+      "renderedAt": "2026-11-03T20:59:00.965Z",
       "publicationStatus": "export_only",
       "assets": [
         {
@@ -3178,7 +3178,7 @@
           "height": 1920,
           "mediaType": "VIDEO",
           "mimeType": "video/mp4",
-          "sha256": "1b0130e3a2f2184cba3ecbdaa48eb201a5efe77742b71ab449b2277ef8e15cc7",
+          "sha256": "d1f7864ac37f71727d5304958ff2867e3d00313f7b4bf42ce5f92a4d9f0586d0",
           "geometry": {
             "sourceWidth": 1080,
             "sourceHeight": 1920,
@@ -3201,8 +3201,8 @@
               "width": 1080,
               "height": 1920
             },
-            "sourceSha256": "1b0130e3a2f2184cba3ecbdaa48eb201a5efe77742b71ab449b2277ef8e15cc7",
-            "sha256": "1b0130e3a2f2184cba3ecbdaa48eb201a5efe77742b71ab449b2277ef8e15cc7"
+            "sourceSha256": "d1f7864ac37f71727d5304958ff2867e3d00313f7b4bf42ce5f92a4d9f0586d0",
+            "sha256": "d1f7864ac37f71727d5304958ff2867e3d00313f7b4bf42ce5f92a4d9f0586d0"
           }
         }
       ]
@@ -3210,7 +3210,7 @@
     "2026-11-classic-16-y-posle-pristavki": {
       "kind": "reel_video",
       "sourceKey": "fa364481c1edd0d88812a6adcc8e221541c3bac9d17d8e1de872c058913617ac",
-      "renderedAt": "2026-11-03T20:31:29.944Z",
+      "renderedAt": "2026-11-03T20:59:00.974Z",
       "publicationStatus": "export_only",
       "assets": [
         {
@@ -3221,7 +3221,7 @@
           "height": 1920,
           "mediaType": "VIDEO",
           "mimeType": "video/mp4",
-          "sha256": "dde28a266b2a9218bda5a67996949659cefe986d40c78723fa0a37a2f8537213",
+          "sha256": "0ad3e69c3a34185b7953fccaa399cd0a40f4bada5931e5d5c75d7c5a46887762",
           "geometry": {
             "sourceWidth": 1080,
             "sourceHeight": 1920,
@@ -3244,8 +3244,8 @@
               "width": 1080,
               "height": 1920
             },
-            "sourceSha256": "dde28a266b2a9218bda5a67996949659cefe986d40c78723fa0a37a2f8537213",
-            "sha256": "dde28a266b2a9218bda5a67996949659cefe986d40c78723fa0a37a2f8537213"
+            "sourceSha256": "0ad3e69c3a34185b7953fccaa399cd0a40f4bada5931e5d5c75d7c5a46887762",
+            "sha256": "0ad3e69c3a34185b7953fccaa399cd0a40f4bada5931e5d5c75d7c5a46887762"
           }
         }
       ]
@@ -3253,7 +3253,7 @@
     "2026-11-classic-17-ne-ni": {
       "kind": "reel_video",
       "sourceKey": "29c68b9a91eb68383e9b457ba3049e0a4f44cd3e509eb6951edb361c9f4b8b22",
-      "renderedAt": "2026-11-03T20:31:29.948Z",
+      "renderedAt": "2026-11-03T20:59:00.985Z",
       "publicationStatus": "export_only",
       "assets": [
         {
@@ -3264,7 +3264,7 @@
           "height": 1920,
           "mediaType": "VIDEO",
           "mimeType": "video/mp4",
-          "sha256": "40952a9131ba635765ce6c6d47b5b192ee60fea601a7fd334f04e5c923c79ef4",
+          "sha256": "e04049db3edb362b2806f54a56979e34c191b4d83ac56783c1231afaf0753393",
           "geometry": {
             "sourceWidth": 1080,
             "sourceHeight": 1920,
@@ -3287,8 +3287,8 @@
               "width": 1080,
               "height": 1920
             },
-            "sourceSha256": "40952a9131ba635765ce6c6d47b5b192ee60fea601a7fd334f04e5c923c79ef4",
-            "sha256": "40952a9131ba635765ce6c6d47b5b192ee60fea601a7fd334f04e5c923c79ef4"
+            "sourceSha256": "e04049db3edb362b2806f54a56979e34c191b4d83ac56783c1231afaf0753393",
+            "sha256": "e04049db3edb362b2806f54a56979e34c191b4d83ac56783c1231afaf0753393"
           }
         }
       ]
@@ -3296,7 +3296,7 @@
     "2026-11-classic-18-giperbola-litota": {
       "kind": "reel_video",
       "sourceKey": "c0bd1f4f42a30810e4f80d56816306a63c0cbbe23b9277501247b9ec925741a3",
-      "renderedAt": "2026-11-03T20:31:29.953Z",
+      "renderedAt": "2026-11-03T20:59:01.010Z",
       "publicationStatus": "export_only",
       "assets": [
         {
@@ -3307,7 +3307,7 @@
           "height": 1920,
           "mediaType": "VIDEO",
           "mimeType": "video/mp4",
-          "sha256": "eee81d10abaf38d95cc8dedf0017e66c785c5aedc3b0df2f53551d2536e06ac8",
+          "sha256": "a72af118cd661161e266f473a9170a1933ace02a457a9c1660b2c5b8fd5c8265",
           "geometry": {
             "sourceWidth": 1080,
             "sourceHeight": 1920,
@@ -3330,8 +3330,8 @@
               "width": 1080,
               "height": 1920
             },
-            "sourceSha256": "eee81d10abaf38d95cc8dedf0017e66c785c5aedc3b0df2f53551d2536e06ac8",
-            "sha256": "eee81d10abaf38d95cc8dedf0017e66c785c5aedc3b0df2f53551d2536e06ac8"
+            "sourceSha256": "a72af118cd661161e266f473a9170a1933ace02a457a9c1660b2c5b8fd5c8265",
+            "sha256": "a72af118cd661161e266f473a9170a1933ace02a457a9c1660b2c5b8fd5c8265"
           }
         }
       ]
@@ -3339,7 +3339,7 @@
     "2026-11-classic-19-prichastnyy-oborot": {
       "kind": "reel_video",
       "sourceKey": "f8203bc62c3859020ac7bde493b6bbcdc5cc798ffea38c4f219ce5ff532027cd",
-      "renderedAt": "2026-11-03T20:31:29.957Z",
+      "renderedAt": "2026-11-03T20:59:01.020Z",
       "publicationStatus": "export_only",
       "assets": [
         {
@@ -3350,7 +3350,7 @@
           "height": 1920,
           "mediaType": "VIDEO",
           "mimeType": "video/mp4",
-          "sha256": "0d80ff4a4ab49af60853e8bc84cd14f0f7ae0e10e232fc5c7c8b8fb6f61a6a0e",
+          "sha256": "f5c3c3a257b3225273f147b4aa7a43921794d11006155a6af5e0acd6836baa81",
           "geometry": {
             "sourceWidth": 1080,
             "sourceHeight": 1920,
@@ -3373,8 +3373,8 @@
               "width": 1080,
               "height": 1920
             },
-            "sourceSha256": "0d80ff4a4ab49af60853e8bc84cd14f0f7ae0e10e232fc5c7c8b8fb6f61a6a0e",
-            "sha256": "0d80ff4a4ab49af60853e8bc84cd14f0f7ae0e10e232fc5c7c8b8fb6f61a6a0e"
+            "sourceSha256": "f5c3c3a257b3225273f147b4aa7a43921794d11006155a6af5e0acd6836baa81",
+            "sha256": "f5c3c3a257b3225273f147b4aa7a43921794d11006155a6af5e0acd6836baa81"
           }
         }
       ]
@@ -3382,7 +3382,7 @@
     "2026-11-classic-20-odnorodnye": {
       "kind": "reel_video",
       "sourceKey": "dc6cdfb59d7e316c829ff0a97c9c9516da040ea547899905a8f6693a350c0677",
-      "renderedAt": "2026-11-03T20:31:29.961Z",
+      "renderedAt": "2026-11-03T20:59:01.034Z",
       "publicationStatus": "export_only",
       "assets": [
         {
@@ -3393,7 +3393,7 @@
           "height": 1920,
           "mediaType": "VIDEO",
           "mimeType": "video/mp4",
-          "sha256": "b83549c86b5b34274c9543f56d3a25969c89502364a94f60d31bfe8a7280f1b8",
+          "sha256": "e2744bff0392995cc0147b35b25e124e11d79d619d6fdee354be27efb1d40a9a",
           "geometry": {
             "sourceWidth": 1080,
             "sourceHeight": 1920,
@@ -3416,8 +3416,8 @@
               "width": 1080,
               "height": 1920
             },
-            "sourceSha256": "b83549c86b5b34274c9543f56d3a25969c89502364a94f60d31bfe8a7280f1b8",
-            "sha256": "b83549c86b5b34274c9543f56d3a25969c89502364a94f60d31bfe8a7280f1b8"
+            "sourceSha256": "e2744bff0392995cc0147b35b25e124e11d79d619d6fdee354be27efb1d40a9a",
+            "sha256": "e2744bff0392995cc0147b35b25e124e11d79d619d6fdee354be27efb1d40a9a"
           }
         }
       ]
@@ -3425,7 +3425,7 @@
     "2026-11-classic-21-skazuemoe": {
       "kind": "reel_video",
       "sourceKey": "374c066045116067c742fcdc325bf05e880a2b26ae149a2a726dfaf5d7297990",
-      "renderedAt": "2026-11-03T20:31:29.966Z",
+      "renderedAt": "2026-11-03T20:59:01.047Z",
       "publicationStatus": "export_only",
       "assets": [
         {
@@ -3436,7 +3436,7 @@
           "height": 1920,
           "mediaType": "VIDEO",
           "mimeType": "video/mp4",
-          "sha256": "a706fb07b9ecddb02f562fbc098c7f086fe158dea37013a5d1cfe22786e5edf7",
+          "sha256": "4a3e9ccd006c83374bc7f4536ef57dfd5ef35e38fc36af83dcd1760ce38e834a",
           "geometry": {
             "sourceWidth": 1080,
             "sourceHeight": 1920,
@@ -3459,8 +3459,8 @@
               "width": 1080,
               "height": 1920
             },
-            "sourceSha256": "a706fb07b9ecddb02f562fbc098c7f086fe158dea37013a5d1cfe22786e5edf7",
-            "sha256": "a706fb07b9ecddb02f562fbc098c7f086fe158dea37013a5d1cfe22786e5edf7"
+            "sourceSha256": "4a3e9ccd006c83374bc7f4536ef57dfd5ef35e38fc36af83dcd1760ce38e834a",
+            "sha256": "4a3e9ccd006c83374bc7f4536ef57dfd5ef35e38fc36af83dcd1760ce38e834a"
           }
         }
       ]
@@ -3468,7 +3468,7 @@
     "2026-11-classic-22-svyaz-teksta": {
       "kind": "reel_video",
       "sourceKey": "e66d98a6f7b11ef43b20fedf6f4c71639db44de2f52c61669add84ff3e5e2d40",
-      "renderedAt": "2026-11-03T20:31:29.970Z",
+      "renderedAt": "2026-11-03T20:59:01.055Z",
       "publicationStatus": "export_only",
       "assets": [
         {
@@ -3479,7 +3479,7 @@
           "height": 1920,
           "mediaType": "VIDEO",
           "mimeType": "video/mp4",
-          "sha256": "93186b6efedaf845b1a33388c4070e46f8dba20fcaf5d46f01f909687a1b422e",
+          "sha256": "2f6ab9b2bf4584af3918515a6191742685b0e177dab7937ec1e83d7d6fdf0e1d",
           "geometry": {
             "sourceWidth": 1080,
             "sourceHeight": 1920,
@@ -3502,8 +3502,8 @@
               "width": 1080,
               "height": 1920
             },
-            "sourceSha256": "93186b6efedaf845b1a33388c4070e46f8dba20fcaf5d46f01f909687a1b422e",
-            "sha256": "93186b6efedaf845b1a33388c4070e46f8dba20fcaf5d46f01f909687a1b422e"
+            "sourceSha256": "2f6ab9b2bf4584af3918515a6191742685b0e177dab7937ec1e83d7d6fdf0e1d",
+            "sha256": "2f6ab9b2bf4584af3918515a6191742685b0e177dab7937ec1e83d7d6fdf0e1d"
           }
         }
       ]

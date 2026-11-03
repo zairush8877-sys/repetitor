@@ -1,0 +1,2456 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-11-04",
+  "timezone": "Europe/Moscow",
+  "status": "pass",
+  "previewReviewComplete": true,
+  "finalCoverReviewComplete": true,
+  "sampledMp4Frames": 84,
+  "releaseSha256": "9a015a197ef3df6d60d5f6e2dd3aa8d50bbe093ceadb53bd3d99ae8371a1420e",
+  "rotationPlanSha256": "ad1392d4a64bea8b66f7a0fa513bd33336bdb6d0d2519de90ec11444fecc78a3",
+  "counts": {
+    "posts": 21,
+    "previewsInspected": 21,
+    "finalCoversInspected": 21,
+    "finalVideosSampled": 21,
+    "actualMp4FramesInspected": 84,
+    "phoneCoverContactSheets": 7,
+    "mp4ContactSheets": 21,
+    "initialPreviewContactSheets": 7,
+    "uniquePhotos": 8
+  },
+  "posts": [
+    {
+      "id": "2026-11-classic-02-rast-rashch-ros",
+      "photoId": "books-pile",
+      "musicId": "chopin-op62-no1",
+      "backgroundPosition": "50% 50%",
+      "rotationPlanMatch": true,
+      "preview": "qa/2026-11-classic-02-rast-rashch-ros-preview.jpg",
+      "previewSha256": "f145401a67a08acccbf7f2f927f6c6ca4330bc036ad9590a99ec70af0db48f68",
+      "previewManualInspection": "complete_no_visual_defects",
+      "phonePreviewWidth": 390,
+      "tableComplete": true,
+      "textContrast": "readable_on_cream_card",
+      "neutralHeadsPreserved": true,
+      "authorHandleFooterAbsent": true,
+      "layoutMeasured": {
+        "cardTop": 639.5625,
+        "cardBottom": 1268.5625,
+        "rowFont": 52,
+        "titleFont": 94,
+        "footerCount": 0,
+        "cellOverflow": false
+      },
+      "videoSamplesStatus": "pass",
+      "finalVideo": "content/reels/2026-11-classic-02-rast-rashch-ros.mp4",
+      "videoSha256": "41f51659dda49f6feb644cbbfe7d3a7a51ef64134790fe7ff7104c743582d40d",
+      "finalCover": "content/reels/2026-11-classic-02-rast-rashch-ros-frame.jpg",
+      "coverSha256": "b4d7009c56509b6ce3371d4c0ba15735f17a606a48e4f4c177db90a1ae049da5",
+      "coverByteIdenticalToInspectedPreview": false,
+      "receipt": "qa/2026-11-classic-02-rast-rashch-ros-render.json",
+      "receiptSha256": "16c828bc1f66907875e8124ba718174f609b968ebdf7c513d72469c002410b32",
+      "renderKey": "b6ca30c8aeb06f6c3b818428b996e35923afe3280135d0dd93013adf2c9df56c",
+      "receiptHashesMatch": true,
+      "renderDecoded": true,
+      "finalLayoutMeasured": {
+        "cardTop": 639.5625,
+        "cardBottom": 1268.5625,
+        "rowFont": 52,
+        "titleFont": 94,
+        "footerCount": 0,
+        "cellOverflow": false
+      },
+      "durationSeconds": 15.4,
+      "samples": [
+        {
+          "timeSeconds": 0.4,
+          "file": "qa/visual-frames/2026-11-classic-02-rast-rashch-ros/1-0.400.jpg",
+          "sha256": "8a0051ec87787cb9fb136ecf8d49f19c31755ccb7c8097d16c5f334f050f52c3",
+          "manualInspection": "pass",
+          "visualChecks": {
+            "appropriateAnimatedReveal": true,
+            "textContrastReadable": true,
+            "noClippedVisibleText": true,
+            "authorHandleFooterAbsent": true,
+            "neutralPairsNotMarkedAsErrors": true,
+            "backgroundMatchesSelectedPhoto": true
+          }
+        },
+        {
+          "timeSeconds": 1.8,
+          "file": "qa/visual-frames/2026-11-classic-02-rast-rashch-ros/2-1.800.jpg",
+          "sha256": "ba767512c89499940f4f66fb0a4044159a6cb7956e3262fa58ce51b3cc3ebcf5",
+          "manualInspection": "pass",
+          "visualChecks": {
+            "appropriateAnimatedReveal": true,
+            "textContrastReadable": true,
+            "noClippedVisibleText": true,
+            "authorHandleFooterAbsent": true,
+            "neutralPairsNotMarkedAsErrors": true,
+            "backgroundMatchesSelectedPhoto": true
+          }
+        },
+        {
+          "timeSeconds": 7.7,
+          "file": "qa/visual-frames/2026-11-classic-02-rast-rashch-ros/3-7.700.jpg",
+          "sha256": "1062d638da4059939742f4608924967c72a2fc65716c17c9e83e717f627e44ce",
+          "manualInspection": "pass",
+          "visualChecks": {
+            "appropriateAnimatedReveal": true,
+            "textContrastReadable": true,
+            "noClippedVisibleText": true,
+            "authorHandleFooterAbsent": true,
+            "neutralPairsNotMarkedAsErrors": true,
+            "backgroundMatchesSelectedPhoto": true
+          }
+        },
+        {
+          "timeSeconds": 15.2,
+          "file": "qa/visual-frames/2026-11-classic-02-rast-rashch-ros/4-15.200.jpg",
+          "sha256": "a8cdfe776446bf993fc4095de58812d30bb73d3da068b5b29bc9ac0225e252d2",
+          "manualInspection": "pass",
+          "visualChecks": {
+            "appropriateAnimatedReveal": true,
+            "textContrastReadable": true,
+            "noClippedVisibleText": true,
+            "authorHandleFooterAbsent": true,
+            "neutralPairsNotMarkedAsErrors": true,
+            "backgroundMatchesSelectedPhoto": true
+          }
+        }
+      ],
+      "sampleSheet": "qa/visual-mp4-2026-11-classic-02-rast-rashch-ros.jpg",
+      "sampleSheetSha256": "38d35fc3880acce627ba2c9ec8b9247fb6e2fadcdd844b54bbdfe97379793b93",
+      "finalCoverManualInspection": "pass",
+      "status": "pass",
+      "mandatoryChanges": [],
+      "sampleDisplayWidth": 320,
+      "finalCoverPhoneDisplayWidth": 390,
+      "previewToFinalMeanAbsPixelDifference": 0.043476723251028804
+    },
+    {
+      "id": "2026-11-classic-03-ne-rodstvenniki",
+      "photoId": "journal-writing",
+      "musicId": "satie-gymnopedie3",
+      "backgroundPosition": "50% 50%",
+      "rotationPlanMatch": true,
+      "preview": "qa/2026-11-classic-03-ne-rodstvenniki-preview.jpg",
+      "previewSha256": "a5b425bb908492464590a0272490dbcf8b580574851ee20132b471948872f877",
+      "previewManualInspection": "complete_no_visual_defects",
+      "phonePreviewWidth": 390,
+      "tableComplete": true,
+      "textContrast": "readable_on_cream_card",
+      "neutralHeadsPreserved": true,
+      "authorHandleFooterAbsent": true,
+      "layoutMeasured": {
+        "cardTop": 639.5625,
+        "cardBottom": 1227.5625,
+        "rowFont": 52,
+        "titleFont": 94,
+        "footerCount": 0,
+        "cellOverflow": false
+      },
+      "videoSamplesStatus": "pass",
+      "finalVideo": "content/reels/2026-11-classic-03-ne-rodstvenniki.mp4",
+      "videoSha256": "db2e870681aff2a0d8fa434f49c678ccbdffd463e5571a38b6d3c18013f5ac4c",
+      "finalCover": "content/reels/2026-11-classic-03-ne-rodstvenniki-frame.jpg",
+      "coverSha256": "e66573519dc9ebf96843453449d8a29431f10e1350c1bdb8eef95921835e5598",
+      "coverByteIdenticalToInspectedPreview": false,
+      "receipt": "qa/2026-11-classic-03-ne-rodstvenniki-render.json",
+      "receiptSha256": "df631670f6e057373e3c1001bbe5335f39c5cc64db8b2a08d4a8292b6d2fb956",
+      "renderKey": "081b0e93c9bdd5198c8258f911866bd87fd162170c995bd16bd182c942fbb3fb",
+      "receiptHashesMatch": true,
+      "renderDecoded": true,
+      "finalLayoutMeasured": {
+        "cardTop": 639.5625,
+        "cardBottom": 1227.5625,
+        "rowFont": 52,
+        "titleFont": 94,
+        "footerCount": 0,
+        "cellOverflow": false
+      },
+      "durationSeconds": 13.2,
+      "samples": [
+        {
+          "timeSeconds": 0.4,
+          "file": "qa/visual-frames/2026-11-classic-03-ne-rodstvenniki/1-0.400.jpg",
+          "sha256": "0dabf39f513cbe24a98d73ce722fe4b12d979036ec90ac4799c82623744c7255",
+          "manualInspection": "pass",
+          "visualChecks": {
+            "appropriateAnimatedReveal": true,
+            "textContrastReadable": true,
+            "noClippedVisibleText": true,
+            "authorHandleFooterAbsent": true,
+            "neutralPairsNotMarkedAsErrors": true,
+            "backgroundMatchesSelectedPhoto": true
+          }
+        },
+        {
+          "timeSeconds": 1.8,
+          "file": "qa/visual-frames/2026-11-classic-03-ne-rodstvenniki/2-1.800.jpg",
+          "sha256": "8c32511fb3d2f9f60196d124e57185836b1760e47903c98688cacf701c1e54cd",
+          "manualInspection": "pass",
+          "visualChecks": {
+            "appropriateAnimatedReveal": true,
+            "textContrastReadable": true,
+            "noClippedVisibleText": true,
+            "authorHandleFooterAbsent": true,
+            "neutralPairsNotMarkedAsErrors": true,
+            "backgroundMatchesSelectedPhoto": true
+          }
+        },
+        {
+          "timeSeconds": 6.6,
+          "file": "qa/visual-frames/2026-11-classic-03-ne-rodstvenniki/3-6.600.jpg",
+          "sha256": "1ab2cb3bbd6846dabb0725e1131af106e7d0572f18a828ffe55a227bbcf534cb",
+          "manualInspection": "pass",
+          "visualChecks": {
+            "appropriateAnimatedReveal": true,
+            "textContrastReadable": true,
+            "noClippedVisibleText": true,
+            "authorHandleFooterAbsent": true,
+            "neutralPairsNotMarkedAsErrors": true,
+            "backgroundMatchesSelectedPhoto": true
+          }
+        },
+        {
+          "timeSeconds": 13.0,
+          "file": "qa/visual-frames/2026-11-classic-03-ne-rodstvenniki/4-13.000.jpg",
+          "sha256": "e158421c461798eecd01197f7a02a5a8ce0ac359eeca868e3edc72b02875a118",
+          "manualInspection": "pass",
+          "visualChecks": {
+            "appropriateAnimatedReveal": true,
+            "textContrastReadable": true,
+            "noClippedVisibleText": true,
+            "authorHandleFooterAbsent": true,
+            "neutralPairsNotMarkedAsErrors": true,
+            "backgroundMatchesSelectedPhoto": true
+          }
+        }
+      ],
+      "sampleSheet": "qa/visual-mp4-2026-11-classic-03-ne-rodstvenniki.jpg",
+      "sampleSheetSha256": "d3c4cd4e01f70c1ff12c504f5b21c30c5cb2f4b1ae075a0d81d89491323c47c9",
+      "finalCoverManualInspection": "pass",
+      "status": "pass",
+      "mandatoryChanges": [],
+      "sampleDisplayWidth": 320,
+      "finalCoverPhoneDisplayWidth": 390,
+      "previewToFinalMeanAbsPixelDifference": 0.04115451388888889
+    },
+    {
+      "id": "2026-11-classic-04-kto-deystvuet",
+      "photoId": "uppsala-bookshelves",
+      "musicId": "schumann-traumerei",
+      "backgroundPosition": "50% 50%",
+      "rotationPlanMatch": true,
+      "preview": "qa/2026-11-classic-04-kto-deystvuet-preview.jpg",
+      "previewSha256": "9c9b71f94558b92d844e6a7b6e54ecf563e5db3f0349ba4e03d5364d75158728",
+      "previewManualInspection": "complete_no_visual_defects",
+      "phonePreviewWidth": 390,
+      "tableComplete": true,
+      "textContrast": "readable_on_cream_card",
+      "neutralHeadsPreserved": true,
+      "authorHandleFooterAbsent": true,
+      "layoutMeasured": {
+        "cardTop": 639.5625,
+        "cardBottom": 1368.5625,
+        "rowFont": 49,
+        "titleFont": 94,
+        "footerCount": 0,
+        "cellOverflow": false
+      },
+      "videoSamplesStatus": "pass",
+      "finalVideo": "content/reels/2026-11-classic-04-kto-deystvuet.mp4",
+      "videoSha256": "ca353d4de2904dd231f58a27533849dc90b8d308057f5bb36d92014949dc556b",
+      "finalCover": "content/reels/2026-11-classic-04-kto-deystvuet-frame.jpg",
+      "coverSha256": "38f0b6f7abeb06e36f3752c16f5d8dd421d552b2ca32faf0a143cad44fa94327",
+      "coverByteIdenticalToInspectedPreview": false,
+      "receipt": "qa/2026-11-classic-04-kto-deystvuet-render.json",
+      "receiptSha256": "5e93a6813331887f251851e399519bd75528f6aec7424fd26a6a36560e928f25",
+      "renderKey": "ecb366fc6a22bc8f2ee7457673f7168ff7c2d17f241a1afd552e71b7befa6a90",
+      "receiptHashesMatch": true,
+      "renderDecoded": true,
+      "finalLayoutMeasured": {
+        "cardTop": 639.5625,
+        "cardBottom": 1368.5625,
+        "rowFont": 49,
+        "titleFont": 94,
+        "footerCount": 0,
+        "cellOverflow": false
+      },
+      "durationSeconds": 13.2,
+      "samples": [
+        {
+          "timeSeconds": 0.4,
+          "file": "qa/visual-frames/2026-11-classic-04-kto-deystvuet/1-0.400.jpg",
+          "sha256": "54283197ca0edbb0fea9be563049fa6e0c6a9328b833b8b154ae3c8270528666",
+          "manualInspection": "pass",
+          "visualChecks": {
+            "appropriateAnimatedReveal": true,
+            "textContrastReadable": true,
+            "noClippedVisibleText": true,
+            "authorHandleFooterAbsent": true,
+            "neutralPairsNotMarkedAsErrors": true,
+            "backgroundMatchesSelectedPhoto": true
+          }
+        },
+        {
+          "timeSeconds": 1.8,
+          "file": "qa/visual-frames/2026-11-classic-04-kto-deystvuet/2-1.800.jpg",
+          "sha256": "7c650880063e4edda3e35944a223c60c0a5afb649e34eb7d5b4fbe7a38251482",
+          "manualInspection": "pass",
+          "visualChecks": {
+            "appropriateAnimatedReveal": true,
+            "textContrastReadable": true,
+            "noClippedVisibleText": true,
+            "authorHandleFooterAbsent": true,
+            "neutralPairsNotMarkedAsErrors": true,
+            "backgroundMatchesSelectedPhoto": true
+          }
+        },
+        {
+          "timeSeconds": 6.6,
+          "file": "qa/visual-frames/2026-11-classic-04-kto-deystvuet/3-6.600.jpg",
+          "sha256": "b0acc103181cd22c578e0beca56b3cd84fa74f6f6760144e324e32db50295275",
+          "manualInspection": "pass",
+          "visualChecks": {
+            "appropriateAnimatedReveal": true,
+            "textContrastReadable": true,
+            "noClippedVisibleText": true,
+            "authorHandleFooterAbsent": true,
+            "neutralPairsNotMarkedAsErrors": true,
+            "backgroundMatchesSelectedPhoto": true
+          }
+        },
+        {
+          "timeSeconds": 13.0,
+          "file": "qa/visual-frames/2026-11-classic-04-kto-deystvuet/4-13.000.jpg",
+          "sha256": "71b37a6c1a299d1a121b99b500ceeac7794b9bd05a0a9268b58d9fcda9fe870c",
+          "manualInspection": "pass",
+          "visualChecks": {
+            "appropriateAnimatedReveal": true,
+            "textContrastReadable": true,
+            "noClippedVisibleText": true,
+            "authorHandleFooterAbsent": true,
+            "neutralPairsNotMarkedAsErrors": true,
+            "backgroundMatchesSelectedPhoto": true
+          }
+        }
+      ],
+      "sampleSheet": "qa/visual-mp4-2026-11-classic-04-kto-deystvuet.jpg",
+      "sampleSheetSha256": "7a5120b97307a342f817746068e31015e8fea7f2d1a287d4fd54fe3ecdf3e770",
+      "finalCoverManualInspection": "pass",
+      "status": "pass",
+      "mandatoryChanges": [],
+      "sampleDisplayWidth": 320,
+      "finalCoverPhoneDisplayWidth": 390,
+      "previewToFinalMeanAbsPixelDifference": 0.08013631687242798
+    },
+    {
+      "id": "2026-11-classic-05-probely-v-vyrazheniyah",
+      "photoId": "open-book-plant",
+      "musicId": "mozart40-andante",
+      "backgroundPosition": "50% 50%",
+      "rotationPlanMatch": true,
+      "preview": "qa/2026-11-classic-05-probely-v-vyrazheniyah-preview.jpg",
+      "previewSha256": "530c25fe87bba4a1aa5d0d0b8e0ac8cf989fb0f84dfce7c67eaa81e83771f7fd",
+      "previewManualInspection": "complete_no_visual_defects",
+      "phonePreviewWidth": 390,
+      "tableComplete": true,
+      "textContrast": "readable_on_cream_card",
+      "neutralHeadsPreserved": true,
+      "authorHandleFooterAbsent": true,
+      "layoutMeasured": {
+        "cardTop": 639.5625,
+        "cardBottom": 1162.5625,
+        "rowFont": 52,
+        "titleFont": 94,
+        "footerCount": 0,
+        "cellOverflow": false
+      },
+      "videoSamplesStatus": "pass",
+      "finalVideo": "content/reels/2026-11-classic-05-probely-v-vyrazheniyah.mp4",
+      "videoSha256": "87be335d41bdf9cb8c2fcbb6bb8f0af167c3d1fee2ceff7ceeec9b7e8a42805e",
+      "finalCover": "content/reels/2026-11-classic-05-probely-v-vyrazheniyah-frame.jpg",
+      "coverSha256": "530c25fe87bba4a1aa5d0d0b8e0ac8cf989fb0f84dfce7c67eaa81e83771f7fd",
+      "coverByteIdenticalToInspectedPreview": true,
+      "receipt": "qa/2026-11-classic-05-probely-v-vyrazheniyah-render.json",
+      "receiptSha256": "cbf91d28ff062cfefdf17c7ab9757700dfba8bc245ba2d10eafe149b35ba633c",
+      "renderKey": "159d667cf42ae398a5d2f4d31e6af0758298946e9640ad0220dee80015de8882",
+      "receiptHashesMatch": true,
+      "renderDecoded": true,
+      "finalLayoutMeasured": {
+        "cardTop": 639.5625,
+        "cardBottom": 1162.5625,
+        "rowFont": 52,
+        "titleFont": 94,
+        "footerCount": 0,
+        "cellOverflow": false
+      },
+      "durationSeconds": 13.2,
+      "samples": [
+        {
+          "timeSeconds": 0.4,
+          "file": "qa/visual-frames/2026-11-classic-05-probely-v-vyrazheniyah/1-0.400.jpg",
+          "sha256": "9a2bdfc295342058db1c647486631706cbfd8d9ee0e355dcfb138c849cacdaad",
+          "manualInspection": "pass",
+          "visualChecks": {
+            "appropriateAnimatedReveal": true,
+            "textContrastReadable": true,
+            "noClippedVisibleText": true,
+            "authorHandleFooterAbsent": true,
+            "neutralPairsNotMarkedAsErrors": true,
+            "backgroundMatchesSelectedPhoto": true
+          }
+        },
+        {
+          "timeSeconds": 1.8,
+          "file": "qa/visual-frames/2026-11-classic-05-probely-v-vyrazheniyah/2-1.800.jpg",
+          "sha256": "934464ca2cd5ccc638313ae5d32ad144eb564c10a741e7a704b31e7ffa27f1b8",
+          "manualInspection": "pass",
+          "visualChecks": {
+            "appropriateAnimatedReveal": true,
+            "textContrastReadable": true,
+            "noClippedVisibleText": true,
+            "authorHandleFooterAbsent": true,
+            "neutralPairsNotMarkedAsErrors": true,
+            "backgroundMatchesSelectedPhoto": true
+          }
+        },
+        {
+          "timeSeconds": 6.6,
+          "file": "qa/visual-frames/2026-11-classic-05-probely-v-vyrazheniyah/3-6.600.jpg",
+          "sha256": "e4c931f62ba2e56b6ec8b15d4bd8612355cb8d82227ef7e1382489a829b93e5d",
+          "manualInspection": "pass",
+          "visualChecks": {
+            "appropriateAnimatedReveal": true,
+            "textContrastReadable": true,
+            "noClippedVisibleText": true,
+            "authorHandleFooterAbsent": true,
+            "neutralPairsNotMarkedAsErrors": true,
+            "backgroundMatchesSelectedPhoto": true
+          }
+        },
+        {
+          "timeSeconds": 13.0,
+          "file": "qa/visual-frames/2026-11-classic-05-probely-v-vyrazheniyah/4-13.000.jpg",
+          "sha256": "7f5df2d4c99243e12fef35c42673822ed98380a13460ec42749794ff02b6ae64",
+          "manualInspection": "pass",
+          "visualChecks": {
+            "appropriateAnimatedReveal": true,
+            "textContrastReadable": true,
+            "noClippedVisibleText": true,
+            "authorHandleFooterAbsent": true,
+            "neutralPairsNotMarkedAsErrors": true,
+            "backgroundMatchesSelectedPhoto": true
+          }
+        }
+      ],
+      "sampleSheet": "qa/visual-mp4-2026-11-classic-05-probely-v-vyrazheniyah.jpg",
+      "sampleSheetSha256": "9c1c9fe2b19654d4098492fd5f2295df9bc0ee6ca738302c4358a97f7334f1ee",
+      "finalCoverManualInspection": "pass",
+      "status": "pass",
+      "mandatoryChanges": [],
+      "sampleDisplayWidth": 320,
+      "finalCoverPhoneDisplayWidth": 390
+    },
+    {
+      "id": "2026-11-classic-06-anafora-epifora",
+      "photoId": "desk-books-laptop",
+      "musicId": "schubert-d784-andante",
+      "backgroundPosition": "35% 50%",
+      "rotationPlanMatch": true,
+      "preview": "qa/2026-11-classic-06-anafora-epifora-preview.jpg",
+      "previewSha256": "d4c05d563fa3ddab8f5120e692d10bd945d27a83d1cff3ab997eafb4a93afe41",
+      "previewManualInspection": "complete_no_visual_defects",
+      "phonePreviewWidth": 390,
+      "tableComplete": true,
+      "textContrast": "readable_on_cream_card",
+      "neutralHeadsPreserved": true,
+      "authorHandleFooterAbsent": true,
+      "layoutMeasured": {
+        "cardTop": 639.5625,
+        "cardBottom": 1357.5625,
+        "rowFont": 52,
+        "titleFont": 94,
+        "footerCount": 0,
+        "cellOverflow": false
+      },
+      "videoSamplesStatus": "pass",
+      "finalVideo": "content/reels/2026-11-classic-06-anafora-epifora.mp4",
+      "videoSha256": "17c99fb7cdbe296d50d36658e2997865ddcf809b20cb8a494d2d582b26f2a0bf",
+      "finalCover": "content/reels/2026-11-classic-06-anafora-epifora-frame.jpg",
+      "coverSha256": "7eea38dcd8ce41ba3a887498863d898c57f7df871f74536814e02ab6a509d044",
+      "coverByteIdenticalToInspectedPreview": false,
+      "receipt": "qa/2026-11-classic-06-anafora-epifora-render.json",
+      "receiptSha256": "436ee3d2290407b547cef149b7f94f08b59a60fb17d9c68eb75215e62fe15aaf",
+      "renderKey": "67d2e36d157e8e0c240b0a14bf7ebab8723d0ea26f4b5f7219dd6d781115a5ca",
+      "receiptHashesMatch": true,
+      "renderDecoded": true,
+      "finalLayoutMeasured": {
+        "cardTop": 639.5625,
+        "cardBottom": 1357.5625,
+        "rowFont": 52,
+        "titleFont": 94,
+        "footerCount": 0,
+        "cellOverflow": false
+      },
+      "durationSeconds": 13.2,
+      "samples": [
+        {
+          "timeSeconds": 0.4,
+          "file": "qa/visual-frames/2026-11-classic-06-anafora-epifora/1-0.400.jpg",
+          "sha256": "9b3cf4fb01be63a68979f84f9049a6234071f8e47901cd36a0504fb4b5ad1cbf",
+          "manualInspection": "pass",
+          "visualChecks": {
+            "appropriateAnimatedReveal": true,
+            "textContrastReadable": true,
+            "noClippedVisibleText": true,
+            "authorHandleFooterAbsent": true,
+            "neutralPairsNotMarkedAsErrors": true,
+            "backgroundMatchesSelectedPhoto": true
+          }
+        },
+        {
+          "timeSeconds": 1.8,
+          "file": "qa/visual-frames/2026-11-classic-06-anafora-epifora/2-1.800.jpg",
+          "sha256": "0eebc7962b5e39d34efc33263d4b53fde1b1ea0aeb2498d0f6b60dae006ff332",
+          "manualInspection": "pass",
+          "visualChecks": {
+            "appropriateAnimatedReveal": true,
+            "textContrastReadable": true,
+            "noClippedVisibleText": true,
+            "authorHandleFooterAbsent": true,
+            "neutralPairsNotMarkedAsErrors": true,
+            "backgroundMatchesSelectedPhoto": true
+          }
+        },
+        {
+          "timeSeconds": 6.6,
+          "file": "qa/visual-frames/2026-11-classic-06-anafora-epifora/3-6.600.jpg",
+          "sha256": "057a41d0514a44665131f777101a6d6d14e917371c4fa490b9c2bde4ccef41ed",
+          "manualInspection": "pass",
+          "visualChecks": {
+            "appropriateAnimatedReveal": true,
+            "textContrastReadable": true,
+            "noClippedVisibleText": true,
+            "authorHandleFooterAbsent": true,
+            "neutralPairsNotMarkedAsErrors": true,
+            "backgroundMatchesSelectedPhoto": true
+          }
+        },
+        {
+          "timeSeconds": 13.0,
+          "file": "qa/visual-frames/2026-11-classic-06-anafora-epifora/4-13.000.jpg",
+          "sha256": "249068dce825ce7d6e4b73cac6e7667d8ed3d995cbe2bfa5cbb75bb9f88dd596",
+          "manualInspection": "pass",
+          "visualChecks": {
+            "appropriateAnimatedReveal": true,
+            "textContrastReadable": true,
+            "noClippedVisibleText": true,
+            "authorHandleFooterAbsent": true,
+            "neutralPairsNotMarkedAsErrors": true,
+            "backgroundMatchesSelectedPhoto": true
+          }
+        }
+      ],
+      "sampleSheet": "qa/visual-mp4-2026-11-classic-06-anafora-epifora.jpg",
+      "sampleSheetSha256": "368c8a873ec40022becf248931ed48f27bc9010f7fff92ef6a37d382d309a2cc",
+      "finalCoverManualInspection": "pass",
+      "status": "pass",
+      "mandatoryChanges": [],
+      "sampleDisplayWidth": 320,
+      "finalCoverPhoneDisplayWidth": 390,
+      "previewToFinalMeanAbsPixelDifference": 0.039296875
+    },
+    {
+      "id": "2026-11-classic-08-menu",
+      "photoId": "blank-books-table",
+      "musicId": "chopin-op37-no2",
+      "backgroundPosition": "50% 50%",
+      "rotationPlanMatch": true,
+      "preview": "qa/2026-11-classic-08-menu-preview.jpg",
+      "previewSha256": "d8ca2969cd52f0b070a09d0b9b147a1a998394fcfec1d23db47535c2a49aee1d",
+      "previewManualInspection": "complete_no_visual_defects",
+      "phonePreviewWidth": 390,
+      "tableComplete": true,
+      "textContrast": "readable_on_cream_card",
+      "neutralHeadsPreserved": true,
+      "authorHandleFooterAbsent": true,
+      "layoutMeasured": {
+        "cardTop": 639.5625,
+        "cardBottom": 1162.5625,
+        "rowFont": 52,
+        "titleFont": 94,
+        "footerCount": 0,
+        "cellOverflow": false
+      },
+      "videoSamplesStatus": "pass",
+      "finalVideo": "content/reels/2026-11-classic-08-menu.mp4",
+      "videoSha256": "5c460381033e91cf928d73e6ce25d3311212bd800df89d99081c6ab7d4555b36",
+      "finalCover": "content/reels/2026-11-classic-08-menu-frame.jpg",
+      "coverSha256": "d8ca2969cd52f0b070a09d0b9b147a1a998394fcfec1d23db47535c2a49aee1d",
+      "coverByteIdenticalToInspectedPreview": true,
+      "receipt": "qa/2026-11-classic-08-menu-render.json",
+      "receiptSha256": "3cf0767bd996113e480e0a7d5258981edc2aef34831a650e42456edaa3937afd",
+      "renderKey": "c8e99e5f46dedc3f43ee472a24e460230fff6f3dde35ea014ac78488a2cd98f5",
+      "receiptHashesMatch": true,
+      "renderDecoded": true,
+      "finalLayoutMeasured": {
+        "cardTop": 639.5625,
+        "cardBottom": 1162.5625,
+        "rowFont": 52,
+        "titleFont": 94,
+        "footerCount": 0,
+        "cellOverflow": false
+      },
+      "durationSeconds": 13.2,
+      "samples": [
+        {
+          "timeSeconds": 0.4,
+          "file": "qa/visual-frames/2026-11-classic-08-menu/1-0.400.jpg",
+          "sha256": "14b5eecf955baf818bc6227ef01a2738acc8d9aec51f86ed0f260f40295b3f5c",
+          "manualInspection": "pass",
+          "visualChecks": {
+            "appropriateAnimatedReveal": true,
+            "textContrastReadable": true,
+            "noClippedVisibleText": true,
+            "authorHandleFooterAbsent": true,
+            "neutralPairsNotMarkedAsErrors": true,
+            "backgroundMatchesSelectedPhoto": true
+          }
+        },
+        {
+          "timeSeconds": 1.8,
+          "file": "qa/visual-frames/2026-11-classic-08-menu/2-1.800.jpg",
+          "sha256": "e8f15c4c85eb9b690569228ffdd9d5b0cfdf35e3d2c6c48415c0ad87a2fc65c2",
+          "manualInspection": "pass",
+          "visualChecks": {
+            "appropriateAnimatedReveal": true,
+            "textContrastReadable": true,
+            "noClippedVisibleText": true,
+            "authorHandleFooterAbsent": true,
+            "neutralPairsNotMarkedAsErrors": true,
+            "backgroundMatchesSelectedPhoto": true
+          }
+        },
+        {
+          "timeSeconds": 6.6,
+          "file": "qa/visual-frames/2026-11-classic-08-menu/3-6.600.jpg",
+          "sha256": "1a8c76f360cc29924a852e35d5b118f4657954288200f7ccec5a2655f7bde781",
+          "manualInspection": "pass",
+          "visualChecks": {
+            "appropriateAnimatedReveal": true,
+            "textContrastReadable": true,
+            "noClippedVisibleText": true,
+            "authorHandleFooterAbsent": true,
+            "neutralPairsNotMarkedAsErrors": true,
+            "backgroundMatchesSelectedPhoto": true
+          }
+        },
+        {
+          "timeSeconds": 13.0,
+          "file": "qa/visual-frames/2026-11-classic-08-menu/4-13.000.jpg",
+          "sha256": "9548afa1df7176d77c50b669783f376af8cc71a132483321a8b2dc5fa1eb7b3e",
+          "manualInspection": "pass",
+          "visualChecks": {
+            "appropriateAnimatedReveal": true,
+            "textContrastReadable": true,
+            "noClippedVisibleText": true,
+            "authorHandleFooterAbsent": true,
+            "neutralPairsNotMarkedAsErrors": true,
+            "backgroundMatchesSelectedPhoto": true
+          }
+        }
+      ],
+      "sampleSheet": "qa/visual-mp4-2026-11-classic-08-menu.jpg",
+      "sampleSheetSha256": "3bbf12650d442656f31f7ede5ada32b2714ec0902d0bf9cdf671f7b8d55a08a2",
+      "finalCoverManualInspection": "pass",
+      "status": "pass",
+      "mandatoryChanges": [],
+      "sampleDisplayWidth": 320,
+      "finalCoverPhoneDisplayWidth": 390
+    },
+    {
+      "id": "2026-11-classic-09-frukty",
+      "photoId": "library-bookshelves",
+      "musicId": "bach-var1-ishizaka",
+      "backgroundPosition": "50% 50%",
+      "rotationPlanMatch": true,
+      "preview": "qa/2026-11-classic-09-frukty-preview.jpg",
+      "previewSha256": "61c69649f07072e6c93ca4fe7391efdda56f9796413b7974154ae2109c7f34ca",
+      "previewManualInspection": "complete_no_visual_defects",
+      "phonePreviewWidth": 390,
+      "tableComplete": true,
+      "textContrast": "readable_on_cream_card",
+      "neutralHeadsPreserved": true,
+      "authorHandleFooterAbsent": true,
+      "layoutMeasured": {
+        "cardTop": 639.5625,
+        "cardBottom": 1227.5625,
+        "rowFont": 52,
+        "titleFont": 94,
+        "footerCount": 0,
+        "cellOverflow": false
+      },
+      "videoSamplesStatus": "pass",
+      "finalVideo": "content/reels/2026-11-classic-09-frukty.mp4",
+      "videoSha256": "421ec1a0e3642f90ef97955e998161c10dc48ce5d94db8cca57bb3207dc51b3f",
+      "finalCover": "content/reels/2026-11-classic-09-frukty-frame.jpg",
+      "coverSha256": "61c69649f07072e6c93ca4fe7391efdda56f9796413b7974154ae2109c7f34ca",
+      "coverByteIdenticalToInspectedPreview": true,
+      "receipt": "qa/2026-11-classic-09-frukty-render.json",
+      "receiptSha256": "da53857efade0331dc855c4ddecd45b798750bf9a6bf21aae9b910ccd8b37771",
+      "renderKey": "6b5fc88303d9b680006c2dc41315f976e776089a0573961bbae3c9eba89c579a",
+      "receiptHashesMatch": true,
+      "renderDecoded": true,
+      "finalLayoutMeasured": {
+        "cardTop": 639.5625,
+        "cardBottom": 1227.5625,
+        "rowFont": 52,
+        "titleFont": 94,
+        "footerCount": 0,
+        "cellOverflow": false
+      },
+      "durationSeconds": 13.2,
+      "samples": [
+        {
+          "timeSeconds": 0.4,
+          "file": "qa/visual-frames/2026-11-classic-09-frukty/1-0.400.jpg",
+          "sha256": "79ff5f05ab1e38c57dfc45b19775a17e6244bfd6531c104e39760a506134ba7f",
+          "manualInspection": "pass",
+          "visualChecks": {
+            "appropriateAnimatedReveal": true,
+            "textContrastReadable": true,
+            "noClippedVisibleText": true,
+            "authorHandleFooterAbsent": true,
+            "neutralPairsNotMarkedAsErrors": true,
+            "backgroundMatchesSelectedPhoto": true
+          }
+        },
+        {
+          "timeSeconds": 1.8,
+          "file": "qa/visual-frames/2026-11-classic-09-frukty/2-1.800.jpg",
+          "sha256": "9fddeefc135ed776c0eb8e4cb17bbd17e4de27d13edf35206cda8158b01b3871",
+          "manualInspection": "pass",
+          "visualChecks": {
+            "appropriateAnimatedReveal": true,
+            "textContrastReadable": true,
+            "noClippedVisibleText": true,
+            "authorHandleFooterAbsent": true,
+            "neutralPairsNotMarkedAsErrors": true,
+            "backgroundMatchesSelectedPhoto": true
+          }
+        },
+        {
+          "timeSeconds": 6.6,
+          "file": "qa/visual-frames/2026-11-classic-09-frukty/3-6.600.jpg",
+          "sha256": "2f90abed0c9a5d2bd74565589d9ed62aa2eca8bca56afa5f3676fe448d7a3fab",
+          "manualInspection": "pass",
+          "visualChecks": {
+            "appropriateAnimatedReveal": true,
+            "textContrastReadable": true,
+            "noClippedVisibleText": true,
+            "authorHandleFooterAbsent": true,
+            "neutralPairsNotMarkedAsErrors": true,
+            "backgroundMatchesSelectedPhoto": true
+          }
+        },
+        {
+          "timeSeconds": 13.0,
+          "file": "qa/visual-frames/2026-11-classic-09-frukty/4-13.000.jpg",
+          "sha256": "3ef7557856c80c00224a00d97c20b183487e55d5273800932c1ad23657e79b31",
+          "manualInspection": "pass",
+          "visualChecks": {
+            "appropriateAnimatedReveal": true,
+            "textContrastReadable": true,
+            "noClippedVisibleText": true,
+            "authorHandleFooterAbsent": true,
+            "neutralPairsNotMarkedAsErrors": true,
+            "backgroundMatchesSelectedPhoto": true
+          }
+        }
+      ],
+      "sampleSheet": "qa/visual-mp4-2026-11-classic-09-frukty.jpg",
+      "sampleSheetSha256": "929dcd6c8289370904ce161fee4ca7d1a33953d1eba84895371a757ff97b491b",
+      "finalCoverManualInspection": "pass",
+      "status": "pass",
+      "mandatoryChanges": [],
+      "sampleDisplayWidth": 320,
+      "finalCoverPhoneDisplayWidth": 390
+    },
+    {
+      "id": "2026-11-classic-10-sochetaemost",
+      "photoId": "library-warm",
+      "musicId": "chopin-op62-no1",
+      "backgroundPosition": "85% 50%",
+      "rotationPlanMatch": true,
+      "preview": "qa/2026-11-classic-10-sochetaemost-preview.jpg",
+      "previewSha256": "75e8ea0b7e29ffd01726a229a2f4f896b1056fccdb7815b4a1c574b445a3c7f6",
+      "previewManualInspection": "complete_no_visual_defects",
+      "phonePreviewWidth": 390,
+      "tableComplete": true,
+      "textContrast": "readable_on_cream_card",
+      "neutralHeadsPreserved": true,
+      "authorHandleFooterAbsent": true,
+      "layoutMeasured": {
+        "cardTop": 857.625,
+        "cardBottom": 1622.625,
+        "rowFont": 51,
+        "titleFont": 94,
+        "footerCount": 0,
+        "cellOverflow": false
+      },
+      "videoSamplesStatus": "pass",
+      "finalVideo": "content/reels/2026-11-classic-10-sochetaemost.mp4",
+      "videoSha256": "d20761cece12a8df9d1f942f71913de871739debcf04dbcf27f758cc9ed535b9",
+      "finalCover": "content/reels/2026-11-classic-10-sochetaemost-frame.jpg",
+      "coverSha256": "ac616f009990d8a93d0d234b4fe1387aac5e9f889741c36792875c9e00948de2",
+      "coverByteIdenticalToInspectedPreview": false,
+      "receipt": "qa/2026-11-classic-10-sochetaemost-render.json",
+      "receiptSha256": "4509b2f074bc8d4beebbcde6a9ae03d726a451f9140ff4c01df45e807fadf5d0",
+      "renderKey": "f4f1d583241dc06526c7eadc90b30142e85c0c83ca1be882049e5b7e2af6cefe",
+      "receiptHashesMatch": true,
+      "renderDecoded": true,
+      "finalLayoutMeasured": {
+        "cardTop": 857.625,
+        "cardBottom": 1622.625,
+        "rowFont": 51,
+        "titleFont": 94,
+        "footerCount": 0,
+        "cellOverflow": false
+      },
+      "durationSeconds": 13.2,
+      "samples": [
+        {
+          "timeSeconds": 0.4,
+          "file": "qa/visual-frames/2026-11-classic-10-sochetaemost/1-0.400.jpg",
+          "sha256": "b5742c4ce98e7d4493deaeb43138cc6a9d2b10823433e0c9ebae05c868706488",
+          "manualInspection": "pass",
+          "visualChecks": {
+            "appropriateAnimatedReveal": true,
+            "textContrastReadable": true,
+            "noClippedVisibleText": true,
+            "authorHandleFooterAbsent": true,
+            "neutralPairsNotMarkedAsErrors": true,
+            "backgroundMatchesSelectedPhoto": true
+          }
+        },
+        {
+          "timeSeconds": 1.8,
+          "file": "qa/visual-frames/2026-11-classic-10-sochetaemost/2-1.800.jpg",
+          "sha256": "c4f1bf49f5309c3b3aa493e3085f17483b04571c1ccc213cbff7a976aa482444",
+          "manualInspection": "pass",
+          "visualChecks": {
+            "appropriateAnimatedReveal": true,
+            "textContrastReadable": true,
+            "noClippedVisibleText": true,
+            "authorHandleFooterAbsent": true,
+            "neutralPairsNotMarkedAsErrors": true,
+            "backgroundMatchesSelectedPhoto": true
+          }
+        },
+        {
+          "timeSeconds": 6.6,
+          "file": "qa/visual-frames/2026-11-classic-10-sochetaemost/3-6.600.jpg",
+          "sha256": "69a1e51a5362f964b42809fec5edf44b0cbb7599b9ed146e8c4ff3435b63425b",
+          "manualInspection": "pass",
+          "visualChecks": {
+            "appropriateAnimatedReveal": true,
+            "textContrastReadable": true,
+            "noClippedVisibleText": true,
+            "authorHandleFooterAbsent": true,
+            "neutralPairsNotMarkedAsErrors": true,
+            "backgroundMatchesSelectedPhoto": true
+          }
+        },
+        {
+          "timeSeconds": 13.0,
+          "file": "qa/visual-frames/2026-11-classic-10-sochetaemost/4-13.000.jpg",
+          "sha256": "1d5f9b8ed4b587ef7df9beb0711245b35c5e5449a0bb1c7d5a7865d9dab9dcd7",
+          "manualInspection": "pass",
+          "visualChecks": {
+            "appropriateAnimatedReveal": true,
+            "textContrastReadable": true,
+            "noClippedVisibleText": true,
+            "authorHandleFooterAbsent": true,
+            "neutralPairsNotMarkedAsErrors": true,
+            "backgroundMatchesSelectedPhoto": true
+          }
+        }
+      ],
+      "sampleSheet": "qa/visual-mp4-2026-11-classic-10-sochetaemost.jpg",
+      "sampleSheetSha256": "c05f1652156943e7f5163004043c0db1abb2a4f8318751f32d56877fe20401e3",
+      "finalCoverManualInspection": "pass",
+      "status": "pass",
+      "mandatoryChanges": [],
+      "sampleDisplayWidth": 320,
+      "finalCoverPhoneDisplayWidth": 390,
+      "previewToFinalMeanAbsPixelDifference": 0.001445634002057613
+    },
+    {
+      "id": "2026-11-classic-11-vovremya",
+      "photoId": "books-pile",
+      "musicId": "satie-gymnopedie3",
+      "backgroundPosition": "50% 50%",
+      "rotationPlanMatch": true,
+      "preview": "qa/2026-11-classic-11-vovremya-preview.jpg",
+      "previewSha256": "0b8a9223e375818d6aee896ba61e62451fcfa1b17e9ffe73ca9ccbf678e4a3c2",
+      "previewManualInspection": "complete_no_visual_defects",
+      "phonePreviewWidth": 390,
+      "tableComplete": true,
+      "textContrast": "readable_on_cream_card",
+      "neutralHeadsPreserved": true,
+      "authorHandleFooterAbsent": true,
+      "layoutMeasured": {
+        "cardTop": 639.5625,
+        "cardBottom": 1357.5625,
+        "rowFont": 52,
+        "titleFont": 94,
+        "footerCount": 0,
+        "cellOverflow": false
+      },
+      "videoSamplesStatus": "pass",
+      "finalVideo": "content/reels/2026-11-classic-11-vovremya.mp4",
+      "videoSha256": "8ea94a25cd84276331c3272bf7fa6d2c358101b37bd5a574d0f3723f2a3e6f7f",
+      "finalCover": "content/reels/2026-11-classic-11-vovremya-frame.jpg",
+      "coverSha256": "0b8a9223e375818d6aee896ba61e62451fcfa1b17e9ffe73ca9ccbf678e4a3c2",
+      "coverByteIdenticalToInspectedPreview": true,
+      "receipt": "qa/2026-11-classic-11-vovremya-render.json",
+      "receiptSha256": "799036ed6ee731e5278b9270977f8aca2693db8e149d8f8ee028b17630a07025",
+      "renderKey": "662e01070552339b64a76e143027c4f742f77fef2e70e78ffb0951112d2342be",
+      "receiptHashesMatch": true,
+      "renderDecoded": true,
+      "finalLayoutMeasured": {
+        "cardTop": 639.5625,
+        "cardBottom": 1357.5625,
+        "rowFont": 52,
+        "titleFont": 94,
+        "footerCount": 0,
+        "cellOverflow": false
+      },
+      "durationSeconds": 13.2,
+      "samples": [
+        {
+          "timeSeconds": 0.4,
+          "file": "qa/visual-frames/2026-11-classic-11-vovremya/1-0.400.jpg",
+          "sha256": "c3aaa2fd87ed5747ed569c486b30014e3d67e170500e855e68b3170f961e7c2c",
+          "manualInspection": "pass",
+          "visualChecks": {
+            "appropriateAnimatedReveal": true,
+            "textContrastReadable": true,
+            "noClippedVisibleText": true,
+            "authorHandleFooterAbsent": true,
+            "neutralPairsNotMarkedAsErrors": true,
+            "backgroundMatchesSelectedPhoto": true
+          }
+        },
+        {
+          "timeSeconds": 1.8,
+          "file": "qa/visual-frames/2026-11-classic-11-vovremya/2-1.800.jpg",
+          "sha256": "09ebef505cfab1d466fdb108f41de8cd0277ba5a8d88f96993c2419690e2b625",
+          "manualInspection": "pass",
+          "visualChecks": {
+            "appropriateAnimatedReveal": true,
+            "textContrastReadable": true,
+            "noClippedVisibleText": true,
+            "authorHandleFooterAbsent": true,
+            "neutralPairsNotMarkedAsErrors": true,
+            "backgroundMatchesSelectedPhoto": true
+          }
+        },
+        {
+          "timeSeconds": 6.6,
+          "file": "qa/visual-frames/2026-11-classic-11-vovremya/3-6.600.jpg",
+          "sha256": "7e0503c8805aaa96960c09f33ccef4778bdafe6874bdb8e428a81079891c9076",
+          "manualInspection": "pass",
+          "visualChecks": {
+            "appropriateAnimatedReveal": true,
+            "textContrastReadable": true,
+            "noClippedVisibleText": true,
+            "authorHandleFooterAbsent": true,
+            "neutralPairsNotMarkedAsErrors": true,
+            "backgroundMatchesSelectedPhoto": true
+          }
+        },
+        {
+          "timeSeconds": 13.0,
+          "file": "qa/visual-frames/2026-11-classic-11-vovremya/4-13.000.jpg",
+          "sha256": "99ee341dab015ca41ede38ae2fa5570daf9a988d2511eac1219ad26a5f591b01",
+          "manualInspection": "pass",
+          "visualChecks": {
+            "appropriateAnimatedReveal": true,
+            "textContrastReadable": true,
+            "noClippedVisibleText": true,
+            "authorHandleFooterAbsent": true,
+            "neutralPairsNotMarkedAsErrors": true,
+            "backgroundMatchesSelectedPhoto": true
+          }
+        }
+      ],
+      "sampleSheet": "qa/visual-mp4-2026-11-classic-11-vovremya.jpg",
+      "sampleSheetSha256": "a6ac62625a1edc8b4a3870f8a862e17827634b6139be9495098fc2b2472c26a8",
+      "finalCoverManualInspection": "pass",
+      "status": "pass",
+      "mandatoryChanges": [],
+      "sampleDisplayWidth": 320,
+      "finalCoverPhoneDisplayWidth": 390
+    },
+    {
+      "id": "2026-11-classic-12-mesto-tema",
+      "photoId": "journal-writing",
+      "musicId": "schumann-traumerei",
+      "backgroundPosition": "50% 50%",
+      "rotationPlanMatch": true,
+      "preview": "qa/2026-11-classic-12-mesto-tema-preview.jpg",
+      "previewSha256": "0384e46f73bbbcfc3de0547609f3cd1e45e44dcd422045519797c529daff05cf",
+      "previewManualInspection": "complete_no_visual_defects",
+      "phonePreviewWidth": 390,
+      "tableComplete": true,
+      "textContrast": "readable_on_cream_card",
+      "neutralHeadsPreserved": true,
+      "authorHandleFooterAbsent": true,
+      "layoutMeasured": {
+        "cardTop": 639.5625,
+        "cardBottom": 1162.5625,
+        "rowFont": 52,
+        "titleFont": 94,
+        "footerCount": 0,
+        "cellOverflow": false
+      },
+      "videoSamplesStatus": "pass",
+      "finalVideo": "content/reels/2026-11-classic-12-mesto-tema.mp4",
+      "videoSha256": "4940fd25f1a2517212b8ea5e894972f5b4881257868d4cb4608d52ef1a55a9b3",
+      "finalCover": "content/reels/2026-11-classic-12-mesto-tema-frame.jpg",
+      "coverSha256": "0384e46f73bbbcfc3de0547609f3cd1e45e44dcd422045519797c529daff05cf",
+      "coverByteIdenticalToInspectedPreview": true,
+      "receipt": "qa/2026-11-classic-12-mesto-tema-render.json",
+      "receiptSha256": "c882d0a1c6af0fe855be8c32af60d63c3bbcc6de4a2304a13b2434abbbf5c9d2",
+      "renderKey": "55545c6b47222aa4c3d4da112061206605a20ec577b4a9aed986fc1a12a5bdb4",
+      "receiptHashesMatch": true,
+      "renderDecoded": true,
+      "finalLayoutMeasured": {
+        "cardTop": 639.5625,
+        "cardBottom": 1162.5625,
+        "rowFont": 52,
+        "titleFont": 94,
+        "footerCount": 0,
+        "cellOverflow": false
+      },
+      "durationSeconds": 13.2,
+      "samples": [
+        {
+          "timeSeconds": 0.4,
+          "file": "qa/visual-frames/2026-11-classic-12-mesto-tema/1-0.400.jpg",
+          "sha256": "a2fe645c023fd7f70ef15f2eefe9b5d11d5b02fabb90bc5de8fb94985e958b4e",
+          "manualInspection": "pass",
+          "visualChecks": {
+            "appropriateAnimatedReveal": true,
+            "textContrastReadable": true,
+            "noClippedVisibleText": true,
+            "authorHandleFooterAbsent": true,
+            "neutralPairsNotMarkedAsErrors": true,
+            "backgroundMatchesSelectedPhoto": true
+          }
+        },
+        {
+          "timeSeconds": 1.8,
+          "file": "qa/visual-frames/2026-11-classic-12-mesto-tema/2-1.800.jpg",
+          "sha256": "390f15b0bad333c04da55953f16a32c9fcd23f7efa65351fe08c0284fc6e6a15",
+          "manualInspection": "pass",
+          "visualChecks": {
+            "appropriateAnimatedReveal": true,
+            "textContrastReadable": true,
+            "noClippedVisibleText": true,
+            "authorHandleFooterAbsent": true,
+            "neutralPairsNotMarkedAsErrors": true,
+            "backgroundMatchesSelectedPhoto": true
+          }
+        },
+        {
+          "timeSeconds": 6.6,
+          "file": "qa/visual-frames/2026-11-classic-12-mesto-tema/3-6.600.jpg",
+          "sha256": "0e62ba72515b0a6be633c82bc5798c92db67514114a8c2361528ff1d337792e6",
+          "manualInspection": "pass",
+          "visualChecks": {
+            "appropriateAnimatedReveal": true,
+            "textContrastReadable": true,
+            "noClippedVisibleText": true,
+            "authorHandleFooterAbsent": true,
+            "neutralPairsNotMarkedAsErrors": true,
+            "backgroundMatchesSelectedPhoto": true
+          }
+        },
+        {
+          "timeSeconds": 13.0,
+          "file": "qa/visual-frames/2026-11-classic-12-mesto-tema/4-13.000.jpg",
+          "sha256": "01716a55e6cdb22b6e80bff58f0e15c221328e11bc03657365d041fb869614b6",
+          "manualInspection": "pass",
+          "visualChecks": {
+            "appropriateAnimatedReveal": true,
+            "textContrastReadable": true,
+            "noClippedVisibleText": true,
+            "authorHandleFooterAbsent": true,
+            "neutralPairsNotMarkedAsErrors": true,
+            "backgroundMatchesSelectedPhoto": true
+          }
+        }
+      ],
+      "sampleSheet": "qa/visual-mp4-2026-11-classic-12-mesto-tema.jpg",
+      "sampleSheetSha256": "11f7d7576da326efd17c91109955e2e15375ec0b1dfc3135756203d2572b744c",
+      "finalCoverManualInspection": "pass",
+      "status": "pass",
+      "mandatoryChanges": [],
+      "sampleDisplayWidth": 320,
+      "finalCoverPhoneDisplayWidth": 390
+    },
+    {
+      "id": "2026-11-classic-13-mashet",
+      "photoId": "uppsala-bookshelves",
+      "musicId": "mozart40-andante",
+      "backgroundPosition": "50% 50%",
+      "rotationPlanMatch": true,
+      "preview": "qa/2026-11-classic-13-mashet-preview.jpg",
+      "previewSha256": "b8e6da905841b86703ec1b87c4216865014040a14d1ad7ab88aad44c0c17e2fa",
+      "previewManualInspection": "complete_no_visual_defects",
+      "phonePreviewWidth": 390,
+      "tableComplete": true,
+      "textContrast": "readable_on_cream_card",
+      "neutralHeadsPreserved": true,
+      "authorHandleFooterAbsent": true,
+      "layoutMeasured": {
+        "cardTop": 639.5625,
+        "cardBottom": 1162.5625,
+        "rowFont": 52,
+        "titleFont": 94,
+        "footerCount": 0,
+        "cellOverflow": false
+      },
+      "videoSamplesStatus": "pass",
+      "finalVideo": "content/reels/2026-11-classic-13-mashet.mp4",
+      "videoSha256": "3aa1696ce400297df2b7684a62dc7d123a8a8a731e18945524c7ec84d27b117f",
+      "finalCover": "content/reels/2026-11-classic-13-mashet-frame.jpg",
+      "coverSha256": "c0df84aa4ce45be567ff8386dfeac7320ebb88de5ecfe00a255725c06a6401f6",
+      "coverByteIdenticalToInspectedPreview": false,
+      "receipt": "qa/2026-11-classic-13-mashet-render.json",
+      "receiptSha256": "92d386e9c508923fc3735ffd665616826b454467708ed0cf9ba2395b8567599b",
+      "renderKey": "2ce204125f14564355fe77654b5a15dcfd206dd95cf41bd5738b744cadfb1866",
+      "receiptHashesMatch": true,
+      "renderDecoded": true,
+      "finalLayoutMeasured": {
+        "cardTop": 639.5625,
+        "cardBottom": 1162.5625,
+        "rowFont": 52,
+        "titleFont": 94,
+        "footerCount": 0,
+        "cellOverflow": false
+      },
+      "durationSeconds": 13.2,
+      "samples": [
+        {
+          "timeSeconds": 0.4,
+          "file": "qa/visual-frames/2026-11-classic-13-mashet/1-0.400.jpg",
+          "sha256": "01e176c382f709ecd93dadd3636507fa6dd139d201558fac2d25b82f0a6924d4",
+          "manualInspection": "pass",
+          "visualChecks": {
+            "appropriateAnimatedReveal": true,
+            "textContrastReadable": true,
+            "noClippedVisibleText": true,
+            "authorHandleFooterAbsent": true,
+            "neutralPairsNotMarkedAsErrors": true,
+            "backgroundMatchesSelectedPhoto": true
+          }
+        },
+        {
+          "timeSeconds": 1.8,
+          "file": "qa/visual-frames/2026-11-classic-13-mashet/2-1.800.jpg",
+          "sha256": "06512307b1b9bdeb735c170a7a05880e43fce13b0666f551835a6d8d3b3913ca",
+          "manualInspection": "pass",
+          "visualChecks": {
+            "appropriateAnimatedReveal": true,
+            "textContrastReadable": true,
+            "noClippedVisibleText": true,
+            "authorHandleFooterAbsent": true,
+            "neutralPairsNotMarkedAsErrors": true,
+            "backgroundMatchesSelectedPhoto": true
+          }
+        },
+        {
+          "timeSeconds": 6.6,
+          "file": "qa/visual-frames/2026-11-classic-13-mashet/3-6.600.jpg",
+          "sha256": "6aead7aff79f92409e46b39057b1525225645c14718b05337182f5b68f4ba464",
+          "manualInspection": "pass",
+          "visualChecks": {
+            "appropriateAnimatedReveal": true,
+            "textContrastReadable": true,
+            "noClippedVisibleText": true,
+            "authorHandleFooterAbsent": true,
+            "neutralPairsNotMarkedAsErrors": true,
+            "backgroundMatchesSelectedPhoto": true
+          }
+        },
+        {
+          "timeSeconds": 13.0,
+          "file": "qa/visual-frames/2026-11-classic-13-mashet/4-13.000.jpg",
+          "sha256": "38d68040586a6bbbc79d60151d06fe3a1a4b92a90b0e468400975c2e5462a344",
+          "manualInspection": "pass",
+          "visualChecks": {
+            "appropriateAnimatedReveal": true,
+            "textContrastReadable": true,
+            "noClippedVisibleText": true,
+            "authorHandleFooterAbsent": true,
+            "neutralPairsNotMarkedAsErrors": true,
+            "backgroundMatchesSelectedPhoto": true
+          }
+        }
+      ],
+      "sampleSheet": "qa/visual-mp4-2026-11-classic-13-mashet.jpg",
+      "sampleSheetSha256": "26501d3000f1d0a416d68d41c776191e7823df53b70438dd83127a41b38485be",
+      "finalCoverManualInspection": "pass",
+      "status": "pass",
+      "mandatoryChanges": [],
+      "sampleDisplayWidth": 320,
+      "finalCoverPhoneDisplayWidth": 390,
+      "previewToFinalMeanAbsPixelDifference": 0.0867480066872428
+    },
+    {
+      "id": "2026-11-classic-14-ekonomnyy",
+      "photoId": "open-book-plant",
+      "musicId": "schubert-d784-andante",
+      "backgroundPosition": "50% 50%",
+      "rotationPlanMatch": true,
+      "preview": "qa/2026-11-classic-14-ekonomnyy-preview.jpg",
+      "previewSha256": "e8ad6264449e1416470d17a61452e7228a8c3247641a016fa85983cbaef44f47",
+      "previewManualInspection": "complete_no_visual_defects",
+      "phonePreviewWidth": 390,
+      "tableComplete": true,
+      "textContrast": "readable_on_cream_card",
+      "neutralHeadsPreserved": true,
+      "authorHandleFooterAbsent": true,
+      "layoutMeasured": {
+        "cardTop": 748.59375,
+        "cardBottom": 1531.59375,
+        "rowFont": 52,
+        "titleFont": 94,
+        "footerCount": 0,
+        "cellOverflow": false
+      },
+      "videoSamplesStatus": "pass",
+      "finalVideo": "content/reels/2026-11-classic-14-ekonomnyy.mp4",
+      "videoSha256": "b608bb78f8f5b5ccedf5f3509eba60e9d013010d8420706323949269468e6f2d",
+      "finalCover": "content/reels/2026-11-classic-14-ekonomnyy-frame.jpg",
+      "coverSha256": "e8ad6264449e1416470d17a61452e7228a8c3247641a016fa85983cbaef44f47",
+      "coverByteIdenticalToInspectedPreview": true,
+      "receipt": "qa/2026-11-classic-14-ekonomnyy-render.json",
+      "receiptSha256": "9f86e5d43ab7b96c620f93f589c8dbe625850229d2cf1402f71da681ca7f03b5",
+      "renderKey": "cacad473aa27920c8ac5939700eedcd967b2f3b8e8da09445b40b673d2e81e91",
+      "receiptHashesMatch": true,
+      "renderDecoded": true,
+      "finalLayoutMeasured": {
+        "cardTop": 748.59375,
+        "cardBottom": 1531.59375,
+        "rowFont": 52,
+        "titleFont": 94,
+        "footerCount": 0,
+        "cellOverflow": false
+      },
+      "durationSeconds": 13.2,
+      "samples": [
+        {
+          "timeSeconds": 0.4,
+          "file": "qa/visual-frames/2026-11-classic-14-ekonomnyy/1-0.400.jpg",
+          "sha256": "2edca7e079063661eaa8a7a78de3554a4ecccf7e025147733eca590f279c3c7c",
+          "manualInspection": "pass",
+          "visualChecks": {
+            "appropriateAnimatedReveal": true,
+            "textContrastReadable": true,
+            "noClippedVisibleText": true,
+            "authorHandleFooterAbsent": true,
+            "neutralPairsNotMarkedAsErrors": true,
+            "backgroundMatchesSelectedPhoto": true
+          }
+        },
+        {
+          "timeSeconds": 1.8,
+          "file": "qa/visual-frames/2026-11-classic-14-ekonomnyy/2-1.800.jpg",
+          "sha256": "f6a8f8947662ff2cb45bef1b3951fed012141266fcb051687f479e0f637da776",
+          "manualInspection": "pass",
+          "visualChecks": {
+            "appropriateAnimatedReveal": true,
+            "textContrastReadable": true,
+            "noClippedVisibleText": true,
+            "authorHandleFooterAbsent": true,
+            "neutralPairsNotMarkedAsErrors": true,
+            "backgroundMatchesSelectedPhoto": true
+          }
+        },
+        {
+          "timeSeconds": 6.6,
+          "file": "qa/visual-frames/2026-11-classic-14-ekonomnyy/3-6.600.jpg",
+          "sha256": "6a12fc98fcb0ee2aeb6e95053e5f62317123cd825d64e04f8471221bfd9a392f",
+          "manualInspection": "pass",
+          "visualChecks": {
+            "appropriateAnimatedReveal": true,
+            "textContrastReadable": true,
+            "noClippedVisibleText": true,
+            "authorHandleFooterAbsent": true,
+            "neutralPairsNotMarkedAsErrors": true,
+            "backgroundMatchesSelectedPhoto": true
+          }
+        },
+        {
+          "timeSeconds": 13.0,
+          "file": "qa/visual-frames/2026-11-classic-14-ekonomnyy/4-13.000.jpg",
+          "sha256": "3bdda0c9e8e266120b696fc099e23f04a4a815876e5e3aef7199e8d043bf2b36",
+          "manualInspection": "pass",
+          "visualChecks": {
+            "appropriateAnimatedReveal": true,
+            "textContrastReadable": true,
+            "noClippedVisibleText": true,
+            "authorHandleFooterAbsent": true,
+            "neutralPairsNotMarkedAsErrors": true,
+            "backgroundMatchesSelectedPhoto": true
+          }
+        }
+      ],
+      "sampleSheet": "qa/visual-mp4-2026-11-classic-14-ekonomnyy.jpg",
+      "sampleSheetSha256": "fa2e06fe0f135fa0c6dd4799f679d4a760e048b9b87d472bf7f83cb65791e68e",
+      "finalCoverManualInspection": "pass",
+      "status": "pass",
+      "mandatoryChanges": [],
+      "sampleDisplayWidth": 320,
+      "finalCoverPhoneDisplayWidth": 390
+    },
+    {
+      "id": "2026-11-classic-15-kas-kos",
+      "photoId": "desk-books-laptop",
+      "musicId": "chopin-op37-no2",
+      "backgroundPosition": "35% 50%",
+      "rotationPlanMatch": true,
+      "preview": "qa/2026-11-classic-15-kas-kos-preview.jpg",
+      "previewSha256": "0a61014d093a23506884f228b3ab9e433e94a86f4892e924fe5d7fe0efa60d13",
+      "previewManualInspection": "complete_no_visual_defects",
+      "phonePreviewWidth": 390,
+      "tableComplete": true,
+      "textContrast": "readable_on_cream_card",
+      "neutralHeadsPreserved": true,
+      "authorHandleFooterAbsent": true,
+      "layoutMeasured": {
+        "cardTop": 639.5625,
+        "cardBottom": 1149.5625,
+        "rowFont": 51,
+        "titleFont": 94,
+        "footerCount": 0,
+        "cellOverflow": false
+      },
+      "videoSamplesStatus": "pass",
+      "finalVideo": "content/reels/2026-11-classic-15-kas-kos.mp4",
+      "videoSha256": "d1f7864ac37f71727d5304958ff2867e3d00313f7b4bf42ce5f92a4d9f0586d0",
+      "finalCover": "content/reels/2026-11-classic-15-kas-kos-frame.jpg",
+      "coverSha256": "0a61014d093a23506884f228b3ab9e433e94a86f4892e924fe5d7fe0efa60d13",
+      "coverByteIdenticalToInspectedPreview": true,
+      "receipt": "qa/2026-11-classic-15-kas-kos-render.json",
+      "receiptSha256": "85db181dcbd9d77e03edb611881f662d13bfbff58f6eab1ff40001c70ac3dc10",
+      "renderKey": "9123d0e165e49007194a78aaa8399ea1d289975ebf92d16ee5ee745db1a87874",
+      "receiptHashesMatch": true,
+      "renderDecoded": true,
+      "finalLayoutMeasured": {
+        "cardTop": 639.5625,
+        "cardBottom": 1149.5625,
+        "rowFont": 51,
+        "titleFont": 94,
+        "footerCount": 0,
+        "cellOverflow": false
+      },
+      "durationSeconds": 13.2,
+      "samples": [
+        {
+          "timeSeconds": 0.4,
+          "file": "qa/visual-frames/2026-11-classic-15-kas-kos/1-0.400.jpg",
+          "sha256": "d6ab6b71c9fce57ef0a5dd6f68abc011cd561f385547e7e6331522bd6e46192d",
+          "manualInspection": "pass",
+          "visualChecks": {
+            "appropriateAnimatedReveal": true,
+            "textContrastReadable": true,
+            "noClippedVisibleText": true,
+            "authorHandleFooterAbsent": true,
+            "neutralPairsNotMarkedAsErrors": true,
+            "backgroundMatchesSelectedPhoto": true
+          }
+        },
+        {
+          "timeSeconds": 1.8,
+          "file": "qa/visual-frames/2026-11-classic-15-kas-kos/2-1.800.jpg",
+          "sha256": "14492958e1b7654c2a4550b6b2d3bfdb2aa04fd25380a0b81d85c6ef383e39af",
+          "manualInspection": "pass",
+          "visualChecks": {
+            "appropriateAnimatedReveal": true,
+            "textContrastReadable": true,
+            "noClippedVisibleText": true,
+            "authorHandleFooterAbsent": true,
+            "neutralPairsNotMarkedAsErrors": true,
+            "backgroundMatchesSelectedPhoto": true
+          }
+        },
+        {
+          "timeSeconds": 6.6,
+          "file": "qa/visual-frames/2026-11-classic-15-kas-kos/3-6.600.jpg",
+          "sha256": "d96215cac62213ecf77c5ac17917143776730c458383be4bdea3e8e7f7f98f82",
+          "manualInspection": "pass",
+          "visualChecks": {
+            "appropriateAnimatedReveal": true,
+            "textContrastReadable": true,
+            "noClippedVisibleText": true,
+            "authorHandleFooterAbsent": true,
+            "neutralPairsNotMarkedAsErrors": true,
+            "backgroundMatchesSelectedPhoto": true
+          }
+        },
+        {
+          "timeSeconds": 13.0,
+          "file": "qa/visual-frames/2026-11-classic-15-kas-kos/4-13.000.jpg",
+          "sha256": "ac74acd2ac42475671cd607495f6e3aceb254208d15b4a9159247d0e4f447d09",
+          "manualInspection": "pass",
+          "visualChecks": {
+            "appropriateAnimatedReveal": true,
+            "textContrastReadable": true,
+            "noClippedVisibleText": true,
+            "authorHandleFooterAbsent": true,
+            "neutralPairsNotMarkedAsErrors": true,
+            "backgroundMatchesSelectedPhoto": true
+          }
+        }
+      ],
+      "sampleSheet": "qa/visual-mp4-2026-11-classic-15-kas-kos.jpg",
+      "sampleSheetSha256": "145e2f0acc3af9e5f1ee8b36a5a927c3cb0308615dbcf311ed9cb974efc5bedf",
+      "finalCoverManualInspection": "pass",
+      "status": "pass",
+      "mandatoryChanges": [],
+      "sampleDisplayWidth": 320,
+      "finalCoverPhoneDisplayWidth": 390
+    },
+    {
+      "id": "2026-11-classic-16-y-posle-pristavki",
+      "photoId": "blank-books-table",
+      "musicId": "bach-var1-ishizaka",
+      "backgroundPosition": "50% 50%",
+      "rotationPlanMatch": true,
+      "preview": "qa/2026-11-classic-16-y-posle-pristavki-preview.jpg",
+      "previewSha256": "e84504fa893a7af9ae9859ec7c61ff046efc59d11d54a25590b5633a1d62378b",
+      "previewManualInspection": "complete_no_visual_defects",
+      "phonePreviewWidth": 390,
+      "tableComplete": true,
+      "textContrast": "readable_on_cream_card",
+      "neutralHeadsPreserved": true,
+      "authorHandleFooterAbsent": true,
+      "layoutMeasured": {
+        "cardTop": 639.5625,
+        "cardBottom": 1132.3125,
+        "rowFont": 43,
+        "titleFont": 94,
+        "footerCount": 0,
+        "cellOverflow": false
+      },
+      "videoSamplesStatus": "pass",
+      "finalVideo": "content/reels/2026-11-classic-16-y-posle-pristavki.mp4",
+      "videoSha256": "0ad3e69c3a34185b7953fccaa399cd0a40f4bada5931e5d5c75d7c5a46887762",
+      "finalCover": "content/reels/2026-11-classic-16-y-posle-pristavki-frame.jpg",
+      "coverSha256": "e84504fa893a7af9ae9859ec7c61ff046efc59d11d54a25590b5633a1d62378b",
+      "coverByteIdenticalToInspectedPreview": true,
+      "receipt": "qa/2026-11-classic-16-y-posle-pristavki-render.json",
+      "receiptSha256": "b9a40cc0025d24bbe5b9c71803874525c944d4a6c3b51cdf5c852375403fa417",
+      "renderKey": "ddab2da1e20fe0f135314368136f5b1d831c973e10ed14cdce894efa0e1da3af",
+      "receiptHashesMatch": true,
+      "renderDecoded": true,
+      "finalLayoutMeasured": {
+        "cardTop": 639.5625,
+        "cardBottom": 1132.3125,
+        "rowFont": 43,
+        "titleFont": 94,
+        "footerCount": 0,
+        "cellOverflow": false
+      },
+      "durationSeconds": 15.4,
+      "samples": [
+        {
+          "timeSeconds": 0.4,
+          "file": "qa/visual-frames/2026-11-classic-16-y-posle-pristavki/1-0.400.jpg",
+          "sha256": "f45032a402eee7b882bf085d26212a67072d62f371ce72a7907fbaa83481b8c7",
+          "manualInspection": "pass",
+          "visualChecks": {
+            "appropriateAnimatedReveal": true,
+            "textContrastReadable": true,
+            "noClippedVisibleText": true,
+            "authorHandleFooterAbsent": true,
+            "neutralPairsNotMarkedAsErrors": true,
+            "backgroundMatchesSelectedPhoto": true
+          }
+        },
+        {
+          "timeSeconds": 1.8,
+          "file": "qa/visual-frames/2026-11-classic-16-y-posle-pristavki/2-1.800.jpg",
+          "sha256": "82bc8b112f1fd46280afe9b197103983ee975eda8966fd5ec09e10a4fbb7dbf5",
+          "manualInspection": "pass",
+          "visualChecks": {
+            "appropriateAnimatedReveal": true,
+            "textContrastReadable": true,
+            "noClippedVisibleText": true,
+            "authorHandleFooterAbsent": true,
+            "neutralPairsNotMarkedAsErrors": true,
+            "backgroundMatchesSelectedPhoto": true
+          }
+        },
+        {
+          "timeSeconds": 7.7,
+          "file": "qa/visual-frames/2026-11-classic-16-y-posle-pristavki/3-7.700.jpg",
+          "sha256": "815c99a53dbd250250fe66bfec358cf05bf605ccc8f87d0952e0e74ae1a82d18",
+          "manualInspection": "pass",
+          "visualChecks": {
+            "appropriateAnimatedReveal": true,
+            "textContrastReadable": true,
+            "noClippedVisibleText": true,
+            "authorHandleFooterAbsent": true,
+            "neutralPairsNotMarkedAsErrors": true,
+            "backgroundMatchesSelectedPhoto": true
+          }
+        },
+        {
+          "timeSeconds": 15.2,
+          "file": "qa/visual-frames/2026-11-classic-16-y-posle-pristavki/4-15.200.jpg",
+          "sha256": "ec1ee15ddb855b27611cdb2ade89fff783e9120593d08f57cf032cb42acc29c9",
+          "manualInspection": "pass",
+          "visualChecks": {
+            "appropriateAnimatedReveal": true,
+            "textContrastReadable": true,
+            "noClippedVisibleText": true,
+            "authorHandleFooterAbsent": true,
+            "neutralPairsNotMarkedAsErrors": true,
+            "backgroundMatchesSelectedPhoto": true
+          }
+        }
+      ],
+      "sampleSheet": "qa/visual-mp4-2026-11-classic-16-y-posle-pristavki.jpg",
+      "sampleSheetSha256": "0aa5eb11fb46d98f9399e4306a959bcfcdc09c80be191e40ee6d2856897d024d",
+      "finalCoverManualInspection": "pass",
+      "status": "pass",
+      "mandatoryChanges": [],
+      "sampleDisplayWidth": 320,
+      "finalCoverPhoneDisplayWidth": 390
+    },
+    {
+      "id": "2026-11-classic-17-ne-ni",
+      "photoId": "library-bookshelves",
+      "musicId": "chopin-op62-no1",
+      "backgroundPosition": "50% 50%",
+      "rotationPlanMatch": true,
+      "preview": "qa/2026-11-classic-17-ne-ni-preview.jpg",
+      "previewSha256": "18d9b429f7c31544cb6168485300dadd8b3c8f34930e96a1da021d3b60bd62d2",
+      "previewManualInspection": "complete_no_visual_defects",
+      "phonePreviewWidth": 390,
+      "tableComplete": true,
+      "textContrast": "readable_on_cream_card",
+      "neutralHeadsPreserved": true,
+      "authorHandleFooterAbsent": true,
+      "layoutMeasured": {
+        "cardTop": 639.5625,
+        "cardBottom": 1357.5625,
+        "rowFont": 52,
+        "titleFont": 94,
+        "footerCount": 0,
+        "cellOverflow": false
+      },
+      "videoSamplesStatus": "pass",
+      "finalVideo": "content/reels/2026-11-classic-17-ne-ni.mp4",
+      "videoSha256": "e04049db3edb362b2806f54a56979e34c191b4d83ac56783c1231afaf0753393",
+      "finalCover": "content/reels/2026-11-classic-17-ne-ni-frame.jpg",
+      "coverSha256": "6a50c216bba971eab072cfdfb372fd7563cb3bee3755da6f910feee9b42a9bf2",
+      "coverByteIdenticalToInspectedPreview": false,
+      "receipt": "qa/2026-11-classic-17-ne-ni-render.json",
+      "receiptSha256": "2d5508b864ba2708c57e221436ae375c22584b92a523f2f6a7d51e4a80a1a096",
+      "renderKey": "6404a7fe1f6fa76f8595811abfd7bbaf6d1298c6a78fb684d23930a8bd5401c3",
+      "receiptHashesMatch": true,
+      "renderDecoded": true,
+      "finalLayoutMeasured": {
+        "cardTop": 639.5625,
+        "cardBottom": 1357.5625,
+        "rowFont": 52,
+        "titleFont": 94,
+        "footerCount": 0,
+        "cellOverflow": false
+      },
+      "durationSeconds": 13.2,
+      "samples": [
+        {
+          "timeSeconds": 0.4,
+          "file": "qa/visual-frames/2026-11-classic-17-ne-ni/1-0.400.jpg",
+          "sha256": "3368d983a632704056fbb9ad77b7472fb972071931d5b264de69c828fb370907",
+          "manualInspection": "pass",
+          "visualChecks": {
+            "appropriateAnimatedReveal": true,
+            "textContrastReadable": true,
+            "noClippedVisibleText": true,
+            "authorHandleFooterAbsent": true,
+            "neutralPairsNotMarkedAsErrors": true,
+            "backgroundMatchesSelectedPhoto": true
+          }
+        },
+        {
+          "timeSeconds": 1.8,
+          "file": "qa/visual-frames/2026-11-classic-17-ne-ni/2-1.800.jpg",
+          "sha256": "4f8ac256dcd1ba562e7d1c3e6b71b329804ced3242203e7d4f4f586b2028de6d",
+          "manualInspection": "pass",
+          "visualChecks": {
+            "appropriateAnimatedReveal": true,
+            "textContrastReadable": true,
+            "noClippedVisibleText": true,
+            "authorHandleFooterAbsent": true,
+            "neutralPairsNotMarkedAsErrors": true,
+            "backgroundMatchesSelectedPhoto": true
+          }
+        },
+        {
+          "timeSeconds": 6.6,
+          "file": "qa/visual-frames/2026-11-classic-17-ne-ni/3-6.600.jpg",
+          "sha256": "e9e229094ad5e7d546bf7d6ea3189574473f7149fe85f1905b4f2db643254b48",
+          "manualInspection": "pass",
+          "visualChecks": {
+            "appropriateAnimatedReveal": true,
+            "textContrastReadable": true,
+            "noClippedVisibleText": true,
+            "authorHandleFooterAbsent": true,
+            "neutralPairsNotMarkedAsErrors": true,
+            "backgroundMatchesSelectedPhoto": true
+          }
+        },
+        {
+          "timeSeconds": 13.0,
+          "file": "qa/visual-frames/2026-11-classic-17-ne-ni/4-13.000.jpg",
+          "sha256": "c61420b5e8ce872315f8561328faea263bda75693c430d5d4438d6bf7e98657c",
+          "manualInspection": "pass",
+          "visualChecks": {
+            "appropriateAnimatedReveal": true,
+            "textContrastReadable": true,
+            "noClippedVisibleText": true,
+            "authorHandleFooterAbsent": true,
+            "neutralPairsNotMarkedAsErrors": true,
+            "backgroundMatchesSelectedPhoto": true
+          }
+        }
+      ],
+      "sampleSheet": "qa/visual-mp4-2026-11-classic-17-ne-ni.jpg",
+      "sampleSheetSha256": "37616c10fe21e2494f994b31efcb88213ec30c51cfbd963d14630c03b77ea288",
+      "finalCoverManualInspection": "pass",
+      "status": "pass",
+      "mandatoryChanges": [],
+      "sampleDisplayWidth": 320,
+      "finalCoverPhoneDisplayWidth": 390,
+      "previewToFinalMeanAbsPixelDifference": 0.06771315586419753
+    },
+    {
+      "id": "2026-11-classic-07-bukvy-zvuki",
+      "photoId": "library-warm",
+      "musicId": "satie-gymnopedie3",
+      "backgroundPosition": "85% 50%",
+      "rotationPlanMatch": true,
+      "preview": "qa/2026-11-classic-07-bukvy-zvuki-preview.jpg",
+      "previewSha256": "56d75bf5dca20aed5a166fac60e0584bbf714a1a082624b0e3e9b3366c7f5e16",
+      "previewManualInspection": "complete_no_visual_defects",
+      "phonePreviewWidth": 390,
+      "tableComplete": true,
+      "textContrast": "readable_on_cream_card",
+      "neutralHeadsPreserved": true,
+      "authorHandleFooterAbsent": true,
+      "layoutMeasured": {
+        "cardTop": 748.59375,
+        "cardBottom": 1271.59375,
+        "rowFont": 52,
+        "titleFont": 94,
+        "footerCount": 0,
+        "cellOverflow": false
+      },
+      "videoSamplesStatus": "pass",
+      "finalVideo": "content/reels/2026-11-classic-07-bukvy-zvuki.mp4",
+      "videoSha256": "6f6fdc732c1f94a917685b6c8559af8a158fb2c6a9c27976e29f6d0aa4012ff9",
+      "finalCover": "content/reels/2026-11-classic-07-bukvy-zvuki-frame.jpg",
+      "coverSha256": "d7e7e6ed0e610376e527d3ef1ec6be0009e382204d304e96f1cb7fdff473f17d",
+      "coverByteIdenticalToInspectedPreview": false,
+      "receipt": "qa/2026-11-classic-07-bukvy-zvuki-render.json",
+      "receiptSha256": "41edb9d4950862b900f796424ec310eb4cf83581cdd770dbeea4ee62be0fcfb3",
+      "renderKey": "6a3d7fe3361379b5deb4712918edbce6d772320da4332bbed653636cc344c2d0",
+      "receiptHashesMatch": true,
+      "renderDecoded": true,
+      "finalLayoutMeasured": {
+        "cardTop": 748.59375,
+        "cardBottom": 1271.59375,
+        "rowFont": 52,
+        "titleFont": 94,
+        "footerCount": 0,
+        "cellOverflow": false
+      },
+      "durationSeconds": 13.2,
+      "samples": [
+        {
+          "timeSeconds": 0.4,
+          "file": "qa/visual-frames/2026-11-classic-07-bukvy-zvuki/1-0.400.jpg",
+          "sha256": "e5e362940aa7bc6b119e99345f5755163c512af07f5a6c74abf01bff4133eb53",
+          "manualInspection": "pass",
+          "visualChecks": {
+            "appropriateAnimatedReveal": true,
+            "textContrastReadable": true,
+            "noClippedVisibleText": true,
+            "authorHandleFooterAbsent": true,
+            "neutralPairsNotMarkedAsErrors": true,
+            "backgroundMatchesSelectedPhoto": true
+          }
+        },
+        {
+          "timeSeconds": 1.8,
+          "file": "qa/visual-frames/2026-11-classic-07-bukvy-zvuki/2-1.800.jpg",
+          "sha256": "6ebe066ff173fd9ca0653204d47b967d58ba6817e2dee9bfb9222da28c0d25e9",
+          "manualInspection": "pass",
+          "visualChecks": {
+            "appropriateAnimatedReveal": true,
+            "textContrastReadable": true,
+            "noClippedVisibleText": true,
+            "authorHandleFooterAbsent": true,
+            "neutralPairsNotMarkedAsErrors": true,
+            "backgroundMatchesSelectedPhoto": true
+          }
+        },
+        {
+          "timeSeconds": 6.6,
+          "file": "qa/visual-frames/2026-11-classic-07-bukvy-zvuki/3-6.600.jpg",
+          "sha256": "3c352a45b187161d8928f0f0371a59e1572b95def830b98d5d4070e13dde722d",
+          "manualInspection": "pass",
+          "visualChecks": {
+            "appropriateAnimatedReveal": true,
+            "textContrastReadable": true,
+            "noClippedVisibleText": true,
+            "authorHandleFooterAbsent": true,
+            "neutralPairsNotMarkedAsErrors": true,
+            "backgroundMatchesSelectedPhoto": true
+          }
+        },
+        {
+          "timeSeconds": 13.0,
+          "file": "qa/visual-frames/2026-11-classic-07-bukvy-zvuki/4-13.000.jpg",
+          "sha256": "ac21d4f7d2cd0da5a550315747ee248f76d7ecc6cbe4b3aa9d81da93d50bb907",
+          "manualInspection": "pass",
+          "visualChecks": {
+            "appropriateAnimatedReveal": true,
+            "textContrastReadable": true,
+            "noClippedVisibleText": true,
+            "authorHandleFooterAbsent": true,
+            "neutralPairsNotMarkedAsErrors": true,
+            "backgroundMatchesSelectedPhoto": true
+          }
+        }
+      ],
+      "sampleSheet": "qa/visual-mp4-2026-11-classic-07-bukvy-zvuki.jpg",
+      "sampleSheetSha256": "1361dd9e63555de52f7353984ec13bb858d07eaf1da9ad8de0ed016845b43e73",
+      "finalCoverManualInspection": "pass",
+      "status": "pass",
+      "mandatoryChanges": [],
+      "sampleDisplayWidth": 320,
+      "finalCoverPhoneDisplayWidth": 390,
+      "previewToFinalMeanAbsPixelDifference": 0.00045347865226337444
+    },
+    {
+      "id": "2026-11-classic-18-giperbola-litota",
+      "photoId": "books-pile",
+      "musicId": "schumann-traumerei",
+      "backgroundPosition": "50% 50%",
+      "rotationPlanMatch": true,
+      "preview": "qa/2026-11-classic-18-giperbola-litota-preview.jpg",
+      "previewSha256": "ea3109f63aeddf9003770daad421e30761f58d3d232c4c3eedeec6501d183164",
+      "previewManualInspection": "complete_no_visual_defects",
+      "phonePreviewWidth": 390,
+      "tableComplete": true,
+      "textContrast": "readable_on_cream_card",
+      "neutralHeadsPreserved": true,
+      "authorHandleFooterAbsent": true,
+      "layoutMeasured": {
+        "cardTop": 639.5625,
+        "cardBottom": 1357.5625,
+        "rowFont": 52,
+        "titleFont": 94,
+        "footerCount": 0,
+        "cellOverflow": false
+      },
+      "videoSamplesStatus": "pass",
+      "finalVideo": "content/reels/2026-11-classic-18-giperbola-litota.mp4",
+      "videoSha256": "a72af118cd661161e266f473a9170a1933ace02a457a9c1660b2c5b8fd5c8265",
+      "finalCover": "content/reels/2026-11-classic-18-giperbola-litota-frame.jpg",
+      "coverSha256": "ea3109f63aeddf9003770daad421e30761f58d3d232c4c3eedeec6501d183164",
+      "coverByteIdenticalToInspectedPreview": true,
+      "receipt": "qa/2026-11-classic-18-giperbola-litota-render.json",
+      "receiptSha256": "c7e98b5b68b12f276036c884b55a20512b63a5ce9b0409671d5304e1c71ea2cd",
+      "renderKey": "235d6ef962e6affadce0a68de4c1576949df2a66a986a88c7fac8feb361d136f",
+      "receiptHashesMatch": true,
+      "renderDecoded": true,
+      "finalLayoutMeasured": {
+        "cardTop": 639.5625,
+        "cardBottom": 1357.5625,
+        "rowFont": 52,
+        "titleFont": 94,
+        "footerCount": 0,
+        "cellOverflow": false
+      },
+      "durationSeconds": 13.2,
+      "samples": [
+        {
+          "timeSeconds": 0.4,
+          "file": "qa/visual-frames/2026-11-classic-18-giperbola-litota/1-0.400.jpg",
+          "sha256": "c9c045dd6f76128db6e58639c0dc1b44a86e880d2791b433c04f87468f8613cb",
+          "manualInspection": "pass",
+          "visualChecks": {
+            "appropriateAnimatedReveal": true,
+            "textContrastReadable": true,
+            "noClippedVisibleText": true,
+            "authorHandleFooterAbsent": true,
+            "neutralPairsNotMarkedAsErrors": true,
+            "backgroundMatchesSelectedPhoto": true
+          }
+        },
+        {
+          "timeSeconds": 1.8,
+          "file": "qa/visual-frames/2026-11-classic-18-giperbola-litota/2-1.800.jpg",
+          "sha256": "d499eaabc19fa418cb7e42409c7145f5f574dcaf09f044b6f75ce6de0be5d2f6",
+          "manualInspection": "pass",
+          "visualChecks": {
+            "appropriateAnimatedReveal": true,
+            "textContrastReadable": true,
+            "noClippedVisibleText": true,
+            "authorHandleFooterAbsent": true,
+            "neutralPairsNotMarkedAsErrors": true,
+            "backgroundMatchesSelectedPhoto": true
+          }
+        },
+        {
+          "timeSeconds": 6.6,
+          "file": "qa/visual-frames/2026-11-classic-18-giperbola-litota/3-6.600.jpg",
+          "sha256": "f4602e71d05b1f7d7d2b752fba9512c3bb0111e718c661c038f0bb25689c0bae",
+          "manualInspection": "pass",
+          "visualChecks": {
+            "appropriateAnimatedReveal": true,
+            "textContrastReadable": true,
+            "noClippedVisibleText": true,
+            "authorHandleFooterAbsent": true,
+            "neutralPairsNotMarkedAsErrors": true,
+            "backgroundMatchesSelectedPhoto": true
+          }
+        },
+        {
+          "timeSeconds": 13.0,
+          "file": "qa/visual-frames/2026-11-classic-18-giperbola-litota/4-13.000.jpg",
+          "sha256": "b579ecbc0108eea7648a2e6ef9c4afd455bbad22b419bd906e6efff9faaedca4",
+          "manualInspection": "pass",
+          "visualChecks": {
+            "appropriateAnimatedReveal": true,
+            "textContrastReadable": true,
+            "noClippedVisibleText": true,
+            "authorHandleFooterAbsent": true,
+            "neutralPairsNotMarkedAsErrors": true,
+            "backgroundMatchesSelectedPhoto": true
+          }
+        }
+      ],
+      "sampleSheet": "qa/visual-mp4-2026-11-classic-18-giperbola-litota.jpg",
+      "sampleSheetSha256": "2e924ef3fd20c845f01039c74d6a6624350d088a98769fc8a284f84f78512620",
+      "finalCoverManualInspection": "pass",
+      "status": "pass",
+      "mandatoryChanges": [],
+      "sampleDisplayWidth": 320,
+      "finalCoverPhoneDisplayWidth": 390
+    },
+    {
+      "id": "2026-11-classic-19-prichastnyy-oborot",
+      "photoId": "journal-writing",
+      "musicId": "mozart40-andante",
+      "backgroundPosition": "50% 50%",
+      "rotationPlanMatch": true,
+      "preview": "qa/2026-11-classic-19-prichastnyy-oborot-preview.jpg",
+      "previewSha256": "91893eba90be7a9cbe5844cbccbce5e6476e34128ea126ad352624e514c19da9",
+      "previewManualInspection": "complete_no_visual_defects",
+      "phonePreviewWidth": 390,
+      "tableComplete": true,
+      "textContrast": "readable_on_cream_card",
+      "neutralHeadsPreserved": true,
+      "authorHandleFooterAbsent": true,
+      "layoutMeasured": {
+        "cardTop": 748.59375,
+        "cardBottom": 1558.09375,
+        "rowFont": 50,
+        "titleFont": 94,
+        "footerCount": 0,
+        "cellOverflow": false
+      },
+      "videoSamplesStatus": "pass",
+      "finalVideo": "content/reels/2026-11-classic-19-prichastnyy-oborot.mp4",
+      "videoSha256": "f5c3c3a257b3225273f147b4aa7a43921794d11006155a6af5e0acd6836baa81",
+      "finalCover": "content/reels/2026-11-classic-19-prichastnyy-oborot-frame.jpg",
+      "coverSha256": "91893eba90be7a9cbe5844cbccbce5e6476e34128ea126ad352624e514c19da9",
+      "coverByteIdenticalToInspectedPreview": true,
+      "receipt": "qa/2026-11-classic-19-prichastnyy-oborot-render.json",
+      "receiptSha256": "131668ca9826d1b8ca20a53cb952ce64cb51f4ab11218598b7bb576a9bc7838a",
+      "renderKey": "4af904c18ad6f4447728591d3c185052821d1928ce9de1dd96265e3437261a09",
+      "receiptHashesMatch": true,
+      "renderDecoded": true,
+      "finalLayoutMeasured": {
+        "cardTop": 748.59375,
+        "cardBottom": 1558.09375,
+        "rowFont": 50,
+        "titleFont": 94,
+        "footerCount": 0,
+        "cellOverflow": false
+      },
+      "durationSeconds": 13.2,
+      "samples": [
+        {
+          "timeSeconds": 0.4,
+          "file": "qa/visual-frames/2026-11-classic-19-prichastnyy-oborot/1-0.400.jpg",
+          "sha256": "4cabe44b615f1a38cb617997ccd997fec1d01764eb381b03b1c8a6e7d9ae9ea0",
+          "manualInspection": "pass",
+          "visualChecks": {
+            "appropriateAnimatedReveal": true,
+            "textContrastReadable": true,
+            "noClippedVisibleText": true,
+            "authorHandleFooterAbsent": true,
+            "neutralPairsNotMarkedAsErrors": true,
+            "backgroundMatchesSelectedPhoto": true
+          }
+        },
+        {
+          "timeSeconds": 1.8,
+          "file": "qa/visual-frames/2026-11-classic-19-prichastnyy-oborot/2-1.800.jpg",
+          "sha256": "92fc82de0837305623422e3e155ad0012a614d2667f2929b0c4ec6572dd4f128",
+          "manualInspection": "pass",
+          "visualChecks": {
+            "appropriateAnimatedReveal": true,
+            "textContrastReadable": true,
+            "noClippedVisibleText": true,
+            "authorHandleFooterAbsent": true,
+            "neutralPairsNotMarkedAsErrors": true,
+            "backgroundMatchesSelectedPhoto": true
+          }
+        },
+        {
+          "timeSeconds": 6.6,
+          "file": "qa/visual-frames/2026-11-classic-19-prichastnyy-oborot/3-6.600.jpg",
+          "sha256": "7f2120265d2aae152e5861c24fbdd2386616787ec9552c3063af0f783bbc97c5",
+          "manualInspection": "pass",
+          "visualChecks": {
+            "appropriateAnimatedReveal": true,
+            "textContrastReadable": true,
+            "noClippedVisibleText": true,
+            "authorHandleFooterAbsent": true,
+            "neutralPairsNotMarkedAsErrors": true,
+            "backgroundMatchesSelectedPhoto": true
+          }
+        },
+        {
+          "timeSeconds": 13.0,
+          "file": "qa/visual-frames/2026-11-classic-19-prichastnyy-oborot/4-13.000.jpg",
+          "sha256": "f490f3da7b13bf8b62401451d446005ab5a6915f910b4fee22bde03299856312",
+          "manualInspection": "pass",
+          "visualChecks": {
+            "appropriateAnimatedReveal": true,
+            "textContrastReadable": true,
+            "noClippedVisibleText": true,
+            "authorHandleFooterAbsent": true,
+            "neutralPairsNotMarkedAsErrors": true,
+            "backgroundMatchesSelectedPhoto": true
+          }
+        }
+      ],
+      "sampleSheet": "qa/visual-mp4-2026-11-classic-19-prichastnyy-oborot.jpg",
+      "sampleSheetSha256": "b5ae0f58c78a8ea1d816c366bb5663e5c5a33dce15333b536bb914591b2508b6",
+      "finalCoverManualInspection": "pass",
+      "status": "pass",
+      "mandatoryChanges": [],
+      "sampleDisplayWidth": 320,
+      "finalCoverPhoneDisplayWidth": 390
+    },
+    {
+      "id": "2026-11-classic-20-odnorodnye",
+      "photoId": "uppsala-bookshelves",
+      "musicId": "schubert-d784-andante",
+      "backgroundPosition": "50% 50%",
+      "rotationPlanMatch": true,
+      "preview": "qa/2026-11-classic-20-odnorodnye-preview.jpg",
+      "previewSha256": "9c7ccabddf9478049e9230999641ed87b1ef29beadee48095979608a1f789632",
+      "previewManualInspection": "complete_no_visual_defects",
+      "phonePreviewWidth": 390,
+      "tableComplete": true,
+      "textContrast": "readable_on_cream_card",
+      "neutralHeadsPreserved": true,
+      "authorHandleFooterAbsent": true,
+      "layoutMeasured": {
+        "cardTop": 639.5625,
+        "cardBottom": 1422.5625,
+        "rowFont": 52,
+        "titleFont": 94,
+        "footerCount": 0,
+        "cellOverflow": false
+      },
+      "videoSamplesStatus": "pass",
+      "finalVideo": "content/reels/2026-11-classic-20-odnorodnye.mp4",
+      "videoSha256": "e2744bff0392995cc0147b35b25e124e11d79d619d6fdee354be27efb1d40a9a",
+      "finalCover": "content/reels/2026-11-classic-20-odnorodnye-frame.jpg",
+      "coverSha256": "9c7ccabddf9478049e9230999641ed87b1ef29beadee48095979608a1f789632",
+      "coverByteIdenticalToInspectedPreview": true,
+      "receipt": "qa/2026-11-classic-20-odnorodnye-render.json",
+      "receiptSha256": "f09df5aa38a3cd2cb17be54dcfb74237c1cc2c28cd4a87ddbdd49b61b351c81b",
+      "renderKey": "6da41ca8667b1988752adb84af066faef2dafb710539af8c80d3eb420c5f0f6b",
+      "receiptHashesMatch": true,
+      "renderDecoded": true,
+      "finalLayoutMeasured": {
+        "cardTop": 639.5625,
+        "cardBottom": 1422.5625,
+        "rowFont": 52,
+        "titleFont": 94,
+        "footerCount": 0,
+        "cellOverflow": false
+      },
+      "durationSeconds": 13.2,
+      "samples": [
+        {
+          "timeSeconds": 0.4,
+          "file": "qa/visual-frames/2026-11-classic-20-odnorodnye/1-0.400.jpg",
+          "sha256": "84a318be7b5075ad3758ee5cefdba40b56f9126572bb43e9a6938130bded50e3",
+          "manualInspection": "pass",
+          "visualChecks": {
+            "appropriateAnimatedReveal": true,
+            "textContrastReadable": true,
+            "noClippedVisibleText": true,
+            "authorHandleFooterAbsent": true,
+            "neutralPairsNotMarkedAsErrors": true,
+            "backgroundMatchesSelectedPhoto": true
+          }
+        },
+        {
+          "timeSeconds": 1.8,
+          "file": "qa/visual-frames/2026-11-classic-20-odnorodnye/2-1.800.jpg",
+          "sha256": "c4397fd9b52e57e99a6564cfa67a9d1629f1e433ffb9920d5cda967ca1e93fd8",
+          "manualInspection": "pass",
+          "visualChecks": {
+            "appropriateAnimatedReveal": true,
+            "textContrastReadable": true,
+            "noClippedVisibleText": true,
+            "authorHandleFooterAbsent": true,
+            "neutralPairsNotMarkedAsErrors": true,
+            "backgroundMatchesSelectedPhoto": true
+          }
+        },
+        {
+          "timeSeconds": 6.6,
+          "file": "qa/visual-frames/2026-11-classic-20-odnorodnye/3-6.600.jpg",
+          "sha256": "f59f8dbbba42830dbd1104a1d0390a56df37530be0b7b0572604bd4ec99bc454",
+          "manualInspection": "pass",
+          "visualChecks": {
+            "appropriateAnimatedReveal": true,
+            "textContrastReadable": true,
+            "noClippedVisibleText": true,
+            "authorHandleFooterAbsent": true,
+            "neutralPairsNotMarkedAsErrors": true,
+            "backgroundMatchesSelectedPhoto": true
+          }
+        },
+        {
+          "timeSeconds": 13.0,
+          "file": "qa/visual-frames/2026-11-classic-20-odnorodnye/4-13.000.jpg",
+          "sha256": "9cb709c54641b4fccf3b39022c5a6bb40f4a28d3dac94df421cae988e14517a6",
+          "manualInspection": "pass",
+          "visualChecks": {
+            "appropriateAnimatedReveal": true,
+            "textContrastReadable": true,
+            "noClippedVisibleText": true,
+            "authorHandleFooterAbsent": true,
+            "neutralPairsNotMarkedAsErrors": true,
+            "backgroundMatchesSelectedPhoto": true
+          }
+        }
+      ],
+      "sampleSheet": "qa/visual-mp4-2026-11-classic-20-odnorodnye.jpg",
+      "sampleSheetSha256": "f35ab9f04a1fe9d75cd1dc1dc13f4f2fef32de8512690b7b802e1ecd83f58699",
+      "finalCoverManualInspection": "pass",
+      "status": "pass",
+      "mandatoryChanges": [],
+      "sampleDisplayWidth": 320,
+      "finalCoverPhoneDisplayWidth": 390
+    },
+    {
+      "id": "2026-11-classic-21-skazuemoe",
+      "photoId": "open-book-plant",
+      "musicId": "chopin-op37-no2",
+      "backgroundPosition": "50% 50%",
+      "rotationPlanMatch": true,
+      "preview": "qa/2026-11-classic-21-skazuemoe-preview.jpg",
+      "previewSha256": "1c99c33acab9b0558219502b57170984cb75b1efd664c48d161f6a796d846d2a",
+      "previewManualInspection": "complete_no_visual_defects",
+      "phonePreviewWidth": 390,
+      "tableComplete": true,
+      "textContrast": "readable_on_cream_card",
+      "neutralHeadsPreserved": true,
+      "authorHandleFooterAbsent": true,
+      "layoutMeasured": {
+        "cardTop": 639.5625,
+        "cardBottom": 1227.5625,
+        "rowFont": 52,
+        "titleFont": 94,
+        "footerCount": 0,
+        "cellOverflow": false
+      },
+      "videoSamplesStatus": "pass",
+      "finalVideo": "content/reels/2026-11-classic-21-skazuemoe.mp4",
+      "videoSha256": "4a3e9ccd006c83374bc7f4536ef57dfd5ef35e38fc36af83dcd1760ce38e834a",
+      "finalCover": "content/reels/2026-11-classic-21-skazuemoe-frame.jpg",
+      "coverSha256": "1c99c33acab9b0558219502b57170984cb75b1efd664c48d161f6a796d846d2a",
+      "coverByteIdenticalToInspectedPreview": true,
+      "receipt": "qa/2026-11-classic-21-skazuemoe-render.json",
+      "receiptSha256": "14a14ac33acbb7931ad39038363c2cc5201f07f2ff8995a40536419d21a59b73",
+      "renderKey": "f2d64a081fdc75e949f8aecf243239ead63428f6aba9f2ab20d31dc9b77f6ba9",
+      "receiptHashesMatch": true,
+      "renderDecoded": true,
+      "finalLayoutMeasured": {
+        "cardTop": 639.5625,
+        "cardBottom": 1227.5625,
+        "rowFont": 52,
+        "titleFont": 94,
+        "footerCount": 0,
+        "cellOverflow": false
+      },
+      "durationSeconds": 13.2,
+      "samples": [
+        {
+          "timeSeconds": 0.4,
+          "file": "qa/visual-frames/2026-11-classic-21-skazuemoe/1-0.400.jpg",
+          "sha256": "8e3f7e60c7a81fb7b752ef3abcc615eb4344b22f336a4969595fe604ac0a4b22",
+          "manualInspection": "pass",
+          "visualChecks": {
+            "appropriateAnimatedReveal": true,
+            "textContrastReadable": true,
+            "noClippedVisibleText": true,
+            "authorHandleFooterAbsent": true,
+            "neutralPairsNotMarkedAsErrors": true,
+            "backgroundMatchesSelectedPhoto": true
+          }
+        },
+        {
+          "timeSeconds": 1.8,
+          "file": "qa/visual-frames/2026-11-classic-21-skazuemoe/2-1.800.jpg",
+          "sha256": "3279121764bb458d9731354c675c6e2402def58dde6d24760aad4ad24998abc9",
+          "manualInspection": "pass",
+          "visualChecks": {
+            "appropriateAnimatedReveal": true,
+            "textContrastReadable": true,
+            "noClippedVisibleText": true,
+            "authorHandleFooterAbsent": true,
+            "neutralPairsNotMarkedAsErrors": true,
+            "backgroundMatchesSelectedPhoto": true
+          }
+        },
+        {
+          "timeSeconds": 6.6,
+          "file": "qa/visual-frames/2026-11-classic-21-skazuemoe/3-6.600.jpg",
+          "sha256": "eb0da3b1cad2df15c057fdbf225cf69ff2dd0fec26f3a0e9216935547708b550",
+          "manualInspection": "pass",
+          "visualChecks": {
+            "appropriateAnimatedReveal": true,
+            "textContrastReadable": true,
+            "noClippedVisibleText": true,
+            "authorHandleFooterAbsent": true,
+            "neutralPairsNotMarkedAsErrors": true,
+            "backgroundMatchesSelectedPhoto": true
+          }
+        },
+        {
+          "timeSeconds": 13.0,
+          "file": "qa/visual-frames/2026-11-classic-21-skazuemoe/4-13.000.jpg",
+          "sha256": "2014e3ed59c045a15eb948bad668c9db02881235dc85cc6399ba649efdbf9605",
+          "manualInspection": "pass",
+          "visualChecks": {
+            "appropriateAnimatedReveal": true,
+            "textContrastReadable": true,
+            "noClippedVisibleText": true,
+            "authorHandleFooterAbsent": true,
+            "neutralPairsNotMarkedAsErrors": true,
+            "backgroundMatchesSelectedPhoto": true
+          }
+        }
+      ],
+      "sampleSheet": "qa/visual-mp4-2026-11-classic-21-skazuemoe.jpg",
+      "sampleSheetSha256": "aa5cb40efc01206b5d074dee1186fafc3d4ac27be0c0ecca0761633159009494",
+      "finalCoverManualInspection": "pass",
+      "status": "pass",
+      "mandatoryChanges": [],
+      "sampleDisplayWidth": 320,
+      "finalCoverPhoneDisplayWidth": 390
+    },
+    {
+      "id": "2026-11-classic-22-svyaz-teksta",
+      "photoId": "desk-books-laptop",
+      "musicId": "bach-var1-ishizaka",
+      "backgroundPosition": "35% 50%",
+      "rotationPlanMatch": true,
+      "preview": "qa/2026-11-classic-22-svyaz-teksta-preview.jpg",
+      "previewSha256": "31c824c1bb81e34df8e4938c2440f3672bb6d210e37d8578a512eeea219ae03b",
+      "previewManualInspection": "complete_no_visual_defects",
+      "phonePreviewWidth": 390,
+      "tableComplete": true,
+      "textContrast": "readable_on_cream_card",
+      "neutralHeadsPreserved": true,
+      "authorHandleFooterAbsent": true,
+      "layoutMeasured": {
+        "cardTop": 748.59375,
+        "cardBottom": 1531.59375,
+        "rowFont": 52,
+        "titleFont": 94,
+        "footerCount": 0,
+        "cellOverflow": false
+      },
+      "videoSamplesStatus": "pass",
+      "finalVideo": "content/reels/2026-11-classic-22-svyaz-teksta.mp4",
+      "videoSha256": "2f6ab9b2bf4584af3918515a6191742685b0e177dab7937ec1e83d7d6fdf0e1d",
+      "finalCover": "content/reels/2026-11-classic-22-svyaz-teksta-frame.jpg",
+      "coverSha256": "31c824c1bb81e34df8e4938c2440f3672bb6d210e37d8578a512eeea219ae03b",
+      "coverByteIdenticalToInspectedPreview": true,
+      "receipt": "qa/2026-11-classic-22-svyaz-teksta-render.json",
+      "receiptSha256": "3574c8432b7866ac987555abb2210067ba4656329263a94737ec894dcbf67b25",
+      "renderKey": "33dfd9b98ae197eba9df095bab046f5d2c14e72f13c6900988ad4d9b534b4ec8",
+      "receiptHashesMatch": true,
+      "renderDecoded": true,
+      "finalLayoutMeasured": {
+        "cardTop": 748.59375,
+        "cardBottom": 1531.59375,
+        "rowFont": 52,
+        "titleFont": 94,
+        "footerCount": 0,
+        "cellOverflow": false
+      },
+      "durationSeconds": 13.2,
+      "samples": [
+        {
+          "timeSeconds": 0.4,
+          "file": "qa/visual-frames/2026-11-classic-22-svyaz-teksta/1-0.400.jpg",
+          "sha256": "c425e445e854e61e4ddd1158438f47d17f6161ce8fe27b140f7104ebeaa741bc",
+          "manualInspection": "pass",
+          "visualChecks": {
+            "appropriateAnimatedReveal": true,
+            "textContrastReadable": true,
+            "noClippedVisibleText": true,
+            "authorHandleFooterAbsent": true,
+            "neutralPairsNotMarkedAsErrors": true,
+            "backgroundMatchesSelectedPhoto": true
+          }
+        },
+        {
+          "timeSeconds": 1.8,
+          "file": "qa/visual-frames/2026-11-classic-22-svyaz-teksta/2-1.800.jpg",
+          "sha256": "87b13750bf2f5c8d6a86ae997360c02191a2414554d9fe9ced751c52110e479a",
+          "manualInspection": "pass",
+          "visualChecks": {
+            "appropriateAnimatedReveal": true,
+            "textContrastReadable": true,
+            "noClippedVisibleText": true,
+            "authorHandleFooterAbsent": true,
+            "neutralPairsNotMarkedAsErrors": true,
+            "backgroundMatchesSelectedPhoto": true
+          }
+        },
+        {
+          "timeSeconds": 6.6,
+          "file": "qa/visual-frames/2026-11-classic-22-svyaz-teksta/3-6.600.jpg",
+          "sha256": "e0486881aa21d436cdf4b0a5df3ff8ffa9f39296aa83f9a4d2f4f86ed2344b08",
+          "manualInspection": "pass",
+          "visualChecks": {
+            "appropriateAnimatedReveal": true,
+            "textContrastReadable": true,
+            "noClippedVisibleText": true,
+            "authorHandleFooterAbsent": true,
+            "neutralPairsNotMarkedAsErrors": true,
+            "backgroundMatchesSelectedPhoto": true
+          }
+        },
+        {
+          "timeSeconds": 13.0,
+          "file": "qa/visual-frames/2026-11-classic-22-svyaz-teksta/4-13.000.jpg",
+          "sha256": "f55662bb50d45dfafde15f8a102aa2ca4a76a62911e938717f3e45d5e97d1774",
+          "manualInspection": "pass",
+          "visualChecks": {
+            "appropriateAnimatedReveal": true,
+            "textContrastReadable": true,
+            "noClippedVisibleText": true,
+            "authorHandleFooterAbsent": true,
+            "neutralPairsNotMarkedAsErrors": true,
+            "backgroundMatchesSelectedPhoto": true
+          }
+        }
+      ],
+      "sampleSheet": "qa/visual-mp4-2026-11-classic-22-svyaz-teksta.jpg",
+      "sampleSheetSha256": "6a522936fa92e2bce6916121b5c9b05fb9744205080f2a5463c05677ec20b2d2",
+      "finalCoverManualInspection": "pass",
+      "status": "pass",
+      "mandatoryChanges": [],
+      "sampleDisplayWidth": 320,
+      "finalCoverPhoneDisplayWidth": 390
+    }
+  ],
+  "samplePlanSeconds": [
+    "0.4",
+    "1.8",
+    "duration/2",
+    "duration-0.2"
+  ],
+  "limitations": [
+    "Only four real frames per MP4 were visually inspected: 0.4 s, 1.8 s, midpoint, and 0.2 s before video end. This is not a full watch.",
+    "Audio was not listened to and source-PCM identity was not assessed here; parent performs that separate check.",
+    "No native Instagram upload/playback or publication result is established by this local review.",
+    "Pass is bound to the listed final video, cover and receipt SHA256 values; changed media require renewed review.",
+    "Historical classic01 and 15 voice Reels are outside this 21-item visual review."
+  ],
+  "mediaCompleteSignalReceived": true,
+  "extractedAtUtc": "2026-11-03T20:59:45.619458+00:00",
+  "finalCoverHashesBoundToReceipts": true,
+  "scope": "local_sampled_visual_review",
+  "reviewedAtUtc": "2026-11-03T21:01:56.248742+00:00",
+  "reviewedAtLocal": "2026-11-04T00:01:56.248742+03:00",
+  "finalVideoSampleReviewComplete": true,
+  "manualFramesInspected": 84,
+  "humanAudioListened": false,
+  "fullVideoPlayback": false,
+  "nativeInstagramChecked": false,
+  "mandatoryChangesRemaining": [],
+  "storySafe": {
+    "topPixels": 300,
+    "bottomPixels": 1660,
+    "maxMeasuredCardBottom": 1622.625,
+    "minMeasuredRowFont": 43,
+    "method": "DOM geometry from final render receipt plus visual inspection of all final covers and four real frames per MP4"
+  },
+  "previewComparison": {
+    "byteIdenticalCovers": 13,
+    "nonIdenticalCovers": 8,
+    "maxMeanAbsPixelDifferenceOn0to255": 0.0867480066872428,
+    "allFinalCoversSeparatelyInspected": true
+  },
+  "sheets": {
+    "finalCovers": [
+      {
+        "file": "qa/visual-final-covers-01.jpg",
+        "sha256": "a40f75ef7ad803445c75c1a6e1daebd15ee213e5e88f14317ef5d9088b3e871a"
+      },
+      {
+        "file": "qa/visual-final-covers-02.jpg",
+        "sha256": "16407b72ac4ea3ca7a780cfa644171d62e3668423cbc80fe55ee5668825e7a27"
+      },
+      {
+        "file": "qa/visual-final-covers-03.jpg",
+        "sha256": "25537b54e8eb1f2da1ed7cc39262b3f74a93f6911926bd6e2c8e8a7213527e0d"
+      },
+      {
+        "file": "qa/visual-final-covers-04.jpg",
+        "sha256": "6c2d82fbbb63a7857b83912c9b21e29d9853c8b4aa079c2134374cb9904221f6"
+      },
+      {
+        "file": "qa/visual-final-covers-05.jpg",
+        "sha256": "ed1af2d1c79d50f71e3dc4dd5e242ef08305df3368a7829bf154e83419557096"
+      },
+      {
+        "file": "qa/visual-final-covers-06.jpg",
+        "sha256": "276d1fa577e2856d1f0db0dc58fde44cc22fda320019d714eb7fff786311df5a"
+      },
+      {
+        "file": "qa/visual-final-covers-07.jpg",
+        "sha256": "eb5c2f08227e0c5c2c7d63007131fd59ee45b1c8a17217ebfc2f9df5a639a66b"
+      }
+    ],
+    "mp4Samples": [
+      {
+        "file": "qa/visual-mp4-2026-11-classic-02-rast-rashch-ros.jpg",
+        "sha256": "38d35fc3880acce627ba2c9ec8b9247fb6e2fadcdd844b54bbdfe97379793b93"
+      },
+      {
+        "file": "qa/visual-mp4-2026-11-classic-03-ne-rodstvenniki.jpg",
+        "sha256": "d3c4cd4e01f70c1ff12c504f5b21c30c5cb2f4b1ae075a0d81d89491323c47c9"
+      },
+      {
+        "file": "qa/visual-mp4-2026-11-classic-04-kto-deystvuet.jpg",
+        "sha256": "7a5120b97307a342f817746068e31015e8fea7f2d1a287d4fd54fe3ecdf3e770"
+      },
+      {
+        "file": "qa/visual-mp4-2026-11-classic-05-probely-v-vyrazheniyah.jpg",
+        "sha256": "9c1c9fe2b19654d4098492fd5f2295df9bc0ee6ca738302c4358a97f7334f1ee"
+      },
+      {
+        "file": "qa/visual-mp4-2026-11-classic-06-anafora-epifora.jpg",
+        "sha256": "368c8a873ec40022becf248931ed48f27bc9010f7fff92ef6a37d382d309a2cc"
+      },
+      {
+        "file": "qa/visual-mp4-2026-11-classic-08-menu.jpg",
+        "sha256": "3bbf12650d442656f31f7ede5ada32b2714ec0902d0bf9cdf671f7b8d55a08a2"
+      },
+      {
+        "file": "qa/visual-mp4-2026-11-classic-09-frukty.jpg",
+        "sha256": "929dcd6c8289370904ce161fee4ca7d1a33953d1eba84895371a757ff97b491b"
+      },
+      {
+        "file": "qa/visual-mp4-2026-11-classic-10-sochetaemost.jpg",
+        "sha256": "c05f1652156943e7f5163004043c0db1abb2a4f8318751f32d56877fe20401e3"
+      },
+      {
+        "file": "qa/visual-mp4-2026-11-classic-11-vovremya.jpg",
+        "sha256": "a6ac62625a1edc8b4a3870f8a862e17827634b6139be9495098fc2b2472c26a8"
+      },
+      {
+        "file": "qa/visual-mp4-2026-11-classic-12-mesto-tema.jpg",
+        "sha256": "11f7d7576da326efd17c91109955e2e15375ec0b1dfc3135756203d2572b744c"
+      },
+      {
+        "file": "qa/visual-mp4-2026-11-classic-13-mashet.jpg",
+        "sha256": "26501d3000f1d0a416d68d41c776191e7823df53b70438dd83127a41b38485be"
+      },
+      {
+        "file": "qa/visual-mp4-2026-11-classic-14-ekonomnyy.jpg",
+        "sha256": "fa2e06fe0f135fa0c6dd4799f679d4a760e048b9b87d472bf7f83cb65791e68e"
+      },
+      {
+        "file": "qa/visual-mp4-2026-11-classic-15-kas-kos.jpg",
+        "sha256": "145e2f0acc3af9e5f1ee8b36a5a927c3cb0308615dbcf311ed9cb974efc5bedf"
+      },
+      {
+        "file": "qa/visual-mp4-2026-11-classic-16-y-posle-pristavki.jpg",
+        "sha256": "0aa5eb11fb46d98f9399e4306a959bcfcdc09c80be191e40ee6d2856897d024d"
+      },
+      {
+        "file": "qa/visual-mp4-2026-11-classic-17-ne-ni.jpg",
+        "sha256": "37616c10fe21e2494f994b31efcb88213ec30c51cfbd963d14630c03b77ea288"
+      },
+      {
+        "file": "qa/visual-mp4-2026-11-classic-07-bukvy-zvuki.jpg",
+        "sha256": "1361dd9e63555de52f7353984ec13bb858d07eaf1da9ad8de0ed016845b43e73"
+      },
+      {
+        "file": "qa/visual-mp4-2026-11-classic-18-giperbola-litota.jpg",
+        "sha256": "2e924ef3fd20c845f01039c74d6a6624350d088a98769fc8a284f84f78512620"
+      },
+      {
+        "file": "qa/visual-mp4-2026-11-classic-19-prichastnyy-oborot.jpg",
+        "sha256": "b5ae0f58c78a8ea1d816c366bb5663e5c5a33dce15333b536bb914591b2508b6"
+      },
+      {
+        "file": "qa/visual-mp4-2026-11-classic-20-odnorodnye.jpg",
+        "sha256": "f35ab9f04a1fe9d75cd1dc1dc13f4f2fef32de8512690b7b802e1ecd83f58699"
+      },
+      {
+        "file": "qa/visual-mp4-2026-11-classic-21-skazuemoe.jpg",
+        "sha256": "aa5cb40efc01206b5d074dee1186fafc3d4ac27be0c0ecca0761633159009494"
+      },
+      {
+        "file": "qa/visual-mp4-2026-11-classic-22-svyaz-teksta.jpg",
+        "sha256": "6a522936fa92e2bce6916121b5c9b05fb9744205080f2a5463c05677ec20b2d2"
+      }
+    ]
+  }
+}

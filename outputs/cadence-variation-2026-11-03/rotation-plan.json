@@ -1,0 +1,242 @@
+{
+  "account": "mairova_a_a",
+  "timezone": "Europe/Moscow",
+  "photos": 8,
+  "tracks": 7,
+  "noAdjacentPhotoRepeat": true,
+  "noAdjacentMusicRepeat": true,
+  "uniquePairs": 21,
+  "slots": [
+    {
+      "postId": "2026-11-classic-02-rast-rashch-ros",
+      "date": "2026-11-04",
+      "scheduledAt": "2026-11-04T07:00:00.000Z",
+      "photoId": "books-pile",
+      "musicId": "chopin-op62-no1",
+      "musicOffsetSeconds": 0.0,
+      "backgroundPosition": "50% 50%",
+      "photoSha256": "bcf9491e4bdb9d6dcf889feb108bcb6be8dc5ccb17e95e2e2c0de4e819ccdb8a",
+      "musicSha256": "3413e5a8aeaf36becac0ffdfdeb488f5087401f78ca2f31d3322900a26791b99"
+    },
+    {
+      "postId": "2026-11-classic-03-ne-rodstvenniki",
+      "date": "2026-11-04",
+      "scheduledAt": "2026-11-04T11:00:00.000Z",
+      "photoId": "journal-writing",
+      "musicId": "satie-gymnopedie3",
+      "musicOffsetSeconds": 0.7,
+      "backgroundPosition": "50% 50%",
+      "photoSha256": "de3686d216a532406ccf7b2a4564f1857c3dc7b1fba0e66fe41e50df0caf173e",
+      "musicSha256": "a3a9a3e120888f9fc58f4bbac11d9f7b98870b3ddbf260b5785a24fe0fd36a7e"
+    },
+    {
+      "postId": "2026-11-classic-04-kto-deystvuet",
+      "date": "2026-11-04",
+      "scheduledAt": "2026-11-04T16:00:00.000Z",
+      "photoId": "uppsala-bookshelves",
+      "musicId": "schumann-traumerei",
+      "musicOffsetSeconds": 1.4,
+      "backgroundPosition": "50% 50%",
+      "photoSha256": "caa200a2d755c560a3826b47424f1cc3dfb9da99af2b9a666691853724bc0400",
+      "musicSha256": "462a9a6f3d384619bea04104bda120185f083da4efcffa3402ff12a6693fb9dd"
+    },
+    {
+      "postId": "2026-11-classic-05-probely-v-vyrazheniyah",
+      "date": "2026-11-05",
+      "scheduledAt": "2026-11-05T07:00:00.000Z",
+      "photoId": "open-book-plant",
+      "musicId": "mozart40-andante",
+      "musicOffsetSeconds": 0.0,
+      "backgroundPosition": "50% 50%",
+      "photoSha256": "16849bf7ef5fa0860deb2c5c92efa65fac0e86116988ebb90d8934204b630f62",
+      "musicSha256": "175d53e80d635a8237e44fc4dc9f4833c63d350231bdd459c49deca2b3cb8912"
+    },
+    {
+      "postId": "2026-11-classic-06-anafora-epifora",
+      "date": "2026-11-05",
+      "scheduledAt": "2026-11-05T11:00:00.000Z",
+      "photoId": "desk-books-laptop",
+      "musicId": "schubert-d784-andante",
+      "musicOffsetSeconds": 0.7,
+      "backgroundPosition": "35% 50%",
+      "photoSha256": "a4119976851da05702c68142d473a2cb55fd76462eda5518a81e349740047c3d",
+      "musicSha256": "037cb154ac95ac0c61036de7e46cf6d0c45d6ae4f9058b557e55333f834ea880"
+    },
+    {
+      "postId": "2026-11-classic-08-menu",
+      "date": "2026-11-05",
+      "scheduledAt": "2026-11-05T16:00:00.000Z",
+      "photoId": "blank-books-table",
+      "musicId": "chopin-op37-no2",
+      "musicOffsetSeconds": 1.4,
+      "backgroundPosition": "50% 50%",
+      "photoSha256": "2b1ed71fc07dd46f8d66a02a33ffd4c7c1df59a8c0294789366f8698f84fa537",
+      "musicSha256": "1e3255e0c1b8e936c92c146d44977015b471da6c153737fa3cd49ac61bc10a50"
+    },
+    {
+      "postId": "2026-11-classic-09-frukty",
+      "date": "2026-11-06",
+      "scheduledAt": "2026-11-06T07:00:00.000Z",
+      "photoId": "library-bookshelves",
+      "musicId": "bach-var1-ishizaka",
+      "musicOffsetSeconds": 0.0,
+      "backgroundPosition": "50% 50%",
+      "photoSha256": "619db7cc81436dfad8f96b46fc64f076733f9fe1770965678c002b3a871d9178",
+      "musicSha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8"
+    },
+    {
+      "postId": "2026-11-classic-10-sochetaemost",
+      "date": "2026-11-06",
+      "scheduledAt": "2026-11-06T11:00:00.000Z",
+      "photoId": "library-warm",
+      "musicId": "chopin-op62-no1",
+      "musicOffsetSeconds": 0.7,
+      "backgroundPosition": "85% 50%",
+      "photoSha256": "b5a167b69b7828e55fe9c63963f3b37777fba4abd944c1b5c7053094190746aa",
+      "musicSha256": "3413e5a8aeaf36becac0ffdfdeb488f5087401f78ca2f31d3322900a26791b99"
+    },
+    {
+      "postId": "2026-11-classic-11-vovremya",
+      "date": "2026-11-06",
+      "scheduledAt": "2026-11-06T16:00:00.000Z",
+      "photoId": "books-pile",
+      "musicId": "satie-gymnopedie3",
+      "musicOffsetSeconds": 1.4,
+      "backgroundPosition": "50% 50%",
+      "photoSha256": "bcf9491e4bdb9d6dcf889feb108bcb6be8dc5ccb17e95e2e2c0de4e819ccdb8a",
+      "musicSha256": "a3a9a3e120888f9fc58f4bbac11d9f7b98870b3ddbf260b5785a24fe0fd36a7e"
+    },
+    {
+      "postId": "2026-11-classic-12-mesto-tema",
+      "date": "2026-11-07",
+      "scheduledAt": "2026-11-07T07:00:00.000Z",
+      "photoId": "journal-writing",
+      "musicId": "schumann-traumerei",
+      "musicOffsetSeconds": 0.0,
+      "backgroundPosition": "50% 50%",
+      "photoSha256": "de3686d216a532406ccf7b2a4564f1857c3dc7b1fba0e66fe41e50df0caf173e",
+      "musicSha256": "462a9a6f3d384619bea04104bda120185f083da4efcffa3402ff12a6693fb9dd"
+    },
+    {
+      "postId": "2026-11-classic-13-mashet",
+      "date": "2026-11-07",
+      "scheduledAt": "2026-11-07T11:00:00.000Z",
+      "photoId": "uppsala-bookshelves",
+      "musicId": "mozart40-andante",
+      "musicOffsetSeconds": 0.7,
+      "backgroundPosition": "50% 50%",
+      "photoSha256": "caa200a2d755c560a3826b47424f1cc3dfb9da99af2b9a666691853724bc0400",
+      "musicSha256": "175d53e80d635a8237e44fc4dc9f4833c63d350231bdd459c49deca2b3cb8912"
+    },
+    {
+      "postId": "2026-11-classic-14-ekonomnyy",
+      "date": "2026-11-07",
+      "scheduledAt": "2026-11-07T16:00:00.000Z",
+      "photoId": "open-book-plant",
+      "musicId": "schubert-d784-andante",
+      "musicOffsetSeconds": 1.4,
+      "backgroundPosition": "50% 50%",
+      "photoSha256": "16849bf7ef5fa0860deb2c5c92efa65fac0e86116988ebb90d8934204b630f62",
+      "musicSha256": "037cb154ac95ac0c61036de7e46cf6d0c45d6ae4f9058b557e55333f834ea880"
+    },
+    {
+      "postId": "2026-11-classic-15-kas-kos",
+      "date": "2026-11-08",
+      "scheduledAt": "2026-11-08T07:00:00.000Z",
+      "photoId": "desk-books-laptop",
+      "musicId": "chopin-op37-no2",
+      "musicOffsetSeconds": 0.0,
+      "backgroundPosition": "35% 50%",
+      "photoSha256": "a4119976851da05702c68142d473a2cb55fd76462eda5518a81e349740047c3d",
+      "musicSha256": "1e3255e0c1b8e936c92c146d44977015b471da6c153737fa3cd49ac61bc10a50"
+    },
+    {
+      "postId": "2026-11-classic-16-y-posle-pristavki",
+      "date": "2026-11-08",
+      "scheduledAt": "2026-11-08T11:00:00.000Z",
+      "photoId": "blank-books-table",
+      "musicId": "bach-var1-ishizaka",
+      "musicOffsetSeconds": 0.7,
+      "backgroundPosition": "50% 50%",
+      "photoSha256": "2b1ed71fc07dd46f8d66a02a33ffd4c7c1df59a8c0294789366f8698f84fa537",
+      "musicSha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8"
+    },
+    {
+      "postId": "2026-11-classic-17-ne-ni",
+      "date": "2026-11-08",
+      "scheduledAt": "2026-11-08T16:00:00.000Z",
+      "photoId": "library-bookshelves",
+      "musicId": "chopin-op62-no1",
+      "musicOffsetSeconds": 1.4,
+      "backgroundPosition": "50% 50%",
+      "photoSha256": "619db7cc81436dfad8f96b46fc64f076733f9fe1770965678c002b3a871d9178",
+      "musicSha256": "3413e5a8aeaf36becac0ffdfdeb488f5087401f78ca2f31d3322900a26791b99"
+    },
+    {
+      "postId": "2026-11-classic-07-bukvy-zvuki",
+      "date": "2026-11-09",
+      "scheduledAt": "2026-11-09T07:00:00.000Z",
+      "photoId": "library-warm",
+      "musicId": "satie-gymnopedie3",
+      "musicOffsetSeconds": 0.0,
+      "backgroundPosition": "85% 50%",
+      "photoSha256": "b5a167b69b7828e55fe9c63963f3b37777fba4abd944c1b5c7053094190746aa",
+      "musicSha256": "a3a9a3e120888f9fc58f4bbac11d9f7b98870b3ddbf260b5785a24fe0fd36a7e"
+    },
+    {
+      "postId": "2026-11-classic-18-giperbola-litota",
+      "date": "2026-11-09",
+      "scheduledAt": "2026-11-09T11:00:00.000Z",
+      "photoId": "books-pile",
+      "musicId": "schumann-traumerei",
+      "musicOffsetSeconds": 0.7,
+      "backgroundPosition": "50% 50%",
+      "photoSha256": "bcf9491e4bdb9d6dcf889feb108bcb6be8dc5ccb17e95e2e2c0de4e819ccdb8a",
+      "musicSha256": "462a9a6f3d384619bea04104bda120185f083da4efcffa3402ff12a6693fb9dd"
+    },
+    {
+      "postId": "2026-11-classic-19-prichastnyy-oborot",
+      "date": "2026-11-09",
+      "scheduledAt": "2026-11-09T16:00:00.000Z",
+      "photoId": "journal-writing",
+      "musicId": "mozart40-andante",
+      "musicOffsetSeconds": 1.4,
+      "backgroundPosition": "50% 50%",
+      "photoSha256": "de3686d216a532406ccf7b2a4564f1857c3dc7b1fba0e66fe41e50df0caf173e",
+      "musicSha256": "175d53e80d635a8237e44fc4dc9f4833c63d350231bdd459c49deca2b3cb8912"
+    },
+    {
+      "postId": "2026-11-classic-20-odnorodnye",
+      "date": "2026-11-10",
+      "scheduledAt": "2026-11-10T07:00:00.000Z",
+      "photoId": "uppsala-bookshelves",
+      "musicId": "schubert-d784-andante",
+      "musicOffsetSeconds": 0.0,
+      "backgroundPosition": "50% 50%",
+      "photoSha256": "caa200a2d755c560a3826b47424f1cc3dfb9da99af2b9a666691853724bc0400",
+      "musicSha256": "037cb154ac95ac0c61036de7e46cf6d0c45d6ae4f9058b557e55333f834ea880"
+    },
+    {
+      "postId": "2026-11-classic-21-skazuemoe",
+      "date": "2026-11-10",
+      "scheduledAt": "2026-11-10T11:00:00.000Z",
+      "photoId": "open-book-plant",
+      "musicId": "chopin-op37-no2",
+      "musicOffsetSeconds": 0.7,
+      "backgroundPosition": "50% 50%",
+      "photoSha256": "16849bf7ef5fa0860deb2c5c92efa65fac0e86116988ebb90d8934204b630f62",
+      "musicSha256": "1e3255e0c1b8e936c92c146d44977015b471da6c153737fa3cd49ac61bc10a50"
+    },
+    {
+      "postId": "2026-11-classic-22-svyaz-teksta",
+      "date": "2026-11-10",
+      "scheduledAt": "2026-11-10T16:00:00.000Z",
+      "photoId": "desk-books-laptop",
+      "musicId": "bach-var1-ishizaka",
+      "musicOffsetSeconds": 1.4,
+      "backgroundPosition": "35% 50%",
+      "photoSha256": "a4119976851da05702c68142d473a2cb55fd76462eda5518a81e349740047c3d",
+      "musicSha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8"
+    }
+  ]
+}
