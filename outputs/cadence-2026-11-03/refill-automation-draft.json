@@ -1,0 +1,10 @@
+{
+  "state": "not_created_pending_explicit_permission",
+  "name": "Анна: запас трёх книжных Reels в день",
+  "kind": "heartbeat",
+  "destination": "current_thread",
+  "timeMoscow": "daily21:30",
+  "scope": "Maintain next7full calendar days of3readyclassic Reels daily; prepare missing materials, factcheck/render/QA, append only new approved content and explicit slots to existing GitHubmain using fresh lease. Existing GitHub Actions alone publishes; no new sender, no direct Instagram dispatch. Preserve every prior voice slot and receipt. No paid generation.",
+  "instructions": "docs/CLASSIC-DAILY-RUNBOOK.md",
+  "requiresUserApproval": "Create this ongoing background preparation and repository-update process"
+}

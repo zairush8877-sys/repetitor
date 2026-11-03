@@ -103,34 +103,109 @@
       "postId": "2026-11-classic-01-oba-varianta"
     },
     {
-      "date": "2026-11-05",
-      "scheduledAt": "2026-11-05T06:00:00.000Z",
+      "date": "2026-11-04",
+      "scheduledAt": "2026-11-04T07:00:00.000Z",
       "postId": "2026-11-classic-02-rast-rashch-ros"
     },
     {
-      "date": "2026-11-07",
-      "scheduledAt": "2026-11-07T06:00:00.000Z",
+      "date": "2026-11-04",
+      "scheduledAt": "2026-11-04T11:00:00.000Z",
       "postId": "2026-11-classic-03-ne-rodstvenniki"
     },
     {
-      "date": "2026-11-09",
-      "scheduledAt": "2026-11-09T06:00:00.000Z",
+      "date": "2026-11-04",
+      "scheduledAt": "2026-11-04T16:00:00.000Z",
       "postId": "2026-11-classic-04-kto-deystvuet"
     },
     {
-      "date": "2026-11-11",
-      "scheduledAt": "2026-11-11T06:00:00.000Z",
+      "date": "2026-11-05",
+      "scheduledAt": "2026-11-05T07:00:00.000Z",
       "postId": "2026-11-classic-05-probely-v-vyrazheniyah"
     },
     {
-      "date": "2026-11-13",
-      "scheduledAt": "2026-11-13T06:00:00.000Z",
+      "date": "2026-11-05",
+      "scheduledAt": "2026-11-05T11:00:00.000Z",
       "postId": "2026-11-classic-06-anafora-epifora"
     },
     {
-      "date": "2026-11-15",
-      "scheduledAt": "2026-11-15T06:00:00.000Z",
+      "date": "2026-11-09",
+      "scheduledAt": "2026-11-09T07:00:00.000Z",
       "postId": "2026-11-classic-07-bukvy-zvuki"
+    },
+    {
+      "postId": "2026-11-classic-08-menu",
+      "date": "2026-11-05",
+      "scheduledAt": "2026-11-05T16:00:00.000Z"
+    },
+    {
+      "postId": "2026-11-classic-09-frukty",
+      "date": "2026-11-06",
+      "scheduledAt": "2026-11-06T07:00:00.000Z"
+    },
+    {
+      "postId": "2026-11-classic-10-sochetaemost",
+      "date": "2026-11-06",
+      "scheduledAt": "2026-11-06T11:00:00.000Z"
+    },
+    {
+      "postId": "2026-11-classic-11-vovremya",
+      "date": "2026-11-06",
+      "scheduledAt": "2026-11-06T16:00:00.000Z"
+    },
+    {
+      "postId": "2026-11-classic-12-mesto-tema",
+      "date": "2026-11-07",
+      "scheduledAt": "2026-11-07T07:00:00.000Z"
+    },
+    {
+      "postId": "2026-11-classic-13-mashet",
+      "date": "2026-11-07",
+      "scheduledAt": "2026-11-07T11:00:00.000Z"
+    },
+    {
+      "postId": "2026-11-classic-14-ekonomnyy",
+      "date": "2026-11-07",
+      "scheduledAt": "2026-11-07T16:00:00.000Z"
+    },
+    {
+      "postId": "2026-11-classic-15-kas-kos",
+      "date": "2026-11-08",
+      "scheduledAt": "2026-11-08T07:00:00.000Z"
+    },
+    {
+      "postId": "2026-11-classic-16-y-posle-pristavki",
+      "date": "2026-11-08",
+      "scheduledAt": "2026-11-08T11:00:00.000Z"
+    },
+    {
+      "postId": "2026-11-classic-17-ne-ni",
+      "date": "2026-11-08",
+      "scheduledAt": "2026-11-08T16:00:00.000Z"
+    },
+    {
+      "postId": "2026-11-classic-18-giperbola-litota",
+      "date": "2026-11-09",
+      "scheduledAt": "2026-11-09T11:00:00.000Z"
+    },
+    {
+      "postId": "2026-11-classic-19-prichastnyy-oborot",
+      "date": "2026-11-09",
+      "scheduledAt": "2026-11-09T16:00:00.000Z"
+    },
+    {
+      "postId": "2026-11-classic-20-odnorodnye",
+      "date": "2026-11-10",
+      "scheduledAt": "2026-11-10T07:00:00.000Z"
+    },
+    {
+      "postId": "2026-11-classic-21-skazuemoe",
+      "date": "2026-11-10",
+      "scheduledAt": "2026-11-10T11:00:00.000Z"
+    },
+    {
+      "postId": "2026-11-classic-22-svyaz-teksta",
+      "date": "2026-11-10",
+      "scheduledAt": "2026-11-10T16:00:00.000Z"
     }
   ],
   "additionalSlotAuthorization": {
@@ -138,5 +213,21 @@
     "scope": "New classic table Reels requested and publication authorized by author; no author/services footer; include Olympiad topics.",
     "calendarChoice": "Preserve all existing V3 slots; add new materials only on free dates, one feed publication per day.",
     "firstRelease": "Publish first new approved classic on 3 November after QA, using existing sender and account guard."
+  },
+  "cadence": {
+    "startsOn": "2026-11-04",
+    "classicTimes": [
+      "10:00",
+      "14:00",
+      "19:00"
+    ]
+  },
+  "cadenceAuthorization": {
+    "date": "2026-11-03",
+    "source": "user-current-chat",
+    "instruction": "Да: 3 книжных в день + голосовой через день",
+    "supersedes": "One feed post per day and odd-date-only classic slots",
+    "scope": "Three new classic Reels daily, existing voice Reel additionally every other day; full-video Story after each. Preserve all published receipts and all 15 primary voice slots.",
+    "firstWeek": "4–10 November, 21 classic slots; refill owned by current Codex chat, delivery owned only by existing GitHub Actions sender."
   }
 }

@@ -1,0 +1,11 @@
+{
+  "acceptedRendererSource": "render-reels.js",
+  "sourceSha256": "eceba493d24307fdc346d6dd980319233fbab52ea8224d00078edd3fd784f81c",
+  "legacyFunctionAdaptation": "Only resolve project background paths from ROOT instead of runtime directory",
+  "runtimeFiles": {
+    "prepared-media.js": "9e6e0b9adb4bc854a2e67c9a58a112320bddd2b3dee6a8f16e5b6210bceaaabd",
+    "legacy-table.js": "f0284d8079897a3f5564bf325e7d2d3b20433b49399575f51e75ce7332c033dd",
+    "repost-state.js": "402b00bdffe379a29da661ce16e81cea77c0c8c2374c04280107305be5f9bc43",
+    "render-reposts.js": "3a533bd809c6c9476a53e6de01deade6bcf1abba59ec1934b5a547093d909c48"
+  }
+}

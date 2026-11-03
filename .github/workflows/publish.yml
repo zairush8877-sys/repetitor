@@ -16,11 +16,12 @@ on:
         type: boolean
         default: false
   schedule:
-    # Daily wakeups; the explicit Moscow calendar allows ONE selected V3 Reel
-    # every two days, starting 1 November at 09:00 Moscow. Early/off-day runs are no-ops.
-    # Multiple wakeups tolerate delayed/dropped GitHub cron deliveries.
-    - cron: '0 6 * * *'
-    - cron: '17 4-10 * * *'
+    # One publication per execution, from the explicit Moscow calendar only.
+    # Voice V3 keeps 09:00 every other day; classic slots are 10:00, 14:00, 19:00.
+    # The cadence starts on 4 November; early/off-day runs never catch up old dates.
+    # Extra wakeups tolerate delayed/dropped GitHub cron deliveries.
+    - cron: '0 6,7,11,16 * * *'
+    - cron: '23 6,7,11,16 * * *'
 
 permissions:
   contents: write         # чтобы записать обратно статус published

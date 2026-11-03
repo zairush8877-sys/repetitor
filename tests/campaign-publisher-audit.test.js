@@ -26,8 +26,9 @@ function fixture() {
   return { campaign, queue: { account_id: campaign.accountId, posts } };
 }
 
-async function audit({ history = { data: [] }, corruptAsset = false, unknownPhase = false, probe = false, additional = false } = {}) {
-  const { campaign, queue } = fixture();
+async function audit({ history = { data: [] }, corruptAsset = false, unknownPhase = false, probe = false, additional = false, dailyCadence = false } = {}) {
+  let { campaign, queue } = fixture();
+  if (dailyCadence) { const f = require('./cadence-fixture.cjs').fixture(); campaign=f.campaign; queue={account_id:campaign.accountId,posts:f.posts}; }
   if (additional) {
     const slot = { postId: 'audit-classic-extra', date: '2026-11-03', scheduledAt: '2026-11-03T16:30:00.000Z' };
     campaign.additionalSlots = [slot];
@@ -67,6 +68,7 @@ async function audit({ history = { data: [] }, corruptAsset = false, unknownPhas
       : name === 'child_process' ? { execFileSync: rejectMutation('Git/child_process') }
       : require(name.startsWith('.') ? path.resolve(ROOT, name) : name),
     process: proc, __dirname: ROOT, Buffer, URL, URLSearchParams, AbortSignal, setTimeout,
+    Date: class extends Date { constructor(...args) { super(...(args.length ? args : ['2026-11-03T20:30:00Z'])); } static now() { return Date.parse('2026-11-03T20:30:00Z'); } },
     console: { log() {}, warn() {}, error() {} },
     fetch: async (url, options) => {
       const request = { url: String(url), method: options?.method || 'GET' };
@@ -140,4 +142,14 @@ test('read-only audit includes an additional classic without POSTs or persistenc
   assert.equal(result.validated.length, 16);
   assert.ok(result.calls.every(call => call.method === 'GET'));
   assert.equal(result.calls.length, 18, 'one account read, sixteen assets, one history read');
+});
+
+
+test('37-slot server dry-run audits every asset at 23:30 Moscow before cadence starts, without POST or writes', async () => {
+  const result = await audit({ dailyCadence: true });
+  assert.equal(result.exitCode, 0);
+  assert.equal(result.validated.length, 37);
+  assert.deepEqual(result.validated, result.expectedIds);
+  assert.ok(result.calls.every(call => call.method === 'GET'));
+  assert.equal(result.calls.length, 39, 'account read, 37 assets, live history; no publish window restriction on audit');
 });
