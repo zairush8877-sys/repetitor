@@ -1,0 +1,12 @@
+{
+  "automationId": "reels",
+  "kind": "heartbeat",
+  "status": "ACTIVE",
+  "scheduleLocal": "21:30",
+  "timezone": "Europe/Moscow",
+  "account": "mairova_a_a",
+  "approvalDate": "2026-11-04",
+  "userApproval": "Да, включить ежедневное автопополнение",
+  "scope": "Maintain seven days of three prepared classic Reels daily; append reviewed ready content to existing GitHub campaign; existing cloud sender owns delivery.",
+  "firstRunObserved": false
+}
