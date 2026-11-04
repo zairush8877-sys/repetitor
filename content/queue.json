@@ -7767,7 +7767,24 @@
         "publishedAt": "2026-11-04T14:18:59.864Z"
       },
       "publishedMediaId": "18004382481036291",
-      "publishedAt": "2026-11-04T14:18:59.864Z"
+      "publishedAt": "2026-11-04T14:19:00.997Z",
+      "storyRepost": {
+        "version": 1,
+        "feedMediaId": "18004382481036291",
+        "status": "pending",
+        "items": [
+          {
+            "index": 1,
+            "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/anna-v3-20261031-03-udareniya-full.mp4",
+            "sha256": "7d8370e6eaa690a20f520e2e1c483effad30f353254d37155a78337cb6f24d17",
+            "mediaType": "VIDEO",
+            "mimeType": "video/mp4",
+            "status": "pending",
+            "attempts": 0
+          }
+        ],
+        "sourceKey": "3ef67e8e152dec3e055a13a158109694e073e22b3397023a694c37f62ce51b65"
+      }
     },
     {
       "id": "anna-v3-20261031-04-chto-zapyataya",
