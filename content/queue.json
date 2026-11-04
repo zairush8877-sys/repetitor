@@ -8323,10 +8323,11 @@
         "lastError": null,
         "version": 1,
         "phase": "preparing",
-        "updatedAt": "2026-11-04T14:42:30.705Z",
+        "updatedAt": "2026-11-04T14:43:39.924Z",
         "containerId": "18034308992887754",
         "containerCreatedAt": "2026-11-04T14:42:30.705Z",
-        "failedStage": null
+        "failedStage": null,
+        "readyAt": "2026-11-04T14:43:39.924Z"
       }
     },
     {
