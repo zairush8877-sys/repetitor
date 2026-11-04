@@ -8333,7 +8333,24 @@
         "publishedAt": "2026-11-04T14:43:53.390Z"
       },
       "publishedMediaId": "18169625464487332",
-      "publishedAt": "2026-11-04T14:43:53.390Z"
+      "publishedAt": "2026-11-04T14:43:54.702Z",
+      "storyRepost": {
+        "version": 1,
+        "feedMediaId": "18169625464487332",
+        "status": "pending",
+        "items": [
+          {
+            "index": 1,
+            "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-11-classic-02-rast-rashch-ros-full.mp4",
+            "sha256": "41f51659dda49f6feb644cbbfe7d3a7a51ef64134790fe7ff7104c743582d40d",
+            "mediaType": "VIDEO",
+            "mimeType": "video/mp4",
+            "status": "pending",
+            "attempts": 0
+          }
+        ],
+        "sourceKey": "663962cfb587af32d1e3803183c75320d0665d48465e5005fe09596fb15fb6e4"
+      }
     },
     {
       "id": "2026-11-classic-03-ne-rodstvenniki",
