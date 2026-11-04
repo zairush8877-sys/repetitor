@@ -8263,12 +8263,9 @@
         "musicOffsetSeconds": 0,
         "backgroundPosition": "50% 50%"
       },
-      "background": "outputs/cadence-variation-2026-11-03/assets/photos/books-pile.jpg",
-      "lightBg": true,
-      "generatedBg": false,
       "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-11-classic-02-rast-rashch-ros.mp4",
-      "coverUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-11-classic-02-rast-rashch-ros-frame.jpg",
       "coverOffsetMs": 14400,
+      "coverUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-11-classic-02-rast-rashch-ros-frame.jpg",
       "music": {
         "id": "chopin-op62-no1",
         "file": "assets/music/chopin-op62-no1-gurevich.mp3",
@@ -8315,6 +8312,18 @@
         "originalExcerptStartSeconds": 1,
         "actualDurationSeconds": 35.04,
         "processingForReel": "loudnorm I=-18 LUFS, TP=-2 dBTP, LRA=8; fade in 0.6 s, fade out 1.2 s"
+      },
+      "background": "outputs/cadence-variation-2026-11-03/assets/photos/books-pile.jpg",
+      "lightBg": true,
+      "generatedBg": false,
+      "feedDelivery": {
+        "fingerprint": "ee2182223231e277d569d58ae2d4122602fe1f568e69e8fb5ac5fc9ae7376916",
+        "startedAt": "2026-11-04T14:42:26.052Z",
+        "creationAttempts": 1,
+        "lastError": null,
+        "version": 1,
+        "phase": "container",
+        "updatedAt": "2026-11-04T14:42:26.052Z"
       }
     },
     {
