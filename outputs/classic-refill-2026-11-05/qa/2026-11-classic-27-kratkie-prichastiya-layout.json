@@ -1,0 +1,27 @@
+{
+  "id": "2026-11-classic-27-kratkie-prichastiya",
+  "previewOnly": true,
+  "total": 13.2,
+  "key": "8c32655a3cffc5817f3d99f907f169eddaaadaaa4e577ca542393da45b00302d",
+  "assets": {
+    "photoId": "journal-writing",
+    "photoFile": "assets/photos/journal-writing.jpg",
+    "photoSha256": "de3686d216a532406ccf7b2a4564f1857c3dc7b1fba0e66fe41e50df0caf173e",
+    "musicId": "schubert-d784-andante",
+    "musicFile": "assets/music/schubert-d784-andante-pitman.mp3",
+    "musicSha256": "037cb154ac95ac0c61036de7e46cf6d0c45d6ae4f9058b557e55333f834ea880",
+    "musicOffsetSeconds": 0.7,
+    "backgroundPosition": "50% 50%"
+  },
+  "measured": {
+    "cardTop": 639.5625,
+    "cardBottom": 1422.5625,
+    "rowFont": 52,
+    "titleFont": 94,
+    "footerCount": 0,
+    "cellOverflow": false,
+    "text": "ЕГЭ • КРАТКИЕ ПРИЧАСТИЯ\nЗадача решена.\nОдной Н хватит.\nПОЛНОЕ ПРИЧАСТИЕ\nКРАТКОЕ ПРИЧАСТИЕ\nрешённая задача\nзадача решена\nподписанный акт\nакт подписан\nпроверенная смета\nсмета проверена\nполученная посылка\nпосылка получена"
+  },
+  "previewFile": "qa/2026-11-classic-27-kratkie-prichastiya-preview.jpg",
+  "previewSha256": "45850c6ce913d36977955027800adb7416ddb2871d7d1e33b3d3cbd9c2f40ba7"
+}

@@ -1,0 +1,328 @@
+{
+  "project": "мама инста",
+  "revision": "Daily refill Nov5 for Nov11–12;24rows independently verified;final editor accepted",
+  "posts": [
+    {
+      "id": "2026-11-classic-23-apellyatsiya",
+      "date": "2026-11-11",
+      "scheduledAt": "2026-11-11T07:00:00.000Z",
+      "rubric": "Орфография взрослых",
+      "kicker": "В ЗАЯВЛЕНИЯХ И ПИСЬМАХ",
+      "title": "Апелляция:\nдве «п» или «л»?",
+      "rows": [
+        [
+          "аппеляция",
+          "апелляция"
+        ],
+        [
+          "анулировать",
+          "аннулировать"
+        ],
+        [
+          "акредитация",
+          "аккредитация"
+        ],
+        [
+          "ассиметрия",
+          "асимметрия"
+        ]
+      ],
+      "hashtags": [
+        "#русскийязык",
+        "#орфография",
+        "#деловаяпереписка"
+      ],
+      "format": "Reels",
+      "status": "approved",
+      "school": false,
+      "visualStyle": "classic-table",
+      "hideFooter": true,
+      "showProgress": false,
+      "storyRepostMode": "full_video",
+      "branding": {
+        "show_handle": false,
+        "show_author_signature": false,
+        "show_services_footer": false
+      },
+      "caption": "В «апелляции» удваивается Л, а не П. В «аннулировать» — Н, в «аккредитации» — К. У «асимметрии» одна С и две М. Такие написания проверяем по словарю: на слух место удвоения не определить.",
+      "campaignId": "anna-retouch-music-v3-20261031",
+      "assetSelection": {
+        "photoId": "blank-books-table",
+        "musicId": "chopin-op62-no1",
+        "musicOffsetSeconds": 0.0,
+        "backgroundPosition": "50% 50%"
+      }
+    },
+    {
+      "id": "2026-11-classic-24-prichastiya",
+      "date": "2026-11-11",
+      "scheduledAt": "2026-11-11T11:00:00.000Z",
+      "rubric": "ЕГЭ",
+      "kicker": "ЕГЭ • СУФФИКСЫ ПРИЧАСТИЙ",
+      "title": "Клеящий.\nНо сеющий.",
+      "rows": [
+        [
+          "клеющий",
+          "клеящий"
+        ],
+        [
+          "борящийся",
+          "борющийся"
+        ],
+        [
+          "строющий",
+          "строящий"
+        ],
+        [
+          "сеящий",
+          "сеющий"
+        ]
+      ],
+      "hashtags": [
+        "#егэрусский",
+        "#причастие",
+        "#орфография"
+      ],
+      "format": "Reels",
+      "status": "approved",
+      "school": false,
+      "visualStyle": "classic-table",
+      "hideFooter": true,
+      "showProgress": false,
+      "storyRepostMode": "full_video",
+      "branding": {
+        "show_handle": false,
+        "show_author_signature": false,
+        "show_services_footer": false
+      },
+      "caption": "Клеящий — от «клеят», сеющий — от «сеют». Для действительных причастий настоящего времени в этих примерах помогают формы «они»: клеят, борются, строят, сеют. Получаем клеящий, борющийся, строящий, сеющий. Это наши учебные примеры для подготовки к ЕГЭ.",
+      "campaignId": "anna-retouch-music-v3-20261031",
+      "assetSelection": {
+        "photoId": "library-bookshelves",
+        "musicId": "satie-gymnopedie3",
+        "musicOffsetSeconds": 0.7,
+        "backgroundPosition": "50% 50%"
+      }
+    },
+    {
+      "id": "2026-11-classic-25-osnova",
+      "date": "2026-11-11",
+      "scheduledAt": "2026-11-11T16:00:00.000Z",
+      "rubric": "ОГЭ",
+      "kicker": "ОГЭ • ГРАММАТИЧЕСКАЯ ОСНОВА",
+      "title": "Качает ветер.\nА подлежащее?",
+      "heads": [
+        "Наше предложение",
+        "Основа"
+      ],
+      "rows": [
+        [
+          "Листву качает ветер.",
+          "ветер качает"
+        ],
+        [
+          "Лодку несёт течение.",
+          "течение несёт"
+        ],
+        [
+          "Камыши гнёт буря.",
+          "буря гнёт"
+        ],
+        [
+          "Тропинку занёс снег.",
+          "снег занёс"
+        ]
+      ],
+      "hashtags": [
+        "#огэрусский",
+        "#грамматическаяоснова",
+        "#синтаксис"
+      ],
+      "format": "Reels",
+      "status": "approved",
+      "school": false,
+      "visualStyle": "classic-table",
+      "hideFooter": true,
+      "showProgress": false,
+      "storyRepostMode": "full_video",
+      "branding": {
+        "show_handle": false,
+        "show_author_signature": false,
+        "show_services_footer": false
+      },
+      "caption": "Листву качает ветер: «ветер» — подлежащее, «качает» — сказуемое. «Листву» здесь дополнение. Во всех четырёх предложениях подлежащее стоит после сказуемого. Его определяем по грамматической связи, а не по месту в строке.",
+      "campaignId": "anna-retouch-music-v3-20261031",
+      "assetSelection": {
+        "photoId": "library-warm",
+        "musicId": "schumann-traumerei",
+        "musicOffsetSeconds": 1.4,
+        "backgroundPosition": "85% 50%"
+      }
+    },
+    {
+      "id": "2026-11-classic-26-ne-vvodnye",
+      "date": "2026-11-12",
+      "scheduledAt": "2026-11-12T07:00:00.000Z",
+      "rubric": "Пунктуация взрослых",
+      "kicker": "ПУНКТУАЦИЯ В ПЕРЕПИСКЕ",
+      "title": "Тем не менее.\nГде запятая?",
+      "heads": [
+        "Наша фраза",
+        "После начала"
+      ],
+      "rows": [
+        [
+          "Тем не менее мы успели.",
+          "без запятой"
+        ],
+        [
+          "Между тем поезд ушёл.",
+          "без запятой"
+        ],
+        [
+          "Вдобавок пошёл дождь.",
+          "без запятой"
+        ],
+        [
+          "В конечном счёте я согласен.",
+          "без запятой"
+        ]
+      ],
+      "hashtags": [
+        "#русскийязык",
+        "#пунктуация",
+        "#вводныеслова"
+      ],
+      "format": "Reels",
+      "status": "approved",
+      "school": false,
+      "visualStyle": "classic-table",
+      "hideFooter": true,
+      "showProgress": false,
+      "storyRepostMode": "full_video",
+      "branding": {
+        "show_handle": false,
+        "show_author_signature": false,
+        "show_services_footer": false
+      },
+      "caption": "«Тем не менее мы успели» — после «тем не менее» запятой нет. В показанных фразах «между тем», «вдобавок» и «в конечном счёте» тоже не вводные: начало не отделяем от продолжения. В другом предложении рядом может оказаться запятая, относящаяся к иной конструкции.",
+      "campaignId": "anna-retouch-music-v3-20261031",
+      "assetSelection": {
+        "photoId": "books-pile",
+        "musicId": "mozart40-andante",
+        "musicOffsetSeconds": 0.0,
+        "backgroundPosition": "50% 50%"
+      }
+    },
+    {
+      "id": "2026-11-classic-27-kratkie-prichastiya",
+      "date": "2026-11-12",
+      "scheduledAt": "2026-11-12T11:00:00.000Z",
+      "rubric": "ЕГЭ",
+      "kicker": "ЕГЭ • КРАТКИЕ ПРИЧАСТИЯ",
+      "title": "Задача решена.\nОдной Н хватит.",
+      "heads": [
+        "Полное причастие",
+        "Краткое причастие"
+      ],
+      "rows": [
+        [
+          "решённая задача",
+          "задача решена"
+        ],
+        [
+          "подписанный акт",
+          "акт подписан"
+        ],
+        [
+          "проверенная смета",
+          "смета проверена"
+        ],
+        [
+          "полученная посылка",
+          "посылка получена"
+        ]
+      ],
+      "hashtags": [
+        "#егэрусский",
+        "#причастие",
+        "#ниинн"
+      ],
+      "format": "Reels",
+      "status": "approved",
+      "school": false,
+      "visualStyle": "classic-table",
+      "hideFooter": true,
+      "showProgress": false,
+      "storyRepostMode": "full_video",
+      "branding": {
+        "show_handle": false,
+        "show_author_signature": false,
+        "show_services_footer": false
+      },
+      "caption": "Задача решена — с одной Н. Решённая задача — с двумя. В нашей таблице полные страдательные причастия превращаются в краткие: решена, подписан, проверена, получена. В кратких страдательных причастиях пишется одна Н. Это правило не переносим на все краткие прилагательные.",
+      "campaignId": "anna-retouch-music-v3-20261031",
+      "assetSelection": {
+        "photoId": "journal-writing",
+        "musicId": "schubert-d784-andante",
+        "musicOffsetSeconds": 0.7,
+        "backgroundPosition": "50% 50%"
+      }
+    },
+    {
+      "id": "2026-11-classic-28-kogda",
+      "date": "2026-11-12",
+      "scheduledAt": "2026-11-12T16:00:00.000Z",
+      "rubric": "ОГЭ",
+      "kicker": "ОГЭ • ВИДЫ ПРИДАТОЧНЫХ",
+      "title": "Одно «когда».\nРазные вопросы.",
+      "heads": [
+        "Наше предложение",
+        "Вопрос"
+      ],
+      "rows": [
+        [
+          "Помню день, когда выпал снег.",
+          "день какой?"
+        ],
+        [
+          "Мы ушли, когда стемнело.",
+          "ушли когда?"
+        ],
+        [
+          "Жду дня, когда вы вернётесь.",
+          "дня какого?"
+        ],
+        [
+          "Позвони, когда приедешь.",
+          "позвони когда?"
+        ]
+      ],
+      "hashtags": [
+        "#огэрусский",
+        "#сложноподчинённоепредложение",
+        "#придаточные"
+      ],
+      "format": "Reels",
+      "status": "approved",
+      "school": false,
+      "visualStyle": "classic-table",
+      "hideFooter": true,
+      "showProgress": false,
+      "storyRepostMode": "full_video",
+      "branding": {
+        "show_handle": false,
+        "show_author_signature": false,
+        "show_services_footer": false
+      },
+      "caption": "«Когда» само по себе не определяет вид придаточного. «Помню день, когда выпал снег»: поясняется существительное «день», вопрос «какой?» — придаточное определительное. «Мы ушли, когда стемнело»: ушли когда? — придаточное времени. Так же проверяем две оставшиеся фразы.",
+      "campaignId": "anna-retouch-music-v3-20261031",
+      "assetSelection": {
+        "photoId": "uppsala-bookshelves",
+        "musicId": "chopin-op37-no2",
+        "musicOffsetSeconds": 1.4,
+        "backgroundPosition": "50% 50%"
+      }
+    }
+  ]
+}

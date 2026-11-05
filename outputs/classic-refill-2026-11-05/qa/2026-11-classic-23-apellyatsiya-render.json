@@ -1,0 +1,90 @@
+{
+  "id": "2026-11-classic-23-apellyatsiya",
+  "key": "2362af47d8a71abfd291301b2d5eea8615b5526c9604d6f699ee2842eefc0fea",
+  "total": 13.2,
+  "assets": {
+    "photoId": "blank-books-table",
+    "photoFile": "assets/photos/blank-books-table.jpg",
+    "photoSha256": "2b1ed71fc07dd46f8d66a02a33ffd4c7c1df59a8c0294789366f8698f84fa537",
+    "musicId": "chopin-op62-no1",
+    "musicFile": "assets/music/chopin-op62-no1-gurevich.mp3",
+    "musicSha256": "3413e5a8aeaf36becac0ffdfdeb488f5087401f78ca2f31d3322900a26791b99",
+    "musicOffsetSeconds": 0,
+    "backgroundPosition": "50% 50%"
+  },
+  "music": {
+    "id": "chopin-op62-no1",
+    "file": "assets/music/chopin-op62-no1-gurevich.mp3",
+    "composer": "Фридерик Шопен",
+    "piece": "Ноктюрн си мажор, op. 62 № 1",
+    "title": "Nocturne in B major, Op. 62 No. 1",
+    "performer": "Olga Gurevich",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "commonsTitle": "File:Frederic Chopin - nocturne no. 1 in b major, op. 62.oga",
+    "recordingRights": "На странице конкретной записи Olga Gurevich указан CC0 1.0; происхождение Musopen download/11677. Это разрешение на файл записи, не вывод из возраста нот.",
+    "compositionRights": "Шопен (1810–1849), произведение XIX века: public domain. Права на современную запись отдельно — CC0.",
+    "sourceExcerptStartSeconds": 1,
+    "durationSeconds": 35.04,
+    "attribution": "Ф. Шопен — Ноктюрн op. 62 № 1. Фортепиано: Olga Gurevich, Musopen. Запись CC0 1.0; фрагмент, громкость изменена.",
+    "character": "Спокойное фортепиано, лирическое вступление.",
+    "source": "https://commons.wikimedia.org/wiki/File:Frederic_Chopin_-_nocturne_no._1_in_b_major,_op._62.oga",
+    "sourceDownloadUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Frederic_Chopin_-_nocturne_no._1_in_b_major%2C_op._62.oga?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsPageId": 62684427,
+    "commonsRevisionId": 1260528337,
+    "sourcePermanentUrl": "https://commons.wikimedia.org/w/index.php?oldid=1260528337",
+    "sourceFileTimestamp": "2017-09-23T11:01:04Z",
+    "sourceFileSha1": "e30589ba6bc61761bdb20a864a5df453766f52f0",
+    "attributionRequired": false,
+    "commonsLicenseShortName": "CC0",
+    "commonsLicenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "commonsArtist": "Olga Gurevich playing Frederic Chopin.",
+    "sourceSha256": "fc4fdb9c1df40d008133f8d83ef69ee231986120627485edfedc3f06c169d632",
+    "sourceBytes": 5282719,
+    "downloadedAtUtc": "2026-11-03T20:47:07.772844+00:00",
+    "sha256": "3413e5a8aeaf36becac0ffdfdeb488f5087401f78ca2f31d3322900a26791b99",
+    "processing": "35 s excerpt, loudnorm I=-23 LUFS / TP=-3 dBTP / LRA=7, fade in 0.25 s, fade out 0.8 s; 48 kHz stereo MP3 192 kbps",
+    "technicalQa": {
+      "decoded": true,
+      "sampleRate": 48000,
+      "channels": 2,
+      "codec": "mp3",
+      "mean_volume": -25.3,
+      "max_volume": -5.6,
+      "humanListening": false
+    },
+    "offsetSeconds": 0,
+    "excerptDurationSeconds": 13.2,
+    "originalExcerptStartSeconds": 1,
+    "actualDurationSeconds": 35.04,
+    "processingForReel": "loudnorm I=-18 LUFS, TP=-2 dBTP, LRA=8; fade in 0.6 s, fade out 1.2 s"
+  },
+  "measured": {
+    "cardTop": 639.5625,
+    "cardBottom": 1162.5625,
+    "rowFont": 52,
+    "titleFont": 94,
+    "footerCount": 0,
+    "cellOverflow": false,
+    "text": "В ЗАЯВЛЕНИЯХ И ПИСЬМАХ\nАпелляция:\nдве «п» или «л»?\nНЕПРАВИЛЬНО\nПРАВИЛЬНО\nаппеляция\nаппеляция\nапелляция\nанулировать\nанулировать\nаннулировать\nакредитация\nакредитация\nаккредитация\nассиметрия\nассиметрия\nасимметрия"
+  },
+  "screenshotFrames": 122,
+  "sha256": "ea1c14b91002433c0e1dbdd4df73b3639fe2612ed683f3fe986805c1fce82fe0",
+  "coverSha256": "dba2aa6b755dd33212621066943b896d48791762b9d20d78ef6bbf21cae665cc",
+  "streams": [
+    {
+      "type": "video",
+      "codec": "h264",
+      "width": 1080,
+      "height": 1920,
+      "duration": "13.200000"
+    },
+    {
+      "type": "audio",
+      "codec": "aac",
+      "duration": "13.200000",
+      "sampleRate": "48000"
+    }
+  ],
+  "decoded": true
+}

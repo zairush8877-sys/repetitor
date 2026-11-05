@@ -206,6 +206,36 @@
       "postId": "2026-11-classic-22-svyaz-teksta",
       "date": "2026-11-10",
       "scheduledAt": "2026-11-10T16:00:00.000Z"
+    },
+    {
+      "postId": "2026-11-classic-23-apellyatsiya",
+      "date": "2026-11-11",
+      "scheduledAt": "2026-11-11T07:00:00.000Z"
+    },
+    {
+      "postId": "2026-11-classic-24-prichastiya",
+      "date": "2026-11-11",
+      "scheduledAt": "2026-11-11T11:00:00.000Z"
+    },
+    {
+      "postId": "2026-11-classic-25-osnova",
+      "date": "2026-11-11",
+      "scheduledAt": "2026-11-11T16:00:00.000Z"
+    },
+    {
+      "postId": "2026-11-classic-26-ne-vvodnye",
+      "date": "2026-11-12",
+      "scheduledAt": "2026-11-12T07:00:00.000Z"
+    },
+    {
+      "postId": "2026-11-classic-27-kratkie-prichastiya",
+      "date": "2026-11-12",
+      "scheduledAt": "2026-11-12T11:00:00.000Z"
+    },
+    {
+      "postId": "2026-11-classic-28-kogda",
+      "date": "2026-11-12",
+      "scheduledAt": "2026-11-12T16:00:00.000Z"
     }
   ],
   "additionalSlotAuthorization": {

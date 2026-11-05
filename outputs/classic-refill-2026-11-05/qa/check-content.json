@@ -1,0 +1,62 @@
+[
+  {
+    "id": "2026-11-classic-23-apellyatsiya",
+    "mode": "isolated",
+    "exitCode": 0
+  },
+  {
+    "id": "2026-11-classic-24-prichastiya",
+    "mode": "isolated",
+    "exitCode": 0
+  },
+  {
+    "id": "2026-11-classic-25-osnova",
+    "mode": "isolated",
+    "exitCode": 0
+  },
+  {
+    "id": "2026-11-classic-26-ne-vvodnye",
+    "mode": "isolated",
+    "exitCode": 0
+  },
+  {
+    "id": "2026-11-classic-27-kratkie-prichastiya",
+    "mode": "isolated",
+    "exitCode": 0
+  },
+  {
+    "id": "2026-11-classic-28-kogda",
+    "mode": "isolated",
+    "exitCode": 0
+  },
+  {
+    "id": "2026-11-classic-23-apellyatsiya",
+    "mode": "merged",
+    "exitCode": 0
+  },
+  {
+    "id": "2026-11-classic-24-prichastiya",
+    "mode": "merged",
+    "exitCode": 0
+  },
+  {
+    "id": "2026-11-classic-25-osnova",
+    "mode": "merged",
+    "exitCode": 0
+  },
+  {
+    "id": "2026-11-classic-26-ne-vvodnye",
+    "mode": "merged",
+    "exitCode": 0
+  },
+  {
+    "id": "2026-11-classic-27-kratkie-prichastiya",
+    "mode": "merged",
+    "exitCode": 0
+  },
+  {
+    "id": "2026-11-classic-28-kogda",
+    "mode": "merged",
+    "exitCode": 0
+  }
+]

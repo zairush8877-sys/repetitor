@@ -1,0 +1,27 @@
+{
+  "id": "2026-11-classic-26-ne-vvodnye",
+  "previewOnly": true,
+  "total": 13.2,
+  "key": "29a462e18265c40130f4ef09e804b40f1f1ed602cf5d3221b22e2b79b0c8326d",
+  "assets": {
+    "photoId": "books-pile",
+    "photoFile": "assets/photos/books-pile.jpg",
+    "photoSha256": "bcf9491e4bdb9d6dcf889feb108bcb6be8dc5ccb17e95e2e2c0de4e819ccdb8a",
+    "musicId": "mozart40-andante",
+    "musicFile": "assets/music/mozart40-andante-musopen.mp3",
+    "musicSha256": "175d53e80d635a8237e44fc4dc9f4833c63d350231bdd459c49deca2b3cb8912",
+    "musicOffsetSeconds": 0,
+    "backgroundPosition": "50% 50%"
+  },
+  "measured": {
+    "cardTop": 639.5625,
+    "cardBottom": 1487.5625,
+    "rowFont": 52,
+    "titleFont": 94,
+    "footerCount": 0,
+    "cellOverflow": false,
+    "text": "ПУНКТУАЦИЯ В ПЕРЕПИСКЕ\nТем не менее.\nГде запятая?\nНАША ФРАЗА\nПОСЛЕ НАЧАЛА\nТем не менее мы успели.\nбез запятой\nМежду тем поезд ушёл.\nбез запятой\nВдобавок пошёл дождь.\nбез запятой\nВ конечном счёте я согласен.\nбез запятой"
+  },
+  "previewFile": "qa/2026-11-classic-26-ne-vvodnye-preview.jpg",
+  "previewSha256": "aeb9c36b46864322887b37a96288789138c36be69e534623aaf518e74cd6a739"
+}

@@ -1,0 +1,90 @@
+{
+  "id": "2026-11-classic-28-kogda",
+  "key": "f42065b9264ffffca6fdd11d5ae442575a244a511d3a418af222c64207d10790",
+  "total": 13.2,
+  "assets": {
+    "photoId": "uppsala-bookshelves",
+    "photoFile": "assets/photos/uppsala-bookshelves.jpg",
+    "photoSha256": "caa200a2d755c560a3826b47424f1cc3dfb9da99af2b9a666691853724bc0400",
+    "musicId": "chopin-op37-no2",
+    "musicFile": "assets/music/chopin-op37-no2-gurevich.mp3",
+    "musicSha256": "1e3255e0c1b8e936c92c146d44977015b471da6c153737fa3cd49ac61bc10a50",
+    "musicOffsetSeconds": 1.4,
+    "backgroundPosition": "50% 50%"
+  },
+  "music": {
+    "id": "chopin-op37-no2",
+    "file": "assets/music/chopin-op37-no2-gurevich.mp3",
+    "composer": "Фридерик Шопен",
+    "piece": "Ноктюрн соль мажор, op. 37 № 2",
+    "title": "Nocturne in G major, Op. 37 No. 2",
+    "performer": "Olga Gurevich",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "commonsTitle": "File:Chopin Nocturne Op 37 no 2 in G major Olga Gurevich.ogg",
+    "recordingRights": "CC0 1.0 на странице конкретной записи Olga Gurevich; источник Musopen download/12225. Включает связанные права на запись в пределах CC0.",
+    "compositionRights": "Шопен (1810–1849), op.37 (1840): public domain; современная запись отдельно CC0.",
+    "sourceExcerptStartSeconds": 0.7,
+    "durationSeconds": 35.04,
+    "attribution": "Ф. Шопен — Ноктюрн op. 37 № 2. Фортепиано: Olga Gurevich, Musopen. Запись CC0 1.0; фрагмент, громкость изменена.",
+    "character": "Плавное фортепианное движение; другое произведение и мелодия относительно op.62.",
+    "source": "https://commons.wikimedia.org/wiki/File:Chopin_Nocturne_Op_37_no_2_in_G_major_Olga_Gurevich.ogg",
+    "sourceDownloadUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Chopin_Nocturne_Op_37_no_2_in_G_major_Olga_Gurevich.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsPageId": 62686803,
+    "commonsRevisionId": 857612175,
+    "sourcePermanentUrl": "https://commons.wikimedia.org/w/index.php?oldid=857612175",
+    "sourceFileTimestamp": "2017-09-23T13:04:51Z",
+    "sourceFileSha1": "a3a6eef09427f3d7455fbb0cc2d4a8c70bbe842b",
+    "attributionRequired": false,
+    "commonsLicenseShortName": "CC0",
+    "commonsLicenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "commonsArtist": "Olga Gurevich",
+    "sourceSha256": "9d2f9a857514ffc894057c0a50d4088bf82693915a94d1f2ed9ab9f5cbcc0fbb",
+    "sourceBytes": 4792732,
+    "downloadedAtUtc": "2026-11-03T20:48:37.627635+00:00",
+    "sha256": "1e3255e0c1b8e936c92c146d44977015b471da6c153737fa3cd49ac61bc10a50",
+    "processing": "35 s excerpt, loudnorm I=-23 LUFS / TP=-3 dBTP / LRA=7, fade in 0.25 s, fade out 0.8 s; 48 kHz stereo MP3 192 kbps",
+    "technicalQa": {
+      "decoded": true,
+      "sampleRate": 48000,
+      "channels": 2,
+      "codec": "mp3",
+      "mean_volume": -25.4,
+      "max_volume": -7.7,
+      "humanListening": false
+    },
+    "offsetSeconds": 1.4,
+    "excerptDurationSeconds": 13.2,
+    "originalExcerptStartSeconds": 2.0999999999999996,
+    "actualDurationSeconds": 35.04,
+    "processingForReel": "loudnorm I=-18 LUFS, TP=-2 dBTP, LRA=8; fade in 0.6 s, fade out 1.2 s"
+  },
+  "measured": {
+    "cardTop": 639.5625,
+    "cardBottom": 1552.5625,
+    "rowFont": 52,
+    "titleFont": 94,
+    "footerCount": 0,
+    "cellOverflow": false,
+    "text": "ОГЭ • ВИДЫ ПРИДАТОЧНЫХ\nОдно «когда».\nРазные вопросы.\nНАШЕ ПРЕДЛОЖЕНИЕ\nВОПРОС\nПомню день, когда выпал снег.\nдень какой?\nМы ушли, когда стемнело.\nушли когда?\nЖду дня, когда вы вернётесь.\nдня какого?\nПозвони, когда приедешь.\nпозвони когда?"
+  },
+  "screenshotFrames": 122,
+  "sha256": "03b0cbad49eb9a1777cbdf081b854d8b401bb95a4298de9a82c236dd400d36dc",
+  "coverSha256": "dbcd4d7be39c00314738969885b95a03ad5ad3d79b4a218e89318ee200ef17d3",
+  "streams": [
+    {
+      "type": "video",
+      "codec": "h264",
+      "width": 1080,
+      "height": 1920,
+      "duration": "13.200000"
+    },
+    {
+      "type": "audio",
+      "codec": "aac",
+      "duration": "13.200000",
+      "sampleRate": "48000"
+    }
+  ],
+  "decoded": true
+}

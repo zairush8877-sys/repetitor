@@ -1,0 +1,601 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-11-05T18:40:55.325293+00:00",
+  "role": "independent_russian_proofreader",
+  "reviewedDraftPath": "/private/tmp/mama-classic-refill-2026-11-05/editorial/drafts.json",
+  "reviewedDraftSha256": "3a9bbff6ae3d360134745217a6963b5f3d110d1ce86071f2238b08f3b88ca2f8",
+  "verdict": "pass",
+  "totalPosts": 6,
+  "totalRows": 24,
+  "distribution": {
+    "adult_language": 2,
+    "EGE": 2,
+    "OGE": 2,
+    "extra_school_or_olympiad": 0
+  },
+  "posts": [
+    {
+      "id": "2026-11-classic-23-apellyatsiya",
+      "rubric": "Орфография взрослых",
+      "school": false,
+      "rows": [
+        {
+          "row": 1,
+          "left": "аппеляция",
+          "right": "апелляция",
+          "verdict": "pass",
+          "analysis": "Норма апелляция: одна п, две л.",
+          "sourceIds": [
+            "ran-orthographic"
+          ],
+          "sourceUrls": [
+            "https://gramota.ru/storage/public/normdicts/orfograficheskij_slovar.pdf"
+          ],
+          "basis": "dictionary_or_rule_explicit"
+        },
+        {
+          "row": 2,
+          "left": "анулировать",
+          "right": "аннулировать",
+          "verdict": "pass",
+          "analysis": "Норма аннулировать: две н.",
+          "sourceIds": [
+            "annulirovat"
+          ],
+          "sourceUrls": [
+            "https://gramota.ru/meta/annulirovat"
+          ],
+          "basis": "dictionary_or_rule_explicit"
+        },
+        {
+          "row": 3,
+          "left": "акредитация",
+          "right": "аккредитация",
+          "verdict": "pass",
+          "analysis": "Норма аккредитация: две к.",
+          "sourceIds": [
+            "ran-orthographic"
+          ],
+          "sourceUrls": [
+            "https://gramota.ru/storage/public/normdicts/orfograficheskij_slovar.pdf"
+          ],
+          "basis": "dictionary_or_rule_explicit"
+        },
+        {
+          "row": 4,
+          "left": "ассиметрия",
+          "right": "асимметрия",
+          "verdict": "pass",
+          "analysis": "Норма асимметрия: одна с, две м. Ударение здесь не проверяется и не навязывается.",
+          "sourceIds": [
+            "ran-orthographic",
+            "asimmetriya"
+          ],
+          "sourceUrls": [
+            "https://gramota.ru/storage/public/normdicts/orfograficheskij_slovar.pdf",
+            "https://gramota.ru/meta/asimmetriya"
+          ],
+          "basis": "dictionary_or_rule_explicit"
+        }
+      ],
+      "rowsVerdict": "pass",
+      "selectedCaptionReview": "pass_after_edits",
+      "examAttribution": null,
+      "finalTextVerdict": "pass",
+      "finalCaption": "В «апелляции» удваивается Л, а не П. В «аннулировать» — Н, в «аккредитации» — К. У «асимметрии» одна С и две М. Такие написания проверяем по словарю: на слух место удвоения не определить.",
+      "finalTitle": "Апелляция:\nдве «п» или «л»?"
+    },
+    {
+      "id": "2026-11-classic-24-prichastiya",
+      "rubric": "ЕГЭ",
+      "school": false,
+      "rows": [
+        {
+          "row": 1,
+          "left": "клеющий",
+          "right": "клеящий",
+          "verdict": "pass",
+          "analysis": "Клеящий: II спряжение, клеят; -ящ-.",
+          "sourceIds": [
+            "participle58"
+          ],
+          "sourceUrls": [
+            "https://orthographia.ru/orfografia.php?sid=35"
+          ],
+          "basis": "dictionary_or_rule_explicit"
+        },
+        {
+          "row": 2,
+          "left": "борящийся",
+          "right": "борющийся",
+          "verdict": "pass",
+          "analysis": "Борющийся: I спряжение, борются; -ющ-.",
+          "sourceIds": [
+            "participle58"
+          ],
+          "sourceUrls": [
+            "https://orthographia.ru/orfografia.php?sid=35"
+          ],
+          "basis": "dictionary_or_rule_explicit"
+        },
+        {
+          "row": 3,
+          "left": "строющий",
+          "right": "строящий",
+          "verdict": "pass",
+          "analysis": "Строящий: II спряжение, строят; -ящ-.",
+          "sourceIds": [
+            "participle58"
+          ],
+          "sourceUrls": [
+            "https://orthographia.ru/orfografia.php?sid=35"
+          ],
+          "basis": "dictionary_or_rule_explicit"
+        },
+        {
+          "row": 4,
+          "left": "сеящий",
+          "right": "сеющий",
+          "verdict": "pass",
+          "analysis": "Сеющий: I спряжение, сеют; -ющ-.",
+          "sourceIds": [
+            "participle58"
+          ],
+          "sourceUrls": [
+            "https://orthographia.ru/orfografia.php?sid=35"
+          ],
+          "basis": "dictionary_or_rule_explicit"
+        }
+      ],
+      "rowsVerdict": "pass",
+      "selectedCaptionReview": "pass",
+      "examAttribution": "Авторские учебные примеры. Не заявлены как официальный КИМ, номер задания или требования нового года.",
+      "finalTextVerdict": "pass",
+      "finalCaption": "Клеящий — от «клеят», сеющий — от «сеют». Для действительных причастий настоящего времени в этих примерах помогают формы «они»: клеят, борются, строят, сеют. Получаем клеящий, борющийся, строящий, сеющий. Это наши учебные примеры для подготовки к ЕГЭ.",
+      "finalTitle": "Клеящий.\nНо сеющий."
+    },
+    {
+      "id": "2026-11-classic-25-osnova",
+      "rubric": "ОГЭ",
+      "school": false,
+      "rows": [
+        {
+          "row": 1,
+          "left": "Листву качает ветер.",
+          "right": "ветер качает",
+          "verdict": "pass",
+          "analysis": "Подлежащее ветер, сказуемое качает; листву — дополнение В.п.",
+          "sourceIds": [
+            "subject"
+          ],
+          "sourceUrls": [
+            "https://foxford.ru/wiki/russkiy-yazyk/podlezhashchee-i-sposoby-ego-vyrazheniya"
+          ],
+          "basis": "own_example_analysis_by_primary_rule"
+        },
+        {
+          "row": 2,
+          "left": "Лодку несёт течение.",
+          "right": "течение несёт",
+          "verdict": "pass",
+          "analysis": "Подлежащее течение, сказуемое несёт; лодку — дополнение В.п.",
+          "sourceIds": [
+            "subject"
+          ],
+          "sourceUrls": [
+            "https://foxford.ru/wiki/russkiy-yazyk/podlezhashchee-i-sposoby-ego-vyrazheniya"
+          ],
+          "basis": "own_example_analysis_by_primary_rule"
+        },
+        {
+          "row": 3,
+          "left": "Камыши гнёт буря.",
+          "right": "буря гнёт",
+          "verdict": "pass",
+          "analysis": "Подлежащее буря, сказуемое гнёт; камыши — дополнение В.п.; форма именительного мн.ч. совпадает, но единственное число гнёт и форма буря снимают смешение.",
+          "sourceIds": [
+            "subject"
+          ],
+          "sourceUrls": [
+            "https://foxford.ru/wiki/russkiy-yazyk/podlezhashchee-i-sposoby-ego-vyrazheniya"
+          ],
+          "basis": "own_example_analysis_by_primary_rule"
+        },
+        {
+          "row": 4,
+          "left": "Тропинку занёс снег.",
+          "right": "снег занёс",
+          "verdict": "pass",
+          "analysis": "Подлежащее снег, сказуемое занёс; тропинку — дополнение В.п.",
+          "sourceIds": [
+            "subject"
+          ],
+          "sourceUrls": [
+            "https://foxford.ru/wiki/russkiy-yazyk/podlezhashchee-i-sposoby-ego-vyrazheniya"
+          ],
+          "basis": "own_example_analysis_by_primary_rule"
+        }
+      ],
+      "rowsVerdict": "pass",
+      "selectedCaptionReview": "pass_after_edits",
+      "examAttribution": "Авторские учебные примеры. Не заявлены как официальный КИМ, номер задания или требования нового года.",
+      "finalTextVerdict": "pass",
+      "finalCaption": "Листву качает ветер: «ветер» — подлежащее, «качает» — сказуемое. «Листву» здесь дополнение. Во всех четырёх предложениях подлежащее стоит после сказуемого. Его определяем по грамматической связи, а не по месту в строке.",
+      "finalTitle": "Качает ветер.\nА подлежащее?"
+    },
+    {
+      "id": "2026-11-classic-26-ne-vvodnye",
+      "rubric": "Пунктуация взрослых",
+      "school": false,
+      "rows": [
+        {
+          "row": 1,
+          "left": "Тем не менее мы успели.",
+          "right": "без запятой",
+          "verdict": "pass",
+          "analysis": "В указанном простом контексте тем не менее — частица со смыслом всё-таки; не вводное, после неё запятой нет.",
+          "sourceIds": [
+            "tem-ne-menee"
+          ],
+          "sourceUrls": [
+            "https://gramota.ru/poisk?mode=all&query=%2C+%D1%82%D0%B5%D0%BC+%D0%BD%D0%B5+%D0%BC%D0%B5%D0%BD%D0%B5%D0%B5%2C&simple=0"
+          ],
+          "basis": "own_example_analysis_by_primary_rule"
+        },
+        {
+          "row": 2,
+          "left": "Между тем поезд ушёл.",
+          "right": "без запятой",
+          "verdict": "pass",
+          "analysis": "Между тем здесь означает тем временем, наречное употребление, без запятой.",
+          "sourceIds": [
+            "mezhdu-tem"
+          ],
+          "sourceUrls": [
+            "https://gramota.ru/poisk?mode=all&query=%D1%80%D0%B0%D0%B7%D0%B2%D0%BB%D0%B5%D0%BA%D0%B0%D1%8E%D1%82%D1%81%D1%8F+%D0%B4%D0%B5%D1%82%D0%B8&simple=0"
+          ],
+          "basis": "own_example_analysis_by_primary_rule"
+        },
+        {
+          "row": 3,
+          "left": "Вдобавок пошёл дождь.",
+          "right": "без запятой",
+          "verdict": "pass",
+          "analysis": "Вдобавок здесь наречие; нет присоединительного оборота, который требовал бы отдельного обособления.",
+          "sourceIds": [
+            "vdobavok"
+          ],
+          "sourceUrls": [
+            "https://gramota.ru/biblioteka/spravochniki/spravochnik-po-punktuatsii/vdobavok"
+          ],
+          "basis": "own_example_analysis_by_primary_rule"
+        },
+        {
+          "row": 4,
+          "left": "В конечном счёте я согласен.",
+          "right": "без запятой",
+          "verdict": "pass",
+          "analysis": "В конечном счёте здесь наречное выражение; без обособления.",
+          "sourceIds": [
+            "v-konechnom-schete"
+          ],
+          "sourceUrls": [
+            "https://gramota.ru/poisk?mode=spravochniki&query=%D0%B2+%D0%BA%D0%BE%D0%BD%D0%B5%D1%87%D0%BD%D0%BE%D0%BC+%D1%81%D1%87%D0%B5%D1%82%D0%B5&simple=0"
+          ],
+          "basis": "own_example_analysis_by_primary_rule"
+        }
+      ],
+      "rowsVerdict": "pass",
+      "selectedCaptionReview": "pass",
+      "examAttribution": null,
+      "finalTextVerdict": "pass",
+      "finalCaption": "«Тем не менее мы успели» — после «тем не менее» запятой нет. В показанных фразах «между тем», «вдобавок» и «в конечном счёте» тоже не вводные: начало не отделяем от продолжения. В другом предложении рядом может оказаться запятая, относящаяся к иной конструкции.",
+      "finalTitle": "Тем не менее.\nГде запятая?"
+    },
+    {
+      "id": "2026-11-classic-27-kratkie-prichastiya",
+      "rubric": "ЕГЭ",
+      "school": false,
+      "rows": [
+        {
+          "row": 1,
+          "left": "решённая задача",
+          "right": "задача решена",
+          "verdict": "pass",
+          "analysis": "Решённая — полная форма с НН; решена — краткое страдательное причастие с Н. Обе формы правильные.",
+          "sourceIds": [
+            "participle98",
+            "participle100"
+          ],
+          "sourceUrls": [
+            "https://orthographia.ru/orfografia.php?sid=53",
+            "https://orthographia.ru/orfografia.php?sid=54"
+          ],
+          "basis": "dictionary_or_rule_explicit"
+        },
+        {
+          "row": 2,
+          "left": "подписанный акт",
+          "right": "акт подписан",
+          "verdict": "pass",
+          "analysis": "Подписанный — полная форма с НН; подписан — краткое страдательное причастие с Н. Обе формы правильные.",
+          "sourceIds": [
+            "participle98",
+            "participle100"
+          ],
+          "sourceUrls": [
+            "https://orthographia.ru/orfografia.php?sid=53",
+            "https://orthographia.ru/orfografia.php?sid=54"
+          ],
+          "basis": "dictionary_or_rule_explicit"
+        },
+        {
+          "row": 3,
+          "left": "проверенная смета",
+          "right": "смета проверена",
+          "verdict": "pass",
+          "analysis": "Проверенная — полная форма с НН; проверена — краткое страдательное причастие с Н. Обе формы правильные.",
+          "sourceIds": [
+            "participle98",
+            "participle100"
+          ],
+          "sourceUrls": [
+            "https://orthographia.ru/orfografia.php?sid=53",
+            "https://orthographia.ru/orfografia.php?sid=54"
+          ],
+          "basis": "dictionary_or_rule_explicit"
+        },
+        {
+          "row": 4,
+          "left": "полученная посылка",
+          "right": "посылка получена",
+          "verdict": "pass",
+          "analysis": "Полученная — полная форма с НН; получена — краткое страдательное причастие с Н. Обе формы правильные.",
+          "sourceIds": [
+            "participle98",
+            "participle100"
+          ],
+          "sourceUrls": [
+            "https://orthographia.ru/orfografia.php?sid=53",
+            "https://orthographia.ru/orfografia.php?sid=54"
+          ],
+          "basis": "dictionary_or_rule_explicit"
+        }
+      ],
+      "rowsVerdict": "pass",
+      "selectedCaptionReview": "pass",
+      "examAttribution": "Авторские учебные примеры. Не заявлены как официальный КИМ, номер задания или требования нового года.",
+      "finalTextVerdict": "pass",
+      "finalCaption": "Задача решена — с одной Н. Решённая задача — с двумя. В нашей таблице полные страдательные причастия превращаются в краткие: решена, подписан, проверена, получена. В кратких страдательных причастиях пишется одна Н. Это правило не переносим на все краткие прилагательные.",
+      "finalTitle": "Задача решена.\nОдной Н хватит."
+    },
+    {
+      "id": "2026-11-classic-28-kogda",
+      "rubric": "ОГЭ",
+      "school": false,
+      "rows": [
+        {
+          "row": 1,
+          "left": "Помню день, когда выпал снег.",
+          "right": "день какой?",
+          "verdict": "pass",
+          "analysis": "Относится к существительному день: день какой? — определительное; когда можно заменить на в который.",
+          "sourceIds": [
+            "subclauses",
+            "spp-punctuation"
+          ],
+          "sourceUrls": [
+            "https://ebs.rgunh.ru/db/4_07_11_12_5/4/book.pdf#page=110",
+            "https://gramota.ru/biblioteka/spravochniki/pravila-russkoy-orfografii-i-punktuatsii/znaki-prepinaniya-v-slozhnopodchinennom-predlozhenii"
+          ],
+          "basis": "own_example_analysis_by_primary_rule"
+        },
+        {
+          "row": 2,
+          "left": "Мы ушли, когда стемнело.",
+          "right": "ушли когда?",
+          "verdict": "pass",
+          "analysis": "Указывает время ухода: ушли когда? — придаточное времени.",
+          "sourceIds": [
+            "subclauses",
+            "spp-punctuation"
+          ],
+          "sourceUrls": [
+            "https://ebs.rgunh.ru/db/4_07_11_12_5/4/book.pdf#page=110",
+            "https://gramota.ru/biblioteka/spravochniki/pravila-russkoy-orfografii-i-punktuatsii/znaki-prepinaniya-v-slozhnopodchinennom-predlozhenii"
+          ],
+          "basis": "own_example_analysis_by_primary_rule"
+        },
+        {
+          "row": 3,
+          "left": "Жду дня, когда вы вернётесь.",
+          "right": "дня какого?",
+          "verdict": "pass",
+          "analysis": "Относится к существительному дня: дня какого? — определительное; когда можно заменить на в который.",
+          "sourceIds": [
+            "subclauses",
+            "spp-punctuation"
+          ],
+          "sourceUrls": [
+            "https://ebs.rgunh.ru/db/4_07_11_12_5/4/book.pdf#page=110",
+            "https://gramota.ru/biblioteka/spravochniki/pravila-russkoy-orfografii-i-punktuatsii/znaki-prepinaniya-v-slozhnopodchinennom-predlozhenii"
+          ],
+          "basis": "own_example_analysis_by_primary_rule"
+        },
+        {
+          "row": 4,
+          "left": "Позвони, когда приедешь.",
+          "right": "позвони когда?",
+          "verdict": "pass",
+          "analysis": "Указывает время звонка: позвони когда? — придаточное времени в заданном контексте.",
+          "sourceIds": [
+            "subclauses",
+            "spp-punctuation"
+          ],
+          "sourceUrls": [
+            "https://ebs.rgunh.ru/db/4_07_11_12_5/4/book.pdf#page=110",
+            "https://gramota.ru/biblioteka/spravochniki/pravila-russkoy-orfografii-i-punktuatsii/znaki-prepinaniya-v-slozhnopodchinennom-predlozhenii"
+          ],
+          "basis": "own_example_analysis_by_primary_rule"
+        }
+      ],
+      "rowsVerdict": "pass",
+      "selectedCaptionReview": "pass",
+      "examAttribution": "Авторские учебные примеры. Не заявлены как официальный КИМ, номер задания или требования нового года.",
+      "finalTextVerdict": "pass",
+      "finalCaption": "«Когда» само по себе не определяет вид придаточного. «Помню день, когда выпал снег»: поясняется существительное «день», вопрос «какой?» — придаточное определительное. «Мы ушли, когда стемнело»: ушли когда? — придаточное времени. Так же проверяем две оставшиеся фразы.",
+      "finalTitle": "Одно «когда».\nРазные вопросы."
+    }
+  ],
+  "sources": {
+    "ran-orthographic": {
+      "title": "Русский орфографический словарь РАН, под ред. В. В. Лопатина и О. Е. Ивановой",
+      "url": "https://gramota.ru/storage/public/normdicts/orfograficheskij_slovar.pdf",
+      "locator": "словарные статьи апелляция, аккредитация, асимметрия; проверка через индексированные фрагменты web.search",
+      "access": "indexed_primary_extract; direct_open_403"
+    },
+    "annulirovat": {
+      "title": "Грамота: аннулировать, словарная статья",
+      "url": "https://gramota.ru/meta/annulirovat",
+      "locator": "метасловарь; заголовочное написание аннулировать",
+      "access": "indexed_primary_extract"
+    },
+    "asimmetriya": {
+      "title": "Грамота: асимметрия, словарная статья",
+      "url": "https://gramota.ru/meta/asimmetriya",
+      "locator": "метасловарь; написание с одной с и двумя м",
+      "access": "indexed_primary_extract"
+    },
+    "participle58": {
+      "title": "Полный академический справочник под ред. В. В. Лопатина: §58",
+      "url": "https://orthographia.ru/orfografia.php?sid=35",
+      "locator": "§58: все четыре формы клеящий, борющийся, строящий, сеющий перечислены явно",
+      "access": "full_page_open; lines291-296"
+    },
+    "subject": {
+      "title": "Фоксфорд Учебник: Подлежащее и способы его выражения",
+      "url": "https://foxford.ru/wiki/russkiy-yazyk/podlezhashchee-i-sposoby-ego-vyrazheniya",
+      "locator": "Грамматическая и смысловая связь со сказуемым; способы выражения; собственный учебный источник",
+      "access": "full_page_open; lines820-861"
+    },
+    "tem-ne-menee": {
+      "title": "Грамота: Справочник по пунктуации, Тем не менее",
+      "url": "https://gramota.ru/poisk?mode=all&query=%2C+%D1%82%D0%B5%D0%BC+%D0%BD%D0%B5+%D0%BC%D0%B5%D0%BD%D0%B5%D0%B5%2C&simple=0",
+      "locator": "точный результат справочника Тем не менее: частица и союз, частица не требует обособления",
+      "access": "indexed_primary_extract; canonical_article_direct_open_403"
+    },
+    "mezhdu-tem": {
+      "title": "Грамота: Справочник по пунктуации, Меж(ду) тем",
+      "url": "https://gramota.ru/poisk?mode=all&query=%D1%80%D0%B0%D0%B7%D0%B2%D0%BB%D0%B5%D0%BA%D0%B0%D1%8E%D1%82%D1%81%D1%8F+%D0%B4%D0%B5%D1%82%D0%B8&simple=0",
+      "locator": "извлечённый результат Меж(ду) тем: наречие в значении тем временем без обособления",
+      "access": "indexed_primary_extract"
+    },
+    "vdobavok": {
+      "title": "Грамота: Справочник по пунктуации, Вдобавок",
+      "url": "https://gramota.ru/biblioteka/spravochniki/spravochnik-po-punktuatsii/vdobavok",
+      "locator": "наречие; само не требует обособления; отдельно оговорено обособление целого присоединительного оборота",
+      "access": "indexed_primary_extract"
+    },
+    "v-konechnom-schete": {
+      "title": "Грамота: Справочник по пунктуации, В конечном счёте",
+      "url": "https://gramota.ru/poisk?mode=spravochniki&query=%D0%B2+%D0%BA%D0%BE%D0%BD%D0%B5%D1%87%D0%BD%D0%BE%D0%BC+%D1%81%D1%87%D0%B5%D1%82%D0%B5&simple=0",
+      "locator": "точный результат справочника: наречное выражение без обособления",
+      "access": "indexed_primary_extract"
+    },
+    "participle98": {
+      "title": "Полный академический справочник под ред. В. В. Лопатина: §98",
+      "url": "https://orthographia.ru/orfografia.php?sid=53",
+      "locator": "Полные формы страдательных причастий прошедшего времени, НН",
+      "access": "full_page_open"
+    },
+    "participle100": {
+      "title": "Полный академический справочник под ред. В. В. Лопатина: §100",
+      "url": "https://orthographia.ru/orfografia.php?sid=54",
+      "locator": "Краткие формы страдательных причастий прошедшего времени, Н",
+      "access": "full_page_open; lines199-204"
+    },
+    "subclauses": {
+      "title": "М. В. Финогенова, Г. Е. Бурмистрова. Русский язык. Учебное пособие РГАЗУ, 2012",
+      "url": "https://ebs.rgunh.ru/db/4_07_11_12_5/4/book.pdf#page=110",
+      "locator": "печатная с.110, PDF стр.110 (индекс109): определительные какой? с союзным словом когда; времени когда? с союзом когда",
+      "access": "full_pdf_open; lines3911-3955"
+    },
+    "spp-punctuation": {
+      "title": "Грамота: Полный академический справочник, §115, сложноподчинённое предложение",
+      "url": "https://gramota.ru/biblioteka/spravochniki/pravila-russkoy-orfografii-i-punktuatsii/znaki-prepinaniya-v-slozhnopodchinennom-predlozhenii",
+      "locator": "§115: граница главной и придаточной частей; не использовать как доказательство правила перед когда всегда запятая",
+      "access": "indexed_primary_extract"
+    }
+  },
+  "requiredAndRecommendedEdits": [
+    {
+      "id": "2026-11-classic-23-apellyatsiya",
+      "field": "caption/captionVariants[0]",
+      "required": true,
+      "find": "У «асимметрии» одна С, хотя в «симметрии» две М.",
+      "replace": "У «асимметрии» одна С и две М.",
+      "reason": "Убирает ложный смысл противопоставления; обе лексемы имеют ММ."
+    },
+    {
+      "id": "2026-11-classic-25-osnova",
+      "field": "title",
+      "required": true,
+      "replace": "Качает ветер.\nА подлежащее?",
+      "reason": "Убирает вопрос кто к неодушевлённому ветру и сокращает экранный текст."
+    },
+    {
+      "id": "2026-11-classic-25-osnova",
+      "field": "caption/captionVariants[0]",
+      "required": true,
+      "replace": "Листву качает ветер: «ветер» — подлежащее, «качает» — сказуемое. «Листву» здесь дополнение. Во всех четырёх предложениях подлежащее стоит после сказуемого. Его определяем по грамматической связи, а не по месту в строке.",
+      "reason": "Точно называет члены предложения и ограничивает утверждение нашими четырьмя примерами."
+    },
+    {
+      "id": "2026-11-classic-28-kogda",
+      "field": "title",
+      "required": false,
+      "replace": "Одно «когда».\nРазные вопросы.",
+      "reason": "Редакторское сокращение; смыслу таблицы соответствует."
+    }
+  ],
+  "editorialCaveats": [
+    "Не распространять отсутствие запятой после начала четырёх фраз на все употребления: возможна граница иной конструкции; ранние ответы Грамоты о вводном тем не менее расходятся с текущим справочником. В выбранной подписи оговорка сохранена.",
+    "В таблицах25,26,27,28 нейтральные заголовки колонок обязательны: обе формы/вопросы могут быть правильными; нельзя маркировать левую колонку Неправильно.",
+    "Суффиксы -ющ-/-ящ- показаны только для выбранной четвёрки; общее правило включает -ущ-/-ащ- и исключения.",
+    "Взрослые23/26 — практика деловой переписки и пунктуации, не добавочная школьная единица. ЕГЭ/ОГЭ24/25/27/28 явно маркированы и не расходуют school-квоту.",
+    "Словарные выдержки и ряд страниц Грамоты получены через текущий поисковый индекс. Прямой open отдельных страниц вернул403; полного чтения этих страниц не заявляю. Academic manual и университетский PDF открыты полностью."
+  ],
+  "checksNotPerformed": [
+    "render",
+    "media_audio_visual_QA",
+    "Instagram_publication",
+    "official_KIM_alignment_for_specific_year_or_task_number"
+  ],
+  "originalDraftVerdict": "pass_after_required_edits",
+  "finalTextVerdict": "pass",
+  "finalTextReview": {
+    "checkedAt": "2026-11-05T18:41:42.849756+00:00",
+    "releasePath": "/private/tmp/mama-classic-refill-2026-11-05/project/outputs/classic-refill-2026-11-05/release.json",
+    "releaseSha256AtReview": "3941658f0a637046515830bbf72f08d2366609aaf51c27c39b83f5bee27b9575",
+    "normalizedPostsWithoutStatusSha256": "ac4fca1335cdb2c89ce45996f560da72ed1d8b35c52b468620b7cd23679d5717",
+    "textProjectionSha256": "d0ffe354a06601817bb86d37f76fc302c219ffcb724bfd599f06ab6ac9d72ef7",
+    "normalization": "json.dumps(posts_without_top_level_status, ensure_ascii=False, sort_keys=True, separators=(comma,colon)).encode(utf-8)",
+    "textProjectionKeys": [
+      "id",
+      "kicker",
+      "title",
+      "heads",
+      "rows",
+      "caption",
+      "hashtags",
+      "rubric",
+      "school"
+    ],
+    "rowsSameAsChecked": true,
+    "requiredEditsApplied": true,
+    "approvedTitles25And28Applied": true,
+    "statusAndRevisionHeaderOutsideTextReview": true,
+    "posts": 6,
+    "rows": 24
+  }
+}
