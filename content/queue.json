@@ -8829,10 +8829,11 @@
         "lastError": null,
         "version": 1,
         "phase": "preparing",
-        "updatedAt": "2026-11-05T14:47:02.877Z",
+        "updatedAt": "2026-11-05T14:47:31.429Z",
         "containerId": "18034429274887754",
         "containerCreatedAt": "2026-11-05T14:47:02.877Z",
-        "failedStage": null
+        "failedStage": null,
+        "readyAt": "2026-11-05T14:47:31.429Z"
       }
     },
     {
