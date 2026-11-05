@@ -8839,7 +8839,24 @@
         "publishedAt": "2026-11-05T14:47:43.611Z"
       },
       "publishedMediaId": "17998538604045150",
-      "publishedAt": "2026-11-05T14:47:43.611Z"
+      "publishedAt": "2026-11-05T14:47:45.018Z",
+      "storyRepost": {
+        "version": 1,
+        "feedMediaId": "17998538604045150",
+        "status": "pending",
+        "items": [
+          {
+            "index": 1,
+            "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-11-classic-06-anafora-epifora-full.mp4",
+            "sha256": "17c99fb7cdbe296d50d36658e2997865ddcf809b20cb8a494d2d582b26f2a0bf",
+            "mediaType": "VIDEO",
+            "mimeType": "video/mp4",
+            "status": "pending",
+            "attempts": 0
+          }
+        ],
+        "sourceKey": "1f9a639be5dc8c10f5c4c3d3cf9ecc4eb284e45f6882fabdabc04d6d848f7ac3"
+      }
     },
     {
       "id": "2026-11-classic-07-bukvy-zvuki",
