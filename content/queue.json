@@ -8622,12 +8622,9 @@
         "musicOffsetSeconds": 0,
         "backgroundPosition": "50% 50%"
       },
-      "background": "outputs/cadence-variation-2026-11-03/assets/photos/open-book-plant.jpg",
-      "lightBg": true,
-      "generatedBg": false,
       "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-11-classic-05-probely-v-vyrazheniyah.mp4",
-      "coverUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-11-classic-05-probely-v-vyrazheniyah-frame.jpg",
       "coverOffsetMs": 12200,
+      "coverUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-11-classic-05-probely-v-vyrazheniyah-frame.jpg",
       "music": {
         "id": "mozart40-andante",
         "file": "assets/music/mozart40-andante-musopen.mp3",
@@ -8674,6 +8671,18 @@
         "originalExcerptStartSeconds": 0.7,
         "actualDurationSeconds": 35.04,
         "processingForReel": "loudnorm I=-18 LUFS, TP=-2 dBTP, LRA=8; fade in 0.6 s, fade out 1.2 s"
+      },
+      "background": "outputs/cadence-variation-2026-11-03/assets/photos/open-book-plant.jpg",
+      "lightBg": true,
+      "generatedBg": false,
+      "feedDelivery": {
+        "fingerprint": "d06d7b0017b730cf3f730dad65e2f968ebfdc572c47b02621ffa0c3d77e8eb82",
+        "startedAt": "2026-11-05T14:29:41.794Z",
+        "creationAttempts": 1,
+        "lastError": null,
+        "version": 1,
+        "phase": "container",
+        "updatedAt": "2026-11-05T14:29:41.794Z"
       }
     },
     {
