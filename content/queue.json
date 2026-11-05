@@ -8692,7 +8692,24 @@
         "publishedAt": "2026-11-05T14:30:26.406Z"
       },
       "publishedMediaId": "18117580991037347",
-      "publishedAt": "2026-11-05T14:30:26.406Z"
+      "publishedAt": "2026-11-05T14:30:27.568Z",
+      "storyRepost": {
+        "version": 1,
+        "feedMediaId": "18117580991037347",
+        "status": "pending",
+        "items": [
+          {
+            "index": 1,
+            "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-11-classic-05-probely-v-vyrazheniyah-full.mp4",
+            "sha256": "87be335d41bdf9cb8c2fcbb6bb8f0af167c3d1fee2ceff7ceeec9b7e8a42805e",
+            "mediaType": "VIDEO",
+            "mimeType": "video/mp4",
+            "status": "pending",
+            "attempts": 0
+          }
+        ],
+        "sourceKey": "088e82a9e4c47ef2f7964c19231a62ad88e39d33b116d4e2f696f2c6e899819d"
+      }
     },
     {
       "id": "2026-11-classic-06-anafora-epifora",
