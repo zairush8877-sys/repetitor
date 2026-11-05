@@ -8603,7 +8603,7 @@
       ],
       "title": "На ходу —\nв два слова",
       "rubric": "Норма языка",
-      "status": "approved",
+      "status": "published",
       "date": "2026-11-05",
       "scheduledAt": "2026-11-05T07:00:00.000Z",
       "campaignId": "anna-retouch-music-v3-20261031",
@@ -8681,14 +8681,18 @@
         "creationAttempts": 1,
         "lastError": null,
         "version": 1,
-        "phase": "publishing",
-        "updatedAt": "2026-11-05T14:30:15.589Z",
+        "phase": "published",
+        "updatedAt": "2026-11-05T14:30:26.406Z",
         "containerId": "18034426871887754",
         "containerCreatedAt": "2026-11-05T14:29:46.076Z",
         "failedStage": null,
         "readyAt": "2026-11-05T14:30:14.380Z",
-        "publishAttemptedAt": "2026-11-05T14:30:15.589Z"
-      }
+        "publishAttemptedAt": "2026-11-05T14:30:15.589Z",
+        "mediaId": "18117580991037347",
+        "publishedAt": "2026-11-05T14:30:26.406Z"
+      },
+      "publishedMediaId": "18117580991037347",
+      "publishedAt": "2026-11-05T14:30:26.406Z"
     },
     {
       "id": "2026-11-classic-06-anafora-epifora",
