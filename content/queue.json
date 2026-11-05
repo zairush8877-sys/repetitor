@@ -8681,12 +8681,13 @@
         "creationAttempts": 1,
         "lastError": null,
         "version": 1,
-        "phase": "preparing",
-        "updatedAt": "2026-11-05T14:30:14.380Z",
+        "phase": "publishing",
+        "updatedAt": "2026-11-05T14:30:15.589Z",
         "containerId": "18034426871887754",
         "containerCreatedAt": "2026-11-05T14:29:46.076Z",
         "failedStage": null,
-        "readyAt": "2026-11-05T14:30:14.380Z"
+        "readyAt": "2026-11-05T14:30:14.380Z",
+        "publishAttemptedAt": "2026-11-05T14:30:15.589Z"
       }
     },
     {
