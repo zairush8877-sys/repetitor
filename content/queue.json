@@ -8750,7 +8750,7 @@
         "Приём"
       ],
       "rubric": "ЕГЭ — разбор",
-      "status": "approved",
+      "status": "published",
       "date": "2026-11-05",
       "scheduledAt": "2026-11-05T11:00:00.000Z",
       "campaignId": "anna-retouch-music-v3-20261031",
@@ -8828,14 +8828,18 @@
         "creationAttempts": 1,
         "lastError": null,
         "version": 1,
-        "phase": "publishing",
-        "updatedAt": "2026-11-05T14:47:32.630Z",
+        "phase": "published",
+        "updatedAt": "2026-11-05T14:47:43.612Z",
         "containerId": "18034429274887754",
         "containerCreatedAt": "2026-11-05T14:47:02.877Z",
         "failedStage": null,
         "readyAt": "2026-11-05T14:47:31.429Z",
-        "publishAttemptedAt": "2026-11-05T14:47:32.630Z"
-      }
+        "publishAttemptedAt": "2026-11-05T14:47:32.630Z",
+        "mediaId": "17998538604045150",
+        "publishedAt": "2026-11-05T14:47:43.611Z"
+      },
+      "publishedMediaId": "17998538604045150",
+      "publishedAt": "2026-11-05T14:47:43.611Z"
     },
     {
       "id": "2026-11-classic-07-bukvy-zvuki",
