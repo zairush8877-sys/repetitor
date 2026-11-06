@@ -9175,12 +9175,9 @@
         "musicOffsetSeconds": 0,
         "backgroundPosition": "50% 50%"
       },
-      "background": "outputs/cadence-variation-2026-11-03/assets/photos/library-bookshelves.jpg",
-      "lightBg": true,
-      "generatedBg": false,
       "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-11-classic-09-frukty.mp4",
-      "coverUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-11-classic-09-frukty-frame.jpg",
       "coverOffsetMs": 12200,
+      "coverUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-11-classic-09-frukty-frame.jpg",
       "music": {
         "id": "bach-var1-ishizaka",
         "file": "assets/music/bach-var1-ishizaka.mp3",
@@ -9212,6 +9209,18 @@
         "originalExcerptStartSeconds": 0.7,
         "actualDurationSeconds": 32.04,
         "processingForReel": "loudnorm I=-18 LUFS, TP=-2 dBTP, LRA=8; fade in 0.6 s, fade out 1.2 s"
+      },
+      "background": "outputs/cadence-variation-2026-11-03/assets/photos/library-bookshelves.jpg",
+      "lightBg": true,
+      "generatedBg": false,
+      "feedDelivery": {
+        "fingerprint": "083c5f2b7a3e7218cf90971ed4c7570d401c3cb134530ade4f29ae9efe69e3e6",
+        "startedAt": "2026-11-06T14:24:09.037Z",
+        "creationAttempts": 1,
+        "lastError": null,
+        "version": 1,
+        "phase": "container",
+        "updatedAt": "2026-11-06T14:24:09.037Z"
       }
     },
     {
