@@ -7813,7 +7813,28 @@
       "hashtags": [],
       "durationSeconds": 17.8,
       "assetVersion": "V3-retouch-music",
-      "storyRepostMode": "full_video"
+      "storyRepostMode": "full_video",
+      "imageUrls": [
+        "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/anna-v3-20261031-04-chto-zapyataya-cover.jpg"
+      ],
+      "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/anna-v3-20261031-04-chto-zapyataya.mp4",
+      "coverOffsetMs": 0,
+      "coverUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/anna-v3-20261031-04-chto-zapyataya-cover.jpg",
+      "music": {
+        "composer": "Kevin MacLeod",
+        "piece": "Easy Lemon",
+        "attributionRequired": true,
+        "attribution": "Музыка: Easy Lemon — Kevin MacLeod (incompetech.com), CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/. Источник: https://incompetech.com/music/royalty-free/index.html?Search=Search&isrc=USUAN1200076. Фрагмент обрезан, эквализирован и приглушён под голосом."
+      },
+      "feedDelivery": {
+        "fingerprint": "60dd57a86991f4caeb3441339057a3f85aab48e22ba6a12a1d706acc1b8f2e79",
+        "startedAt": "2026-11-06T14:07:37.068Z",
+        "creationAttempts": 1,
+        "lastError": null,
+        "version": 1,
+        "phase": "container",
+        "updatedAt": "2026-11-06T14:07:37.068Z"
+      }
     },
     {
       "id": "anna-v3-20261031-05-po-priezde",
