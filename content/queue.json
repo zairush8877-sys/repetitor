@@ -9220,10 +9220,11 @@
         "lastError": null,
         "version": 1,
         "phase": "preparing",
-        "updatedAt": "2026-11-06T14:24:13.399Z",
+        "updatedAt": "2026-11-06T14:24:33.207Z",
         "containerId": "18034562855887754",
         "containerCreatedAt": "2026-11-06T14:24:13.399Z",
-        "failedStage": null
+        "failedStage": null,
+        "readyAt": "2026-11-06T14:24:33.207Z"
       }
     },
     {
