@@ -9156,7 +9156,7 @@
         "#русскийязык"
       ],
       "title": "Пять яблок.\nНо апельсинов.",
-      "status": "approved",
+      "status": "published",
       "date": "2026-11-06",
       "scheduledAt": "2026-11-06T07:00:00.000Z",
       "campaignId": "anna-retouch-music-v3-20261031",
@@ -9219,14 +9219,18 @@
         "creationAttempts": 1,
         "lastError": null,
         "version": 1,
-        "phase": "publishing",
-        "updatedAt": "2026-11-06T14:24:34.607Z",
+        "phase": "published",
+        "updatedAt": "2026-11-06T14:24:46.846Z",
         "containerId": "18034562855887754",
         "containerCreatedAt": "2026-11-06T14:24:13.399Z",
         "failedStage": null,
         "readyAt": "2026-11-06T14:24:33.207Z",
-        "publishAttemptedAt": "2026-11-06T14:24:34.607Z"
-      }
+        "publishAttemptedAt": "2026-11-06T14:24:34.607Z",
+        "mediaId": "18385816687236993",
+        "publishedAt": "2026-11-06T14:24:46.846Z"
+      },
+      "publishedMediaId": "18385816687236993",
+      "publishedAt": "2026-11-06T14:24:46.846Z"
     },
     {
       "id": "2026-11-classic-10-sochetaemost",
