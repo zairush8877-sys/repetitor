@@ -9230,7 +9230,24 @@
         "publishedAt": "2026-11-06T14:24:46.846Z"
       },
       "publishedMediaId": "18385816687236993",
-      "publishedAt": "2026-11-06T14:24:46.846Z"
+      "publishedAt": "2026-11-06T14:24:48.083Z",
+      "storyRepost": {
+        "version": 1,
+        "feedMediaId": "18385816687236993",
+        "status": "pending",
+        "items": [
+          {
+            "index": 1,
+            "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-11-classic-09-frukty-full.mp4",
+            "sha256": "421ec1a0e3642f90ef97955e998161c10dc48ce5d94db8cca57bb3207dc51b3f",
+            "mediaType": "VIDEO",
+            "mimeType": "video/mp4",
+            "status": "pending",
+            "attempts": 0
+          }
+        ],
+        "sourceKey": "bb1499529c0dfb69cf9113b75fda43fb5979e5c33832f496cd11591f778a18ff"
+      }
     },
     {
       "id": "2026-11-classic-10-sochetaemost",
