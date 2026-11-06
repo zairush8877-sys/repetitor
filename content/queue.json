@@ -9242,7 +9242,7 @@
             "sha256": "421ec1a0e3642f90ef97955e998161c10dc48ce5d94db8cca57bb3207dc51b3f",
             "mediaType": "VIDEO",
             "mimeType": "video/mp4",
-            "status": "preparing",
+            "status": "publishing",
             "attempts": 1,
             "attemptedAt": "2026-11-06T14:24:49.346Z",
             "containerId": "18034563005887754"
