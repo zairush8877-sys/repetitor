@@ -7798,7 +7798,7 @@
       "format": "Reels",
       "rubric": "Русский с Анной",
       "school": true,
-      "status": "approved",
+      "status": "published",
       "date": "2026-11-06",
       "scheduledAt": "2026-11-06T06:00:00.000Z",
       "publishTime": "09:00",
@@ -7832,14 +7832,18 @@
         "creationAttempts": 1,
         "lastError": null,
         "version": 1,
-        "phase": "publishing",
-        "updatedAt": "2026-11-06T14:08:09.903Z",
+        "phase": "published",
+        "updatedAt": "2026-11-06T14:08:20.120Z",
         "containerId": "18034560743887754",
         "containerCreatedAt": "2026-11-06T14:07:41.005Z",
         "failedStage": null,
         "readyAt": "2026-11-06T14:08:08.741Z",
-        "publishAttemptedAt": "2026-11-06T14:08:09.903Z"
-      }
+        "publishAttemptedAt": "2026-11-06T14:08:09.903Z",
+        "mediaId": "18109311719252373",
+        "publishedAt": "2026-11-06T14:08:20.120Z"
+      },
+      "publishedMediaId": "18109311719252373",
+      "publishedAt": "2026-11-06T14:08:20.120Z"
     },
     {
       "id": "anna-v3-20261031-05-po-priezde",
