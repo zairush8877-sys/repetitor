@@ -9736,7 +9736,24 @@
         "publishedAt": "2026-11-07T13:15:06.434Z"
       },
       "publishedMediaId": "18144986455615110",
-      "publishedAt": "2026-11-07T13:15:06.434Z"
+      "publishedAt": "2026-11-07T13:15:07.546Z",
+      "storyRepost": {
+        "version": 1,
+        "feedMediaId": "18144986455615110",
+        "status": "pending",
+        "items": [
+          {
+            "index": 1,
+            "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-11-classic-13-mashet-full.mp4",
+            "sha256": "3aa1696ce400297df2b7684a62dc7d123a8a8a731e18945524c7ec84d27b117f",
+            "mediaType": "VIDEO",
+            "mimeType": "video/mp4",
+            "status": "pending",
+            "attempts": 0
+          }
+        ],
+        "sourceKey": "159c0388086f09ea75028b93c780b8f488147a4dd5ec05fa724a5faee4e75b91"
+      }
     },
     {
       "id": "2026-11-classic-14-ekonomnyy",
