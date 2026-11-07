@@ -9589,7 +9589,24 @@
         "publishedAt": "2026-11-07T12:51:20.030Z"
       },
       "publishedMediaId": "18113434457579087",
-      "publishedAt": "2026-11-07T12:51:20.030Z"
+      "publishedAt": "2026-11-07T12:51:21.002Z",
+      "storyRepost": {
+        "version": 1,
+        "feedMediaId": "18113434457579087",
+        "status": "pending",
+        "items": [
+          {
+            "index": 1,
+            "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-11-classic-12-mesto-tema-full.mp4",
+            "sha256": "4940fd25f1a2517212b8ea5e894972f5b4881257868d4cb4608d52ef1a55a9b3",
+            "mediaType": "VIDEO",
+            "mimeType": "video/mp4",
+            "status": "pending",
+            "attempts": 0
+          }
+        ],
+        "sourceKey": "303f1e5b316d6d174e95e1f25d1c8e1c927db32f22124f2c3b87e8d33c08c6c3"
+      }
     },
     {
       "id": "2026-11-classic-13-mashet",
