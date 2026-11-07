@@ -9519,12 +9519,9 @@
         "musicOffsetSeconds": 0,
         "backgroundPosition": "50% 50%"
       },
-      "background": "outputs/cadence-variation-2026-11-03/assets/photos/journal-writing.jpg",
-      "lightBg": true,
-      "generatedBg": false,
       "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-11-classic-12-mesto-tema.mp4",
-      "coverUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-11-classic-12-mesto-tema-frame.jpg",
       "coverOffsetMs": 12200,
+      "coverUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-11-classic-12-mesto-tema-frame.jpg",
       "music": {
         "id": "schumann-traumerei",
         "file": "assets/music/schumann-traumerei-betts.mp3",
@@ -9571,6 +9568,18 @@
         "originalExcerptStartSeconds": 0.6,
         "actualDurationSeconds": 35.04,
         "processingForReel": "loudnorm I=-18 LUFS, TP=-2 dBTP, LRA=8; fade in 0.6 s, fade out 1.2 s"
+      },
+      "background": "outputs/cadence-variation-2026-11-03/assets/photos/journal-writing.jpg",
+      "lightBg": true,
+      "generatedBg": false,
+      "feedDelivery": {
+        "fingerprint": "6f616e5e5c5284ba2a2b974a2f5e74da5aa397939ab4d14731c5bfed8072be99",
+        "startedAt": "2026-11-07T12:50:38.782Z",
+        "creationAttempts": 1,
+        "lastError": null,
+        "version": 1,
+        "phase": "container",
+        "updatedAt": "2026-11-07T12:50:38.782Z"
       }
     },
     {
