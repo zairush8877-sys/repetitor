@@ -9740,7 +9740,7 @@
       "storyRepost": {
         "version": 1,
         "feedMediaId": "18144986455615110",
-        "status": "pending",
+        "status": "published",
         "items": [
           {
             "index": 1,
@@ -9748,10 +9748,12 @@
             "sha256": "3aa1696ce400297df2b7684a62dc7d123a8a8a731e18945524c7ec84d27b117f",
             "mediaType": "VIDEO",
             "mimeType": "video/mp4",
-            "status": "publishing",
+            "status": "published",
             "attempts": 1,
             "attemptedAt": "2026-11-07T13:15:09.212Z",
-            "containerId": "18034682024887754"
+            "containerId": "18034682024887754",
+            "publishedMediaId": "17957236140037770",
+            "publishedAt": "2026-11-07T13:15:47.675Z"
           }
         ],
         "sourceKey": "159c0388086f09ea75028b93c780b8f488147a4dd5ec05fa724a5faee4e75b91"
