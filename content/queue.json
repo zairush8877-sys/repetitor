@@ -9725,12 +9725,13 @@
         "creationAttempts": 1,
         "lastError": null,
         "version": 1,
-        "phase": "preparing",
-        "updatedAt": "2026-11-07T13:14:54.723Z",
+        "phase": "publishing",
+        "updatedAt": "2026-11-07T13:14:55.794Z",
         "containerId": "18034681778887754",
         "containerCreatedAt": "2026-11-07T13:14:18.876Z",
         "failedStage": null,
-        "readyAt": "2026-11-07T13:14:54.723Z"
+        "readyAt": "2026-11-07T13:14:54.723Z",
+        "publishAttemptedAt": "2026-11-07T13:14:55.794Z"
       }
     },
     {
