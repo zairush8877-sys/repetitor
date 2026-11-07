@@ -9647,7 +9647,7 @@
         "Употребление"
       ],
       "title": "Машет\nили махает?",
-      "status": "approved",
+      "status": "published",
       "date": "2026-11-07",
       "scheduledAt": "2026-11-07T11:00:00.000Z",
       "campaignId": "anna-retouch-music-v3-20261031",
@@ -9725,14 +9725,18 @@
         "creationAttempts": 1,
         "lastError": null,
         "version": 1,
-        "phase": "publishing",
-        "updatedAt": "2026-11-07T13:14:55.794Z",
+        "phase": "published",
+        "updatedAt": "2026-11-07T13:15:06.434Z",
         "containerId": "18034681778887754",
         "containerCreatedAt": "2026-11-07T13:14:18.876Z",
         "failedStage": null,
         "readyAt": "2026-11-07T13:14:54.723Z",
-        "publishAttemptedAt": "2026-11-07T13:14:55.794Z"
-      }
+        "publishAttemptedAt": "2026-11-07T13:14:55.794Z",
+        "mediaId": "18144986455615110",
+        "publishedAt": "2026-11-07T13:15:06.434Z"
+      },
+      "publishedMediaId": "18144986455615110",
+      "publishedAt": "2026-11-07T13:15:06.434Z"
     },
     {
       "id": "2026-11-classic-14-ekonomnyy",
