@@ -9726,10 +9726,11 @@
         "lastError": null,
         "version": 1,
         "phase": "preparing",
-        "updatedAt": "2026-11-07T13:14:18.876Z",
+        "updatedAt": "2026-11-07T13:14:54.723Z",
         "containerId": "18034681778887754",
         "containerCreatedAt": "2026-11-07T13:14:18.876Z",
-        "failedStage": null
+        "failedStage": null,
+        "readyAt": "2026-11-07T13:14:54.723Z"
       }
     },
     {
