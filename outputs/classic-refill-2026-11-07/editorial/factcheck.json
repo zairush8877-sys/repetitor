@@ -1,0 +1,765 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-11-07T09:55:33.162057+00:00",
+  "role": "independent_russian_proofreader",
+  "verdict": "pass",
+  "reviewedDraftPath": "/private/tmp/mama-classic-refill-2026-11-07/editorial/drafts.json",
+  "reviewedDraftSha256": "93cedf3884b21b8aa35f60566ebb6c5c7f3f4bbee6ad1d40bcab529029403698",
+  "totalPosts": 6,
+  "totalRows": 24,
+  "totalCaptionVariants": 12,
+  "distribution": {
+    "adult_language": 2,
+    "EGE": 2,
+    "OGE": 2,
+    "extra_school_or_olympiad": 0
+  },
+  "posts": [
+    {
+      "id": "2026-11-classic-29-online",
+      "rubric": "Орфография взрослых",
+      "school": false,
+      "rowsVerdict": "pass",
+      "rows": [
+        {
+          "row": 1,
+          "left": "онлайн встреча",
+          "right": "онлайн-встреча",
+          "verdict": "pass",
+          "analysis": "Онлайн- как первая часть перед встреча присоединяется дефисом.",
+          "sourceIds": [
+            "online-ran",
+            "online-spravka"
+          ],
+          "sourceUrls": [
+            "https://gramota.ru/poisk?dicts%5B0%5D=71&mode=slovari&query=%D0%BE%D0%BD%D0%BB%D0%B0%D0%B9%D0%BD&simple=0",
+            "https://gramota.ru/spravka/vopros/272946"
+          ],
+          "basis": "dictionary_rule_and_independent_analysis_of_own_example"
+        },
+        {
+          "row": 2,
+          "left": "онлайн курс",
+          "right": "онлайн-курс",
+          "verdict": "pass",
+          "analysis": "Онлайн- как первая часть перед курс присоединяется дефисом.",
+          "sourceIds": [
+            "online-ran",
+            "online-spravka"
+          ],
+          "sourceUrls": [
+            "https://gramota.ru/poisk?dicts%5B0%5D=71&mode=slovari&query=%D0%BE%D0%BD%D0%BB%D0%B0%D0%B9%D0%BD&simple=0",
+            "https://gramota.ru/spravka/vopros/272946"
+          ],
+          "basis": "dictionary_rule_and_independent_analysis_of_own_example"
+        },
+        {
+          "row": 3,
+          "left": "офлайн магазин",
+          "right": "офлайн-магазин",
+          "verdict": "pass",
+          "analysis": "Офлайн- как первая часть перед магазин присоединяется дефисом; в офлайн одна ф.",
+          "sourceIds": [
+            "online-ran"
+          ],
+          "sourceUrls": [
+            "https://gramota.ru/poisk?dicts%5B0%5D=71&mode=slovari&query=%D0%BE%D0%BD%D0%BB%D0%B0%D0%B9%D0%BD&simple=0"
+          ],
+          "basis": "dictionary_rule_and_independent_analysis_of_own_example"
+        },
+        {
+          "row": 4,
+          "left": "офлайн встреча",
+          "right": "офлайн-встреча",
+          "verdict": "pass",
+          "analysis": "Офлайн- как первая часть перед встреча присоединяется дефисом.",
+          "sourceIds": [
+            "online-ran"
+          ],
+          "sourceUrls": [
+            "https://gramota.ru/poisk?dicts%5B0%5D=71&mode=slovari&query=%D0%BE%D0%BD%D0%BB%D0%B0%D0%B9%D0%BD&simple=0"
+          ],
+          "basis": "dictionary_rule_and_independent_analysis_of_own_example"
+        }
+      ],
+      "captionVariantsReview": [
+        {
+          "variant": 1,
+          "verdict": "pass",
+          "reviewedText": "Онлайн-курс — с дефисом. Офлайн-магазин — тоже. Здесь онлайн- и офлайн- стоят перед существительным и образуют сложное слово. А во фразе «встреча онлайн» слово «онлайн» употреблено самостоятельно: нужен пробел."
+        },
+        {
+          "variant": 2,
+          "verdict": "pass",
+          "reviewedText": "Онлайн-встреча и встреча онлайн — два способа сказать о формате, но пишутся по-разному. В первом случае онлайн- — первая часть сложного слова, во втором — отдельное наречие. Четыре сложных слова в таблице собраны по первому образцу."
+        }
+      ],
+      "selectedCaptionVerdict": "pass",
+      "selectedCaption": "Онлайн-курс — с дефисом. Офлайн-магазин — тоже. Здесь онлайн- и офлайн- стоят перед существительным и образуют сложное слово. А во фразе «встреча онлайн» слово «онлайн» употреблено самостоятельно: нужен пробел.",
+      "titleVerdict": "pass",
+      "title": "Онлайн-встреча.\nС дефисом?",
+      "headsVerdict": "pass",
+      "heads": [
+        "Неправильно",
+        "Правильно"
+      ],
+      "finalTextVerdict": "pass"
+    },
+    {
+      "id": "2026-11-classic-30-ne-prichastiya",
+      "rubric": "ЕГЭ",
+      "school": false,
+      "rowsVerdict": "pass",
+      "rows": [
+        {
+          "row": 1,
+          "left": "непрочитанная книга",
+          "right": "слитно",
+          "verdict": "pass",
+          "analysis": "Полное причастие без зависимых слов и отрицательного противопоставления в данном контексте — слитно.",
+          "sourceIds": [
+            "ne146-150"
+          ],
+          "sourceUrls": [
+            "https://orthographia.ru/orfografia.php?sid=76"
+          ],
+          "basis": "dictionary_rule_and_independent_analysis_of_own_example"
+        },
+        {
+          "row": 2,
+          "left": "не прочитанная мной книга",
+          "right": "раздельно",
+          "verdict": "pass",
+          "analysis": "Мной — зависимое слово с обозначением деятеля; НЕ с данным полным причастием раздельно.",
+          "sourceIds": [
+            "ne146-150"
+          ],
+          "sourceUrls": [
+            "https://orthographia.ru/orfografia.php?sid=76"
+          ],
+          "basis": "dictionary_rule_and_independent_analysis_of_own_example"
+        },
+        {
+          "row": 3,
+          "left": "книга не прочитана",
+          "right": "раздельно",
+          "verdict": "pass",
+          "analysis": "Прочитана — краткое страдательное причастие; НЕ раздельно.",
+          "sourceIds": [
+            "ne146-150"
+          ],
+          "sourceUrls": [
+            "https://orthographia.ru/orfografia.php?sid=76"
+          ],
+          "basis": "dictionary_rule_and_independent_analysis_of_own_example"
+        },
+        {
+          "row": 4,
+          "left": "не прочитанная, а забытая",
+          "right": "раздельно",
+          "verdict": "pass",
+          "analysis": "Конструкция не..., а... явно отрицает один признак и утверждает другой; раздельно. Определяемое слово книга опущено в учебном фрагменте.",
+          "sourceIds": [
+            "ne146-150"
+          ],
+          "sourceUrls": [
+            "https://orthographia.ru/orfografia.php?sid=76"
+          ],
+          "basis": "dictionary_rule_and_independent_analysis_of_own_example"
+        }
+      ],
+      "captionVariantsReview": [
+        {
+          "variant": 1,
+          "verdict": "pass",
+          "reviewedText": "Непрочитанная книга — без зависимых слов. Не прочитанная мной книга — с зависимым словом «мной». В этой паре написание меняется. Краткое причастие «не прочитана» пишем раздельно; в сочетании «не прочитанная, а забытая» есть явное противопоставление с «а»."
+        },
+        {
+          "variant": 2,
+          "verdict": "pass",
+          "reviewedText": "Сравните: непрочитанная книга и не прочитанная мной книга. «Мной» уточняет, кем книга не прочитана, и в нашем примере НЕ пишется отдельно. Ещё два разных случая в таблице — краткое страдательное причастие и противопоставление «не..., а...». Одного вида слова для выбора написания недостаточно."
+        }
+      ],
+      "selectedCaptionVerdict": "pass",
+      "selectedCaption": "Непрочитанная книга — без зависимых слов. Не прочитанная мной книга — с зависимым словом «мной». В этой паре написание меняется. Краткое причастие «не прочитана» пишем раздельно; в сочетании «не прочитанная, а забытая» есть явное противопоставление с «а».",
+      "titleVerdict": "pass",
+      "title": "НЕ: слитно\nили раздельно?",
+      "headsVerdict": "pass",
+      "heads": [
+        "Наш пример",
+        "Как пишем"
+      ],
+      "finalTextVerdict": "pass",
+      "previousTitle": "Непрочитанная.\nИли не прочитанная?"
+    },
+    {
+      "id": "2026-11-classic-31-skolko-osnov",
+      "rubric": "ОГЭ",
+      "school": false,
+      "rowsVerdict": "pass",
+      "rows": [
+        {
+          "row": 1,
+          "left": "Солнце встало и согрело сад.",
+          "right": "одна основа",
+          "verdict": "pass",
+          "analysis": "Одна основа: солнце встало и согрело; оба однородных сказуемых относятся к солнце.",
+          "sourceIds": [
+            "simple-complex",
+            "homogeneous27"
+          ],
+          "sourceUrls": [
+            "https://gramota.ru/biblioteka/spravochniki/prostoe-predlozhenie",
+            "https://gramota.ru/biblioteka/spravochniki/pravila-russkoy-orfografii-i-punktuatsii/znaki-prepinaniya-pri-odnorodnykh-chlenakh-predlozheniya"
+          ],
+          "basis": "dictionary_rule_and_independent_analysis_of_own_example"
+        },
+        {
+          "row": 2,
+          "left": "Солнце встало, сад ожил.",
+          "right": "две основы",
+          "verdict": "pass",
+          "analysis": "Две основы: солнце встало; сад ожил. Между частями бессоюзного сложного предложения запятая.",
+          "sourceIds": [
+            "simple-complex"
+          ],
+          "sourceUrls": [
+            "https://gramota.ru/biblioteka/spravochniki/prostoe-predlozhenie"
+          ],
+          "basis": "dictionary_rule_and_independent_analysis_of_own_example"
+        },
+        {
+          "row": 3,
+          "left": "Пёс проснулся и залаял.",
+          "right": "одна основа",
+          "verdict": "pass",
+          "analysis": "Одна основа: пёс проснулся и залаял; однородные сказуемые при одном подлежащем.",
+          "sourceIds": [
+            "simple-complex",
+            "homogeneous27"
+          ],
+          "sourceUrls": [
+            "https://gramota.ru/biblioteka/spravochniki/prostoe-predlozhenie",
+            "https://gramota.ru/biblioteka/spravochniki/pravila-russkoy-orfografii-i-punktuatsii/znaki-prepinaniya-pri-odnorodnykh-chlenakh-predlozheniya"
+          ],
+          "basis": "dictionary_rule_and_independent_analysis_of_own_example"
+        },
+        {
+          "row": 4,
+          "left": "Пёс залаял, кот убежал.",
+          "right": "две основы",
+          "verdict": "pass",
+          "analysis": "Две основы: пёс залаял; кот убежал.",
+          "sourceIds": [
+            "simple-complex"
+          ],
+          "sourceUrls": [
+            "https://gramota.ru/biblioteka/spravochniki/prostoe-predlozhenie"
+          ],
+          "basis": "dictionary_rule_and_independent_analysis_of_own_example"
+        }
+      ],
+      "captionVariantsReview": [
+        {
+          "variant": 1,
+          "verdict": "pass",
+          "reviewedText": "В предложении «Солнце встало и согрело сад» одна основа: «солнце встало и согрело». Два однородных сказуемых относятся к одному подлежащему. А «Солнце встало, сад ожил» — две основы: «солнце встало» и «сад ожил». Считаем основы, а не количество глаголов."
+        },
+        {
+          "variant": 2,
+          "verdict": "pass",
+          "reviewedText": "Пёс проснулся и залаял — простое предложение с однородными сказуемыми. Пёс залаял, кот убежал — сложное: здесь основы «пёс залаял» и «кот убежал». В обоих случаях названы два действия, но устроены предложения по-разному. Все четыре примера — наша тренировка для ОГЭ."
+        }
+      ],
+      "selectedCaptionVerdict": "pass",
+      "selectedCaption": "В предложении «Солнце встало и согрело сад» одна основа: «солнце встало и согрело». Два однородных сказуемых относятся к одному подлежащему. А «Солнце встало, сад ожил» — две основы: «солнце встало» и «сад ожил». Считаем основы, а не количество глаголов.",
+      "titleVerdict": "pass",
+      "title": "Два действия.\nОдна основа?",
+      "headsVerdict": "pass",
+      "heads": [
+        "Наше предложение",
+        "Сколько основ"
+      ],
+      "finalTextVerdict": "pass"
+    },
+    {
+      "id": "2026-11-classic-32-kompaniya",
+      "rubric": "Лексика взрослых",
+      "school": false,
+      "rowsVerdict": "pass",
+      "rows": [
+        {
+          "row": 1,
+          "left": "рекламная кампания",
+          "right": "серия мероприятий",
+          "verdict": "pass",
+          "analysis": "Кампания с А: связанные общей рекламной целью мероприятия. Правая ячейка — краткая смысловая подсказка.",
+          "sourceIds": [
+            "campaign",
+            "ran-orthographic"
+          ],
+          "sourceUrls": [
+            "https://gramota.ru/meta/kampaniya",
+            "https://gramota.ru/storage/public/normdicts/orfograficheskij_slovar.pdf"
+          ],
+          "basis": "dictionary_rule_and_independent_analysis_of_own_example"
+        },
+        {
+          "row": 2,
+          "left": "страховая компания",
+          "right": "организация",
+          "verdict": "pass",
+          "analysis": "Компания с О: в сочетании страховая компания имеется в виду организация.",
+          "sourceIds": [
+            "company-meaning",
+            "ran-orthographic"
+          ],
+          "sourceUrls": [
+            "https://gramota.ru/storage/public/normdicts/slovar_inostr_slov.pdf",
+            "https://gramota.ru/storage/public/normdicts/orfograficheskij_slovar.pdf"
+          ],
+          "basis": "dictionary_rule_and_independent_analysis_of_own_example"
+        },
+        {
+          "row": 3,
+          "left": "посевная кампания",
+          "right": "серия мероприятий",
+          "verdict": "pass",
+          "analysis": "Посевная кампания — прямо приведённый пример в БТС Кузнецова, значение3, и словаре иностранных слов Крысина, значение3: связанные общей хозяйственной целью мероприятия. Правая ячейка — краткая смысловая подсказка.",
+          "sourceIds": [
+            "campaign",
+            "company-meaning"
+          ],
+          "sourceUrls": [
+            "https://gramota.ru/meta/kampaniya",
+            "https://gramota.ru/storage/public/normdicts/slovar_inostr_slov.pdf"
+          ],
+          "basis": "dictionary_rule_and_independent_analysis_of_own_example",
+          "previousLeft": "избирательная кампания"
+        },
+        {
+          "row": 4,
+          "left": "дружная компания",
+          "right": "группа людей",
+          "verdict": "pass",
+          "analysis": "Компания с О: группа людей, находящихся вместе, в данном случае дружная.",
+          "sourceIds": [
+            "company-meaning",
+            "ran-orthographic"
+          ],
+          "sourceUrls": [
+            "https://gramota.ru/storage/public/normdicts/slovar_inostr_slov.pdf",
+            "https://gramota.ru/storage/public/normdicts/orfograficheskij_slovar.pdf"
+          ],
+          "basis": "dictionary_rule_and_independent_analysis_of_own_example"
+        }
+      ],
+      "captionVariantsReview": [
+        {
+          "variant": 1,
+          "verdict": "pass",
+          "reviewedText": "Рекламная кампания — с А: речь о серии мероприятий. Страховая компания — с О: речь об организации. Дружная компания — группа людей, избирательная кампания — связанные действия. На слух эти два существительных совпадают, а буква зависит от смысла."
+        },
+        {
+          "variant": 2,
+          "verdict": "pass",
+          "reviewedText": "Компания может проводить кампанию. Первое слово обозначает организацию или группу людей; второе — совокупность мероприятий для определённой цели. Поэтому страховая компания запускает рекламную кампанию. Смысл подсказывает нужную букву."
+        }
+      ],
+      "selectedCaptionVerdict": "pass",
+      "selectedCaption": "Рекламная кампания — с А: речь о серии мероприятий. Страховая компания — с О: речь об организации. Дружная компания — группа людей, избирательная кампания — связанные действия. На слух эти два существительных совпадают, а буква зависит от смысла.",
+      "titleVerdict": "pass",
+      "title": "Компания.\nИли кампания?",
+      "headsVerdict": "pass",
+      "heads": [
+        "Наше сочетание",
+        "Что имеется в виду"
+      ],
+      "finalTextVerdict": "pass"
+    },
+    {
+      "id": "2026-11-classic-33-zato",
+      "rubric": "ЕГЭ",
+      "school": false,
+      "rowsVerdict": "pass",
+      "rows": [
+        {
+          "row": 1,
+          "left": "Устал, зато успел.",
+          "right": "но успел",
+          "verdict": "pass",
+          "analysis": "Зато — противительный союз; замена на но сохраняет основное отношение частей. Оттенок возмещения выражен союзом зато.",
+          "sourceIds": [
+            "zato140",
+            "ran-orthographic"
+          ],
+          "sourceUrls": [
+            "https://orthographia.ru/orfografia.php?sid=74",
+            "https://gramota.ru/storage/public/normdicts/orfograficheskij_slovar.pdf"
+          ],
+          "basis": "dictionary_rule_and_independent_analysis_of_own_example"
+        },
+        {
+          "row": 2,
+          "left": "Спасибо за то письмо.",
+          "right": "за это письмо",
+          "verdict": "pass",
+          "analysis": "За то — предлог и указательное местоимение перед письмо; допустима замена то на это.",
+          "sourceIds": [
+            "zato140"
+          ],
+          "sourceUrls": [
+            "https://orthographia.ru/orfografia.php?sid=74"
+          ],
+          "basis": "dictionary_rule_and_independent_analysis_of_own_example"
+        },
+        {
+          "row": 3,
+          "left": "Тесно, зато тепло.",
+          "right": "но тепло",
+          "verdict": "pass",
+          "analysis": "Зато — противительный союз; но тепло — смысловая подстановка с некоторой потерей оттенка компенсации.",
+          "sourceIds": [
+            "zato140"
+          ],
+          "sourceUrls": [
+            "https://orthographia.ru/orfografia.php?sid=74"
+          ],
+          "basis": "dictionary_rule_and_independent_analysis_of_own_example"
+        },
+        {
+          "row": 4,
+          "left": "Взялся за то дело.",
+          "right": "за это дело",
+          "verdict": "pass",
+          "analysis": "За то — предлог и указательное местоимение перед дело; замена на за это дело поддерживает раздельное написание.",
+          "sourceIds": [
+            "zato140"
+          ],
+          "sourceUrls": [
+            "https://orthographia.ru/orfografia.php?sid=74"
+          ],
+          "basis": "dictionary_rule_and_independent_analysis_of_own_example"
+        }
+      ],
+      "captionVariantsReview": [
+        {
+          "variant": 1,
+          "verdict": "pass",
+          "reviewedText": "Устал, зато успел — союз «зато» можно заменить на «но». Спасибо за то письмо — предлог «за» и местоимение «то» пишутся раздельно; здесь подставляется «за это письмо». В таблице проверяем смысл четырёх предложений, а не длину паузы при чтении."
+        },
+        {
+          "variant": 2,
+          "verdict": "pass",
+          "reviewedText": "Тесно, зато тепло. Взялся за то дело. В первой фразе «зато» связывает части с противопоставлением; во второй «то» указывает на определённое дело. Подстановки «но» и «это» помогают различить эти конкретные случаи. Ещё две такие подстановки показаны в таблице."
+        }
+      ],
+      "selectedCaptionVerdict": "pass",
+      "selectedCaption": "Устал, зато успел — союз «зато» можно заменить на «но». Спасибо за то письмо — предлог «за» и местоимение «то» пишутся раздельно; здесь подставляется «за это письмо». В таблице проверяем смысл четырёх предложений, а не длину паузы при чтении.",
+      "titleVerdict": "pass",
+      "title": "Зато.\nИли за то?",
+      "headsVerdict": "pass",
+      "heads": [
+        "Наше предложение",
+        "Подстановка"
+      ],
+      "finalTextVerdict": "pass"
+    },
+    {
+      "id": "2026-11-classic-34-metafora",
+      "rubric": "ОГЭ",
+      "school": false,
+      "rowsVerdict": "pass",
+      "rows": [
+        {
+          "row": 1,
+          "left": "река как лента",
+          "right": "сравнение",
+          "verdict": "pass",
+          "analysis": "Река прямо уподоблена ленте с помощью как; в данном образном учебном фрагменте сравнение.",
+          "sourceIds": [
+            "comparison"
+          ],
+          "sourceUrls": [
+            "https://gramota.ru/meta/sravnenie"
+          ],
+          "basis": "dictionary_rule_and_independent_analysis_of_own_example"
+        },
+        {
+          "row": 2,
+          "left": "лента реки",
+          "right": "метафора",
+          "verdict": "pass",
+          "analysis": "Река образно названа лентой по сходству вытянутой формы; переносное употребление, метафора. Это анализ собственного примера по словарному критерию.",
+          "sourceIds": [
+            "metaphor",
+            "company-meaning"
+          ],
+          "sourceUrls": [
+            "https://gramota.ru/poisk?mode=all&query=%D0%BC%D0%B5%D1%82%D0%B0%D1%84%D0%BE%D1%80%D0%B0",
+            "https://gramota.ru/storage/public/normdicts/slovar_inostr_slov.pdf"
+          ],
+          "basis": "dictionary_rule_and_independent_analysis_of_own_example"
+        },
+        {
+          "row": 3,
+          "left": "лес словно стена",
+          "right": "сравнение",
+          "verdict": "pass",
+          "analysis": "Лес уподоблен стене с помощью словно; в данном образном контексте сравнение.",
+          "sourceIds": [
+            "comparison"
+          ],
+          "sourceUrls": [
+            "https://gramota.ru/meta/sravnenie"
+          ],
+          "basis": "dictionary_rule_and_independent_analysis_of_own_example"
+        },
+        {
+          "row": 4,
+          "left": "стена леса",
+          "right": "метафора",
+          "verdict": "pass",
+          "analysis": "Стена обозначает плотный массив леса по сходству с преградой; языковая метафора. Словарное значение6 содержит этот пример.",
+          "sourceIds": [
+            "metaphor",
+            "wall"
+          ],
+          "sourceUrls": [
+            "https://gramota.ru/poisk?mode=all&query=%D0%BC%D0%B5%D1%82%D0%B0%D1%84%D0%BE%D1%80%D0%B0",
+            "https://gramota.ru/meta/stena"
+          ],
+          "basis": "dictionary_rule_and_independent_analysis_of_own_example"
+        }
+      ],
+      "captionVariantsReview": [
+        {
+          "variant": 1,
+          "verdict": "pass",
+          "reviewedText": "Река как лента — реку прямо уподобляют ленте. Лента реки — реку образно назвали лентой: слово употреблено переносно. В наших примерах первая конструкция — сравнение, вторая — метафора. Отсутствие «как» само по себе метафору не доказывает."
+        },
+        {
+          "variant": 2,
+          "verdict": "pass",
+          "reviewedText": "Лес словно стена — явное сравнение. Стена леса — образное, переносное название плотной полосы деревьев, метафора. Смотрим на смысл целого выражения: не любое «словно» обязательно создаёт художественный троп. Четыре коротких образа здесь — наши учебные примеры для ОГЭ."
+        }
+      ],
+      "selectedCaptionVerdict": "pass",
+      "selectedCaption": "Река как лента — реку прямо уподобляют ленте. Лента реки — реку образно назвали лентой: слово употреблено переносно. В наших примерах первая конструкция — сравнение, вторая — метафора. Отсутствие «как» само по себе метафору не доказывает.",
+      "titleVerdict": "pass",
+      "title": "Река как лента.\nА лента реки?",
+      "headsVerdict": "pass",
+      "heads": [
+        "Наш образ",
+        "Приём"
+      ],
+      "finalTextVerdict": "pass"
+    }
+  ],
+  "sources": {
+    "online-ran": {
+      "title": "Русский орфографический словарь РАН: онлайн-/офлайн-",
+      "url": "https://gramota.ru/poisk?dicts%5B0%5D=71&mode=slovari&query=%D0%BE%D0%BD%D0%BB%D0%B0%D0%B9%D0%BD&simple=0",
+      "locator": "Обе первые части сложных слов присоединяются дефисом; отдельно указаны самостоятельные онлайн, офлайн.",
+      "access": "indexed_primary_extract"
+    },
+    "online-spravka": {
+      "title": "Справочная служба Грамоты №272946",
+      "url": "https://gramota.ru/spravka/vopros/272946",
+      "locator": "Онлайн самостоятельно слитно; как первая часть сложных слов — через дефис.",
+      "access": "indexed_primary_extract"
+    },
+    "ran-orthographic": {
+      "title": "Русский орфографический словарь РАН, Лопатин/Иванова",
+      "url": "https://gramota.ru/storage/public/normdicts/orfograficheskij_slovar.pdf",
+      "locator": "Статьи компания, кампания, зато; компания — группа людей/объединение; зато союз, за то местоименное сочетание.",
+      "access": "indexed_primary_extract"
+    },
+    "company-meaning": {
+      "title": "Л. П. Крысин. Современный словарь иностранных слов",
+      "url": "https://gramota.ru/storage/public/normdicts/slovar_inostr_slov.pdf",
+      "locator": "Компания: группа людей или коммерческая организация. Кампания, значение3: система мероприятий с общей целью; прямо приведено посевная, уборочная кампания. Метафора: переносное употребление на основе сходства.",
+      "access": "indexed_primary_extract"
+    },
+    "campaign": {
+      "title": "Метасловарь Грамоты: кампания",
+      "url": "https://gramota.ru/meta/kampaniya",
+      "locator": "Значение3 в Большом толковом словаре Кузнецова: работа для общей цели; прямо приведены избирательная кампания и посевная кампания. Снова проверено web.search 7 ноября2026.",
+      "access": "indexed_primary_extract"
+    },
+    "ne146-150": {
+      "title": "Полный академический справочник под ред. Лопатина: НЕ",
+      "url": "https://orthographia.ru/orfografia.php?sid=76",
+      "locator": "§146 п.1б — краткие причастия; §150 — полные причастия с зависимыми словами, противопоставлением или без них.",
+      "access": "full_page_open; relevant_lines236-243_and312-322"
+    },
+    "zato140": {
+      "title": "Полный академический справочник под ред. Лопатина: §140 п.2",
+      "url": "https://orthographia.ru/orfografia.php?sid=74",
+      "locator": "Зато — слитный союз; за то — предлог с самостоятельно употреблённым местоимением.",
+      "access": "full_page_open; relevant_lines204-210"
+    },
+    "simple-complex": {
+      "title": "Е. И. Литневская: Простое предложение. Главные члены",
+      "url": "https://gramota.ru/biblioteka/spravochniki/prostoe-predlozhenie",
+      "locator": "Одна грамматическая основа — простое предложение, несколько — сложное. Прямое открытие403, индексированный текст получен.",
+      "access": "indexed_primary_extract"
+    },
+    "homogeneous27": {
+      "title": "Академический справочник на Грамоте: однородные члены",
+      "url": "https://gramota.ru/biblioteka/spravochniki/pravila-russkoy-orfografii-i-punktuatsii/znaki-prepinaniya-pri-odnorodnykh-chlenakh-predlozheniya",
+      "locator": "§27: между однородными членами с одиночным И запятая не ставится.",
+      "access": "indexed_primary_extract"
+    },
+    "comparison": {
+      "title": "Метасловарь Грамоты: сравнение",
+      "url": "https://gramota.ru/meta/sravnenie",
+      "locator": "Уподобление одного предмета или ситуации другому; содержится словарное определение литературного приёма.",
+      "access": "indexed_primary_extract"
+    },
+    "metaphor": {
+      "title": "Словари Грамоты: метафора",
+      "url": "https://gramota.ru/poisk?mode=all&query=%D0%BC%D0%B5%D1%82%D0%B0%D1%84%D0%BE%D1%80%D0%B0",
+      "locator": "Большой толковый словарь и словарь иностранных слов: переносное употребление на основании сходства.",
+      "access": "indexed_primary_extract"
+    },
+    "wall": {
+      "title": "Метасловарь Грамоты: стена",
+      "url": "https://gramota.ru/meta/stena",
+      "locator": "Значение6: сплошная масса/тесный ряд; прямо приведено стена леса. Пример языковой метафоры.",
+      "access": "indexed_primary_extract"
+    }
+  },
+  "appliedEditorialCorrections": [
+    {
+      "id": "2026-11-classic-29-online",
+      "field": "captionVariants[1]",
+      "result": "Терминология исправлена: в первом случае, четыре сложных слова."
+    },
+    {
+      "id": "2026-11-classic-33-zato",
+      "field": "captionVariants[1]",
+      "result": "Служебная информация о редакционном банке удалена."
+    },
+    {
+      "id": "2026-11-classic-34-metafora",
+      "field": "caption/captionVariants[0]",
+      "result": "Убрано смешение реки и её русла; реку образно назвали лентой."
+    }
+  ],
+  "caveats": [
+    "Все предложения и образные сочетания рассматриваются как авторские учебные примеры, не цитаты из официальных КИМ и не задания конкретного номера/года.",
+    "В29 дефис относится к первым частям сложного слова; в самостоятельном наречном употреблении встреча онлайн — раздельно.",
+    "В30 правило ограничено указанными контекстами: не любое зависимое слово даёт раздельное написание. Для кратких причастий и противопоставления основания отдельные.",
+    "В31 основа включает оба однородных сказуемых. Число глаголов не равно числу основ.",
+    "В32 правые ячейки дают смысловые подсказки к указанным сочетаниям, не исчерпывающие определения. Компания/кампания — омофоны, не паронимы.",
+    "В33 но и это — диагностические подстановки для четырёх конкретных случаев. Но не передаёт полностью оттенок возмещения у зато.",
+    "В34 отсутствие как не доказывает метафору; не всякое словно автоматически создаёт троп. Стена леса — общеязыковая метафора; переносный смысл определяется контекстом.",
+    "Заголовки колонок30–34 нейтральные: обе левые формы/конструкции верны; оформлять их как ошибочные нельзя.",
+    "Значительная часть страниц Грамоты проверена через индексированные выдержки первичных словарей/справочников. Прямое открытие отдельных страниц403; полное чтение этих страниц не заявляется. Orthographia §140/146/150 открыта полностью."
+  ],
+  "independentDedupe": {
+    "approvedPublishedCompared": 124,
+    "leftRowsCompared": 24,
+    "exactMeaningfulLeftRowHits": [],
+    "method": "casefold/e→ё-insensitive, whitespace normalized, recursive title/rows/slides/caption; comparison of each complete left row to complete strings; not semantic uniqueness proof"
+  },
+  "checksNotPerformed": [
+    "media_render",
+    "audio_or_visual_QA",
+    "Instagram_publication",
+    "official_KIM_alignment_for_specific_task_number_or_year"
+  ],
+  "finalTextVerdict": "pass",
+  "finalTextReview": {
+    "verdict": "pass",
+    "checkedAt": "2026-11-07T09:55:33.162057+00:00",
+    "releasePath": "/private/tmp/mama-classic-refill-2026-11-07/project/outputs/classic-refill-2026-11-07/release.json",
+    "releaseSha256AtReview": "0b56741326815155c57849229475671ad24cb64867168d70840de883ba6cbd83",
+    "normalizedPostsWithoutStatusSha256": "b380e804376ac0e5ad7127dbc3347e489a07285a5e83f99a95e8b20dd42e4ca4",
+    "textProjectionSha256": "cdc741c034df6c9ad293adaaca1d4471d9298edc07ea32c054f4b554112cbd8a",
+    "normalization": "json.dumps(posts_without_top_level_status, ensure_ascii=False, sort_keys=True, separators=(comma,colon)).encode(utf-8)",
+    "textProjectionKeys": [
+      "id",
+      "kicker",
+      "title",
+      "heads",
+      "rows",
+      "caption",
+      "hashtags",
+      "rubric",
+      "school"
+    ],
+    "posts": 6,
+    "rows": 24,
+    "captionVariantsReviewed": 12,
+    "textEqualsProofreadDraft": false,
+    "all24RowsUnchanged": false,
+    "editorialCorrectionsApplied": true,
+    "statusAndRevisionHeaderOutsideTextReview": true,
+    "sourceCount": 12,
+    "rowsUnchangedFromDraft": 23,
+    "changedRowCount": 1,
+    "editorTitleChanges": 1,
+    "allCurrent24RowsPass": true,
+    "postVisualEditorialRevisionApplied": true,
+    "differencesFromProofreadDraftExplained": true
+  },
+  "postVisualEditorialRevision": {
+    "checkedAt": "2026-11-07T09:55:33.162057+00:00",
+    "changes": [
+      {
+        "id": "2026-11-classic-32-kompaniya",
+        "field": "rows[2][0]",
+        "before": "избирательная кампания",
+        "after": "посевная кампания",
+        "reason": "Сокращение длинной ячейки после визуальной проверки390px; новый пример явно подтверждён двумя первичными словарями.",
+        "sourceUrls": [
+          "https://gramota.ru/meta/kampaniya",
+          "https://gramota.ru/storage/public/normdicts/slovar_inostr_slov.pdf"
+        ],
+        "verdict": "pass"
+      },
+      {
+        "id": "2026-11-classic-30-ne-prichastiya",
+        "field": "title",
+        "before": "Непрочитанная.\nИли не прочитанная?",
+        "after": "НЕ: слитно\nили раздельно?",
+        "reason": "Редакторское сокращение заголовка для двух строк; тему сохраняет kicker ЕГЭ/НЕ с причастиями.",
+        "verdict": "pass"
+      }
+    ],
+    "onlyApprovedTwoFieldsChanged": true,
+    "caption32Note": "Оставшееся в подписи избирательная кампания — корректный дополнительный пример. Совпадение перечня подписи со всеми строками таблицы не заявлено."
+  },
+  "previousFinalTextReviews": [
+    {
+      "verdict": "pass",
+      "checkedAt": "2026-11-07T08:00:15.155662+00:00",
+      "releasePath": "/private/tmp/mama-classic-refill-2026-11-07/project/outputs/classic-refill-2026-11-07/release.json",
+      "releaseSha256AtReview": "868ae94050eb7ea07689fb7f2e477188b0322f6f050aadeff2d72587a5441a93",
+      "normalizedPostsWithoutStatusSha256": "0b6eeecacf9cdc2e66f48a4825392eec0733c6b13245380f52e2544d4a4315bb",
+      "textProjectionSha256": "4c9fd9610c1c19864e00d9b531a234e359da1c66a7bbb1099cb7a60a40d270a5",
+      "normalization": "json.dumps(posts_without_top_level_status, ensure_ascii=False, sort_keys=True, separators=(comma,colon)).encode(utf-8)",
+      "textProjectionKeys": [
+        "id",
+        "kicker",
+        "title",
+        "heads",
+        "rows",
+        "caption",
+        "hashtags",
+        "rubric",
+        "school"
+      ],
+      "posts": 6,
+      "rows": 24,
+      "captionVariantsReviewed": 12,
+      "textEqualsProofreadDraft": true,
+      "all24RowsUnchanged": true,
+      "editorialCorrectionsApplied": true,
+      "statusAndRevisionHeaderOutsideTextReview": true,
+      "sourceCount": 12
+    }
+  ]
+}

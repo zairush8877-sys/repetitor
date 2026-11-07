@@ -1,0 +1,27 @@
+{
+  "id": "2026-11-classic-30-ne-prichastiya",
+  "previewOnly": true,
+  "total": 13.2,
+  "key": "3c1b6c5e09ac5ea7282f7281ef6c1fb3df17fd5a9086c68b22c05e6f58612926",
+  "assets": {
+    "photoId": "desk-books-laptop",
+    "photoFile": "assets/photos/desk-books-laptop.jpg",
+    "photoSha256": "a4119976851da05702c68142d473a2cb55fd76462eda5518a81e349740047c3d",
+    "musicId": "chopin-op62-no1",
+    "musicFile": "assets/music/chopin-op62-no1-gurevich.mp3",
+    "musicSha256": "3413e5a8aeaf36becac0ffdfdeb488f5087401f78ca2f31d3322900a26791b99",
+    "musicOffsetSeconds": 0.7,
+    "backgroundPosition": "35% 50%"
+  },
+  "measured": {
+    "cardTop": 639.5625,
+    "cardBottom": 1552.5625,
+    "rowFont": 52,
+    "titleFont": 94,
+    "footerCount": 0,
+    "cellOverflow": false,
+    "text": "ЕГЭ • НЕ С ПРИЧАСТИЯМИ\nНЕ: слитно\nили раздельно?\nНАШ ПРИМЕР\nКАК ПИШЕМ\nнепрочитанная книга\nслитно\nне прочитанная мной книга\nраздельно\nкнига не прочитана\nраздельно\nне прочитанная, а забытая\nраздельно"
+  },
+  "previewFile": "qa/2026-11-classic-30-ne-prichastiya-preview.jpg",
+  "previewSha256": "42252df1efc2fc80caaa984b963184c1888142bf27d9ce35830c519e9ca12ce7"
+}

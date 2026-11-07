@@ -1,0 +1,27 @@
+{
+  "id": "2026-11-classic-33-zato",
+  "previewOnly": true,
+  "total": 13.2,
+  "key": "617b95f73de31b8068335df631f2e4ddc2c777e738a0d5df934de963cb35471d",
+  "assets": {
+    "photoId": "library-warm",
+    "photoFile": "assets/photos/library-warm.jpg",
+    "photoSha256": "b5a167b69b7828e55fe9c63963f3b37777fba4abd944c1b5c7053094190746aa",
+    "musicId": "mozart40-andante",
+    "musicFile": "assets/music/mozart40-andante-musopen.mp3",
+    "musicSha256": "175d53e80d635a8237e44fc4dc9f4833c63d350231bdd459c49deca2b3cb8912",
+    "musicOffsetSeconds": 0.7,
+    "backgroundPosition": "85% 50%"
+  },
+  "measured": {
+    "cardTop": 639.5625,
+    "cardBottom": 1422.5625,
+    "rowFont": 52,
+    "titleFont": 94,
+    "footerCount": 0,
+    "cellOverflow": false,
+    "text": "ЕГЭ • СОЮЗ ИЛИ МЕСТОИМЕНИЕ\nЗато.\nИли за то?\nНАШЕ ПРЕДЛОЖЕНИЕ\nПОДСТАНОВКА\nУстал, зато успел.\nно успел\nСпасибо за то письмо.\nза это письмо\nТесно, зато тепло.\nно тепло\nВзялся за то дело.\nза это дело"
+  },
+  "previewFile": "qa/2026-11-classic-33-zato-preview.jpg",
+  "previewSha256": "e708e13f55d64291172673bdd12aac803d3184620957bcacebfddb298ba342a6"
+}

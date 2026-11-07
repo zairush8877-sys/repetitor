@@ -1,0 +1,27 @@
+{
+  "id": "2026-11-classic-32-kompaniya",
+  "previewOnly": true,
+  "total": 13.2,
+  "key": "9ef105b793664a4a59bb382ea5a5aa9ec1bb26363c89e816f630e9be3423ba38",
+  "assets": {
+    "photoId": "library-bookshelves",
+    "photoFile": "assets/photos/library-bookshelves.jpg",
+    "photoSha256": "619db7cc81436dfad8f96b46fc64f076733f9fe1770965678c002b3a871d9178",
+    "musicId": "schumann-traumerei",
+    "musicFile": "assets/music/schumann-traumerei-betts.mp3",
+    "musicSha256": "462a9a6f3d384619bea04104bda120185f083da4efcffa3402ff12a6693fb9dd",
+    "musicOffsetSeconds": 0,
+    "backgroundPosition": "50% 50%"
+  },
+  "measured": {
+    "cardTop": 639.5625,
+    "cardBottom": 1422.5625,
+    "rowFont": 52,
+    "titleFont": 94,
+    "footerCount": 0,
+    "cellOverflow": false,
+    "text": "СЛОВА В РАБОЧЕЙ ПЕРЕПИСКЕ\nКомпания.\nИли кампания?\nНАШЕ СОЧЕТАНИЕ\nЧТО ИМЕЕТСЯ В ВИДУ\nрекламная кампания\nсерия мероприятий\nстраховая компания\nорганизация\nпосевная кампания\nсерия мероприятий\nдружная компания\nгруппа людей"
+  },
+  "previewFile": "qa/2026-11-classic-32-kompaniya-preview.jpg",
+  "previewSha256": "6b26ec15bd4fae89721d9d27c9b748b073a7f12ca8bbed3376495e65a6cac29d"
+}

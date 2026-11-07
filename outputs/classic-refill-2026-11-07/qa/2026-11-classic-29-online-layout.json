@@ -1,0 +1,27 @@
+{
+  "id": "2026-11-classic-29-online",
+  "previewOnly": true,
+  "total": 13.2,
+  "key": "5bbcf30c72e700f3ec3a4a23064a5086e1223b12e6f30ee71a02ead1120c035b",
+  "assets": {
+    "photoId": "open-book-plant",
+    "photoFile": "assets/photos/open-book-plant.jpg",
+    "photoSha256": "16849bf7ef5fa0860deb2c5c92efa65fac0e86116988ebb90d8934204b630f62",
+    "musicId": "bach-var1-ishizaka",
+    "musicFile": "assets/music/bach-var1-ishizaka.mp3",
+    "musicSha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8",
+    "musicOffsetSeconds": 0,
+    "backgroundPosition": "50% 50%"
+  },
+  "measured": {
+    "cardTop": 639.5625,
+    "cardBottom": 1357.5625,
+    "rowFont": 52,
+    "titleFont": 94,
+    "footerCount": 0,
+    "cellOverflow": false,
+    "text": "ОНЛАЙН- И ОФЛАЙН- В СЛОВАХ\nОнлайн-встреча.\nС дефисом?\nНЕПРАВИЛЬНО\nПРАВИЛЬНО\nонлайн встреча\nонлайн встреча\nонлайн-встреча\nонлайн курс\nонлайн курс\nонлайн-курс\nофлайн магазин\nофлайн магазин\nофлайн-магазин\nофлайн встреча\nофлайн встреча\nофлайн-встреча"
+  },
+  "previewFile": "qa/2026-11-classic-29-online-preview.jpg",
+  "previewSha256": "5a573a15b680e7a448be0d8b1e00928817688beb5a0d401036ce74b10f0c3e80"
+}

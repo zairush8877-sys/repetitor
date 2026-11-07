@@ -1,0 +1,71 @@
+{
+  "expectedMainHead": "0bfc5aec031df7ad8b2c2cbb532e22a13b058495",
+  "sourceQueueSha256": "dea5073a92a3a926cd27e08f8f1fa3570f75a1bc14462b24b3bc70415c784f6c",
+  "totalQueuePosts": 135,
+  "approvedOrPublishedPosts": 124,
+  "recursiveContentLeaves": 4054,
+  "normalized": "NFC,casefold,ё=е,collapsed whitespace",
+  "checks": [
+    {
+      "postId": "2026-11-classic-29-online",
+      "exactTitleDuplicates": [],
+      "exampleDuplicates": []
+    },
+    {
+      "postId": "2026-11-classic-30-ne-prichastiya",
+      "exactTitleDuplicates": [],
+      "exampleDuplicates": []
+    },
+    {
+      "postId": "2026-11-classic-31-skolko-osnov",
+      "exactTitleDuplicates": [],
+      "exampleDuplicates": []
+    },
+    {
+      "postId": "2026-11-classic-32-kompaniya",
+      "exactTitleDuplicates": [],
+      "exampleDuplicates": []
+    },
+    {
+      "postId": "2026-11-classic-33-zato",
+      "exactTitleDuplicates": [],
+      "exampleDuplicates": []
+    },
+    {
+      "postId": "2026-11-classic-34-metafora",
+      "exactTitleDuplicates": [],
+      "exampleDuplicates": []
+    }
+  ],
+  "newPostCount": 6,
+  "uniqueIds": 6,
+  "rowPairs": 24,
+  "captionVariants": 12,
+  "maxCellChars": 28,
+  "titles": [
+    {
+      "postId": "2026-11-classic-29-online",
+      "words": 4
+    },
+    {
+      "postId": "2026-11-classic-30-ne-prichastiya",
+      "words": 4
+    },
+    {
+      "postId": "2026-11-classic-31-skolko-osnov",
+      "words": 4
+    },
+    {
+      "postId": "2026-11-classic-32-kompaniya",
+      "words": 3
+    },
+    {
+      "postId": "2026-11-classic-33-zato",
+      "words": 4
+    },
+    {
+      "postId": "2026-11-classic-34-metafora",
+      "words": 6
+    }
+  ]
+}

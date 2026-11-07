@@ -1,0 +1,27 @@
+{
+  "id": "2026-11-classic-31-skolko-osnov",
+  "previewOnly": true,
+  "total": 13.2,
+  "key": "43f5831f28b2473610531c3e4d46f01d31e6c0d60314476c9f2078e31c43a0fb",
+  "assets": {
+    "photoId": "blank-books-table",
+    "photoFile": "assets/photos/blank-books-table.jpg",
+    "photoSha256": "2b1ed71fc07dd46f8d66a02a33ffd4c7c1df59a8c0294789366f8698f84fa537",
+    "musicId": "satie-gymnopedie3",
+    "musicFile": "assets/music/satie-gymnopedie3-teknopazzo.mp3",
+    "musicSha256": "a3a9a3e120888f9fc58f4bbac11d9f7b98870b3ddbf260b5785a24fe0fd36a7e",
+    "musicOffsetSeconds": 1.4,
+    "backgroundPosition": "50% 50%"
+  },
+  "measured": {
+    "cardTop": 639.5625,
+    "cardBottom": 1422.5625,
+    "rowFont": 52,
+    "titleFont": 94,
+    "footerCount": 0,
+    "cellOverflow": false,
+    "text": "ОГЭ • ПРОСТОЕ И СЛОЖНОЕ\nДва действия.\nОдна основа?\nНАШЕ ПРЕДЛОЖЕНИЕ\nСКОЛЬКО ОСНОВ\nСолнце встало и согрело сад.\nодна основа\nСолнце встало, сад ожил.\nдве основы\nПёс проснулся и залаял.\nодна основа\nПёс залаял, кот убежал.\nдве основы"
+  },
+  "previewFile": "qa/2026-11-classic-31-skolko-osnov-preview.jpg",
+  "previewSha256": "a9fe937c9633419828b7891920defdb2dd73611f86c74ab34d7b07754b1953bb"
+}
