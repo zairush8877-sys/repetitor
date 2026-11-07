@@ -9500,7 +9500,7 @@
         "О чём?"
       ],
       "title": "В лесу.\nНо о лесе.",
-      "status": "approved",
+      "status": "published",
       "date": "2026-11-07",
       "scheduledAt": "2026-11-07T07:00:00.000Z",
       "campaignId": "anna-retouch-music-v3-20261031",
@@ -9578,14 +9578,18 @@
         "creationAttempts": 1,
         "lastError": null,
         "version": 1,
-        "phase": "publishing",
-        "updatedAt": "2026-11-07T12:51:09.221Z",
+        "phase": "published",
+        "updatedAt": "2026-11-07T12:51:20.030Z",
         "containerId": "18034678730887754",
         "containerCreatedAt": "2026-11-07T12:50:41.228Z",
         "failedStage": null,
         "readyAt": "2026-11-07T12:51:08.247Z",
-        "publishAttemptedAt": "2026-11-07T12:51:09.221Z"
-      }
+        "publishAttemptedAt": "2026-11-07T12:51:09.221Z",
+        "mediaId": "18113434457579087",
+        "publishedAt": "2026-11-07T12:51:20.030Z"
+      },
+      "publishedMediaId": "18113434457579087",
+      "publishedAt": "2026-11-07T12:51:20.030Z"
     },
     {
       "id": "2026-11-classic-13-mashet",
