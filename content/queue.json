@@ -9666,12 +9666,9 @@
         "musicOffsetSeconds": 0.7,
         "backgroundPosition": "50% 50%"
       },
-      "background": "outputs/cadence-variation-2026-11-03/assets/photos/uppsala-bookshelves.jpg",
-      "lightBg": true,
-      "generatedBg": false,
       "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-11-classic-13-mashet.mp4",
-      "coverUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-11-classic-13-mashet-frame.jpg",
       "coverOffsetMs": 12200,
+      "coverUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-11-classic-13-mashet-frame.jpg",
       "music": {
         "id": "mozart40-andante",
         "file": "assets/music/mozart40-andante-musopen.mp3",
@@ -9718,6 +9715,18 @@
         "originalExcerptStartSeconds": 1.4,
         "actualDurationSeconds": 35.04,
         "processingForReel": "loudnorm I=-18 LUFS, TP=-2 dBTP, LRA=8; fade in 0.6 s, fade out 1.2 s"
+      },
+      "background": "outputs/cadence-variation-2026-11-03/assets/photos/uppsala-bookshelves.jpg",
+      "lightBg": true,
+      "generatedBg": false,
+      "feedDelivery": {
+        "fingerprint": "7cbdd3a9cf1c5e5ba9d18776922652ff3df81a1363197a08ad4b004887b449e6",
+        "startedAt": "2026-11-07T13:14:16.342Z",
+        "creationAttempts": 1,
+        "lastError": null,
+        "version": 1,
+        "phase": "container",
+        "updatedAt": "2026-11-07T13:14:16.342Z"
       }
     },
     {
