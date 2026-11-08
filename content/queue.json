@@ -7909,10 +7909,11 @@
         "lastError": null,
         "version": 1,
         "phase": "preparing",
-        "updatedAt": "2026-11-08T13:12:23.524Z",
+        "updatedAt": "2026-11-08T13:12:50.236Z",
         "containerId": "18034819724887754",
         "containerCreatedAt": "2026-11-08T13:12:23.524Z",
-        "failedStage": null
+        "failedStage": null,
+        "readyAt": "2026-11-08T13:12:50.236Z"
       }
     },
     {
