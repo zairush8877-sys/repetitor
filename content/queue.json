@@ -9968,12 +9968,9 @@
         "musicOffsetSeconds": 0,
         "backgroundPosition": "35% 50%"
       },
-      "background": "outputs/cadence-variation-2026-11-03/assets/photos/desk-books-laptop.jpg",
-      "lightBg": true,
-      "generatedBg": false,
       "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-11-classic-15-kas-kos.mp4",
-      "coverUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-11-classic-15-kas-kos-frame.jpg",
       "coverOffsetMs": 12200,
+      "coverUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-11-classic-15-kas-kos-frame.jpg",
       "music": {
         "id": "chopin-op37-no2",
         "file": "assets/music/chopin-op37-no2-gurevich.mp3",
@@ -10020,6 +10017,18 @@
         "originalExcerptStartSeconds": 0.7,
         "actualDurationSeconds": 35.04,
         "processingForReel": "loudnorm I=-18 LUFS, TP=-2 dBTP, LRA=8; fade in 0.6 s, fade out 1.2 s"
+      },
+      "background": "outputs/cadence-variation-2026-11-03/assets/photos/desk-books-laptop.jpg",
+      "lightBg": true,
+      "generatedBg": false,
+      "feedDelivery": {
+        "fingerprint": "b9066626baec1a377607ac22ddd738c36a473d0a988a059525f7e576d9ed7103",
+        "startedAt": "2026-11-08T13:35:21.334Z",
+        "creationAttempts": 1,
+        "lastError": null,
+        "version": 1,
+        "phase": "container",
+        "updatedAt": "2026-11-08T13:35:21.335Z"
       }
     },
     {
