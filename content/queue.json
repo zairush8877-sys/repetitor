@@ -7908,8 +7908,11 @@
         "creationAttempts": 1,
         "lastError": null,
         "version": 1,
-        "phase": "container",
-        "updatedAt": "2026-11-08T13:12:19.339Z"
+        "phase": "preparing",
+        "updatedAt": "2026-11-08T13:12:23.524Z",
+        "containerId": "18034819724887754",
+        "containerCreatedAt": "2026-11-08T13:12:23.524Z",
+        "failedStage": null
       }
     },
     {
