@@ -9949,7 +9949,7 @@
         "#касикос"
       ],
       "title": "Касаться —\nно прикоснуться.",
-      "status": "approved",
+      "status": "published",
       "date": "2026-11-08",
       "scheduledAt": "2026-11-08T07:00:00.000Z",
       "campaignId": "anna-retouch-music-v3-20261031",
@@ -10027,14 +10027,18 @@
         "creationAttempts": 1,
         "lastError": null,
         "version": 1,
-        "phase": "publishing",
-        "updatedAt": "2026-11-08T13:35:54.206Z",
+        "phase": "published",
+        "updatedAt": "2026-11-08T13:36:06.807Z",
         "containerId": "18034822346887754",
         "containerCreatedAt": "2026-11-08T13:35:25.428Z",
         "failedStage": null,
         "readyAt": "2026-11-08T13:35:53.196Z",
-        "publishAttemptedAt": "2026-11-08T13:35:54.206Z"
-      }
+        "publishAttemptedAt": "2026-11-08T13:35:54.206Z",
+        "mediaId": "18105549353163025",
+        "publishedAt": "2026-11-08T13:36:06.807Z"
+      },
+      "publishedMediaId": "18105549353163025",
+      "publishedAt": "2026-11-08T13:36:06.807Z"
     },
     {
       "id": "2026-11-classic-16-y-posle-pristavki",
