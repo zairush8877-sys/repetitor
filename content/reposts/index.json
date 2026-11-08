@@ -4023,6 +4023,135 @@
           }
         }
       ]
+    },
+    "2026-11-classic-35-ni-pukha": {
+      "kind": "reel_video",
+      "sourceKey": "a5a2b8ae2a5964e85c6f3f3dd7996100bdf23cb362cb6cb6267aae780548c32e",
+      "renderedAt": "2026-11-08T10:19:35.552Z",
+      "publicationStatus": "export_only",
+      "assets": [
+        {
+          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-11-classic-35-ni-pukha.mp4",
+          "file": "2026-11-classic-35-ni-pukha-full.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-11-classic-35-ni-pukha-full.mp4",
+          "width": 1080,
+          "height": 1920,
+          "mediaType": "VIDEO",
+          "mimeType": "video/mp4",
+          "sha256": "89f6cc78d816e2d81515775eb3bff65f8dc273fd734da6ce260d7ca461b84340",
+          "geometry": {
+            "sourceWidth": 1080,
+            "sourceHeight": 1920,
+            "outputWidth": 1080,
+            "outputHeight": 1920,
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "scale": 1,
+            "sourceRect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 1920
+            },
+            "targetRect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 1920
+            },
+            "sourceSha256": "89f6cc78d816e2d81515775eb3bff65f8dc273fd734da6ce260d7ca461b84340",
+            "sha256": "89f6cc78d816e2d81515775eb3bff65f8dc273fd734da6ce260d7ca461b84340"
+          }
+        }
+      ]
+    },
+    "2026-11-classic-36-gar-gor": {
+      "kind": "reel_video",
+      "sourceKey": "776465d47853b7224504e5531c61dfaf1b0bebe43b0b603afcf1f98a113f62d0",
+      "renderedAt": "2026-11-08T10:19:35.557Z",
+      "publicationStatus": "export_only",
+      "assets": [
+        {
+          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-11-classic-36-gar-gor.mp4",
+          "file": "2026-11-classic-36-gar-gor-full.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-11-classic-36-gar-gor-full.mp4",
+          "width": 1080,
+          "height": 1920,
+          "mediaType": "VIDEO",
+          "mimeType": "video/mp4",
+          "sha256": "e9b9c153b656bf20ed011e3a036f15d6e3d1bcbb3917a0466598133b7d1beb7e",
+          "geometry": {
+            "sourceWidth": 1080,
+            "sourceHeight": 1920,
+            "outputWidth": 1080,
+            "outputHeight": 1920,
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "scale": 1,
+            "sourceRect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 1920
+            },
+            "targetRect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 1920
+            },
+            "sourceSha256": "e9b9c153b656bf20ed011e3a036f15d6e3d1bcbb3917a0466598133b7d1beb7e",
+            "sha256": "e9b9c153b656bf20ed011e3a036f15d6e3d1bcbb3917a0466598133b7d1beb7e"
+          }
+        }
+      ]
+    },
+    "2026-11-classic-37-kto-chey": {
+      "kind": "reel_video",
+      "sourceKey": "1544b1e21994ec7ee006e6389db8561587bb0823eb3471c99ed2bce33e12ab7e",
+      "renderedAt": "2026-11-08T10:19:35.560Z",
+      "publicationStatus": "export_only",
+      "assets": [
+        {
+          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-11-classic-37-kto-chey.mp4",
+          "file": "2026-11-classic-37-kto-chey-full.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-11-classic-37-kto-chey-full.mp4",
+          "width": 1080,
+          "height": 1920,
+          "mediaType": "VIDEO",
+          "mimeType": "video/mp4",
+          "sha256": "51b5946e3b60d12d1a698526d2ebfc988c15f86703458f14cf61f0fe4ff287f1",
+          "geometry": {
+            "sourceWidth": 1080,
+            "sourceHeight": 1920,
+            "outputWidth": 1080,
+            "outputHeight": 1920,
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "scale": 1,
+            "sourceRect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 1920
+            },
+            "targetRect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 1920
+            },
+            "sourceSha256": "51b5946e3b60d12d1a698526d2ebfc988c15f86703458f14cf61f0fe4ff287f1",
+            "sha256": "51b5946e3b60d12d1a698526d2ebfc988c15f86703458f14cf61f0fe4ff287f1"
+          }
+        }
+      ]
     }
   }
 }

@@ -1,0 +1,430 @@
+{
+  "schemaVersion": 1,
+  "role": "independent Russian-language proofreader",
+  "checkedAt": "2026-11-08T10:18:45.647777+00:00",
+  "verdict": "pass",
+  "scope": "classic35–37: 3 ролика, 12 пар, 6 вариантов подписи",
+  "sourceDraftPath": "/private/tmp/mama-classic-refill-2026-11-08/editorial/drafts.json",
+  "sourceDraftSha256": "fdaec4809b480e236766710a4445fd9552250419df76039e03c880d7d85bd5d7",
+  "finalReview": {
+    "verdict": "pass",
+    "checkedAt": "2026-11-08T10:18:45.647777+00:00",
+    "releasePath": "/private/tmp/mama-classic-refill-2026-11-08/project/outputs/classic-refill-2026-11-08/release.json",
+    "releaseSha256AtReview": "17e78f0c371bf3181fdfc828a54ef899e9880a8defdfa2817cd30f3e2a7fb2b0",
+    "normalizedPostsWithoutStatusSha256": "eafbf5ce777a9f7f0c12b5f54854c1fe2c9ad5b6223c1f767e9f6634acba4532",
+    "textProjectionSha256": "4925ecbaab086eb117cfa02aacb821e057f6829185bc9d99787f3db997dc8163",
+    "normalization": "json.dumps(posts_without_top_level_status, ensure_ascii=False, sort_keys=True, separators=(comma,colon)).encode(utf-8)",
+    "textProjectionKeys": [
+      "id",
+      "kicker",
+      "title",
+      "heads",
+      "rows",
+      "caption",
+      "hashtags",
+      "rubric",
+      "school"
+    ],
+    "posts": 3,
+    "rows": 12,
+    "captionVariantsReviewed": 6,
+    "textEqualsProofreadDraft": true,
+    "all12RowsUnchanged": true,
+    "selectedCaptions": "A,A,A",
+    "selectedCaptionsRequireCorrection": false,
+    "statusAndRevisionHeaderOutsideTextReview": true,
+    "sourceCount": 10,
+    "limitations": [
+      "Часть страниц Грамоты проверена по индексированным первичным фрагментам: прямое открытие возвращало 403.",
+      "Проверка языковая. Не подтверждает визуальную приёмку, разрешение автора, GitHub или публикацию."
+    ]
+  },
+  "counts": {
+    "posts": 3,
+    "rows": 12,
+    "captionVariants": 6,
+    "selectedCaptions": 3,
+    "adult": 1,
+    "ege": 1,
+    "oge": 1,
+    "olympiad": 0,
+    "primarySources": 10
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Полный академический справочник: однородные члены, §26, примечание 1",
+      "url": "https://gramota.ru/biblioteka/spravochniki/pravila-russkoy-orfografii-i-punktuatsii/znaki-prepinaniya-pri-odnorodnykh-chlenakh-predlozheniya",
+      "publisher": "Грамота.ру, академический справочник под ред. В. В. Лопатина",
+      "access": "indexed_primary_extract; direct_open_403",
+      "evidence": "В цельных фразеологических сочетаниях с повтором ни запятая не ставится; в примерах есть ни рыба ни мясо и ни то ни се."
+    },
+    {
+      "id": "S2",
+      "title": "Ответ справочной службы №313129: пожелание ни пуха ни пера",
+      "url": "https://gramota.ru/spravka/vopros/313129",
+      "publisher": "Грамота.ру",
+      "access": "indexed_primary_extract",
+      "evidence": "При пожелании используется фразеологизм без внутренней запятой; свободное перечисление требует отдельного анализа."
+    },
+    {
+      "id": "S3",
+      "title": "Русский орфографический словарь РАН, нормативная электронная версия",
+      "url": "https://gramota.ru/storage/public/normdicts/orfograficheskij_slovar.pdf",
+      "publisher": "Институт русского языка им. В. В. Виноградова РАН; размещено Грамотой",
+      "access": "indexed_primary_dictionary_extracts; not_full_pdf",
+      "evidence": "В словнике все четыре сочетания с ни представлены без внутренней запятой. Проверено только написание этих статей; искажённые поисковым парсером диакритики не использованы."
+    },
+    {
+      "id": "S4",
+      "title": "Орфографическое комментирование русского словаря, §24, гар/гор",
+      "url": "https://oross.ruslang.ru/paragraph/24",
+      "publisher": "Институт русского языка им. В. В. Виноградова РАН",
+      "access": "full_primary_page",
+      "location": "§24.1, строки веб-извлечения 164–174",
+      "evidence": "Для гар/гор без ударения О, под ударением А. Загореть и угореть включены в примеры. Выгарки, изгарь, пригарь перечислены среди исключений; полный список шире трёх слов."
+    },
+    {
+      "id": "S5",
+      "title": "Полный академический справочник: особенности написания отдельных корней, §35",
+      "url": "https://orthographia.ru/orfografia.php?sid=32",
+      "publisher": "Полный академический справочник под ред. В. В. Лопатина, электронный текст",
+      "access": "full_primary_academic_text",
+      "location": "Абзац гар — гор, строка веб-извлечения 207",
+      "evidence": "Примеры зага́р, уга́р, угоре́ть подтверждают ударения и буквы. Вы́гарки, и́згарь, при́гарь даны как написания гар без ударения."
+    },
+    {
+      "id": "S6",
+      "title": "Академос: словник У, статьи угар и угореть",
+      "url": "https://orfo.ruslang.ru/abc/part/u?end=162910&start=162610",
+      "publisher": "Институт русского языка им. В. В. Виноградова РАН",
+      "access": "full_primary_dictionary_page",
+      "location": "Строки веб-извлечения 123 и 524",
+      "evidence": "Актуальный словник непосредственно показывает уга́р и угоре́ть."
+    },
+    {
+      "id": "S7",
+      "title": "Учебник Грамоты: корни с чередованием, зависящим от ударения",
+      "url": "https://gramota.ru/uchebnik/pravila/korni-s-cheredovaniem-glasnykh-vybor-kotorykh-zavisit-ot-udareniya",
+      "publisher": "Грамота.ру",
+      "access": "indexed_primary_extract; direct_open_403",
+      "evidence": "Подтверждены А под ударением, О без ударения в гар/гор и исключения; отдельная оговорка о корнях-омонимах исключает распространение правила на любую последовательность букв гор."
+    },
+    {
+      "id": "S8",
+      "title": "Е. И. Литневская: местоимение; разделы по значению и грамматическим признакам",
+      "url": "https://gramota.ru/biblioteka/spravochniki/russkij-yazyk-kratkij-teoreticheskij-kurs-dlya-shkolnikov/mestoimenie-kak-chast-rechi",
+      "publisher": "Е. И. Литневская, авторский теоретический курс для школьников на Грамоте",
+      "access": "indexed_primary_course_and_related_sections; direct_open_403",
+      "evidence": "Кто и чей названы вопросительными; те же формы при связи частей СПП — относительные, то есть союзные слова. Кто соотнесено с существительным, чей — с прилагательным."
+    },
+    {
+      "id": "S9",
+      "title": "Ответ справочной службы №316043: союзные слова и члены придаточной части",
+      "url": "https://gramota.ru/spravka/vopros/316043",
+      "publisher": "Грамота.ру с отсылкой к курсу Е. И. Литневской",
+      "access": "indexed_primary_extract; direct_open_403",
+      "evidence": "Относительные местоимения кто и чей относятся к союзным словам; они связывают части СПП и выполняют синтаксическую функцию в придаточной части."
+    },
+    {
+      "id": "S10",
+      "title": "БТСРГ: карточка ЗАГОРАТЬ с совершенной формой загореть, индексированный словарный фрагмент",
+      "url": "https://gramota.ru/poisk?mode=slovari&page=15&query=%D0%B7%D0%B0%D1%81%D0%BE%D1%81%D0%B0%D1%82%D1%8C&simple=0",
+      "publisher": "Большой толковый словарь русских глаголов, словари Грамоты",
+      "access": "indexed_primary_dictionary_fragment_in_search_page",
+      "evidence": "Карточка ЗАГОРАТЬ содержит загоре́ть в качестве совершенного вида; использована только эта явно показанная словарная форма, а не сам нерелевантный запрос страницы."
+    }
+  ],
+  "posts": [
+    {
+      "id": "2026-11-classic-35-ni-pukha",
+      "verdict": "pass",
+      "rowCount": 4,
+      "rows": [
+        {
+          "row": 1,
+          "left": "ни пуха, ни пера",
+          "right": "ни пуха ни пера",
+          "verdict": "pass",
+          "analysis": "В значении пожелания это цельный фразеологизм; внутренняя запятая не нужна.",
+          "sourceIds": [
+            "S1",
+            "S2",
+            "S3"
+          ],
+          "sourceUrls": [
+            "https://gramota.ru/biblioteka/spravochniki/pravila-russkoy-orfografii-i-punktuatsii/znaki-prepinaniya-pri-odnorodnykh-chlenakh-predlozheniya",
+            "https://gramota.ru/spravka/vopros/313129",
+            "https://gramota.ru/storage/public/normdicts/orfograficheskij_slovar.pdf"
+          ]
+        },
+        {
+          "row": 2,
+          "left": "ни рыба, ни мясо",
+          "right": "ни рыба ни мясо",
+          "verdict": "pass",
+          "analysis": "Цельное фразеологическое сочетание; запятая между компонентами не ставится.",
+          "sourceIds": [
+            "S1",
+            "S3"
+          ],
+          "sourceUrls": [
+            "https://gramota.ru/biblioteka/spravochniki/pravila-russkoy-orfografii-i-punktuatsii/znaki-prepinaniya-pri-odnorodnykh-chlenakh-predlozheniya",
+            "https://gramota.ru/storage/public/normdicts/orfograficheskij_slovar.pdf"
+          ]
+        },
+        {
+          "row": 3,
+          "left": "ни свет, ни заря",
+          "right": "ни свет ни заря",
+          "verdict": "pass",
+          "analysis": "Устойчивое наречное выражение о раннем времени; без внутренней запятой.",
+          "sourceIds": [
+            "S1",
+            "S3"
+          ],
+          "sourceUrls": [
+            "https://gramota.ru/biblioteka/spravochniki/pravila-russkoy-orfografii-i-punktuatsii/znaki-prepinaniya-pri-odnorodnykh-chlenakh-predlozheniya",
+            "https://gramota.ru/storage/public/normdicts/orfograficheskij_slovar.pdf"
+          ]
+        },
+        {
+          "row": 4,
+          "left": "ни то, ни сё",
+          "right": "ни то ни сё",
+          "verdict": "pass",
+          "analysis": "Цельное устойчивое сочетание; вариант с ё допустим и соответствует словарному написанию.",
+          "sourceIds": [
+            "S1",
+            "S3"
+          ],
+          "sourceUrls": [
+            "https://gramota.ru/biblioteka/spravochniki/pravila-russkoy-orfografii-i-punktuatsii/znaki-prepinaniya-pri-odnorodnykh-chlenakh-predlozheniya",
+            "https://gramota.ru/storage/public/normdicts/orfograficheskij_slovar.pdf"
+          ]
+        }
+      ],
+      "captions": [
+        {
+          "variant": "A",
+          "text": "В пожелании «Ни пуха ни пера!» внутри запятая не нужна. Так же пишутся устойчивые выражения «ни рыба ни мясо», «ни свет ни заря», «ни то ни сё». Они воспринимаются как цельные сочетания. Это особые случаи, а не правило для любого повторяющегося НИ.",
+          "sha256": "492525e688f5e98baa2c5fd66c2c9ec0a5678865bae295025018824a8087944b",
+          "selected": true,
+          "verdict": "pass",
+          "note": "Указаны пожелание и устойчивые сочетания; нет ложного общего запрета на запятую при повторяющемся ни."
+        },
+        {
+          "variant": "B",
+          "text": "Ни свет ни заря — встал очень рано. Ни рыба ни мясо — ни то ни другое. В этих устойчивых сочетаниях повтор НИ обходится без запятой. Пожелание «Ни пуха ни пера!» устроено так же. В обычном перечислении с повторяющимся союзом НИ знаки проверяем отдельно.",
+          "sha256": "2b68c9f726512ae83607c9b15d17b8e7f333e71576bf04d9c8faa620ca154909",
+          "selected": false,
+          "verdict": "pass",
+          "note": "Значения устойчивых выражений переданы допустимо; свободное перечисление явно отделено."
+        }
+      ],
+      "titleVerdict": "pass",
+      "kickerVerdict": "pass",
+      "qualifiers": [
+        "Оценка строк относится к устойчивым значениям; буквальное перечисление требует другого пунктуационного анализа."
+      ]
+    },
+    {
+      "id": "2026-11-classic-36-gar-gor",
+      "verdict": "pass",
+      "rowCount": 4,
+      "rows": [
+        {
+          "row": 1,
+          "left": "зага́р",
+          "right": "под ударением А",
+          "verdict": "pass",
+          "analysis": "В зага́р ударение падает на А корня -гар-.",
+          "sourceIds": [
+            "S4",
+            "S5"
+          ],
+          "sourceUrls": [
+            "https://oross.ruslang.ru/paragraph/24",
+            "https://orthographia.ru/orfografia.php?sid=32"
+          ]
+        },
+        {
+          "row": 2,
+          "left": "загоре́ть",
+          "right": "без ударения О",
+          "verdict": "pass",
+          "analysis": "В загоре́ть ударение на Е, О корня -гор- безударна.",
+          "sourceIds": [
+            "S4",
+            "S10"
+          ],
+          "sourceUrls": [
+            "https://oross.ruslang.ru/paragraph/24",
+            "https://gramota.ru/poisk?mode=slovari&page=15&query=%D0%B7%D0%B0%D1%81%D0%BE%D1%81%D0%B0%D1%82%D1%8C&simple=0"
+          ]
+        },
+        {
+          "row": 3,
+          "left": "уга́р",
+          "right": "под ударением А",
+          "verdict": "pass",
+          "analysis": "В уга́р А корня под ударением.",
+          "sourceIds": [
+            "S4",
+            "S5",
+            "S6"
+          ],
+          "sourceUrls": [
+            "https://oross.ruslang.ru/paragraph/24",
+            "https://orthographia.ru/orfografia.php?sid=32",
+            "https://orfo.ruslang.ru/abc/part/u?end=162910&start=162610"
+          ]
+        },
+        {
+          "row": 4,
+          "left": "угоре́ть",
+          "right": "без ударения О",
+          "verdict": "pass",
+          "analysis": "В угоре́ть ударение на Е, корневая О без ударения.",
+          "sourceIds": [
+            "S4",
+            "S5",
+            "S6"
+          ],
+          "sourceUrls": [
+            "https://oross.ruslang.ru/paragraph/24",
+            "https://orthographia.ru/orfografia.php?sid=32",
+            "https://orfo.ruslang.ru/abc/part/u?end=162910&start=162610"
+          ]
+        }
+      ],
+      "captions": [
+        {
+          "variant": "A",
+          "text": "Зага́р — А под ударением. Загоре́ть — О без ударения. Так же сопоставляем уга́р и угоре́ть. В этих словах чередуются корни -гар-/-гор-. Слова «выгарки», «изгарь», «пригарь» с безударной А запоминают отдельно.",
+          "sha256": "fd8d87b99a8d42cb35b9f9165d2aabb58c5450211944f5713d7d4838ab33c80d",
+          "selected": true,
+          "verdict": "pass",
+          "note": "Все четыре ударения и орфограммы верны. Три названных слова действительно содержат безударную А. Список не заявлен исчерпывающим."
+        },
+        {
+          "variant": "B",
+          "text": "От зага́ра к слову загоре́ть: ударение переместилось, написание корня изменилось. В -гар-/-гор- под ударением пишется А, без ударения — О. Так же: уга́р и угоре́ть. У правила есть исключения с безударной А: «выгарки», «изгарь», «пригарь».",
+          "sha256": "7850794120c9d6d9c84c04ac674d64c9c95b3c024a4f5265f37595614f482006",
+          "selected": false,
+          "verdict": "pass",
+          "note": "Правило верно только для данного чередующегося корня. Для неполного списка исключений рекомендовано слово «например»; это уточнение не затрагивает выбранную A."
+        }
+      ],
+      "titleVerdict": "pass",
+      "kickerVerdict": "pass",
+      "qualifiers": [
+        "А/О относятся к гласной корня, не ко всем гласным слова.",
+        "Список трёх исключений учебный, не исчерпывающий; правило не переносится на корни-омонимы."
+      ]
+    },
+    {
+      "id": "2026-11-classic-37-kto-chey",
+      "verdict": "pass",
+      "rowCount": 4,
+      "rows": [
+        {
+          "row": 1,
+          "left": "Кто пришёл?",
+          "right": "задаёт вопрос",
+          "verdict": "pass",
+          "analysis": "В прямом вопросе кто — вопросительное местоимение; оно является подлежащим.",
+          "sourceIds": [
+            "S8"
+          ],
+          "sourceUrls": [
+            "https://gramota.ru/biblioteka/spravochniki/russkij-yazyk-kratkij-teoreticheskij-kurs-dlya-shkolnikov/mestoimenie-kak-chast-rechi"
+          ]
+        },
+        {
+          "row": 2,
+          "left": "Я знаю, кто пришёл.",
+          "right": "связывает части",
+          "verdict": "pass",
+          "analysis": "Кто присоединяет изъяснительную придаточную часть и остаётся её подлежащим; это относительное местоимение и союзное слово.",
+          "sourceIds": [
+            "S8",
+            "S9"
+          ],
+          "sourceUrls": [
+            "https://gramota.ru/biblioteka/spravochniki/russkij-yazyk-kratkij-teoreticheskij-kurs-dlya-shkolnikov/mestoimenie-kak-chast-rechi",
+            "https://gramota.ru/spravka/vopros/316043"
+          ]
+        },
+        {
+          "row": 3,
+          "left": "Чей это шарф?",
+          "right": "задаёт вопрос",
+          "verdict": "pass",
+          "analysis": "Чей запрашивает принадлежность и употреблено как вопросительное местоимение.",
+          "sourceIds": [
+            "S8"
+          ],
+          "sourceUrls": [
+            "https://gramota.ru/biblioteka/spravochniki/russkij-yazyk-kratkij-teoreticheskij-kurs-dlya-shkolnikov/mestoimenie-kak-chast-rechi"
+          ]
+        },
+        {
+          "row": 4,
+          "left": "Я узнал, чей это шарф.",
+          "right": "связывает части",
+          "verdict": "pass",
+          "analysis": "Чей связывает части СПП; в придаточной части выступает определением к шарф. Это союзное слово, а не союз.",
+          "sourceIds": [
+            "S8",
+            "S9"
+          ],
+          "sourceUrls": [
+            "https://gramota.ru/biblioteka/spravochniki/russkij-yazyk-kratkij-teoreticheskij-kurs-dlya-shkolnikov/mestoimenie-kak-chast-rechi",
+            "https://gramota.ru/spravka/vopros/316043"
+          ]
+        }
+      ],
+      "captions": [
+        {
+          "variant": "A",
+          "text": "«Кто пришёл?» — местоимение «кто» задаёт вопрос. «Я знаю, кто пришёл» — оно связывает придаточную часть с главной. В первом случае местоимение вопросительное, во втором — относительное. Так же различаем роль слова «чей» в двух оставшихся предложениях.",
+          "sha256": "49a752a0f7e52d70ba51d79afe074294eb22c158c3bf209bdda30459375df4e8",
+          "selected": true,
+          "verdict": "pass",
+          "note": "Различены вопросительное и относительное употребления; связь частей обозначена верно."
+        },
+        {
+          "variant": "B",
+          "text": "Одна форма — разные роли. В вопросе «Чей это шарф?» местоимение вопросительное. В предложении «Я узнал, чей это шарф» оно относительное: присоединяет придаточную часть и остаётся её членом. Поэтому «кто» и «чей» в наших сложных предложениях — союзные слова, а не союзы.",
+          "sha256": "4f303f13109df9eef1d7f77ef44f1d5104d34f6678e46b8ef24e3cc9a2c1e156",
+          "selected": false,
+          "verdict": "pass",
+          "note": "Утверждение о члене придаточной части верно: кто — подлежащее, чей — определение; оба являются союзными словами."
+        }
+      ],
+      "titleVerdict": "pass",
+      "kickerVerdict": "pass",
+      "qualifiers": [
+        "Роль «связывает части» не отменяет синтаксической функции внутри придаточного.",
+        "В этих двух СПП местоимения являются союзными словами."
+      ]
+    }
+  ],
+  "editorialRecommendation": {
+    "postId": "2026-11-classic-36-gar-gor",
+    "variant": "B",
+    "requiredForSelectedRelease": false,
+    "action": "Добавить «например» перед перечнем трёх исключений, если этот вариант сохраняется как резервный; в A обязательной правки нет."
+  },
+  "claimBoundaries": [
+    "Учебные фразы не приписаны официальным КИМ; номер задания и год экзамена не заявлены.",
+    "Истории учеников и измеренные результаты отсутствуют.",
+    "Нет нового утверждения о вирусности или частотности.",
+    "Формат и расписание не являются предметом языковой авторизации."
+  ],
+  "limitations": [
+    "Часть страниц Грамоты проверена по индексированным первичным фрагментам: прямое открытие возвращало 403.",
+    "Проверка языковая. Не подтверждает визуальную приёмку, разрешение автора, GitHub или публикацию."
+  ]
+}

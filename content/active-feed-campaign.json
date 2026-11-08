@@ -266,6 +266,21 @@
       "postId": "2026-11-classic-34-metafora",
       "date": "2026-11-14",
       "scheduledAt": "2026-11-14T16:00:00.000Z"
+    },
+    {
+      "postId": "2026-11-classic-35-ni-pukha",
+      "date": "2026-11-15",
+      "scheduledAt": "2026-11-15T07:00:00.000Z"
+    },
+    {
+      "postId": "2026-11-classic-36-gar-gor",
+      "date": "2026-11-15",
+      "scheduledAt": "2026-11-15T11:00:00.000Z"
+    },
+    {
+      "postId": "2026-11-classic-37-kto-chey",
+      "date": "2026-11-15",
+      "scheduledAt": "2026-11-15T16:00:00.000Z"
     }
   ],
   "additionalSlotAuthorization": {

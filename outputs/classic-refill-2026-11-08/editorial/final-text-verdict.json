@@ -1,0 +1,33 @@
+{
+  "verdict": "pass",
+  "checkedAt": "2026-11-08T10:18:45.647777+00:00",
+  "releasePath": "/private/tmp/mama-classic-refill-2026-11-08/project/outputs/classic-refill-2026-11-08/release.json",
+  "releaseSha256AtReview": "17e78f0c371bf3181fdfc828a54ef899e9880a8defdfa2817cd30f3e2a7fb2b0",
+  "normalizedPostsWithoutStatusSha256": "eafbf5ce777a9f7f0c12b5f54854c1fe2c9ad5b6223c1f767e9f6634acba4532",
+  "textProjectionSha256": "4925ecbaab086eb117cfa02aacb821e057f6829185bc9d99787f3db997dc8163",
+  "normalization": "json.dumps(posts_without_top_level_status, ensure_ascii=False, sort_keys=True, separators=(comma,colon)).encode(utf-8)",
+  "textProjectionKeys": [
+    "id",
+    "kicker",
+    "title",
+    "heads",
+    "rows",
+    "caption",
+    "hashtags",
+    "rubric",
+    "school"
+  ],
+  "posts": 3,
+  "rows": 12,
+  "captionVariantsReviewed": 6,
+  "textEqualsProofreadDraft": true,
+  "all12RowsUnchanged": true,
+  "selectedCaptions": "A,A,A",
+  "selectedCaptionsRequireCorrection": false,
+  "statusAndRevisionHeaderOutsideTextReview": true,
+  "sourceCount": 10,
+  "limitations": [
+    "Часть страниц Грамоты проверена по индексированным первичным фрагментам: прямое открытие возвращало 403.",
+    "Проверка языковая. Не подтверждает визуальную приёмку, разрешение автора, GitHub или публикацию."
+  ]
+}

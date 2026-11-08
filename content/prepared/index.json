@@ -5121,6 +5121,213 @@
           "sha256": "cd143189853e1813dbcc539af2647dda247bef832e73f23efe659111f313a8bd"
         }
       ]
+    },
+    "2026-11-classic-35-ni-pukha": {
+      "version": 1,
+      "draftKey": "37f80d223432faec4ad1e1afb6fd5c5980a67900f6867dbd5cfeb83bbb6eac8b",
+      "builtAt": "2026-11-08T10:19:35.555Z",
+      "media": {
+        "background": "outputs/classic-refill-2026-11-08/assets/photos/journal-writing.jpg",
+        "lightBg": true,
+        "generatedBg": false,
+        "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-11-classic-35-ni-pukha.mp4",
+        "coverUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-11-classic-35-ni-pukha-frame.jpg",
+        "coverOffsetMs": 12200,
+        "music": {
+          "id": "chopin-op37-no2",
+          "file": "assets/music/chopin-op37-no2-gurevich.mp3",
+          "composer": "Фридерик Шопен",
+          "piece": "Ноктюрн соль мажор, op. 37 № 2",
+          "title": "Nocturne in G major, Op. 37 No. 2",
+          "performer": "Olga Gurevich",
+          "license": "CC0 1.0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "commonsTitle": "File:Chopin Nocturne Op 37 no 2 in G major Olga Gurevich.ogg",
+          "recordingRights": "CC0 1.0 на странице конкретной записи Olga Gurevich; источник Musopen download/12225. Включает связанные права на запись в пределах CC0.",
+          "compositionRights": "Шопен (1810–1849), op.37 (1840): public domain; современная запись отдельно CC0.",
+          "sourceExcerptStartSeconds": 0.7,
+          "durationSeconds": 35.04,
+          "attribution": "Ф. Шопен — Ноктюрн op. 37 № 2. Фортепиано: Olga Gurevich, Musopen. Запись CC0 1.0; фрагмент, громкость изменена.",
+          "character": "Плавное фортепианное движение; другое произведение и мелодия относительно op.62.",
+          "source": "https://commons.wikimedia.org/wiki/File:Chopin_Nocturne_Op_37_no_2_in_G_major_Olga_Gurevich.ogg",
+          "sourceDownloadUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Chopin_Nocturne_Op_37_no_2_in_G_major_Olga_Gurevich.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "commonsPageId": 62686803,
+          "commonsRevisionId": 857612175,
+          "sourcePermanentUrl": "https://commons.wikimedia.org/w/index.php?oldid=857612175",
+          "sourceFileTimestamp": "2017-09-23T13:04:51Z",
+          "sourceFileSha1": "a3a6eef09427f3d7455fbb0cc2d4a8c70bbe842b",
+          "attributionRequired": false,
+          "commonsLicenseShortName": "CC0",
+          "commonsLicenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "commonsArtist": "Olga Gurevich",
+          "sourceSha256": "9d2f9a857514ffc894057c0a50d4088bf82693915a94d1f2ed9ab9f5cbcc0fbb",
+          "sourceBytes": 4792732,
+          "downloadedAtUtc": "2026-11-03T20:48:37.627635+00:00",
+          "sha256": "1e3255e0c1b8e936c92c146d44977015b471da6c153737fa3cd49ac61bc10a50",
+          "processing": "35 s excerpt, loudnorm I=-23 LUFS / TP=-3 dBTP / LRA=7, fade in 0.25 s, fade out 0.8 s; 48 kHz stereo MP3 192 kbps",
+          "technicalQa": {
+            "decoded": true,
+            "sampleRate": 48000,
+            "channels": 2,
+            "codec": "mp3",
+            "mean_volume": -25.4,
+            "max_volume": -7.7,
+            "humanListening": false
+          },
+          "offsetSeconds": 0,
+          "excerptDurationSeconds": 13.2,
+          "originalExcerptStartSeconds": 0.7,
+          "actualDurationSeconds": 35.04,
+          "processingForReel": "loudnorm I=-18 LUFS, TP=-2 dBTP, LRA=8; fade in 0.6 s, fade out 1.2 s"
+        }
+      },
+      "files": [
+        {
+          "relative": "reels/2026-11-classic-35-ni-pukha.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-11-classic-35-ni-pukha.mp4",
+          "size": 1404701,
+          "sha256": "89f6cc78d816e2d81515775eb3bff65f8dc273fd734da6ce260d7ca461b84340"
+        },
+        {
+          "relative": "reels/2026-11-classic-35-ni-pukha-frame.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-11-classic-35-ni-pukha-frame.jpg",
+          "size": 570050,
+          "sha256": "77e7ac7d945561f562f699c2b02a24d8039c2a515fa61812e5df8ec26e1b0c9e"
+        }
+      ]
+    },
+    "2026-11-classic-36-gar-gor": {
+      "version": 1,
+      "draftKey": "089bffdb0565de4e0dac050b24dad89f271c4bde2cbfa1c1f7b0b58ba38ed46e",
+      "builtAt": "2026-11-08T10:19:35.559Z",
+      "media": {
+        "background": "outputs/classic-refill-2026-11-08/assets/photos/uppsala-bookshelves.jpg",
+        "lightBg": true,
+        "generatedBg": false,
+        "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-11-classic-36-gar-gor.mp4",
+        "coverUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-11-classic-36-gar-gor-frame.jpg",
+        "coverOffsetMs": 12200,
+        "music": {
+          "id": "bach-var1-ishizaka",
+          "file": "assets/music/bach-var1-ishizaka.mp3",
+          "composer": "Иоганн Себастьян Бах",
+          "piece": "Гольдберг-вариации, BWV 988 — Вариация № 1",
+          "title": "Goldberg Variations, BWV 988: Variatio 1 a 1 Clav.",
+          "performer": "Кимико Ишизака",
+          "license": "CC0 1.0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "source": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+          "rightsSource": "https://opengoldbergvariations.org/",
+          "sourceDownloadUrl": "https://upload.wikimedia.org/wikipedia/commons/2/20/Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+          "recordingRights": "Open Goldberg 2012 recording released under CC0; not inferred from composition age",
+          "compositionRights": "Public domain: J. S. Bach (1685–1750)",
+          "attribution": "И. С. Бах — Гольдберг-вариации, BWV 988, вариация № 1. Фортепиано: Кимико Ишизака, Open Goldberg Variations (2012). Запись CC0 1.0. Фрагмент, громкость изменена.",
+          "attributionRequired": false,
+          "sha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8",
+          "sourceSha256": "0539f3612413f6077c82e16f92417bad112e44017536f59db257c8179718076f",
+          "sourceExcerptStartSeconds": 0.7,
+          "durationSeconds": 32.04,
+          "reusedFrom": "outputs/cadence-2026-11-03/assets/bach-var1.mp3",
+          "technicalQa": {
+            "decoded": true,
+            "humanListening": false
+          },
+          "character": "Ранее использованная лёгкая клавирная вариация; ставится последней в цикле.",
+          "offsetSeconds": 0.7,
+          "excerptDurationSeconds": 13.2,
+          "originalExcerptStartSeconds": 1.4,
+          "actualDurationSeconds": 32.04,
+          "processingForReel": "loudnorm I=-18 LUFS, TP=-2 dBTP, LRA=8; fade in 0.6 s, fade out 1.2 s"
+        }
+      },
+      "files": [
+        {
+          "relative": "reels/2026-11-classic-36-gar-gor.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-11-classic-36-gar-gor.mp4",
+          "size": 2044559,
+          "sha256": "e9b9c153b656bf20ed011e3a036f15d6e3d1bcbb3917a0466598133b7d1beb7e"
+        },
+        {
+          "relative": "reels/2026-11-classic-36-gar-gor-frame.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-11-classic-36-gar-gor-frame.jpg",
+          "size": 857465,
+          "sha256": "6dc5f520ebb2e9a3c1dfcbf5743b2b04144b2e63844c8f54866c65068af8d31c"
+        }
+      ]
+    },
+    "2026-11-classic-37-kto-chey": {
+      "version": 1,
+      "draftKey": "16e5d351e63cdd74b30552cfeb241ab1f76040f0eb0b6be60a10a5660557199e",
+      "builtAt": "2026-11-08T10:19:35.562Z",
+      "media": {
+        "background": "outputs/classic-refill-2026-11-08/assets/photos/open-book-plant.jpg",
+        "lightBg": true,
+        "generatedBg": false,
+        "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-11-classic-37-kto-chey.mp4",
+        "coverUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-11-classic-37-kto-chey-frame.jpg",
+        "coverOffsetMs": 12200,
+        "music": {
+          "id": "chopin-op62-no1",
+          "file": "assets/music/chopin-op62-no1-gurevich.mp3",
+          "composer": "Фридерик Шопен",
+          "piece": "Ноктюрн си мажор, op. 62 № 1",
+          "title": "Nocturne in B major, Op. 62 No. 1",
+          "performer": "Olga Gurevich",
+          "license": "CC0 1.0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "commonsTitle": "File:Frederic Chopin - nocturne no. 1 in b major, op. 62.oga",
+          "recordingRights": "На странице конкретной записи Olga Gurevich указан CC0 1.0; происхождение Musopen download/11677. Это разрешение на файл записи, не вывод из возраста нот.",
+          "compositionRights": "Шопен (1810–1849), произведение XIX века: public domain. Права на современную запись отдельно — CC0.",
+          "sourceExcerptStartSeconds": 1,
+          "durationSeconds": 35.04,
+          "attribution": "Ф. Шопен — Ноктюрн op. 62 № 1. Фортепиано: Olga Gurevich, Musopen. Запись CC0 1.0; фрагмент, громкость изменена.",
+          "character": "Спокойное фортепиано, лирическое вступление.",
+          "source": "https://commons.wikimedia.org/wiki/File:Frederic_Chopin_-_nocturne_no._1_in_b_major,_op._62.oga",
+          "sourceDownloadUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Frederic_Chopin_-_nocturne_no._1_in_b_major%2C_op._62.oga?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "commonsPageId": 62684427,
+          "commonsRevisionId": 1260528337,
+          "sourcePermanentUrl": "https://commons.wikimedia.org/w/index.php?oldid=1260528337",
+          "sourceFileTimestamp": "2017-09-23T11:01:04Z",
+          "sourceFileSha1": "e30589ba6bc61761bdb20a864a5df453766f52f0",
+          "attributionRequired": false,
+          "commonsLicenseShortName": "CC0",
+          "commonsLicenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "commonsArtist": "Olga Gurevich playing Frederic Chopin.",
+          "sourceSha256": "fc4fdb9c1df40d008133f8d83ef69ee231986120627485edfedc3f06c169d632",
+          "sourceBytes": 5282719,
+          "downloadedAtUtc": "2026-11-03T20:47:07.772844+00:00",
+          "sha256": "3413e5a8aeaf36becac0ffdfdeb488f5087401f78ca2f31d3322900a26791b99",
+          "processing": "35 s excerpt, loudnorm I=-23 LUFS / TP=-3 dBTP / LRA=7, fade in 0.25 s, fade out 0.8 s; 48 kHz stereo MP3 192 kbps",
+          "technicalQa": {
+            "decoded": true,
+            "sampleRate": 48000,
+            "channels": 2,
+            "codec": "mp3",
+            "mean_volume": -25.3,
+            "max_volume": -5.6,
+            "humanListening": false
+          },
+          "offsetSeconds": 1.4,
+          "excerptDurationSeconds": 13.2,
+          "originalExcerptStartSeconds": 2.4,
+          "actualDurationSeconds": 35.04,
+          "processingForReel": "loudnorm I=-18 LUFS, TP=-2 dBTP, LRA=8; fade in 0.6 s, fade out 1.2 s"
+        }
+      },
+      "files": [
+        {
+          "relative": "reels/2026-11-classic-37-kto-chey.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-11-classic-37-kto-chey.mp4",
+          "size": 1246320,
+          "sha256": "51b5946e3b60d12d1a698526d2ebfc988c15f86703458f14cf61f0fe4ff287f1"
+        },
+        {
+          "relative": "reels/2026-11-classic-37-kto-chey-frame.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-11-classic-37-kto-chey-frame.jpg",
+          "size": 449739,
+          "sha256": "e9d424582df55212c377b2f9cfff3e4efd4e03471f8a17a369d5d15263d82576"
+        }
+      ]
     }
   }
 }

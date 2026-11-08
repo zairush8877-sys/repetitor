@@ -1,0 +1,27 @@
+{
+  "id": "2026-11-classic-35-ni-pukha",
+  "previewOnly": true,
+  "total": 13.2,
+  "key": "2beb5b41b39e76fab2892ae837597b24f4179001d7fc19ac918fc82f76592321",
+  "assets": {
+    "photoId": "journal-writing",
+    "photoFile": "assets/photos/journal-writing.jpg",
+    "photoSha256": "de3686d216a532406ccf7b2a4564f1857c3dc7b1fba0e66fe41e50df0caf173e",
+    "musicId": "chopin-op37-no2",
+    "musicFile": "assets/music/chopin-op37-no2-gurevich.mp3",
+    "musicSha256": "1e3255e0c1b8e936c92c146d44977015b471da6c153737fa3cd49ac61bc10a50",
+    "musicOffsetSeconds": 0,
+    "backgroundPosition": "50% 50%"
+  },
+  "measured": {
+    "cardTop": 639.5625,
+    "cardBottom": 1357.5625,
+    "rowFont": 52,
+    "titleFont": 94,
+    "footerCount": 0,
+    "cellOverflow": false,
+    "text": "ПРИВЫЧНЫЕ ФРАЗЫ В ПЕРЕПИСКЕ\nНи пуха ни пера.\nБез запятой.\nНЕПРАВИЛЬНО\nПРАВИЛЬНО\nни пуха, ни пера\nни пуха, ни пера\nни пуха ни пера\nни рыба, ни мясо\nни рыба, ни мясо\nни рыба ни мясо\nни свет, ни заря\nни свет, ни заря\nни свет ни заря\nни то, ни сё\nни то, ни сё\nни то ни сё"
+  },
+  "previewFile": "qa/2026-11-classic-35-ni-pukha-preview.jpg",
+  "previewSha256": "d5892a0b4039a5fc38d719a80a93e0748ef0560fcdb5e34ca80f26de2b53fd2b"
+}

@@ -1,0 +1,90 @@
+{
+  "id": "2026-11-classic-35-ni-pukha",
+  "key": "2beb5b41b39e76fab2892ae837597b24f4179001d7fc19ac918fc82f76592321",
+  "total": 13.2,
+  "assets": {
+    "photoId": "journal-writing",
+    "photoFile": "assets/photos/journal-writing.jpg",
+    "photoSha256": "de3686d216a532406ccf7b2a4564f1857c3dc7b1fba0e66fe41e50df0caf173e",
+    "musicId": "chopin-op37-no2",
+    "musicFile": "assets/music/chopin-op37-no2-gurevich.mp3",
+    "musicSha256": "1e3255e0c1b8e936c92c146d44977015b471da6c153737fa3cd49ac61bc10a50",
+    "musicOffsetSeconds": 0,
+    "backgroundPosition": "50% 50%"
+  },
+  "music": {
+    "id": "chopin-op37-no2",
+    "file": "assets/music/chopin-op37-no2-gurevich.mp3",
+    "composer": "Фридерик Шопен",
+    "piece": "Ноктюрн соль мажор, op. 37 № 2",
+    "title": "Nocturne in G major, Op. 37 No. 2",
+    "performer": "Olga Gurevich",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "commonsTitle": "File:Chopin Nocturne Op 37 no 2 in G major Olga Gurevich.ogg",
+    "recordingRights": "CC0 1.0 на странице конкретной записи Olga Gurevich; источник Musopen download/12225. Включает связанные права на запись в пределах CC0.",
+    "compositionRights": "Шопен (1810–1849), op.37 (1840): public domain; современная запись отдельно CC0.",
+    "sourceExcerptStartSeconds": 0.7,
+    "durationSeconds": 35.04,
+    "attribution": "Ф. Шопен — Ноктюрн op. 37 № 2. Фортепиано: Olga Gurevich, Musopen. Запись CC0 1.0; фрагмент, громкость изменена.",
+    "character": "Плавное фортепианное движение; другое произведение и мелодия относительно op.62.",
+    "source": "https://commons.wikimedia.org/wiki/File:Chopin_Nocturne_Op_37_no_2_in_G_major_Olga_Gurevich.ogg",
+    "sourceDownloadUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Chopin_Nocturne_Op_37_no_2_in_G_major_Olga_Gurevich.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsPageId": 62686803,
+    "commonsRevisionId": 857612175,
+    "sourcePermanentUrl": "https://commons.wikimedia.org/w/index.php?oldid=857612175",
+    "sourceFileTimestamp": "2017-09-23T13:04:51Z",
+    "sourceFileSha1": "a3a6eef09427f3d7455fbb0cc2d4a8c70bbe842b",
+    "attributionRequired": false,
+    "commonsLicenseShortName": "CC0",
+    "commonsLicenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "commonsArtist": "Olga Gurevich",
+    "sourceSha256": "9d2f9a857514ffc894057c0a50d4088bf82693915a94d1f2ed9ab9f5cbcc0fbb",
+    "sourceBytes": 4792732,
+    "downloadedAtUtc": "2026-11-03T20:48:37.627635+00:00",
+    "sha256": "1e3255e0c1b8e936c92c146d44977015b471da6c153737fa3cd49ac61bc10a50",
+    "processing": "35 s excerpt, loudnorm I=-23 LUFS / TP=-3 dBTP / LRA=7, fade in 0.25 s, fade out 0.8 s; 48 kHz stereo MP3 192 kbps",
+    "technicalQa": {
+      "decoded": true,
+      "sampleRate": 48000,
+      "channels": 2,
+      "codec": "mp3",
+      "mean_volume": -25.4,
+      "max_volume": -7.7,
+      "humanListening": false
+    },
+    "offsetSeconds": 0,
+    "excerptDurationSeconds": 13.2,
+    "originalExcerptStartSeconds": 0.7,
+    "actualDurationSeconds": 35.04,
+    "processingForReel": "loudnorm I=-18 LUFS, TP=-2 dBTP, LRA=8; fade in 0.6 s, fade out 1.2 s"
+  },
+  "measured": {
+    "cardTop": 639.5625,
+    "cardBottom": 1357.5625,
+    "rowFont": 52,
+    "titleFont": 94,
+    "footerCount": 0,
+    "cellOverflow": false,
+    "text": "ПРИВЫЧНЫЕ ФРАЗЫ В ПЕРЕПИСКЕ\nНи пуха ни пера.\nБез запятой.\nНЕПРАВИЛЬНО\nПРАВИЛЬНО\nни пуха, ни пера\nни пуха, ни пера\nни пуха ни пера\nни рыба, ни мясо\nни рыба, ни мясо\nни рыба ни мясо\nни свет, ни заря\nни свет, ни заря\nни свет ни заря\nни то, ни сё\nни то, ни сё\nни то ни сё"
+  },
+  "screenshotFrames": 122,
+  "sha256": "89f6cc78d816e2d81515775eb3bff65f8dc273fd734da6ce260d7ca461b84340",
+  "coverSha256": "77e7ac7d945561f562f699c2b02a24d8039c2a515fa61812e5df8ec26e1b0c9e",
+  "streams": [
+    {
+      "type": "video",
+      "codec": "h264",
+      "width": 1080,
+      "height": 1920,
+      "duration": "13.200000"
+    },
+    {
+      "type": "audio",
+      "codec": "aac",
+      "duration": "13.200000",
+      "sampleRate": "48000"
+    }
+  ],
+  "decoded": true
+}

@@ -1,0 +1,27 @@
+{
+  "id": "2026-11-classic-37-kto-chey",
+  "previewOnly": true,
+  "total": 13.2,
+  "key": "2bec2744d69b262117faf4a03f7ab1738a97539ef1586684f85a357a005d8777",
+  "assets": {
+    "photoId": "open-book-plant",
+    "photoFile": "assets/photos/open-book-plant.jpg",
+    "photoSha256": "16849bf7ef5fa0860deb2c5c92efa65fac0e86116988ebb90d8934204b630f62",
+    "musicId": "chopin-op62-no1",
+    "musicFile": "assets/music/chopin-op62-no1-gurevich.mp3",
+    "musicSha256": "3413e5a8aeaf36becac0ffdfdeb488f5087401f78ca2f31d3322900a26791b99",
+    "musicOffsetSeconds": 1.4,
+    "backgroundPosition": "50% 50%"
+  },
+  "measured": {
+    "cardTop": 748.59375,
+    "cardBottom": 1401.59375,
+    "rowFont": 52,
+    "titleFont": 94,
+    "footerCount": 0,
+    "cellOverflow": false,
+    "text": "ОГЭ • РОЛЬ МЕСТОИМЕНИЯ\nКто пришёл?\nЗнаю, кто пришёл.\nНАШЕ ПРЕДЛОЖЕНИЕ\nРОЛЬ СЛОВА\nКто пришёл?\nзадаёт вопрос\nЯ знаю, кто пришёл.\nсвязывает части\nЧей это шарф?\nзадаёт вопрос\nЯ узнал, чей это шарф.\nсвязывает части"
+  },
+  "previewFile": "qa/2026-11-classic-37-kto-chey-preview.jpg",
+  "previewSha256": "e9d424582df55212c377b2f9cfff3e4efd4e03471f8a17a369d5d15263d82576"
+}

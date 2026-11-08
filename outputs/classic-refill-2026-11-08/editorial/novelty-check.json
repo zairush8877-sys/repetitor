@@ -1,0 +1,31 @@
+{
+  "expectedMainHead": "af6211f826d1b66786c004cfa34571b2495853af",
+  "sourceQueueSha256": "b6037d19bfe55e9b3e8b8c1bd5e89f1e5db6ee454dbd7784eaba5aff42c36699",
+  "totalQueuePosts": 141,
+  "approvedOrPublishedPosts": 130,
+  "recursiveContentLeaves": 4226,
+  "normalized": "Unicode normalization,casefold,ё=е,acute-stress stripped,collapsed whitespace",
+  "checks": [
+    {
+      "postId": "2026-11-classic-35-ni-pukha",
+      "exactTitleDuplicates": [],
+      "exampleDuplicates": []
+    },
+    {
+      "postId": "2026-11-classic-36-gar-gor",
+      "exactTitleDuplicates": [],
+      "exampleDuplicates": []
+    },
+    {
+      "postId": "2026-11-classic-37-kto-chey",
+      "exactTitleDuplicates": [],
+      "exampleDuplicates": []
+    }
+  ],
+  "newPostCount": 3,
+  "uniqueIds": 3,
+  "rowPairs": 12,
+  "captionVariants": 6,
+  "maxCellChars": 22,
+  "maxCellWordLetters": 9
+}
