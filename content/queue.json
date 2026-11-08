@@ -10050,7 +10050,7 @@
             "sha256": "d1f7864ac37f71727d5304958ff2867e3d00313f7b4bf42ce5f92a4d9f0586d0",
             "mediaType": "VIDEO",
             "mimeType": "video/mp4",
-            "status": "preparing",
+            "status": "publishing",
             "attempts": 1,
             "attemptedAt": "2026-11-08T13:36:09.319Z",
             "containerId": "18034822499887754"
