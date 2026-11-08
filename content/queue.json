@@ -7933,7 +7933,8 @@
             "mimeType": "video/mp4",
             "status": "preparing",
             "attempts": 1,
-            "attemptedAt": "2026-11-08T13:13:08.264Z"
+            "attemptedAt": "2026-11-08T13:13:08.264Z",
+            "containerId": "18034819874887754"
           }
         ],
         "sourceKey": "e56cf0bec25cb98d071705102b3e1054be7d3cbe280eb414bbd2d459793e157f"
