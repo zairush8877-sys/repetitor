@@ -10437,8 +10437,9 @@
             "sha256": "a72af118cd661161e266f473a9170a1933ace02a457a9c1660b2c5b8fd5c8265",
             "mediaType": "VIDEO",
             "mimeType": "video/mp4",
-            "status": "pending",
-            "attempts": 0
+            "status": "preparing",
+            "attempts": 1,
+            "attemptedAt": "2026-11-09T16:32:52.324Z"
           }
         ],
         "sourceKey": "c0bd1f4f42a30810e4f80d56816306a63c0cbbe23b9277501247b9ec925741a3"
