@@ -9078,10 +9078,11 @@
         "lastError": null,
         "version": 1,
         "phase": "preparing",
-        "updatedAt": "2026-11-09T15:58:12.681Z",
+        "updatedAt": "2026-11-09T15:59:12.671Z",
         "containerId": "18034972802887754",
         "containerCreatedAt": "2026-11-09T15:58:12.681Z",
-        "failedStage": null
+        "failedStage": null,
+        "readyAt": "2026-11-09T15:59:12.671Z"
       }
     },
     {
