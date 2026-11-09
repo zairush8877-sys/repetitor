@@ -9088,7 +9088,24 @@
         "publishedAt": "2026-11-09T15:59:26.327Z"
       },
       "publishedMediaId": "17918998425496021",
-      "publishedAt": "2026-11-09T15:59:26.327Z"
+      "publishedAt": "2026-11-09T15:59:27.538Z",
+      "storyRepost": {
+        "version": 1,
+        "feedMediaId": "17918998425496021",
+        "status": "pending",
+        "items": [
+          {
+            "index": 1,
+            "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-11-classic-07-bukvy-zvuki-full.mp4",
+            "sha256": "6f6fdc732c1f94a917685b6c8559af8a158fb2c6a9c27976e29f6d0aa4012ff9",
+            "mediaType": "VIDEO",
+            "mimeType": "video/mp4",
+            "status": "pending",
+            "attempts": 0
+          }
+        ],
+        "sourceKey": "4378d75637200c126effac6f550d9624d4966e262e52c4ae697ab1dbe3c3f98a"
+      }
     },
     {
       "id": "2026-11-classic-08-menu",
