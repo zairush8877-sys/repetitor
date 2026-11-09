@@ -8999,7 +8999,7 @@
         "Звуки"
       ],
       "rubric": "Олимпиадная разминка",
-      "status": "approved",
+      "status": "published",
       "date": "2026-11-09",
       "scheduledAt": "2026-11-09T07:00:00.000Z",
       "campaignId": "anna-retouch-music-v3-20261031",
@@ -9077,14 +9077,18 @@
         "creationAttempts": 1,
         "lastError": null,
         "version": 1,
-        "phase": "publishing",
-        "updatedAt": "2026-11-09T15:59:14.089Z",
+        "phase": "published",
+        "updatedAt": "2026-11-09T15:59:26.327Z",
         "containerId": "18034972802887754",
         "containerCreatedAt": "2026-11-09T15:58:12.681Z",
         "failedStage": null,
         "readyAt": "2026-11-09T15:59:12.671Z",
-        "publishAttemptedAt": "2026-11-09T15:59:14.089Z"
-      }
+        "publishAttemptedAt": "2026-11-09T15:59:14.089Z",
+        "mediaId": "17918998425496021",
+        "publishedAt": "2026-11-09T15:59:26.327Z"
+      },
+      "publishedMediaId": "17918998425496021",
+      "publishedAt": "2026-11-09T15:59:26.327Z"
     },
     {
       "id": "2026-11-classic-08-menu",
