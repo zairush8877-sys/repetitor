@@ -10336,7 +10336,7 @@
         "Приём"
       ],
       "title": "Целая вечность.\nИли с пальчик?",
-      "status": "approved",
+      "status": "published",
       "date": "2026-11-09",
       "scheduledAt": "2026-11-09T11:00:00.000Z",
       "campaignId": "anna-retouch-music-v3-20261031",
@@ -10414,14 +10414,18 @@
         "creationAttempts": 1,
         "lastError": null,
         "version": 1,
-        "phase": "publishing",
-        "updatedAt": "2026-11-09T16:32:37.457Z",
+        "phase": "published",
+        "updatedAt": "2026-11-09T16:32:50.002Z",
         "containerId": "18034978697887754",
         "containerCreatedAt": "2026-11-09T16:32:06.917Z",
         "failedStage": null,
         "readyAt": "2026-11-09T16:32:36.358Z",
-        "publishAttemptedAt": "2026-11-09T16:32:37.457Z"
-      }
+        "publishAttemptedAt": "2026-11-09T16:32:37.457Z",
+        "mediaId": "17914302960483710",
+        "publishedAt": "2026-11-09T16:32:50.002Z"
+      },
+      "publishedMediaId": "17914302960483710",
+      "publishedAt": "2026-11-09T16:32:50.002Z"
     },
     {
       "id": "2026-11-classic-19-prichastnyy-oborot",
