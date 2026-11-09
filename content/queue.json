@@ -10355,12 +10355,9 @@
         "musicOffsetSeconds": 0.7,
         "backgroundPosition": "50% 50%"
       },
-      "background": "outputs/cadence-variation-2026-11-03/assets/photos/books-pile.jpg",
-      "lightBg": true,
-      "generatedBg": false,
       "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-11-classic-18-giperbola-litota.mp4",
-      "coverUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-11-classic-18-giperbola-litota-frame.jpg",
       "coverOffsetMs": 12200,
+      "coverUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-11-classic-18-giperbola-litota-frame.jpg",
       "music": {
         "id": "schumann-traumerei",
         "file": "assets/music/schumann-traumerei-betts.mp3",
@@ -10407,6 +10404,18 @@
         "originalExcerptStartSeconds": 1.2999999999999998,
         "actualDurationSeconds": 35.04,
         "processingForReel": "loudnorm I=-18 LUFS, TP=-2 dBTP, LRA=8; fade in 0.6 s, fade out 1.2 s"
+      },
+      "background": "outputs/cadence-variation-2026-11-03/assets/photos/books-pile.jpg",
+      "lightBg": true,
+      "generatedBg": false,
+      "feedDelivery": {
+        "fingerprint": "e294d61dc619947efb2cd9cfd9186aee5f2b70e546804b14689ce268f0d08fb5",
+        "startedAt": "2026-11-09T16:32:03.519Z",
+        "creationAttempts": 1,
+        "lastError": null,
+        "version": 1,
+        "phase": "container",
+        "updatedAt": "2026-11-09T16:32:03.519Z"
       }
     },
     {
