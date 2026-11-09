@@ -9018,12 +9018,9 @@
         "musicOffsetSeconds": 0,
         "backgroundPosition": "85% 50%"
       },
-      "background": "outputs/cadence-variation-2026-11-03/assets/photos/library-warm.jpg",
-      "lightBg": true,
-      "generatedBg": false,
       "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-11-classic-07-bukvy-zvuki.mp4",
-      "coverUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-11-classic-07-bukvy-zvuki-frame.jpg",
       "coverOffsetMs": 12200,
+      "coverUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-11-classic-07-bukvy-zvuki-frame.jpg",
       "music": {
         "id": "satie-gymnopedie3",
         "file": "assets/music/satie-gymnopedie3-teknopazzo.mp3",
@@ -9070,6 +9067,18 @@
         "originalExcerptStartSeconds": 0.5,
         "actualDurationSeconds": 35.04,
         "processingForReel": "loudnorm I=-18 LUFS, TP=-2 dBTP, LRA=8; fade in 0.6 s, fade out 1.2 s"
+      },
+      "background": "outputs/cadence-variation-2026-11-03/assets/photos/library-warm.jpg",
+      "lightBg": true,
+      "generatedBg": false,
+      "feedDelivery": {
+        "fingerprint": "d4a9346596ab3a63b9cf7019539f375d7078e9eb6ea3e0d740d9b863893ac331",
+        "startedAt": "2026-11-09T15:58:09.905Z",
+        "creationAttempts": 1,
+        "lastError": null,
+        "version": 1,
+        "phase": "container",
+        "updatedAt": "2026-11-09T15:58:09.905Z"
       }
     },
     {
