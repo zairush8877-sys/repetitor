@@ -10414,12 +10414,13 @@
         "creationAttempts": 1,
         "lastError": null,
         "version": 1,
-        "phase": "preparing",
-        "updatedAt": "2026-11-09T16:32:36.358Z",
+        "phase": "publishing",
+        "updatedAt": "2026-11-09T16:32:37.457Z",
         "containerId": "18034978697887754",
         "containerCreatedAt": "2026-11-09T16:32:06.917Z",
         "failedStage": null,
-        "readyAt": "2026-11-09T16:32:36.358Z"
+        "readyAt": "2026-11-09T16:32:36.358Z",
+        "publishAttemptedAt": "2026-11-09T16:32:37.457Z"
       }
     },
     {
