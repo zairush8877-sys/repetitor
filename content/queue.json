@@ -7985,10 +7985,11 @@
         "lastError": null,
         "version": 1,
         "phase": "preparing",
-        "updatedAt": "2026-11-10T14:44:42.691Z",
+        "updatedAt": "2026-11-10T14:45:24.908Z",
         "containerId": "18035106299887754",
         "containerCreatedAt": "2026-11-10T14:44:42.691Z",
-        "failedStage": null
+        "failedStage": null,
+        "readyAt": "2026-11-10T14:45:24.908Z"
       }
     },
     {
