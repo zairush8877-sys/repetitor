@@ -7995,7 +7995,24 @@
         "publishedAt": "2026-11-10T14:45:41.284Z"
       },
       "publishedMediaId": "17995116177068584",
-      "publishedAt": "2026-11-10T14:45:41.284Z"
+      "publishedAt": "2026-11-10T14:45:43.269Z",
+      "storyRepost": {
+        "version": 1,
+        "feedMediaId": "17995116177068584",
+        "status": "pending",
+        "items": [
+          {
+            "index": 1,
+            "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/anna-v3-20261031-06-ne-glagol-full.mp4",
+            "sha256": "fc791632e3bff5c57b2057eeec7cc234d25fe916ee310491ecec57de255dbca4",
+            "mediaType": "VIDEO",
+            "mimeType": "video/mp4",
+            "status": "pending",
+            "attempts": 0
+          }
+        ],
+        "sourceKey": "594a94aad16c824ab891b0d5c20296175e03f195ccd580e6770841d7a11a3299"
+      }
     },
     {
       "id": "anna-v3-20261031-07-kommentariy-ege",
