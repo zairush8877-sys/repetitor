@@ -10642,7 +10642,7 @@
         "Пунктуация"
       ],
       "title": "Один список.\nРазные запятые.",
-      "status": "approved",
+      "status": "published",
       "date": "2026-11-10",
       "scheduledAt": "2026-11-10T07:00:00.000Z",
       "campaignId": "anna-retouch-music-v3-20261031",
@@ -10720,14 +10720,18 @@
         "creationAttempts": 1,
         "lastError": null,
         "version": 1,
-        "phase": "publishing",
-        "updatedAt": "2026-11-10T15:00:57.492Z",
+        "phase": "published",
+        "updatedAt": "2026-11-10T15:01:10.982Z",
         "containerId": "18035110673887754",
         "containerCreatedAt": "2026-11-10T15:00:26.709Z",
         "failedStage": null,
         "readyAt": "2026-11-10T15:00:54.905Z",
-        "publishAttemptedAt": "2026-11-10T15:00:57.492Z"
-      }
+        "publishAttemptedAt": "2026-11-10T15:00:57.492Z",
+        "mediaId": "18101684690439904",
+        "publishedAt": "2026-11-10T15:01:10.982Z"
+      },
+      "publishedMediaId": "18101684690439904",
+      "publishedAt": "2026-11-10T15:01:10.982Z"
     },
     {
       "id": "2026-11-classic-21-skazuemoe",
