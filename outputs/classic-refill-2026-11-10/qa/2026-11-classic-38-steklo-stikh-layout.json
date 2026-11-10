@@ -1,0 +1,27 @@
+{
+  "id": "2026-11-classic-38-steklo-stikh",
+  "previewOnly": true,
+  "total": 13.2,
+  "key": "5cbc0995263c2af9644eb00d602953c742aa2c6d274e61539264b124ae8a7425",
+  "assets": {
+    "photoId": "desk-books-laptop",
+    "photoFile": "assets/photos/desk-books-laptop.jpg",
+    "photoSha256": "a4119976851da05702c68142d473a2cb55fd76462eda5518a81e349740047c3d",
+    "musicId": "satie-gymnopedie3",
+    "musicFile": "assets/music/satie-gymnopedie3-teknopazzo.mp3",
+    "musicSha256": "a3a9a3e120888f9fc58f4bbac11d9f7b98870b3ddbf260b5785a24fe0fd36a7e",
+    "musicOffsetSeconds": 0,
+    "backgroundPosition": "35% 50%"
+  },
+  "measured": {
+    "cardTop": 639.5625,
+    "cardBottom": 1162.5625,
+    "rowFont": 52,
+    "titleFont": 94,
+    "footerCount": 0,
+    "cellOverflow": false,
+    "text": "АВТОРСКАЯ ОЛИМПИАДНАЯ РАЗМИНКА\nСтекло и стих.\nНайдите глаголы.\nНАШ ФРАГМЕНТ\nЧТО ОБОЗНАЧАЕТ СЛОВО\nтонкое стекло\nназвание\nмолоко стекло\nдействие\nкороткий стих\nназвание\nветер стих\nдействие"
+  },
+  "previewFile": "qa/2026-11-classic-38-steklo-stikh-preview.jpg",
+  "previewSha256": "7c7247ccb840501a13bb2a2ce39930aaf0d3bb779284f06696fd9c69cde3186e"
+}

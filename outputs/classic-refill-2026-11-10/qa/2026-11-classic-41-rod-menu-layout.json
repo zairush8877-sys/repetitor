@@ -1,0 +1,27 @@
+{
+  "id": "2026-11-classic-41-rod-menu",
+  "previewOnly": true,
+  "total": 13.2,
+  "key": "cfad08ad9ca5d57b6d1ccaed5fd351ef917c6c16f187c8d98a7e615473e2549a",
+  "assets": {
+    "photoId": "library-warm",
+    "photoFile": "assets/photos/library-warm.jpg",
+    "photoSha256": "b5a167b69b7828e55fe9c63963f3b37777fba4abd944c1b5c7053094190746aa",
+    "musicId": "schubert-d784-andante",
+    "musicFile": "assets/music/schubert-d784-andante-pitman.mp3",
+    "musicSha256": "037cb154ac95ac0c61036de7e46cf6d0c45d6ae4f9058b557e55333f834ea880",
+    "musicOffsetSeconds": 0,
+    "backgroundPosition": "85% 50%"
+  },
+  "measured": {
+    "cardTop": 639.5625,
+    "cardBottom": 1292.5625,
+    "rowFont": 52,
+    "titleFont": 94,
+    "footerCount": 0,
+    "cellOverflow": false,
+    "text": "ОН, ОНА ИЛИ ОНО В МЕНЮ\nКакао — горячее.\nА сулугуни?\nНЕПРАВИЛЬНО\nПРАВИЛЬНО\nгорячий какао\nгорячий какао\nгорячее какао\nострое салями\nострое салями\nострая салями\nсвежее сулугуни\nсвежее сулугуни\nсвежий сулугуни\nполезный брокколи\nполезный брокколи\nполезная брокколи"
+  },
+  "previewFile": "qa/2026-11-classic-41-rod-menu-preview.jpg",
+  "previewSha256": "eee3bca2f53fe76c3e3b7dcab21a7159500f7709d1bb6ae2b437c8062e108f5b"
+}

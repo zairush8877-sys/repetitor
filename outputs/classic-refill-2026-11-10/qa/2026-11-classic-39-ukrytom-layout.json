@@ -1,0 +1,27 @@
+{
+  "id": "2026-11-classic-39-ukrytom",
+  "previewOnly": true,
+  "total": 13.2,
+  "key": "fa17bcccb74e4f8737e4934adc37be29a4bf05a6a2458e73615bd12c0b2671ec",
+  "assets": {
+    "photoId": "blank-books-table",
+    "photoFile": "assets/photos/blank-books-table.jpg",
+    "photoSha256": "2b1ed71fc07dd46f8d66a02a33ffd4c7c1df59a8c0294789366f8698f84fa537",
+    "musicId": "schumann-traumerei",
+    "musicFile": "assets/music/schumann-traumerei-betts.mp3",
+    "musicSha256": "462a9a6f3d384619bea04104bda120185f083da4efcffa3402ff12a6693fb9dd",
+    "musicOffsetSeconds": 0.7,
+    "backgroundPosition": "50% 50%"
+  },
+  "measured": {
+    "cardTop": 639.5625,
+    "cardBottom": 1617.5625,
+    "rowFont": 52,
+    "titleFont": 94,
+    "footerCount": 0,
+    "cellOverflow": false,
+    "text": "ЕГЭ • СОГЛАСОВАНИЕ ПРИЧАСТИЯ\nУкрытом.\nИли укрытым?\nНАШЕ СОЧЕТАНИЕ\nВОПРОС К ПРИЧАСТИЮ\nлес, укрытый снегом\nкакой?\nв лесу, укрытом снегом\nкаком?\nнад лесом, укрытым снегом\nкаким?\nк лесу, укрытому снегом\nкакому?"
+  },
+  "previewFile": "qa/2026-11-classic-39-ukrytom-preview.jpg",
+  "previewSha256": "0808a469cc9a274202a24f3ac4128e27bdb6f0b5b4868a4902b70eb28c686046"
+}

@@ -1,0 +1,78 @@
+{
+  "expectedMainHead": "d8c5e06e2da77f8b492308884a8ceb7834209272",
+  "sourceQueueSha256": "de51600b580075cf6587b1f1bdd64c15c2285580db35c24d1d003a17ffe3628d",
+  "totalQueuePosts": 144,
+  "approvedOrPublishedPosts": 133,
+  "recursiveContentLeaves": 4350,
+  "normalized": "Unicode normalization,casefold,ё=е,acute-stress stripped,collapsed whitespace",
+  "checks": [
+    {
+      "postId": "2026-11-classic-38-steklo-stikh",
+      "exactTitleDuplicates": [],
+      "exampleDuplicates": []
+    },
+    {
+      "postId": "2026-11-classic-39-ukrytom",
+      "exactTitleDuplicates": [],
+      "exampleDuplicates": []
+    },
+    {
+      "postId": "2026-11-classic-40-sspspp",
+      "exactTitleDuplicates": [],
+      "exampleDuplicates": []
+    },
+    {
+      "postId": "2026-11-classic-41-rod-menu",
+      "exactTitleDuplicates": [],
+      "exampleDuplicates": []
+    },
+    {
+      "postId": "2026-11-classic-42-ova-yva",
+      "exactTitleDuplicates": [],
+      "exampleDuplicates": []
+    },
+    {
+      "postId": "2026-11-classic-43-lena",
+      "exactTitleDuplicates": [],
+      "exampleDuplicates": []
+    }
+  ],
+  "newPostCount": 6,
+  "uniqueIds": 6,
+  "rowPairs": 24,
+  "captionVariants": 12,
+  "maxCellChars": 25,
+  "maxCellWordLetters": 11,
+  "newSchoolPosts": [
+    "2026-11-classic-38-steklo-stikh"
+  ],
+  "schoolQuotaCheck": {
+    "week": [
+      "2026-11-16",
+      "2026-11-22"
+    ],
+    "existingCampaignSchoolQuotaOverride": true,
+    "ruleSource": "base/check-content.js:119; only primary matching campaign IDs are excluded",
+    "excludedPrimaryVoicePosts": [
+      {
+        "id": "anna-v3-20261031-09-omonimy",
+        "date": "2026-11-16",
+        "status": "approved"
+      },
+      {
+        "id": "anna-v3-20261031-10-odna-bukva",
+        "date": "2026-11-18",
+        "status": "approved"
+      }
+    ],
+    "countedPosts": [
+      {
+        "id": "2026-11-classic-38-steklo-stikh",
+        "date": "2026-11-16",
+        "status": "draft"
+      }
+    ],
+    "count": 1,
+    "pass": true
+  }
+}
