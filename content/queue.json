@@ -7965,7 +7965,28 @@
       "hashtags": [],
       "durationSeconds": 18.2,
       "assetVersion": "V3-retouch-music",
-      "storyRepostMode": "full_video"
+      "storyRepostMode": "full_video",
+      "imageUrls": [
+        "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/anna-v3-20261031-06-ne-glagol-cover.jpg"
+      ],
+      "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/anna-v3-20261031-06-ne-glagol.mp4",
+      "coverOffsetMs": 0,
+      "coverUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/anna-v3-20261031-06-ne-glagol-cover.jpg",
+      "music": {
+        "composer": "Kevin MacLeod",
+        "piece": "Easy Lemon",
+        "attributionRequired": true,
+        "attribution": "Музыка: Easy Lemon — Kevin MacLeod (incompetech.com), CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/. Источник: https://incompetech.com/music/royalty-free/index.html?Search=Search&isrc=USUAN1200076. Фрагмент обрезан, эквализирован и приглушён под голосом."
+      },
+      "feedDelivery": {
+        "fingerprint": "eced29ba3691473f5e30916eb8519b5452e09d06ef27ffd191614dcd58a80d15",
+        "startedAt": "2026-11-10T14:44:38.379Z",
+        "creationAttempts": 1,
+        "lastError": null,
+        "version": 1,
+        "phase": "container",
+        "updatedAt": "2026-11-10T14:44:38.379Z"
+      }
     },
     {
       "id": "anna-v3-20261031-07-kommentariy-ege",
