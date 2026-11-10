@@ -8007,7 +8007,7 @@
             "sha256": "fc791632e3bff5c57b2057eeec7cc234d25fe916ee310491ecec57de255dbca4",
             "mediaType": "VIDEO",
             "mimeType": "video/mp4",
-            "status": "preparing",
+            "status": "publishing",
             "attempts": 1,
             "attemptedAt": "2026-11-10T14:45:45.951Z",
             "containerId": "18035106644887754"
