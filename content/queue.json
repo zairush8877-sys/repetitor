@@ -10720,12 +10720,13 @@
         "creationAttempts": 1,
         "lastError": null,
         "version": 1,
-        "phase": "preparing",
-        "updatedAt": "2026-11-10T15:00:54.905Z",
+        "phase": "publishing",
+        "updatedAt": "2026-11-10T15:00:57.492Z",
         "containerId": "18035110673887754",
         "containerCreatedAt": "2026-11-10T15:00:26.709Z",
         "failedStage": null,
-        "readyAt": "2026-11-10T15:00:54.905Z"
+        "readyAt": "2026-11-10T15:00:54.905Z",
+        "publishAttemptedAt": "2026-11-10T15:00:57.492Z"
       }
     },
     {
