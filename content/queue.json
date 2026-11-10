@@ -10731,7 +10731,24 @@
         "publishedAt": "2026-11-10T15:01:10.982Z"
       },
       "publishedMediaId": "18101684690439904",
-      "publishedAt": "2026-11-10T15:01:10.982Z"
+      "publishedAt": "2026-11-10T15:01:13.601Z",
+      "storyRepost": {
+        "version": 1,
+        "feedMediaId": "18101684690439904",
+        "status": "pending",
+        "items": [
+          {
+            "index": 1,
+            "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-11-classic-20-odnorodnye-full.mp4",
+            "sha256": "e2744bff0392995cc0147b35b25e124e11d79d619d6fdee354be27efb1d40a9a",
+            "mediaType": "VIDEO",
+            "mimeType": "video/mp4",
+            "status": "pending",
+            "attempts": 0
+          }
+        ],
+        "sourceKey": "dc6cdfb59d7e316c829ff0a97c9c9516da040ea547899905a8f6693a350c0677"
+      }
     },
     {
       "id": "2026-11-classic-21-skazuemoe",
