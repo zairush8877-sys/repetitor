@@ -5050,75 +5050,35 @@
     },
     "2026-11-classic-34-metafora": {
       "version": 1,
-      "draftKey": "9045b00c68b5a9a4df48b9af245677dce267e07015d317faf09af24ec664e204",
-      "builtAt": "2026-11-07T09:57:06.538Z",
+      "draftKey": "2bb624577d80b49c8da7a1bdf73664a33a950a7da53f092e54d24f443ae7fd88",
+      "builtAt": "2026-11-12T21:32:34.728Z",
       "media": {
-        "background": "outputs/classic-refill-2026-11-07/assets/photos/books-pile.jpg",
-        "lightBg": true,
-        "generatedBg": false,
         "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-11-classic-34-metafora.mp4",
-        "coverUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-11-classic-34-metafora-frame.jpg",
-        "coverOffsetMs": 12200,
+        "coverOffsetMs": 7200,
         "music": {
-          "id": "schubert-d784-andante",
-          "file": "assets/music/schubert-d784-andante-pitman.mp3",
-          "composer": "Франц Шуберт",
-          "piece": "Соната ля минор, D.784 — II. Andante",
-          "title": "Piano Sonata in A minor, D.784: II. Andante",
-          "performer": "Paul Pitman",
-          "license": "Public domain declaration by copyright holder (PDM-owner)",
-          "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
-          "commonsTitle": "File:Schubert's Piano Sonata in A minor, D.784 - II. Andante (in F major) - Paul Pitman.ogg",
-          "recordingRights": "На странице конкретной записи стоит PDM-owner: Commons описывает применение PDM самим правообладателем как объявление своей записи общественным достоянием. Исполнитель Paul Pitman, источник его файл IMSLP, дата 17.08.2012. Это отдельная декларация на запись, не один возраст Шуберта.",
-          "compositionRights": "Шуберт (1797–1828); соната D.784 (1823): public domain; право на запись подтверждено отдельно PDM-owner.",
-          "sourceExcerptStartSeconds": 0.6,
-          "durationSeconds": 35.04,
-          "attribution": "Ф. Шуберт — Соната D.784, II. Andante. Фортепиано: Paul Pitman (2012). Запись public domain (PDM-owner); фрагмент, громкость изменена.",
-          "character": "Неторопливая фортепианная часть.",
-          "source": "https://commons.wikimedia.org/wiki/File:Schubert%27s_Piano_Sonata_in_A_minor,_D.784_-_II._Andante_(in_F_major)_-_Paul_Pitman.ogg",
-          "sourceDownloadUrl": "https://upload.wikimedia.org/wikipedia/commons/5/56/Schubert%27s_Piano_Sonata_in_A_minor%2C_D.784_-_II._Andante_%28in_F_major%29_-_Paul_Pitman.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "commonsPageId": 128910390,
-          "commonsRevisionId": 1227005631,
-          "sourcePermanentUrl": "https://commons.wikimedia.org/w/index.php?oldid=1227005631",
-          "sourceFileTimestamp": "2023-02-20T23:01:56Z",
-          "sourceFileSha1": "7b392f4cb240bc848bad96438001ed60f048b5e9",
-          "attributionRequired": false,
-          "commonsLicenseShortName": "PDM-owner",
-          "commonsLicenseUrl": null,
-          "commonsArtist": "Paul Pitman",
-          "sourceSha256": "1d0840c8f663d8b8983e6f5044705adad913f690e1c1d0c7ca6536b99b444f1a",
-          "sourceBytes": 2681111,
-          "downloadedAtUtc": "2026-11-03T20:48:29.136274+00:00",
-          "sha256": "037cb154ac95ac0c61036de7e46cf6d0c45d6ae4f9058b557e55333f834ea880",
-          "processing": "35 s excerpt, loudnorm I=-23 LUFS / TP=-3 dBTP / LRA=7, fade in 0.25 s, fade out 0.8 s; 48 kHz stereo MP3 192 kbps",
-          "technicalQa": {
-            "decoded": true,
-            "sampleRate": 48000,
-            "channels": 2,
-            "codec": "mp3",
-            "mean_volume": -25,
-            "max_volume": -3.3,
-            "humanListening": false
-          },
-          "offsetSeconds": 1.4,
-          "excerptDurationSeconds": 13.2,
-          "originalExcerptStartSeconds": 2,
-          "actualDurationSeconds": 35.04,
-          "processingForReel": "loudnorm I=-18 LUFS, TP=-2 dBTP, LRA=8; fade in 0.6 s, fade out 1.2 s"
-        }
+          "composer": "Kevin MacLeod",
+          "piece": "Onion Capers",
+          "license": "CC BY 4.0",
+          "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1800023",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "attribution": "Onion Capers — Kevin MacLeod (incompetech.com). CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/. Фрагмент обрезан и сведён с видео.",
+          "attributionRequired": true
+        },
+        "background": "assets/photos/clay-banks-notebook.jpg",
+        "lightBg": true
       },
       "files": [
         {
           "relative": "reels/2026-11-classic-34-metafora.mp4",
           "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-11-classic-34-metafora.mp4",
-          "size": 1265428,
-          "sha256": "a76c5c22b74bf6af802cfc2df44646e0c6c7d2fd0cd8d1ce5040c16332c33560"
+          "size": 296814,
+          "sha256": "44bd021d486f4553b3b39ccb3a5e13b135da0a7ed481ffde59f7e0ad0988f6e0"
         },
         {
           "relative": "reels/2026-11-classic-34-metafora-frame.jpg",
           "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-11-classic-34-metafora-frame.jpg",
-          "size": 484208,
-          "sha256": "cd143189853e1813dbcc539af2647dda247bef832e73f23efe659111f313a8bd"
+          "size": 141200,
+          "sha256": "81f59affe590b06fa66431bdd0445e405f534a5e142c9d6632aab8b7ed66dc13"
         }
       ]
     },
@@ -5198,60 +5158,35 @@
     },
     "2026-11-classic-36-gar-gor": {
       "version": 1,
-      "draftKey": "089bffdb0565de4e0dac050b24dad89f271c4bde2cbfa1c1f7b0b58ba38ed46e",
-      "builtAt": "2026-11-08T10:19:35.559Z",
+      "draftKey": "c067e4c59f9b936f4ef4ce56498eede4329274a67bfc36dc143b78c9823fde1c",
+      "builtAt": "2026-11-12T21:32:34.733Z",
       "media": {
-        "background": "outputs/classic-refill-2026-11-08/assets/photos/uppsala-bookshelves.jpg",
-        "lightBg": true,
-        "generatedBg": false,
         "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-11-classic-36-gar-gor.mp4",
-        "coverUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-11-classic-36-gar-gor-frame.jpg",
-        "coverOffsetMs": 12200,
+        "coverOffsetMs": 7200,
         "music": {
-          "id": "bach-var1-ishizaka",
-          "file": "assets/music/bach-var1-ishizaka.mp3",
-          "composer": "Иоганн Себастьян Бах",
-          "piece": "Гольдберг-вариации, BWV 988 — Вариация № 1",
-          "title": "Goldberg Variations, BWV 988: Variatio 1 a 1 Clav.",
-          "performer": "Кимико Ишизака",
-          "license": "CC0 1.0",
-          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-          "source": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
-          "rightsSource": "https://opengoldbergvariations.org/",
-          "sourceDownloadUrl": "https://upload.wikimedia.org/wikipedia/commons/2/20/Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
-          "recordingRights": "Open Goldberg 2012 recording released under CC0; not inferred from composition age",
-          "compositionRights": "Public domain: J. S. Bach (1685–1750)",
-          "attribution": "И. С. Бах — Гольдберг-вариации, BWV 988, вариация № 1. Фортепиано: Кимико Ишизака, Open Goldberg Variations (2012). Запись CC0 1.0. Фрагмент, громкость изменена.",
-          "attributionRequired": false,
-          "sha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8",
-          "sourceSha256": "0539f3612413f6077c82e16f92417bad112e44017536f59db257c8179718076f",
-          "sourceExcerptStartSeconds": 0.7,
-          "durationSeconds": 32.04,
-          "reusedFrom": "outputs/cadence-2026-11-03/assets/bach-var1.mp3",
-          "technicalQa": {
-            "decoded": true,
-            "humanListening": false
-          },
-          "character": "Ранее использованная лёгкая клавирная вариация; ставится последней в цикле.",
-          "offsetSeconds": 0.7,
-          "excerptDurationSeconds": 13.2,
-          "originalExcerptStartSeconds": 1.4,
-          "actualDurationSeconds": 32.04,
-          "processingForReel": "loudnorm I=-18 LUFS, TP=-2 dBTP, LRA=8; fade in 0.6 s, fade out 1.2 s"
-        }
+          "composer": "Kevin MacLeod",
+          "piece": "Easy Lemon",
+          "license": "CC BY 4.0",
+          "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1200076",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "attribution": "Easy Lemon — Kevin MacLeod (incompetech.com). CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/. Фрагмент обрезан и сведён с видео.",
+          "attributionRequired": true
+        },
+        "background": "assets/photos/marble-pineapple.jpg",
+        "lightBg": true
       },
       "files": [
         {
           "relative": "reels/2026-11-classic-36-gar-gor.mp4",
           "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-11-classic-36-gar-gor.mp4",
-          "size": 2044559,
-          "sha256": "e9b9c153b656bf20ed011e3a036f15d6e3d1bcbb3917a0466598133b7d1beb7e"
+          "size": 309681,
+          "sha256": "4a5d5ebd30af295a84a18ea3d9298e8716707eae0a45b3c63c06368d0ecffd98"
         },
         {
           "relative": "reels/2026-11-classic-36-gar-gor-frame.jpg",
           "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-11-classic-36-gar-gor-frame.jpg",
-          "size": 857465,
-          "sha256": "6dc5f520ebb2e9a3c1dfcbf5743b2b04144b2e63844c8f54866c65068af8d31c"
+          "size": 141161,
+          "sha256": "b0ead470af19edcf38342123c35ccce6b5d909112f1fd5c87086029ab41b7f1d"
         }
       ]
     },
@@ -6130,75 +6065,35 @@
     },
     "2026-11-classic-49-olitsetvorenie": {
       "version": 1,
-      "draftKey": "87deeccbc543ff8f202171c7e46b3e8f25a96ad6b9d0fca79ee71b944f64f6ab",
-      "builtAt": "2026-11-12T19:32:43.419Z",
+      "draftKey": "4643b36dbb7cbdf51845f3b0eaa9389a004fe264d67b0730ad12a71dda73f373",
+      "builtAt": "2026-11-12T21:32:34.736Z",
       "media": {
-        "background": "outputs/classic-refill-2026-11-12/assets/photos/library-warm.jpg",
-        "lightBg": true,
-        "generatedBg": false,
         "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-11-classic-49-olitsetvorenie.mp4",
-        "coverUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-11-classic-49-olitsetvorenie-frame.jpg",
-        "coverOffsetMs": 12200,
+        "coverOffsetMs": 7200,
         "music": {
-          "id": "chopin-op37-no2",
-          "file": "assets/music/chopin-op37-no2-gurevich.mp3",
-          "composer": "Фридерик Шопен",
-          "piece": "Ноктюрн соль мажор, op. 37 № 2",
-          "title": "Nocturne in G major, Op. 37 No. 2",
-          "performer": "Olga Gurevich",
-          "license": "CC0 1.0",
-          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-          "commonsTitle": "File:Chopin Nocturne Op 37 no 2 in G major Olga Gurevich.ogg",
-          "recordingRights": "CC0 1.0 на странице конкретной записи Olga Gurevich; источник Musopen download/12225. Включает связанные права на запись в пределах CC0.",
-          "compositionRights": "Шопен (1810–1849), op.37 (1840): public domain; современная запись отдельно CC0.",
-          "sourceExcerptStartSeconds": 0.7,
-          "durationSeconds": 35.04,
-          "attribution": "Ф. Шопен — Ноктюрн op. 37 № 2. Фортепиано: Olga Gurevich, Musopen. Запись CC0 1.0; фрагмент, громкость изменена.",
-          "character": "Плавное фортепианное движение; другое произведение и мелодия относительно op.62.",
-          "source": "https://commons.wikimedia.org/wiki/File:Chopin_Nocturne_Op_37_no_2_in_G_major_Olga_Gurevich.ogg",
-          "sourceDownloadUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Chopin_Nocturne_Op_37_no_2_in_G_major_Olga_Gurevich.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "commonsPageId": 62686803,
-          "commonsRevisionId": 857612175,
-          "sourcePermanentUrl": "https://commons.wikimedia.org/w/index.php?oldid=857612175",
-          "sourceFileTimestamp": "2017-09-23T13:04:51Z",
-          "sourceFileSha1": "a3a6eef09427f3d7455fbb0cc2d4a8c70bbe842b",
-          "attributionRequired": false,
-          "commonsLicenseShortName": "CC0",
-          "commonsLicenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-          "commonsArtist": "Olga Gurevich",
-          "sourceSha256": "9d2f9a857514ffc894057c0a50d4088bf82693915a94d1f2ed9ab9f5cbcc0fbb",
-          "sourceBytes": 4792732,
-          "downloadedAtUtc": "2026-11-03T20:48:37.627635+00:00",
-          "sha256": "1e3255e0c1b8e936c92c146d44977015b471da6c153737fa3cd49ac61bc10a50",
-          "processing": "35 s excerpt, loudnorm I=-23 LUFS / TP=-3 dBTP / LRA=7, fade in 0.25 s, fade out 0.8 s; 48 kHz stereo MP3 192 kbps",
-          "technicalQa": {
-            "decoded": true,
-            "sampleRate": 48000,
-            "channels": 2,
-            "codec": "mp3",
-            "mean_volume": -25.4,
-            "max_volume": -7.7,
-            "humanListening": false
-          },
-          "offsetSeconds": 1.4,
-          "excerptDurationSeconds": 13.2,
-          "originalExcerptStartSeconds": 2.0999999999999996,
-          "actualDurationSeconds": 35.04,
-          "processingForReel": "loudnorm I=-18 LUFS, TP=-2 dBTP, LRA=8; fade in 0.6 s, fade out 1.2 s"
-        }
+          "composer": "Kevin MacLeod",
+          "piece": "Carefree",
+          "license": "CC BY 4.0",
+          "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1400037",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "attribution": "Carefree — Kevin MacLeod (incompetech.com). CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/. Фрагмент обрезан и сведён с видео.",
+          "attributionRequired": true
+        },
+        "background": "assets/photos/pencils-dorohovich.jpg",
+        "lightBg": true
       },
       "files": [
         {
           "relative": "reels/2026-11-classic-49-olitsetvorenie.mp4",
           "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-11-classic-49-olitsetvorenie.mp4",
-          "size": 1238914,
-          "sha256": "1ebeeca53baeac693a664f47a03009333d05059acb7ebae4e5e8dcb33f676252"
+          "size": 300841,
+          "sha256": "37bfa70e9d8359617d0fc34534fcf5f966de880b72a97c9214f22a05fbefb868"
         },
         {
           "relative": "reels/2026-11-classic-49-olitsetvorenie-frame.jpg",
           "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-11-classic-49-olitsetvorenie-frame.jpg",
-          "size": 499261,
-          "sha256": "3bc251657972351a1b597914e606caebae81c0e15fd78feab084fd8514d28ca2"
+          "size": 155950,
+          "sha256": "453d1b2f39116c35f8177635780a5d89ac83aaa0d44c80b7652d5f0bf6bca9a0"
         }
       ]
     }

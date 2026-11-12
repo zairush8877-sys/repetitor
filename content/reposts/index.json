@@ -3984,7 +3984,7 @@
     "2026-11-classic-34-metafora": {
       "kind": "reel_video",
       "sourceKey": "4f4822acc4290fbb544bcfa1a68b9bacd004c15764e9aefccbbe9e0a1e8a2f3a",
-      "renderedAt": "2026-11-07T09:57:06.538Z",
+      "renderedAt": "2026-11-12T21:32:34.728Z",
       "publicationStatus": "export_only",
       "assets": [
         {
@@ -3995,7 +3995,7 @@
           "height": 1920,
           "mediaType": "VIDEO",
           "mimeType": "video/mp4",
-          "sha256": "a76c5c22b74bf6af802cfc2df44646e0c6c7d2fd0cd8d1ce5040c16332c33560",
+          "sha256": "44bd021d486f4553b3b39ccb3a5e13b135da0a7ed481ffde59f7e0ad0988f6e0",
           "geometry": {
             "sourceWidth": 1080,
             "sourceHeight": 1920,
@@ -4018,8 +4018,8 @@
               "width": 1080,
               "height": 1920
             },
-            "sourceSha256": "a76c5c22b74bf6af802cfc2df44646e0c6c7d2fd0cd8d1ce5040c16332c33560",
-            "sha256": "a76c5c22b74bf6af802cfc2df44646e0c6c7d2fd0cd8d1ce5040c16332c33560"
+            "sourceSha256": "44bd021d486f4553b3b39ccb3a5e13b135da0a7ed481ffde59f7e0ad0988f6e0",
+            "sha256": "44bd021d486f4553b3b39ccb3a5e13b135da0a7ed481ffde59f7e0ad0988f6e0"
           }
         }
       ]
@@ -4070,7 +4070,7 @@
     "2026-11-classic-36-gar-gor": {
       "kind": "reel_video",
       "sourceKey": "776465d47853b7224504e5531c61dfaf1b0bebe43b0b603afcf1f98a113f62d0",
-      "renderedAt": "2026-11-08T10:19:35.557Z",
+      "renderedAt": "2026-11-12T21:32:34.733Z",
       "publicationStatus": "export_only",
       "assets": [
         {
@@ -4081,7 +4081,7 @@
           "height": 1920,
           "mediaType": "VIDEO",
           "mimeType": "video/mp4",
-          "sha256": "e9b9c153b656bf20ed011e3a036f15d6e3d1bcbb3917a0466598133b7d1beb7e",
+          "sha256": "4a5d5ebd30af295a84a18ea3d9298e8716707eae0a45b3c63c06368d0ecffd98",
           "geometry": {
             "sourceWidth": 1080,
             "sourceHeight": 1920,
@@ -4104,8 +4104,8 @@
               "width": 1080,
               "height": 1920
             },
-            "sourceSha256": "e9b9c153b656bf20ed011e3a036f15d6e3d1bcbb3917a0466598133b7d1beb7e",
-            "sha256": "e9b9c153b656bf20ed011e3a036f15d6e3d1bcbb3917a0466598133b7d1beb7e"
+            "sourceSha256": "4a5d5ebd30af295a84a18ea3d9298e8716707eae0a45b3c63c06368d0ecffd98",
+            "sha256": "4a5d5ebd30af295a84a18ea3d9298e8716707eae0a45b3c63c06368d0ecffd98"
           }
         }
       ]
@@ -4629,7 +4629,7 @@
     "2026-11-classic-49-olitsetvorenie": {
       "kind": "reel_video",
       "sourceKey": "ece0058438e52daeb2f8f859e297aaad5aa72470d5fb94aab0a31b192bda59dd",
-      "renderedAt": "2026-11-12T19:32:43.418Z",
+      "renderedAt": "2026-11-12T21:32:34.736Z",
       "publicationStatus": "export_only",
       "assets": [
         {
@@ -4640,7 +4640,7 @@
           "height": 1920,
           "mediaType": "VIDEO",
           "mimeType": "video/mp4",
-          "sha256": "1ebeeca53baeac693a664f47a03009333d05059acb7ebae4e5e8dcb33f676252",
+          "sha256": "37bfa70e9d8359617d0fc34534fcf5f966de880b72a97c9214f22a05fbefb868",
           "geometry": {
             "sourceWidth": 1080,
             "sourceHeight": 1920,
@@ -4663,8 +4663,8 @@
               "width": 1080,
               "height": 1920
             },
-            "sourceSha256": "1ebeeca53baeac693a664f47a03009333d05059acb7ebae4e5e8dcb33f676252",
-            "sha256": "1ebeeca53baeac693a664f47a03009333d05059acb7ebae4e5e8dcb33f676252"
+            "sourceSha256": "37bfa70e9d8359617d0fc34534fcf5f966de880b72a97c9214f22a05fbefb868",
+            "sha256": "37bfa70e9d8359617d0fc34534fcf5f966de880b72a97c9214f22a05fbefb868"
           }
         }
       ]
