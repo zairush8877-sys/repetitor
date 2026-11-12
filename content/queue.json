@@ -8041,7 +8041,28 @@
       "hashtags": [],
       "durationSeconds": 23.9,
       "assetVersion": "V3-retouch-music",
-      "storyRepostMode": "full_video"
+      "storyRepostMode": "full_video",
+      "imageUrls": [
+        "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/anna-v3-20261031-07-kommentariy-ege-cover.jpg"
+      ],
+      "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/anna-v3-20261031-07-kommentariy-ege.mp4",
+      "coverOffsetMs": 0,
+      "coverUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/anna-v3-20261031-07-kommentariy-ege-cover.jpg",
+      "music": {
+        "composer": "Kevin MacLeod",
+        "piece": "Easy Lemon",
+        "attributionRequired": true,
+        "attribution": "Музыка: Easy Lemon — Kevin MacLeod (incompetech.com), CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/. Источник: https://incompetech.com/music/royalty-free/index.html?Search=Search&isrc=USUAN1200076. Фрагмент обрезан, эквализирован и приглушён под голосом."
+      },
+      "feedDelivery": {
+        "fingerprint": "aba043a26484a0745b8baf480fb6bfc4e3ad7763b3ede7bab77acbbb7d1fc61a",
+        "startedAt": "2026-11-12T15:00:46.145Z",
+        "creationAttempts": 1,
+        "lastError": null,
+        "version": 1,
+        "phase": "container",
+        "updatedAt": "2026-11-12T15:00:46.145Z"
+      }
     },
     {
       "id": "anna-v3-20261031-08-deeprichastie",
