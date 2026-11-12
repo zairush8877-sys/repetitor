@@ -8071,7 +8071,24 @@
         "publishedAt": "2026-11-12T15:01:28.371Z"
       },
       "publishedMediaId": "17928444660202128",
-      "publishedAt": "2026-11-12T15:01:28.371Z"
+      "publishedAt": "2026-11-12T15:01:29.445Z",
+      "storyRepost": {
+        "version": 1,
+        "feedMediaId": "17928444660202128",
+        "status": "pending",
+        "items": [
+          {
+            "index": 1,
+            "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/anna-v3-20261031-07-kommentariy-ege-full.mp4",
+            "sha256": "646e5cb009d641685b2ca1f7fc6f36b903a8d5acbcf1e85ebe93b09a0aff4dc8",
+            "mediaType": "VIDEO",
+            "mimeType": "video/mp4",
+            "status": "pending",
+            "attempts": 0
+          }
+        ],
+        "sourceKey": "6eb0e23c00e27d2be529e8258285d7a66042812cb765134723311e63f6531986"
+      }
     },
     {
       "id": "anna-v3-20261031-08-deeprichastie",
