@@ -1,0 +1,27 @@
+{
+  "id": "2026-11-classic-24-prichastiya",
+  "previewOnly": true,
+  "total": 13.2,
+  "key": "9c48e8e87ca69f22b7e1ac1d9fa63697d409ad3cc44e7eb405f205af4207bf49",
+  "assets": {
+    "photoId": "library-bookshelves",
+    "photoFile": "assets/photos/library-bookshelves.jpg",
+    "photoSha256": "619db7cc81436dfad8f96b46fc64f076733f9fe1770965678c002b3a871d9178",
+    "musicId": "satie-gymnopedie3",
+    "musicFile": "assets/music/satie-gymnopedie3-teknopazzo.mp3",
+    "musicSha256": "a3a9a3e120888f9fc58f4bbac11d9f7b98870b3ddbf260b5785a24fe0fd36a7e",
+    "musicOffsetSeconds": 0.7,
+    "backgroundPosition": "50% 50%"
+  },
+  "measured": {
+    "cardTop": 639.5625,
+    "cardBottom": 1162.5625,
+    "rowFont": 52,
+    "titleFont": 94,
+    "footerCount": 0,
+    "cellOverflow": false,
+    "text": "ЕГЭ • СУФФИКСЫ ПРИЧАСТИЙ\nКлеящий.\nНо сеющий.\nНЕПРАВИЛЬНО\nПРАВИЛЬНО\nклеющий\nклеющий\nклеящий\nборящийся\nборящийся\nборющийся\nстроющий\nстроющий\nстроящий\nсеящий\nсеящий\nсеющий"
+  },
+  "previewFile": "qa/2026-11-classic-24-prichastiya-preview.jpg",
+  "previewSha256": "2f1991758267a0890f514d40c8c5a8e5df1d059a690e64ac21c0863bf4c2d0a8"
+}

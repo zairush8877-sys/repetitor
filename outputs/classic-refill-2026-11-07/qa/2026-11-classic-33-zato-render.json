@@ -1,0 +1,90 @@
+{
+  "id": "2026-11-classic-33-zato",
+  "key": "617b95f73de31b8068335df631f2e4ddc2c777e738a0d5df934de963cb35471d",
+  "total": 13.2,
+  "assets": {
+    "photoId": "library-warm",
+    "photoFile": "assets/photos/library-warm.jpg",
+    "photoSha256": "b5a167b69b7828e55fe9c63963f3b37777fba4abd944c1b5c7053094190746aa",
+    "musicId": "mozart40-andante",
+    "musicFile": "assets/music/mozart40-andante-musopen.mp3",
+    "musicSha256": "175d53e80d635a8237e44fc4dc9f4833c63d350231bdd459c49deca2b3cb8912",
+    "musicOffsetSeconds": 0.7,
+    "backgroundPosition": "85% 50%"
+  },
+  "music": {
+    "id": "mozart40-andante",
+    "file": "assets/music/mozart40-andante-musopen.mp3",
+    "composer": "Вольфганг Амадей Моцарт",
+    "piece": "Симфония № 40, K.550 — II. Andante",
+    "title": "Symphony No. 40, K.550: II. Andante",
+    "performer": "Musopen Symphony",
+    "license": "Public domain dedication by Musopen (PD-author)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "commonsTitle": "File:Mozart - Symphony No. 40 in G minor, K550 - II. Andante (Musopen Symphony).flac",
+    "recordingRights": "На странице раздельные Recording / Musical composition. Recording: Musopen посвятил эту запись public domain worldwide; исполнитель Musopen Symphony, дата 2012. Ссылка PDM — статус; основание права — явное посвящение записи Musopen.",
+    "compositionRights": "Моцарт (1756–1791); Симфония №40 (1788): public domain, отдельно от записи Musopen 2012.",
+    "sourceExcerptStartSeconds": 0.7,
+    "durationSeconds": 35.04,
+    "attribution": "В. А. Моцарт — Симфония № 40, II. Andante. Musopen Symphony (2012). Запись public domain; фрагмент, громкость изменена.",
+    "character": "Умеренная оркестровая часть, смена тембра по отношению к фортепиано.",
+    "source": "https://commons.wikimedia.org/wiki/File:Mozart_-_Symphony_No._40_in_G_minor,_K550_-_II._Andante_(Musopen_Symphony).flac",
+    "sourceDownloadUrl": "https://upload.wikimedia.org/wikipedia/commons/4/43/Mozart_-_Symphony_No._40_in_G_minor%2C_K550_-_II._Andante_%28Musopen_Symphony%29.flac?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsPageId": 155111448,
+    "commonsRevisionId": 963510932,
+    "sourcePermanentUrl": "https://commons.wikimedia.org/w/index.php?oldid=963510932",
+    "sourceFileTimestamp": "2024-11-12T05:51:40Z",
+    "sourceFileSha1": "78f4954db5c2130cafd91febd839cb854cc27c01",
+    "attributionRequired": false,
+    "commonsLicenseShortName": "Public domain",
+    "commonsLicenseUrl": null,
+    "commonsArtist": "Wolfgang Amadeus Mozart",
+    "sourceSha256": "ae3e45623e02b8b7417a174f1f4ce1c50f01f28fa213049e7e38ac5ceb88fd58",
+    "sourceBytes": 75011718,
+    "downloadedAtUtc": "2026-11-03T20:48:07.885801+00:00",
+    "sha256": "175d53e80d635a8237e44fc4dc9f4833c63d350231bdd459c49deca2b3cb8912",
+    "processing": "35 s excerpt, loudnorm I=-23 LUFS / TP=-3 dBTP / LRA=7, fade in 0.25 s, fade out 0.8 s; 48 kHz stereo MP3 192 kbps",
+    "technicalQa": {
+      "decoded": true,
+      "sampleRate": 48000,
+      "channels": 2,
+      "codec": "mp3",
+      "mean_volume": -25.6,
+      "max_volume": -5.5,
+      "humanListening": false
+    },
+    "offsetSeconds": 0.7,
+    "excerptDurationSeconds": 13.2,
+    "originalExcerptStartSeconds": 1.4,
+    "actualDurationSeconds": 35.04,
+    "processingForReel": "loudnorm I=-18 LUFS, TP=-2 dBTP, LRA=8; fade in 0.6 s, fade out 1.2 s"
+  },
+  "measured": {
+    "cardTop": 639.5625,
+    "cardBottom": 1422.5625,
+    "rowFont": 52,
+    "titleFont": 94,
+    "footerCount": 0,
+    "cellOverflow": false,
+    "text": "ЕГЭ • СОЮЗ ИЛИ МЕСТОИМЕНИЕ\nЗато.\nИли за то?\nНАШЕ ПРЕДЛОЖЕНИЕ\nПОДСТАНОВКА\nУстал, зато успел.\nно успел\nСпасибо за то письмо.\nза это письмо\nТесно, зато тепло.\nно тепло\nВзялся за то дело.\nза это дело"
+  },
+  "screenshotFrames": 122,
+  "sha256": "274a5bcc4daab927ba850fe4992def4be53496daa83a7fabdee781ad3f1b4e32",
+  "coverSha256": "23f076a3ae0f8ecfc4d3963c7abd04e54c8271dce3ac85197b871beafba76b53",
+  "streams": [
+    {
+      "type": "video",
+      "codec": "h264",
+      "width": 1080,
+      "height": 1920,
+      "duration": "13.200000"
+    },
+    {
+      "type": "audio",
+      "codec": "aac",
+      "duration": "13.200000",
+      "sampleRate": "48000"
+    }
+  ],
+  "decoded": true
+}

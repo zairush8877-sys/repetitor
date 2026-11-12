@@ -1,0 +1,26 @@
+{
+  "verdict": "pass",
+  "checkedAt": "2026-11-05T18:41:42.849756+00:00",
+  "releasePath": "/private/tmp/mama-classic-refill-2026-11-05/project/outputs/classic-refill-2026-11-05/release.json",
+  "releaseSha256AtReview": "3941658f0a637046515830bbf72f08d2366609aaf51c27c39b83f5bee27b9575",
+  "normalizedPostsWithoutStatusSha256": "ac4fca1335cdb2c89ce45996f560da72ed1d8b35c52b468620b7cd23679d5717",
+  "textProjectionSha256": "d0ffe354a06601817bb86d37f76fc302c219ffcb724bfd599f06ab6ac9d72ef7",
+  "normalization": "json.dumps(posts_without_top_level_status, ensure_ascii=False, sort_keys=True, separators=(comma,colon)).encode(utf-8)",
+  "textProjectionKeys": [
+    "id",
+    "kicker",
+    "title",
+    "heads",
+    "rows",
+    "caption",
+    "hashtags",
+    "rubric",
+    "school"
+  ],
+  "rowsSameAsChecked": true,
+  "requiredEditsApplied": true,
+  "approvedTitles25And28Applied": true,
+  "statusAndRevisionHeaderOutsideTextReview": true,
+  "posts": 6,
+  "rows": 24
+}

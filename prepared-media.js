@@ -4,10 +4,10 @@ const path = require('path');
 const crypto = require('crypto');
 const { validManifest, sourcesFor } = require('./repost-state');
 const CONTENT = path.resolve(process.env.MEDIA_CONTENT_DIR || path.join(__dirname, 'content'));
-const MEDIA_FIELDS = ['imageUrls', 'videoUrls', 'videoUrl', 'coverOffsetMs', 'music', 'background', 'lightBg', 'generatedBg'];
+const MEDIA_FIELDS = ['imageUrls', 'videoUrls', 'videoUrl', 'coverOffsetMs', 'coverUrl', 'music', 'background', 'lightBg', 'generatedBg'];
 const sha = bytes => crypto.createHash('sha256').update(bytes).digest('hex');
 function draftKey(post) {
-  const excluded = new Set([...MEDIA_FIELDS, 'status', 'publishedAt', 'publishedMediaId', 'storyRepost']);
+  const excluded = new Set([...MEDIA_FIELDS, 'status', 'publishedAt', 'publishedMediaId', 'storyRepost', 'feedDelivery']);
   const sorted = value => Array.isArray(value) ? value.map(sorted) : value && typeof value === 'object'
     ? Object.fromEntries(Object.keys(value).sort().map(k => [k, sorted(value[k])])) : value;
   const editorial = Object.fromEntries(Object.entries(post).filter(([k]) => !excluded.has(k)));
@@ -43,9 +43,9 @@ function validate(post, { contentDir = CONTENT, entry = readIndex(contentDir).po
   const result = { ...post };
   // Never allow a build manifest to grant approval or change editorial content.
   for (const field of MEDIA_FIELDS) { delete result[field]; if (entry.media[field] !== undefined) result[field] = entry.media[field]; }
-  const urls = [...(result.imageUrls || []), ...(result.videoUrls || []), ...(result.videoUrl ? [result.videoUrl, ...sourcesFor(result)] : [])];
+  const urls = [...(result.imageUrls || []), ...(result.videoUrls || []), ...(result.videoUrl ? [result.videoUrl, ...sourcesFor(result)] : []), ...(result.coverUrl ? [result.coverUrl] : [])];
   if (!urls.length || !entry.files?.length) throw new Error(`${post.id}: пустой набор медиа`);
-  if (result.format === 'Reels' && (!result.videoUrl || !Number.isFinite(result.coverOffsetMs))) throw new Error(`${post.id}: неполные метаданные Reels`);
+  if (result.format === 'Reels' && (!result.videoUrl || (!result.coverUrl && !Number.isFinite(result.coverOffsetMs)))) throw new Error(`${post.id}: неполные метаданные Reels`);
   if (result.videoUrls?.length && result.videoUrls.length !== result.imageUrls?.length) throw new Error(`${post.id}: неполная видеокарусель`);
   if ((result.videoUrl || result.videoUrls?.length) && (!result.music?.composer || !result.music?.piece || (result.music.attributionRequired && !result.music.attribution))) throw new Error(`${post.id}: отсутствуют музыкальные кредиты`);
   for (const url of new Set(urls)) {

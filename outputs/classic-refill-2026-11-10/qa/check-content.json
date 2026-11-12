@@ -1,0 +1,62 @@
+[
+  {
+    "id": "2026-11-classic-38-steklo-stikh",
+    "mode": "isolated",
+    "exitCode": 0
+  },
+  {
+    "id": "2026-11-classic-39-ukrytom",
+    "mode": "isolated",
+    "exitCode": 0
+  },
+  {
+    "id": "2026-11-classic-40-sspspp",
+    "mode": "isolated",
+    "exitCode": 0
+  },
+  {
+    "id": "2026-11-classic-41-rod-menu",
+    "mode": "isolated",
+    "exitCode": 0
+  },
+  {
+    "id": "2026-11-classic-42-ova-yva",
+    "mode": "isolated",
+    "exitCode": 0
+  },
+  {
+    "id": "2026-11-classic-43-lena",
+    "mode": "isolated",
+    "exitCode": 0
+  },
+  {
+    "id": "2026-11-classic-38-steklo-stikh",
+    "mode": "merged",
+    "exitCode": 0
+  },
+  {
+    "id": "2026-11-classic-39-ukrytom",
+    "mode": "merged",
+    "exitCode": 0
+  },
+  {
+    "id": "2026-11-classic-40-sspspp",
+    "mode": "merged",
+    "exitCode": 0
+  },
+  {
+    "id": "2026-11-classic-41-rod-menu",
+    "mode": "merged",
+    "exitCode": 0
+  },
+  {
+    "id": "2026-11-classic-42-ova-yva",
+    "mode": "merged",
+    "exitCode": 0
+  },
+  {
+    "id": "2026-11-classic-43-lena",
+    "mode": "merged",
+    "exitCode": 0
+  }
+]

@@ -1,0 +1,174 @@
+{
+  "method": "Decoded mono PCM4kHz normalized waveform correlation, seconds2–8; +/-50ms alignment allowance; not human listening",
+  "results": [
+    {
+      "id": "2026-11-classic-02-rast-rashch-ros",
+      "musicId": "chopin-op62-no1",
+      "assetOffsetSeconds": 0,
+      "correlation": 0.986293,
+      "lagSamplesAt4kHz": 0,
+      "pass": true
+    },
+    {
+      "id": "2026-11-classic-03-ne-rodstvenniki",
+      "musicId": "satie-gymnopedie3",
+      "assetOffsetSeconds": 0.7,
+      "correlation": 0.996083,
+      "lagSamplesAt4kHz": 0,
+      "pass": true
+    },
+    {
+      "id": "2026-11-classic-04-kto-deystvuet",
+      "musicId": "schumann-traumerei",
+      "assetOffsetSeconds": 1.4,
+      "correlation": 0.995922,
+      "lagSamplesAt4kHz": 0,
+      "pass": true
+    },
+    {
+      "id": "2026-11-classic-05-probely-v-vyrazheniyah",
+      "musicId": "mozart40-andante",
+      "assetOffsetSeconds": 0,
+      "correlation": 0.993478,
+      "lagSamplesAt4kHz": 0,
+      "pass": true
+    },
+    {
+      "id": "2026-11-classic-06-anafora-epifora",
+      "musicId": "schubert-d784-andante",
+      "assetOffsetSeconds": 0.7,
+      "correlation": 0.999296,
+      "lagSamplesAt4kHz": 0,
+      "pass": true
+    },
+    {
+      "id": "2026-11-classic-08-menu",
+      "musicId": "chopin-op37-no2",
+      "assetOffsetSeconds": 1.4,
+      "correlation": 0.998432,
+      "lagSamplesAt4kHz": 0,
+      "pass": true
+    },
+    {
+      "id": "2026-11-classic-09-frukty",
+      "musicId": "bach-var1-ishizaka",
+      "assetOffsetSeconds": 0,
+      "correlation": 0.997239,
+      "lagSamplesAt4kHz": 0,
+      "pass": true
+    },
+    {
+      "id": "2026-11-classic-10-sochetaemost",
+      "musicId": "chopin-op62-no1",
+      "assetOffsetSeconds": 0.7,
+      "correlation": 0.992573,
+      "lagSamplesAt4kHz": 0,
+      "pass": true
+    },
+    {
+      "id": "2026-11-classic-11-vovremya",
+      "musicId": "satie-gymnopedie3",
+      "assetOffsetSeconds": 1.4,
+      "correlation": 0.999145,
+      "lagSamplesAt4kHz": 0,
+      "pass": true
+    },
+    {
+      "id": "2026-11-classic-12-mesto-tema",
+      "musicId": "schumann-traumerei",
+      "assetOffsetSeconds": 0,
+      "correlation": 0.995449,
+      "lagSamplesAt4kHz": 0,
+      "pass": true
+    },
+    {
+      "id": "2026-11-classic-13-mashet",
+      "musicId": "mozart40-andante",
+      "assetOffsetSeconds": 0.7,
+      "correlation": 0.997978,
+      "lagSamplesAt4kHz": 0,
+      "pass": true
+    },
+    {
+      "id": "2026-11-classic-14-ekonomnyy",
+      "musicId": "schubert-d784-andante",
+      "assetOffsetSeconds": 1.4,
+      "correlation": 0.995341,
+      "lagSamplesAt4kHz": 0,
+      "pass": true
+    },
+    {
+      "id": "2026-11-classic-15-kas-kos",
+      "musicId": "chopin-op37-no2",
+      "assetOffsetSeconds": 0,
+      "correlation": 0.993463,
+      "lagSamplesAt4kHz": 0,
+      "pass": true
+    },
+    {
+      "id": "2026-11-classic-16-y-posle-pristavki",
+      "musicId": "bach-var1-ishizaka",
+      "assetOffsetSeconds": 0.7,
+      "correlation": 0.998129,
+      "lagSamplesAt4kHz": 0,
+      "pass": true
+    },
+    {
+      "id": "2026-11-classic-17-ne-ni",
+      "musicId": "chopin-op62-no1",
+      "assetOffsetSeconds": 1.4,
+      "correlation": 0.996454,
+      "lagSamplesAt4kHz": 0,
+      "pass": true
+    },
+    {
+      "id": "2026-11-classic-07-bukvy-zvuki",
+      "musicId": "satie-gymnopedie3",
+      "assetOffsetSeconds": 0,
+      "correlation": 0.996608,
+      "lagSamplesAt4kHz": 0,
+      "pass": true
+    },
+    {
+      "id": "2026-11-classic-18-giperbola-litota",
+      "musicId": "schumann-traumerei",
+      "assetOffsetSeconds": 0.7,
+      "correlation": 0.997084,
+      "lagSamplesAt4kHz": 0,
+      "pass": true
+    },
+    {
+      "id": "2026-11-classic-19-prichastnyy-oborot",
+      "musicId": "mozart40-andante",
+      "assetOffsetSeconds": 1.4,
+      "correlation": 0.998159,
+      "lagSamplesAt4kHz": 0,
+      "pass": true
+    },
+    {
+      "id": "2026-11-classic-20-odnorodnye",
+      "musicId": "schubert-d784-andante",
+      "assetOffsetSeconds": 0,
+      "correlation": 0.989134,
+      "lagSamplesAt4kHz": 0,
+      "pass": true
+    },
+    {
+      "id": "2026-11-classic-21-skazuemoe",
+      "musicId": "chopin-op37-no2",
+      "assetOffsetSeconds": 0.7,
+      "correlation": 0.994523,
+      "lagSamplesAt4kHz": 0,
+      "pass": true
+    },
+    {
+      "id": "2026-11-classic-22-svyaz-teksta",
+      "musicId": "bach-var1-ishizaka",
+      "assetOffsetSeconds": 1.4,
+      "correlation": 0.995867,
+      "lagSamplesAt4kHz": 0,
+      "pass": true
+    }
+  ],
+  "pass": true
+}

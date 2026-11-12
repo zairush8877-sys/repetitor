@@ -1,0 +1,50 @@
+{
+  "verdict": "pass",
+  "checkedAt": "2026-11-12T19:31:43.219472+00:00",
+  "releasePath": "/private/tmp/mama-classic-refill-2026-11-12/project/outputs/classic-refill-2026-11-12/release.json",
+  "releaseSha256AtReview": "c39f2a6ee8f256ad644846a2e724bd04cbe347fd146dcb947a003b06d0660faa",
+  "normalizedPostsWithoutStatusSha256": "edd2c817368da6bfe6d6ec448ffc741e60067ba1abb2aa58a25830793bf4ac1e",
+  "textProjectionSha256": "6a0a4c30253a91fa15bf301cc5d3e9d2324e9efeff8ab3ac9bea94a7b1d39697",
+  "textProjectionKeys": [
+    "id",
+    "kicker",
+    "title",
+    "heads",
+    "rows",
+    "caption",
+    "hashtags",
+    "rubric",
+    "school"
+  ],
+  "normalization": "json.dumps(posts_without_top_level_status, ensure_ascii=False, sort_keys=True, separators=(comma,colon)).encode(utf-8)",
+  "posts": 6,
+  "rows": 24,
+  "captionVariantsReviewed": 12,
+  "selectedCaptions": "A,A,A,A,A,A",
+  "sourceCount": 13,
+  "mandatoryCorrectionsRemaining": 0,
+  "textEqualsProofreadDraft": false,
+  "all24RowsUnchanged": false,
+  "rowsUnchangedFromDraft": 23,
+  "finalDifferences": [
+    {
+      "id": "2026-11-classic-45-tozhe",
+      "field": "rows[3][0]",
+      "draft": "Я выбрал то же пальто.",
+      "release": "Выбрал то же пальто.",
+      "verdict": "pass",
+      "reason": "Снято необязательное подлежащее ради вёрстки; то же остаётся местоимением с частицей."
+    }
+  ],
+  "allActual24RowsPass": true,
+  "final46Heads": [
+    "Наша фраза",
+    "Подсказка"
+  ],
+  "statusAndRevisionHeaderOutsideTextReview": true,
+  "limitations": [
+    "Часть первичных страниц Грамоты и статья БРЭ проверены по индексированным фрагментам: полное открытие возвращало 403 или тайм-аут. Это отмечено у источников.",
+    "Значение продолжения общения проверено через прикладной авторский образец письма; нормативное написание — отдельно по РАН. Для фрагмента сохранено явное ограничение выбранного смысла.",
+    "Проверка языковая: не подтверждает рендер, медиа, расписание, GitHub или фактическую публикацию."
+  ]
+}

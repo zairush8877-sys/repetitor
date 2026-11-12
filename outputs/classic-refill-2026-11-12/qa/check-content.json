@@ -1,0 +1,62 @@
+[
+  {
+    "id": "2026-11-classic-44-keshbek",
+    "mode": "isolated",
+    "exitCode": 0
+  },
+  {
+    "id": "2026-11-classic-45-tozhe",
+    "mode": "isolated",
+    "exitCode": 0
+  },
+  {
+    "id": "2026-11-classic-46-bsp-dash",
+    "mode": "isolated",
+    "exitCode": 0
+  },
+  {
+    "id": "2026-11-classic-47-zaklyuchenie",
+    "mode": "isolated",
+    "exitCode": 0
+  },
+  {
+    "id": "2026-11-classic-48-ber-bir",
+    "mode": "isolated",
+    "exitCode": 0
+  },
+  {
+    "id": "2026-11-classic-49-olitsetvorenie",
+    "mode": "isolated",
+    "exitCode": 0
+  },
+  {
+    "id": "2026-11-classic-44-keshbek",
+    "mode": "merged",
+    "exitCode": 0
+  },
+  {
+    "id": "2026-11-classic-45-tozhe",
+    "mode": "merged",
+    "exitCode": 0
+  },
+  {
+    "id": "2026-11-classic-46-bsp-dash",
+    "mode": "merged",
+    "exitCode": 0
+  },
+  {
+    "id": "2026-11-classic-47-zaklyuchenie",
+    "mode": "merged",
+    "exitCode": 0
+  },
+  {
+    "id": "2026-11-classic-48-ber-bir",
+    "mode": "merged",
+    "exitCode": 0
+  },
+  {
+    "id": "2026-11-classic-49-olitsetvorenie",
+    "mode": "merged",
+    "exitCode": 0
+  }
+]

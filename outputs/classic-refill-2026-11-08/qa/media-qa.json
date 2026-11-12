@@ -1,0 +1,56 @@
+{
+  "method": "Full decode; ffprobe; LUFS/peak; normalized decoded mono PCM4kHz correlation seconds2–8, zero lag, against selected exact asset/offset; no human listening",
+  "results": [
+    {
+      "id": "2026-11-classic-35-ni-pukha",
+      "seconds": 13.2,
+      "sha256": "89f6cc78d816e2d81515775eb3bff65f8dc273fd734da6ce260d7ca461b84340",
+      "coverSha256": "77e7ac7d945561f562f699c2b02a24d8039c2a515fa61812e5df8ec26e1b0c9e",
+      "fullStoryByteIdentical": true,
+      "decoded": true,
+      "lufs": -19.31,
+      "truePeakDbfs": -4.04,
+      "photoId": "journal-writing",
+      "musicId": "chopin-op37-no2",
+      "musicOffsetSeconds": 0.0,
+      "audioCorrelation": 0.993466,
+      "audioListenedByHuman": false,
+      "cardBottom": 1357.5625,
+      "rowFont": 52
+    },
+    {
+      "id": "2026-11-classic-36-gar-gor",
+      "seconds": 13.2,
+      "sha256": "e9b9c153b656bf20ed011e3a036f15d6e3d1bcbb3917a0466598133b7d1beb7e",
+      "coverSha256": "6dc5f520ebb2e9a3c1dfcbf5743b2b04144b2e63844c8f54866c65068af8d31c",
+      "fullStoryByteIdentical": true,
+      "decoded": true,
+      "lufs": -18.3,
+      "truePeakDbfs": -4.59,
+      "photoId": "uppsala-bookshelves",
+      "musicId": "bach-var1-ishizaka",
+      "musicOffsetSeconds": 0.7,
+      "audioCorrelation": 0.998129,
+      "audioListenedByHuman": false,
+      "cardBottom": 1292.5625,
+      "rowFont": 52
+    },
+    {
+      "id": "2026-11-classic-37-kto-chey",
+      "seconds": 13.2,
+      "sha256": "51b5946e3b60d12d1a698526d2ebfc988c15f86703458f14cf61f0fe4ff287f1",
+      "coverSha256": "e9d424582df55212c377b2f9cfff3e4efd4e03471f8a17a369d5d15263d82576",
+      "fullStoryByteIdentical": true,
+      "decoded": true,
+      "lufs": -20.22,
+      "truePeakDbfs": -4.53,
+      "photoId": "open-book-plant",
+      "musicId": "chopin-op62-no1",
+      "musicOffsetSeconds": 1.4,
+      "audioCorrelation": 0.996454,
+      "audioListenedByHuman": false,
+      "cardBottom": 1401.59375,
+      "rowFont": 52
+    }
+  ]
+}

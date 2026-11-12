@@ -1,0 +1,1141 @@
+{
+  "project": "мама инста",
+  "revision": "Background and music variation requested 2026-11-03; only21unpublished classics",
+  "posts": [
+    {
+      "id": "2026-11-classic-02-rast-rashch-ros",
+      "format": "Reels",
+      "kicker": "ЕГЭ • ЧЕРЕДОВАНИЕ В КОРНЕ",
+      "rows": [
+        [
+          "ростение",
+          "растение"
+        ],
+        [
+          "вырощу",
+          "выращу"
+        ],
+        [
+          "вырасли",
+          "выросли"
+        ],
+        [
+          "расток",
+          "росток"
+        ],
+        [
+          "растовщик",
+          "ростовщик"
+        ]
+      ],
+      "school": false,
+      "caption": "Росток и растение пишутся по-разному. Для безударной гласной в корнях раст-/ращ-/рос- обычно перед СТ и Щ пишется А, перед С — О. Но «росток» и «ростовщик» — исключения. Это чередование: одной попытки подобрать ударное слово здесь недостаточно. На экране пять конкретных форм, а не полный список исключений.",
+      "hashtags": [
+        "#егэрусский",
+        "#чередованиекорней",
+        "#орфография"
+      ],
+      "title": "Росток —\nно растение",
+      "rubric": "ЕГЭ — разбор",
+      "status": "approved",
+      "date": "2026-11-04",
+      "scheduledAt": "2026-11-04T07:00:00.000Z",
+      "campaignId": "anna-retouch-music-v3-20261031",
+      "visualStyle": "classic-table",
+      "hideFooter": true,
+      "showProgress": false,
+      "storyRepostMode": "full_video",
+      "branding": {
+        "show_handle": false,
+        "show_author_signature": false,
+        "show_services_footer": false
+      },
+      "assetSelection": {
+        "photoId": "books-pile",
+        "musicId": "chopin-op62-no1",
+        "musicOffsetSeconds": 0.0,
+        "backgroundPosition": "50% 50%"
+      }
+    },
+    {
+      "id": "2026-11-classic-03-ne-rodstvenniki",
+      "format": "Reels",
+      "kicker": "ОЛИМПИАДНАЯ РАЗМИНКА",
+      "rows": [
+        [
+          "гора — горный",
+          "да"
+        ],
+        [
+          "гора — горевать",
+          "нет"
+        ],
+        [
+          "нос — носовой",
+          "да"
+        ],
+        [
+          "нос — носить",
+          "нет"
+        ]
+      ],
+      "school": true,
+      "caption": "У «горы» и «горного» есть общая смысловая часть. А «гора» и «горевать» не образуют семью однокоренных слов, хотя буквы похожи. Сравните так же нос, носовой и носить. В нашей лингвистической разминке нужно не только ответить «да» или «нет», но и объяснить родство вместе с ребёнком. Совпадения букв для этого недостаточно.",
+      "hashtags": [
+        "#лингвистическаязадача",
+        "#олимпиадапорусскому",
+        "#составслова"
+      ],
+      "title": "Похожи буквы.\nА корни?",
+      "heads": [
+        "Пара",
+        "Родственные?"
+      ],
+      "rubric": "Олимпиадная разминка",
+      "status": "approved",
+      "date": "2026-11-04",
+      "scheduledAt": "2026-11-04T11:00:00.000Z",
+      "campaignId": "anna-retouch-music-v3-20261031",
+      "visualStyle": "classic-table",
+      "hideFooter": true,
+      "showProgress": false,
+      "storyRepostMode": "full_video",
+      "branding": {
+        "show_handle": false,
+        "show_author_signature": false,
+        "show_services_footer": false
+      },
+      "assetSelection": {
+        "photoId": "journal-writing",
+        "musicId": "satie-gymnopedie3",
+        "musicOffsetSeconds": 0.7,
+        "backgroundPosition": "50% 50%"
+      }
+    },
+    {
+      "id": "2026-11-classic-04-kto-deystvuet",
+      "format": "Reels",
+      "kicker": "ОГЭ • ОДНОСОСТАВНЫЕ ПРЕДЛОЖЕНИЯ",
+      "rows": [
+        [
+          "Пишу письмо.",
+          "определённо-личное"
+        ],
+        [
+          "Позвони мне.",
+          "определённо-личное"
+        ],
+        [
+          "В дверь постучали.",
+          "неопределённо-личное"
+        ],
+        [
+          "На улице поют.",
+          "неопределённо-личное"
+        ]
+      ],
+      "school": false,
+      "caption": "«Пишу письмо» и «на улице поют» устроены по-разному. В первом случае форма глагола указывает на говорящего; в просьбе «Позвони мне» — на собеседника. В двух последних примерах исполнитель не назван и не определён. Разбираем отдельные предложения без предыдущего контекста: если действующее лицо уже известно из разговора, анализ может измениться.",
+      "hashtags": [
+        "#огэрусский",
+        "#односоставныепредложения",
+        "#синтаксис"
+      ],
+      "title": "Подлежащего нет.\nБезличное?",
+      "heads": [
+        "Без подлежащего",
+        "Тип предложения"
+      ],
+      "rubric": "ОГЭ — разбор",
+      "status": "approved",
+      "date": "2026-11-04",
+      "scheduledAt": "2026-11-04T16:00:00.000Z",
+      "campaignId": "anna-retouch-music-v3-20261031",
+      "visualStyle": "classic-table",
+      "hideFooter": true,
+      "showProgress": false,
+      "storyRepostMode": "full_video",
+      "branding": {
+        "show_handle": false,
+        "show_author_signature": false,
+        "show_services_footer": false
+      },
+      "assetSelection": {
+        "photoId": "uppsala-bookshelves",
+        "musicId": "schumann-traumerei",
+        "musicOffsetSeconds": 1.4,
+        "backgroundPosition": "50% 50%"
+      }
+    },
+    {
+      "id": "2026-11-classic-05-probely-v-vyrazheniyah",
+      "format": "Reels",
+      "kicker": "ЧЕТЫРЕ ПРИВЫЧНЫХ ВЫРАЖЕНИЯ",
+      "rows": [
+        [
+          "находу",
+          "на ходу"
+        ],
+        [
+          "сходу",
+          "с ходу"
+        ],
+        [
+          "сразбегу",
+          "с разбегу"
+        ],
+        [
+          "налету",
+          "на лету"
+        ]
+      ],
+      "school": false,
+      "caption": "Ответить с ходу, читать на ходу, прыгнуть с разбегу, схватить на лету. В этих четырёх выражениях нужен пробел. Слитное звучание его не отменяет. Это конкретные словарные сочетания: не стоит превращать таблицу в правило для всех наречий.",
+      "hashtags": [
+        "#русскаяорфография",
+        "#грамотнаяречь",
+        "#написание"
+      ],
+      "title": "На ходу —\nв два слова",
+      "rubric": "Норма языка",
+      "status": "approved",
+      "date": "2026-11-05",
+      "scheduledAt": "2026-11-05T07:00:00.000Z",
+      "campaignId": "anna-retouch-music-v3-20261031",
+      "visualStyle": "classic-table",
+      "hideFooter": true,
+      "showProgress": false,
+      "storyRepostMode": "full_video",
+      "branding": {
+        "show_handle": false,
+        "show_author_signature": false,
+        "show_services_footer": false
+      },
+      "assetSelection": {
+        "photoId": "open-book-plant",
+        "musicId": "mozart40-andante",
+        "musicOffsetSeconds": 0.0,
+        "backgroundPosition": "50% 50%"
+      }
+    },
+    {
+      "id": "2026-11-classic-06-anafora-epifora",
+      "format": "Reels",
+      "kicker": "ЕГЭ • СРЕДСТВА ВЫРАЗИТЕЛЬНОСТИ",
+      "rows": [
+        [
+          "Я жду. Я верю.",
+          "анафора"
+        ],
+        [
+          "Снова дождь. Снова ветер.",
+          "анафора"
+        ],
+        [
+          "Ждали тебя. Искали тебя.",
+          "эпифора"
+        ],
+        [
+          "Говорили тихо. Ушли тихо.",
+          "эпифора"
+        ]
+      ],
+      "school": false,
+      "caption": "В наших коротких примерах повтор занимает разное место. «Я жду. Я верю» — повтор в начале соседних фраз, анафора. «Ждали тебя. Искали тебя» — повтор в конце, эпифора. В экзаменационном тексте проверяем устройство всего фрагмента, а не одно повторившееся слово. Примеры составлены для объяснения и не приписаны писателю.",
+      "hashtags": [
+        "#егэрусский",
+        "#средствавыразительности",
+        "#анафора"
+      ],
+      "title": "Повтор в начале.\nИли в конце?",
+      "heads": [
+        "Где повтор?",
+        "Приём"
+      ],
+      "rubric": "ЕГЭ — разбор",
+      "status": "approved",
+      "date": "2026-11-05",
+      "scheduledAt": "2026-11-05T11:00:00.000Z",
+      "campaignId": "anna-retouch-music-v3-20261031",
+      "visualStyle": "classic-table",
+      "hideFooter": true,
+      "showProgress": false,
+      "storyRepostMode": "full_video",
+      "branding": {
+        "show_handle": false,
+        "show_author_signature": false,
+        "show_services_footer": false
+      },
+      "assetSelection": {
+        "photoId": "desk-books-laptop",
+        "musicId": "schubert-d784-andante",
+        "musicOffsetSeconds": 0.7,
+        "backgroundPosition": "35% 50%"
+      }
+    },
+    {
+      "id": "2026-11-classic-08-menu",
+      "format": "Reels",
+      "kicker": "ЧЕТЫРЕ СЛОВА ИЗ МЕНЮ",
+      "rows": [
+        [
+          "моцарела",
+          "моцарелла"
+        ],
+        [
+          "маскарпонне",
+          "маскарпоне"
+        ],
+        [
+          "пармизан",
+          "пармезан"
+        ],
+        [
+          "раттатуй",
+          "рататуй"
+        ]
+      ],
+      "rubric": "Норма языка",
+      "school": false,
+      "caption": "Моцарелла — с двумя Л, маскарпоне — с одной Н. Написание названий блюд и продуктов проверяем по русскому словарю, а не переносим буквы из похожего иностранного слова. На экране четыре конкретных написания для меню и списка покупок.",
+      "hashtags": [
+        "#словарноенаписание",
+        "#названияблюд",
+        "#русскийязык"
+      ],
+      "title": "Моцарелла —\nодна или две «л»?",
+      "status": "approved",
+      "date": "2026-11-05",
+      "scheduledAt": "2026-11-05T16:00:00.000Z",
+      "campaignId": "anna-retouch-music-v3-20261031",
+      "visualStyle": "classic-table",
+      "hideFooter": true,
+      "showProgress": false,
+      "storyRepostMode": "full_video",
+      "branding": {
+        "show_handle": false,
+        "show_author_signature": false,
+        "show_services_footer": false
+      },
+      "assetSelection": {
+        "photoId": "blank-books-table",
+        "musicId": "chopin-op37-no2",
+        "musicOffsetSeconds": 1.4,
+        "backgroundPosition": "50% 50%"
+      }
+    },
+    {
+      "id": "2026-11-classic-09-frukty",
+      "format": "Reels",
+      "kicker": "ФОРМЫ В СПИСКЕ ПОКУПОК",
+      "rows": [
+        [
+          "нет яблоков",
+          "нет яблок"
+        ],
+        [
+          "нет грушей",
+          "нет груш"
+        ],
+        [
+          "нет абрикос",
+          "нет абрикосов"
+        ],
+        [
+          "нет апельсин",
+          "нет апельсинов"
+        ]
+      ],
+      "rubric": "Норма языка",
+      "school": false,
+      "caption": "Пять яблок, но пять апельсинов. Для аккуратного списка покупок запоминаем целые сочетания: килограмм груш, несколько абрикосов. Одного окончания для всех фруктов нет. В этой таблице — нейтральные литературные формы.",
+      "hashtags": [
+        "#формыслов",
+        "#грамотнаяречь",
+        "#русскийязык"
+      ],
+      "title": "Пять яблок.\nНо апельсинов.",
+      "status": "approved",
+      "date": "2026-11-06",
+      "scheduledAt": "2026-11-06T07:00:00.000Z",
+      "campaignId": "anna-retouch-music-v3-20261031",
+      "visualStyle": "classic-table",
+      "hideFooter": true,
+      "showProgress": false,
+      "storyRepostMode": "full_video",
+      "branding": {
+        "show_handle": false,
+        "show_author_signature": false,
+        "show_services_footer": false
+      },
+      "assetSelection": {
+        "photoId": "library-bookshelves",
+        "musicId": "bach-var1-ishizaka",
+        "musicOffsetSeconds": 0.0,
+        "backgroundPosition": "50% 50%"
+      }
+    },
+    {
+      "id": "2026-11-classic-10-sochetaemost",
+      "format": "Reels",
+      "kicker": "СЛОВА РАБОТАЮТ В ПАРЕ",
+      "rows": [
+        [
+          "оказать впечатление",
+          "произвести впечатление"
+        ],
+        [
+          "сделать решение",
+          "принять решение"
+        ],
+        [
+          "одержать поражение",
+          "потерпеть поражение"
+        ],
+        [
+          "понести победу",
+          "одержать победу"
+        ]
+      ],
+      "rubric": "Норма языка",
+      "school": false,
+      "caption": "Победу одерживают, поражение терпят, впечатление производят, решение принимают. В привычных сочетаниях важен не только смысл каждого слова, но и то, как слова соединяются. Поэтому проверяем всё выражение. Здесь четыре опорные литературные модели.",
+      "hashtags": [
+        "#лексическаясочетаемость",
+        "#культураречи",
+        "#грамотныйтекст"
+      ],
+      "title": "Победу одерживают.\nПоражение терпят.",
+      "status": "approved",
+      "date": "2026-11-06",
+      "scheduledAt": "2026-11-06T11:00:00.000Z",
+      "campaignId": "anna-retouch-music-v3-20261031",
+      "visualStyle": "classic-table",
+      "hideFooter": true,
+      "showProgress": false,
+      "storyRepostMode": "full_video",
+      "branding": {
+        "show_handle": false,
+        "show_author_signature": false,
+        "show_services_footer": false
+      },
+      "assetSelection": {
+        "photoId": "library-warm",
+        "musicId": "chopin-op62-no1",
+        "musicOffsetSeconds": 0.7,
+        "backgroundPosition": "85% 50%"
+      }
+    },
+    {
+      "id": "2026-11-classic-11-vovremya",
+      "format": "Reels",
+      "kicker": "ПРОБЕЛ МЕНЯЕТ УСТРОЙСТВО ФРАЗЫ",
+      "rows": [
+        [
+          "пришёл вовремя",
+          "не опоздал"
+        ],
+        [
+          "во время обеда",
+          "когда обедали"
+        ],
+        [
+          "вовремя заметил",
+          "не упустил момент"
+        ],
+        [
+          "во время грозы",
+          "когда была гроза"
+        ]
+      ],
+      "rubric": "Норма языка",
+      "school": false,
+      "caption": "Вовремя — в нужный момент: «Ты пришёл вовремя». Во время обеда — пока обедали: после сочетания названо событие. Проверяем смысл всей фразы. Вовремя заметить ошибку и заметить её во время разговора — два разных сообщения.",
+      "hashtags": [
+        "#слитноираздельно",
+        "#смыслфразы",
+        "#русскаяорфография"
+      ],
+      "heads": [
+        "Фраза",
+        "Смысл"
+      ],
+      "title": "Вовремя.\nИли во время?",
+      "status": "approved",
+      "date": "2026-11-06",
+      "scheduledAt": "2026-11-06T16:00:00.000Z",
+      "campaignId": "anna-retouch-music-v3-20261031",
+      "visualStyle": "classic-table",
+      "hideFooter": true,
+      "showProgress": false,
+      "storyRepostMode": "full_video",
+      "branding": {
+        "show_handle": false,
+        "show_author_signature": false,
+        "show_services_footer": false
+      },
+      "assetSelection": {
+        "photoId": "books-pile",
+        "musicId": "satie-gymnopedie3",
+        "musicOffsetSeconds": 1.4,
+        "backgroundPosition": "50% 50%"
+      }
+    },
+    {
+      "id": "2026-11-classic-12-mesto-tema",
+      "format": "Reels",
+      "kicker": "МЕСТО И ТЕМА РАЗГОВОРА",
+      "rows": [
+        [
+          "в аэропорту",
+          "об аэропорте"
+        ],
+        [
+          "в лесу",
+          "о лесе"
+        ],
+        [
+          "на берегу",
+          "о береге"
+        ],
+        [
+          "на снегу",
+          "о снеге"
+        ]
+      ],
+      "rubric": "Норма языка",
+      "school": false,
+      "caption": "Ждём в аэропорту, говорим об аэропорте. Гуляем в лесу, читаем о лесе. У этих существительных форма со значением места отличается от формы после «о». Не выбираем одно окончание на все случаи: сначала смотрим на вопрос и сочетание целиком.",
+      "hashtags": [
+        "#падежныеформы",
+        "#грамотнаяречь",
+        "#русскийязык"
+      ],
+      "heads": [
+        "Где?",
+        "О чём?"
+      ],
+      "title": "В лесу.\nНо о лесе.",
+      "status": "approved",
+      "date": "2026-11-07",
+      "scheduledAt": "2026-11-07T07:00:00.000Z",
+      "campaignId": "anna-retouch-music-v3-20261031",
+      "visualStyle": "classic-table",
+      "hideFooter": true,
+      "showProgress": false,
+      "storyRepostMode": "full_video",
+      "branding": {
+        "show_handle": false,
+        "show_author_signature": false,
+        "show_services_footer": false
+      },
+      "assetSelection": {
+        "photoId": "journal-writing",
+        "musicId": "schumann-traumerei",
+        "musicOffsetSeconds": 0.0,
+        "backgroundPosition": "50% 50%"
+      }
+    },
+    {
+      "id": "2026-11-classic-13-mashet",
+      "format": "Reels",
+      "kicker": "СЛОВО ЕСТЬ • УМЕСТНОСТЬ РАЗНАЯ",
+      "rows": [
+        [
+          "он машет",
+          "нейтрально"
+        ],
+        [
+          "он махает",
+          "разговорно"
+        ],
+        [
+          "они машут",
+          "нейтрально"
+        ],
+        [
+          "они махают",
+          "разговорно"
+        ]
+      ],
+      "rubric": "Норма языка",
+      "school": false,
+      "caption": "Для нейтрального текста выбираем «он машет», «они машут». Формы «махает», «махают» встречаются с разговорной пометой, поэтому объявлять их несуществующими не стоит. Словарь помогает различать отсутствие слова и его стилевую уместность.",
+      "hashtags": [
+        "#культураречи",
+        "#разговорнаяречь",
+        "#словарь"
+      ],
+      "heads": [
+        "Форма",
+        "Употребление"
+      ],
+      "title": "Машет\nили махает?",
+      "status": "approved",
+      "date": "2026-11-07",
+      "scheduledAt": "2026-11-07T11:00:00.000Z",
+      "campaignId": "anna-retouch-music-v3-20261031",
+      "visualStyle": "classic-table",
+      "hideFooter": true,
+      "showProgress": false,
+      "storyRepostMode": "full_video",
+      "branding": {
+        "show_handle": false,
+        "show_author_signature": false,
+        "show_services_footer": false
+      },
+      "assetSelection": {
+        "photoId": "uppsala-bookshelves",
+        "musicId": "mozart40-andante",
+        "musicOffsetSeconds": 0.7,
+        "backgroundPosition": "50% 50%"
+      }
+    },
+    {
+      "id": "2026-11-classic-14-ekonomnyy",
+      "format": "Reels",
+      "kicker": "ПОХОЖИЕ СЛОВА • РАЗНЫЙ АКЦЕНТ",
+      "rows": [
+        [
+          "экономный человек",
+          "бережёт ресурсы"
+        ],
+        [
+          "экономичная машина",
+          "мало расходует"
+        ],
+        [
+          "экономная хозяйка",
+          "разумно тратит"
+        ],
+        [
+          "экономичный прибор",
+          "невелик расход"
+        ]
+      ],
+      "rubric": "Норма языка",
+      "school": false,
+      "caption": "Экономный человек бережно расходует ресурсы. Экономичный прибор требует сравнительно небольших затрат в работе. Это опорные сочетания, а не запрет на другие контексты. Выбираем, что именно хотим подчеркнуть: бережливость или небольшой расход.",
+      "hashtags": [
+        "#значениеслов",
+        "#паронимы",
+        "#грамотнаяречь"
+      ],
+      "heads": [
+        "Сочетание",
+        "Что подчёркиваем"
+      ],
+      "title": "Экономный.\nИли экономичный?",
+      "status": "approved",
+      "date": "2026-11-07",
+      "scheduledAt": "2026-11-07T16:00:00.000Z",
+      "campaignId": "anna-retouch-music-v3-20261031",
+      "visualStyle": "classic-table",
+      "hideFooter": true,
+      "showProgress": false,
+      "storyRepostMode": "full_video",
+      "branding": {
+        "show_handle": false,
+        "show_author_signature": false,
+        "show_services_footer": false
+      },
+      "assetSelection": {
+        "photoId": "open-book-plant",
+        "musicId": "schubert-d784-andante",
+        "musicOffsetSeconds": 1.4,
+        "backgroundPosition": "50% 50%"
+      }
+    },
+    {
+      "id": "2026-11-classic-15-kas-kos",
+      "format": "Reels",
+      "kicker": "ЕГЭ • ЧЕРЕДОВАНИЕ КАС-/КОС-",
+      "rows": [
+        [
+          "косаться",
+          "касаться"
+        ],
+        [
+          "прикаснуться",
+          "прикоснуться"
+        ],
+        [
+          "косательная",
+          "касательная"
+        ],
+        [
+          "прикасновение",
+          "прикосновение"
+        ]
+      ],
+      "rubric": "ЕГЭ",
+      "school": false,
+      "caption": "Касаться и прикоснуться пишутся по-разному. В чередовании кас-/кос- смотрим, есть ли после корня суффикс -а-: кас-а-ться, но при-кос-ну-ться. Подбирая проверочное слово, эту особенность легко пропустить. Разбираем только данный корень.",
+      "hashtags": [
+        "#егэрусский",
+        "#чередованиекорней",
+        "#касикос"
+      ],
+      "title": "Касаться —\nно прикоснуться.",
+      "status": "approved",
+      "date": "2026-11-08",
+      "scheduledAt": "2026-11-08T07:00:00.000Z",
+      "campaignId": "anna-retouch-music-v3-20261031",
+      "visualStyle": "classic-table",
+      "hideFooter": true,
+      "showProgress": false,
+      "storyRepostMode": "full_video",
+      "branding": {
+        "show_handle": false,
+        "show_author_signature": false,
+        "show_services_footer": false
+      },
+      "assetSelection": {
+        "photoId": "desk-books-laptop",
+        "musicId": "chopin-op37-no2",
+        "musicOffsetSeconds": 0.0,
+        "backgroundPosition": "35% 50%"
+      }
+    },
+    {
+      "id": "2026-11-classic-16-y-posle-pristavki",
+      "format": "Reels",
+      "kicker": "ЕГЭ • И И Ы ПОСЛЕ ПРИСТАВОК",
+      "rows": [
+        [
+          "предистория",
+          "предыстория"
+        ],
+        [
+          "подитожить",
+          "подытожить"
+        ],
+        [
+          "безидейный",
+          "безыдейный"
+        ],
+        [
+          "межынститутский",
+          "межинститутский"
+        ],
+        [
+          "сверхынтересный",
+          "сверхинтересный"
+        ]
+      ],
+      "rubric": "ЕГЭ",
+      "school": false,
+      "caption": "Предыстория и подытожить — с Ы. После русской приставки на согласную начальная И корня обычно меняется на Ы. Но после меж- и сверх- сохраняем И: межинститутский, сверхинтересный. Это не все особенности правила; в коротком ролике показаны конкретные формы.",
+      "hashtags": [
+        "#егэрусский",
+        "#приставки",
+        "#орфография"
+      ],
+      "title": "После приставки:\n«и» или «ы»?",
+      "status": "approved",
+      "date": "2026-11-08",
+      "scheduledAt": "2026-11-08T11:00:00.000Z",
+      "campaignId": "anna-retouch-music-v3-20261031",
+      "visualStyle": "classic-table",
+      "hideFooter": true,
+      "showProgress": false,
+      "storyRepostMode": "full_video",
+      "branding": {
+        "show_handle": false,
+        "show_author_signature": false,
+        "show_services_footer": false
+      },
+      "assetSelection": {
+        "photoId": "blank-books-table",
+        "musicId": "bach-var1-ishizaka",
+        "musicOffsetSeconds": 0.7,
+        "backgroundPosition": "50% 50%"
+      }
+    },
+    {
+      "id": "2026-11-classic-17-ne-ni",
+      "format": "Reels",
+      "kicker": "ЕГЭ • ЧИТАЕМ ВСЮ КОНСТРУКЦИЮ",
+      "rows": [
+        [
+          "бывал не раз",
+          "много раз"
+        ],
+        [
+          "не бывал ни разу",
+          "никогда"
+        ],
+        [
+          "не один человек",
+          "несколько"
+        ],
+        [
+          "ни один не пришёл",
+          "никто не пришёл"
+        ]
+      ],
+      "rubric": "ЕГЭ",
+      "school": false,
+      "caption": "«Бывал не раз» значит «бывал много раз». «Не бывал ни разу» — не бывал никогда. Так же различаются «не один человек» и «ни один не пришёл». Букву нельзя выбрать по одному созвучному фрагменту: читаем всю отрицательную конструкцию.",
+      "hashtags": [
+        "#егэрусский",
+        "#неини",
+        "#смыслпредложения"
+      ],
+      "heads": [
+        "Фраза",
+        "Смысл"
+      ],
+      "title": "Не раз.\nНо ни разу.",
+      "status": "approved",
+      "date": "2026-11-08",
+      "scheduledAt": "2026-11-08T16:00:00.000Z",
+      "campaignId": "anna-retouch-music-v3-20261031",
+      "visualStyle": "classic-table",
+      "hideFooter": true,
+      "showProgress": false,
+      "storyRepostMode": "full_video",
+      "branding": {
+        "show_handle": false,
+        "show_author_signature": false,
+        "show_services_footer": false
+      },
+      "assetSelection": {
+        "photoId": "library-bookshelves",
+        "musicId": "chopin-op62-no1",
+        "musicOffsetSeconds": 1.4,
+        "backgroundPosition": "50% 50%"
+      }
+    },
+    {
+      "id": "2026-11-classic-07-bukvy-zvuki",
+      "format": "Reels",
+      "kicker": "ОЛИМПИАДНАЯ РАЗМИНКА",
+      "rows": [
+        [
+          "яма: 3 буквы",
+          "4 звука"
+        ],
+        [
+          "мяч: 3 буквы",
+          "3 звука"
+        ],
+        [
+          "семья: 5 букв",
+          "5 звуков"
+        ],
+        [
+          "соль: 4 буквы",
+          "3 звука"
+        ]
+      ],
+      "school": true,
+      "caption": "В слове «семья» пять букв и пять звуков. Но это не значит, что каждая буква обозначает один звук: мягкий знак отдельного звука не даёт, а Я после него обозначает два. Количества сравнялись по разным причинам. Предложите ребёнку сначала объяснить эту строку, а потом проверить остальные три. Это наша авторская лингвистическая разминка.",
+      "hashtags": [
+        "#лингвистическаязадача",
+        "#олимпиадапорусскому",
+        "#буквыизвуки"
+      ],
+      "title": "Поровну —\nне значит по одному",
+      "heads": [
+        "Слово и буквы",
+        "Звуки"
+      ],
+      "rubric": "Олимпиадная разминка",
+      "status": "approved",
+      "date": "2026-11-09",
+      "scheduledAt": "2026-11-09T07:00:00.000Z",
+      "campaignId": "anna-retouch-music-v3-20261031",
+      "visualStyle": "classic-table",
+      "hideFooter": true,
+      "showProgress": false,
+      "storyRepostMode": "full_video",
+      "branding": {
+        "show_handle": false,
+        "show_author_signature": false,
+        "show_services_footer": false
+      },
+      "assetSelection": {
+        "photoId": "library-warm",
+        "musicId": "satie-gymnopedie3",
+        "musicOffsetSeconds": 0.0,
+        "backgroundPosition": "85% 50%"
+      }
+    },
+    {
+      "id": "2026-11-classic-18-giperbola-litota",
+      "format": "Reels",
+      "kicker": "ЕГЭ • УВЕЛИЧЕНИЕ И УМЕНЬШЕНИЕ",
+      "rows": [
+        [
+          "ждал целую вечность",
+          "гипербола"
+        ],
+        [
+          "море слёз",
+          "гипербола"
+        ],
+        [
+          "мальчик с пальчик",
+          "литота"
+        ],
+        [
+          "талия в ниточку",
+          "литота"
+        ]
+      ],
+      "rubric": "ЕГЭ",
+      "school": false,
+      "caption": "Гипербола намеренно преувеличивает: «ждал целую вечность». Литота преуменьшает: «мальчик с пальчик». В тексте нужно видеть образный смысл, а не только необычное слово. Один образ может сочетать несколько средств выразительности; здесь разбираем увеличение и уменьшение.",
+      "hashtags": [
+        "#егэрусский",
+        "#средствавыразительности",
+        "#тропы"
+      ],
+      "heads": [
+        "Образ",
+        "Приём"
+      ],
+      "title": "Целая вечность.\nИли с пальчик?",
+      "status": "approved",
+      "date": "2026-11-09",
+      "scheduledAt": "2026-11-09T11:00:00.000Z",
+      "campaignId": "anna-retouch-music-v3-20261031",
+      "visualStyle": "classic-table",
+      "hideFooter": true,
+      "showProgress": false,
+      "storyRepostMode": "full_video",
+      "branding": {
+        "show_handle": false,
+        "show_author_signature": false,
+        "show_services_footer": false
+      },
+      "assetSelection": {
+        "photoId": "books-pile",
+        "musicId": "schumann-traumerei",
+        "musicOffsetSeconds": 0.7,
+        "backgroundPosition": "50% 50%"
+      }
+    },
+    {
+      "id": "2026-11-classic-19-prichastnyy-oborot",
+      "format": "Reels",
+      "kicker": "ОГЭ • МЕСТО ПРИЧАСТНОГО ОБОРОТА",
+      "rows": [
+        [
+          "Лист, опавший ночью, сух.",
+          "после → запятые"
+        ],
+        [
+          "Опавший ночью лист сух.",
+          "перед → без запятых"
+        ],
+        [
+          "Дом, построенный у реки, пуст.",
+          "после → запятые"
+        ],
+        [
+          "Построенный у реки дом пуст.",
+          "перед → без запятых"
+        ]
+      ],
+      "rubric": "ОГЭ",
+      "school": false,
+      "caption": "Опавший ночью лист — оборот стоит перед существительным. Лист, опавший ночью, — после него. В наших четырёх предложениях положение оборота определяет показанное обособление. Сначала находим существительное и весь причастный оборот; отдельные случаи с другими условиями требуют своего разбора.",
+      "hashtags": [
+        "#огэрусский",
+        "#причастныйоборот",
+        "#пунктуация"
+      ],
+      "heads": [
+        "Наше предложение",
+        "Расположение"
+      ],
+      "title": "Опавший ночью лист.\nГде запятые?",
+      "status": "approved",
+      "date": "2026-11-09",
+      "scheduledAt": "2026-11-09T16:00:00.000Z",
+      "campaignId": "anna-retouch-music-v3-20261031",
+      "visualStyle": "classic-table",
+      "hideFooter": true,
+      "showProgress": false,
+      "storyRepostMode": "full_video",
+      "branding": {
+        "show_handle": false,
+        "show_author_signature": false,
+        "show_services_footer": false
+      },
+      "assetSelection": {
+        "photoId": "journal-writing",
+        "musicId": "mozart40-andante",
+        "musicOffsetSeconds": 1.4,
+        "backgroundPosition": "50% 50%"
+      }
+    },
+    {
+      "id": "2026-11-classic-20-odnorodnye",
+      "format": "Reels",
+      "kicker": "ОГЭ • ОДНОРОДНЫЕ ЧЛЕНЫ",
+      "rows": [
+        [
+          "яблоки и груши",
+          "без запятой"
+        ],
+        [
+          "и яблоки, и груши",
+          "перед вторым «и»"
+        ],
+        [
+          "не яблоки, а груши",
+          "перед «а»"
+        ],
+        [
+          "яблоки, груши, сливы",
+          "между словами"
+        ]
+      ],
+      "rubric": "ОГЭ",
+      "school": false,
+      "caption": "Яблоки и груши — одиночный союз соединяет однородные слова без запятой. И яблоки, и груши — повторяющийся союз. Не яблоки, а груши — противопоставление. Меняется связь между словами, поэтому меняются и знаки. Разбираем данные сочетания, а не любое соседство с И.",
+      "hashtags": [
+        "#огэрусский",
+        "#однородныечлены",
+        "#запятые"
+      ],
+      "heads": [
+        "Перечисление",
+        "Пунктуация"
+      ],
+      "title": "Один список.\nРазные запятые.",
+      "status": "approved",
+      "date": "2026-11-10",
+      "scheduledAt": "2026-11-10T07:00:00.000Z",
+      "campaignId": "anna-retouch-music-v3-20261031",
+      "visualStyle": "classic-table",
+      "hideFooter": true,
+      "showProgress": false,
+      "storyRepostMode": "full_video",
+      "branding": {
+        "show_handle": false,
+        "show_author_signature": false,
+        "show_services_footer": false
+      },
+      "assetSelection": {
+        "photoId": "uppsala-bookshelves",
+        "musicId": "schubert-d784-andante",
+        "musicOffsetSeconds": 0.0,
+        "backgroundPosition": "50% 50%"
+      }
+    },
+    {
+      "id": "2026-11-classic-21-skazuemoe",
+      "format": "Reels",
+      "kicker": "ОГЭ • СОСТАВНОЕ СКАЗУЕМОЕ",
+      "rows": [
+        [
+          "начала читать",
+          "глагольное"
+        ],
+        [
+          "хочет рассказать",
+          "глагольное"
+        ],
+        [
+          "стал врачом",
+          "именное"
+        ],
+        [
+          "была довольна",
+          "именное"
+        ]
+      ],
+      "rubric": "ОГЭ",
+      "school": false,
+      "caption": "«Она начала читать»: вспомогательный глагол обозначает начало действия, инфинитив — само действие. «Он стал врачом»: связка и именная часть. Во всех наших примерах действие или признак относится к одному подлежащему. Любое сочетание двух глаголов составным сказуемым не становится.",
+      "hashtags": [
+        "#огэрусский",
+        "#сказуемое",
+        "#синтаксис"
+      ],
+      "heads": [
+        "Сказуемое",
+        "Какое?"
+      ],
+      "title": "Начала читать.\nСтал врачом.",
+      "status": "approved",
+      "date": "2026-11-10",
+      "scheduledAt": "2026-11-10T11:00:00.000Z",
+      "campaignId": "anna-retouch-music-v3-20261031",
+      "visualStyle": "classic-table",
+      "hideFooter": true,
+      "showProgress": false,
+      "storyRepostMode": "full_video",
+      "branding": {
+        "show_handle": false,
+        "show_author_signature": false,
+        "show_services_footer": false
+      },
+      "assetSelection": {
+        "photoId": "open-book-plant",
+        "musicId": "chopin-op37-no2",
+        "musicOffsetSeconds": 0.7,
+        "backgroundPosition": "50% 50%"
+      }
+    },
+    {
+      "id": "2026-11-classic-22-svyaz-teksta",
+      "format": "Reels",
+      "kicker": "ОГЭ • СВЯЗЬ В ТЕКСТЕ",
+      "rows": [
+        [
+          "Выпал снег. Снег…",
+          "повтор"
+        ],
+        [
+          "Рос клён. Он…",
+          "местоимение"
+        ],
+        [
+          "Стоял дом. Здание…",
+          "контекстная замена"
+        ],
+        [
+          "Начался дождь. Поэтому…",
+          "следствие"
+        ]
+      ],
+      "rubric": "ОГЭ",
+      "school": false,
+      "caption": "Соседние предложения могут связываться повтором, местоимением или заменой названия. «У окна рос клён. Он закрывал свет». «У дороги стоял дом. Здание пустовало». А «поэтому» помогает показать следствие. Это наши короткие учебные фрагменты: связь проверяем по их смыслу, а не по одному слову вне текста.",
+      "hashtags": [
+        "#огэрусский",
+        "#связьвтексте",
+        "#работастекстом"
+      ],
+      "heads": [
+        "Начала наших фраз",
+        "Что связывает"
+      ],
+      "title": "Как связаны\nдва предложения?",
+      "status": "approved",
+      "date": "2026-11-10",
+      "scheduledAt": "2026-11-10T16:00:00.000Z",
+      "campaignId": "anna-retouch-music-v3-20261031",
+      "visualStyle": "classic-table",
+      "hideFooter": true,
+      "showProgress": false,
+      "storyRepostMode": "full_video",
+      "branding": {
+        "show_handle": false,
+        "show_author_signature": false,
+        "show_services_footer": false
+      },
+      "assetSelection": {
+        "photoId": "desk-books-laptop",
+        "musicId": "bach-var1-ishizaka",
+        "musicOffsetSeconds": 1.4,
+        "backgroundPosition": "35% 50%"
+      }
+    }
+  ]
+}

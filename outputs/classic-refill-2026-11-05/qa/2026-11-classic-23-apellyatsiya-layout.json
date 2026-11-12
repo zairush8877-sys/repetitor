@@ -1,0 +1,27 @@
+{
+  "id": "2026-11-classic-23-apellyatsiya",
+  "previewOnly": true,
+  "total": 13.2,
+  "key": "2362af47d8a71abfd291301b2d5eea8615b5526c9604d6f699ee2842eefc0fea",
+  "assets": {
+    "photoId": "blank-books-table",
+    "photoFile": "assets/photos/blank-books-table.jpg",
+    "photoSha256": "2b1ed71fc07dd46f8d66a02a33ffd4c7c1df59a8c0294789366f8698f84fa537",
+    "musicId": "chopin-op62-no1",
+    "musicFile": "assets/music/chopin-op62-no1-gurevich.mp3",
+    "musicSha256": "3413e5a8aeaf36becac0ffdfdeb488f5087401f78ca2f31d3322900a26791b99",
+    "musicOffsetSeconds": 0,
+    "backgroundPosition": "50% 50%"
+  },
+  "measured": {
+    "cardTop": 639.5625,
+    "cardBottom": 1162.5625,
+    "rowFont": 52,
+    "titleFont": 94,
+    "footerCount": 0,
+    "cellOverflow": false,
+    "text": "В ЗАЯВЛЕНИЯХ И ПИСЬМАХ\nАпелляция:\nдве «п» или «л»?\nНЕПРАВИЛЬНО\nПРАВИЛЬНО\nаппеляция\nаппеляция\nапелляция\nанулировать\nанулировать\nаннулировать\nакредитация\nакредитация\nаккредитация\nассиметрия\nассиметрия\nасимметрия"
+  },
+  "previewFile": "qa/2026-11-classic-23-apellyatsiya-preview.jpg",
+  "previewSha256": "7ac5c2f10c8981efa5ccfb24834d1f96836881663cc9d562bd91c22718093080"
+}

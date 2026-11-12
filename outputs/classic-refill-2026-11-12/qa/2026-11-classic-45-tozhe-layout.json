@@ -1,0 +1,27 @@
+{
+  "id": "2026-11-classic-45-tozhe",
+  "previewOnly": true,
+  "total": 13.2,
+  "key": "27590ad4d8b4d919abdaeabcaa25379d77ef537bcd56e6059b4321857187a681",
+  "assets": {
+    "photoId": "open-book-plant",
+    "photoFile": "assets/photos/open-book-plant.jpg",
+    "photoSha256": "16849bf7ef5fa0860deb2c5c92efa65fac0e86116988ebb90d8934204b630f62",
+    "musicId": "satie-gymnopedie3",
+    "musicFile": "assets/music/satie-gymnopedie3-teknopazzo.mp3",
+    "musicSha256": "a3a9a3e120888f9fc58f4bbac11d9f7b98870b3ddbf260b5785a24fe0fd36a7e",
+    "musicOffsetSeconds": 0.7,
+    "backgroundPosition": "50% 50%"
+  },
+  "measured": {
+    "cardTop": 639.5625,
+    "cardBottom": 1357.5625,
+    "rowFont": 52,
+    "titleFont": 94,
+    "footerCount": 0,
+    "cellOverflow": false,
+    "text": "ЕГЭ • ТОЖЕ И ТО ЖЕ\nТоже.\nИли то же?\nНАШЕ ПРЕДЛОЖЕНИЕ\nПОДСТАНОВКА\nЯ тоже поеду.\nи я поеду\nОн сказал то же.\nто же самое\nМы тоже согласны.\nи мы согласны\nЯ выбрал то же пальто.\nто же самое пальто"
+  },
+  "previewFile": "qa/2026-11-classic-45-tozhe-preview.jpg",
+  "previewSha256": "2ddff49b3ae852c15684f6530b7d3cc5d8b4be38d23c37d8858f41c56cdcbc1b"
+}

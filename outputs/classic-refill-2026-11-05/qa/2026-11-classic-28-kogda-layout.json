@@ -1,0 +1,27 @@
+{
+  "id": "2026-11-classic-28-kogda",
+  "previewOnly": true,
+  "total": 13.2,
+  "key": "f42065b9264ffffca6fdd11d5ae442575a244a511d3a418af222c64207d10790",
+  "assets": {
+    "photoId": "uppsala-bookshelves",
+    "photoFile": "assets/photos/uppsala-bookshelves.jpg",
+    "photoSha256": "caa200a2d755c560a3826b47424f1cc3dfb9da99af2b9a666691853724bc0400",
+    "musicId": "chopin-op37-no2",
+    "musicFile": "assets/music/chopin-op37-no2-gurevich.mp3",
+    "musicSha256": "1e3255e0c1b8e936c92c146d44977015b471da6c153737fa3cd49ac61bc10a50",
+    "musicOffsetSeconds": 1.4,
+    "backgroundPosition": "50% 50%"
+  },
+  "measured": {
+    "cardTop": 639.5625,
+    "cardBottom": 1552.5625,
+    "rowFont": 52,
+    "titleFont": 94,
+    "footerCount": 0,
+    "cellOverflow": false,
+    "text": "ОГЭ • ВИДЫ ПРИДАТОЧНЫХ\nОдно «когда».\nРазные вопросы.\nНАШЕ ПРЕДЛОЖЕНИЕ\nВОПРОС\nПомню день, когда выпал снег.\nдень какой?\nМы ушли, когда стемнело.\nушли когда?\nЖду дня, когда вы вернётесь.\nдня какого?\nПозвони, когда приедешь.\nпозвони когда?"
+  },
+  "previewFile": "qa/2026-11-classic-28-kogda-preview.jpg",
+  "previewSha256": "dbcd4d7be39c00314738969885b95a03ad5ad3d79b4a218e89318ee200ef17d3"
+}

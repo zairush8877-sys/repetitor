@@ -1,0 +1,75 @@
+{
+  "id": "2026-11-classic-43-lena",
+  "key": "2715cc9241829c10291abd37456e12663a0c25129799f98a555dd0171fedd487",
+  "total": 13.2,
+  "assets": {
+    "photoId": "journal-writing",
+    "photoFile": "assets/photos/journal-writing.jpg",
+    "photoSha256": "de3686d216a532406ccf7b2a4564f1857c3dc7b1fba0e66fe41e50df0caf173e",
+    "musicId": "bach-var1-ishizaka",
+    "musicFile": "assets/music/bach-var1-ishizaka.mp3",
+    "musicSha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8",
+    "musicOffsetSeconds": 1.4,
+    "backgroundPosition": "50% 50%"
+  },
+  "music": {
+    "id": "bach-var1-ishizaka",
+    "file": "assets/music/bach-var1-ishizaka.mp3",
+    "composer": "Иоганн Себастьян Бах",
+    "piece": "Гольдберг-вариации, BWV 988 — Вариация № 1",
+    "title": "Goldberg Variations, BWV 988: Variatio 1 a 1 Clav.",
+    "performer": "Кимико Ишизака",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+    "rightsSource": "https://opengoldbergvariations.org/",
+    "sourceDownloadUrl": "https://upload.wikimedia.org/wikipedia/commons/2/20/Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+    "recordingRights": "Open Goldberg 2012 recording released under CC0; not inferred from composition age",
+    "compositionRights": "Public domain: J. S. Bach (1685–1750)",
+    "attribution": "И. С. Бах — Гольдберг-вариации, BWV 988, вариация № 1. Фортепиано: Кимико Ишизака, Open Goldberg Variations (2012). Запись CC0 1.0. Фрагмент, громкость изменена.",
+    "attributionRequired": false,
+    "sha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8",
+    "sourceSha256": "0539f3612413f6077c82e16f92417bad112e44017536f59db257c8179718076f",
+    "sourceExcerptStartSeconds": 0.7,
+    "durationSeconds": 32.04,
+    "reusedFrom": "outputs/cadence-2026-11-03/assets/bach-var1.mp3",
+    "technicalQa": {
+      "decoded": true,
+      "humanListening": false
+    },
+    "character": "Ранее использованная лёгкая клавирная вариация; ставится последней в цикле.",
+    "offsetSeconds": 1.4,
+    "excerptDurationSeconds": 13.2,
+    "originalExcerptStartSeconds": 2.0999999999999996,
+    "actualDurationSeconds": 32.04,
+    "processingForReel": "loudnorm I=-18 LUFS, TP=-2 dBTP, LRA=8; fade in 0.6 s, fade out 1.2 s"
+  },
+  "measured": {
+    "cardTop": 639.5625,
+    "cardBottom": 1292.5625,
+    "rowFont": 52,
+    "titleFont": 94,
+    "footerCount": 0,
+    "cellOverflow": false,
+    "text": "ОГЭ • ОБРАЩЕНИЕ И ПОДЛЕЖАЩЕЕ\nЛена, читай.\nЛена читает.\nНАШЕ ПРЕДЛОЖЕНИЕ\nРОЛЬ СЛОВА\nЛена, читай.\nобращение\nЛена читает.\nподлежащее\nДрузья, подождите!\nобращение\nДрузья ждут у дома.\nподлежащее"
+  },
+  "screenshotFrames": 122,
+  "sha256": "21fbbc091c41892920812dd1575e7e2de0e3a5d0d1e09a71e183e36cf2d30192",
+  "coverSha256": "2d82a2bd034d353caa0615ac4f6ed788ecb7e648d02d6c9bb339ae4b7fbfcf0f",
+  "streams": [
+    {
+      "type": "video",
+      "codec": "h264",
+      "width": 1080,
+      "height": 1920,
+      "duration": "13.200000"
+    },
+    {
+      "type": "audio",
+      "codec": "aac",
+      "duration": "13.200000",
+      "sampleRate": "48000"
+    }
+  ],
+  "decoded": true
+}

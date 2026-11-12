@@ -1,0 +1,786 @@
+{
+  "schemaVersion": 1,
+  "role": "independent Russian-language proofreader",
+  "checkedAt": "2026-11-10T08:44:22.571727+00:00",
+  "verdict": "pass",
+  "scope": "classic38–43: 24 пары, 12 подписей",
+  "sourceDraftPath": "/private/tmp/mama-classic-refill-2026-11-10/editorial/drafts.json",
+  "sourceDraftSha256": "fcc729254fd7d56231b2f034d437f98644c72c479c385ee91e61547b5fe1db3d",
+  "sourceQueuePath": "/private/tmp/mama-classic-refill-2026-11-10/base/content/queue.json",
+  "sourceQueueSha256": "de51600b580075cf6587b1f1bdd64c15c2285580db35c24d1d003a17ffe3628d",
+  "counts": {
+    "posts": 6,
+    "rows": 24,
+    "captionVariants": 12,
+    "selectedCaptions": 6,
+    "adult": 1,
+    "ege": 2,
+    "oge": 2,
+    "olympiad": 1,
+    "schoolTrue": 1,
+    "primarySources": 18
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Академос РАН: стекло",
+      "url": "https://orfo.ruslang.ru/abc/part/es?end=151693&start=151393",
+      "access": "full_primary_page",
+      "evidence": "Словарная статья стекло́ имеет именные падежные и числовые формы.",
+      "location": "Статья стекло, строка 198 веб-извлечения"
+    },
+    {
+      "id": "S2",
+      "title": "Академос РАН: стечь",
+      "url": "https://orfo.ruslang.ru/abc/part/es?end=152057&start=151757",
+      "access": "full_primary_page",
+      "evidence": "Стечь дано как глагол с личными формами и прошедшими формами стёк, стекла́.",
+      "location": "Статья стечь, строка 322"
+    },
+    {
+      "id": "S3",
+      "title": "Академос РАН: стих и стихнуть",
+      "url": "https://orfo.ruslang.ru/abc/part/es?end=152295&start=151995",
+      "access": "full_primary_page",
+      "evidence": "Стих — существительное с родительным стиха́; у стихнуть прямо дана прошедшая форма стих.",
+      "location": "Строки 104 и 131"
+    },
+    {
+      "id": "S4",
+      "title": "О. Н. Чарыкова, З. Д. Попова, И. А. Стернин: Основы теории языка и коммуникации, 2010",
+      "url": "https://sterninia.ru/files/757/15_Studentam_i_aspirantam/Osnovy_jazykoznanija.pdf",
+      "access": "primary_academic_book_on_author_site; relevant_passage_read",
+      "evidence": "Авторское учебное пособие непосредственно сопоставляет существительное стекло с прошедшей формой среднего рода от стечь как примером омоформ.",
+      "location": "PDF страница 70, индекс страницы 69; строки 2837–2841"
+    },
+    {
+      "id": "S5",
+      "title": "Грамота, ответ №333469: согласование причастий",
+      "url": "https://gramota.ru/spravka/vopros/333469",
+      "access": "indexed_primary_answer_333469_in_related_search_page; direct_open_403",
+      "evidence": "Полные причастия согласуются с определяемым существительным в роде, числе и падеже; в предложном падеже приведены окончания -ом/-ем."
+    },
+    {
+      "id": "S6",
+      "title": "Полный академический справочник: обособленные согласованные определения, §46",
+      "url": "https://orthographia.ru/punctuatio.php?sid=118",
+      "access": "full_primary_academic_text",
+      "evidence": "Оборот с зависимыми словами после определяемого существительного обособляется; правило применено к четырём фрагментам про лес.",
+      "location": "§46.1"
+    },
+    {
+      "id": "S7",
+      "title": "Грамота: тире, раздел о сложносочинённом предложении",
+      "url": "https://gramota.ru/journal/stati/pravila-i-normy/tire-funktsii-i-pravila-postanovki-v-russkom-yazyke",
+      "access": "indexed_primary_explanation",
+      "evidence": "Определение ССП включает равноправие частей и сочинительные союзы и, а и другие."
+    },
+    {
+      "id": "S8",
+      "title": "Полный академический справочник: сложносочинённое предложение, §112",
+      "url": "https://orthographia.ru/punctuatio.php?sid=133",
+      "access": "full_primary_academic_text",
+      "evidence": "И и а соединяют части ССП; между частями в обычном повествовательном случае ставится запятая.",
+      "location": "§112"
+    },
+    {
+      "id": "S9",
+      "title": "Полный академический справочник: сложноподчинённое предложение, §115",
+      "url": "https://orthographia.ru/punctuatio.php?sid=134",
+      "access": "full_primary_academic_text",
+      "evidence": "Хотя и пока перечислены среди средств подчинительной связи; главная и придаточная части разделяются запятой.",
+      "location": "§115"
+    },
+    {
+      "id": "S10",
+      "title": "Академос РАН: какао",
+      "url": "https://orfo.ruslang.ru/abc/part/ka?end=54791&start=54491",
+      "access": "full_primary_page",
+      "evidence": "Какао указано как несклоняемое существительное среднего рода.",
+      "location": "Статья какао, строка 308"
+    },
+    {
+      "id": "S11",
+      "title": "Академос РАН: салями",
+      "url": "https://orfo.ruslang.ru/abc/part/es?end=139144&start=138844",
+      "access": "full_primary_page",
+      "evidence": "Салями указано как несклоняемое существительное женского рода.",
+      "location": "Статья салями, строка 188"
+    },
+    {
+      "id": "S12",
+      "title": "Академос РАН: сулугуни",
+      "url": "https://orfo.ruslang.ru/abc/part/es?end=153837&start=153537",
+      "access": "full_primary_page",
+      "evidence": "Сулугуни указано как несклоняемое существительное мужского рода.",
+      "location": "Статья сулугуни, строка 400"
+    },
+    {
+      "id": "S13",
+      "title": "Академос РАН: брокколи",
+      "url": "https://orfo.ruslang.ru/abc/part/be?end=13503&start=13203",
+      "access": "full_primary_page",
+      "evidence": "Брокколи указано как несклоняемое существительное женского рода.",
+      "location": "Статья брокколи, строка 381"
+    },
+    {
+      "id": "S14",
+      "title": "РАН, Орфографическое комментирование русского словаря: суффиксы глаголов, §34.2",
+      "url": "https://oross.ruslang.ru/paragraph/34",
+      "access": "full_primary_page",
+      "evidence": "Выбор ова/ева и ыва/ива связан с чередованием в личных формах; танцевать приведено отдельно для ева после ц. Исключения и глаголы с ударным ва рассматриваются отдельно.",
+      "location": "§34.2, строки 209–245"
+    },
+    {
+      "id": "S15",
+      "title": "Полный академический справочник: глагольные суффиксы, §61–62",
+      "url": "https://orthographia.ru/orfografia.php?sid=35",
+      "access": "full_primary_academic_text",
+      "evidence": "У типа ова/ева форма первого лица имеет ую/юю; у ыва/ива суффикс сохраняется. Ударный ва выделен в следующий параграф.",
+      "location": "§61–62"
+    },
+    {
+      "id": "S16",
+      "title": "Полный академический справочник: обращения, §101",
+      "url": "https://orthographia.ru/punctuatio.php?sid=129",
+      "access": "full_primary_academic_text",
+      "evidence": "Обращение называет адресата речи и отделяется или выделяется запятыми.",
+      "location": "§101"
+    },
+    {
+      "id": "S17",
+      "title": "Грамота, журнал Русский язык в школе: обращение и подлежащее",
+      "url": "https://gramota.ru/journal/stati/nasledie/otvety-redaktsii-zhurnala-russkiy-yazyk-v-shkole-na-voprosy-chitateley",
+      "access": "indexed_primary_editorial_answer; direct_open_403",
+      "evidence": "В ответе на вопрос о подлежащем прямо разъяснено: обращение не входит в члены предложения, подлежащее связано со сказуемым."
+    },
+    {
+      "id": "S18",
+      "title": "Грамота, ответ №331508: стих в значении целого стихотворения",
+      "url": "https://gramota.ru/spravka/vopros/331508",
+      "access": "indexed_primary_answer",
+      "evidence": "С опорой на БАС, т.27, 2021, значение целого стихотворения помечено как разговорное или устаревшее; из резервной подписи исключено ненужное обобщение."
+    }
+  ],
+  "posts": [
+    {
+      "id": "2026-11-classic-38-steklo-stikh",
+      "verdict": "pass",
+      "rows": [
+        {
+          "row": 1,
+          "left": "тонкое стекло",
+          "right": "название",
+          "verdict": "pass",
+          "analysis": "В именном сочетании стекло называет предмет/материал; тонкое согласовано с существительным.",
+          "sourceIds": [
+            "S1",
+            "S4"
+          ],
+          "sourceUrls": [
+            "https://orfo.ruslang.ru/abc/part/es?end=151693&start=151393",
+            "https://sterninia.ru/files/757/15_Studentam_i_aspirantam/Osnovy_jazykoznanija.pdf"
+          ],
+          "application": "Independent application of cited dictionary/grammar to the authored context"
+        },
+        {
+          "row": 2,
+          "left": "молоко стекло",
+          "right": "действие",
+          "verdict": "pass",
+          "analysis": "В предложении молоко стекло слово стекло — прошедшая форма среднего рода глагола стечь.",
+          "sourceIds": [
+            "S2",
+            "S4"
+          ],
+          "sourceUrls": [
+            "https://orfo.ruslang.ru/abc/part/es?end=152057&start=151757",
+            "https://sterninia.ru/files/757/15_Studentam_i_aspirantam/Osnovy_jazykoznanija.pdf"
+          ],
+          "application": "Independent application of cited dictionary/grammar to the authored context"
+        },
+        {
+          "row": 3,
+          "left": "короткий стих",
+          "right": "название",
+          "verdict": "pass",
+          "analysis": "Стих в сочетании с короткий является существительным. Полное произведение в этом объяснении не определяется.",
+          "sourceIds": [
+            "S3"
+          ],
+          "sourceUrls": [
+            "https://orfo.ruslang.ru/abc/part/es?end=152295&start=151995"
+          ],
+          "application": "Independent application of cited dictionary/grammar to the authored context"
+        },
+        {
+          "row": 4,
+          "left": "ветер стих",
+          "right": "действие",
+          "verdict": "pass",
+          "analysis": "Стих — прошедшая форма мужского рода глагола стихнуть; ветер является подлежащим.",
+          "sourceIds": [
+            "S3"
+          ],
+          "sourceUrls": [
+            "https://orfo.ruslang.ru/abc/part/es?end=152295&start=151995"
+          ],
+          "application": "Independent application of cited dictionary/grammar to the authored context"
+        }
+      ],
+      "captions": [
+        {
+          "variant": "A",
+          "text": "Предложите ребёнку найти два глагола. Во фрагментах «тонкое стекло» и «короткий стих» слова «стекло» и «стих» — существительные. В «молоко стекло» и «ветер стих» — глаголы: формы от «стечь» и «стихнуть». Часть речи определяется по контексту. Это наша авторская олимпиадная разминка.",
+          "sha256": "965d51b9e4d337dee2b2ccb91052fb51b02fdc7d6ac0b2ef29ff9c52069ca3ca",
+          "selected": true,
+          "verdict": "pass",
+          "note": "Верно названы два существительных и два глагола с инфинитивами. Есть родительская рамка и авторская подача; официальный тур не заявлен."
+        },
+        {
+          "variant": "B",
+          "text": "Стекло может называть материал, а может сообщать о действии: молоко стекло. В «коротком стихе» — существительное, в «ветер стих» — форма глагола «стихнуть». В разминке для совместного разбора с ребёнком совпали формы разных частей речи. Глагольное «стекло» образовано от «стечь».",
+          "sha256": "745ba29d1a6f65d43425572cf13d58a0370e32aa04d34a307aa663a0cb6b092d",
+          "selected": false,
+          "verdict": "pass",
+          "note": "Совпадение форм объяснено через контекст. Описание стиха как целого произведения удалено; формальный ярлык полных лексических омонимов не используется."
+        }
+      ],
+      "titleVerdict": "pass",
+      "kickerVerdict": "pass",
+      "qualifiers": [
+        "Авторская компоновка известного языкового наблюдения; глобальная уникальность идеи не установлена и не заявлена.",
+        "Материал не назван заданием официальной олимпиады, не приписаны номер, год, тур или результаты ученика.",
+        "Название/действие — короткие смысловые подсказки, части речи точно названы в подписи."
+      ]
+    },
+    {
+      "id": "2026-11-classic-39-ukrytom",
+      "verdict": "pass",
+      "rows": [
+        {
+          "row": 1,
+          "left": "лес, укрытый снегом",
+          "right": "какой?",
+          "verdict": "pass",
+          "analysis": "Вопрос к полному причастию укрытый — какой. Изолированная форма допускает совпадение именительного и винительного; вопрос от этого не меняется.",
+          "sourceIds": [
+            "S5",
+            "S6"
+          ],
+          "sourceUrls": [
+            "https://gramota.ru/spravka/vopros/333469",
+            "https://orthographia.ru/punctuatio.php?sid=118"
+          ],
+          "application": "Independent application of cited dictionary/grammar to the authored context"
+        },
+        {
+          "row": 2,
+          "left": "в лесу, укрытом снегом",
+          "right": "каком?",
+          "verdict": "pass",
+          "analysis": "В лесу обозначает местонахождение: предложный падеж; причастие укрытом имеет вопрос каком.",
+          "sourceIds": [
+            "S5",
+            "S6"
+          ],
+          "sourceUrls": [
+            "https://gramota.ru/spravka/vopros/333469",
+            "https://orthographia.ru/punctuatio.php?sid=118"
+          ],
+          "application": "Independent application of cited dictionary/grammar to the authored context"
+        },
+        {
+          "row": 3,
+          "left": "над лесом, укрытым снегом",
+          "right": "каким?",
+          "verdict": "pass",
+          "analysis": "Над лесом — творительный падеж, укрытым согласовано с лесом; вопрос каким.",
+          "sourceIds": [
+            "S5",
+            "S6"
+          ],
+          "sourceUrls": [
+            "https://gramota.ru/spravka/vopros/333469",
+            "https://orthographia.ru/punctuatio.php?sid=118"
+          ],
+          "application": "Independent application of cited dictionary/grammar to the authored context"
+        },
+        {
+          "row": 4,
+          "left": "к лесу, укрытому снегом",
+          "right": "какому?",
+          "verdict": "pass",
+          "analysis": "К лесу — дательный падеж; согласованное причастие укрытому имеет вопрос какому.",
+          "sourceIds": [
+            "S5",
+            "S6"
+          ],
+          "sourceUrls": [
+            "https://gramota.ru/spravka/vopros/333469",
+            "https://orthographia.ru/punctuatio.php?sid=118"
+          ],
+          "application": "Independent application of cited dictionary/grammar to the authored context"
+        }
+      ],
+      "captions": [
+        {
+          "variant": "A",
+          "text": "В лесу, укрытом снегом: «лесу» — предложный падеж, «укрытом» согласуется с ним. Над лесом, укрытым снегом: творительный падеж, поэтому «укрытым». Полное причастие берёт род, число и падеж существительного, к которому относится.",
+          "sha256": "6a5ae353e891620bfc249380bc94b4da53e243b949e5a1d7fa546e8385143d05",
+          "selected": true,
+          "verdict": "pass",
+          "note": "Предложный при местонахождении в лесу и творительный над лесом определены верно; объясняется согласование полного причастия."
+        },
+        {
+          "variant": "B",
+          "text": "В сочетании «к лесу, укрытому снегом» причастие стоит в дательном падеже, как и существительное «лесу». В таблице причастие каждый раз относится к существительному «лес» и меняет окончание вместе с его падежом. Для согласования важна эта связь, а не соседнее слово «снегом».",
+          "sha256": "26a3c0ac614b502a67a7c73ff226b51a78cd23bd358aa17e8fb28bd7dcd89556",
+          "selected": false,
+          "verdict": "pass",
+          "note": "Дательный в сочетании к лесу указан верно. Снята неоднозначная квалификация изолированного укрытый лес как исключительно именительного."
+        }
+      ],
+      "titleVerdict": "pass",
+      "kickerVerdict": "pass",
+      "qualifiers": [
+        "Проверяются полные формы причастия. Вопросы к причастию задаются от лес, предлог не является частью вопроса к зависимому определению.",
+        "Фрагмент лес, укрытый снегом не доказывает единственный падеж без внешнего предложения; выбранная подпись этого не утверждает.",
+        "Форма лесу в местном употреблении в лесу трактуется в школьной шестипадежной системе как предложный падеж."
+      ]
+    },
+    {
+      "id": "2026-11-classic-40-sspspp",
+      "verdict": "pass",
+      "rows": [
+        {
+          "row": 1,
+          "left": "Идёт дождь, а я гуляю.",
+          "right": "равноправны",
+          "verdict": "pass",
+          "analysis": "Две основы дождь идёт / я гуляю соединены сочинительным а; части грамматически равноправны.",
+          "sourceIds": [
+            "S7",
+            "S8"
+          ],
+          "sourceUrls": [
+            "https://gramota.ru/journal/stati/pravila-i-normy/tire-funktsii-i-pravila-postanovki-v-russkom-yazyke",
+            "https://orthographia.ru/punctuatio.php?sid=133"
+          ],
+          "application": "Independent application of cited dictionary/grammar to the authored context"
+        },
+        {
+          "row": 2,
+          "left": "Я гуляю, хотя идёт дождь.",
+          "right": "есть зависимость",
+          "verdict": "pass",
+          "analysis": "Хотя присоединяет придаточную уступки к главной части я гуляю; есть подчинение.",
+          "sourceIds": [
+            "S9"
+          ],
+          "sourceUrls": [
+            "https://orthographia.ru/punctuatio.php?sid=134"
+          ],
+          "application": "Independent application of cited dictionary/grammar to the authored context"
+        },
+        {
+          "row": 3,
+          "left": "Я замёрз, и мы ушли.",
+          "right": "равноправны",
+          "verdict": "pass",
+          "analysis": "Основы я замёрз / мы ушли соединены сочинительным и. Возможная причинность смысла не меняет тип связи.",
+          "sourceIds": [
+            "S7",
+            "S8"
+          ],
+          "sourceUrls": [
+            "https://gramota.ru/journal/stati/pravila-i-normy/tire-funktsii-i-pravila-postanovki-v-russkom-yazyke",
+            "https://orthographia.ru/punctuatio.php?sid=133"
+          ],
+          "application": "Independent application of cited dictionary/grammar to the authored context"
+        },
+        {
+          "row": 4,
+          "left": "Я замёрз, пока ждал.",
+          "right": "есть зависимость",
+          "verdict": "pass",
+          "analysis": "Пока ждал — придаточная времени при я замёрз; вопрос когда. Пропуск повторного я не устраняет подчинение.",
+          "sourceIds": [
+            "S9"
+          ],
+          "sourceUrls": [
+            "https://orthographia.ru/punctuatio.php?sid=134"
+          ],
+          "application": "Independent application of cited dictionary/grammar to the authored context"
+        }
+      ],
+      "captions": [
+        {
+          "variant": "A",
+          "text": "«Идёт дождь, а я гуляю» — части грамматически равноправны, это сложносочинённое предложение. «Я гуляю, хотя идёт дождь» — есть главная и зависимая придаточная часть, предложение сложноподчинённое. Такое же различие показано в двух нижних строках.",
+          "sha256": "be981a5d2908867c7b7b07d9db78372792d8220f7c7258363a27ba9d6dd4028b",
+          "selected": true,
+          "verdict": "pass",
+          "note": "Равноправие прямо названо грамматическим; для хотя верно выделены главная и придаточная."
+        },
+        {
+          "variant": "B",
+          "text": "Я замёрз, и мы ушли — сложносочинённое предложение. По смыслу холод мог стать причиной ухода, но грамматическая связь частей остаётся сочинительной. Я замёрз, пока ждал — сложноподчинённое: от главной части к придаточной задаём вопрос «когда?».",
+          "sha256": "a85808e0b775ac41c008e3689c32459cfe4766d02a7d333ead2a5d85c348f53e",
+          "selected": false,
+          "verdict": "pass",
+          "note": "Смысловая причинность отделена от грамматического сочинения. Пока ждал относится ко времени замерзания; когда — корректный вопрос."
+        }
+      ],
+      "titleVerdict": "pass",
+      "kickerVerdict": "pass",
+      "qualifiers": [
+        "Равноправие грамматическое; причинно-следственный смысл возможен и при сочинительной связи.",
+        "Неполнота придаточного пока ждал не превращает его в простое предложение или однородное сказуемое главной части."
+      ]
+    },
+    {
+      "id": "2026-11-classic-41-rod-menu",
+      "verdict": "pass",
+      "rows": [
+        {
+          "row": 1,
+          "left": "горячий какао",
+          "right": "горячее какао",
+          "verdict": "pass",
+          "analysis": "Какао среднего рода; прилагательное горячее должно быть среднего рода.",
+          "sourceIds": [
+            "S10"
+          ],
+          "sourceUrls": [
+            "https://orfo.ruslang.ru/abc/part/ka?end=54791&start=54491"
+          ],
+          "application": "Independent application of cited dictionary/grammar to the authored context"
+        },
+        {
+          "row": 2,
+          "left": "острое салями",
+          "right": "острая салями",
+          "verdict": "pass",
+          "analysis": "Салями женского рода, поэтому острая.",
+          "sourceIds": [
+            "S11"
+          ],
+          "sourceUrls": [
+            "https://orfo.ruslang.ru/abc/part/es?end=139144&start=138844"
+          ],
+          "application": "Independent application of cited dictionary/grammar to the authored context"
+        },
+        {
+          "row": 3,
+          "left": "свежее сулугуни",
+          "right": "свежий сулугуни",
+          "verdict": "pass",
+          "analysis": "Сулугуни мужского рода, поэтому свежий.",
+          "sourceIds": [
+            "S12"
+          ],
+          "sourceUrls": [
+            "https://orfo.ruslang.ru/abc/part/es?end=153837&start=153537"
+          ],
+          "application": "Independent application of cited dictionary/grammar to the authored context"
+        },
+        {
+          "row": 4,
+          "left": "полезный брокколи",
+          "right": "полезная брокколи",
+          "verdict": "pass",
+          "analysis": "Брокколи женского рода, поэтому полезная.",
+          "sourceIds": [
+            "S13"
+          ],
+          "sourceUrls": [
+            "https://orfo.ruslang.ru/abc/part/be?end=13503&start=13203"
+          ],
+          "application": "Independent application of cited dictionary/grammar to the authored context"
+        }
+      ],
+      "captions": [
+        {
+          "variant": "A",
+          "text": "Какао — среднего рода: горячее. Сулугуни — мужского: свежий. Салями и брокколи — женского: острая салями, полезная брокколи. Эти существительные не склоняются, но род у них есть. Для заказа или описания блюда нужна подходящая форма прилагательного.",
+          "sha256": "fc75838a358a2616ddd228ae211877e998ef13d8a3d8610e25383853f0c898ea",
+          "selected": true,
+          "verdict": "pass",
+          "note": "Все четыре рода и формы прилагательных подтверждены текущим Академосом; несклоняемость не смешивается с отсутствием рода."
+        },
+        {
+          "variant": "B",
+          "text": "Свежий сулугуни и острая салями — формы определяет род названия продукта. У несклоняемого какао средний род, у брокколи женский. Поэтому горячее какао, полезная брокколи. Одна неизменная форма слова не означает, что все такие названия среднего рода.",
+          "sha256": "a1858cff6dd7e5eede4f66648a2a96e7c6111bf0e2ae3e3ece918c6559e6873a",
+          "selected": false,
+          "verdict": "pass",
+          "note": "Соотношение неизменяемой формы и грамматического рода объяснено верно."
+        }
+      ],
+      "titleVerdict": "pass",
+      "kickerVerdict": "pass",
+      "qualifiers": [
+        "Слова употребляются как самостоятельные названия продуктов, без явно выраженного другого главного существительного.",
+        "Полезная — пример грамматического согласования, не индивидуальная рекомендация по питанию."
+      ]
+    },
+    {
+      "id": "2026-11-classic-42-ova-yva",
+      "verdict": "pass",
+      "rows": [
+        {
+          "row": 1,
+          "left": "советую",
+          "right": "советовать",
+          "verdict": "pass",
+          "analysis": "Советую — форма первого лица советовать; в инфинитиве ова, в личной форме ую.",
+          "sourceIds": [
+            "S14",
+            "S15"
+          ],
+          "sourceUrls": [
+            "https://oross.ruslang.ru/paragraph/34",
+            "https://orthographia.ru/orfografia.php?sid=35"
+          ],
+          "application": "Independent application of cited dictionary/grammar to the authored context"
+        },
+        {
+          "row": 2,
+          "left": "танцую",
+          "right": "танцевать",
+          "verdict": "pass",
+          "analysis": "Танцую — форма первого лица танцевать; ева после ц прямо подтверждено РАН.",
+          "sourceIds": [
+            "S14",
+            "S15"
+          ],
+          "sourceUrls": [
+            "https://oross.ruslang.ru/paragraph/34",
+            "https://orthographia.ru/orfografia.php?sid=35"
+          ],
+          "application": "Independent application of cited dictionary/grammar to the authored context"
+        },
+        {
+          "row": 3,
+          "left": "опаздываю",
+          "right": "опаздывать",
+          "verdict": "pass",
+          "analysis": "Опаздываю соответствует опаздывать: ыва сохраняется в обеих основах.",
+          "sourceIds": [
+            "S14",
+            "S15"
+          ],
+          "sourceUrls": [
+            "https://oross.ruslang.ru/paragraph/34",
+            "https://orthographia.ru/orfografia.php?sid=35"
+          ],
+          "application": "Independent application of cited dictionary/grammar to the authored context"
+        },
+        {
+          "row": 4,
+          "left": "откладываю",
+          "right": "откладывать",
+          "verdict": "pass",
+          "analysis": "Откладываю соответствует откладывать: ыва сохраняется в обеих основах.",
+          "sourceIds": [
+            "S14",
+            "S15"
+          ],
+          "sourceUrls": [
+            "https://oross.ruslang.ru/paragraph/34",
+            "https://orthographia.ru/orfografia.php?sid=35"
+          ],
+          "application": "Independent application of cited dictionary/grammar to the authored context"
+        }
+      ],
+      "captions": [
+        {
+          "variant": "A",
+          "text": "Советую — советовать, танцую — танцевать. В этих глаголах форма первого лица помогает выбрать суффикс -ова- или -ева-. Если сохраняется -ываю-/-иваю-, в инфинитиве пишем -ыва-/-ива-: опаздываю — опаздывать, откладываю — откладывать.",
+          "sha256": "a05aaaf36b8a22c402b70310f4dc9061741579363dbb9ca9b0efd80ad3f63319",
+          "selected": true,
+          "verdict": "pass",
+          "note": "Все четыре пары инфинитив/первое лицо верны; речь ограничена выбором данных глагольных суффиксов."
+        },
+        {
+          "variant": "B",
+          "text": "Я советую, я танцую — в инфинитивах этой пары -ова-/-ева-: советовать, танцевать. Я опаздываю, я откладываю — сохраняется -ыва-: опаздывать, откладывать. Это приём выбора между -ова-/-ева- и -ыва-/-ива-, а не способ преобразовать любой глагол на -ую.",
+          "sha256": "0ca5cf9e5cd4fed782adff987f8722083a503f14751d95808a79f04dc24ee1aa",
+          "selected": false,
+          "verdict": "pass",
+          "note": "Точная оговорка не распространяет приём на любой глагол, оканчивающийся в первом лице на ую."
+        }
+      ],
+      "titleVerdict": "pass",
+      "kickerVerdict": "pass",
+      "qualifiers": [
+        "Приём относится к выбору ова/ева и ыва/ива, а не к любому набору букв ую.",
+        "Глаголы с ударным ва и словарные исключения требуют отдельного анализа; они не входят в эти четыре пары."
+      ]
+    },
+    {
+      "id": "2026-11-classic-43-lena",
+      "verdict": "pass",
+      "rows": [
+        {
+          "row": 1,
+          "left": "Лена, читай.",
+          "right": "обращение",
+          "verdict": "pass",
+          "analysis": "Лена называет адресата побуждения читай и отделена запятой: обращение.",
+          "sourceIds": [
+            "S16",
+            "S17"
+          ],
+          "sourceUrls": [
+            "https://orthographia.ru/punctuatio.php?sid=129",
+            "https://gramota.ru/journal/stati/nasledie/otvety-redaktsii-zhurnala-russkiy-yazyk-v-shkole-na-voprosy-chitateley"
+          ],
+          "application": "Independent application of cited dictionary/grammar to the authored context"
+        },
+        {
+          "row": 2,
+          "left": "Лена читает.",
+          "right": "подлежащее",
+          "verdict": "pass",
+          "analysis": "Лена грамматически связана со сказуемым читает и является подлежащим; запятая не нужна.",
+          "sourceIds": [
+            "S17"
+          ],
+          "sourceUrls": [
+            "https://gramota.ru/journal/stati/nasledie/otvety-redaktsii-zhurnala-russkiy-yazyk-v-shkole-na-voprosy-chitateley"
+          ],
+          "application": "Independent application of cited dictionary/grammar to the authored context"
+        },
+        {
+          "row": 3,
+          "left": "Друзья, подождите!",
+          "right": "обращение",
+          "verdict": "pass",
+          "analysis": "Друзья называет адресатов побуждения подождите и отделено запятой: обращение.",
+          "sourceIds": [
+            "S16",
+            "S17"
+          ],
+          "sourceUrls": [
+            "https://orthographia.ru/punctuatio.php?sid=129",
+            "https://gramota.ru/journal/stati/nasledie/otvety-redaktsii-zhurnala-russkiy-yazyk-v-shkole-na-voprosy-chitateley"
+          ],
+          "application": "Independent application of cited dictionary/grammar to the authored context"
+        },
+        {
+          "row": 4,
+          "left": "Друзья ждут у дома.",
+          "right": "подлежащее",
+          "verdict": "pass",
+          "analysis": "Друзья связано со сказуемым ждут во множественном числе и является подлежащим.",
+          "sourceIds": [
+            "S17"
+          ],
+          "sourceUrls": [
+            "https://gramota.ru/journal/stati/nasledie/otvety-redaktsii-zhurnala-russkiy-yazyk-v-shkole-na-voprosy-chitateley"
+          ],
+          "application": "Independent application of cited dictionary/grammar to the authored context"
+        }
+      ],
+      "captions": [
+        {
+          "variant": "A",
+          "text": "Лена, читай — обращаемся к Лене, поэтому имя отделено запятой. Лена читает — сообщаем о действии Лены; имя здесь подлежащее. В двух нижних предложениях так же меняется роль слова «друзья». Обращение называет адресата речи и членом предложения не является.",
+          "sha256": "0d44c564219ad17fa306e9ffe1d45543eb47e95c0416e80cb5cb4bc55dfd8a40",
+          "selected": true,
+          "verdict": "pass",
+          "note": "Обращение и подлежащее различены через адресата и грамматическую связь; утверждение о нечлене предложения соответствует школьному разбору."
+        },
+        {
+          "variant": "B",
+          "text": "Друзья, подождите! Это обращение. Друзья ждут у дома — подлежащее. Одинаковая форма существительного ещё не означает одинаковую роль. Проверяем: называем того, к кому обращаемся, или сообщаем о том, кто выполняет действие. В этих примерах от этого зависит запятая.",
+          "sha256": "b5ca6ad2e648c4343be6cca1e2538b0fe372af72fda85e0f430ac1fcc8688e01",
+          "selected": false,
+          "verdict": "pass",
+          "note": "В данных четырёх контекстах различие роли и соответствующей запятой описано верно; универсального правила по одной только форме слова нет."
+        }
+      ],
+      "titleVerdict": "pass",
+      "kickerVerdict": "pass",
+      "qualifiers": [
+        "Роль определяется по конкретному контексту, адресации и сказуемому, а не по наличию имени или слова друзья само по себе.",
+        "Обращение не включается в грамматическую основу по принятому школьному разбору."
+      ]
+    }
+  ],
+  "editorialCorrections": [
+    {
+      "id": "2026-11-classic-38-steklo-stikh",
+      "variant": "A",
+      "applied": true,
+      "correction": "Убрано несуществующее отдельное визуальное выделение; существительные названы прямо."
+    },
+    {
+      "id": "2026-11-classic-38-steklo-stikh",
+      "variant": "B",
+      "applied": true,
+      "sourceIds": [
+        "S18"
+      ],
+      "correction": "Удалено безусловное определение стиха как целого произведения; остаётся смысловой контекст существительного."
+    },
+    {
+      "id": "2026-11-classic-39-ukrytom",
+      "variant": "B",
+      "applied": true,
+      "correction": "Убрано утверждение об исключительно именительном падеже вне предложения; разъяснён однозначный дательный к лесу."
+    }
+  ],
+  "finalReview": {
+    "verdict": "pass",
+    "checkedAt": "2026-11-10T08:44:22.571727+00:00",
+    "releasePath": "/private/tmp/mama-classic-refill-2026-11-10/project/outputs/classic-refill-2026-11-10/release.json",
+    "releaseSha256AtReview": "9c233e95db550ce420219d86f2748e200549321b5a8937d07a260d31fea6d870",
+    "normalizedPostsWithoutStatusSha256": "0fcea585e0b2a6628862c0befb7919adc51375815328a4484514d8fa06d46647",
+    "textProjectionSha256": "a8e8f530f5bbe9628aaa09dc02015a269fbd118ec389f8469651cc9606e03afa",
+    "textProjectionKeys": [
+      "id",
+      "kicker",
+      "title",
+      "heads",
+      "rows",
+      "caption",
+      "hashtags",
+      "rubric",
+      "school"
+    ],
+    "normalization": "json.dumps(posts_without_top_level_status, ensure_ascii=False, sort_keys=True, separators=(comma,colon)).encode(utf-8)",
+    "posts": 6,
+    "rows": 24,
+    "captionVariantsReviewed": 12,
+    "selectedCaptions": "A,A,A,A,A,A",
+    "textEqualsProofreadDraft": true,
+    "all24RowsUnchanged": true,
+    "selectedCaptionsRequireCorrection": false,
+    "mandatoryCorrectionsRemaining": 0,
+    "statusAndRevisionHeaderOutsideTextReview": true,
+    "sourceCount": 18,
+    "limitations": [
+      "Ряд страниц Грамоты проверен по индексированным первичным фрагментам, прямое открытие возвращало 403. Доступный контекст источника отмечен для каждого URL.",
+      "Словарные статьи Академоса, ОРОСС и нужные разделы академического текста Orthographia открыты полностью; в большом авторском PDF прочитан только относящийся к задаче фрагмент.",
+      "Языковая проверка не подтверждает визуальную приёмку, права на медиа, GitHub, включение расписания или публикацию."
+    ]
+  },
+  "exactPairDedupe": {
+    "existingApprovedPublishedPosts": 133,
+    "normalizedPairsChecked": 24,
+    "duplicates": [],
+    "scope": "Exact normalized row-pair check only; does not claim semantic or global originality"
+  },
+  "provenance": {
+    "olympiad": "Authored examples and arrangement of a standard morphological observation; no official paper or pupil outcome attribution",
+    "examExamples": "Own study examples, no KIM task number/year assertion"
+  },
+  "limitations": [
+    "Ряд страниц Грамоты проверен по индексированным первичным фрагментам, прямое открытие возвращало 403. Доступный контекст источника отмечен для каждого URL.",
+    "Словарные статьи Академоса, ОРОСС и нужные разделы академического текста Orthographia открыты полностью; в большом авторском PDF прочитан только относящийся к задаче фрагмент.",
+    "Языковая проверка не подтверждает визуальную приёмку, права на медиа, GitHub, включение расписания или публикацию."
+  ]
+}

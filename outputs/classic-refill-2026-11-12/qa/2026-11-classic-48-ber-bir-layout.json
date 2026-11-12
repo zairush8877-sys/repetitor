@@ -1,0 +1,27 @@
+{
+  "id": "2026-11-classic-48-ber-bir",
+  "previewOnly": true,
+  "total": 13.2,
+  "key": "05dcfb742b150375b79ef7235a4140b2186900a2aac6a589468b639178438e90",
+  "assets": {
+    "photoId": "library-bookshelves",
+    "photoFile": "assets/photos/library-bookshelves.jpg",
+    "photoSha256": "619db7cc81436dfad8f96b46fc64f076733f9fe1770965678c002b3a871d9178",
+    "musicId": "schubert-d784-andante",
+    "musicFile": "assets/music/schubert-d784-andante-pitman.mp3",
+    "musicSha256": "037cb154ac95ac0c61036de7e46cf6d0c45d6ae4f9058b557e55333f834ea880",
+    "musicOffsetSeconds": 0.7,
+    "backgroundPosition": "50% 50%"
+  },
+  "measured": {
+    "cardTop": 639.5625,
+    "cardBottom": 1162.5625,
+    "rowFont": 52,
+    "titleFont": 94,
+    "footerCount": 0,
+    "cellOverflow": false,
+    "text": "ЕГЭ • КОРНИ С Е И И\nСоберу.\nНо собирать.\nБЕЗ -А-\nС СУФФИКСОМ -А-\nсоберу\nсобирать\nуберу\nубирать\nзамереть\nзамирать\nвытереть\nвытирать"
+  },
+  "previewFile": "qa/2026-11-classic-48-ber-bir-preview.jpg",
+  "previewSha256": "8981cb66cda5099f408138612bf27ed9044c8d4f384ed1f1053d0fcd33b6a1fa"
+}

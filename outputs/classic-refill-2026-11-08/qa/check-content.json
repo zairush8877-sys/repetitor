@@ -1,0 +1,32 @@
+[
+  {
+    "id": "2026-11-classic-35-ni-pukha",
+    "mode": "isolated",
+    "exitCode": 0
+  },
+  {
+    "id": "2026-11-classic-36-gar-gor",
+    "mode": "isolated",
+    "exitCode": 0
+  },
+  {
+    "id": "2026-11-classic-37-kto-chey",
+    "mode": "isolated",
+    "exitCode": 0
+  },
+  {
+    "id": "2026-11-classic-35-ni-pukha",
+    "mode": "merged",
+    "exitCode": 0
+  },
+  {
+    "id": "2026-11-classic-36-gar-gor",
+    "mode": "merged",
+    "exitCode": 0
+  },
+  {
+    "id": "2026-11-classic-37-kto-chey",
+    "mode": "merged",
+    "exitCode": 0
+  }
+]

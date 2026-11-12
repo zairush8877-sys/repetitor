@@ -1,0 +1,167 @@
+{
+  "project": "мама инста",
+  "revision": "Daily refill Nov8;3newNov15slots;12rows and6captions independently checked;editor accepted",
+  "posts": [
+    {
+      "id": "2026-11-classic-35-ni-pukha",
+      "date": "2026-11-15",
+      "scheduledAt": "2026-11-15T07:00:00.000Z",
+      "rubric": "Пунктуация взрослых",
+      "kicker": "ПРИВЫЧНЫЕ ФРАЗЫ В ПЕРЕПИСКЕ",
+      "title": "Ни пуха ни пера.\nБез запятой.",
+      "rows": [
+        [
+          "ни пуха, ни пера",
+          "ни пуха ни пера"
+        ],
+        [
+          "ни рыба, ни мясо",
+          "ни рыба ни мясо"
+        ],
+        [
+          "ни свет, ни заря",
+          "ни свет ни заря"
+        ],
+        [
+          "ни то, ни сё",
+          "ни то ни сё"
+        ]
+      ],
+      "hashtags": [
+        "#русскийязык",
+        "#пунктуация",
+        "#устойчивыевыражения"
+      ],
+      "format": "Reels",
+      "status": "approved",
+      "school": false,
+      "visualStyle": "classic-table",
+      "hideFooter": true,
+      "showProgress": false,
+      "storyRepostMode": "full_video",
+      "branding": {
+        "show_handle": false,
+        "show_author_signature": false,
+        "show_services_footer": false
+      },
+      "caption": "В пожелании «Ни пуха ни пера!» внутри запятая не нужна. Так же пишутся устойчивые выражения «ни рыба ни мясо», «ни свет ни заря», «ни то ни сё». Они воспринимаются как цельные сочетания. Это особые случаи, а не правило для любого повторяющегося НИ.",
+      "campaignId": "anna-retouch-music-v3-20261031",
+      "assetSelection": {
+        "photoId": "journal-writing",
+        "musicId": "chopin-op37-no2",
+        "musicOffsetSeconds": 0.0,
+        "backgroundPosition": "50% 50%"
+      }
+    },
+    {
+      "id": "2026-11-classic-36-gar-gor",
+      "date": "2026-11-15",
+      "scheduledAt": "2026-11-15T11:00:00.000Z",
+      "rubric": "ЕГЭ",
+      "kicker": "ЕГЭ • КОРНИ -ГАР- И -ГОР-",
+      "title": "Загар.\nНо загореть.",
+      "heads": [
+        "Наше слово",
+        "Буква в корне"
+      ],
+      "rows": [
+        [
+          "зага́р",
+          "под ударением А"
+        ],
+        [
+          "загоре́ть",
+          "без ударения О"
+        ],
+        [
+          "уга́р",
+          "под ударением А"
+        ],
+        [
+          "угоре́ть",
+          "без ударения О"
+        ]
+      ],
+      "hashtags": [
+        "#егэрусский",
+        "#чередованиекорней",
+        "#орфография"
+      ],
+      "format": "Reels",
+      "status": "approved",
+      "school": false,
+      "visualStyle": "classic-table",
+      "hideFooter": true,
+      "showProgress": false,
+      "storyRepostMode": "full_video",
+      "branding": {
+        "show_handle": false,
+        "show_author_signature": false,
+        "show_services_footer": false
+      },
+      "caption": "Зага́р — А под ударением. Загоре́ть — О без ударения. Так же сопоставляем уга́р и угоре́ть. В этих словах чередуются корни -гар-/-гор-. Слова «выгарки», «изгарь», «пригарь» с безударной А запоминают отдельно.",
+      "campaignId": "anna-retouch-music-v3-20261031",
+      "assetSelection": {
+        "photoId": "uppsala-bookshelves",
+        "musicId": "bach-var1-ishizaka",
+        "musicOffsetSeconds": 0.7,
+        "backgroundPosition": "50% 50%"
+      }
+    },
+    {
+      "id": "2026-11-classic-37-kto-chey",
+      "date": "2026-11-15",
+      "scheduledAt": "2026-11-15T16:00:00.000Z",
+      "rubric": "ОГЭ",
+      "kicker": "ОГЭ • РОЛЬ МЕСТОИМЕНИЯ",
+      "title": "Кто пришёл?\nЗнаю, кто пришёл.",
+      "heads": [
+        "Наше предложение",
+        "Роль слова"
+      ],
+      "rows": [
+        [
+          "Кто пришёл?",
+          "задаёт вопрос"
+        ],
+        [
+          "Я знаю, кто пришёл.",
+          "связывает части"
+        ],
+        [
+          "Чей это шарф?",
+          "задаёт вопрос"
+        ],
+        [
+          "Я узнал, чей это шарф.",
+          "связывает части"
+        ]
+      ],
+      "hashtags": [
+        "#огэрусский",
+        "#местоимение",
+        "#синтаксис"
+      ],
+      "format": "Reels",
+      "status": "approved",
+      "school": false,
+      "visualStyle": "classic-table",
+      "hideFooter": true,
+      "showProgress": false,
+      "storyRepostMode": "full_video",
+      "branding": {
+        "show_handle": false,
+        "show_author_signature": false,
+        "show_services_footer": false
+      },
+      "caption": "«Кто пришёл?» — местоимение «кто» задаёт вопрос. «Я знаю, кто пришёл» — оно связывает придаточную часть с главной. В первом случае местоимение вопросительное, во втором — относительное. Так же различаем роль слова «чей» в двух оставшихся предложениях.",
+      "campaignId": "anna-retouch-music-v3-20261031",
+      "assetSelection": {
+        "photoId": "open-book-plant",
+        "musicId": "chopin-op62-no1",
+        "musicOffsetSeconds": 1.4,
+        "backgroundPosition": "50% 50%"
+      }
+    }
+  ]
+}

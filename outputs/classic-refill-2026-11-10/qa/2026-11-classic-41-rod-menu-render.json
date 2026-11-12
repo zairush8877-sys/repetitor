@@ -1,0 +1,90 @@
+{
+  "id": "2026-11-classic-41-rod-menu",
+  "key": "cfad08ad9ca5d57b6d1ccaed5fd351ef917c6c16f187c8d98a7e615473e2549a",
+  "total": 13.2,
+  "assets": {
+    "photoId": "library-warm",
+    "photoFile": "assets/photos/library-warm.jpg",
+    "photoSha256": "b5a167b69b7828e55fe9c63963f3b37777fba4abd944c1b5c7053094190746aa",
+    "musicId": "schubert-d784-andante",
+    "musicFile": "assets/music/schubert-d784-andante-pitman.mp3",
+    "musicSha256": "037cb154ac95ac0c61036de7e46cf6d0c45d6ae4f9058b557e55333f834ea880",
+    "musicOffsetSeconds": 0,
+    "backgroundPosition": "85% 50%"
+  },
+  "music": {
+    "id": "schubert-d784-andante",
+    "file": "assets/music/schubert-d784-andante-pitman.mp3",
+    "composer": "Франц Шуберт",
+    "piece": "Соната ля минор, D.784 — II. Andante",
+    "title": "Piano Sonata in A minor, D.784: II. Andante",
+    "performer": "Paul Pitman",
+    "license": "Public domain declaration by copyright holder (PDM-owner)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "commonsTitle": "File:Schubert's Piano Sonata in A minor, D.784 - II. Andante (in F major) - Paul Pitman.ogg",
+    "recordingRights": "На странице конкретной записи стоит PDM-owner: Commons описывает применение PDM самим правообладателем как объявление своей записи общественным достоянием. Исполнитель Paul Pitman, источник его файл IMSLP, дата 17.08.2012. Это отдельная декларация на запись, не один возраст Шуберта.",
+    "compositionRights": "Шуберт (1797–1828); соната D.784 (1823): public domain; право на запись подтверждено отдельно PDM-owner.",
+    "sourceExcerptStartSeconds": 0.6,
+    "durationSeconds": 35.04,
+    "attribution": "Ф. Шуберт — Соната D.784, II. Andante. Фортепиано: Paul Pitman (2012). Запись public domain (PDM-owner); фрагмент, громкость изменена.",
+    "character": "Неторопливая фортепианная часть.",
+    "source": "https://commons.wikimedia.org/wiki/File:Schubert%27s_Piano_Sonata_in_A_minor,_D.784_-_II._Andante_(in_F_major)_-_Paul_Pitman.ogg",
+    "sourceDownloadUrl": "https://upload.wikimedia.org/wikipedia/commons/5/56/Schubert%27s_Piano_Sonata_in_A_minor%2C_D.784_-_II._Andante_%28in_F_major%29_-_Paul_Pitman.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsPageId": 128910390,
+    "commonsRevisionId": 1227005631,
+    "sourcePermanentUrl": "https://commons.wikimedia.org/w/index.php?oldid=1227005631",
+    "sourceFileTimestamp": "2023-02-20T23:01:56Z",
+    "sourceFileSha1": "7b392f4cb240bc848bad96438001ed60f048b5e9",
+    "attributionRequired": false,
+    "commonsLicenseShortName": "PDM-owner",
+    "commonsLicenseUrl": null,
+    "commonsArtist": "Paul Pitman",
+    "sourceSha256": "1d0840c8f663d8b8983e6f5044705adad913f690e1c1d0c7ca6536b99b444f1a",
+    "sourceBytes": 2681111,
+    "downloadedAtUtc": "2026-11-03T20:48:29.136274+00:00",
+    "sha256": "037cb154ac95ac0c61036de7e46cf6d0c45d6ae4f9058b557e55333f834ea880",
+    "processing": "35 s excerpt, loudnorm I=-23 LUFS / TP=-3 dBTP / LRA=7, fade in 0.25 s, fade out 0.8 s; 48 kHz stereo MP3 192 kbps",
+    "technicalQa": {
+      "decoded": true,
+      "sampleRate": 48000,
+      "channels": 2,
+      "codec": "mp3",
+      "mean_volume": -25,
+      "max_volume": -3.3,
+      "humanListening": false
+    },
+    "offsetSeconds": 0,
+    "excerptDurationSeconds": 13.2,
+    "originalExcerptStartSeconds": 0.6,
+    "actualDurationSeconds": 35.04,
+    "processingForReel": "loudnorm I=-18 LUFS, TP=-2 dBTP, LRA=8; fade in 0.6 s, fade out 1.2 s"
+  },
+  "measured": {
+    "cardTop": 639.5625,
+    "cardBottom": 1292.5625,
+    "rowFont": 52,
+    "titleFont": 94,
+    "footerCount": 0,
+    "cellOverflow": false,
+    "text": "ОН, ОНА ИЛИ ОНО В МЕНЮ\nКакао — горячее.\nА сулугуни?\nНЕПРАВИЛЬНО\nПРАВИЛЬНО\nгорячий какао\nгорячий какао\nгорячее какао\nострое салями\nострое салями\nострая салями\nсвежее сулугуни\nсвежее сулугуни\nсвежий сулугуни\nполезный брокколи\nполезный брокколи\nполезная брокколи"
+  },
+  "screenshotFrames": 122,
+  "sha256": "88ec6f5dfd79ae3e725118ca599f1721c03ba280f7a09fac89d36d0d6e0e932d",
+  "coverSha256": "eee3bca2f53fe76c3e3b7dcab21a7159500f7709d1bb6ae2b437c8062e108f5b",
+  "streams": [
+    {
+      "type": "video",
+      "codec": "h264",
+      "width": 1080,
+      "height": 1920,
+      "duration": "13.200000"
+    },
+    {
+      "type": "audio",
+      "codec": "aac",
+      "duration": "13.200000",
+      "sampleRate": "48000"
+    }
+  ],
+  "decoded": true
+}

@@ -1,0 +1,90 @@
+{
+  "id": "2026-11-classic-48-ber-bir",
+  "key": "05dcfb742b150375b79ef7235a4140b2186900a2aac6a589468b639178438e90",
+  "total": 13.2,
+  "assets": {
+    "photoId": "library-bookshelves",
+    "photoFile": "assets/photos/library-bookshelves.jpg",
+    "photoSha256": "619db7cc81436dfad8f96b46fc64f076733f9fe1770965678c002b3a871d9178",
+    "musicId": "schubert-d784-andante",
+    "musicFile": "assets/music/schubert-d784-andante-pitman.mp3",
+    "musicSha256": "037cb154ac95ac0c61036de7e46cf6d0c45d6ae4f9058b557e55333f834ea880",
+    "musicOffsetSeconds": 0.7,
+    "backgroundPosition": "50% 50%"
+  },
+  "music": {
+    "id": "schubert-d784-andante",
+    "file": "assets/music/schubert-d784-andante-pitman.mp3",
+    "composer": "Франц Шуберт",
+    "piece": "Соната ля минор, D.784 — II. Andante",
+    "title": "Piano Sonata in A minor, D.784: II. Andante",
+    "performer": "Paul Pitman",
+    "license": "Public domain declaration by copyright holder (PDM-owner)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "commonsTitle": "File:Schubert's Piano Sonata in A minor, D.784 - II. Andante (in F major) - Paul Pitman.ogg",
+    "recordingRights": "На странице конкретной записи стоит PDM-owner: Commons описывает применение PDM самим правообладателем как объявление своей записи общественным достоянием. Исполнитель Paul Pitman, источник его файл IMSLP, дата 17.08.2012. Это отдельная декларация на запись, не один возраст Шуберта.",
+    "compositionRights": "Шуберт (1797–1828); соната D.784 (1823): public domain; право на запись подтверждено отдельно PDM-owner.",
+    "sourceExcerptStartSeconds": 0.6,
+    "durationSeconds": 35.04,
+    "attribution": "Ф. Шуберт — Соната D.784, II. Andante. Фортепиано: Paul Pitman (2012). Запись public domain (PDM-owner); фрагмент, громкость изменена.",
+    "character": "Неторопливая фортепианная часть.",
+    "source": "https://commons.wikimedia.org/wiki/File:Schubert%27s_Piano_Sonata_in_A_minor,_D.784_-_II._Andante_(in_F_major)_-_Paul_Pitman.ogg",
+    "sourceDownloadUrl": "https://upload.wikimedia.org/wikipedia/commons/5/56/Schubert%27s_Piano_Sonata_in_A_minor%2C_D.784_-_II._Andante_%28in_F_major%29_-_Paul_Pitman.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsPageId": 128910390,
+    "commonsRevisionId": 1227005631,
+    "sourcePermanentUrl": "https://commons.wikimedia.org/w/index.php?oldid=1227005631",
+    "sourceFileTimestamp": "2023-02-20T23:01:56Z",
+    "sourceFileSha1": "7b392f4cb240bc848bad96438001ed60f048b5e9",
+    "attributionRequired": false,
+    "commonsLicenseShortName": "PDM-owner",
+    "commonsLicenseUrl": null,
+    "commonsArtist": "Paul Pitman",
+    "sourceSha256": "1d0840c8f663d8b8983e6f5044705adad913f690e1c1d0c7ca6536b99b444f1a",
+    "sourceBytes": 2681111,
+    "downloadedAtUtc": "2026-11-03T20:48:29.136274+00:00",
+    "sha256": "037cb154ac95ac0c61036de7e46cf6d0c45d6ae4f9058b557e55333f834ea880",
+    "processing": "35 s excerpt, loudnorm I=-23 LUFS / TP=-3 dBTP / LRA=7, fade in 0.25 s, fade out 0.8 s; 48 kHz stereo MP3 192 kbps",
+    "technicalQa": {
+      "decoded": true,
+      "sampleRate": 48000,
+      "channels": 2,
+      "codec": "mp3",
+      "mean_volume": -25,
+      "max_volume": -3.3,
+      "humanListening": false
+    },
+    "offsetSeconds": 0.7,
+    "excerptDurationSeconds": 13.2,
+    "originalExcerptStartSeconds": 1.2999999999999998,
+    "actualDurationSeconds": 35.04,
+    "processingForReel": "loudnorm I=-18 LUFS, TP=-2 dBTP, LRA=8; fade in 0.6 s, fade out 1.2 s"
+  },
+  "measured": {
+    "cardTop": 639.5625,
+    "cardBottom": 1162.5625,
+    "rowFont": 52,
+    "titleFont": 94,
+    "footerCount": 0,
+    "cellOverflow": false,
+    "text": "ЕГЭ • КОРНИ С Е И И\nСоберу.\nНо собирать.\nБЕЗ -А-\nС СУФФИКСОМ -А-\nсоберу\nсобирать\nуберу\nубирать\nзамереть\nзамирать\nвытереть\nвытирать"
+  },
+  "screenshotFrames": 122,
+  "sha256": "0eb8a2115c5d33cc064d3cc2c29ecea5696bc5a19191eec5679b1e2842ad4290",
+  "coverSha256": "c3b50afa5ec5bc9848d9c5f107417578252d9ea93e7c39b8180262180679b57b",
+  "streams": [
+    {
+      "type": "video",
+      "codec": "h264",
+      "width": 1080,
+      "height": 1920,
+      "duration": "13.200000"
+    },
+    {
+      "type": "audio",
+      "codec": "aac",
+      "duration": "13.200000",
+      "sampleRate": "48000"
+    }
+  ],
+  "decoded": true
+}

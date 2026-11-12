@@ -1,0 +1,27 @@
+{
+  "id": "2026-11-classic-42-ova-yva",
+  "previewOnly": true,
+  "total": 13.2,
+  "key": "08367570c3b193292dd1221738175de3a67f955da2fbb288f281710ba5d5575b",
+  "assets": {
+    "photoId": "books-pile",
+    "photoFile": "assets/photos/books-pile.jpg",
+    "photoSha256": "bcf9491e4bdb9d6dcf889feb108bcb6be8dc5ccb17e95e2e2c0de4e819ccdb8a",
+    "musicId": "chopin-op37-no2",
+    "musicFile": "assets/music/chopin-op37-no2-gurevich.mp3",
+    "musicSha256": "1e3255e0c1b8e936c92c146d44977015b471da6c153737fa3cd49ac61bc10a50",
+    "musicOffsetSeconds": 0.7,
+    "backgroundPosition": "50% 50%"
+  },
+  "measured": {
+    "cardTop": 639.5625,
+    "cardBottom": 1162.5625,
+    "rowFont": 52,
+    "titleFont": 94,
+    "footerCount": 0,
+    "cellOverflow": false,
+    "text": "ЕГЭ • СУФФИКСЫ ГЛАГОЛОВ\nСоветую.\nНо советовать.\nФОРМА «Я»\nИНФИНИТИВ\nсоветую\nсоветовать\nтанцую\nтанцевать\nопаздываю\nопаздывать\nоткладываю\nоткладывать"
+  },
+  "previewFile": "qa/2026-11-classic-42-ova-yva-preview.jpg",
+  "previewSha256": "bf1f2fd9cd076c66d73b51fdbb32ccbab13452e924580fa66594d58009a42a22"
+}

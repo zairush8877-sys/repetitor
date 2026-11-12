@@ -27,6 +27,8 @@ const fs = require('fs');
 const path = require('path');
 const crypto = require('crypto');
 const repost = require('./repost-state');
+const campaignFeed = require('./campaign-feed');
+const { execFileSync } = require('child_process');
 
 const CONTENT = path.resolve(process.env.MEDIA_CONTENT_DIR || path.join(__dirname, 'content'));
 const QUEUE = path.join(CONTENT, 'queue.json');
@@ -37,6 +39,10 @@ const TOKEN = process.env.IG_ACCESS_TOKEN;
 // переменной окружения IG_USER_ID.
 const queueRaw = JSON.parse(fs.readFileSync(QUEUE, 'utf8'));
 const IG_USER_ID = process.env.IG_USER_ID || queueRaw.account_id;
+const campaign = campaignFeed.readCampaign(CONTENT);
+if (campaign) campaignFeed.validate(campaign, queueRaw.posts);
+const campaignAudit = process.argv.includes('--campaign-audit');
+const campaignUploadProbe = process.argv.includes('--campaign-upload-probe');
 
 const args = process.argv.slice(2);
 const dryRun = args.includes('--dry-run');
@@ -196,6 +202,7 @@ async function waitReady(containerId, label, tries = 30) {
 }
 
 function fullCaption(post) {
+  if (post.captionComplete) return campaignFeed.fullCaption(post);
   const tags = (post.hashtags || []).join(' ');
   // Правило автора: композитор указывается всегда. Поле music пишет рендер —
   // это именно та запись, что вшита в видео.
@@ -237,7 +244,7 @@ async function repostToStory(post, queue) {
     const manifest = fs.existsSync(manifestPath) ? JSON.parse(fs.readFileSync(manifestPath, 'utf8')) : {};
     const state = await repost.deliver(post, {
       entry: manifest.posts?.[post.id], api, waitReady, userId: IG_USER_ID, assetUrl,
-      save: () => saveQueue(queue), log: message => console.log(`  ${message}`),
+      save: () => campaign && post.campaignId === campaign.id ? saveFeedState(queue, post) : saveQueue(queue), log: message => console.log(`  ${message}`),
       verifyAssets: async assets => {
         for (const a of assets) {
           if (path.basename(a.file) !== a.file) throw new Error('Некорректный путь репоста.');
@@ -247,7 +254,9 @@ async function repostToStory(post, queue) {
           const { localSource } = require('./render-reposts');
           if (digest(fs.readFileSync(localSource(a.sourceUrl, CONTENT))) !== a.geometry?.sourceSha256) throw new Error('Исходный кадр изменился: пересоберите репост.');
           const response = await fetch(assetUrl(a.url), { signal: AbortSignal.timeout(20000) });
-          if (!response.ok || !/image\/jpeg/i.test(response.headers.get('content-type') || '')) throw new Error('Готовый кадр Stories ещё недоступен по публичной ссылке.');
+          const contentType = response.headers.get('content-type') || '';
+          const correctType = a.mediaType === 'VIDEO' ? /video\/mp4|application\/octet-stream/i.test(contentType) : /image\/jpeg/i.test(contentType);
+          if (!response.ok || !correctType) throw new Error('Готовый файл Stories ещё недоступен по публичной ссылке.');
           if (digest(Buffer.from(await response.arrayBuffer())) !== a.sha256) throw new Error('На сервере другая версия кадра Stories: дождитесь обновления.');
         }
       },
@@ -262,7 +271,42 @@ async function repostToStory(post, queue) {
   }
 }
 
-async function publishPost(post) {
+async function saveFeedState(queue, post) {
+  saveQueue(queue);
+  if (process.env.PERSIST_FEED_INTENT !== 'github') return;
+  // Persist the intent remotely before media_publish, so another runner sees it after a crash.
+  const git = (...args) => execFileSync('git', args, { cwd: __dirname, stdio: ['ignore', 'pipe', 'pipe'] });
+  const relative = path.relative(__dirname, QUEUE);
+  git('config', 'user.name', 'github-actions[bot]');
+  git('config', 'user.email', 'github-actions[bot]@users.noreply.github.com');
+  git('add', '--', relative);
+  let changed = false;
+  try { git('diff', '--cached', '--quiet', '--', relative); } catch (error) { if (error.status !== 1) throw error; changed = true; }
+  if (changed) git('commit', '-m', `Feed checkpoint ${post.id}: ${post.feedDelivery?.phase || post.status}`, '--', relative);
+  for (let attempt = 0; attempt < 3; attempt++) {
+    try { git('push', 'origin', 'HEAD:main'); return; } catch (error) {
+      if (attempt === 2) throw new Error('Feed checkpoint could not be persisted remotely; publication stopped');
+      git('pull', '--rebase', 'origin', 'main');
+      const refreshed = JSON.parse(fs.readFileSync(QUEUE, 'utf8'));
+      for (const [key, value] of Object.entries(refreshed)) if (key !== 'posts') queue[key] = value;
+      queue.posts = refreshed.posts.map(p => p.id === post.id ? post : p);
+    }
+  }
+}
+
+async function campaignHistory(queue, publishingPost) {
+  const recent = await api('GET', `${IG_USER_ID}/media`, { fields: 'id,caption,timestamp,permalink', limit: '100' });
+  if (!Array.isArray(recent.data)) throw new Error('Instagram feed history unavailable; publication stopped');
+  const matches = campaignFeed.reconcile(campaign, queue.posts, recent.data, new Date(), publishingPost);
+  console.log(`Live feed reconciliation: ${recent.data.length} recent posts, ${matches.length} campaign receipts matched`);
+  console.log(`CAMPAIGN_RECEIPTS ${JSON.stringify(matches)}`);
+  return matches;
+}
+
+async function publishPost(post, queue) {
+  if (campaign && post.campaignId === campaign.id && post.videoUrl) {
+    return require('./feed-state').deliver(post, { api, waitReady, userId: IG_USER_ID, assetUrl, caption: fullCaption(post), save: () => saveFeedState(queue, post) });
+  }
   requireCaption(post);
   const urls = (post.imageUrls || []).map(assetUrl);
   const caption = fullCaption(post);
@@ -440,11 +484,34 @@ let publicationLock;
 (async () => {
   if (!dryRun) {
     const me = await api('GET', IG_USER_ID, { fields: 'username,followers_count,media_count' });
+    if (campaign && (me.username !== campaign.account || String(IG_USER_ID) !== String(campaign.accountId))) throw new Error('Campaign Instagram account mismatch');
     console.log(`Токен действителен: @${me.username} — ${me.followers_count} подписчиков, ${me.media_count} публикаций`);
   }
   if (audioCheck) { await showAudioCheck(); return; }
   if (recentOnly) { await showRecent(recentLimit); return; }
   if (checkOnly) return;
+  if (campaignAudit || campaignUploadProbe) {
+    if (!campaign) throw new Error('No active campaign');
+    for (const slot of campaignFeed.allSlots(campaign)) {
+      const checked = require('./prepared-media').validate(queueRaw.posts.find(p => p.id === slot.postId));
+      for (const a of [...checked.entry.files, ...checked.repost.assets]) {
+        const response = await fetch(assetUrl(a.url), { signal: AbortSignal.timeout(45000) });
+        if (!response.ok || require('./prepared-media').sha(Buffer.from(await response.arrayBuffer())) !== a.sha256) throw new Error(`Campaign public asset mismatch: ${a.url}`);
+      }
+    }
+    await campaignHistory(queueRaw);
+    console.log(`Campaign audit passed: ${campaignFeed.allSlots(campaign).length} explicitly selected videos, covers and complete Story reposts; no publishing calls`);
+    if (campaignUploadProbe) {
+      // An unpublished container verifies Meta can ingest this exact encode and cover.
+      // It is never passed to media_publish and expires independently of the calendar.
+      const post = require('./prepared-media').validate(queueRaw.posts.find(p => p.id === campaign.slots[0].postId)).post;
+      const { id } = await api('POST', `${IG_USER_ID}/media`, { media_type: 'REELS', video_url: assetUrl(post.videoUrl), caption: fullCaption(post), share_to_feed: 'true', cover_url: assetUrl(post.coverUrl) });
+      if (!id) throw new Error('Upload probe returned no container ID');
+      await waitReady(id, 'Unpublished V3 upload probe', 120);
+      console.log(`UPLOAD_PROBE_FINISHED container=${id}; exact V3 video and cover accepted; media_publish was NOT called`);
+    }
+    return;
+  }
 
   if (!dryRun) {
     // Prevent overlapping local writers. After a crash, inspect state before removing the lock.
@@ -462,7 +529,7 @@ let publicationLock;
     return;
   }
 
-  if (onlyOne && !onlyId) {
+  if (!campaign && onlyOne && !onlyId) {
     const today = publishedToday(queue.posts);
     if (today.length >= PER_DAY) {
       console.log(`Сегодня уже вышло публикаций: ${today.length} из ${PER_DAY} — на сегодня хватит.`);
@@ -488,7 +555,9 @@ let publicationLock;
     }
   }
 
-  const matched = queue.posts.filter(p =>
+  const campaignChoice = campaign ? campaignFeed.select(campaign, queue.posts, new Date(), onlyId) : null;
+  if (campaignChoice) console.log(campaignChoice.reason);
+  const matched = campaignChoice ? (campaignChoice.post ? [campaignChoice.post] : []) : queue.posts.filter(p =>
     onlyId ? p.id === onlyId : p.status === 'approved');
 
   // Пост без подписи не выходит сам и не останавливает остальных: раньше он
@@ -500,7 +569,7 @@ let publicationLock;
   if (noCaption) console.log(`Без подписи, к публикации не допущено: ${noCaption}. Добавьте caption в очередь.`);
 
   let dailyReady = approved;
-  if (onlyOne && !onlyId) {
+  if (!campaign && onlyOne && !onlyId) {
     const { ready, blocked, deferred } = require('./daily-selection').readyForDay(
       approved, moscowDate(), post => require('./prepared-media').validate(post));
     dailyReady = ready;
@@ -522,7 +591,7 @@ let publicationLock;
   }
   // В ежедневном режиме берём одну публикацию — иначе весь банк уйдёт за один запуск.
   // При пустом банке список остаётся пустым: ниже об этом честно сообщается.
-  const targets = onlyOne && !onlyId
+  const targets = !campaign && onlyOne && !onlyId
     ? (dailyReady.length ? [pickDaily(dailyReady)] : [])
     : approved;
 
@@ -532,7 +601,7 @@ let publicationLock;
       : 'На сегодня нет одобренных публикаций с наступившей датой.');
     return;
   }
-  if (onlyOne && !onlyId) {
+  if (!campaign && onlyOne && !onlyId) {
     const ege = dailyReady.filter(p => p.rubric === EGE_RUBRIC).length;
     console.log(`На сегодня подготовлено и одобрено: ${dailyReady.length} (из них разборов ЕГЭ: ${ege}). Выбрана одна публикация.`);
   }
@@ -573,7 +642,8 @@ let publicationLock;
       console.log(`  (dry-run) Подготовлены ${post.videoUrl ? 'Reels' : n === 1 ? 'пост' : 'карусель'} с подписью ${fullCaption(post).length} симв. и ${validated.repost.assets.length} кадров Stories. Файлы и метаданные проверены локально; сеть и публикация не запускались.`);
       continue;
     }
-    const mediaId = await publishPost(post);
+    if (campaign) await campaignHistory(queue, post);
+    const mediaId = await publishPost(post, queue);
     post.status = 'published';
     post.publishedMediaId = mediaId;
     post.publishedAt = new Date().toISOString();
@@ -581,6 +651,14 @@ let publicationLock;
     saveQueue(queue);
     console.log(`  ✓ Опубликовано, media id: ${mediaId}`);
     await repostToStory(post, queue);
+    if (campaign) {
+      try {
+        const receipt = await api('GET', mediaId, { fields: 'id,permalink,timestamp,media_type,media_product_type' });
+        console.log(`VERIFIED_PUBLISHED_MEDIA ${JSON.stringify({ postId: post.id, ...receipt })}`);
+      } catch (error) {
+        console.warn(`Ссылка ещё не подтверждена чтением Instagram: ${error.message}. Receipt ленты сохранён; повторная отправка не требуется.`);
+      }
+    }
   }
 })().catch(e => { console.error('Ошибка:', e.message); process.exitCode = 1; })
   .finally(() => { if (publicationLock) fs.unlinkSync(publicationLock); });

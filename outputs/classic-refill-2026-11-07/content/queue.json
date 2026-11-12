@@ -1,0 +1,332 @@
+{
+  "account": "mairova_a_a",
+  "account_id": "17841456632615750",
+  "posts": [
+    {
+      "id": "2026-11-classic-29-online",
+      "date": "2026-11-13",
+      "scheduledAt": "2026-11-13T07:00:00.000Z",
+      "rubric": "Орфография взрослых",
+      "kicker": "ОНЛАЙН- И ОФЛАЙН- В СЛОВАХ",
+      "title": "Онлайн-встреча.\nС дефисом?",
+      "rows": [
+        [
+          "онлайн встреча",
+          "онлайн-встреча"
+        ],
+        [
+          "онлайн курс",
+          "онлайн-курс"
+        ],
+        [
+          "офлайн магазин",
+          "офлайн-магазин"
+        ],
+        [
+          "офлайн встреча",
+          "офлайн-встреча"
+        ]
+      ],
+      "hashtags": [
+        "#русскийязык",
+        "#орфография",
+        "#деловаяпереписка"
+      ],
+      "format": "Reels",
+      "status": "approved",
+      "school": false,
+      "visualStyle": "classic-table",
+      "hideFooter": true,
+      "showProgress": false,
+      "storyRepostMode": "full_video",
+      "branding": {
+        "show_handle": false,
+        "show_author_signature": false,
+        "show_services_footer": false
+      },
+      "caption": "Онлайн-курс — с дефисом. Офлайн-магазин — тоже. Здесь онлайн- и офлайн- стоят перед существительным и образуют сложное слово. А во фразе «встреча онлайн» слово «онлайн» употреблено самостоятельно: нужен пробел.",
+      "campaignId": "anna-retouch-music-v3-20261031",
+      "assetSelection": {
+        "photoId": "open-book-plant",
+        "musicId": "bach-var1-ishizaka",
+        "musicOffsetSeconds": 0,
+        "backgroundPosition": "50% 50%"
+      }
+    },
+    {
+      "id": "2026-11-classic-30-ne-prichastiya",
+      "date": "2026-11-13",
+      "scheduledAt": "2026-11-13T11:00:00.000Z",
+      "rubric": "ЕГЭ",
+      "kicker": "ЕГЭ • НЕ С ПРИЧАСТИЯМИ",
+      "title": "НЕ: слитно\nили раздельно?",
+      "heads": [
+        "Наш пример",
+        "Как пишем"
+      ],
+      "rows": [
+        [
+          "непрочитанная книга",
+          "слитно"
+        ],
+        [
+          "не прочитанная мной книга",
+          "раздельно"
+        ],
+        [
+          "книга не прочитана",
+          "раздельно"
+        ],
+        [
+          "не прочитанная, а забытая",
+          "раздельно"
+        ]
+      ],
+      "hashtags": [
+        "#егэрусский",
+        "#причастие",
+        "#неспричастиями"
+      ],
+      "format": "Reels",
+      "status": "approved",
+      "school": false,
+      "visualStyle": "classic-table",
+      "hideFooter": true,
+      "showProgress": false,
+      "storyRepostMode": "full_video",
+      "branding": {
+        "show_handle": false,
+        "show_author_signature": false,
+        "show_services_footer": false
+      },
+      "caption": "Непрочитанная книга — без зависимых слов. Не прочитанная мной книга — с зависимым словом «мной». В этой паре написание меняется. Краткое причастие «не прочитана» пишем раздельно; в сочетании «не прочитанная, а забытая» есть явное противопоставление с «а».",
+      "campaignId": "anna-retouch-music-v3-20261031",
+      "assetSelection": {
+        "photoId": "desk-books-laptop",
+        "musicId": "chopin-op62-no1",
+        "musicOffsetSeconds": 0.7,
+        "backgroundPosition": "35% 50%"
+      }
+    },
+    {
+      "id": "2026-11-classic-31-skolko-osnov",
+      "date": "2026-11-13",
+      "scheduledAt": "2026-11-13T16:00:00.000Z",
+      "rubric": "ОГЭ",
+      "kicker": "ОГЭ • ПРОСТОЕ И СЛОЖНОЕ",
+      "title": "Два действия.\nОдна основа?",
+      "heads": [
+        "Наше предложение",
+        "Сколько основ"
+      ],
+      "rows": [
+        [
+          "Солнце встало и согрело сад.",
+          "одна основа"
+        ],
+        [
+          "Солнце встало, сад ожил.",
+          "две основы"
+        ],
+        [
+          "Пёс проснулся и залаял.",
+          "одна основа"
+        ],
+        [
+          "Пёс залаял, кот убежал.",
+          "две основы"
+        ]
+      ],
+      "hashtags": [
+        "#огэрусский",
+        "#грамматическаяоснова",
+        "#синтаксис"
+      ],
+      "format": "Reels",
+      "status": "approved",
+      "school": false,
+      "visualStyle": "classic-table",
+      "hideFooter": true,
+      "showProgress": false,
+      "storyRepostMode": "full_video",
+      "branding": {
+        "show_handle": false,
+        "show_author_signature": false,
+        "show_services_footer": false
+      },
+      "caption": "В предложении «Солнце встало и согрело сад» одна основа: «солнце встало и согрело». Два однородных сказуемых относятся к одному подлежащему. А «Солнце встало, сад ожил» — две основы: «солнце встало» и «сад ожил». Считаем основы, а не количество глаголов.",
+      "campaignId": "anna-retouch-music-v3-20261031",
+      "assetSelection": {
+        "photoId": "blank-books-table",
+        "musicId": "satie-gymnopedie3",
+        "musicOffsetSeconds": 1.4,
+        "backgroundPosition": "50% 50%"
+      }
+    },
+    {
+      "id": "2026-11-classic-32-kompaniya",
+      "date": "2026-11-14",
+      "scheduledAt": "2026-11-14T07:00:00.000Z",
+      "rubric": "Лексика взрослых",
+      "kicker": "СЛОВА В РАБОЧЕЙ ПЕРЕПИСКЕ",
+      "title": "Компания.\nИли кампания?",
+      "heads": [
+        "Наше сочетание",
+        "Что имеется в виду"
+      ],
+      "rows": [
+        [
+          "рекламная кампания",
+          "серия мероприятий"
+        ],
+        [
+          "страховая компания",
+          "организация"
+        ],
+        [
+          "посевная кампания",
+          "серия мероприятий"
+        ],
+        [
+          "дружная компания",
+          "группа людей"
+        ]
+      ],
+      "hashtags": [
+        "#русскийязык",
+        "#лексика",
+        "#деловаяпереписка"
+      ],
+      "format": "Reels",
+      "status": "approved",
+      "school": false,
+      "visualStyle": "classic-table",
+      "hideFooter": true,
+      "showProgress": false,
+      "storyRepostMode": "full_video",
+      "branding": {
+        "show_handle": false,
+        "show_author_signature": false,
+        "show_services_footer": false
+      },
+      "caption": "Рекламная кампания — с А: речь о серии мероприятий. Страховая компания — с О: речь об организации. Дружная компания — группа людей, избирательная кампания — связанные действия. На слух эти два существительных совпадают, а буква зависит от смысла.",
+      "campaignId": "anna-retouch-music-v3-20261031",
+      "assetSelection": {
+        "photoId": "library-bookshelves",
+        "musicId": "schumann-traumerei",
+        "musicOffsetSeconds": 0,
+        "backgroundPosition": "50% 50%"
+      }
+    },
+    {
+      "id": "2026-11-classic-33-zato",
+      "date": "2026-11-14",
+      "scheduledAt": "2026-11-14T11:00:00.000Z",
+      "rubric": "ЕГЭ",
+      "kicker": "ЕГЭ • СОЮЗ ИЛИ МЕСТОИМЕНИЕ",
+      "title": "Зато.\nИли за то?",
+      "heads": [
+        "Наше предложение",
+        "Подстановка"
+      ],
+      "rows": [
+        [
+          "Устал, зато успел.",
+          "но успел"
+        ],
+        [
+          "Спасибо за то письмо.",
+          "за это письмо"
+        ],
+        [
+          "Тесно, зато тепло.",
+          "но тепло"
+        ],
+        [
+          "Взялся за то дело.",
+          "за это дело"
+        ]
+      ],
+      "hashtags": [
+        "#егэрусский",
+        "#слитноилираздельно",
+        "#зато"
+      ],
+      "format": "Reels",
+      "status": "approved",
+      "school": false,
+      "visualStyle": "classic-table",
+      "hideFooter": true,
+      "showProgress": false,
+      "storyRepostMode": "full_video",
+      "branding": {
+        "show_handle": false,
+        "show_author_signature": false,
+        "show_services_footer": false
+      },
+      "caption": "Устал, зато успел — союз «зато» можно заменить на «но». Спасибо за то письмо — предлог «за» и местоимение «то» пишутся раздельно; здесь подставляется «за это письмо». В таблице проверяем смысл четырёх предложений, а не длину паузы при чтении.",
+      "campaignId": "anna-retouch-music-v3-20261031",
+      "assetSelection": {
+        "photoId": "library-warm",
+        "musicId": "mozart40-andante",
+        "musicOffsetSeconds": 0.7,
+        "backgroundPosition": "85% 50%"
+      }
+    },
+    {
+      "id": "2026-11-classic-34-metafora",
+      "date": "2026-11-14",
+      "scheduledAt": "2026-11-14T16:00:00.000Z",
+      "rubric": "ОГЭ",
+      "kicker": "ОГЭ • СРЕДСТВА ВЫРАЗИТЕЛЬНОСТИ",
+      "title": "Река как лента.\nА лента реки?",
+      "heads": [
+        "Наш образ",
+        "Приём"
+      ],
+      "rows": [
+        [
+          "река как лента",
+          "сравнение"
+        ],
+        [
+          "лента реки",
+          "метафора"
+        ],
+        [
+          "лес словно стена",
+          "сравнение"
+        ],
+        [
+          "стена леса",
+          "метафора"
+        ]
+      ],
+      "hashtags": [
+        "#огэрусский",
+        "#метафора",
+        "#сравнение"
+      ],
+      "format": "Reels",
+      "status": "approved",
+      "school": false,
+      "visualStyle": "classic-table",
+      "hideFooter": true,
+      "showProgress": false,
+      "storyRepostMode": "full_video",
+      "branding": {
+        "show_handle": false,
+        "show_author_signature": false,
+        "show_services_footer": false
+      },
+      "caption": "Река как лента — реку прямо уподобляют ленте. Лента реки — реку образно назвали лентой: слово употреблено переносно. В наших примерах первая конструкция — сравнение, вторая — метафора. Отсутствие «как» само по себе метафору не доказывает.",
+      "campaignId": "anna-retouch-music-v3-20261031",
+      "assetSelection": {
+        "photoId": "books-pile",
+        "musicId": "schubert-d784-andante",
+        "musicOffsetSeconds": 1.4,
+        "backgroundPosition": "50% 50%"
+      }
+    }
+  ]
+}

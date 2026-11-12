@@ -1,0 +1,26 @@
+{
+  "verdict": "pass",
+  "coversAt390px": 6,
+  "actualVideoFramesAt390px": 24,
+  "timesSeconds": [
+    1.1,
+    2.2,
+    6.6,
+    12.2
+  ],
+  "maxCardBottom": 1617.5625,
+  "rowFonts": [
+    52
+  ],
+  "checks": [
+    "eachcolumnreadable",
+    "nooverflow/clipping",
+    "top300/bottom260safe",
+    "sequentialrows",
+    "only41wronggenderstruck",
+    "noauthorhandle/servicesfooter",
+    "rotationboundaryandadjacency"
+  ],
+  "fullFrameByFrameWatch": false,
+  "humanAudioListening": false
+}

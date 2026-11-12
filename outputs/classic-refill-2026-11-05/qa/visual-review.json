@@ -1,0 +1,25 @@
+{
+  "reviewed": true,
+  "coversAt390px": 6,
+  "actualVideoFramesAt390px": 24,
+  "timesSeconds": [
+    1.1,
+    2.2,
+    6.6,
+    12.2
+  ],
+  "checks": [
+    "all24rowpairs readable",
+    "safe top300 bottom260",
+    "no column overlap/cell clipping",
+    "neutral comparison columns not struck",
+    "photo+music rotation boundary",
+    "no author/handle/servicesfooter",
+    "sequential row reveal"
+  ],
+  "maxCardBottom": 1552.5625,
+  "rowFont": 52,
+  "fullFrameByFrameWatch": false,
+  "humanAudioListening": false,
+  "verdict": "pass"
+}

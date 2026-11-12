@@ -1,0 +1,69 @@
+{
+  "expectedMainHead": "157bcab283ce1358448245de59eb6e6e12b7c0e0",
+  "sourceQueueSha256": "36a1a220f2264f0bc1d204d3b947281bf0e16310c595142447c97352f1206390",
+  "draftSha256": "612eb416644418fe5344a90b8c551a60e59e53f78c51c03e50cc6d27c0f84474",
+  "totalQueuePosts": 150,
+  "approvedOrPublishedPosts": 139,
+  "recursiveContentLeaves": 4555,
+  "normalized": "Unicode normalization,casefold,ё=е,acute-stress stripped,collapsed whitespace",
+  "checks": [
+    {
+      "postId": "2026-11-classic-44-keshbek",
+      "checkedColumns": "both concrete teaching columns",
+      "exactTitleDuplicates": [],
+      "exampleDuplicates": []
+    },
+    {
+      "postId": "2026-11-classic-45-tozhe",
+      "checkedColumns": "both concrete teaching columns",
+      "exactTitleDuplicates": [],
+      "exampleDuplicates": []
+    },
+    {
+      "postId": "2026-11-classic-46-bsp-dash",
+      "checkedColumns": "left concrete examples; right semantic labels excluded",
+      "exactTitleDuplicates": [],
+      "exampleDuplicates": []
+    },
+    {
+      "postId": "2026-11-classic-47-zaklyuchenie",
+      "checkedColumns": "left concrete examples; right semantic labels excluded",
+      "exactTitleDuplicates": [],
+      "exampleDuplicates": []
+    },
+    {
+      "postId": "2026-11-classic-48-ber-bir",
+      "checkedColumns": "both concrete teaching columns",
+      "exactTitleDuplicates": [],
+      "exampleDuplicates": []
+    },
+    {
+      "postId": "2026-11-classic-49-olitsetvorenie",
+      "checkedColumns": "left concrete examples; right semantic labels excluded",
+      "exactTitleDuplicates": [],
+      "exampleDuplicates": []
+    }
+  ],
+  "newPostCount": 6,
+  "uniqueIds": 6,
+  "rowPairs": 24,
+  "captionVariants": 12,
+  "maxCellChars": 26,
+  "maxCellWordLetters": 11,
+  "newSchoolPostCount": 0,
+  "reviewedIncidentalMentions": [
+    {
+      "newPostId": "2026-11-classic-48-ber-bir",
+      "example": "убирать",
+      "matches": [
+        {
+          "postId": "2026-10-05-oge-szhatie",
+          "path": "/caption",
+          "text": "В сжатом изложении уменьшаем объём, сохраняя главную информацию. Здесь два наших тренировочных примера: обобщение и объединение предложений. Убирать детали можно лишь тогда, когда они не важны для мысли исходного текста.\n\nО музыке. Бах написал этот цикл для клавесина.\n\n#ОГЭрусский #сжатоеизложение #работастекстом"
+        }
+      ],
+      "review": "The word is an ordinary instruction verb in an old caption about text compression, not a teaching example for the root alternation or a repeated pair."
+    }
+  ],
+  "noveltyPass": true
+}

@@ -1,0 +1,17 @@
+{
+  "queueCount": 135,
+  "preparedCount": 87,
+  "repostsCount": 90,
+  "slotsCount": 43,
+  "addedIds": [
+    "2026-11-classic-23-apellyatsiya",
+    "2026-11-classic-24-prichastiya",
+    "2026-11-classic-25-osnova",
+    "2026-11-classic-26-ne-vvodnye",
+    "2026-11-classic-27-kratkie-prichastiya",
+    "2026-11-classic-28-kogda"
+  ],
+  "horizon": "2026-11-06..2026-11-12",
+  "bookSlots": 21,
+  "manualPublishCalls": 0
+}

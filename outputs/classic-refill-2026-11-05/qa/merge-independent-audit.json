@@ -1,0 +1,594 @@
+{
+  "checkedAt": "2026-11-05T18:42:25.952570+00:00",
+  "mode": "Read-only input audit; no publication, reconciliation or GitHub mutation",
+  "base": "/private/tmp/mama-classic-refill-2026-11-05/base/content",
+  "merged": "/private/tmp/mama-classic-refill-2026-11-05/merged-content",
+  "mediaRoot": "/private/tmp/mama-classic-refill-2026-11-05/project/outputs/classic-refill-2026-11-05/content",
+  "checks": [
+    {
+      "name": "baseline counts are129 queue81 prepared84 repost",
+      "pass": true
+    },
+    {
+      "name": "queue has135 unique IDs",
+      "pass": true
+    },
+    {
+      "name": "six exact expected IDs appended in order",
+      "pass": true,
+      "detail": [
+        "2026-11-classic-23-apellyatsiya",
+        "2026-11-classic-24-prichastiya",
+        "2026-11-classic-25-osnova",
+        "2026-11-classic-26-ne-vvodnye",
+        "2026-11-classic-27-kratkie-prichastiya",
+        "2026-11-classic-28-kogda"
+      ]
+    },
+    {
+      "name": "all129 old queue objects equal",
+      "pass": true
+    },
+    {
+      "name": "all129 old queue objects literal-byte-identical",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "queue other top fields literal-byte-identical",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "all81 old prepared entries equal",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "all81 old prepared entries literal-byte-identical",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "prepared adds only six expected IDs",
+      "pass": true
+    },
+    {
+      "name": "prepared other top fields literal-byte-identical",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "all84 old reposts entries equal",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "all84 old reposts entries literal-byte-identical",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "reposts adds only six expected IDs",
+      "pass": true
+    },
+    {
+      "name": "reposts other top fields literal-byte-identical",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "15 primary voice slots unchanged",
+      "pass": true
+    },
+    {
+      "name": "all campaign fields except additionalSlots literal-byte-identical",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "additionalSlots preserves22 old objects and appends6",
+      "pass": true
+    },
+    {
+      "name": "all22 original additional slot objects literal-byte-identical",
+      "pass": true
+    },
+    {
+      "name": "calendar has43 unique posts and instants",
+      "pass": true
+    },
+    {
+      "name": "all43 calendar and queue identities match",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "2026-11-06 has exactly3 ready classic slots at10/14/19",
+      "pass": true
+    },
+    {
+      "name": "2026-11-07 has exactly3 ready classic slots at10/14/19",
+      "pass": true
+    },
+    {
+      "name": "2026-11-08 has exactly3 ready classic slots at10/14/19",
+      "pass": true
+    },
+    {
+      "name": "2026-11-09 has exactly3 ready classic slots at10/14/19",
+      "pass": true
+    },
+    {
+      "name": "2026-11-10 has exactly3 ready classic slots at10/14/19",
+      "pass": true
+    },
+    {
+      "name": "2026-11-11 has exactly3 ready classic slots at10/14/19",
+      "pass": true
+    },
+    {
+      "name": "2026-11-12 has exactly3 ready classic slots at10/14/19",
+      "pass": true
+    },
+    {
+      "name": "classic school quotaNov9–15 exactlyclassic07",
+      "pass": true,
+      "detail": [
+        "2026-11-classic-07-bukvy-zvuki"
+      ]
+    },
+    {
+      "name": "all12 future voice objects unchanged",
+      "pass": true
+    },
+    {
+      "name": "rotation boundary isold desk/Bach tonew blank/Chopin",
+      "pass": true
+    },
+    {
+      "name": "every consecutive old/new photo and music differs",
+      "pass": true
+    },
+    {
+      "name": "six distinct draftKeys",
+      "pass": true
+    },
+    {
+      "name": "2026-11-classic-23-apellyatsiya approved current draftKey",
+      "pass": true
+    },
+    {
+      "name": "2026-11-classic-23-apellyatsiya classic format footer and Stories settings",
+      "pass": true
+    },
+    {
+      "name": "2026-11-classic-23-apellyatsiya music selection matches prepared",
+      "pass": true
+    },
+    {
+      "name": "2026-11-classic-23-apellyatsiya exactlyfeed MP4 and cover JPG",
+      "pass": true
+    },
+    {
+      "name": "2026-11-classic-23-apellyatsiya reels/2026-11-classic-23-apellyatsiya.mp4 actual SHA/size/URL",
+      "pass": true,
+      "detail": {
+        "expectedSha256": "ea1c14b91002433c0e1dbdd4df73b3639fe2612ed683f3fe986805c1fce82fe0",
+        "actualSha256": "ea1c14b91002433c0e1dbdd4df73b3639fe2612ed683f3fe986805c1fce82fe0"
+      }
+    },
+    {
+      "name": "2026-11-classic-23-apellyatsiya reels/2026-11-classic-23-apellyatsiya-frame.jpg actual SHA/size/URL",
+      "pass": true,
+      "detail": {
+        "expectedSha256": "dba2aa6b755dd33212621066943b896d48791762b9d20d78ef6bbf21cae665cc",
+        "actualSha256": "dba2aa6b755dd33212621066943b896d48791762b9d20d78ef6bbf21cae665cc"
+      }
+    },
+    {
+      "name": "2026-11-classic-23-apellyatsiya one fullVIDEO Story export",
+      "pass": true
+    },
+    {
+      "name": "2026-11-classic-23-apellyatsiya complete Story identicaltofeed actualSHA",
+      "pass": true,
+      "detail": {
+        "videoSha256": "ea1c14b91002433c0e1dbdd4df73b3639fe2612ed683f3fe986805c1fce82fe0",
+        "storySha256": "ea1c14b91002433c0e1dbdd4df73b3639fe2612ed683f3fe986805c1fce82fe0"
+      }
+    },
+    {
+      "name": "2026-11-classic-24-prichastiya approved current draftKey",
+      "pass": true
+    },
+    {
+      "name": "2026-11-classic-24-prichastiya classic format footer and Stories settings",
+      "pass": true
+    },
+    {
+      "name": "2026-11-classic-24-prichastiya music selection matches prepared",
+      "pass": true
+    },
+    {
+      "name": "2026-11-classic-24-prichastiya exactlyfeed MP4 and cover JPG",
+      "pass": true
+    },
+    {
+      "name": "2026-11-classic-24-prichastiya reels/2026-11-classic-24-prichastiya.mp4 actual SHA/size/URL",
+      "pass": true,
+      "detail": {
+        "expectedSha256": "b92c521d4c0e4879b5b9de9987d88989ee65dc1cdbc85f7a3b0def0b6a9cc063",
+        "actualSha256": "b92c521d4c0e4879b5b9de9987d88989ee65dc1cdbc85f7a3b0def0b6a9cc063"
+      }
+    },
+    {
+      "name": "2026-11-classic-24-prichastiya reels/2026-11-classic-24-prichastiya-frame.jpg actual SHA/size/URL",
+      "pass": true,
+      "detail": {
+        "expectedSha256": "2f1991758267a0890f514d40c8c5a8e5df1d059a690e64ac21c0863bf4c2d0a8",
+        "actualSha256": "2f1991758267a0890f514d40c8c5a8e5df1d059a690e64ac21c0863bf4c2d0a8"
+      }
+    },
+    {
+      "name": "2026-11-classic-24-prichastiya one fullVIDEO Story export",
+      "pass": true
+    },
+    {
+      "name": "2026-11-classic-24-prichastiya complete Story identicaltofeed actualSHA",
+      "pass": true,
+      "detail": {
+        "videoSha256": "b92c521d4c0e4879b5b9de9987d88989ee65dc1cdbc85f7a3b0def0b6a9cc063",
+        "storySha256": "b92c521d4c0e4879b5b9de9987d88989ee65dc1cdbc85f7a3b0def0b6a9cc063"
+      }
+    },
+    {
+      "name": "2026-11-classic-25-osnova approved current draftKey",
+      "pass": true
+    },
+    {
+      "name": "2026-11-classic-25-osnova classic format footer and Stories settings",
+      "pass": true
+    },
+    {
+      "name": "2026-11-classic-25-osnova music selection matches prepared",
+      "pass": true
+    },
+    {
+      "name": "2026-11-classic-25-osnova exactlyfeed MP4 and cover JPG",
+      "pass": true
+    },
+    {
+      "name": "2026-11-classic-25-osnova reels/2026-11-classic-25-osnova.mp4 actual SHA/size/URL",
+      "pass": true,
+      "detail": {
+        "expectedSha256": "26f7cb31c585aef0fe8a3b8bf4f9d3666c06e1856ebffabe5ca8bad3a7e8c5c5",
+        "actualSha256": "26f7cb31c585aef0fe8a3b8bf4f9d3666c06e1856ebffabe5ca8bad3a7e8c5c5"
+      }
+    },
+    {
+      "name": "2026-11-classic-25-osnova reels/2026-11-classic-25-osnova-frame.jpg actual SHA/size/URL",
+      "pass": true,
+      "detail": {
+        "expectedSha256": "9e306dc38a796e239ce0f660c890c723ad14b2d168ff18ceda318220b2b491f2",
+        "actualSha256": "9e306dc38a796e239ce0f660c890c723ad14b2d168ff18ceda318220b2b491f2"
+      }
+    },
+    {
+      "name": "2026-11-classic-25-osnova one fullVIDEO Story export",
+      "pass": true
+    },
+    {
+      "name": "2026-11-classic-25-osnova complete Story identicaltofeed actualSHA",
+      "pass": true,
+      "detail": {
+        "videoSha256": "26f7cb31c585aef0fe8a3b8bf4f9d3666c06e1856ebffabe5ca8bad3a7e8c5c5",
+        "storySha256": "26f7cb31c585aef0fe8a3b8bf4f9d3666c06e1856ebffabe5ca8bad3a7e8c5c5"
+      }
+    },
+    {
+      "name": "2026-11-classic-26-ne-vvodnye approved current draftKey",
+      "pass": true
+    },
+    {
+      "name": "2026-11-classic-26-ne-vvodnye classic format footer and Stories settings",
+      "pass": true
+    },
+    {
+      "name": "2026-11-classic-26-ne-vvodnye music selection matches prepared",
+      "pass": true
+    },
+    {
+      "name": "2026-11-classic-26-ne-vvodnye exactlyfeed MP4 and cover JPG",
+      "pass": true
+    },
+    {
+      "name": "2026-11-classic-26-ne-vvodnye reels/2026-11-classic-26-ne-vvodnye.mp4 actual SHA/size/URL",
+      "pass": true,
+      "detail": {
+        "expectedSha256": "a288f874cc7db9b4484c2870b07cde63a31798f7fb80c7943388a2cf0175646f",
+        "actualSha256": "a288f874cc7db9b4484c2870b07cde63a31798f7fb80c7943388a2cf0175646f"
+      }
+    },
+    {
+      "name": "2026-11-classic-26-ne-vvodnye reels/2026-11-classic-26-ne-vvodnye-frame.jpg actual SHA/size/URL",
+      "pass": true,
+      "detail": {
+        "expectedSha256": "fdb4a8c0233405c4f5ee0fde3d3211b4ec5a3257310fa20bc595f47d8913b14b",
+        "actualSha256": "fdb4a8c0233405c4f5ee0fde3d3211b4ec5a3257310fa20bc595f47d8913b14b"
+      }
+    },
+    {
+      "name": "2026-11-classic-26-ne-vvodnye one fullVIDEO Story export",
+      "pass": true
+    },
+    {
+      "name": "2026-11-classic-26-ne-vvodnye complete Story identicaltofeed actualSHA",
+      "pass": true,
+      "detail": {
+        "videoSha256": "a288f874cc7db9b4484c2870b07cde63a31798f7fb80c7943388a2cf0175646f",
+        "storySha256": "a288f874cc7db9b4484c2870b07cde63a31798f7fb80c7943388a2cf0175646f"
+      }
+    },
+    {
+      "name": "2026-11-classic-27-kratkie-prichastiya approved current draftKey",
+      "pass": true
+    },
+    {
+      "name": "2026-11-classic-27-kratkie-prichastiya classic format footer and Stories settings",
+      "pass": true
+    },
+    {
+      "name": "2026-11-classic-27-kratkie-prichastiya music selection matches prepared",
+      "pass": true
+    },
+    {
+      "name": "2026-11-classic-27-kratkie-prichastiya exactlyfeed MP4 and cover JPG",
+      "pass": true
+    },
+    {
+      "name": "2026-11-classic-27-kratkie-prichastiya reels/2026-11-classic-27-kratkie-prichastiya.mp4 actual SHA/size/URL",
+      "pass": true,
+      "detail": {
+        "expectedSha256": "e7ca139fa4048504db6d7fab8c094b40fbc32c46cb0f618bbe5e34c53cb34d6f",
+        "actualSha256": "e7ca139fa4048504db6d7fab8c094b40fbc32c46cb0f618bbe5e34c53cb34d6f"
+      }
+    },
+    {
+      "name": "2026-11-classic-27-kratkie-prichastiya reels/2026-11-classic-27-kratkie-prichastiya-frame.jpg actual SHA/size/URL",
+      "pass": true,
+      "detail": {
+        "expectedSha256": "45850c6ce913d36977955027800adb7416ddb2871d7d1e33b3d3cbd9c2f40ba7",
+        "actualSha256": "45850c6ce913d36977955027800adb7416ddb2871d7d1e33b3d3cbd9c2f40ba7"
+      }
+    },
+    {
+      "name": "2026-11-classic-27-kratkie-prichastiya one fullVIDEO Story export",
+      "pass": true
+    },
+    {
+      "name": "2026-11-classic-27-kratkie-prichastiya complete Story identicaltofeed actualSHA",
+      "pass": true,
+      "detail": {
+        "videoSha256": "e7ca139fa4048504db6d7fab8c094b40fbc32c46cb0f618bbe5e34c53cb34d6f",
+        "storySha256": "e7ca139fa4048504db6d7fab8c094b40fbc32c46cb0f618bbe5e34c53cb34d6f"
+      }
+    },
+    {
+      "name": "2026-11-classic-28-kogda approved current draftKey",
+      "pass": true
+    },
+    {
+      "name": "2026-11-classic-28-kogda classic format footer and Stories settings",
+      "pass": true
+    },
+    {
+      "name": "2026-11-classic-28-kogda music selection matches prepared",
+      "pass": true
+    },
+    {
+      "name": "2026-11-classic-28-kogda exactlyfeed MP4 and cover JPG",
+      "pass": true
+    },
+    {
+      "name": "2026-11-classic-28-kogda reels/2026-11-classic-28-kogda.mp4 actual SHA/size/URL",
+      "pass": true,
+      "detail": {
+        "expectedSha256": "03b0cbad49eb9a1777cbdf081b854d8b401bb95a4298de9a82c236dd400d36dc",
+        "actualSha256": "03b0cbad49eb9a1777cbdf081b854d8b401bb95a4298de9a82c236dd400d36dc"
+      }
+    },
+    {
+      "name": "2026-11-classic-28-kogda reels/2026-11-classic-28-kogda-frame.jpg actual SHA/size/URL",
+      "pass": true,
+      "detail": {
+        "expectedSha256": "dbcd4d7be39c00314738969885b95a03ad5ad3d79b4a218e89318ee200ef17d3",
+        "actualSha256": "dbcd4d7be39c00314738969885b95a03ad5ad3d79b4a218e89318ee200ef17d3"
+      }
+    },
+    {
+      "name": "2026-11-classic-28-kogda one fullVIDEO Story export",
+      "pass": true
+    },
+    {
+      "name": "2026-11-classic-28-kogda complete Story identicaltofeed actualSHA",
+      "pass": true,
+      "detail": {
+        "videoSha256": "03b0cbad49eb9a1777cbdf081b854d8b401bb95a4298de9a82c236dd400d36dc",
+        "storySha256": "03b0cbad49eb9a1777cbdf081b854d8b401bb95a4298de9a82c236dd400d36dc"
+      }
+    },
+    {
+      "name": "six distinct video Story hashes",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "horizon": [
+    {
+      "date": "2026-11-06",
+      "count": 3,
+      "times": [
+        "10:00",
+        "14:00",
+        "19:00"
+      ],
+      "ready": true
+    },
+    {
+      "date": "2026-11-07",
+      "count": 3,
+      "times": [
+        "10:00",
+        "14:00",
+        "19:00"
+      ],
+      "ready": true
+    },
+    {
+      "date": "2026-11-08",
+      "count": 3,
+      "times": [
+        "10:00",
+        "14:00",
+        "19:00"
+      ],
+      "ready": true
+    },
+    {
+      "date": "2026-11-09",
+      "count": 3,
+      "times": [
+        "10:00",
+        "14:00",
+        "19:00"
+      ],
+      "ready": true
+    },
+    {
+      "date": "2026-11-10",
+      "count": 3,
+      "times": [
+        "10:00",
+        "14:00",
+        "19:00"
+      ],
+      "ready": true
+    },
+    {
+      "date": "2026-11-11",
+      "count": 3,
+      "times": [
+        "10:00",
+        "14:00",
+        "19:00"
+      ],
+      "ready": true
+    },
+    {
+      "date": "2026-11-12",
+      "count": 3,
+      "times": [
+        "10:00",
+        "14:00",
+        "19:00"
+      ],
+      "ready": true
+    }
+  ],
+  "schoolQuotaScope": "Additional classic slots only; immutable15 primary voice slots retain existing schoolQuotaOverride=true.",
+  "rotation": [
+    {
+      "postId": "2026-11-classic-22-svyaz-teksta",
+      "photoId": "desk-books-laptop",
+      "musicId": "bach-var1-ishizaka"
+    },
+    {
+      "postId": "2026-11-classic-23-apellyatsiya",
+      "photoId": "blank-books-table",
+      "musicId": "chopin-op62-no1"
+    },
+    {
+      "postId": "2026-11-classic-24-prichastiya",
+      "photoId": "library-bookshelves",
+      "musicId": "satie-gymnopedie3"
+    },
+    {
+      "postId": "2026-11-classic-25-osnova",
+      "photoId": "library-warm",
+      "musicId": "schumann-traumerei"
+    },
+    {
+      "postId": "2026-11-classic-26-ne-vvodnye",
+      "photoId": "books-pile",
+      "musicId": "mozart40-andante"
+    },
+    {
+      "postId": "2026-11-classic-27-kratkie-prichastiya",
+      "photoId": "journal-writing",
+      "musicId": "schubert-d784-andante"
+    },
+    {
+      "postId": "2026-11-classic-28-kogda",
+      "photoId": "uppsala-bookshelves",
+      "musicId": "chopin-op37-no2"
+    }
+  ],
+  "newMedia": [
+    {
+      "postId": "2026-11-classic-23-apellyatsiya",
+      "draftKey": "4274caefa6f23c95a72d97fcf35d7c25c19f7a8e3ae30134626d60c514aab3be",
+      "videoSha256": "ea1c14b91002433c0e1dbdd4df73b3639fe2612ed683f3fe986805c1fce82fe0",
+      "storySha256": "ea1c14b91002433c0e1dbdd4df73b3639fe2612ed683f3fe986805c1fce82fe0"
+    },
+    {
+      "postId": "2026-11-classic-24-prichastiya",
+      "draftKey": "b7fdfa2f036b9b9cee781d4298316861b924da7a7ed1f3065999d695ece03fad",
+      "videoSha256": "b92c521d4c0e4879b5b9de9987d88989ee65dc1cdbc85f7a3b0def0b6a9cc063",
+      "storySha256": "b92c521d4c0e4879b5b9de9987d88989ee65dc1cdbc85f7a3b0def0b6a9cc063"
+    },
+    {
+      "postId": "2026-11-classic-25-osnova",
+      "draftKey": "b3ca142949e27e119990ad0aca773cbd5c9ea1891cc4c94b9793c1ef23523997",
+      "videoSha256": "26f7cb31c585aef0fe8a3b8bf4f9d3666c06e1856ebffabe5ca8bad3a7e8c5c5",
+      "storySha256": "26f7cb31c585aef0fe8a3b8bf4f9d3666c06e1856ebffabe5ca8bad3a7e8c5c5"
+    },
+    {
+      "postId": "2026-11-classic-26-ne-vvodnye",
+      "draftKey": "b8b63b053ece97534eaaafb7ce85a5ce1f075d0230e53fed2196786a9d311ca3",
+      "videoSha256": "a288f874cc7db9b4484c2870b07cde63a31798f7fb80c7943388a2cf0175646f",
+      "storySha256": "a288f874cc7db9b4484c2870b07cde63a31798f7fb80c7943388a2cf0175646f"
+    },
+    {
+      "postId": "2026-11-classic-27-kratkie-prichastiya",
+      "draftKey": "318e4a0d64d65db2ad2876aa00b065e7c80bb1a11d67cfcf5b267e5257387789",
+      "videoSha256": "e7ca139fa4048504db6d7fab8c094b40fbc32c46cb0f618bbe5e34c53cb34d6f",
+      "storySha256": "e7ca139fa4048504db6d7fab8c094b40fbc32c46cb0f618bbe5e34c53cb34d6f"
+    },
+    {
+      "postId": "2026-11-classic-28-kogda",
+      "draftKey": "0f7e288b16b3f732ee30f038584df6b24c979e8c68dc4d4933e328a971174c34",
+      "videoSha256": "03b0cbad49eb9a1777cbdf081b854d8b401bb95a4298de9a82c236dd400d36dc",
+      "storySha256": "03b0cbad49eb9a1777cbdf081b854d8b401bb95a4298de9a82c236dd400d36dc"
+    }
+  ],
+  "numbers": {
+    "oldQueuePreserved": 129,
+    "queueTotal": 135,
+    "preparedOld": 81,
+    "preparedTotal": 87,
+    "repostsOld": 84,
+    "repostsTotal": 90,
+    "voiceSlots": 15,
+    "calendarTotal": 43,
+    "newIds": 6,
+    "horizonClassicSlots": 21,
+    "classicSchoolWeekNov9": 1
+  },
+  "passed": true,
+  "passedChecks": 81,
+  "totalChecks": 81,
+  "limitations": [
+    "This audit checks preservation, scheduling and actual media hashes. It does not establish listening, author creative approval, media decode success or Instagram publication."
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "2026-11-classic-25-osnova",
+  "previewOnly": true,
+  "total": 13.2,
+  "key": "210d6ce4be68cb3955ce7668a3e194bb1f9eb26c064caeec0059affac98700e0",
+  "assets": {
+    "photoId": "library-warm",
+    "photoFile": "assets/photos/library-warm.jpg",
+    "photoSha256": "b5a167b69b7828e55fe9c63963f3b37777fba4abd944c1b5c7053094190746aa",
+    "musicId": "schumann-traumerei",
+    "musicFile": "assets/music/schumann-traumerei-betts.mp3",
+    "musicSha256": "462a9a6f3d384619bea04104bda120185f083da4efcffa3402ff12a6693fb9dd",
+    "musicOffsetSeconds": 1.4,
+    "backgroundPosition": "85% 50%"
+  },
+  "measured": {
+    "cardTop": 639.5625,
+    "cardBottom": 1422.5625,
+    "rowFont": 52,
+    "titleFont": 94,
+    "footerCount": 0,
+    "cellOverflow": false,
+    "text": "ОГЭ • ГРАММАТИЧЕСКАЯ ОСНОВА\nКачает ветер.\nА подлежащее?\nНАШЕ ПРЕДЛОЖЕНИЕ\nОСНОВА\nЛиству качает ветер.\nветер качает\nЛодку несёт течение.\nтечение несёт\nКамыши гнёт буря.\nбуря гнёт\nТропинку занёс снег.\nснег занёс"
+  },
+  "previewFile": "qa/2026-11-classic-25-osnova-preview.jpg",
+  "previewSha256": "9e306dc38a796e239ce0f660c890c723ad14b2d168ff18ceda318220b2b491f2"
+}

@@ -1,0 +1,6 @@
+{
+  "approvedPublishedCompared": 124,
+  "leftRowsCompared": 24,
+  "exactMeaningfulLeftRowHits": [],
+  "method": "casefold/e→ё-insensitive, whitespace normalized, recursive title/rows/slides/caption; comparison of each complete left row to complete strings; not semantic uniqueness proof"
+}

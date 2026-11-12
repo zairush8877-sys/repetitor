@@ -1,0 +1,58 @@
+{
+  "title": "File:Gymnopédie no.3.ogg",
+  "pageid": 10291267,
+  "revision": {
+    "revid": 1287525254,
+    "parentid": 775026623,
+    "timestamp": "2026-10-15T13:49:15Z"
+  },
+  "imageinfo": {
+    "timestamp": "2022-02-10T00:54:16Z",
+    "size": 5604668,
+    "width": 0,
+    "height": 0,
+    "duration": 156.13052154195012,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Gymnop%C3%A9die_no.3.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Gymnop%C3%A9die_no.3.ogg",
+    "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=10291267",
+    "sha1": "033cf63c4cb087b8543a31cb41627a679d9f5d88"
+  },
+  "licenseMetadata": {
+    "Artist": {
+      "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Teknopazzo&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Teknopazzo (page does not exist)\">Teknopazzo</a>",
+      "source": "commons-desc-page"
+    },
+    "Credit": {
+      "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+      "source": "commons-desc-page"
+    },
+    "LicenseShortName": {
+      "value": "CC0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Creative Commons Zero, Public Domain Dedication",
+      "source": "commons-desc-page"
+    },
+    "LicenseUrl": {
+      "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "source": "commons-desc-page"
+    },
+    "AttributionRequired": {
+      "value": "false",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "cc0",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  }
+}

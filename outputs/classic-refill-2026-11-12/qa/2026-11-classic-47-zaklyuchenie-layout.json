@@ -1,0 +1,27 @@
+{
+  "id": "2026-11-classic-47-zaklyuchenie",
+  "previewOnly": true,
+  "total": 13.2,
+  "key": "1b8c2329d1679f597580b34b93e95948a72551918824404ccd5e0fd7ae63d0e7",
+  "assets": {
+    "photoId": "blank-books-table",
+    "photoFile": "assets/photos/blank-books-table.jpg",
+    "photoSha256": "2b1ed71fc07dd46f8d66a02a33ffd4c7c1df59a8c0294789366f8698f84fa537",
+    "musicId": "mozart40-andante",
+    "musicFile": "assets/music/mozart40-andante-musopen.mp3",
+    "musicSha256": "175d53e80d635a8237e44fc4dc9f4833c63d350231bdd459c49deca2b3cb8912",
+    "musicOffsetSeconds": 0,
+    "backgroundPosition": "50% 50%"
+  },
+  "measured": {
+    "cardTop": 748.59375,
+    "cardBottom": 1531.59375,
+    "rowFont": 52,
+    "titleFont": 94,
+    "footerCount": 0,
+    "cellOverflow": false,
+    "text": "СМЫСЛ РЕШАЕТ: Е ИЛИ И\nВ заключение.\nИли в заключении?\nНАШ ФРАГМЕНТ\nВЫБРАННЫЙ СМЫСЛ\nв заключение письма\nпод конец\nв заключении врача\nв документе\nв продолжение беседы\nпродолжая разговор\nв продолжении романа\nв новой части"
+  },
+  "previewFile": "qa/2026-11-classic-47-zaklyuchenie-preview.jpg",
+  "previewSha256": "18222344aa0e69796733dcf4d485d5016b867a041c31d69a0e5168644fefcf9d"
+}

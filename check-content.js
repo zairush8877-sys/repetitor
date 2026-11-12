@@ -26,16 +26,20 @@ const QUEUE = JSON.parse(fs.readFileSync(path.join(CONTENT, 'queue.json'), 'utf8
 // Prepared media never grant approval or change editorial dates.
 const preparedMedia = require('./prepared-media');
 const preparedIndex = preparedMedia.readIndex();
+const onlyId = process.argv.slice(2).find(a => !a.startsWith('--'));
+const campaignFeed = require('./campaign-feed');
+const campaign = campaignFeed.readCampaign(CONTENT);
+if (campaign) campaignFeed.validate(campaign, QUEUE.posts);
+const primaryCampaignIds = new Set(campaign?.slots.map(s => s.postId) || []);
+const selectedCampaignIds = new Set(campaign ? campaignFeed.allSlots(campaign).map(s => s.postId) : []);
 for (const post of QUEUE.posts) {
-  if (post.status !== 'published' && preparedIndex.posts?.[post.id]) {
+  if ((!onlyId || post.id === onlyId) && (!campaign || selectedCampaignIds.has(post.id)) && post.status !== 'published' && preparedIndex.posts?.[post.id]) {
     const ready = preparedMedia.validate(post).post;
     for (const field of preparedMedia.MEDIA_FIELDS) delete post[field];
     Object.assign(post, ready);
   }
 }
 const BANK = JSON.parse(fs.readFileSync(path.join(CONTENT, 'stories.json'), 'utf8'));
-const onlyId = process.argv.slice(2).find(a => !a.startsWith('--'));
-
 const errors = [];
 const warnings = [];
 const err = (id, msg) => errors.push(`${id}: ${msg}`);
@@ -111,6 +115,8 @@ function checkSchoolQuota() {
   const weeks = new Map();
   for (const p of QUEUE.posts) {
     if (p.status === 'rejected') continue;
+    // The author explicitly selected this whole series on 31 October.
+    if (campaign?.schoolQuotaOverride && p.campaignId === campaign.id && primaryCampaignIds.has(p.id)) continue;
     const exam = /ege|oge/i.test(p.id) || /ЕГЭ|ОГЭ/i.test(p.rubric || '');
     if (exam) continue;
     if (p.status !== 'published' && !isSchool(p) && looksSchool(p)) {
@@ -154,6 +160,7 @@ function checkSchoolQuota() {
 for (const p of QUEUE.posts) {
   if (onlyId && p.id !== onlyId) continue;
   if (!onlyId && p.status !== 'approved') continue;
+  if (campaign && !selectedCampaignIds.has(p.id)) continue;
 
   const isReels = /reels/i.test(p.format || '');
   if (p.visualStyle === 'paper-collage') {
@@ -214,7 +221,7 @@ for (const p of QUEUE.posts) {
     if (!p.music || !p.music.composer || !p.music.piece) {
       err(p.id, 'нет composer/piece в очереди — подпись выйдет без «♪ Композитор — пьеса»');
     }
-    if (!p.coverOffsetMs) {
+    if (!p.coverUrl && !Number.isFinite(p.coverOffsetMs)) {
       err(p.id, 'нет coverOffsetMs — Instagram выберет обложку сам, в сетке будет пустой заголовок');
     }
     if (!p.background && !p.plainBg && !p.videoBg) {

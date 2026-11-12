@@ -1,0 +1,6 @@
+{
+  "initialCheckFailure": "spawnSync ffmpeg ENOENT; ffmpeg-static index.js absent in temporary module tree",
+  "repair": "Only local QA PATH prepended /private/tmp/mama-reels-tools; existing validated binary used by actual checker",
+  "productionCodeChanged": false,
+  "checksRepeatedDueToResolvedFailure": 12
+}

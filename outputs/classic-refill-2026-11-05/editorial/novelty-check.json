@@ -1,0 +1,43 @@
+{
+  "sourceQueueSha256": "24aef7ca9944e72dd5b4c34908db9f737c16101cf3d8730c645a01e046ed90d5",
+  "totalQueuePosts": 129,
+  "approvedOrPublishedPosts": 118,
+  "recursiveContentLeaves": 3881,
+  "normalized": "NFC,casefold,ё=е,collapsed whitespace",
+  "checks": [
+    {
+      "id": "2026-11-classic-23-apellyatsiya",
+      "exactTitleDuplicates": [],
+      "exampleDuplicates": []
+    },
+    {
+      "id": "2026-11-classic-24-prichastiya",
+      "exactTitleDuplicates": [],
+      "exampleDuplicates": []
+    },
+    {
+      "id": "2026-11-classic-25-osnova",
+      "exactTitleDuplicates": [],
+      "exampleDuplicates": []
+    },
+    {
+      "id": "2026-11-classic-26-ne-vvodnye",
+      "exactTitleDuplicates": [],
+      "exampleDuplicates": []
+    },
+    {
+      "id": "2026-11-classic-27-kratkie-prichastiya",
+      "exactTitleDuplicates": [],
+      "exampleDuplicates": []
+    },
+    {
+      "id": "2026-11-classic-28-kogda",
+      "exactTitleDuplicates": [],
+      "exampleDuplicates": []
+    }
+  ],
+  "newPostCount": 6,
+  "uniqueIds": 6,
+  "rowPairs": 24,
+  "captionVariants": 12
+}

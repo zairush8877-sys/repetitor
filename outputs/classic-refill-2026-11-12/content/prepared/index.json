@@ -1,0 +1,449 @@
+{
+  "version": 1,
+  "posts": {
+    "2026-11-classic-44-keshbek": {
+      "version": 1,
+      "draftKey": "ea680658183710610fbf5a1c65a74d28c0a98422af843135a4c7214a75f97fef",
+      "builtAt": "2026-11-12T19:32:43.406Z",
+      "media": {
+        "background": "outputs/classic-refill-2026-11-12/assets/photos/uppsala-bookshelves.jpg",
+        "lightBg": true,
+        "generatedBg": false,
+        "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-11-classic-44-keshbek.mp4",
+        "coverUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-11-classic-44-keshbek-frame.jpg",
+        "coverOffsetMs": 12200,
+        "music": {
+          "id": "chopin-op62-no1",
+          "file": "assets/music/chopin-op62-no1-gurevich.mp3",
+          "composer": "Фридерик Шопен",
+          "piece": "Ноктюрн си мажор, op. 62 № 1",
+          "title": "Nocturne in B major, Op. 62 No. 1",
+          "performer": "Olga Gurevich",
+          "license": "CC0 1.0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "commonsTitle": "File:Frederic Chopin - nocturne no. 1 in b major, op. 62.oga",
+          "recordingRights": "На странице конкретной записи Olga Gurevich указан CC0 1.0; происхождение Musopen download/11677. Это разрешение на файл записи, не вывод из возраста нот.",
+          "compositionRights": "Шопен (1810–1849), произведение XIX века: public domain. Права на современную запись отдельно — CC0.",
+          "sourceExcerptStartSeconds": 1,
+          "durationSeconds": 35.04,
+          "attribution": "Ф. Шопен — Ноктюрн op. 62 № 1. Фортепиано: Olga Gurevich, Musopen. Запись CC0 1.0; фрагмент, громкость изменена.",
+          "character": "Спокойное фортепиано, лирическое вступление.",
+          "source": "https://commons.wikimedia.org/wiki/File:Frederic_Chopin_-_nocturne_no._1_in_b_major,_op._62.oga",
+          "sourceDownloadUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Frederic_Chopin_-_nocturne_no._1_in_b_major%2C_op._62.oga?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "commonsPageId": 62684427,
+          "commonsRevisionId": 1260528337,
+          "sourcePermanentUrl": "https://commons.wikimedia.org/w/index.php?oldid=1260528337",
+          "sourceFileTimestamp": "2017-09-23T11:01:04Z",
+          "sourceFileSha1": "e30589ba6bc61761bdb20a864a5df453766f52f0",
+          "attributionRequired": false,
+          "commonsLicenseShortName": "CC0",
+          "commonsLicenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "commonsArtist": "Olga Gurevich playing Frederic Chopin.",
+          "sourceSha256": "fc4fdb9c1df40d008133f8d83ef69ee231986120627485edfedc3f06c169d632",
+          "sourceBytes": 5282719,
+          "downloadedAtUtc": "2026-11-03T20:47:07.772844+00:00",
+          "sha256": "3413e5a8aeaf36becac0ffdfdeb488f5087401f78ca2f31d3322900a26791b99",
+          "processing": "35 s excerpt, loudnorm I=-23 LUFS / TP=-3 dBTP / LRA=7, fade in 0.25 s, fade out 0.8 s; 48 kHz stereo MP3 192 kbps",
+          "technicalQa": {
+            "decoded": true,
+            "sampleRate": 48000,
+            "channels": 2,
+            "codec": "mp3",
+            "mean_volume": -25.3,
+            "max_volume": -5.6,
+            "humanListening": false
+          },
+          "offsetSeconds": 0,
+          "excerptDurationSeconds": 13.2,
+          "originalExcerptStartSeconds": 1,
+          "actualDurationSeconds": 35.04,
+          "processingForReel": "loudnorm I=-18 LUFS, TP=-2 dBTP, LRA=8; fade in 0.6 s, fade out 1.2 s"
+        }
+      },
+      "files": [
+        {
+          "relative": "reels/2026-11-classic-44-keshbek.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-11-classic-44-keshbek.mp4",
+          "size": 2087754,
+          "sha256": "d21c6edbe712e1ee83d44acf0bca09f5c743708e1102385880af1d63c9b12853"
+        },
+        {
+          "relative": "reels/2026-11-classic-44-keshbek-frame.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-11-classic-44-keshbek-frame.jpg",
+          "size": 914284,
+          "sha256": "2ae514f84938a45845d115c737211acf38ea63ef4acc267ae5d10f0eee78c5c0"
+        }
+      ]
+    },
+    "2026-11-classic-45-tozhe": {
+      "version": 1,
+      "draftKey": "e98bbe932cb8e6a4126dbaf5923b36d300c4fd61641e2f24e14cf8c3af8741bd",
+      "builtAt": "2026-11-12T19:32:43.409Z",
+      "media": {
+        "background": "outputs/classic-refill-2026-11-12/assets/photos/open-book-plant.jpg",
+        "lightBg": true,
+        "generatedBg": false,
+        "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-11-classic-45-tozhe.mp4",
+        "coverUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-11-classic-45-tozhe-frame.jpg",
+        "coverOffsetMs": 12200,
+        "music": {
+          "id": "satie-gymnopedie3",
+          "file": "assets/music/satie-gymnopedie3-teknopazzo.mp3",
+          "composer": "Эрик Сати",
+          "piece": "Гимнопедия № 3",
+          "title": "Gymnopédie No. 3",
+          "performer": "Teknopazzo (автор записи на Commons; акустический исполнитель отдельно не указан)",
+          "license": "CC0 1.0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "commonsTitle": "File:Gymnopédie no.3.ogg",
+          "recordingRights": "Конкретный аудиофайл заявлен Teknopazzo как own work и выпущен CC0 1.0. На странице автором указан Teknopazzo; способ получения звука/живое исполнение не удостоверены.",
+          "compositionRights": "Сати (1866–1925); Gymnopédies опубликованы в 1888, public domain. Ошибочное поле Date=1880 у файла не используется как дата записи/произведения.",
+          "sourceExcerptStartSeconds": 0.5,
+          "durationSeconds": 35.04,
+          "attribution": "Э. Сати — Гимнопедия № 3. Автор аудиозаписи на Wikimedia Commons: Teknopazzo. CC0 1.0; фрагмент, громкость изменена.",
+          "character": "Медленная спокойная фортепианная пьеса; тип записи не удостоверен.",
+          "source": "https://commons.wikimedia.org/wiki/File:Gymnop%C3%A9die_no.3.ogg",
+          "sourceDownloadUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Gymnop%C3%A9die_no.3.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "commonsPageId": 10291267,
+          "commonsRevisionId": 1287525254,
+          "sourcePermanentUrl": "https://commons.wikimedia.org/w/index.php?oldid=1287525254",
+          "sourceFileTimestamp": "2022-02-10T00:54:16Z",
+          "sourceFileSha1": "033cf63c4cb087b8543a31cb41627a679d9f5d88",
+          "attributionRequired": false,
+          "commonsLicenseShortName": "CC0",
+          "commonsLicenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "commonsArtist": "Teknopazzo",
+          "sourceSha256": "20a8311eb71e2675de49fa287ef1c0929962838a6dffd76bbf52851c85d70f5d",
+          "sourceBytes": 5604668,
+          "downloadedAtUtc": "2026-11-03T20:47:17.137537+00:00",
+          "sha256": "a3a9a3e120888f9fc58f4bbac11d9f7b98870b3ddbf260b5785a24fe0fd36a7e",
+          "processing": "35 s excerpt, loudnorm I=-23 LUFS / TP=-3 dBTP / LRA=7, fade in 0.25 s, fade out 0.8 s; 48 kHz stereo MP3 192 kbps",
+          "technicalQa": {
+            "decoded": true,
+            "sampleRate": 48000,
+            "channels": 2,
+            "codec": "mp3",
+            "mean_volume": -24.8,
+            "max_volume": -5.4,
+            "humanListening": false
+          },
+          "offsetSeconds": 0.7,
+          "excerptDurationSeconds": 13.2,
+          "originalExcerptStartSeconds": 1.2,
+          "actualDurationSeconds": 35.04,
+          "processingForReel": "loudnorm I=-18 LUFS, TP=-2 dBTP, LRA=8; fade in 0.6 s, fade out 1.2 s"
+        }
+      },
+      "files": [
+        {
+          "relative": "reels/2026-11-classic-45-tozhe.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-11-classic-45-tozhe.mp4",
+          "size": 1222523,
+          "sha256": "8189446772b14e8ce7236f638c279af0dc1d7624d69feefe46f9234e4d868c6d"
+        },
+        {
+          "relative": "reels/2026-11-classic-45-tozhe-frame.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-11-classic-45-tozhe-frame.jpg",
+          "size": 424622,
+          "sha256": "3914f57062bd699895d827344e108bd01ade530a68eac25d894700e0299ec6e1"
+        }
+      ]
+    },
+    "2026-11-classic-46-bsp-dash": {
+      "version": 1,
+      "draftKey": "764b648556b9f1e184adaf5f93fd28df4a9be3070e14a21ece610f974770a800",
+      "builtAt": "2026-11-12T19:32:43.411Z",
+      "media": {
+        "background": "outputs/classic-refill-2026-11-12/assets/photos/desk-books-laptop.jpg",
+        "lightBg": true,
+        "generatedBg": false,
+        "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-11-classic-46-bsp-dash.mp4",
+        "coverUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-11-classic-46-bsp-dash-frame.jpg",
+        "coverOffsetMs": 12200,
+        "music": {
+          "id": "schumann-traumerei",
+          "file": "assets/music/schumann-traumerei-betts.mp3",
+          "composer": "Роберт Шуман",
+          "piece": "«Грёзы», Детские сцены, op. 15 № 7",
+          "title": "Kinderszenen, Op. 15: VII. Träumerei",
+          "performer": "Donald Betts",
+          "license": "Public domain dedication by Musopen (PD-author)",
+          "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+          "commonsTitle": "File:Robert Schumann - scenes from childhood, op. 15 - vii. dreaming.ogg",
+          "recordingRights": "В разделе Recording конкретного файла: Musopen посвятил запись public domain worldwide; VRT ticket 2008012110017088. Donald Betts указан в метаданных аудиофайла. Ссылка PDM описывает статус, а не заменяет отдельное заявление правообладателя.",
+          "compositionRights": "Шуман (1810–1856), Kinderszenen op.15 (1838): public domain. Современная запись отдельно посвящена Musopen в PD.",
+          "sourceExcerptStartSeconds": 0.6,
+          "durationSeconds": 35.04,
+          "attribution": "Р. Шуман — «Грёзы», op. 15 № 7. Фортепиано: Donald Betts, Musopen. Запись public domain; фрагмент, громкость изменена.",
+          "character": "Лирическая спокойная фортепианная миниатюра.",
+          "source": "https://commons.wikimedia.org/wiki/File:Robert_Schumann_-_scenes_from_childhood,_op._15_-_vii._dreaming.ogg",
+          "sourceDownloadUrl": "https://upload.wikimedia.org/wikipedia/commons/0/06/Robert_Schumann_-_scenes_from_childhood%2C_op._15_-_vii._dreaming.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "commonsPageId": 3434462,
+          "commonsRevisionId": 1227004716,
+          "sourcePermanentUrl": "https://commons.wikimedia.org/w/index.php?oldid=1227004716",
+          "sourceFileTimestamp": "2008-01-22T00:30:56Z",
+          "sourceFileSha1": "435250ff46d4632eb5d6c5f4af9e3b26154406fc",
+          "attributionRequired": false,
+          "commonsLicenseShortName": "Public domain",
+          "commonsLicenseUrl": null,
+          "commonsArtist": "Robert Schumann (1810-1856) (see Musopen for performance author information)",
+          "sourceSha256": "bf04d6906d50f399ec62b7cf8650fe0414d684446d6a0ae2053a416d6515deb5",
+          "sourceBytes": 2892811,
+          "downloadedAtUtc": "2026-11-03T20:47:18.361680+00:00",
+          "sha256": "462a9a6f3d384619bea04104bda120185f083da4efcffa3402ff12a6693fb9dd",
+          "processing": "35 s excerpt, loudnorm I=-23 LUFS / TP=-3 dBTP / LRA=7, fade in 0.25 s, fade out 0.8 s; 48 kHz stereo MP3 192 kbps",
+          "technicalQa": {
+            "decoded": true,
+            "sampleRate": 48000,
+            "channels": 2,
+            "codec": "mp3",
+            "mean_volume": -27.2,
+            "max_volume": -9.9,
+            "humanListening": false
+          },
+          "offsetSeconds": 1.4,
+          "excerptDurationSeconds": 13.2,
+          "originalExcerptStartSeconds": 2,
+          "actualDurationSeconds": 35.04,
+          "processingForReel": "loudnorm I=-18 LUFS, TP=-2 dBTP, LRA=8; fade in 0.6 s, fade out 1.2 s"
+        }
+      },
+      "files": [
+        {
+          "relative": "reels/2026-11-classic-46-bsp-dash.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-11-classic-46-bsp-dash.mp4",
+          "size": 1045029,
+          "sha256": "6270f05ec0b040c72d06a7b895986501cfc6e7f70cf0cada13752fe86ea4e13d"
+        },
+        {
+          "relative": "reels/2026-11-classic-46-bsp-dash-frame.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-11-classic-46-bsp-dash-frame.jpg",
+          "size": 390016,
+          "sha256": "d391afa933f016c18544b79df2ed9f015bbede9f80cc2f54e46af10b34814901"
+        }
+      ]
+    },
+    "2026-11-classic-47-zaklyuchenie": {
+      "version": 1,
+      "draftKey": "b8ac8806372540b8e13ad2609f964091447eeeb8bd3370d0ecb60ba689fc110f",
+      "builtAt": "2026-11-12T19:32:43.413Z",
+      "media": {
+        "background": "outputs/classic-refill-2026-11-12/assets/photos/blank-books-table.jpg",
+        "lightBg": true,
+        "generatedBg": false,
+        "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-11-classic-47-zaklyuchenie.mp4",
+        "coverUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-11-classic-47-zaklyuchenie-frame.jpg",
+        "coverOffsetMs": 12200,
+        "music": {
+          "id": "mozart40-andante",
+          "file": "assets/music/mozart40-andante-musopen.mp3",
+          "composer": "Вольфганг Амадей Моцарт",
+          "piece": "Симфония № 40, K.550 — II. Andante",
+          "title": "Symphony No. 40, K.550: II. Andante",
+          "performer": "Musopen Symphony",
+          "license": "Public domain dedication by Musopen (PD-author)",
+          "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+          "commonsTitle": "File:Mozart - Symphony No. 40 in G minor, K550 - II. Andante (Musopen Symphony).flac",
+          "recordingRights": "На странице раздельные Recording / Musical composition. Recording: Musopen посвятил эту запись public domain worldwide; исполнитель Musopen Symphony, дата 2012. Ссылка PDM — статус; основание права — явное посвящение записи Musopen.",
+          "compositionRights": "Моцарт (1756–1791); Симфония №40 (1788): public domain, отдельно от записи Musopen 2012.",
+          "sourceExcerptStartSeconds": 0.7,
+          "durationSeconds": 35.04,
+          "attribution": "В. А. Моцарт — Симфония № 40, II. Andante. Musopen Symphony (2012). Запись public domain; фрагмент, громкость изменена.",
+          "character": "Умеренная оркестровая часть, смена тембра по отношению к фортепиано.",
+          "source": "https://commons.wikimedia.org/wiki/File:Mozart_-_Symphony_No._40_in_G_minor,_K550_-_II._Andante_(Musopen_Symphony).flac",
+          "sourceDownloadUrl": "https://upload.wikimedia.org/wikipedia/commons/4/43/Mozart_-_Symphony_No._40_in_G_minor%2C_K550_-_II._Andante_%28Musopen_Symphony%29.flac?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "commonsPageId": 155111448,
+          "commonsRevisionId": 963510932,
+          "sourcePermanentUrl": "https://commons.wikimedia.org/w/index.php?oldid=963510932",
+          "sourceFileTimestamp": "2024-11-12T05:51:40Z",
+          "sourceFileSha1": "78f4954db5c2130cafd91febd839cb854cc27c01",
+          "attributionRequired": false,
+          "commonsLicenseShortName": "Public domain",
+          "commonsLicenseUrl": null,
+          "commonsArtist": "Wolfgang Amadeus Mozart",
+          "sourceSha256": "ae3e45623e02b8b7417a174f1f4ce1c50f01f28fa213049e7e38ac5ceb88fd58",
+          "sourceBytes": 75011718,
+          "downloadedAtUtc": "2026-11-03T20:48:07.885801+00:00",
+          "sha256": "175d53e80d635a8237e44fc4dc9f4833c63d350231bdd459c49deca2b3cb8912",
+          "processing": "35 s excerpt, loudnorm I=-23 LUFS / TP=-3 dBTP / LRA=7, fade in 0.25 s, fade out 0.8 s; 48 kHz stereo MP3 192 kbps",
+          "technicalQa": {
+            "decoded": true,
+            "sampleRate": 48000,
+            "channels": 2,
+            "codec": "mp3",
+            "mean_volume": -25.6,
+            "max_volume": -5.5,
+            "humanListening": false
+          },
+          "offsetSeconds": 0,
+          "excerptDurationSeconds": 13.2,
+          "originalExcerptStartSeconds": 0.7,
+          "actualDurationSeconds": 35.04,
+          "processingForReel": "loudnorm I=-18 LUFS, TP=-2 dBTP, LRA=8; fade in 0.6 s, fade out 1.2 s"
+        }
+      },
+      "files": [
+        {
+          "relative": "reels/2026-11-classic-47-zaklyuchenie.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-11-classic-47-zaklyuchenie.mp4",
+          "size": 1222797,
+          "sha256": "f09397edda7584e072512daee2079ddde42364ad9f2c74f1d2b14d74163a59b1"
+        },
+        {
+          "relative": "reels/2026-11-classic-47-zaklyuchenie-frame.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-11-classic-47-zaklyuchenie-frame.jpg",
+          "size": 485167,
+          "sha256": "18222344aa0e69796733dcf4d485d5016b867a041c31d69a0e5168644fefcf9d"
+        }
+      ]
+    },
+    "2026-11-classic-48-ber-bir": {
+      "version": 1,
+      "draftKey": "a70752bfbf516dd3e32296a4e9465c8f4ff76bc97f51fd70d9712293a89628c1",
+      "builtAt": "2026-11-12T19:32:43.416Z",
+      "media": {
+        "background": "outputs/classic-refill-2026-11-12/assets/photos/library-bookshelves.jpg",
+        "lightBg": true,
+        "generatedBg": false,
+        "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-11-classic-48-ber-bir.mp4",
+        "coverUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-11-classic-48-ber-bir-frame.jpg",
+        "coverOffsetMs": 12200,
+        "music": {
+          "id": "schubert-d784-andante",
+          "file": "assets/music/schubert-d784-andante-pitman.mp3",
+          "composer": "Франц Шуберт",
+          "piece": "Соната ля минор, D.784 — II. Andante",
+          "title": "Piano Sonata in A minor, D.784: II. Andante",
+          "performer": "Paul Pitman",
+          "license": "Public domain declaration by copyright holder (PDM-owner)",
+          "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+          "commonsTitle": "File:Schubert's Piano Sonata in A minor, D.784 - II. Andante (in F major) - Paul Pitman.ogg",
+          "recordingRights": "На странице конкретной записи стоит PDM-owner: Commons описывает применение PDM самим правообладателем как объявление своей записи общественным достоянием. Исполнитель Paul Pitman, источник его файл IMSLP, дата 17.08.2012. Это отдельная декларация на запись, не один возраст Шуберта.",
+          "compositionRights": "Шуберт (1797–1828); соната D.784 (1823): public domain; право на запись подтверждено отдельно PDM-owner.",
+          "sourceExcerptStartSeconds": 0.6,
+          "durationSeconds": 35.04,
+          "attribution": "Ф. Шуберт — Соната D.784, II. Andante. Фортепиано: Paul Pitman (2012). Запись public domain (PDM-owner); фрагмент, громкость изменена.",
+          "character": "Неторопливая фортепианная часть.",
+          "source": "https://commons.wikimedia.org/wiki/File:Schubert%27s_Piano_Sonata_in_A_minor,_D.784_-_II._Andante_(in_F_major)_-_Paul_Pitman.ogg",
+          "sourceDownloadUrl": "https://upload.wikimedia.org/wikipedia/commons/5/56/Schubert%27s_Piano_Sonata_in_A_minor%2C_D.784_-_II._Andante_%28in_F_major%29_-_Paul_Pitman.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "commonsPageId": 128910390,
+          "commonsRevisionId": 1227005631,
+          "sourcePermanentUrl": "https://commons.wikimedia.org/w/index.php?oldid=1227005631",
+          "sourceFileTimestamp": "2023-02-20T23:01:56Z",
+          "sourceFileSha1": "7b392f4cb240bc848bad96438001ed60f048b5e9",
+          "attributionRequired": false,
+          "commonsLicenseShortName": "PDM-owner",
+          "commonsLicenseUrl": null,
+          "commonsArtist": "Paul Pitman",
+          "sourceSha256": "1d0840c8f663d8b8983e6f5044705adad913f690e1c1d0c7ca6536b99b444f1a",
+          "sourceBytes": 2681111,
+          "downloadedAtUtc": "2026-11-03T20:48:29.136274+00:00",
+          "sha256": "037cb154ac95ac0c61036de7e46cf6d0c45d6ae4f9058b557e55333f834ea880",
+          "processing": "35 s excerpt, loudnorm I=-23 LUFS / TP=-3 dBTP / LRA=7, fade in 0.25 s, fade out 0.8 s; 48 kHz stereo MP3 192 kbps",
+          "technicalQa": {
+            "decoded": true,
+            "sampleRate": 48000,
+            "channels": 2,
+            "codec": "mp3",
+            "mean_volume": -25,
+            "max_volume": -3.3,
+            "humanListening": false
+          },
+          "offsetSeconds": 0.7,
+          "excerptDurationSeconds": 13.2,
+          "originalExcerptStartSeconds": 1.2999999999999998,
+          "actualDurationSeconds": 35.04,
+          "processingForReel": "loudnorm I=-18 LUFS, TP=-2 dBTP, LRA=8; fade in 0.6 s, fade out 1.2 s"
+        }
+      },
+      "files": [
+        {
+          "relative": "reels/2026-11-classic-48-ber-bir.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-11-classic-48-ber-bir.mp4",
+          "size": 1758995,
+          "sha256": "0eb8a2115c5d33cc064d3cc2c29ecea5696bc5a19191eec5679b1e2842ad4290"
+        },
+        {
+          "relative": "reels/2026-11-classic-48-ber-bir-frame.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-11-classic-48-ber-bir-frame.jpg",
+          "size": 685831,
+          "sha256": "c3b50afa5ec5bc9848d9c5f107417578252d9ea93e7c39b8180262180679b57b"
+        }
+      ]
+    },
+    "2026-11-classic-49-olitsetvorenie": {
+      "version": 1,
+      "draftKey": "87deeccbc543ff8f202171c7e46b3e8f25a96ad6b9d0fca79ee71b944f64f6ab",
+      "builtAt": "2026-11-12T19:32:43.419Z",
+      "media": {
+        "background": "outputs/classic-refill-2026-11-12/assets/photos/library-warm.jpg",
+        "lightBg": true,
+        "generatedBg": false,
+        "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-11-classic-49-olitsetvorenie.mp4",
+        "coverUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-11-classic-49-olitsetvorenie-frame.jpg",
+        "coverOffsetMs": 12200,
+        "music": {
+          "id": "chopin-op37-no2",
+          "file": "assets/music/chopin-op37-no2-gurevich.mp3",
+          "composer": "Фридерик Шопен",
+          "piece": "Ноктюрн соль мажор, op. 37 № 2",
+          "title": "Nocturne in G major, Op. 37 No. 2",
+          "performer": "Olga Gurevich",
+          "license": "CC0 1.0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "commonsTitle": "File:Chopin Nocturne Op 37 no 2 in G major Olga Gurevich.ogg",
+          "recordingRights": "CC0 1.0 на странице конкретной записи Olga Gurevich; источник Musopen download/12225. Включает связанные права на запись в пределах CC0.",
+          "compositionRights": "Шопен (1810–1849), op.37 (1840): public domain; современная запись отдельно CC0.",
+          "sourceExcerptStartSeconds": 0.7,
+          "durationSeconds": 35.04,
+          "attribution": "Ф. Шопен — Ноктюрн op. 37 № 2. Фортепиано: Olga Gurevich, Musopen. Запись CC0 1.0; фрагмент, громкость изменена.",
+          "character": "Плавное фортепианное движение; другое произведение и мелодия относительно op.62.",
+          "source": "https://commons.wikimedia.org/wiki/File:Chopin_Nocturne_Op_37_no_2_in_G_major_Olga_Gurevich.ogg",
+          "sourceDownloadUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Chopin_Nocturne_Op_37_no_2_in_G_major_Olga_Gurevich.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "commonsPageId": 62686803,
+          "commonsRevisionId": 857612175,
+          "sourcePermanentUrl": "https://commons.wikimedia.org/w/index.php?oldid=857612175",
+          "sourceFileTimestamp": "2017-09-23T13:04:51Z",
+          "sourceFileSha1": "a3a6eef09427f3d7455fbb0cc2d4a8c70bbe842b",
+          "attributionRequired": false,
+          "commonsLicenseShortName": "CC0",
+          "commonsLicenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "commonsArtist": "Olga Gurevich",
+          "sourceSha256": "9d2f9a857514ffc894057c0a50d4088bf82693915a94d1f2ed9ab9f5cbcc0fbb",
+          "sourceBytes": 4792732,
+          "downloadedAtUtc": "2026-11-03T20:48:37.627635+00:00",
+          "sha256": "1e3255e0c1b8e936c92c146d44977015b471da6c153737fa3cd49ac61bc10a50",
+          "processing": "35 s excerpt, loudnorm I=-23 LUFS / TP=-3 dBTP / LRA=7, fade in 0.25 s, fade out 0.8 s; 48 kHz stereo MP3 192 kbps",
+          "technicalQa": {
+            "decoded": true,
+            "sampleRate": 48000,
+            "channels": 2,
+            "codec": "mp3",
+            "mean_volume": -25.4,
+            "max_volume": -7.7,
+            "humanListening": false
+          },
+          "offsetSeconds": 1.4,
+          "excerptDurationSeconds": 13.2,
+          "originalExcerptStartSeconds": 2.0999999999999996,
+          "actualDurationSeconds": 35.04,
+          "processingForReel": "loudnorm I=-18 LUFS, TP=-2 dBTP, LRA=8; fade in 0.6 s, fade out 1.2 s"
+        }
+      },
+      "files": [
+        {
+          "relative": "reels/2026-11-classic-49-olitsetvorenie.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-11-classic-49-olitsetvorenie.mp4",
+          "size": 1238914,
+          "sha256": "1ebeeca53baeac693a664f47a03009333d05059acb7ebae4e5e8dcb33f676252"
+        },
+        {
+          "relative": "reels/2026-11-classic-49-olitsetvorenie-frame.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-11-classic-49-olitsetvorenie-frame.jpg",
+          "size": 499261,
+          "sha256": "3bc251657972351a1b597914e606caebae81c0e15fd78feab084fd8514d28ca2"
+        }
+      ]
+    }
+  }
+}

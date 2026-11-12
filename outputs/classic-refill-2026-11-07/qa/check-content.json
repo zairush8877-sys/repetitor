@@ -1,0 +1,62 @@
+[
+  {
+    "id": "2026-11-classic-29-online",
+    "mode": "isolated",
+    "exitCode": 0
+  },
+  {
+    "id": "2026-11-classic-30-ne-prichastiya",
+    "mode": "isolated",
+    "exitCode": 0
+  },
+  {
+    "id": "2026-11-classic-31-skolko-osnov",
+    "mode": "isolated",
+    "exitCode": 0
+  },
+  {
+    "id": "2026-11-classic-32-kompaniya",
+    "mode": "isolated",
+    "exitCode": 0
+  },
+  {
+    "id": "2026-11-classic-33-zato",
+    "mode": "isolated",
+    "exitCode": 0
+  },
+  {
+    "id": "2026-11-classic-34-metafora",
+    "mode": "isolated",
+    "exitCode": 0
+  },
+  {
+    "id": "2026-11-classic-29-online",
+    "mode": "merged",
+    "exitCode": 0
+  },
+  {
+    "id": "2026-11-classic-30-ne-prichastiya",
+    "mode": "merged",
+    "exitCode": 0
+  },
+  {
+    "id": "2026-11-classic-31-skolko-osnov",
+    "mode": "merged",
+    "exitCode": 0
+  },
+  {
+    "id": "2026-11-classic-32-kompaniya",
+    "mode": "merged",
+    "exitCode": 0
+  },
+  {
+    "id": "2026-11-classic-33-zato",
+    "mode": "merged",
+    "exitCode": 0
+  },
+  {
+    "id": "2026-11-classic-34-metafora",
+    "mode": "merged",
+    "exitCode": 0
+  }
+]

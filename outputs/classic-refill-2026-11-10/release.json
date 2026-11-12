@@ -1,0 +1,332 @@
+{
+  "project": "мама инста",
+  "revision": "Daily refill Nov10;6newNov16/17slots;24rows and12captions independent proof pass;editor accepted",
+  "posts": [
+    {
+      "id": "2026-11-classic-38-steklo-stikh",
+      "date": "2026-11-16",
+      "scheduledAt": "2026-11-16T07:00:00.000Z",
+      "rubric": "Олимпиадная разминка",
+      "school": true,
+      "kicker": "АВТОРСКАЯ ОЛИМПИАДНАЯ РАЗМИНКА",
+      "title": "Стекло и стих.\nНайдите глаголы.",
+      "heads": [
+        "Наш фрагмент",
+        "Что обозначает слово"
+      ],
+      "rows": [
+        [
+          "тонкое стекло",
+          "название"
+        ],
+        [
+          "молоко стекло",
+          "действие"
+        ],
+        [
+          "короткий стих",
+          "название"
+        ],
+        [
+          "ветер стих",
+          "действие"
+        ]
+      ],
+      "hashtags": [
+        "#русскийязык",
+        "#олимпиаднаяразминка",
+        "#частиречи"
+      ],
+      "format": "Reels",
+      "status": "approved",
+      "visualStyle": "classic-table",
+      "hideFooter": true,
+      "showProgress": false,
+      "storyRepostMode": "full_video",
+      "branding": {
+        "show_handle": false,
+        "show_author_signature": false,
+        "show_services_footer": false
+      },
+      "caption": "Предложите ребёнку найти два глагола. Во фрагментах «тонкое стекло» и «короткий стих» слова «стекло» и «стих» — существительные. В «молоко стекло» и «ветер стих» — глаголы: формы от «стечь» и «стихнуть». Часть речи определяется по контексту. Это наша авторская олимпиадная разминка.",
+      "campaignId": "anna-retouch-music-v3-20261031",
+      "assetSelection": {
+        "photoId": "desk-books-laptop",
+        "musicId": "satie-gymnopedie3",
+        "musicOffsetSeconds": 0.0,
+        "backgroundPosition": "35% 50%"
+      }
+    },
+    {
+      "id": "2026-11-classic-39-ukrytom",
+      "date": "2026-11-16",
+      "scheduledAt": "2026-11-16T11:00:00.000Z",
+      "rubric": "ЕГЭ",
+      "school": false,
+      "kicker": "ЕГЭ • СОГЛАСОВАНИЕ ПРИЧАСТИЯ",
+      "title": "Укрытом.\nИли укрытым?",
+      "heads": [
+        "Наше сочетание",
+        "Вопрос к причастию"
+      ],
+      "rows": [
+        [
+          "лес, укрытый снегом",
+          "какой?"
+        ],
+        [
+          "в лесу, укрытом снегом",
+          "каком?"
+        ],
+        [
+          "над лесом, укрытым снегом",
+          "каким?"
+        ],
+        [
+          "к лесу, укрытому снегом",
+          "какому?"
+        ]
+      ],
+      "hashtags": [
+        "#егэрусский",
+        "#причастие",
+        "#согласование"
+      ],
+      "format": "Reels",
+      "status": "approved",
+      "visualStyle": "classic-table",
+      "hideFooter": true,
+      "showProgress": false,
+      "storyRepostMode": "full_video",
+      "branding": {
+        "show_handle": false,
+        "show_author_signature": false,
+        "show_services_footer": false
+      },
+      "caption": "В лесу, укрытом снегом: «лесу» — предложный падеж, «укрытом» согласуется с ним. Над лесом, укрытым снегом: творительный падеж, поэтому «укрытым». Полное причастие берёт род, число и падеж существительного, к которому относится.",
+      "campaignId": "anna-retouch-music-v3-20261031",
+      "assetSelection": {
+        "photoId": "blank-books-table",
+        "musicId": "schumann-traumerei",
+        "musicOffsetSeconds": 0.7,
+        "backgroundPosition": "50% 50%"
+      }
+    },
+    {
+      "id": "2026-11-classic-40-sspspp",
+      "date": "2026-11-16",
+      "scheduledAt": "2026-11-16T16:00:00.000Z",
+      "rubric": "ОГЭ",
+      "school": false,
+      "kicker": "ОГЭ • СВЯЗЬ ЧАСТЕЙ",
+      "title": "А или хотя.\nКакая связь?",
+      "heads": [
+        "Наше предложение",
+        "Связь частей"
+      ],
+      "rows": [
+        [
+          "Идёт дождь, а я гуляю.",
+          "равноправны"
+        ],
+        [
+          "Я гуляю, хотя идёт дождь.",
+          "есть зависимость"
+        ],
+        [
+          "Я замёрз, и мы ушли.",
+          "равноправны"
+        ],
+        [
+          "Я замёрз, пока ждал.",
+          "есть зависимость"
+        ]
+      ],
+      "hashtags": [
+        "#огэрусский",
+        "#сложноепредложение",
+        "#синтаксис"
+      ],
+      "format": "Reels",
+      "status": "approved",
+      "visualStyle": "classic-table",
+      "hideFooter": true,
+      "showProgress": false,
+      "storyRepostMode": "full_video",
+      "branding": {
+        "show_handle": false,
+        "show_author_signature": false,
+        "show_services_footer": false
+      },
+      "caption": "«Идёт дождь, а я гуляю» — части грамматически равноправны, это сложносочинённое предложение. «Я гуляю, хотя идёт дождь» — есть главная и зависимая придаточная часть, предложение сложноподчинённое. Такое же различие показано в двух нижних строках.",
+      "campaignId": "anna-retouch-music-v3-20261031",
+      "assetSelection": {
+        "photoId": "library-bookshelves",
+        "musicId": "mozart40-andante",
+        "musicOffsetSeconds": 1.4,
+        "backgroundPosition": "50% 50%"
+      }
+    },
+    {
+      "id": "2026-11-classic-41-rod-menu",
+      "date": "2026-11-17",
+      "scheduledAt": "2026-11-17T07:00:00.000Z",
+      "rubric": "Речь взрослых",
+      "school": false,
+      "kicker": "ОН, ОНА ИЛИ ОНО В МЕНЮ",
+      "title": "Какао — горячее.\nА сулугуни?",
+      "rows": [
+        [
+          "горячий какао",
+          "горячее какао"
+        ],
+        [
+          "острое салями",
+          "острая салями"
+        ],
+        [
+          "свежее сулугуни",
+          "свежий сулугуни"
+        ],
+        [
+          "полезный брокколи",
+          "полезная брокколи"
+        ]
+      ],
+      "hashtags": [
+        "#русскийязык",
+        "#родсуществительных",
+        "#словавменю"
+      ],
+      "format": "Reels",
+      "status": "approved",
+      "visualStyle": "classic-table",
+      "hideFooter": true,
+      "showProgress": false,
+      "storyRepostMode": "full_video",
+      "branding": {
+        "show_handle": false,
+        "show_author_signature": false,
+        "show_services_footer": false
+      },
+      "caption": "Какао — среднего рода: горячее. Сулугуни — мужского: свежий. Салями и брокколи — женского: острая салями, полезная брокколи. Эти существительные не склоняются, но род у них есть. Для заказа или описания блюда нужна подходящая форма прилагательного.",
+      "campaignId": "anna-retouch-music-v3-20261031",
+      "assetSelection": {
+        "photoId": "library-warm",
+        "musicId": "schubert-d784-andante",
+        "musicOffsetSeconds": 0.0,
+        "backgroundPosition": "85% 50%"
+      }
+    },
+    {
+      "id": "2026-11-classic-42-ova-yva",
+      "date": "2026-11-17",
+      "scheduledAt": "2026-11-17T11:00:00.000Z",
+      "rubric": "ЕГЭ",
+      "school": false,
+      "kicker": "ЕГЭ • СУФФИКСЫ ГЛАГОЛОВ",
+      "title": "Советую.\nНо советовать.",
+      "heads": [
+        "Форма «я»",
+        "Инфинитив"
+      ],
+      "rows": [
+        [
+          "советую",
+          "советовать"
+        ],
+        [
+          "танцую",
+          "танцевать"
+        ],
+        [
+          "опаздываю",
+          "опаздывать"
+        ],
+        [
+          "откладываю",
+          "откладывать"
+        ]
+      ],
+      "hashtags": [
+        "#егэрусский",
+        "#суффиксыглаголов",
+        "#орфография"
+      ],
+      "format": "Reels",
+      "status": "approved",
+      "visualStyle": "classic-table",
+      "hideFooter": true,
+      "showProgress": false,
+      "storyRepostMode": "full_video",
+      "branding": {
+        "show_handle": false,
+        "show_author_signature": false,
+        "show_services_footer": false
+      },
+      "caption": "Советую — советовать, танцую — танцевать. В этих глаголах форма первого лица помогает выбрать суффикс -ова- или -ева-. Если сохраняется -ываю-/-иваю-, в инфинитиве пишем -ыва-/-ива-: опаздываю — опаздывать, откладываю — откладывать.",
+      "campaignId": "anna-retouch-music-v3-20261031",
+      "assetSelection": {
+        "photoId": "books-pile",
+        "musicId": "chopin-op37-no2",
+        "musicOffsetSeconds": 0.7,
+        "backgroundPosition": "50% 50%"
+      }
+    },
+    {
+      "id": "2026-11-classic-43-lena",
+      "date": "2026-11-17",
+      "scheduledAt": "2026-11-17T16:00:00.000Z",
+      "rubric": "ОГЭ",
+      "school": false,
+      "kicker": "ОГЭ • ОБРАЩЕНИЕ И ПОДЛЕЖАЩЕЕ",
+      "title": "Лена, читай.\nЛена читает.",
+      "heads": [
+        "Наше предложение",
+        "Роль слова"
+      ],
+      "rows": [
+        [
+          "Лена, читай.",
+          "обращение"
+        ],
+        [
+          "Лена читает.",
+          "подлежащее"
+        ],
+        [
+          "Друзья, подождите!",
+          "обращение"
+        ],
+        [
+          "Друзья ждут у дома.",
+          "подлежащее"
+        ]
+      ],
+      "hashtags": [
+        "#огэрусский",
+        "#обращение",
+        "#пунктуация"
+      ],
+      "format": "Reels",
+      "status": "approved",
+      "visualStyle": "classic-table",
+      "hideFooter": true,
+      "showProgress": false,
+      "storyRepostMode": "full_video",
+      "branding": {
+        "show_handle": false,
+        "show_author_signature": false,
+        "show_services_footer": false
+      },
+      "caption": "Лена, читай — обращаемся к Лене, поэтому имя отделено запятой. Лена читает — сообщаем о действии Лены; имя здесь подлежащее. В двух нижних предложениях так же меняется роль слова «друзья». Обращение называет адресата речи и членом предложения не является.",
+      "campaignId": "anna-retouch-music-v3-20261031",
+      "assetSelection": {
+        "photoId": "journal-writing",
+        "musicId": "bach-var1-ishizaka",
+        "musicOffsetSeconds": 1.4,
+        "backgroundPosition": "50% 50%"
+      }
+    }
+  ]
+}

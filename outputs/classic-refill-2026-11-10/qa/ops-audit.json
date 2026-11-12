@@ -1,0 +1,748 @@
+{
+  "checkedAt": "2026-11-10T08:39:34.482Z",
+  "timeZone": "Europe/Moscow",
+  "actualRefillDate": "2026-11-10",
+  "repository": "zairush8877-sys/repetitor",
+  "account": "mairova_a_a",
+  "ref": "d8c5e06e2da77f8b492308884a8ceb7834209272",
+  "mode": "Read-only current-state audit; no publish, retry, cross-day catch-up, reconciliation write, new sender or cron",
+  "snapshotHashes": {
+    "queue.json": "de51600b580075cf6587b1f1bdd64c15c2285580db35c24d1d003a17ffe3628d",
+    "active-feed-campaign.json": "2831717ee8e4511fa8cee69b2138028833f91b6ca3fe27dd3952f92a72f334f1",
+    "prepared/index.json": "ac5325e47016786f47c089fdf1b7afed1068eb76d26584574ae4fb88f0a7e94d",
+    "reposts/index.json": "a314b5bb450d2e5b116a4f1f660740399c3860d3b99bb5199731d7ab4049b8c8"
+  },
+  "baselineCounts": {
+    "queue": 144,
+    "prepared": 96,
+    "reposts": 99,
+    "calendar": 52
+  },
+  "campaignValidation": "pass",
+  "today": {
+    "date": "2026-11-10",
+    "voiceSlots": [
+      {
+        "postId": "anna-v3-20261031-06-ne-glagol",
+        "date": "2026-11-10",
+        "scheduledAt": "2026-11-10T06:00:00.000Z",
+        "status": "approved"
+      }
+    ],
+    "unpassedClassicSlots": [
+      {
+        "postId": "2026-11-classic-21-skazuemoe",
+        "date": "2026-11-10",
+        "scheduledAt": "2026-11-10T11:00:00.000Z",
+        "status": "approved",
+        "checks": {
+          "approvedOrPublished": true,
+          "currentDraftKey": true,
+          "videoManifest": true,
+          "coverManifest": true,
+          "fullVideoStory": true
+        },
+        "coherentPrepared": true
+      },
+      {
+        "postId": "2026-11-classic-22-svyaz-teksta",
+        "date": "2026-11-10",
+        "scheduledAt": "2026-11-10T16:00:00.000Z",
+        "status": "approved",
+        "checks": {
+          "approvedOrPublished": true,
+          "currentDraftKey": true,
+          "videoManifest": true,
+          "coverManifest": true,
+          "fullVideoStory": true
+        },
+        "coherentPrepared": true
+      }
+    ],
+    "unpassedClassicReady": 2,
+    "classicSlots": [
+      {
+        "postId": "2026-11-classic-20-odnorodnye",
+        "date": "2026-11-10",
+        "scheduledAt": "2026-11-10T07:00:00.000Z",
+        "status": "approved",
+        "checks": {
+          "approvedOrPublished": true,
+          "currentDraftKey": true,
+          "videoManifest": true,
+          "coverManifest": true,
+          "fullVideoStory": true
+        },
+        "coherentPrepared": true
+      },
+      {
+        "postId": "2026-11-classic-21-skazuemoe",
+        "date": "2026-11-10",
+        "scheduledAt": "2026-11-10T11:00:00.000Z",
+        "status": "approved",
+        "checks": {
+          "approvedOrPublished": true,
+          "currentDraftKey": true,
+          "videoManifest": true,
+          "coverManifest": true,
+          "fullVideoStory": true
+        },
+        "coherentPrepared": true
+      },
+      {
+        "postId": "2026-11-classic-22-svyaz-teksta",
+        "date": "2026-11-10",
+        "scheduledAt": "2026-11-10T16:00:00.000Z",
+        "status": "approved",
+        "checks": {
+          "approvedOrPublished": true,
+          "currentDraftKey": true,
+          "videoManifest": true,
+          "coverManifest": true,
+          "fullVideoStory": true
+        },
+        "coherentPrepared": true
+      }
+    ],
+    "ready": 3,
+    "expected": 3,
+    "selectedPostId": "anna-v3-20261031-06-ne-glagol",
+    "selectionReason": "One approved explicit campaign slot is due"
+  },
+  "horizon": {
+    "firstDate": "2026-11-11",
+    "lastDate": "2026-11-17",
+    "expected": 21,
+    "presentUnique": 15,
+    "coherentPrepared": 15,
+    "missing": 6,
+    "days": [
+      {
+        "date": "2026-11-11",
+        "expected": 3,
+        "uniquePostIds": 3,
+        "slots": [
+          {
+            "postId": "2026-11-classic-23-apellyatsiya",
+            "date": "2026-11-11",
+            "scheduledAt": "2026-11-11T07:00:00.000Z",
+            "status": "approved",
+            "checks": {
+              "approvedOrPublished": true,
+              "currentDraftKey": true,
+              "videoManifest": true,
+              "coverManifest": true,
+              "fullVideoStory": true
+            },
+            "coherentPrepared": true
+          },
+          {
+            "postId": "2026-11-classic-24-prichastiya",
+            "date": "2026-11-11",
+            "scheduledAt": "2026-11-11T11:00:00.000Z",
+            "status": "approved",
+            "checks": {
+              "approvedOrPublished": true,
+              "currentDraftKey": true,
+              "videoManifest": true,
+              "coverManifest": true,
+              "fullVideoStory": true
+            },
+            "coherentPrepared": true
+          },
+          {
+            "postId": "2026-11-classic-25-osnova",
+            "date": "2026-11-11",
+            "scheduledAt": "2026-11-11T16:00:00.000Z",
+            "status": "approved",
+            "checks": {
+              "approvedOrPublished": true,
+              "currentDraftKey": true,
+              "videoManifest": true,
+              "coverManifest": true,
+              "fullVideoStory": true
+            },
+            "coherentPrepared": true
+          }
+        ],
+        "missingScheduledAt": []
+      },
+      {
+        "date": "2026-11-12",
+        "expected": 3,
+        "uniquePostIds": 3,
+        "slots": [
+          {
+            "postId": "2026-11-classic-26-ne-vvodnye",
+            "date": "2026-11-12",
+            "scheduledAt": "2026-11-12T07:00:00.000Z",
+            "status": "approved",
+            "checks": {
+              "approvedOrPublished": true,
+              "currentDraftKey": true,
+              "videoManifest": true,
+              "coverManifest": true,
+              "fullVideoStory": true
+            },
+            "coherentPrepared": true
+          },
+          {
+            "postId": "2026-11-classic-27-kratkie-prichastiya",
+            "date": "2026-11-12",
+            "scheduledAt": "2026-11-12T11:00:00.000Z",
+            "status": "approved",
+            "checks": {
+              "approvedOrPublished": true,
+              "currentDraftKey": true,
+              "videoManifest": true,
+              "coverManifest": true,
+              "fullVideoStory": true
+            },
+            "coherentPrepared": true
+          },
+          {
+            "postId": "2026-11-classic-28-kogda",
+            "date": "2026-11-12",
+            "scheduledAt": "2026-11-12T16:00:00.000Z",
+            "status": "approved",
+            "checks": {
+              "approvedOrPublished": true,
+              "currentDraftKey": true,
+              "videoManifest": true,
+              "coverManifest": true,
+              "fullVideoStory": true
+            },
+            "coherentPrepared": true
+          }
+        ],
+        "missingScheduledAt": []
+      },
+      {
+        "date": "2026-11-13",
+        "expected": 3,
+        "uniquePostIds": 3,
+        "slots": [
+          {
+            "postId": "2026-11-classic-29-online",
+            "date": "2026-11-13",
+            "scheduledAt": "2026-11-13T07:00:00.000Z",
+            "status": "approved",
+            "checks": {
+              "approvedOrPublished": true,
+              "currentDraftKey": true,
+              "videoManifest": true,
+              "coverManifest": true,
+              "fullVideoStory": true
+            },
+            "coherentPrepared": true
+          },
+          {
+            "postId": "2026-11-classic-30-ne-prichastiya",
+            "date": "2026-11-13",
+            "scheduledAt": "2026-11-13T11:00:00.000Z",
+            "status": "approved",
+            "checks": {
+              "approvedOrPublished": true,
+              "currentDraftKey": true,
+              "videoManifest": true,
+              "coverManifest": true,
+              "fullVideoStory": true
+            },
+            "coherentPrepared": true
+          },
+          {
+            "postId": "2026-11-classic-31-skolko-osnov",
+            "date": "2026-11-13",
+            "scheduledAt": "2026-11-13T16:00:00.000Z",
+            "status": "approved",
+            "checks": {
+              "approvedOrPublished": true,
+              "currentDraftKey": true,
+              "videoManifest": true,
+              "coverManifest": true,
+              "fullVideoStory": true
+            },
+            "coherentPrepared": true
+          }
+        ],
+        "missingScheduledAt": []
+      },
+      {
+        "date": "2026-11-14",
+        "expected": 3,
+        "uniquePostIds": 3,
+        "slots": [
+          {
+            "postId": "2026-11-classic-32-kompaniya",
+            "date": "2026-11-14",
+            "scheduledAt": "2026-11-14T07:00:00.000Z",
+            "status": "approved",
+            "checks": {
+              "approvedOrPublished": true,
+              "currentDraftKey": true,
+              "videoManifest": true,
+              "coverManifest": true,
+              "fullVideoStory": true
+            },
+            "coherentPrepared": true
+          },
+          {
+            "postId": "2026-11-classic-33-zato",
+            "date": "2026-11-14",
+            "scheduledAt": "2026-11-14T11:00:00.000Z",
+            "status": "approved",
+            "checks": {
+              "approvedOrPublished": true,
+              "currentDraftKey": true,
+              "videoManifest": true,
+              "coverManifest": true,
+              "fullVideoStory": true
+            },
+            "coherentPrepared": true
+          },
+          {
+            "postId": "2026-11-classic-34-metafora",
+            "date": "2026-11-14",
+            "scheduledAt": "2026-11-14T16:00:00.000Z",
+            "status": "approved",
+            "checks": {
+              "approvedOrPublished": true,
+              "currentDraftKey": true,
+              "videoManifest": true,
+              "coverManifest": true,
+              "fullVideoStory": true
+            },
+            "coherentPrepared": true
+          }
+        ],
+        "missingScheduledAt": []
+      },
+      {
+        "date": "2026-11-15",
+        "expected": 3,
+        "uniquePostIds": 3,
+        "slots": [
+          {
+            "postId": "2026-11-classic-35-ni-pukha",
+            "date": "2026-11-15",
+            "scheduledAt": "2026-11-15T07:00:00.000Z",
+            "status": "approved",
+            "checks": {
+              "approvedOrPublished": true,
+              "currentDraftKey": true,
+              "videoManifest": true,
+              "coverManifest": true,
+              "fullVideoStory": true
+            },
+            "coherentPrepared": true
+          },
+          {
+            "postId": "2026-11-classic-36-gar-gor",
+            "date": "2026-11-15",
+            "scheduledAt": "2026-11-15T11:00:00.000Z",
+            "status": "approved",
+            "checks": {
+              "approvedOrPublished": true,
+              "currentDraftKey": true,
+              "videoManifest": true,
+              "coverManifest": true,
+              "fullVideoStory": true
+            },
+            "coherentPrepared": true
+          },
+          {
+            "postId": "2026-11-classic-37-kto-chey",
+            "date": "2026-11-15",
+            "scheduledAt": "2026-11-15T16:00:00.000Z",
+            "status": "approved",
+            "checks": {
+              "approvedOrPublished": true,
+              "currentDraftKey": true,
+              "videoManifest": true,
+              "coverManifest": true,
+              "fullVideoStory": true
+            },
+            "coherentPrepared": true
+          }
+        ],
+        "missingScheduledAt": []
+      },
+      {
+        "date": "2026-11-16",
+        "expected": 3,
+        "uniquePostIds": 0,
+        "slots": [],
+        "missingScheduledAt": [
+          "2026-11-16T07:00:00.000Z",
+          "2026-11-16T11:00:00.000Z",
+          "2026-11-16T16:00:00.000Z"
+        ]
+      },
+      {
+        "date": "2026-11-17",
+        "expected": 3,
+        "uniquePostIds": 0,
+        "slots": [],
+        "missingScheduledAt": [
+          "2026-11-17T07:00:00.000Z",
+          "2026-11-17T11:00:00.000Z",
+          "2026-11-17T16:00:00.000Z"
+        ]
+      }
+    ],
+    "limitation": "Existing media manifest/draftKey/full-video SHA coherence checked; remote binary and Instagram history read performed by separate publisher audit."
+  },
+  "voice": {
+    "primarySlots": 15,
+    "slotsEqualPreviousCommittedCampaign": true,
+    "published": 5,
+    "remainingApproved": 10,
+    "changedSinceNov8Commit": [
+      {
+        "postId": "anna-v3-20261031-05-po-priezde",
+        "date": "2026-11-08",
+        "status": "published",
+        "changedKeys": [
+          "status",
+          "imageUrls",
+          "videoUrl",
+          "coverOffsetMs",
+          "coverUrl",
+          "music",
+          "feedDelivery",
+          "publishedMediaId",
+          "publishedAt",
+          "storyRepost"
+        ]
+      }
+    ],
+    "futureObjectsUnchanged": true,
+    "futureAfterToday": 9
+  },
+  "unresolvedDeliveryStates": [
+    {
+      "postId": "2026-10-05-oge-szhatie",
+      "date": "2026-10-05",
+      "status": "published",
+      "feedPhase": null,
+      "storyStatus": "partial",
+      "activeCampaign": false
+    }
+  ],
+  "activeUnresolved": 0,
+  "pastApprovedMissedClassicSlots": [
+    {
+      "date": "2026-11-04",
+      "scheduledAt": "2026-11-04T11:00:00.000Z",
+      "postId": "2026-11-classic-03-ne-rodstvenniki"
+    },
+    {
+      "date": "2026-11-04",
+      "scheduledAt": "2026-11-04T16:00:00.000Z",
+      "postId": "2026-11-classic-04-kto-deystvuet"
+    },
+    {
+      "postId": "2026-11-classic-08-menu",
+      "date": "2026-11-05",
+      "scheduledAt": "2026-11-05T16:00:00.000Z"
+    },
+    {
+      "postId": "2026-11-classic-10-sochetaemost",
+      "date": "2026-11-06",
+      "scheduledAt": "2026-11-06T11:00:00.000Z"
+    },
+    {
+      "postId": "2026-11-classic-11-vovremya",
+      "date": "2026-11-06",
+      "scheduledAt": "2026-11-06T16:00:00.000Z"
+    },
+    {
+      "postId": "2026-11-classic-14-ekonomnyy",
+      "date": "2026-11-07",
+      "scheduledAt": "2026-11-07T16:00:00.000Z"
+    },
+    {
+      "postId": "2026-11-classic-16-y-posle-pristavki",
+      "date": "2026-11-08",
+      "scheduledAt": "2026-11-08T11:00:00.000Z"
+    },
+    {
+      "postId": "2026-11-classic-17-ne-ni",
+      "date": "2026-11-08",
+      "scheduledAt": "2026-11-08T16:00:00.000Z"
+    },
+    {
+      "postId": "2026-11-classic-19-prichastnyy-oborot",
+      "date": "2026-11-09",
+      "scheduledAt": "2026-11-09T16:00:00.000Z"
+    }
+  ],
+  "actions": {
+    "query": "repos/zairush8877-sys/repetitor/actions/runs?per_page=50&created=2026-11-08..2026-11-10",
+    "total_count": 10,
+    "runs": [
+      {
+        "id": 42726061409,
+        "name": "Публикация в Instagram",
+        "path": ".github/workflows/publish.yml",
+        "event": "schedule",
+        "status": "completed",
+        "conclusion": "success",
+        "created_at": "2026-11-10T00:09:03Z",
+        "updated_at": "2026-11-10T00:09:34Z",
+        "head_sha": "d8c5e06e2da77f8b492308884a8ceb7834209272",
+        "run_attempt": 1,
+        "html_url": "https://github.com/zairush8877-sys/repetitor/actions/runs/42726061409"
+      },
+      {
+        "id": 42659071492,
+        "name": "Сторис каждый день",
+        "path": ".github/workflows/stories.yml",
+        "event": "schedule",
+        "status": "completed",
+        "conclusion": "success",
+        "created_at": "2026-11-09T16:52:14Z",
+        "updated_at": "2026-11-09T16:52:50Z",
+        "head_sha": "8e1b7527a4cfaf5554f95ecc705b54057ff622b7",
+        "run_attempt": 1,
+        "html_url": "https://github.com/zairush8877-sys/repetitor/actions/runs/42659071492"
+      },
+      {
+        "id": 42655633322,
+        "name": "Публикация в Instagram",
+        "path": ".github/workflows/publish.yml",
+        "event": "schedule",
+        "status": "completed",
+        "conclusion": "success",
+        "created_at": "2026-11-09T16:31:27Z",
+        "updated_at": "2026-11-09T16:34:13Z",
+        "head_sha": "ef7bd1ad51898309031f465489dc5398348f9170",
+        "run_attempt": 1,
+        "html_url": "https://github.com/zairush8877-sys/repetitor/actions/runs/42655633322"
+      },
+      {
+        "id": 42649835522,
+        "name": "Публикация в Instagram",
+        "path": ".github/workflows/publish.yml",
+        "event": "schedule",
+        "status": "completed",
+        "conclusion": "success",
+        "created_at": "2026-11-09T15:57:22Z",
+        "updated_at": "2026-11-09T16:00:10Z",
+        "head_sha": "53d637a5db902040d1eacbb69ccb978be7a1da6b",
+        "run_attempt": 1,
+        "html_url": "https://github.com/zairush8877-sys/repetitor/actions/runs/42649835522"
+      },
+      {
+        "id": 42520624981,
+        "name": "Публикация в Instagram",
+        "path": ".github/workflows/publish.yml",
+        "event": "schedule",
+        "status": "completed",
+        "conclusion": "success",
+        "created_at": "2026-11-08T20:32:17Z",
+        "updated_at": "2026-11-08T20:32:46Z",
+        "head_sha": "53d637a5db902040d1eacbb69ccb978be7a1da6b",
+        "run_attempt": 1,
+        "html_url": "https://github.com/zairush8877-sys/repetitor/actions/runs/42520624981"
+      },
+      {
+        "id": 42519796452,
+        "name": "Публикация в Instagram",
+        "path": ".github/workflows/publish.yml",
+        "event": "schedule",
+        "status": "completed",
+        "conclusion": "success",
+        "created_at": "2026-11-08T20:22:29Z",
+        "updated_at": "2026-11-08T20:23:03Z",
+        "head_sha": "53d637a5db902040d1eacbb69ccb978be7a1da6b",
+        "run_attempt": 1,
+        "html_url": "https://github.com/zairush8877-sys/repetitor/actions/runs/42519796452"
+      },
+      {
+        "id": 42487005846,
+        "name": "Сторис каждый день",
+        "path": ".github/workflows/stories.yml",
+        "event": "schedule",
+        "status": "completed",
+        "conclusion": "success",
+        "created_at": "2026-11-08T13:52:18Z",
+        "updated_at": "2026-11-08T13:52:55Z",
+        "head_sha": "fede3da7a64eeb128b770d0a892fdfdb5300a32a",
+        "run_attempt": 1,
+        "html_url": "https://github.com/zairush8877-sys/repetitor/actions/runs/42487005846"
+      },
+      {
+        "id": 42485634215,
+        "name": "Публикация в Instagram",
+        "path": ".github/workflows/publish.yml",
+        "event": "schedule",
+        "status": "completed",
+        "conclusion": "success",
+        "created_at": "2026-11-08T13:34:47Z",
+        "updated_at": "2026-11-08T13:36:54Z",
+        "head_sha": "f546e0344ebd05fdab04d48e6bcf871ad8edb7fc",
+        "run_attempt": 1,
+        "html_url": "https://github.com/zairush8877-sys/repetitor/actions/runs/42485634215"
+      },
+      {
+        "id": 42483785085,
+        "name": "Публикация в Instagram",
+        "path": ".github/workflows/publish.yml",
+        "event": "schedule",
+        "status": "completed",
+        "conclusion": "success",
+        "created_at": "2026-11-08T13:11:43Z",
+        "updated_at": "2026-11-08T13:13:51Z",
+        "head_sha": "02e56cb07dd2b82fda982d1b485e269e188ea3ad",
+        "run_attempt": 1,
+        "html_url": "https://github.com/zairush8877-sys/repetitor/actions/runs/42483785085"
+      },
+      {
+        "id": 42471286919,
+        "name": "Публикация в Instagram",
+        "path": ".github/workflows/publish.yml",
+        "event": "workflow_dispatch",
+        "status": "completed",
+        "conclusion": "failure",
+        "created_at": "2026-11-08T10:24:17Z",
+        "updated_at": "2026-11-08T10:26:56Z",
+        "head_sha": "02e56cb07dd2b82fda982d1b485e269e188ea3ad",
+        "run_attempt": 2,
+        "html_url": "https://github.com/zairush8877-sys/repetitor/actions/runs/42471286919"
+      }
+    ],
+    "evidence": [
+      {
+        "runId": 42471286919,
+        "jobId": 128702837007,
+        "selectedPostId": null,
+        "verifiedPublishedMedia": null,
+        "storyConfirmation": null,
+        "selectionReason": null,
+        "logFile": "qa/job-128702837007.log"
+      },
+      {
+        "runId": 42483785085,
+        "jobId": 128741140615,
+        "selectedPostId": "anna-v3-20261031-05-po-priezde",
+        "verifiedPublishedMedia": {
+          "postId": "anna-v3-20261031-05-po-priezde",
+          "id": "18134335375821375",
+          "media_product_type": "REELS",
+          "media_type": "VIDEO",
+          "permalink": "https://www.instagram.com/reel/Dfe1e6dANKm/",
+          "timestamp": "2026-11-08T13:12:56+0000"
+        },
+        "storyConfirmation": "2026-11-08T13:13:48.6609058Z   Кадр 1/1: Stories подтверждена, id 18119502412806125.",
+        "selectionReason": "2026-11-08T13:12:12.0724832Z One approved explicit campaign slot is due",
+        "logFile": "qa/job-128741140615.log"
+      },
+      {
+        "runId": 42485634215,
+        "jobId": 128746763808,
+        "selectedPostId": "2026-11-classic-15-kas-kos",
+        "verifiedPublishedMedia": {
+          "postId": "2026-11-classic-15-kas-kos",
+          "id": "18105549353163025",
+          "media_product_type": "REELS",
+          "media_type": "VIDEO",
+          "permalink": "https://www.instagram.com/reel/Dfe4HVwDWVn/",
+          "timestamp": "2026-11-08T13:35:58+0000"
+        },
+        "storyConfirmation": "2026-11-08T13:36:50.3530849Z   Кадр 1/1: Stories подтверждена, id 18149043889572446.",
+        "selectionReason": "2026-11-08T13:35:14.9250151Z One approved explicit campaign slot is due",
+        "logFile": "qa/job-128746763808.log"
+      },
+      {
+        "runId": 42519796452,
+        "jobId": 128850566868,
+        "selectedPostId": null,
+        "verifiedPublishedMedia": null,
+        "storyConfirmation": null,
+        "selectionReason": "2026-11-08T20:23:00.2825282Z Publishing window closed; no automatic catch-up on off days",
+        "logFile": "qa/job-128850566868.log"
+      },
+      {
+        "runId": 42520624981,
+        "jobId": 128853102487,
+        "selectedPostId": null,
+        "verifiedPublishedMedia": null,
+        "storyConfirmation": null,
+        "selectionReason": "2026-11-08T20:32:43.3319219Z Publishing window closed; no automatic catch-up on off days",
+        "logFile": "qa/job-128853102487.log"
+      },
+      {
+        "runId": 42649835522,
+        "jobId": 129272881675,
+        "selectedPostId": "2026-11-classic-07-bukvy-zvuki",
+        "verifiedPublishedMedia": {
+          "postId": "2026-11-classic-07-bukvy-zvuki",
+          "id": "17918998425496021",
+          "media_product_type": "REELS",
+          "media_type": "VIDEO",
+          "permalink": "https://www.instagram.com/reel/DfhtUxNEs3y/",
+          "timestamp": "2026-11-09T15:59:18+0000"
+        },
+        "storyConfirmation": "2026-11-09T16:00:05.9832272Z   Кадр 1/1: Stories подтверждена, id 18358303786170499.",
+        "selectionReason": "2026-11-09T15:58:03.1208020Z One approved explicit campaign slot is due",
+        "logFile": "qa/job-129272881675.log"
+      },
+      {
+        "runId": 42655633322,
+        "jobId": 129293242396,
+        "selectedPostId": "2026-11-classic-18-giperbola-litota",
+        "verifiedPublishedMedia": {
+          "postId": "2026-11-classic-18-giperbola-litota",
+          "id": "17914302960483710",
+          "media_product_type": "REELS",
+          "media_type": "VIDEO",
+          "permalink": "https://www.instagram.com/reel/DfhxIteCnXZ/",
+          "timestamp": "2026-11-09T16:32:43+0000"
+        },
+        "storyConfirmation": "2026-11-09T16:34:09.7548400Z   Кадр 1/1: Stories подтверждена, id 18110383841244718.",
+        "selectionReason": "2026-11-09T16:31:57.1872258Z One approved explicit campaign slot is due",
+        "logFile": "qa/job-129293242396.log"
+      },
+      {
+        "runId": 42726061409,
+        "jobId": 129531872565,
+        "selectedPostId": null,
+        "verifiedPublishedMedia": null,
+        "storyConfirmation": null,
+        "selectionReason": "2026-11-10T00:09:31.3485533Z Next slot: 2026-11-10T06:00:00.000Z",
+        "logFile": "qa/job-129531872565.log"
+      }
+    ],
+    "currentCron": [
+      "- cron: '0 6,7,11,16 * * *'",
+      "- cron: '23 6,7,11,16 * * *'"
+    ],
+    "logAccess": "MCP github.fetch unavailable; read-only authenticated gh API fallback"
+  },
+  "knownDeliveryIssue": {
+    "classification": "Same previously reported sparse/delayed GitHub scheduled wakeups",
+    "scheduledRunsSuccess": true,
+    "newFailureClass": false,
+    "cause": "Unknown; no token or sender failure found. Late UTC Nov8 runs occurred after22:00Moscow and correctly refused publication. Nov10 03:09Moscow run waited for earliest06:00Z. The Nov8 dry audit504 is a separate already reported dependency-download blocker.",
+    "notifyUser": false,
+    "notificationReason": "Failure pattern already reported on Nov5; unchanged routine polling is quiet. New Nov6 receipts are normal deliveries, not a repair of scheduled wakeups.",
+    "preserve": "No catch-up or date/status changes to nine old missed approved classic slots."
+  },
+  "auditDependencyBlocker": {
+    "runId": 42471286919,
+    "attempt": 2,
+    "status": "known failed dry audit",
+    "cause": "ffmpeg-static b6.1.1 download HTTP504",
+    "alreadyUserNotified": true,
+    "currentResolution": "Not established until newly authorized58-slot audit passes; standalone HEAD200 is insufficient",
+    "notifyAgain": false
+  },
+  "lastExistingClassic": {
+    "postId": "2026-11-classic-37-kto-chey",
+    "photoId": "open-book-plant",
+    "musicId": "chopin-op62-no1",
+    "musicOffsetSeconds": 1.4,
+    "backgroundPosition": "50% 50%"
+  }
+}

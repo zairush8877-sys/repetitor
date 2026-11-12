@@ -1,0 +1,27 @@
+{
+  "id": "2026-11-classic-34-metafora",
+  "previewOnly": true,
+  "total": 13.2,
+  "key": "d5c5fb17467e9462f50957c7517e78296fdc0a37de98e7b5033bdd11d0856320",
+  "assets": {
+    "photoId": "books-pile",
+    "photoFile": "assets/photos/books-pile.jpg",
+    "photoSha256": "bcf9491e4bdb9d6dcf889feb108bcb6be8dc5ccb17e95e2e2c0de4e819ccdb8a",
+    "musicId": "schubert-d784-andante",
+    "musicFile": "assets/music/schubert-d784-andante-pitman.mp3",
+    "musicSha256": "037cb154ac95ac0c61036de7e46cf6d0c45d6ae4f9058b557e55333f834ea880",
+    "musicOffsetSeconds": 1.4,
+    "backgroundPosition": "50% 50%"
+  },
+  "measured": {
+    "cardTop": 639.5625,
+    "cardBottom": 1227.5625,
+    "rowFont": 52,
+    "titleFont": 94,
+    "footerCount": 0,
+    "cellOverflow": false,
+    "text": "ОГЭ • СРЕДСТВА ВЫРАЗИТЕЛЬНОСТИ\nРека как лента.\nА лента реки?\nНАШ ОБРАЗ\nПРИЁМ\nрека как лента\nсравнение\nлента реки\nметафора\nлес словно стена\nсравнение\nстена леса\nметафора"
+  },
+  "previewFile": "qa/2026-11-classic-34-metafora-preview.jpg",
+  "previewSha256": "3f00f07a613a33ac2a4ed2b3ee50ec07b776656d14046dde0dd6a29938194a44"
+}

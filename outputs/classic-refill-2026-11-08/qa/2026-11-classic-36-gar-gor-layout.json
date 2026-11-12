@@ -1,0 +1,27 @@
+{
+  "id": "2026-11-classic-36-gar-gor",
+  "previewOnly": true,
+  "total": 13.2,
+  "key": "1af291a85b11648717d42add2214293ae69325a35b81835bc6cc0c3745be2ded",
+  "assets": {
+    "photoId": "uppsala-bookshelves",
+    "photoFile": "assets/photos/uppsala-bookshelves.jpg",
+    "photoSha256": "caa200a2d755c560a3826b47424f1cc3dfb9da99af2b9a666691853724bc0400",
+    "musicId": "bach-var1-ishizaka",
+    "musicFile": "assets/music/bach-var1-ishizaka.mp3",
+    "musicSha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8",
+    "musicOffsetSeconds": 0.7,
+    "backgroundPosition": "50% 50%"
+  },
+  "measured": {
+    "cardTop": 639.5625,
+    "cardBottom": 1292.5625,
+    "rowFont": 52,
+    "titleFont": 94,
+    "footerCount": 0,
+    "cellOverflow": false,
+    "text": "ЕГЭ • КОРНИ -ГАР- И -ГОР-\nЗагар.\nНо загореть.\nНАШЕ СЛОВО\nБУКВА В КОРНЕ\nзага́р\nпод ударением А\nзагоре́ть\nбез ударения О\nуга́р\nпод ударением А\nугоре́ть\nбез ударения О"
+  },
+  "previewFile": "qa/2026-11-classic-36-gar-gor-preview.jpg",
+  "previewSha256": "2dfca5c31d590f6298d505c37cfd7829c17853a4981e98312d705babceda5849"
+}
