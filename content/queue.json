@@ -8026,7 +8026,7 @@
       "format": "Reels",
       "rubric": "Разбор ЕГЭ/ОГЭ",
       "school": true,
-      "status": "approved",
+      "status": "published",
       "date": "2026-11-12",
       "scheduledAt": "2026-11-12T06:00:00.000Z",
       "publishTime": "09:00",
@@ -8060,14 +8060,18 @@
         "creationAttempts": 1,
         "lastError": null,
         "version": 1,
-        "phase": "publishing",
-        "updatedAt": "2026-11-12T15:01:19.408Z",
+        "phase": "published",
+        "updatedAt": "2026-11-12T15:01:28.371Z",
         "containerId": "18035410046887754",
         "containerCreatedAt": "2026-11-12T15:00:49.671Z",
         "failedStage": null,
         "readyAt": "2026-11-12T15:01:18.214Z",
-        "publishAttemptedAt": "2026-11-12T15:01:19.408Z"
-      }
+        "publishAttemptedAt": "2026-11-12T15:01:19.408Z",
+        "mediaId": "17928444660202128",
+        "publishedAt": "2026-11-12T15:01:28.371Z"
+      },
+      "publishedMediaId": "17928444660202128",
+      "publishedAt": "2026-11-12T15:01:28.371Z"
     },
     {
       "id": "anna-v3-20261031-08-deeprichastie",
