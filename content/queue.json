@@ -8060,8 +8060,11 @@
         "creationAttempts": 1,
         "lastError": null,
         "version": 1,
-        "phase": "container",
-        "updatedAt": "2026-11-12T15:00:46.145Z"
+        "phase": "preparing",
+        "updatedAt": "2026-11-12T15:00:49.671Z",
+        "containerId": "18035410046887754",
+        "containerCreatedAt": "2026-11-12T15:00:49.671Z",
+        "failedStage": null
       }
     },
     {
