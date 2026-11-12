@@ -11744,7 +11744,9 @@
         "musicId": "schubert-d784-andante",
         "musicOffsetSeconds": 1.4,
         "backgroundPosition": "50% 50%"
-      }
+      },
+      "photoFile": "clay-banks-notebook.jpg",
+      "musicFile": "light-onion-capers.mp3"
     },
     {
       "id": "2026-11-classic-35-ni-pukha",
@@ -11850,7 +11852,9 @@
         "musicId": "bach-var1-ishizaka",
         "musicOffsetSeconds": 0.7,
         "backgroundPosition": "50% 50%"
-      }
+      },
+      "photoFile": "tulips-filonchik.jpg",
+      "musicFile": "light-easy-lemon.mp3"
     },
     {
       "id": "2026-11-classic-37-kto-chey",
@@ -12557,7 +12561,9 @@
         "musicId": "chopin-op37-no2",
         "musicOffsetSeconds": 1.4,
         "backgroundPosition": "85% 50%"
-      }
+      },
+      "photoFile": "marble-pineapple.jpg",
+      "musicFile": "light-carefree.mp3"
     }
   ],
   "account_id": "17841456632615750"
