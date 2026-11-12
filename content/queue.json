@@ -8085,7 +8085,8 @@
             "mimeType": "video/mp4",
             "status": "preparing",
             "attempts": 1,
-            "attemptedAt": "2026-11-12T15:01:30.812Z"
+            "attemptedAt": "2026-11-12T15:01:30.812Z",
+            "containerId": "18035410241887754"
           }
         ],
         "sourceKey": "6eb0e23c00e27d2be529e8258285d7a66042812cb765134723311e63f6531986"
