@@ -11287,7 +11287,24 @@
         "publishedAt": "2026-11-12T15:25:01.898Z"
       },
       "publishedMediaId": "18101625179541527",
-      "publishedAt": "2026-11-12T15:25:01.898Z"
+      "publishedAt": "2026-11-12T15:25:03.067Z",
+      "storyRepost": {
+        "version": 1,
+        "feedMediaId": "18101625179541527",
+        "status": "pending",
+        "items": [
+          {
+            "index": 1,
+            "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-11-classic-26-ne-vvodnye-full.mp4",
+            "sha256": "a288f874cc7db9b4484c2870b07cde63a31798f7fb80c7943388a2cf0175646f",
+            "mediaType": "VIDEO",
+            "mimeType": "video/mp4",
+            "status": "pending",
+            "attempts": 0
+          }
+        ],
+        "sourceKey": "e37822c5cdd3b53ae6c07e0f99dbd45a079b56487d6196a155b512e6c5d7b6bb"
+      }
     },
     {
       "id": "2026-11-classic-27-kratkie-prichastiya",
