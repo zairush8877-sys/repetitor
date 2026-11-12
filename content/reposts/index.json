@@ -3984,7 +3984,7 @@
     "2026-11-classic-34-metafora": {
       "kind": "reel_video",
       "sourceKey": "4f4822acc4290fbb544bcfa1a68b9bacd004c15764e9aefccbbe9e0a1e8a2f3a",
-      "renderedAt": "2026-11-07T09:57:06.538Z",
+      "renderedAt": "2026-11-12T21:32:34.728Z",
       "publicationStatus": "export_only",
       "assets": [
         {
@@ -3995,7 +3995,7 @@
           "height": 1920,
           "mediaType": "VIDEO",
           "mimeType": "video/mp4",
-          "sha256": "a76c5c22b74bf6af802cfc2df44646e0c6c7d2fd0cd8d1ce5040c16332c33560",
+          "sha256": "44bd021d486f4553b3b39ccb3a5e13b135da0a7ed481ffde59f7e0ad0988f6e0",
           "geometry": {
             "sourceWidth": 1080,
             "sourceHeight": 1920,
@@ -4018,8 +4018,8 @@
               "width": 1080,
               "height": 1920
             },
-            "sourceSha256": "a76c5c22b74bf6af802cfc2df44646e0c6c7d2fd0cd8d1ce5040c16332c33560",
-            "sha256": "a76c5c22b74bf6af802cfc2df44646e0c6c7d2fd0cd8d1ce5040c16332c33560"
+            "sourceSha256": "44bd021d486f4553b3b39ccb3a5e13b135da0a7ed481ffde59f7e0ad0988f6e0",
+            "sha256": "44bd021d486f4553b3b39ccb3a5e13b135da0a7ed481ffde59f7e0ad0988f6e0"
           }
         }
       ]
@@ -4070,7 +4070,7 @@
     "2026-11-classic-36-gar-gor": {
       "kind": "reel_video",
       "sourceKey": "776465d47853b7224504e5531c61dfaf1b0bebe43b0b603afcf1f98a113f62d0",
-      "renderedAt": "2026-11-08T10:19:35.557Z",
+      "renderedAt": "2026-11-12T21:32:34.733Z",
       "publicationStatus": "export_only",
       "assets": [
         {
@@ -4081,7 +4081,7 @@
           "height": 1920,
           "mediaType": "VIDEO",
           "mimeType": "video/mp4",
-          "sha256": "e9b9c153b656bf20ed011e3a036f15d6e3d1bcbb3917a0466598133b7d1beb7e",
+          "sha256": "4a5d5ebd30af295a84a18ea3d9298e8716707eae0a45b3c63c06368d0ecffd98",
           "geometry": {
             "sourceWidth": 1080,
             "sourceHeight": 1920,
@@ -4104,8 +4104,8 @@
               "width": 1080,
               "height": 1920
             },
-            "sourceSha256": "e9b9c153b656bf20ed011e3a036f15d6e3d1bcbb3917a0466598133b7d1beb7e",
-            "sha256": "e9b9c153b656bf20ed011e3a036f15d6e3d1bcbb3917a0466598133b7d1beb7e"
+            "sourceSha256": "4a5d5ebd30af295a84a18ea3d9298e8716707eae0a45b3c63c06368d0ecffd98",
+            "sha256": "4a5d5ebd30af295a84a18ea3d9298e8716707eae0a45b3c63c06368d0ecffd98"
           }
         }
       ]
@@ -4629,7 +4629,7 @@
     "2026-11-classic-49-olitsetvorenie": {
       "kind": "reel_video",
       "sourceKey": "ece0058438e52daeb2f8f859e297aaad5aa72470d5fb94aab0a31b192bda59dd",
-      "renderedAt": "2026-11-12T19:32:43.418Z",
+      "renderedAt": "2026-11-12T21:32:34.736Z",
       "publicationStatus": "export_only",
       "assets": [
         {
@@ -4640,7 +4640,7 @@
           "height": 1920,
           "mediaType": "VIDEO",
           "mimeType": "video/mp4",
-          "sha256": "1ebeeca53baeac693a664f47a03009333d05059acb7ebae4e5e8dcb33f676252",
+          "sha256": "37bfa70e9d8359617d0fc34534fcf5f966de880b72a97c9214f22a05fbefb868",
           "geometry": {
             "sourceWidth": 1080,
             "sourceHeight": 1920,
@@ -4663,8 +4663,204 @@
               "width": 1080,
               "height": 1920
             },
-            "sourceSha256": "1ebeeca53baeac693a664f47a03009333d05059acb7ebae4e5e8dcb33f676252",
-            "sha256": "1ebeeca53baeac693a664f47a03009333d05059acb7ebae4e5e8dcb33f676252"
+            "sourceSha256": "37bfa70e9d8359617d0fc34534fcf5f966de880b72a97c9214f22a05fbefb868",
+            "sha256": "37bfa70e9d8359617d0fc34534fcf5f966de880b72a97c9214f22a05fbefb868"
+          }
+        }
+      ]
+    },
+    "2026-12-simple-01-bolshaya-bukva": {
+      "kind": "reel_frame",
+      "sourceKey": "d5fa70b4f4243946aaadfad7055f52d9ba9e9e7d589915539c48c27bc0be3637",
+      "renderedAt": "2026-11-12T21:47:27.242Z",
+      "publicationStatus": "export_only",
+      "assets": [
+        {
+          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-12-simple-01-bolshaya-bukva-frame.jpg",
+          "file": "2026-12-simple-01-bolshaya-bukva-1.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-12-simple-01-bolshaya-bukva-1.jpg",
+          "width": 1080,
+          "height": 1920,
+          "sha256": "bdab7f0aa685c33f6be3a57985c94adfc6c3516657703203f77e6dc4caba5c66",
+          "geometry": {
+            "sourceWidth": 1080,
+            "sourceHeight": 1920,
+            "x": 174.375,
+            "y": 360,
+            "width": 731.25,
+            "height": 1300,
+            "outputWidth": 1080,
+            "outputHeight": 1920,
+            "sourceSha256": "cc46908585f6c6d4eb0f09ba5ef372020f8a2c986c1a9e236c08a8b0b24b7099",
+            "sha256": "bdab7f0aa685c33f6be3a57985c94adfc6c3516657703203f77e6dc4caba5c66"
+          }
+        }
+      ]
+    },
+    "2026-12-simple-02-raschet": {
+      "kind": "reel_frame",
+      "sourceKey": "14d2f8d2ec3a0c1e490ea9057067035e4d3d64f115e3b4fb208b8b7ed8b3cacc",
+      "renderedAt": "2026-11-12T21:46:34.104Z",
+      "publicationStatus": "export_only",
+      "assets": [
+        {
+          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-12-simple-02-raschet-frame.jpg",
+          "file": "2026-12-simple-02-raschet-1.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-12-simple-02-raschet-1.jpg",
+          "width": 1080,
+          "height": 1920,
+          "sha256": "ca51c30d893e227829e17984a7c147b7d589981cbda138266ed92fc9708fb376",
+          "geometry": {
+            "sourceWidth": 1080,
+            "sourceHeight": 1920,
+            "x": 174.375,
+            "y": 360,
+            "width": 731.25,
+            "height": 1300,
+            "outputWidth": 1080,
+            "outputHeight": 1920,
+            "sourceSha256": "71654107d57fdf4bde1638d9831f0156e0d1451243eff33d438634be8093b3db",
+            "sha256": "ca51c30d893e227829e17984a7c147b7d589981cbda138266ed92fc9708fb376"
+          }
+        }
+      ]
+    },
+    "2026-12-simple-03-predlogi-padezh": {
+      "kind": "reel_frame",
+      "sourceKey": "826be9f0bd979b439f4c178da5f1f8b53c178fb6157305f7f081ba3bb2451f0c",
+      "renderedAt": "2026-11-12T21:46:34.212Z",
+      "publicationStatus": "export_only",
+      "assets": [
+        {
+          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-12-simple-03-predlogi-padezh-frame.jpg",
+          "file": "2026-12-simple-03-predlogi-padezh-1.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-12-simple-03-predlogi-padezh-1.jpg",
+          "width": 1080,
+          "height": 1920,
+          "sha256": "059cdb92239624cedfb080793690cfc3d026e1ee5503f047f53dd374aa070fa1",
+          "geometry": {
+            "sourceWidth": 1080,
+            "sourceHeight": 1920,
+            "x": 174.375,
+            "y": 360,
+            "width": 731.25,
+            "height": 1300,
+            "outputWidth": 1080,
+            "outputHeight": 1920,
+            "sourceSha256": "813b871ac1113eb6b96f64755f7010f026daba930a69858495e0756e5f6ecb4e",
+            "sha256": "059cdb92239624cedfb080793690cfc3d026e1ee5503f047f53dd374aa070fa1"
+          }
+        }
+      ]
+    },
+    "2026-12-simple-04-predlogi-slitno": {
+      "kind": "reel_frame",
+      "sourceKey": "79bbc93f320c3e7942b159275a2966658599a0533f81b2880adb1f13c814d2a3",
+      "renderedAt": "2026-11-12T21:46:34.326Z",
+      "publicationStatus": "export_only",
+      "assets": [
+        {
+          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-12-simple-04-predlogi-slitno-frame.jpg",
+          "file": "2026-12-simple-04-predlogi-slitno-1.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-12-simple-04-predlogi-slitno-1.jpg",
+          "width": 1080,
+          "height": 1920,
+          "sha256": "b1919848c7aba575fd59b1ee0e1f59b4f3f296d559e7e0c2e91cd523e7448b91",
+          "geometry": {
+            "sourceWidth": 1080,
+            "sourceHeight": 1920,
+            "x": 174.375,
+            "y": 360,
+            "width": 731.25,
+            "height": 1300,
+            "outputWidth": 1080,
+            "outputHeight": 1920,
+            "sourceSha256": "5a8e8ad04d0afd3ad486a1a8825c88591fc0d242cbc694efc4e417bfd40ae5a2",
+            "sha256": "b1919848c7aba575fd59b1ee0e1f59b4f3f296d559e7e0c2e91cd523e7448b91"
+          }
+        }
+      ]
+    },
+    "2026-12-simple-05-tsya-tsya": {
+      "kind": "reel_frame",
+      "sourceKey": "c1b0b3363fe04a002e404507c29fe605504547e33a66f71ae257575cbd3f7e5b",
+      "renderedAt": "2026-11-12T21:46:34.437Z",
+      "publicationStatus": "export_only",
+      "assets": [
+        {
+          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-12-simple-05-tsya-tsya-frame.jpg",
+          "file": "2026-12-simple-05-tsya-tsya-1.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-12-simple-05-tsya-tsya-1.jpg",
+          "width": 1080,
+          "height": 1920,
+          "sha256": "dd0e31557f029bf5ce43976b8e23a910ecf5c542070c1cc40d27f0741376004e",
+          "geometry": {
+            "sourceWidth": 1080,
+            "sourceHeight": 1920,
+            "x": 174.375,
+            "y": 360,
+            "width": 731.25,
+            "height": 1300,
+            "outputWidth": 1080,
+            "outputHeight": 1920,
+            "sourceSha256": "0007dd87a518ba0a92f22deed3a7330ac495290ee7ac6847c9d5664d053bea55",
+            "sha256": "dd0e31557f029bf5ce43976b8e23a910ecf5c542070c1cc40d27f0741376004e"
+          }
+        }
+      ]
+    },
+    "2026-12-simple-06-obrashchenie": {
+      "kind": "reel_frame",
+      "sourceKey": "4b0574571abff11ba784df781dca36ca473d3b6a351cde7ad118b3a8c7e10ddc",
+      "renderedAt": "2026-11-12T21:46:34.546Z",
+      "publicationStatus": "export_only",
+      "assets": [
+        {
+          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-12-simple-06-obrashchenie-frame.jpg",
+          "file": "2026-12-simple-06-obrashchenie-1.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-12-simple-06-obrashchenie-1.jpg",
+          "width": 1080,
+          "height": 1920,
+          "sha256": "20e3eeec8b32998e3018a247bfe6157e201e28f0e83ee1a8faee1d759a2b593b",
+          "geometry": {
+            "sourceWidth": 1080,
+            "sourceHeight": 1920,
+            "x": 174.375,
+            "y": 360,
+            "width": 731.25,
+            "height": 1300,
+            "outputWidth": 1080,
+            "outputHeight": 1920,
+            "sourceSha256": "81b324776c0aa3fd51a68f5cebad983a574164e55746cef54092b5b689b88264",
+            "sha256": "20e3eeec8b32998e3018a247bfe6157e201e28f0e83ee1a8faee1d759a2b593b"
+          }
+        }
+      ]
+    },
+    "2026-12-simple-07-chisla": {
+      "kind": "reel_frame",
+      "sourceKey": "1ec607bad06d191389db1e15731cbb5a188d8b66d1ba435b8394dc684660120d",
+      "renderedAt": "2026-11-12T21:46:34.660Z",
+      "publicationStatus": "export_only",
+      "assets": [
+        {
+          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-12-simple-07-chisla-frame.jpg",
+          "file": "2026-12-simple-07-chisla-1.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-12-simple-07-chisla-1.jpg",
+          "width": 1080,
+          "height": 1920,
+          "sha256": "fe2804890eda44db2df66ccf682d9ee2aac288775c25ef0d41235d7ebf143444",
+          "geometry": {
+            "sourceWidth": 1080,
+            "sourceHeight": 1920,
+            "x": 174.375,
+            "y": 360,
+            "width": 731.25,
+            "height": 1300,
+            "outputWidth": 1080,
+            "outputHeight": 1920,
+            "sourceSha256": "590bdf67f0ad10308c266ed3901bb7e234145545da4fe5a5fb06fb9a909294a9",
+            "sha256": "fe2804890eda44db2df66ccf682d9ee2aac288775c25ef0d41235d7ebf143444"
           }
         }
       ]
