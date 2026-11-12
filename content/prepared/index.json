@@ -6096,6 +6096,244 @@
           "sha256": "453d1b2f39116c35f8177635780a5d89ac83aaa0d44c80b7652d5f0bf6bca9a0"
         }
       ]
+    },
+    "2026-12-simple-01-bolshaya-bukva": {
+      "version": 1,
+      "draftKey": "214fb4d523ca51bfddc5582becbc72f3f19793a4219ad273348c79040adefb16",
+      "builtAt": "2026-11-12T21:47:27.243Z",
+      "media": {
+        "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-12-simple-01-bolshaya-bukva.mp4",
+        "coverOffsetMs": 12600,
+        "music": {
+          "composer": "Kevin MacLeod",
+          "piece": "Easy Lemon",
+          "license": "CC BY 4.0",
+          "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1200076",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "attribution": "Easy Lemon — Kevin MacLeod (incompetech.com). CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/. Фрагмент обрезан и сведён с видео.",
+          "attributionRequired": true
+        },
+        "background": "assets/photos/typewriter-spratt.jpg",
+        "lightBg": true
+      },
+      "files": [
+        {
+          "relative": "reels/2026-12-simple-01-bolshaya-bukva.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-12-simple-01-bolshaya-bukva.mp4",
+          "size": 623987,
+          "sha256": "08fcd0b7a0f51b2096cab479f7da066a04bccc6bba4bddc62b6735f4b8d2bc76"
+        },
+        {
+          "relative": "reels/2026-12-simple-01-bolshaya-bukva-frame.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-12-simple-01-bolshaya-bukva-frame.jpg",
+          "size": 206467,
+          "sha256": "cc46908585f6c6d4eb0f09ba5ef372020f8a2c986c1a9e236c08a8b0b24b7099"
+        }
+      ]
+    },
+    "2026-12-simple-02-raschet": {
+      "version": 1,
+      "draftKey": "20e74bacc3de6da790b602d4be09cef21f81ea5d51298777e6bc727fa03c736a",
+      "builtAt": "2026-11-12T21:46:34.104Z",
+      "media": {
+        "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-12-simple-02-raschet.mp4",
+        "coverOffsetMs": 12600,
+        "music": {
+          "composer": "Kevin MacLeod",
+          "piece": "Carefree",
+          "license": "CC BY 4.0",
+          "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1400037",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "attribution": "Carefree — Kevin MacLeod (incompetech.com). CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/. Фрагмент обрезан и сведён с видео.",
+          "attributionRequired": true
+        },
+        "background": "assets/photos/pencils-dorohovich.jpg",
+        "lightBg": true
+      },
+      "files": [
+        {
+          "relative": "reels/2026-12-simple-02-raschet.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-12-simple-02-raschet.mp4",
+          "size": 482499,
+          "sha256": "e5116883d0e226ced7c49bcb06806f63d40d273d31d7f3123615a878edbc084d"
+        },
+        {
+          "relative": "reels/2026-12-simple-02-raschet-frame.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-12-simple-02-raschet-frame.jpg",
+          "size": 145039,
+          "sha256": "71654107d57fdf4bde1638d9831f0156e0d1451243eff33d438634be8093b3db"
+        }
+      ]
+    },
+    "2026-12-simple-03-predlogi-padezh": {
+      "version": 1,
+      "draftKey": "3572c9d51260668081917ddf8b0baff50e8c42a003d85b5af486147835e9c4b8",
+      "builtAt": "2026-11-12T21:46:34.212Z",
+      "media": {
+        "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-12-simple-03-predlogi-padezh.mp4",
+        "coverOffsetMs": 12600,
+        "music": {
+          "composer": "Иоганн Себастьян Бах",
+          "piece": "Гольдберг-вариации, BWV 988 — Вариация № 1",
+          "license": "CC0 1.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "attribution": "И. С. Бах — Гольдберг-вариации, BWV 988, вариация № 1. Фортепиано: Кимико Ишизака, Open Goldberg Variations (2012). Запись CC0 1.0. Фрагмент, громкость изменена.",
+          "attributionRequired": true
+        },
+        "background": "assets/photos/pencils-dorohovich.jpg",
+        "lightBg": true
+      },
+      "files": [
+        {
+          "relative": "reels/2026-12-simple-03-predlogi-padezh.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-12-simple-03-predlogi-padezh.mp4",
+          "size": 577632,
+          "sha256": "7d7ccb04034fba37ab958e2bc8417bbcab62b64c226c985081482483da2dd6b5"
+        },
+        {
+          "relative": "reels/2026-12-simple-03-predlogi-padezh-frame.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-12-simple-03-predlogi-padezh-frame.jpg",
+          "size": 194949,
+          "sha256": "813b871ac1113eb6b96f64755f7010f026daba930a69858495e0756e5f6ecb4e"
+        }
+      ]
+    },
+    "2026-12-simple-04-predlogi-slitno": {
+      "version": 1,
+      "draftKey": "05ccefd06a9ea0184deaa53a5914ac2a3e0c7758c5b1343fe0dcc95544a2b041",
+      "builtAt": "2026-11-12T21:46:34.326Z",
+      "media": {
+        "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-12-simple-04-predlogi-slitno.mp4",
+        "coverOffsetMs": 12600,
+        "music": {
+          "composer": "Kevin MacLeod",
+          "piece": "Daily Beetle",
+          "license": "CC BY 4.0",
+          "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1500025",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "attribution": "Daily Beetle — Kevin MacLeod (incompetech.com). CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/. Фрагмент обрезан и сведён с видео.",
+          "attributionRequired": true
+        },
+        "background": "assets/photos/typewriter-spratt.jpg",
+        "lightBg": true
+      },
+      "files": [
+        {
+          "relative": "reels/2026-12-simple-04-predlogi-slitno.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-12-simple-04-predlogi-slitno.mp4",
+          "size": 589319,
+          "sha256": "6b68ce0e590fbee8b1cd874effe1c310fdc8636d354283ac8d1f26c84cb86c9e"
+        },
+        {
+          "relative": "reels/2026-12-simple-04-predlogi-slitno-frame.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-12-simple-04-predlogi-slitno-frame.jpg",
+          "size": 189830,
+          "sha256": "5a8e8ad04d0afd3ad486a1a8825c88591fc0d242cbc694efc4e417bfd40ae5a2"
+        }
+      ]
+    },
+    "2026-12-simple-05-tsya-tsya": {
+      "version": 1,
+      "draftKey": "0d95c25ce98f1328aba886b9ce973e6165847ec35f50a5b370de3eb7bb8d74bf",
+      "builtAt": "2026-11-12T21:46:34.437Z",
+      "media": {
+        "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-12-simple-05-tsya-tsya.mp4",
+        "coverOffsetMs": 12600,
+        "music": {
+          "composer": "Kevin MacLeod",
+          "piece": "Almost Bliss",
+          "license": "CC BY 4.0",
+          "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1900015",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "attribution": "Almost Bliss — Kevin MacLeod (incompetech.com). CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/. Фрагмент обрезан и сведён с видео.",
+          "attributionRequired": true
+        },
+        "background": "assets/photos/pencils-dorohovich.jpg",
+        "lightBg": true
+      },
+      "files": [
+        {
+          "relative": "reels/2026-12-simple-05-tsya-tsya.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-12-simple-05-tsya-tsya.mp4",
+          "size": 533558,
+          "sha256": "980f34e38b1b5c27b180b44cc0b276132d1a26e45464a2f43f281397a3106f40"
+        },
+        {
+          "relative": "reels/2026-12-simple-05-tsya-tsya-frame.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-12-simple-05-tsya-tsya-frame.jpg",
+          "size": 170843,
+          "sha256": "0007dd87a518ba0a92f22deed3a7330ac495290ee7ac6847c9d5664d053bea55"
+        }
+      ]
+    },
+    "2026-12-simple-06-obrashchenie": {
+      "version": 1,
+      "draftKey": "20db6e1fec6a4a53969c922c024394e56e8486b4ac46db027577deb76c98baa1",
+      "builtAt": "2026-11-12T21:46:34.546Z",
+      "media": {
+        "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-12-simple-06-obrashchenie.mp4",
+        "coverOffsetMs": 12600,
+        "music": {
+          "composer": "Kevin MacLeod",
+          "piece": "Crinoline Dreams",
+          "license": "CC BY 4.0",
+          "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1700073",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "attribution": "Crinoline Dreams — Kevin MacLeod (incompetech.com). CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/. Фрагмент обрезан и сведён с видео.",
+          "attributionRequired": true
+        },
+        "background": "assets/photos/books-marriage.jpg",
+        "lightBg": true
+      },
+      "files": [
+        {
+          "relative": "reels/2026-12-simple-06-obrashchenie.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-12-simple-06-obrashchenie.mp4",
+          "size": 588080,
+          "sha256": "2d7051346e1f62cd52ee263f4507c00392d7d750deccdf58eba7fff2eb3f8d89"
+        },
+        {
+          "relative": "reels/2026-12-simple-06-obrashchenie-frame.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-12-simple-06-obrashchenie-frame.jpg",
+          "size": 191784,
+          "sha256": "81b324776c0aa3fd51a68f5cebad983a574164e55746cef54092b5b689b88264"
+        }
+      ]
+    },
+    "2026-12-simple-07-chisla": {
+      "version": 1,
+      "draftKey": "4d46a6d86e2ec4c884da78f9d237381c30bdd3d794048ac14dda5a63d9abaab4",
+      "builtAt": "2026-11-12T21:46:34.660Z",
+      "media": {
+        "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-12-simple-07-chisla.mp4",
+        "coverOffsetMs": 12600,
+        "music": {
+          "composer": "Kevin MacLeod",
+          "piece": "Onion Capers",
+          "license": "CC BY 4.0",
+          "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1800023",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "attribution": "Onion Capers — Kevin MacLeod (incompetech.com). CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/. Фрагмент обрезан и сведён с видео.",
+          "attributionRequired": true
+        },
+        "background": "assets/photos/marble-pineapple.jpg",
+        "lightBg": true
+      },
+      "files": [
+        {
+          "relative": "reels/2026-12-simple-07-chisla.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-12-simple-07-chisla.mp4",
+          "size": 589705,
+          "sha256": "b6fd03c165e9edf6a2b8162b47ed3699e92c617bfc1344596b82b6d3c2256f51"
+        },
+        {
+          "relative": "reels/2026-12-simple-07-chisla-frame.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-12-simple-07-chisla-frame.jpg",
+          "size": 180528,
+          "sha256": "590bdf67f0ad10308c266ed3901bb7e234145545da4fe5a5fb06fb9a909294a9"
+        }
+      ]
     }
   }
 }
