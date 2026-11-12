@@ -11198,7 +11198,7 @@
         "#вводныеслова"
       ],
       "format": "Reels",
-      "status": "approved",
+      "status": "published",
       "school": false,
       "visualStyle": "classic-table",
       "hideFooter": true,
@@ -11276,14 +11276,18 @@
         "creationAttempts": 1,
         "lastError": null,
         "version": 1,
-        "phase": "publishing",
-        "updatedAt": "2026-11-12T15:24:50.149Z",
+        "phase": "published",
+        "updatedAt": "2026-11-12T15:25:01.898Z",
         "containerId": "18035412971887754",
         "containerCreatedAt": "2026-11-12T15:24:19.186Z",
         "failedStage": null,
         "readyAt": "2026-11-12T15:24:49.000Z",
-        "publishAttemptedAt": "2026-11-12T15:24:50.149Z"
-      }
+        "publishAttemptedAt": "2026-11-12T15:24:50.149Z",
+        "mediaId": "18101625179541527",
+        "publishedAt": "2026-11-12T15:25:01.898Z"
+      },
+      "publishedMediaId": "18101625179541527",
+      "publishedAt": "2026-11-12T15:25:01.898Z"
     },
     {
       "id": "2026-11-classic-27-kratkie-prichastiya",
