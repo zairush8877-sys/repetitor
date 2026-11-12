@@ -1,0 +1,40 @@
+{
+  "role": "editor",
+  "approvedForFinalPackaging": true,
+  "selectedCaption": "A for all6",
+  "changes": [
+    "44 заменён спорный постамат на проверяемый агрегатор до рендера",
+    "46 заголовок правого столбца Подсказка уточняет разные позиции если и поэтому",
+    "48 вытереть/вытирать сохранено как равноценный пример -тер-/-тир-",
+    "45 удалено Я в четвёртом примере, чтобы сохранить расстояние между колонками; смысл и подпись прежние"
+  ],
+  "visualReview": {
+    "covers": 6,
+    "actualFrames": 24,
+    "viewWidthPx": 390,
+    "seconds": [
+      1.1,
+      2.2,
+      6.6,
+      12.2
+    ],
+    "allColumnsRead": true,
+    "safeTopPx": 300,
+    "safeBottomPx": 260,
+    "maxCardBottom": 1531.59375,
+    "rowFontPx": 52,
+    "footerAbsent": true,
+    "sequentialAppearanceObserved": true,
+    "humanAudioListening": false,
+    "technicalAudioQaOnly": true
+  },
+  "finalShortExampleNovelty": {
+    "matches": 0,
+    "recursiveValuesScanned": 6563,
+    "phrase": "Выбрал то же пальто."
+  },
+  "noInventedStudentStoriesScoresOrOfficialKimClaims": true,
+  "proofreadPostsWithoutStatusSha256": "edd2c817368da6bfe6d6ec448ffc741e60067ba1abb2aa58a25830793bf4ac1e",
+  "selectedSourceCount": 13,
+  "approvalBasis": "Explicit recurring content authorization, independent primary-source proof, editor and visual checks"
+}

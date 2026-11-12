@@ -1,0 +1,27 @@
+{
+  "id": "2026-11-classic-46-bsp-dash",
+  "previewOnly": true,
+  "total": 13.2,
+  "key": "7e2081a8b8ae018a5e42079d75a96186ba3e09e07dbf2ae8a419feb39c8bb023",
+  "assets": {
+    "photoId": "desk-books-laptop",
+    "photoFile": "assets/photos/desk-books-laptop.jpg",
+    "photoSha256": "a4119976851da05702c68142d473a2cb55fd76462eda5518a81e349740047c3d",
+    "musicId": "schumann-traumerei",
+    "musicFile": "assets/music/schumann-traumerei-betts.mp3",
+    "musicSha256": "462a9a6f3d384619bea04104bda120185f083da4efcffa3402ff12a6693fb9dd",
+    "musicOffsetSeconds": 1.4,
+    "backgroundPosition": "35% 50%"
+  },
+  "measured": {
+    "cardTop": 639.5625,
+    "cardBottom": 1422.5625,
+    "rowFont": 52,
+    "titleFont": 94,
+    "footerCount": 0,
+    "cellOverflow": false,
+    "text": "ОГЭ • ТИРЕ В БСП\nТире: «если»\nили «поэтому»?\nНАША ФРАЗА\nМОЖНО ВСТАВИТЬ\nБудет дождь — останемся.\nесли\nПоспешишь — успеешь.\nесли\nСолнце село — стало темно.\nпоэтому\nЯ устал — пойду домой.\nпоэтому"
+  },
+  "previewFile": "qa/2026-11-classic-46-bsp-dash-preview.jpg",
+  "previewSha256": "134f9a4876fbda32044b82696597b8defcd0517683f29edaf7ddc16ecdf90203"
+}

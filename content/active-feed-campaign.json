@@ -311,6 +311,36 @@
       "postId": "2026-11-classic-43-lena",
       "date": "2026-11-17",
       "scheduledAt": "2026-11-17T16:00:00.000Z"
+    },
+    {
+      "postId": "2026-11-classic-44-keshbek",
+      "date": "2026-11-18",
+      "scheduledAt": "2026-11-18T07:00:00.000Z"
+    },
+    {
+      "postId": "2026-11-classic-45-tozhe",
+      "date": "2026-11-18",
+      "scheduledAt": "2026-11-18T11:00:00.000Z"
+    },
+    {
+      "postId": "2026-11-classic-46-bsp-dash",
+      "date": "2026-11-18",
+      "scheduledAt": "2026-11-18T16:00:00.000Z"
+    },
+    {
+      "postId": "2026-11-classic-47-zaklyuchenie",
+      "date": "2026-11-19",
+      "scheduledAt": "2026-11-19T07:00:00.000Z"
+    },
+    {
+      "postId": "2026-11-classic-48-ber-bir",
+      "date": "2026-11-19",
+      "scheduledAt": "2026-11-19T11:00:00.000Z"
+    },
+    {
+      "postId": "2026-11-classic-49-olitsetvorenie",
+      "date": "2026-11-19",
+      "scheduledAt": "2026-11-19T16:00:00.000Z"
     }
   ],
   "additionalSlotAuthorization": {

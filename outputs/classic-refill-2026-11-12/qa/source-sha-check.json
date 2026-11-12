@@ -1,0 +1,140 @@
+{
+  "allMatched": true,
+  "assets": [
+    {
+      "type": "photo",
+      "id": "books-pile",
+      "sha256": "bcf9491e4bdb9d6dcf889feb108bcb6be8dc5ccb17e95e2e2c0de4e819ccdb8a",
+      "source": "https://commons.wikimedia.org/wiki/File:A_pile_of_books_(29767858348).jpg",
+      "license": "CC0 1.0",
+      "recordingRights": null,
+      "compositionRights": null
+    },
+    {
+      "type": "photo",
+      "id": "journal-writing",
+      "sha256": "de3686d216a532406ccf7b2a4564f1857c3dc7b1fba0e66fe41e50df0caf173e",
+      "source": "https://commons.wikimedia.org/wiki/File:Writing_in_a_journal_(Unsplash).jpg",
+      "license": "CC0 1.0",
+      "recordingRights": null,
+      "compositionRights": null
+    },
+    {
+      "type": "photo",
+      "id": "uppsala-bookshelves",
+      "sha256": "caa200a2d755c560a3826b47424f1cc3dfb9da99af2b9a666691853724bc0400",
+      "source": "https://commons.wikimedia.org/wiki/File:Uppsala_Library_(Unsplash).jpg",
+      "license": "CC0 1.0",
+      "recordingRights": null,
+      "compositionRights": null
+    },
+    {
+      "type": "photo",
+      "id": "open-book-plant",
+      "sha256": "16849bf7ef5fa0860deb2c5c92efa65fac0e86116988ebb90d8934204b630f62",
+      "source": "https://commons.wikimedia.org/wiki/File:Open_book_(Unsplash).jpg",
+      "license": "CC0 1.0",
+      "recordingRights": null,
+      "compositionRights": null
+    },
+    {
+      "type": "photo",
+      "id": "desk-books-laptop",
+      "sha256": "a4119976851da05702c68142d473a2cb55fd76462eda5518a81e349740047c3d",
+      "source": "https://commons.wikimedia.org/wiki/File:Laptop_on_desk_book_stacks_(Unsplash).jpg",
+      "license": "CC0 1.0",
+      "recordingRights": null,
+      "compositionRights": null
+    },
+    {
+      "type": "photo",
+      "id": "blank-books-table",
+      "sha256": "2b1ed71fc07dd46f8d66a02a33ffd4c7c1df59a8c0294789366f8698f84fa537",
+      "source": "https://commons.wikimedia.org/wiki/File:Blank_books_stacked_on_a_table.jpg",
+      "license": "CC0 1.0",
+      "recordingRights": null,
+      "compositionRights": null
+    },
+    {
+      "type": "photo",
+      "id": "library-bookshelves",
+      "sha256": "619db7cc81436dfad8f96b46fc64f076733f9fe1770965678c002b3a871d9178",
+      "source": "https://commons.wikimedia.org/wiki/File:Bookshelves_with_books_in_library.jpg",
+      "license": "Public domain — author release worldwide",
+      "recordingRights": null,
+      "compositionRights": null
+    },
+    {
+      "type": "photo",
+      "id": "library-warm",
+      "sha256": "b5a167b69b7828e55fe9c63963f3b37777fba4abd944c1b5c7053094190746aa",
+      "source": "https://commons.wikimedia.org/wiki/File:Library_Books_Bookshelves_(Unsplash).jpg",
+      "license": "CC0 1.0",
+      "recordingRights": null,
+      "compositionRights": null
+    },
+    {
+      "type": "music",
+      "id": "chopin-op62-no1",
+      "sha256": "3413e5a8aeaf36becac0ffdfdeb488f5087401f78ca2f31d3322900a26791b99",
+      "source": "https://commons.wikimedia.org/wiki/File:Frederic_Chopin_-_nocturne_no._1_in_b_major,_op._62.oga",
+      "license": "CC0 1.0",
+      "recordingRights": "На странице конкретной записи Olga Gurevich указан CC0 1.0; происхождение Musopen download/11677. Это разрешение на файл записи, не вывод из возраста нот.",
+      "compositionRights": "Шопен (1810–1849), произведение XIX века: public domain. Права на современную запись отдельно — CC0."
+    },
+    {
+      "type": "music",
+      "id": "satie-gymnopedie3",
+      "sha256": "a3a9a3e120888f9fc58f4bbac11d9f7b98870b3ddbf260b5785a24fe0fd36a7e",
+      "source": "https://commons.wikimedia.org/wiki/File:Gymnop%C3%A9die_no.3.ogg",
+      "license": "CC0 1.0",
+      "recordingRights": "Конкретный аудиофайл заявлен Teknopazzo как own work и выпущен CC0 1.0. На странице автором указан Teknopazzo; способ получения звука/живое исполнение не удостоверены.",
+      "compositionRights": "Сати (1866–1925); Gymnopédies опубликованы в 1888, public domain. Ошибочное поле Date=1880 у файла не используется как дата записи/произведения."
+    },
+    {
+      "type": "music",
+      "id": "schumann-traumerei",
+      "sha256": "462a9a6f3d384619bea04104bda120185f083da4efcffa3402ff12a6693fb9dd",
+      "source": "https://commons.wikimedia.org/wiki/File:Robert_Schumann_-_scenes_from_childhood,_op._15_-_vii._dreaming.ogg",
+      "license": "Public domain dedication by Musopen (PD-author)",
+      "recordingRights": "В разделе Recording конкретного файла: Musopen посвятил запись public domain worldwide; VRT ticket 2008012110017088. Donald Betts указан в метаданных аудиофайла. Ссылка PDM описывает статус, а не заменяет отдельное заявление правообладателя.",
+      "compositionRights": "Шуман (1810–1856), Kinderszenen op.15 (1838): public domain. Современная запись отдельно посвящена Musopen в PD."
+    },
+    {
+      "type": "music",
+      "id": "mozart40-andante",
+      "sha256": "175d53e80d635a8237e44fc4dc9f4833c63d350231bdd459c49deca2b3cb8912",
+      "source": "https://commons.wikimedia.org/wiki/File:Mozart_-_Symphony_No._40_in_G_minor,_K550_-_II._Andante_(Musopen_Symphony).flac",
+      "license": "Public domain dedication by Musopen (PD-author)",
+      "recordingRights": "На странице раздельные Recording / Musical composition. Recording: Musopen посвятил эту запись public domain worldwide; исполнитель Musopen Symphony, дата 2012. Ссылка PDM — статус; основание права — явное посвящение записи Musopen.",
+      "compositionRights": "Моцарт (1756–1791); Симфония №40 (1788): public domain, отдельно от записи Musopen 2012."
+    },
+    {
+      "type": "music",
+      "id": "schubert-d784-andante",
+      "sha256": "037cb154ac95ac0c61036de7e46cf6d0c45d6ae4f9058b557e55333f834ea880",
+      "source": "https://commons.wikimedia.org/wiki/File:Schubert%27s_Piano_Sonata_in_A_minor,_D.784_-_II._Andante_(in_F_major)_-_Paul_Pitman.ogg",
+      "license": "Public domain declaration by copyright holder (PDM-owner)",
+      "recordingRights": "На странице конкретной записи стоит PDM-owner: Commons описывает применение PDM самим правообладателем как объявление своей записи общественным достоянием. Исполнитель Paul Pitman, источник его файл IMSLP, дата 17.08.2012. Это отдельная декларация на запись, не один возраст Шуберта.",
+      "compositionRights": "Шуберт (1797–1828); соната D.784 (1823): public domain; право на запись подтверждено отдельно PDM-owner."
+    },
+    {
+      "type": "music",
+      "id": "chopin-op37-no2",
+      "sha256": "1e3255e0c1b8e936c92c146d44977015b471da6c153737fa3cd49ac61bc10a50",
+      "source": "https://commons.wikimedia.org/wiki/File:Chopin_Nocturne_Op_37_no_2_in_G_major_Olga_Gurevich.ogg",
+      "license": "CC0 1.0",
+      "recordingRights": "CC0 1.0 на странице конкретной записи Olga Gurevich; источник Musopen download/12225. Включает связанные права на запись в пределах CC0.",
+      "compositionRights": "Шопен (1810–1849), op.37 (1840): public domain; современная запись отдельно CC0."
+    },
+    {
+      "type": "music",
+      "id": "bach-var1-ishizaka",
+      "sha256": "9f18f905c9f76c7850c00a7c34562702b64df30258d85072074b522d530d76f8",
+      "source": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_02_-_Variatio_1_a_1_Clav.ogg",
+      "license": "CC0 1.0",
+      "recordingRights": "Open Goldberg 2012 recording released under CC0; not inferred from composition age",
+      "compositionRights": "Public domain: J. S. Bach (1685–1750)"
+    }
+  ]
+}

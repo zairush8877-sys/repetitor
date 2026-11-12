@@ -1,0 +1,174 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-12",
+  "timezone": "Europe/Moscow",
+  "role": "strategy+copywriter",
+  "stage": "copy_complete_pending_independent_final_proof_and_root_editor",
+  "scope": {
+    "postCount": 6,
+    "ids": [
+      "2026-11-classic-44-keshbek",
+      "2026-11-classic-45-tozhe",
+      "2026-11-classic-46-bsp-dash",
+      "2026-11-classic-47-zaklyuchenie",
+      "2026-11-classic-48-ber-bir",
+      "2026-11-classic-49-olitsetvorenie"
+    ],
+    "dates": [
+      "2026-11-18",
+      "2026-11-19"
+    ],
+    "timesMsk": [
+      "10:00",
+      "14:00",
+      "19:00"
+    ],
+    "mix": {
+      "adult": 2,
+      "ege": 2,
+      "oge": 2
+    },
+    "rowPairs": 24,
+    "captionVariants": 12,
+    "newSchoolPostCount": 0,
+    "reason": "The new classic-school slot in Nov16–22 is already occupied by classic38. Existing voice approvals, dates and quota override are preserved."
+  },
+  "source": {
+    "expectedMainHeadFromRoot": "157bcab283ce1358448245de59eb6e6e12b7c0e0",
+    "queuePath": "/private/tmp/mama-classic-refill-2026-11-12/base/content/queue.json",
+    "queueSha256": "36a1a220f2264f0bc1d204d3b947281bf0e16310c595142447c97352f1206390",
+    "queuePostCount": 150,
+    "approvedOrPublishedCount": 139,
+    "recursiveTextFields": 4555,
+    "draftPath": "/private/tmp/mama-classic-refill-2026-11-12/editorial/draft.json",
+    "draftSha256": "612eb416644418fe5344a90b8c551a60e59e53f78c51c03e50cc6d27c0f84474"
+  },
+  "instructionsApplied": [
+    "Previously read project AGENTS/CLOUD-HANDOFF/content-factory/my-skill-instmom and CLASSIC-DAILY-RUNBOOK constraints",
+    "No-empty-promises and evidence-before-claims: drafts, editorial proof, rendered media and observed publication remain separate",
+    "Ig-reel adapted to the established silent classic-table: specific first frame, one relationship per Reel, sequential rows and a delivered answer. Three hook options per topic remain in draft.json.",
+    "No invented pupils, scores, cases, official exam numbers or claims of a changed exam programme. No author/handle/footer. Full-video Stories metadata remains explicit."
+  ],
+  "audienceAndSelection": {
+    "adult": "Useful spellings in digital messages/orders and the meaning of endings in letters/documents. No shaming or test disguised as adult content.",
+    "exam": "EGE covers joined/separate spelling and root alternations; OGE covers dash semantics and personification. The examples are our educational phrases, not quotations from official exam tasks.",
+    "evidenceBoundary": "Topic choice is an editorial usefulness hypothesis. This role did not request fresh reach analytics and does not assign a measured virality score. New examples extend the permitted editorial-bank directions; a pending text-only draft is not an already produced release."
+  },
+  "novelty": {
+    "resultFile": "/private/tmp/mama-classic-refill-2026-11-12/editorial/novelty-check.json",
+    "normalization": "Unicode normalization,casefold,ё=е,acute-stress stripped,collapsed whitespace",
+    "review": "All approved/published content was searched recursively including slides/scenes/rows/captions. Both concrete teaching columns were checked for44,45,48. Generic semantic labels on the right of46,47,49 are not independent teaching examples.",
+    "result": "No repeated teaching examples, pairs or full titles after review.",
+    "incidentalMentionCount": 1,
+    "incidentalMention": [
+      {
+        "newPostId": "2026-11-classic-48-ber-bir",
+        "example": "убирать",
+        "matches": [
+          {
+            "postId": "2026-10-05-oge-szhatie",
+            "path": "/caption",
+            "text": "В сжатом изложении уменьшаем объём, сохраняя главную информацию. Здесь два наших тренировочных примера: обобщение и объединение предложений. Убирать детали можно лишь тогда, когда они не важны для мысли исходного текста.\n\nО музыке. Бах написал этот цикл для клавесина.\n\n#ОГЭрусский #сжатоеизложение #работастекстом"
+          }
+        ],
+        "review": "The word is an ordinary instruction verb in an old caption about text compression, not a teaching example for the root alternation or a repeated pair."
+      }
+    ]
+  },
+  "posts": [
+    {
+      "id": "2026-11-classic-44-keshbek",
+      "benefit": "Spell four familiar digital terms correctly in correspondence.",
+      "selectedHook": "Кешбэк.\nГде буква «э»?",
+      "decisions": [
+        "Keshbek has E after K and Э after B; messenger contains D before Zh; marketplace is one word; aggregator has one G.",
+        "A candidate about postamat was rejected because a unique normative spelling for that intended word was not securely confirmed by the proofreader. Aggregator replaced it after a current RAN source check."
+      ],
+      "format": "wrong/right"
+    },
+    {
+      "id": "2026-11-classic-45-tozhe",
+      "benefit": "Separate additive тоже from the demonstrative combination то же in four concrete phrases.",
+      "selectedHook": "Тоже.\nИли то же?",
+      "decisions": [
+        "Do not assign every use of тоже one universal part-of-speech label.",
+        "The substitutions are semantic clues for these actual sentences, not a claim that any replacement by И proves joined spelling."
+      ],
+      "format": "neutral correct/correct"
+    },
+    {
+      "id": "2026-11-classic-46-bsp-dash",
+      "benefit": "Recognize condition in the first clause and consequence in the second in selected BSP examples.",
+      "selectedHook": "Тире: «если»\nили «поэтому»?",
+      "decisions": [
+        "The right head is Подсказка. If can precede the first clause, therefore can precede the second; the head does not tell the viewer to mechanically replace the dash.",
+        "Captions explicitly set the intended condition/consequence relationship and retain the need for complete context."
+      ],
+      "format": "neutral phrase/semantic clue"
+    },
+    {
+      "id": "2026-11-classic-47-zaklyuchenie",
+      "benefit": "Use meaning to distinguish в заключение/в заключении and в продолжение/в продолжении in adult documents.",
+      "selectedHook": "В заключение.\nИли в заключении?",
+      "decisions": [
+        "The right head says Выбранный смысл.",
+        "The phrase в продолжение беседы is used here as continuing the conversation; captions note that a time meaning is also possible. No universal one-word translation is claimed."
+      ],
+      "format": "neutral phrase/chosen sense"
+    },
+    {
+      "id": "2026-11-classic-48-ber-bir",
+      "benefit": "Select И before suffix -а- for three named alternating-root groups.",
+      "selectedHook": "Соберу.\nНо собирать.",
+      "decisions": [
+        "The groups are limited to -бер-/-бир-, -мер-/-мир-, -тер-/-тир-.",
+        "The final fourth pair is вытереть/вытирать. The initial стереть/стирать pair was also valid according to the full RAN paragraph; the replacement is an equivalent editorial choice, not correction of a factual error.",
+        "An incidental old caption contains убирать as an instruction about deleting details. It does not teach this root alternation; the overlap is retained in novelty evidence."
+      ],
+      "format": "neutral no-suffix/suffix"
+    },
+    {
+      "id": "2026-11-classic-49-olitsetvorenie",
+      "benefit": "See personification through speech, thought, facial expression and sleep assigned to nonliving nature.",
+      "selectedHook": "Лес задумался.\nЧто за приём?",
+      "decisions": [
+        "The definition says traits/actions of living beings, not only humans.",
+        "All four phrases are our short educational images. The long term олицетворение is explained in the caption, while table labels remain short.",
+        "Not every predicate with a nature noun is called personification."
+      ],
+      "format": "neutral image/trait"
+    }
+  ],
+  "independentProof": {
+    "owner": "/root/refill_proof",
+    "status": "All24pairs and caption meanings preliminarily accepted; final byte-level review belongs to the independent proofreader.",
+    "primaryLinksCommunicatedByProofreader": [
+      "https://orfo.ruslang.ru/abc/part?end=1505&start=1205",
+      "https://oross.ruslang.ru/paragraph/27"
+    ],
+    "sourceOfLinks": "The proofreader checked these primary sources; this role did not independently re-open them. Full evidence is saved in factcheck files by that role."
+  },
+  "technicalTextChecks": {
+    "maxCellChars": 26,
+    "maxCellWordLetters": 11,
+    "runtimeContractSeconds": 13.2,
+    "runtimeCalculation": "intro1.2 + 4*step2.2 + outro3.2",
+    "boundary": "Length and runtime parameters are text/renderer-contract checks, not an observed export or phone-layout pass.",
+    "hookToolBoundary": "The English hookscore/beats scripts were run in an earlier cycle of this same task and recognized Cyrillic as zero words. Those numbers are not reused as a Russian score or duration."
+  },
+  "ownership": {
+    "writesByThisRole": "Only the isolated /private/tmp editorial directory.",
+    "rootOwns": [
+      "Final approved release",
+      "Asset rotation and licence verification for existing catalog8photos/7recordings",
+      "Renders, geometry390px, audio, hashes, decode, prepared/repost manifests",
+      "Atomic Git and independently observed external results"
+    ],
+    "notClaimed": [
+      "Human listening",
+      "Rendered or visually accepted new videos",
+      "Commit/push",
+      "Instagram publication IDs"
+    ]
+  }
+}

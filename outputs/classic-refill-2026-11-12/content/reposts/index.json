@@ -1,0 +1,263 @@
+{
+  "version": 1,
+  "posts": {
+    "2026-11-classic-44-keshbek": {
+      "kind": "reel_video",
+      "sourceKey": "eebc4b520b8543cb0979ce9c434a9ac9923b0fef19925bf080b84c839d30e9e3",
+      "renderedAt": "2026-11-12T19:32:43.404Z",
+      "publicationStatus": "export_only",
+      "assets": [
+        {
+          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-11-classic-44-keshbek.mp4",
+          "file": "2026-11-classic-44-keshbek-full.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-11-classic-44-keshbek-full.mp4",
+          "width": 1080,
+          "height": 1920,
+          "mediaType": "VIDEO",
+          "mimeType": "video/mp4",
+          "sha256": "d21c6edbe712e1ee83d44acf0bca09f5c743708e1102385880af1d63c9b12853",
+          "geometry": {
+            "sourceWidth": 1080,
+            "sourceHeight": 1920,
+            "outputWidth": 1080,
+            "outputHeight": 1920,
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "scale": 1,
+            "sourceRect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 1920
+            },
+            "targetRect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 1920
+            },
+            "sourceSha256": "d21c6edbe712e1ee83d44acf0bca09f5c743708e1102385880af1d63c9b12853",
+            "sha256": "d21c6edbe712e1ee83d44acf0bca09f5c743708e1102385880af1d63c9b12853"
+          }
+        }
+      ]
+    },
+    "2026-11-classic-45-tozhe": {
+      "kind": "reel_video",
+      "sourceKey": "658dcacb3570af461759791f99b82890c5b2ed78d89df664b3458782efc0e21b",
+      "renderedAt": "2026-11-12T19:32:43.408Z",
+      "publicationStatus": "export_only",
+      "assets": [
+        {
+          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-11-classic-45-tozhe.mp4",
+          "file": "2026-11-classic-45-tozhe-full.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-11-classic-45-tozhe-full.mp4",
+          "width": 1080,
+          "height": 1920,
+          "mediaType": "VIDEO",
+          "mimeType": "video/mp4",
+          "sha256": "8189446772b14e8ce7236f638c279af0dc1d7624d69feefe46f9234e4d868c6d",
+          "geometry": {
+            "sourceWidth": 1080,
+            "sourceHeight": 1920,
+            "outputWidth": 1080,
+            "outputHeight": 1920,
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "scale": 1,
+            "sourceRect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 1920
+            },
+            "targetRect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 1920
+            },
+            "sourceSha256": "8189446772b14e8ce7236f638c279af0dc1d7624d69feefe46f9234e4d868c6d",
+            "sha256": "8189446772b14e8ce7236f638c279af0dc1d7624d69feefe46f9234e4d868c6d"
+          }
+        }
+      ]
+    },
+    "2026-11-classic-46-bsp-dash": {
+      "kind": "reel_video",
+      "sourceKey": "b3f5c98009faaa9c1ec422ee6dd16bd27fee339f6e97bf80e01cad29d5b85e7c",
+      "renderedAt": "2026-11-12T19:32:43.410Z",
+      "publicationStatus": "export_only",
+      "assets": [
+        {
+          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-11-classic-46-bsp-dash.mp4",
+          "file": "2026-11-classic-46-bsp-dash-full.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-11-classic-46-bsp-dash-full.mp4",
+          "width": 1080,
+          "height": 1920,
+          "mediaType": "VIDEO",
+          "mimeType": "video/mp4",
+          "sha256": "6270f05ec0b040c72d06a7b895986501cfc6e7f70cf0cada13752fe86ea4e13d",
+          "geometry": {
+            "sourceWidth": 1080,
+            "sourceHeight": 1920,
+            "outputWidth": 1080,
+            "outputHeight": 1920,
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "scale": 1,
+            "sourceRect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 1920
+            },
+            "targetRect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 1920
+            },
+            "sourceSha256": "6270f05ec0b040c72d06a7b895986501cfc6e7f70cf0cada13752fe86ea4e13d",
+            "sha256": "6270f05ec0b040c72d06a7b895986501cfc6e7f70cf0cada13752fe86ea4e13d"
+          }
+        }
+      ]
+    },
+    "2026-11-classic-47-zaklyuchenie": {
+      "kind": "reel_video",
+      "sourceKey": "8565b0c4261051b43c16393d99f61eb8bb25492ca8f4cabaa49e20d90787f88f",
+      "renderedAt": "2026-11-12T19:32:43.412Z",
+      "publicationStatus": "export_only",
+      "assets": [
+        {
+          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-11-classic-47-zaklyuchenie.mp4",
+          "file": "2026-11-classic-47-zaklyuchenie-full.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-11-classic-47-zaklyuchenie-full.mp4",
+          "width": 1080,
+          "height": 1920,
+          "mediaType": "VIDEO",
+          "mimeType": "video/mp4",
+          "sha256": "f09397edda7584e072512daee2079ddde42364ad9f2c74f1d2b14d74163a59b1",
+          "geometry": {
+            "sourceWidth": 1080,
+            "sourceHeight": 1920,
+            "outputWidth": 1080,
+            "outputHeight": 1920,
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "scale": 1,
+            "sourceRect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 1920
+            },
+            "targetRect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 1920
+            },
+            "sourceSha256": "f09397edda7584e072512daee2079ddde42364ad9f2c74f1d2b14d74163a59b1",
+            "sha256": "f09397edda7584e072512daee2079ddde42364ad9f2c74f1d2b14d74163a59b1"
+          }
+        }
+      ]
+    },
+    "2026-11-classic-48-ber-bir": {
+      "kind": "reel_video",
+      "sourceKey": "6e71878b558afef99a38f1231bd2d655b1d2b12f8b184019d911d6917fcfb242",
+      "renderedAt": "2026-11-12T19:32:43.415Z",
+      "publicationStatus": "export_only",
+      "assets": [
+        {
+          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-11-classic-48-ber-bir.mp4",
+          "file": "2026-11-classic-48-ber-bir-full.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-11-classic-48-ber-bir-full.mp4",
+          "width": 1080,
+          "height": 1920,
+          "mediaType": "VIDEO",
+          "mimeType": "video/mp4",
+          "sha256": "0eb8a2115c5d33cc064d3cc2c29ecea5696bc5a19191eec5679b1e2842ad4290",
+          "geometry": {
+            "sourceWidth": 1080,
+            "sourceHeight": 1920,
+            "outputWidth": 1080,
+            "outputHeight": 1920,
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "scale": 1,
+            "sourceRect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 1920
+            },
+            "targetRect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 1920
+            },
+            "sourceSha256": "0eb8a2115c5d33cc064d3cc2c29ecea5696bc5a19191eec5679b1e2842ad4290",
+            "sha256": "0eb8a2115c5d33cc064d3cc2c29ecea5696bc5a19191eec5679b1e2842ad4290"
+          }
+        }
+      ]
+    },
+    "2026-11-classic-49-olitsetvorenie": {
+      "kind": "reel_video",
+      "sourceKey": "ece0058438e52daeb2f8f859e297aaad5aa72470d5fb94aab0a31b192bda59dd",
+      "renderedAt": "2026-11-12T19:32:43.418Z",
+      "publicationStatus": "export_only",
+      "assets": [
+        {
+          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-11-classic-49-olitsetvorenie.mp4",
+          "file": "2026-11-classic-49-olitsetvorenie-full.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-11-classic-49-olitsetvorenie-full.mp4",
+          "width": 1080,
+          "height": 1920,
+          "mediaType": "VIDEO",
+          "mimeType": "video/mp4",
+          "sha256": "1ebeeca53baeac693a664f47a03009333d05059acb7ebae4e5e8dcb33f676252",
+          "geometry": {
+            "sourceWidth": 1080,
+            "sourceHeight": 1920,
+            "outputWidth": 1080,
+            "outputHeight": 1920,
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1920,
+            "scale": 1,
+            "sourceRect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 1920
+            },
+            "targetRect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 1920
+            },
+            "sourceSha256": "1ebeeca53baeac693a664f47a03009333d05059acb7ebae4e5e8dcb33f676252",
+            "sha256": "1ebeeca53baeac693a664f47a03009333d05059acb7ebae4e5e8dcb33f676252"
+          }
+        }
+      ]
+    }
+  }
+}

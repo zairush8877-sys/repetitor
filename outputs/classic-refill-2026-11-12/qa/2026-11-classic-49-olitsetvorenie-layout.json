@@ -1,0 +1,27 @@
+{
+  "id": "2026-11-classic-49-olitsetvorenie",
+  "previewOnly": true,
+  "total": 13.2,
+  "key": "dc63424b94f65cdceb9ded63913151165aaee9906a3b0a3b69563fefdad05b10",
+  "assets": {
+    "photoId": "library-warm",
+    "photoFile": "assets/photos/library-warm.jpg",
+    "photoSha256": "b5a167b69b7828e55fe9c63963f3b37777fba4abd944c1b5c7053094190746aa",
+    "musicId": "chopin-op37-no2",
+    "musicFile": "assets/music/chopin-op37-no2-gurevich.mp3",
+    "musicSha256": "1e3255e0c1b8e936c92c146d44977015b471da6c153737fa3cd49ac61bc10a50",
+    "musicOffsetSeconds": 1.4,
+    "backgroundPosition": "85% 50%"
+  },
+  "measured": {
+    "cardTop": 639.5625,
+    "cardBottom": 1227.5625,
+    "rowFont": 52,
+    "titleFont": 94,
+    "footerCount": 0,
+    "cellOverflow": false,
+    "text": "ОГЭ • ОБРАЗЫ В ТЕКСТЕ\nЛес задумался.\nЧто за приём?\nНАШ ОБРАЗ\nПРИЗНАК ЖИВОГО\nветер шепчет\nречь\nлес задумался\nмысль\nсолнце улыбается\nмимика\nрека уснула\nсон"
+  },
+  "previewFile": "qa/2026-11-classic-49-olitsetvorenie-preview.jpg",
+  "previewSha256": "cc115ade1359c71c6a5143cf5e4dfde6ffcf9bf0bc35ad09000f3f23416c39bd"
+}

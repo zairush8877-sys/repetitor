@@ -1,0 +1,90 @@
+{
+  "id": "2026-11-classic-45-tozhe",
+  "key": "21bd4241042c783927942abd7a4a50596ecec2ed185e9c753499c0965b18d012",
+  "total": 13.2,
+  "assets": {
+    "photoId": "open-book-plant",
+    "photoFile": "assets/photos/open-book-plant.jpg",
+    "photoSha256": "16849bf7ef5fa0860deb2c5c92efa65fac0e86116988ebb90d8934204b630f62",
+    "musicId": "satie-gymnopedie3",
+    "musicFile": "assets/music/satie-gymnopedie3-teknopazzo.mp3",
+    "musicSha256": "a3a9a3e120888f9fc58f4bbac11d9f7b98870b3ddbf260b5785a24fe0fd36a7e",
+    "musicOffsetSeconds": 0.7,
+    "backgroundPosition": "50% 50%"
+  },
+  "music": {
+    "id": "satie-gymnopedie3",
+    "file": "assets/music/satie-gymnopedie3-teknopazzo.mp3",
+    "composer": "Эрик Сати",
+    "piece": "Гимнопедия № 3",
+    "title": "Gymnopédie No. 3",
+    "performer": "Teknopazzo (автор записи на Commons; акустический исполнитель отдельно не указан)",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "commonsTitle": "File:Gymnopédie no.3.ogg",
+    "recordingRights": "Конкретный аудиофайл заявлен Teknopazzo как own work и выпущен CC0 1.0. На странице автором указан Teknopazzo; способ получения звука/живое исполнение не удостоверены.",
+    "compositionRights": "Сати (1866–1925); Gymnopédies опубликованы в 1888, public domain. Ошибочное поле Date=1880 у файла не используется как дата записи/произведения.",
+    "sourceExcerptStartSeconds": 0.5,
+    "durationSeconds": 35.04,
+    "attribution": "Э. Сати — Гимнопедия № 3. Автор аудиозаписи на Wikimedia Commons: Teknopazzo. CC0 1.0; фрагмент, громкость изменена.",
+    "character": "Медленная спокойная фортепианная пьеса; тип записи не удостоверен.",
+    "source": "https://commons.wikimedia.org/wiki/File:Gymnop%C3%A9die_no.3.ogg",
+    "sourceDownloadUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Gymnop%C3%A9die_no.3.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsPageId": 10291267,
+    "commonsRevisionId": 1287525254,
+    "sourcePermanentUrl": "https://commons.wikimedia.org/w/index.php?oldid=1287525254",
+    "sourceFileTimestamp": "2022-02-10T00:54:16Z",
+    "sourceFileSha1": "033cf63c4cb087b8543a31cb41627a679d9f5d88",
+    "attributionRequired": false,
+    "commonsLicenseShortName": "CC0",
+    "commonsLicenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "commonsArtist": "Teknopazzo",
+    "sourceSha256": "20a8311eb71e2675de49fa287ef1c0929962838a6dffd76bbf52851c85d70f5d",
+    "sourceBytes": 5604668,
+    "downloadedAtUtc": "2026-11-03T20:47:17.137537+00:00",
+    "sha256": "a3a9a3e120888f9fc58f4bbac11d9f7b98870b3ddbf260b5785a24fe0fd36a7e",
+    "processing": "35 s excerpt, loudnorm I=-23 LUFS / TP=-3 dBTP / LRA=7, fade in 0.25 s, fade out 0.8 s; 48 kHz stereo MP3 192 kbps",
+    "technicalQa": {
+      "decoded": true,
+      "sampleRate": 48000,
+      "channels": 2,
+      "codec": "mp3",
+      "mean_volume": -24.8,
+      "max_volume": -5.4,
+      "humanListening": false
+    },
+    "offsetSeconds": 0.7,
+    "excerptDurationSeconds": 13.2,
+    "originalExcerptStartSeconds": 1.2,
+    "actualDurationSeconds": 35.04,
+    "processingForReel": "loudnorm I=-18 LUFS, TP=-2 dBTP, LRA=8; fade in 0.6 s, fade out 1.2 s"
+  },
+  "measured": {
+    "cardTop": 639.5625,
+    "cardBottom": 1357.5625,
+    "rowFont": 52,
+    "titleFont": 94,
+    "footerCount": 0,
+    "cellOverflow": false,
+    "text": "ЕГЭ • ТОЖЕ И ТО ЖЕ\nТоже.\nИли то же?\nНАШЕ ПРЕДЛОЖЕНИЕ\nПОДСТАНОВКА\nЯ тоже поеду.\nи я поеду\nОн сказал то же.\nто же самое\nМы тоже согласны.\nи мы согласны\nВыбрал то же пальто.\nто же самое пальто"
+  },
+  "screenshotFrames": 122,
+  "sha256": "8189446772b14e8ce7236f638c279af0dc1d7624d69feefe46f9234e4d868c6d",
+  "coverSha256": "3914f57062bd699895d827344e108bd01ade530a68eac25d894700e0299ec6e1",
+  "streams": [
+    {
+      "type": "video",
+      "codec": "h264",
+      "width": 1080,
+      "height": 1920,
+      "duration": "13.200000"
+    },
+    {
+      "type": "audio",
+      "codec": "aac",
+      "duration": "13.200000",
+      "sampleRate": "48000"
+    }
+  ],
+  "decoded": true
+}

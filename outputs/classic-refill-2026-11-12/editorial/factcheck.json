@@ -1,0 +1,747 @@
+{
+  "schemaVersion": 1,
+  "role": "independent Russian-language proofreader",
+  "checkedAt": "2026-11-12T19:31:43.219472+00:00",
+  "verdict": "pass",
+  "sourceDraftPath": "/private/tmp/mama-classic-refill-2026-11-12/editorial/draft.json",
+  "sourceDraftSha256": "612eb416644418fe5344a90b8c551a60e59e53f78c51c03e50cc6d27c0f84474",
+  "sourceQueuePath": "/private/tmp/mama-classic-refill-2026-11-12/base/content/queue.json",
+  "sourceQueueSha256": "36a1a220f2264f0bc1d204d3b947281bf0e16310c595142447c97352f1206390",
+  "counts": {
+    "posts": 6,
+    "rows": 24,
+    "captionVariants": 12,
+    "selectedCaptions": 6,
+    "adult": 2,
+    "ege": 2,
+    "oge": 2,
+    "olympiad": 0,
+    "schoolTrue": 0,
+    "sources": 13
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Академос РАН: кешбэк",
+      "url": "https://orfo.ruslang.ru/abc/part/ka?end=57826&start=57526",
+      "evidence": "Написание кешбэ́к непосредственно дано в словнике, строка 57: первая гласная е, вторая э.",
+      "access": "full_primary_page",
+      "kind": "normative_primary"
+    },
+    {
+      "id": "S2",
+      "title": "Академос РАН: мессенджер",
+      "url": "https://orfo.ruslang.ru/abc/part/em?end=74116&start=73816",
+      "evidence": "В словарной статье мессенджер есть д перед ж, строка 473.",
+      "access": "full_primary_page",
+      "kind": "normative_primary"
+    },
+    {
+      "id": "S3",
+      "title": "Академос РАН: маркетплейс",
+      "url": "https://orfo.ruslang.ru/abc/part/em?end=72009&start=71709",
+      "evidence": "Маркетплейс включён как одно слово, без дефиса. После первоначальной ошибки доступа полная страница успешно открылась.",
+      "access": "full_primary_page",
+      "kind": "normative_primary"
+    },
+    {
+      "id": "S4",
+      "title": "Академос РАН: агрегатор",
+      "url": "https://orfo.ruslang.ru/abc/part?end=1505&start=1205",
+      "evidence": "Агрегатор дан с одной г, помета добавления 2025; строка 82.",
+      "access": "full_primary_page",
+      "kind": "normative_primary"
+    },
+    {
+      "id": "S5",
+      "title": "РАН ОРОСС: тоже / то же",
+      "url": "https://oross.ruslang.ru/abc/part/te?end=13980&start=13930",
+      "evidence": "Слитное тоже сопоставлено с и/также; отдельно показано то + же в смысле того же самого. Часть речи тоже в материале не объявляется универсально одинаковой.",
+      "access": "full_primary_page",
+      "kind": "normative_primary"
+    },
+    {
+      "id": "S6",
+      "title": "Полный академический справочник: тире в БСП, §130.2–3",
+      "url": "https://orthographia.ru/punctuatio.php?sid=135",
+      "evidence": "Тире поддерживает следствие во второй части и условие в первой. Четыре предложения проверены при явно заданных в подписи смысловых отношениях.",
+      "access": "full_primary_page",
+      "kind": "primary_academic_reference"
+    },
+    {
+      "id": "S7",
+      "title": "Академос РАН: в заключение / в заключении",
+      "url": "https://orfo.ruslang.ru/abc/part/ve?end=17445&start=17145",
+      "evidence": "Прямо противопоставлены значение под конец у формы на е и существительное на ии в заключительной части/месте заключения; строка 104.",
+      "access": "full_primary_page",
+      "kind": "normative_primary"
+    },
+    {
+      "id": "S8",
+      "title": "Академос РАН: в продолжение",
+      "url": "https://orfo.ruslang.ru/abc/part/ve?end=21996&start=21696",
+      "evidence": "Предлог в продолжение дан с е и пояснением временного значения. Это написание, а не доказательство единственного возможного смысла каждого фрагмента.",
+      "access": "full_primary_page",
+      "kind": "normative_primary"
+    },
+    {
+      "id": "S9",
+      "title": "Грамота: неударяемые падежные окончания, различение предлога и существительного",
+      "url": "https://gramota.ru/biblioteka/spravochniki/pravila-russkoj-orfografii-i-punktuacii/glasnye-v-nekotoryh-neudaryaemyh-padezhnyh-okonchaniyah",
+      "evidence": "В первичном справочном фрагменте противопоставлены в продолжение и в продолжении рассказа, в заключение и в заключении комиссии; это непосредственно поддерживает две именные формы на ии.",
+      "access": "indexed_primary_extract; direct_open_403",
+      "kind": "normative_primary"
+    },
+    {
+      "id": "S10",
+      "title": "Делопроизводство в Казахстане №2, 2021: учебный пример делового письма",
+      "url": "https://elibrary.kaznu.kz/wp-content/uploads/2021/04/deloproizvodstvo_v_kazakhstane_2.pdf",
+      "evidence": "В авторском образце письма после телефонного разговора используется формула в продолжение разговора. Это прикладной пример продолжения общения; он дополняет норму написания из РАН, но не заменяет словарь.",
+      "access": "primary_authored_publication_in_university_archive; relevant_passage_read_pdf_page_81",
+      "kind": "authored_instructional_example_not_normative_dictionary"
+    },
+    {
+      "id": "S11",
+      "title": "РАН ОРОСС: безударные корни с чередованием е/и, §27.1",
+      "url": "https://oross.ruslang.ru/paragraph/27",
+      "evidence": "Правило е/и связано с суффиксом а. Перечни включают соберу/собирать, уберу/убирать, за-мереть/за-мирать, вы-тереть/вы-тирать. Омонимичные мер со значением меры и мир со значением мира выделены отдельно.",
+      "access": "full_primary_page",
+      "kind": "normative_primary"
+    },
+    {
+      "id": "S12",
+      "title": "Большая российская энциклопедия: олицетворение",
+      "url": "https://old.bigenc.ru/literature/text/2685394",
+      "evidence": "Авторская энциклопедическая статья определяет приём через перенос свойств живого на неодушевлённое и относит его к метафоре. На этой основе независимо разобраны собственные учебные образы.",
+      "access": "indexed_primary_academic_encyclopedia_entry; full_open_timeout",
+      "kind": "primary_academic_reference"
+    },
+    {
+      "id": "S13",
+      "title": "Грамота: Ночевала тучка золотая — олицетворяющие метафоры",
+      "url": "https://gramota.ru/journal/stati/nauka/nochevala-tuchka-zolotaya",
+      "evidence": "В авторском учебном разборе действия и внутренние состояния живого приписаны природным объектам; в том числе анализируется задумавшийся утёс. Наши четыре фразы не выдаются за цитаты из этого разбора.",
+      "access": "indexed_primary_authored_explanation; direct_open_403",
+      "kind": "primary_authored_literary_explanation"
+    }
+  ],
+  "posts": [
+    {
+      "id": "2026-11-classic-44-keshbek",
+      "verdict": "pass",
+      "rows": [
+        {
+          "row": 1,
+          "left": "кэшбек",
+          "right": "кешбэк",
+          "verdict": "pass",
+          "analysis": "Словарная форма кешбэк: е после к, э после б; исходное кэшбек содержит две подмены.",
+          "sourceIds": [
+            "S1"
+          ],
+          "sourceUrls": [
+            "https://orfo.ruslang.ru/abc/part/ka?end=57826&start=57526"
+          ],
+          "application": "Independent application of source to the authored context"
+        },
+        {
+          "row": 2,
+          "left": "мессенжер",
+          "right": "мессенджер",
+          "verdict": "pass",
+          "analysis": "Нормативное мессенджер содержит сочетание ндж; в исходном пропущена д.",
+          "sourceIds": [
+            "S2"
+          ],
+          "sourceUrls": [
+            "https://orfo.ruslang.ru/abc/part/em?end=74116&start=73816"
+          ],
+          "application": "Independent application of source to the authored context"
+        },
+        {
+          "row": 3,
+          "left": "маркет-плейс",
+          "right": "маркетплейс",
+          "verdict": "pass",
+          "analysis": "Маркетплейс пишется слитно; дефис в левой форме лишний.",
+          "sourceIds": [
+            "S3"
+          ],
+          "sourceUrls": [
+            "https://orfo.ruslang.ru/abc/part/em?end=72009&start=71709"
+          ],
+          "application": "Independent application of source to the authored context"
+        },
+        {
+          "row": 4,
+          "left": "аггрегатор",
+          "right": "агрегатор",
+          "verdict": "pass",
+          "analysis": "Агрегатор пишется с одной г; удвоение в левой форме не соответствует словарю.",
+          "sourceIds": [
+            "S4"
+          ],
+          "sourceUrls": [
+            "https://orfo.ruslang.ru/abc/part?end=1505&start=1205"
+          ],
+          "application": "Independent application of source to the authored context"
+        }
+      ],
+      "captions": [
+        {
+          "variant": "A",
+          "text": "Кешбэк — с Е после К и с Э после Б. В слове «мессенджер» есть Д перед Ж; «маркетплейс» пишется слитно, а в «агрегаторе» одна Г. Знакомые слова из сообщений и заказов всё равно полезно сверять со словарём: произношение не показывает каждую букву.",
+          "sha256": "0d1f3fd85a61f44d9c932ed06b1ae91a33e557c5a15bad369397c8baa8a6dace",
+          "selected": true,
+          "verdict": "pass",
+          "note": "Все буквы и слитность перечислены верно; словарные формы совпадают с текущим Академосом."
+        },
+        {
+          "variant": "B",
+          "text": "Маркетплейс без дефиса, агрегатор без второй Г, мессенджер с Д. У кешбэка две разные буквы для похожих гласных: Е и Э. В таблице четыре словарных написания для переписки, описания услуги или заказа.",
+          "sha256": "b1330f11b2e3d11228847c106dd991a7b124b9f412b5b7aea5661d4340f34b94",
+          "selected": false,
+          "verdict": "pass",
+          "note": "Четыре написания переданы верно. Слова похожие гласные не используются как точная фонетическая транскрипция."
+        }
+      ],
+      "titleVerdict": "pass",
+      "headsVerdict": "pass",
+      "qualifiers": [
+        "Проверены нарицательные словарные формы; написание индивидуального бренда отдельно не оценивается.",
+        "Пара постомат/постамат исключена до выпуска: строгая нормативная оценка не была доказана."
+      ]
+    },
+    {
+      "id": "2026-11-classic-45-tozhe",
+      "verdict": "pass",
+      "rows": [
+        {
+          "row": 1,
+          "left": "Я тоже поеду.",
+          "right": "и я поеду",
+          "verdict": "pass",
+          "analysis": "Тоже имеет добавительное значение; для данного примера перефразировка и я поеду корректна.",
+          "sourceIds": [
+            "S5"
+          ],
+          "sourceUrls": [
+            "https://oross.ruslang.ru/abc/part/te?end=13980&start=13930"
+          ],
+          "application": "Independent application of source to the authored context"
+        },
+        {
+          "row": 2,
+          "left": "Он сказал то же.",
+          "right": "то же самое",
+          "verdict": "pass",
+          "analysis": "Местоимение то с частицей же указывает на то же самое сказанное; раздельное написание верно.",
+          "sourceIds": [
+            "S5"
+          ],
+          "sourceUrls": [
+            "https://oross.ruslang.ru/abc/part/te?end=13980&start=13930"
+          ],
+          "application": "Independent application of source to the authored context"
+        },
+        {
+          "row": 3,
+          "left": "Мы тоже согласны.",
+          "right": "и мы согласны",
+          "verdict": "pass",
+          "analysis": "Добавительное тоже допускает перефразировку и мы согласны без изменения проверяемого смысла.",
+          "sourceIds": [
+            "S5"
+          ],
+          "sourceUrls": [
+            "https://oross.ruslang.ru/abc/part/te?end=13980&start=13930"
+          ],
+          "application": "Independent application of source to the authored context"
+        },
+        {
+          "row": 4,
+          "left": "Выбрал то же пальто.",
+          "right": "то же самое пальто",
+          "verdict": "pass",
+          "analysis": "В сокращённом предложении то же относится к пальто: то же самое пальто; опущенное подлежащее не влияет на написание.",
+          "sourceIds": [
+            "S5"
+          ],
+          "sourceUrls": [
+            "https://oross.ruslang.ru/abc/part/te?end=13980&start=13930"
+          ],
+          "application": "Independent application of source to the authored context"
+        }
+      ],
+      "captions": [
+        {
+          "variant": "A",
+          "text": "Я тоже поеду — к уже названным участникам добавляюсь я. Я выбрал то же пальто — то же самое пальто, о котором шла речь. Раздельное «то же» здесь указывает на совпадение, слитное «тоже» — на добавление. Сначала восстанавливаем смысл, затем выбираем написание.",
+          "sha256": "9ac988dc4f15d2ea976973685f8348f1a56ec770b84600931d617931ce5203c4",
+          "selected": true,
+          "verdict": "pass",
+          "note": "Смысл добавления и тождества выбран верно; универсальная классификация тоже как единственного разряда не заявлена."
+        },
+        {
+          "variant": "B",
+          "text": "Проверяем подстановкой: «И я поеду», «И мы согласны» — написание «тоже» в исходных фразах слитное. «Он сказал то же самое», «Я выбрал то же самое пальто» — «то» остаётся указательным местоимением, а «же» частицей. Разбираем эти сочетания, а не любую замену на И.",
+          "sha256": "3d1a5892c816d898c206c5237d25d15fb14f17ba2a1cb04fc26b503886622f24",
+          "selected": false,
+          "verdict": "pass",
+          "note": "Подстановки применены к данным предложениям; местоимение то и частица же различены корректно."
+        }
+      ],
+      "titleVerdict": "pass",
+      "headsVerdict": "pass",
+      "qualifiers": [
+        "Перефразировки относятся к этим предложениям и не являются универсальной механической заменой на и.",
+        "В сокращённой строке Выбрал то же пальто сохраняется то же самое сочетание; полный пример в подписи A допустим."
+      ]
+    },
+    {
+      "id": "2026-11-classic-46-bsp-dash",
+      "verdict": "pass",
+      "rows": [
+        {
+          "row": 1,
+          "left": "Будет дождь — останемся.",
+          "right": "если",
+          "verdict": "pass",
+          "analysis": "Заданное чтение: если будет дождь, останемся; условие в первой части поддерживает тире.",
+          "sourceIds": [
+            "S6"
+          ],
+          "sourceUrls": [
+            "https://orthographia.ru/punctuatio.php?sid=135"
+          ],
+          "application": "Independent application of source to the authored context"
+        },
+        {
+          "row": 2,
+          "left": "Поспешишь — успеешь.",
+          "right": "если",
+          "verdict": "pass",
+          "analysis": "Заданное чтение: если поспешишь, успеешь; первая часть является условием второй.",
+          "sourceIds": [
+            "S6"
+          ],
+          "sourceUrls": [
+            "https://orthographia.ru/punctuatio.php?sid=135"
+          ],
+          "application": "Independent application of source to the authored context"
+        },
+        {
+          "row": 3,
+          "left": "Солнце село — стало темно.",
+          "right": "поэтому",
+          "verdict": "pass",
+          "analysis": "Темнота подана как следствие захода солнца; поэтому является смысловой подсказкой для второй части.",
+          "sourceIds": [
+            "S6"
+          ],
+          "sourceUrls": [
+            "https://orthographia.ru/punctuatio.php?sid=135"
+          ],
+          "application": "Independent application of source to the authored context"
+        },
+        {
+          "row": 4,
+          "left": "Я устал — пойду домой.",
+          "right": "поэтому",
+          "verdict": "pass",
+          "analysis": "Решение пойти домой подано как следствие усталости; выбранное отношение поддерживает тире.",
+          "sourceIds": [
+            "S6"
+          ],
+          "sourceUrls": [
+            "https://orthographia.ru/punctuatio.php?sid=135"
+          ],
+          "application": "Independent application of source to the authored context"
+        }
+      ],
+      "captions": [
+        {
+          "variant": "A",
+          "text": "Будет дождь — останемся: в первой части дано условие, можно развернуть «если будет дождь». Я устал — пойду домой: вторая часть показывает следствие, «поэтому пойду домой». В этих учебных фразах тире передаёт выбранную смысловую связь частей.",
+          "sha256": "c8866eb4ffe6b00107278d899475f54605f4bcaa6198ab0954f2f6a9b2f35ab5",
+          "selected": true,
+          "verdict": "pass",
+          "note": "Условие и следствие прямо заданы как выбранное чтение; место присоединения если ясно показано."
+        },
+        {
+          "variant": "B",
+          "text": "Поспешишь — успеешь: сначала условие, затем результат. Солнце село — стало темно: вторую часть понимаем как следствие. В таблице показаны два основания для тире в бессоюзном сложном предложении. У тире бывают и другие значения; знак выбирается по целому контексту.",
+          "sha256": "d3df25e13d1b5520f70a85ead53146bbaf261b67964eddab1753e1703a88f5d7",
+          "selected": false,
+          "verdict": "pass",
+          "note": "Другие значения тире и зависимость знака от целого контекста прямо оговорены."
+        }
+      ],
+      "titleVerdict": "pass",
+      "headsVerdict": "pass",
+      "qualifiers": [
+        "Если мысленно добавляется перед первой частью, поэтому — перед второй; это смысловые подсказки, не буквальная замена тире одной и той же операцией.",
+        "Тире проверено при заданном чтении; другие отношения или контекст могут требовать другого знака."
+      ]
+    },
+    {
+      "id": "2026-11-classic-47-zaklyuchenie",
+      "verdict": "pass",
+      "rows": [
+        {
+          "row": 1,
+          "left": "в заключение письма",
+          "right": "под конец",
+          "verdict": "pass",
+          "analysis": "В заданном смысле под конец, заканчивая письмо, предлог оканчивается на е.",
+          "sourceIds": [
+            "S7",
+            "S9"
+          ],
+          "sourceUrls": [
+            "https://orfo.ruslang.ru/abc/part/ve?end=17445&start=17145",
+            "https://gramota.ru/biblioteka/spravochniki/pravila-russkoj-orfografii-i-punktuacii/glasnye-v-nekotoryh-neudaryaemyh-padezhnyh-okonchaniyah"
+          ],
+          "application": "Independent application of source to the authored context"
+        },
+        {
+          "row": 2,
+          "left": "в заключении врача",
+          "right": "в документе",
+          "verdict": "pass",
+          "analysis": "Заключение врача означает документ; существительное с предлогом в имеет форму предложного падежа на ии.",
+          "sourceIds": [
+            "S7",
+            "S9"
+          ],
+          "sourceUrls": [
+            "https://orfo.ruslang.ru/abc/part/ve?end=17445&start=17145",
+            "https://gramota.ru/biblioteka/spravochniki/pravila-russkoj-orfografii-i-punktuacii/glasnye-v-nekotoryh-neudaryaemyh-padezhnyh-okonchaniyah"
+          ],
+          "application": "Independent application of source to the authored context"
+        },
+        {
+          "row": 3,
+          "left": "в продолжение беседы",
+          "right": "продолжая разговор",
+          "verdict": "pass",
+          "analysis": "Для выбранного значения продолжая начатый разговор допустимо в продолжение с е. Бытование такой формулы в продолжении общения поддержано авторским образцом письма; временное значение также возможно.",
+          "sourceIds": [
+            "S8",
+            "S10"
+          ],
+          "sourceUrls": [
+            "https://orfo.ruslang.ru/abc/part/ve?end=21996&start=21696",
+            "https://elibrary.kaznu.kz/wp-content/uploads/2021/04/deloproizvodstvo_v_kazakhstane_2.pdf"
+          ],
+          "application": "Independent application of source to the authored context"
+        },
+        {
+          "row": 4,
+          "left": "в продолжении романа",
+          "right": "в новой части",
+          "verdict": "pass",
+          "analysis": "Продолжение романа — новая часть произведения; существительное в предложном падеже имеет ии.",
+          "sourceIds": [
+            "S9"
+          ],
+          "sourceUrls": [
+            "https://gramota.ru/biblioteka/spravochniki/pravila-russkoj-orfografii-i-punktuacii/glasnye-v-nekotoryh-neudaryaemyh-padezhnyh-okonchaniyah"
+          ],
+          "application": "Independent application of source to the authored context"
+        }
+      ],
+      "captions": [
+        {
+          "variant": "A",
+          "text": "В заключение письма — под конец письма, на конце Е. В заключении врача — в документе, на конце И. Сочетание «в продолжение беседы» здесь используем в смысле «продолжая разговор»; «в продолжении романа» — в его новой части. Контекст помогает выбрать написание.",
+          "sha256": "a6e097cc4844caf7a29c59f67c3b612fc3a2a8fcc636fe5f29c84fc9eb6771c0",
+          "selected": true,
+          "verdict": "pass",
+          "note": "Различие предлога на е и существительного на ии объяснено по заданным значениям; третья строка явно ограничена выбранным смыслом."
+        },
+        {
+          "variant": "B",
+          "text": "«В заключение письма он поблагодарил коллег». «В заключении врача есть рекомендации». В первом учебном примере речь о завершении, во втором — о документе. «В продолжение беседы» в нашей таблице значит «продолжая разговор», хотя это сочетание может обозначать и время беседы.",
+          "sha256": "d292dd59a268d3b5e8c02ed2a22349180b8dd3b4a47b0c803711d66ab245cf67",
+          "selected": false,
+          "verdict": "pass",
+          "note": "Примеры завершения письма и документа грамматически корректны; временное значение в продолжение не исключается."
+        }
+      ],
+      "titleVerdict": "pass",
+      "headsVerdict": "pass",
+      "qualifiers": [
+        "Изолированный фрагмент не задаёт единственное возможное значение; таблица прямо обозначает выбранный смысл.",
+        "В продолжение беседы может обозначать и время, и продолжение общения; это не основание менять е на и."
+      ]
+    },
+    {
+      "id": "2026-11-classic-48-ber-bir",
+      "verdict": "pass",
+      "rows": [
+        {
+          "row": 1,
+          "left": "соберу",
+          "right": "собирать",
+          "verdict": "pass",
+          "analysis": "В соберу нет суффикса а после корня, в собирать есть: бер/бир.",
+          "sourceIds": [
+            "S11"
+          ],
+          "sourceUrls": [
+            "https://oross.ruslang.ru/paragraph/27"
+          ],
+          "application": "Independent application of source to the authored context"
+        },
+        {
+          "row": 2,
+          "left": "уберу",
+          "right": "убирать",
+          "verdict": "pass",
+          "analysis": "Уберу и убирать иллюстрируют ту же зависимость бер/бир от суффикса а.",
+          "sourceIds": [
+            "S11"
+          ],
+          "sourceUrls": [
+            "https://oross.ruslang.ru/paragraph/27"
+          ],
+          "application": "Independent application of source to the authored context"
+        },
+        {
+          "row": 3,
+          "left": "замереть",
+          "right": "замирать",
+          "verdict": "pass",
+          "analysis": "Замереть и замирать содержат чередующийся мер/мир; во втором слове после корня стоит а.",
+          "sourceIds": [
+            "S11"
+          ],
+          "sourceUrls": [
+            "https://oross.ruslang.ru/paragraph/27"
+          ],
+          "application": "Independent application of source to the authored context"
+        },
+        {
+          "row": 4,
+          "left": "вытереть",
+          "right": "вытирать",
+          "verdict": "pass",
+          "analysis": "Вытереть и вытирать: тер без суффикса а, тир перед ним.",
+          "sourceIds": [
+            "S11"
+          ],
+          "sourceUrls": [
+            "https://oross.ruslang.ru/paragraph/27"
+          ],
+          "application": "Independent application of source to the authored context"
+        }
+      ],
+      "captions": [
+        {
+          "variant": "A",
+          "text": "Соберу — собирать. В правом слове после корня стоит суффикс -а-, поэтому в корне И. Так же устроены уберу — убирать, замереть — замирать, вытереть — вытирать. Здесь разбираем чередования -бер-/-бир-, -мер-/-мир-, -тер-/-тир-, а не любое соседство с буквой А.",
+          "sha256": "aa7963044b9715b19a12ca7e15cbb3494b021045d8b20ee6bf2885ab917d2d4f",
+          "selected": true,
+          "verdict": "pass",
+          "note": "Чередование привязано к суффиксу, перечислены только проверяемые группы; соседство с любой буквой а не объявлено правилом."
+        },
+        {
+          "variant": "B",
+          "text": "Замереть, но замирать. Вытереть, но вытирать. В этих чередующихся корнях И выбирается перед суффиксом -а-, без него пишется Е. Проверяем именно часть слова после корня: в четырёх парах таблицы это условие показано одинаково.",
+          "sha256": "1f1b95b9b01ce0f90124a0fc870cb0b67f2748b6893765f4ad8675f3314440f0",
+          "selected": false,
+          "verdict": "pass",
+          "note": "Для всех четырёх конкретных пар выбор е/и передан верно."
+        }
+      ],
+      "titleVerdict": "pass",
+      "headsVerdict": "pass",
+      "qualifiers": [
+        "Рассмотрены конкретные чередующиеся корни, а не любые буквы бер/мер/тер.",
+        "Словарные исключения и омонимичные корни имеют отдельные правила; выбранные четыре пары к ним не относятся."
+      ]
+    },
+    {
+      "id": "2026-11-classic-49-olitsetvorenie",
+      "verdict": "pass",
+      "rows": [
+        {
+          "row": 1,
+          "left": "ветер шепчет",
+          "right": "речь",
+          "verdict": "pass",
+          "analysis": "Шептать — речевое действие; приписывание его ветру в данном поэтическом образе — олицетворение.",
+          "sourceIds": [
+            "S12",
+            "S13"
+          ],
+          "sourceUrls": [
+            "https://old.bigenc.ru/literature/text/2685394",
+            "https://gramota.ru/journal/stati/nauka/nochevala-tuchka-zolotaya"
+          ],
+          "application": "Independent application of source to the authored context"
+        },
+        {
+          "row": 2,
+          "left": "лес задумался",
+          "right": "мысль",
+          "verdict": "pass",
+          "analysis": "Лесу приписан процесс мысли; это перенос свойства живого на природный объект.",
+          "sourceIds": [
+            "S12",
+            "S13"
+          ],
+          "sourceUrls": [
+            "https://old.bigenc.ru/literature/text/2685394",
+            "https://gramota.ru/journal/stati/nauka/nochevala-tuchka-zolotaya"
+          ],
+          "application": "Independent application of source to the authored context"
+        },
+        {
+          "row": 3,
+          "left": "солнце улыбается",
+          "right": "мимика",
+          "verdict": "pass",
+          "analysis": "Солнцу приписана улыбка, действие мимики; выбранный образ является олицетворением.",
+          "sourceIds": [
+            "S12",
+            "S13"
+          ],
+          "sourceUrls": [
+            "https://old.bigenc.ru/literature/text/2685394",
+            "https://gramota.ru/journal/stati/nauka/nochevala-tuchka-zolotaya"
+          ],
+          "application": "Independent application of source to the authored context"
+        },
+        {
+          "row": 4,
+          "left": "река уснула",
+          "right": "сон",
+          "verdict": "pass",
+          "analysis": "Сон приписан реке; в данном образе состояние живого перенесено на неживое.",
+          "sourceIds": [
+            "S12",
+            "S13"
+          ],
+          "sourceUrls": [
+            "https://old.bigenc.ru/literature/text/2685394",
+            "https://gramota.ru/journal/stati/nauka/nochevala-tuchka-zolotaya"
+          ],
+          "application": "Independent application of source to the authored context"
+        }
+      ],
+      "captions": [
+        {
+          "variant": "A",
+          "text": "Лес не может буквально задуматься, а солнце — улыбнуться. В наших образах неживому приписаны признаки и действия живого. Это олицетворение. Шепчущий ветер и уснувшая река работают так же: смысл переносный, а не сообщение о реальном поведении природы.",
+          "sha256": "503a36b8db22dcf575416a5b76187a32c5f76e2c9f8e9ac2178c658990b32dc6",
+          "selected": true,
+          "verdict": "pass",
+          "note": "Живое/неживое и переносное значение различены; сон не сужен до свойства только человека."
+        },
+        {
+          "variant": "B",
+          "text": "Ветер шепчет — речь. Лес задумался — мысль. Солнце улыбается — мимика, река уснула — сон. В этих коротких учебных образах признаки живого перенесены на неживое, поэтому перед нами олицетворение. Не каждое сказуемое при названии природы становится этим приёмом.",
+          "sha256": "e54de0df7aa3e60582a8123c4f86305672d2999c42593410d21d07cd61965b94",
+          "selected": false,
+          "verdict": "pass",
+          "note": "Все четыре правых обозначения соответствуют образам; обычное сказуемое при природном объекте не объявлено достаточным признаком приёма."
+        }
+      ],
+      "titleVerdict": "pass",
+      "headsVerdict": "pass",
+      "qualifiers": [
+        "Собственные учебные образы не приписаны поэту, официальному заданию, номеру КИМ или году экзамена.",
+        "Олицетворение — вид метафоры; таблица не утверждает взаимоисключения этих понятий."
+      ]
+    }
+  ],
+  "finalReview": {
+    "verdict": "pass",
+    "checkedAt": "2026-11-12T19:31:43.219472+00:00",
+    "releasePath": "/private/tmp/mama-classic-refill-2026-11-12/project/outputs/classic-refill-2026-11-12/release.json",
+    "releaseSha256AtReview": "c39f2a6ee8f256ad644846a2e724bd04cbe347fd146dcb947a003b06d0660faa",
+    "normalizedPostsWithoutStatusSha256": "edd2c817368da6bfe6d6ec448ffc741e60067ba1abb2aa58a25830793bf4ac1e",
+    "textProjectionSha256": "6a0a4c30253a91fa15bf301cc5d3e9d2324e9efeff8ab3ac9bea94a7b1d39697",
+    "textProjectionKeys": [
+      "id",
+      "kicker",
+      "title",
+      "heads",
+      "rows",
+      "caption",
+      "hashtags",
+      "rubric",
+      "school"
+    ],
+    "normalization": "json.dumps(posts_without_top_level_status, ensure_ascii=False, sort_keys=True, separators=(comma,colon)).encode(utf-8)",
+    "posts": 6,
+    "rows": 24,
+    "captionVariantsReviewed": 12,
+    "selectedCaptions": "A,A,A,A,A,A",
+    "sourceCount": 13,
+    "mandatoryCorrectionsRemaining": 0,
+    "textEqualsProofreadDraft": false,
+    "all24RowsUnchanged": false,
+    "rowsUnchangedFromDraft": 23,
+    "finalDifferences": [
+      {
+        "id": "2026-11-classic-45-tozhe",
+        "field": "rows[3][0]",
+        "draft": "Я выбрал то же пальто.",
+        "release": "Выбрал то же пальто.",
+        "verdict": "pass",
+        "reason": "Снято необязательное подлежащее ради вёрстки; то же остаётся местоимением с частицей."
+      }
+    ],
+    "allActual24RowsPass": true,
+    "final46Heads": [
+      "Наша фраза",
+      "Подсказка"
+    ],
+    "statusAndRevisionHeaderOutsideTextReview": true,
+    "limitations": [
+      "Часть первичных страниц Грамоты и статья БРЭ проверены по индексированным фрагментам: полное открытие возвращало 403 или тайм-аут. Это отмечено у источников.",
+      "Значение продолжения общения проверено через прикладной авторский образец письма; нормативное написание — отдельно по РАН. Для фрагмента сохранено явное ограничение выбранного смысла.",
+      "Проверка языковая: не подтверждает рендер, медиа, расписание, GitHub или фактическую публикацию."
+    ]
+  },
+  "editorialCorrections": [
+    {
+      "post": "classic44",
+      "applied": true,
+      "note": "Недоказанную строгую пару постомат/постамат заменили словарным агрегатор."
+    },
+    {
+      "post": "classic48",
+      "applied": true,
+      "note": "Выбрана также верная новая пара вытереть/вытирать. Первоначальные стереть/стирать тоже нормативны; их ошибочность не заявляется."
+    },
+    {
+      "post": "classic46",
+      "applied": true,
+      "note": "Head Можно вставить заменён на Подсказка, чтобы не спутать место добавления если и поэтому."
+    },
+    {
+      "post": "classic45",
+      "applied": true,
+      "note": "По решению редактора опущено Я в четвёртой строке; фактический короткий пример проверен отдельно."
+    }
+  ],
+  "dedupe": {
+    "sourceQueueCount": 150,
+    "approvedPublishedCount": 139,
+    "recursiveStringsChecked": 6563,
+    "normalizedLeftPhrasesChecked": 24,
+    "exactLeftPhraseMatches": [],
+    "exactPairMatches": [],
+    "note": "Сравнены все вложенные строки approved/published свежей очереди. Общие слова-подсказки и случайное употребление убирать в старой подписи не считаются повтором упражнения; глобальная уникальность темы не заявляется."
+  },
+  "provenance": "Own educational contexts; no official KIM number, year, paper attribution or pupil outcome claimed",
+  "limitations": [
+    "Часть первичных страниц Грамоты и статья БРЭ проверены по индексированным фрагментам: полное открытие возвращало 403 или тайм-аут. Это отмечено у источников.",
+    "Значение продолжения общения проверено через прикладной авторский образец письма; нормативное написание — отдельно по РАН. Для фрагмента сохранено явное ограничение выбранного смысла.",
+    "Проверка языковая: не подтверждает рендер, медиа, расписание, GitHub или фактическую публикацию."
+  ]
+}

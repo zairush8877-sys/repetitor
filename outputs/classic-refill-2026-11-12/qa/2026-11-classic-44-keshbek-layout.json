@@ -1,0 +1,27 @@
+{
+  "id": "2026-11-classic-44-keshbek",
+  "previewOnly": true,
+  "total": 13.2,
+  "key": "ed1254b267f674e44cfec399f0a301efa6dad4d6b97a848e9f61cd1c1f1661aa",
+  "assets": {
+    "photoId": "uppsala-bookshelves",
+    "photoFile": "assets/photos/uppsala-bookshelves.jpg",
+    "photoSha256": "caa200a2d755c560a3826b47424f1cc3dfb9da99af2b9a666691853724bc0400",
+    "musicId": "chopin-op62-no1",
+    "musicFile": "assets/music/chopin-op62-no1-gurevich.mp3",
+    "musicSha256": "3413e5a8aeaf36becac0ffdfdeb488f5087401f78ca2f31d3322900a26791b99",
+    "musicOffsetSeconds": 0,
+    "backgroundPosition": "50% 50%"
+  },
+  "measured": {
+    "cardTop": 639.5625,
+    "cardBottom": 1162.5625,
+    "rowFont": 52,
+    "titleFont": 94,
+    "footerCount": 0,
+    "cellOverflow": false,
+    "text": "ЦИФРОВЫЕ СЛОВА\nКешбэк.\nГде буква «э»?\nНЕПРАВИЛЬНО\nПРАВИЛЬНО\nкэшбек\nкэшбек\nкешбэк\nмессенжер\nмессенжер\nмессенджер\nмаркет-плейс\nмаркет-плейс\nмаркетплейс\nаггрегатор\nаггрегатор\nагрегатор"
+  },
+  "previewFile": "qa/2026-11-classic-44-keshbek-preview.jpg",
+  "previewSha256": "2ae514f84938a45845d115c737211acf38ea63ef4acc267ae5d10f0eee78c5c0"
+}
