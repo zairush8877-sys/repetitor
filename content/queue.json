@@ -11672,7 +11672,24 @@
         "publishedAt": "2026-11-13T14:42:46.935Z"
       },
       "publishedMediaId": "18137229754777237",
-      "publishedAt": "2026-11-13T14:42:46.935Z"
+      "publishedAt": "2026-11-13T14:42:48.415Z",
+      "storyRepost": {
+        "version": 1,
+        "feedMediaId": "18137229754777237",
+        "status": "pending",
+        "items": [
+          {
+            "index": 1,
+            "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-11-classic-30-ne-prichastiya-full.mp4",
+            "sha256": "ddb2da8393db97ec3c5691c9314f3f7bf7196583fa11dd3ce438c88c89e613a7",
+            "mediaType": "VIDEO",
+            "mimeType": "video/mp4",
+            "status": "pending",
+            "attempts": 0
+          }
+        ],
+        "sourceKey": "1856d8fc71b650405823235ce3dd30352bab02a14e8a9b20f5495bcce8c4fb92"
+      }
     },
     {
       "id": "2026-11-classic-31-skolko-osnov",
