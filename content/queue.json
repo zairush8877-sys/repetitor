@@ -11525,7 +11525,24 @@
         "publishedAt": "2026-11-13T14:28:38.124Z"
       },
       "publishedMediaId": "18021013883957337",
-      "publishedAt": "2026-11-13T14:28:38.124Z"
+      "publishedAt": "2026-11-13T14:28:39.299Z",
+      "storyRepost": {
+        "version": 1,
+        "feedMediaId": "18021013883957337",
+        "status": "pending",
+        "items": [
+          {
+            "index": 1,
+            "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-11-classic-29-online-full.mp4",
+            "sha256": "72988b73ed1b9420287aaf7068954fd9294d9ed5247e6905533bb5fa9fe0b893",
+            "mediaType": "VIDEO",
+            "mimeType": "video/mp4",
+            "status": "pending",
+            "attempts": 0
+          }
+        ],
+        "sourceKey": "27e01bb1bdc837a0438cd34687669485e1d06bc2bc0420c5ff55b94c4c299be0"
+      }
     },
     {
       "id": "2026-11-classic-30-ne-prichastiya",
