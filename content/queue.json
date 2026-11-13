@@ -11583,7 +11583,7 @@
         "#неспричастиями"
       ],
       "format": "Reels",
-      "status": "approved",
+      "status": "published",
       "school": false,
       "visualStyle": "classic-table",
       "hideFooter": true,
@@ -11661,14 +11661,18 @@
         "creationAttempts": 1,
         "lastError": null,
         "version": 1,
-        "phase": "publishing",
-        "updatedAt": "2026-11-13T14:42:37.572Z",
+        "phase": "published",
+        "updatedAt": "2026-11-13T14:42:46.935Z",
         "containerId": "18035566451887754",
         "containerCreatedAt": "2026-11-13T14:42:08.893Z",
         "failedStage": null,
         "readyAt": "2026-11-13T14:42:36.275Z",
-        "publishAttemptedAt": "2026-11-13T14:42:37.572Z"
-      }
+        "publishAttemptedAt": "2026-11-13T14:42:37.572Z",
+        "mediaId": "18137229754777237",
+        "publishedAt": "2026-11-13T14:42:46.935Z"
+      },
+      "publishedMediaId": "18137229754777237",
+      "publishedAt": "2026-11-13T14:42:46.935Z"
     },
     {
       "id": "2026-11-classic-31-skolko-osnov",
