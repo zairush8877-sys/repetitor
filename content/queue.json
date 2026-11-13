@@ -11662,10 +11662,11 @@
         "lastError": null,
         "version": 1,
         "phase": "preparing",
-        "updatedAt": "2026-11-13T14:42:08.893Z",
+        "updatedAt": "2026-11-13T14:42:36.275Z",
         "containerId": "18035566451887754",
         "containerCreatedAt": "2026-11-13T14:42:08.893Z",
-        "failedStage": null
+        "failedStage": null,
+        "readyAt": "2026-11-13T14:42:36.275Z"
       }
     },
     {
