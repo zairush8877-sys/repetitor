@@ -11661,12 +11661,13 @@
         "creationAttempts": 1,
         "lastError": null,
         "version": 1,
-        "phase": "preparing",
-        "updatedAt": "2026-11-13T14:42:36.275Z",
+        "phase": "publishing",
+        "updatedAt": "2026-11-13T14:42:37.572Z",
         "containerId": "18035566451887754",
         "containerCreatedAt": "2026-11-13T14:42:08.893Z",
         "failedStage": null,
-        "readyAt": "2026-11-13T14:42:36.275Z"
+        "readyAt": "2026-11-13T14:42:36.275Z",
+        "publishAttemptedAt": "2026-11-13T14:42:37.572Z"
       }
     },
     {
