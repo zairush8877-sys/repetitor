@@ -11914,8 +11914,11 @@
         "creationAttempts": 1,
         "lastError": null,
         "version": 1,
-        "phase": "container",
-        "updatedAt": "2026-11-14T13:39:20.490Z"
+        "phase": "preparing",
+        "updatedAt": "2026-11-14T13:39:24.271Z",
+        "containerId": "18035708951887754",
+        "containerCreatedAt": "2026-11-14T13:39:24.271Z",
+        "failedStage": null
       }
     },
     {
