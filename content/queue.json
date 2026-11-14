@@ -8137,10 +8137,11 @@
         "lastError": null,
         "version": 1,
         "phase": "preparing",
-        "updatedAt": "2026-11-14T13:23:16.557Z",
+        "updatedAt": "2026-11-14T13:24:03.916Z",
         "containerId": "18035705816887754",
         "containerCreatedAt": "2026-11-14T13:23:16.557Z",
-        "failedStage": null
+        "failedStage": null,
+        "readyAt": "2026-11-14T13:24:03.916Z"
       }
     },
     {
