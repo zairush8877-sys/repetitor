@@ -11925,7 +11925,24 @@
         "publishedAt": "2026-11-14T13:39:52.871Z"
       },
       "publishedMediaId": "18121912858967275",
-      "publishedAt": "2026-11-14T13:39:52.871Z"
+      "publishedAt": "2026-11-14T13:39:53.993Z",
+      "storyRepost": {
+        "version": 1,
+        "feedMediaId": "18121912858967275",
+        "status": "pending",
+        "items": [
+          {
+            "index": 1,
+            "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-11-classic-32-kompaniya-full.mp4",
+            "sha256": "1ff6c732f78de54ba4cf6e167048421e7d77accfc5885f4ba706a9af9e4c187b",
+            "mediaType": "VIDEO",
+            "mimeType": "video/mp4",
+            "status": "pending",
+            "attempts": 0
+          }
+        ],
+        "sourceKey": "ef9e0197b41138f61fb7303212f05639cb98ffd9b5fd79eea2781a800670330f"
+      }
     },
     {
       "id": "2026-11-classic-33-zato",
