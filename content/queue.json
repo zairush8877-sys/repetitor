@@ -11836,7 +11836,7 @@
         "#деловаяпереписка"
       ],
       "format": "Reels",
-      "status": "approved",
+      "status": "published",
       "school": false,
       "visualStyle": "classic-table",
       "hideFooter": true,
@@ -11914,14 +11914,18 @@
         "creationAttempts": 1,
         "lastError": null,
         "version": 1,
-        "phase": "publishing",
-        "updatedAt": "2026-11-14T13:39:43.557Z",
+        "phase": "published",
+        "updatedAt": "2026-11-14T13:39:52.871Z",
         "containerId": "18035708951887754",
         "containerCreatedAt": "2026-11-14T13:39:24.271Z",
         "failedStage": null,
         "readyAt": "2026-11-14T13:39:42.452Z",
-        "publishAttemptedAt": "2026-11-14T13:39:43.557Z"
-      }
+        "publishAttemptedAt": "2026-11-14T13:39:43.557Z",
+        "mediaId": "18121912858967275",
+        "publishedAt": "2026-11-14T13:39:52.871Z"
+      },
+      "publishedMediaId": "18121912858967275",
+      "publishedAt": "2026-11-14T13:39:52.871Z"
     },
     {
       "id": "2026-11-classic-33-zato",
