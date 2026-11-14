@@ -8147,7 +8147,24 @@
         "publishedAt": "2026-11-14T13:24:17.419Z"
       },
       "publishedMediaId": "18150975010603941",
-      "publishedAt": "2026-11-14T13:24:17.419Z"
+      "publishedAt": "2026-11-14T13:24:18.690Z",
+      "storyRepost": {
+        "version": 1,
+        "feedMediaId": "18150975010603941",
+        "status": "pending",
+        "items": [
+          {
+            "index": 1,
+            "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/anna-v3-20261031-08-deeprichastie-full.mp4",
+            "sha256": "aedb524188158cf5698ea0983df3a1e21eec36ce6705e53d0811ecca8b517fe2",
+            "mediaType": "VIDEO",
+            "mimeType": "video/mp4",
+            "status": "pending",
+            "attempts": 0
+          }
+        ],
+        "sourceKey": "5f7bc694ab6b877c84180889b9f4cc35efd0ecf22c22858250f56b02c73a56de"
+      }
     },
     {
       "id": "anna-v3-20261031-09-omonimy",
