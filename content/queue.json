@@ -12258,7 +12258,29 @@
         "backgroundPosition": "50% 50%"
       },
       "photoFile": "tulips-filonchik.jpg",
-      "musicFile": "light-easy-lemon.mp3"
+      "musicFile": "light-easy-lemon.mp3",
+      "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/2026-11-classic-36-gar-gor.mp4",
+      "coverOffsetMs": 7200,
+      "music": {
+        "composer": "Kevin MacLeod",
+        "piece": "Easy Lemon",
+        "license": "CC BY 4.0",
+        "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1200076",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "attribution": "Easy Lemon — Kevin MacLeod (incompetech.com). CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/. Фрагмент обрезан и сведён с видео.",
+        "attributionRequired": true
+      },
+      "background": "assets/photos/marble-pineapple.jpg",
+      "lightBg": true,
+      "feedDelivery": {
+        "fingerprint": "aae9c3d7d28a5cffed5c68a772ea68f1820a4bfebba98608259e5267f415bc30",
+        "startedAt": "2026-11-15T14:02:54.112Z",
+        "creationAttempts": 1,
+        "lastError": null,
+        "version": 1,
+        "phase": "container",
+        "updatedAt": "2026-11-15T14:02:54.112Z"
+      }
     },
     {
       "id": "2026-11-classic-37-kto-chey",
