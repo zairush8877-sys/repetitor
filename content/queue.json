@@ -12279,10 +12279,11 @@
         "lastError": null,
         "version": 1,
         "phase": "preparing",
-        "updatedAt": "2026-11-15T14:02:57.918Z",
+        "updatedAt": "2026-11-15T14:03:21.318Z",
         "containerId": "18035885918887754",
         "containerCreatedAt": "2026-11-15T14:02:57.918Z",
-        "failedStage": null
+        "failedStage": null,
+        "readyAt": "2026-11-15T14:03:21.318Z"
       }
     },
     {
