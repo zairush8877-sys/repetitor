@@ -12180,7 +12180,24 @@
         "publishedAt": "2026-11-15T13:50:59.771Z"
       },
       "publishedMediaId": "18136935208774001",
-      "publishedAt": "2026-11-15T13:50:59.771Z"
+      "publishedAt": "2026-11-15T13:51:00.881Z",
+      "storyRepost": {
+        "version": 1,
+        "feedMediaId": "18136935208774001",
+        "status": "pending",
+        "items": [
+          {
+            "index": 1,
+            "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-11-classic-35-ni-pukha-full.mp4",
+            "sha256": "89f6cc78d816e2d81515775eb3bff65f8dc273fd734da6ce260d7ca461b84340",
+            "mediaType": "VIDEO",
+            "mimeType": "video/mp4",
+            "status": "pending",
+            "attempts": 0
+          }
+        ],
+        "sourceKey": "a5a2b8ae2a5964e85c6f3f3dd7996100bdf23cb362cb6cb6267aae780548c32e"
+      }
     },
     {
       "id": "2026-11-classic-36-gar-gor",
