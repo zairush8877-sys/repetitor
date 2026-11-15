@@ -12238,7 +12238,7 @@
         "#орфография"
       ],
       "format": "Reels",
-      "status": "approved",
+      "status": "published",
       "school": false,
       "visualStyle": "classic-table",
       "hideFooter": true,
@@ -12278,14 +12278,18 @@
         "creationAttempts": 1,
         "lastError": null,
         "version": 1,
-        "phase": "publishing",
-        "updatedAt": "2026-11-15T14:03:22.854Z",
+        "phase": "published",
+        "updatedAt": "2026-11-15T14:03:31.210Z",
         "containerId": "18035885918887754",
         "containerCreatedAt": "2026-11-15T14:02:57.918Z",
         "failedStage": null,
         "readyAt": "2026-11-15T14:03:21.318Z",
-        "publishAttemptedAt": "2026-11-15T14:03:22.854Z"
-      }
+        "publishAttemptedAt": "2026-11-15T14:03:22.854Z",
+        "mediaId": "18023441936728608",
+        "publishedAt": "2026-11-15T14:03:31.210Z"
+      },
+      "publishedMediaId": "18023441936728608",
+      "publishedAt": "2026-11-15T14:03:31.210Z"
     },
     {
       "id": "2026-11-classic-37-kto-chey",
