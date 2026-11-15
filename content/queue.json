@@ -12303,7 +12303,8 @@
             "mimeType": "video/mp4",
             "status": "preparing",
             "attempts": 1,
-            "attemptedAt": "2026-11-15T14:03:33.663Z"
+            "attemptedAt": "2026-11-15T14:03:33.663Z",
+            "containerId": "18035886101887754"
           }
         ],
         "sourceKey": "776465d47853b7224504e5531c61dfaf1b0bebe43b0b603afcf1f98a113f62d0"
