@@ -12170,10 +12170,11 @@
         "lastError": null,
         "version": 1,
         "phase": "preparing",
-        "updatedAt": "2026-11-15T13:50:19.435Z",
+        "updatedAt": "2026-11-15T13:50:47.088Z",
         "containerId": "18035883371887754",
         "containerCreatedAt": "2026-11-15T13:50:19.435Z",
-        "failedStage": null
+        "failedStage": null,
+        "readyAt": "2026-11-15T13:50:47.088Z"
       }
     },
     {
