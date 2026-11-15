@@ -12169,12 +12169,13 @@
         "creationAttempts": 1,
         "lastError": null,
         "version": 1,
-        "phase": "preparing",
-        "updatedAt": "2026-11-15T13:50:47.088Z",
+        "phase": "publishing",
+        "updatedAt": "2026-11-15T13:50:48.198Z",
         "containerId": "18035883371887754",
         "containerCreatedAt": "2026-11-15T13:50:19.435Z",
         "failedStage": null,
-        "readyAt": "2026-11-15T13:50:47.088Z"
+        "readyAt": "2026-11-15T13:50:47.088Z",
+        "publishAttemptedAt": "2026-11-15T13:50:48.198Z"
       }
     },
     {
