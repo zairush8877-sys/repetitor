@@ -12531,12 +12531,13 @@
         "creationAttempts": 1,
         "lastError": null,
         "version": 1,
-        "phase": "preparing",
-        "updatedAt": "2026-11-16T16:00:25.250Z",
+        "phase": "publishing",
+        "updatedAt": "2026-11-16T16:00:26.611Z",
         "containerId": "18036064814887754",
         "containerCreatedAt": "2026-11-16T15:59:23.484Z",
         "failedStage": null,
-        "readyAt": "2026-11-16T16:00:25.250Z"
+        "readyAt": "2026-11-16T16:00:25.250Z",
+        "publishAttemptedAt": "2026-11-16T16:00:26.611Z"
       }
     },
     {
