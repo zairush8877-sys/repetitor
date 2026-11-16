@@ -12454,7 +12454,7 @@
         "#частиречи"
       ],
       "format": "Reels",
-      "status": "approved",
+      "status": "published",
       "visualStyle": "classic-table",
       "hideFooter": true,
       "showProgress": false,
@@ -12531,14 +12531,18 @@
         "creationAttempts": 1,
         "lastError": null,
         "version": 1,
-        "phase": "publishing",
-        "updatedAt": "2026-11-16T16:00:26.611Z",
+        "phase": "published",
+        "updatedAt": "2026-11-16T16:00:40.275Z",
         "containerId": "18036064814887754",
         "containerCreatedAt": "2026-11-16T15:59:23.484Z",
         "failedStage": null,
         "readyAt": "2026-11-16T16:00:25.250Z",
-        "publishAttemptedAt": "2026-11-16T16:00:26.611Z"
-      }
+        "publishAttemptedAt": "2026-11-16T16:00:26.611Z",
+        "mediaId": "17912338425578428",
+        "publishedAt": "2026-11-16T16:00:40.275Z"
+      },
+      "publishedMediaId": "17912338425578428",
+      "publishedAt": "2026-11-16T16:00:40.275Z"
     },
     {
       "id": "2026-11-classic-39-ukrytom",
