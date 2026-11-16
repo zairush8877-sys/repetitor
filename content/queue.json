@@ -12542,7 +12542,24 @@
         "publishedAt": "2026-11-16T16:00:40.275Z"
       },
       "publishedMediaId": "17912338425578428",
-      "publishedAt": "2026-11-16T16:00:40.275Z"
+      "publishedAt": "2026-11-16T16:00:41.353Z",
+      "storyRepost": {
+        "version": 1,
+        "feedMediaId": "17912338425578428",
+        "status": "pending",
+        "items": [
+          {
+            "index": 1,
+            "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-11-classic-38-steklo-stikh-full.mp4",
+            "sha256": "324c5d77c541705c2e9f062c4d0090875aaaf6093d48f02fe537678af689d45e",
+            "mediaType": "VIDEO",
+            "mimeType": "video/mp4",
+            "status": "pending",
+            "attempts": 0
+          }
+        ],
+        "sourceKey": "eb5c181caf125061f7cdae86448a78fce299222c29a2c236127420ac027b561c"
+      }
     },
     {
       "id": "2026-11-classic-39-ukrytom",
