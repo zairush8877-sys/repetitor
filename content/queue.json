@@ -12707,7 +12707,7 @@
         "#словавменю"
       ],
       "format": "Reels",
-      "status": "approved",
+      "status": "published",
       "visualStyle": "classic-table",
       "hideFooter": true,
       "showProgress": false,
@@ -12784,14 +12784,18 @@
         "creationAttempts": 1,
         "lastError": null,
         "version": 1,
-        "phase": "publishing",
-        "updatedAt": "2026-11-17T15:53:50.316Z",
+        "phase": "published",
+        "updatedAt": "2026-11-17T15:54:04.391Z",
         "containerId": "18036205940887754",
         "containerCreatedAt": "2026-11-17T15:52:26.176Z",
         "failedStage": null,
         "readyAt": "2026-11-17T15:53:49.112Z",
-        "publishAttemptedAt": "2026-11-17T15:53:50.316Z"
-      }
+        "publishAttemptedAt": "2026-11-17T15:53:50.316Z",
+        "mediaId": "18346069648285113",
+        "publishedAt": "2026-11-17T15:54:04.391Z"
+      },
+      "publishedMediaId": "18346069648285113",
+      "publishedAt": "2026-11-17T15:54:04.391Z"
     },
     {
       "id": "2026-11-classic-42-ova-yva",
