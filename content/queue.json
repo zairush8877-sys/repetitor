@@ -12954,7 +12954,7 @@
             "sha256": "6150b509d7261569d8eb1e1cad0549ddbcb6e57ecebfb5ce0730ba9fb0e0b1cb",
             "mediaType": "VIDEO",
             "mimeType": "video/mp4",
-            "status": "preparing",
+            "status": "publishing",
             "attempts": 1,
             "attemptedAt": "2026-11-17T16:12:00.598Z",
             "containerId": "18036209546887754"
