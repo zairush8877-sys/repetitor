@@ -12795,7 +12795,24 @@
         "publishedAt": "2026-11-17T15:54:04.391Z"
       },
       "publishedMediaId": "18346069648285113",
-      "publishedAt": "2026-11-17T15:54:04.391Z"
+      "publishedAt": "2026-11-17T15:54:05.594Z",
+      "storyRepost": {
+        "version": 1,
+        "feedMediaId": "18346069648285113",
+        "status": "pending",
+        "items": [
+          {
+            "index": 1,
+            "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-11-classic-41-rod-menu-full.mp4",
+            "sha256": "88ec6f5dfd79ae3e725118ca599f1721c03ba280f7a09fac89d36d0d6e0e932d",
+            "mediaType": "VIDEO",
+            "mimeType": "video/mp4",
+            "status": "pending",
+            "attempts": 0
+          }
+        ],
+        "sourceKey": "d757dec2e2715eb5d827956814ff2d95e1cd46c45315245c7baf1af796ee11ac"
+      }
     },
     {
       "id": "2026-11-classic-42-ova-yva",
