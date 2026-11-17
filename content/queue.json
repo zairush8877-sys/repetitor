@@ -12854,7 +12854,7 @@
         "#орфография"
       ],
       "format": "Reels",
-      "status": "approved",
+      "status": "published",
       "visualStyle": "classic-table",
       "hideFooter": true,
       "showProgress": false,
@@ -12931,14 +12931,18 @@
         "creationAttempts": 1,
         "lastError": null,
         "version": 1,
-        "phase": "publishing",
-        "updatedAt": "2026-11-17T16:11:46.202Z",
+        "phase": "published",
+        "updatedAt": "2026-11-17T16:11:58.291Z",
         "containerId": "18036209396887754",
         "containerCreatedAt": "2026-11-17T16:11:16.836Z",
         "failedStage": null,
         "readyAt": "2026-11-17T16:11:44.499Z",
-        "publishAttemptedAt": "2026-11-17T16:11:46.202Z"
-      }
+        "publishAttemptedAt": "2026-11-17T16:11:46.202Z",
+        "mediaId": "17962621140256528",
+        "publishedAt": "2026-11-17T16:11:58.291Z"
+      },
+      "publishedMediaId": "17962621140256528",
+      "publishedAt": "2026-11-17T16:11:58.291Z"
     },
     {
       "id": "2026-11-classic-43-lena",
