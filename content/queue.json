@@ -13102,7 +13102,7 @@
         "#цифровыеслова"
       ],
       "format": "Reels",
-      "status": "approved",
+      "status": "published",
       "school": false,
       "visualStyle": "classic-table",
       "hideFooter": true,
@@ -13180,14 +13180,18 @@
         "creationAttempts": 1,
         "lastError": null,
         "version": 1,
-        "phase": "publishing",
-        "updatedAt": "2026-11-18T15:47:41.221Z",
+        "phase": "published",
+        "updatedAt": "2026-11-18T15:47:53.588Z",
         "containerId": "18036311147887754",
         "containerCreatedAt": "2026-11-18T15:47:15.936Z",
         "failedStage": null,
         "readyAt": "2026-11-18T15:47:39.918Z",
-        "publishAttemptedAt": "2026-11-18T15:47:41.221Z"
-      }
+        "publishAttemptedAt": "2026-11-18T15:47:41.221Z",
+        "mediaId": "17940360042128048",
+        "publishedAt": "2026-11-18T15:47:53.588Z"
+      },
+      "publishedMediaId": "17940360042128048",
+      "publishedAt": "2026-11-18T15:47:53.588Z"
     },
     {
       "id": "2026-11-classic-45-tozhe",
