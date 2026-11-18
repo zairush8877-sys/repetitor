@@ -8311,7 +8311,7 @@
             "sha256": "af6539ab266eefc4a60b28c86f0e597d1f42e217eff5a50d9be74b96f9f207d9",
             "mediaType": "VIDEO",
             "mimeType": "video/mp4",
-            "status": "preparing",
+            "status": "publishing",
             "attempts": 1,
             "attemptedAt": "2026-11-18T15:31:11.646Z",
             "containerId": "18036309497887754"
