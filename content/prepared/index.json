@@ -6518,6 +6518,112 @@
           "sha256": "e668af34bccf25cf8e472edc6e17aa1ace614f3d47056b9567c24b4cca946a88"
         }
       ]
+    },
+    "2026-11-18-svodka": {
+      "version": 1,
+      "draftKey": "87f5f154925b6215ce1f4f68a6d9275b1af96f9b7a47b65658bca7e8c4c62551",
+      "builtAt": "2026-11-18T07:17:57.849Z",
+      "media": {
+        "imageUrls": [
+          "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-11-18-svodka-1.jpg",
+          "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-11-18-svodka-2.jpg",
+          "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-11-18-svodka-3.jpg",
+          "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-11-18-svodka-4.jpg",
+          "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-11-18-svodka-5.jpg",
+          "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-11-18-svodka-6.jpg"
+        ],
+        "videoUrls": [
+          "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-11-18-svodka-1.mp4",
+          "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-11-18-svodka-2.mp4",
+          "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-11-18-svodka-3.mp4",
+          "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-11-18-svodka-4.mp4",
+          "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-11-18-svodka-5.mp4",
+          "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-11-18-svodka-6.mp4"
+        ],
+        "music": {
+          "composer": "Kevin MacLeod",
+          "piece": "Carefree",
+          "license": "CC BY 4.0",
+          "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1400037",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "attribution": "Carefree — Kevin MacLeod (incompetech.com). CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/. Фрагмент обрезан и сведён с видео.",
+          "attributionRequired": true
+        }
+      },
+      "files": [
+        {
+          "relative": "images/2026-11-18-svodka-1.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-11-18-svodka-1.jpg",
+          "size": 110269,
+          "sha256": "79fe79c482c1d3ae42c74c4c6bf6d6a4ad242101405155696d64a3740b9c8b35"
+        },
+        {
+          "relative": "images/2026-11-18-svodka-2.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-11-18-svodka-2.jpg",
+          "size": 195001,
+          "sha256": "0a6149e10df261bb9bf332f6df09d40df597fa908edf467abb4623ba41918a3c"
+        },
+        {
+          "relative": "images/2026-11-18-svodka-3.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-11-18-svodka-3.jpg",
+          "size": 211150,
+          "sha256": "5ebfbd5be16f9f9fa784d8cafaed8e45bcd34bfe2c61bb1f8ee7ab9e516a4e8c"
+        },
+        {
+          "relative": "images/2026-11-18-svodka-4.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-11-18-svodka-4.jpg",
+          "size": 125207,
+          "sha256": "e48fc69622f391b1f93736a9a7fa15353eef20492036bd32b986454fad2e1953"
+        },
+        {
+          "relative": "images/2026-11-18-svodka-5.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-11-18-svodka-5.jpg",
+          "size": 182630,
+          "sha256": "b61763aeee8d4dadb28cebfab2f2439a200e7930da82e98c0bafaa04de50e08e"
+        },
+        {
+          "relative": "images/2026-11-18-svodka-6.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-11-18-svodka-6.jpg",
+          "size": 175498,
+          "sha256": "38ada0bc238173f3301c4c100d161c81cb958d848a42561878ebc1d15ff37d7c"
+        },
+        {
+          "relative": "images/2026-11-18-svodka-1.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-11-18-svodka-1.mp4",
+          "size": 177087,
+          "sha256": "1fe573f15b3fc59bb8048464ce8ca672f5748cfc9e255cc398d864535eb0cf07"
+        },
+        {
+          "relative": "images/2026-11-18-svodka-2.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-11-18-svodka-2.mp4",
+          "size": 223274,
+          "sha256": "e58c0d4b5581d49aaa74103279b26409d555c351748a65c799bac946cbf116f1"
+        },
+        {
+          "relative": "images/2026-11-18-svodka-3.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-11-18-svodka-3.mp4",
+          "size": 251721,
+          "sha256": "8c2978ce0e1b5be0829636d8c4311b2fd47ad5d90512cb7fadf909b346b1ff2d"
+        },
+        {
+          "relative": "images/2026-11-18-svodka-4.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-11-18-svodka-4.mp4",
+          "size": 177411,
+          "sha256": "03ee27e2e5a5f6b5c845b478c2ecab7f137a080d71e54063d7a5f179724edc45"
+        },
+        {
+          "relative": "images/2026-11-18-svodka-5.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-11-18-svodka-5.mp4",
+          "size": 225535,
+          "sha256": "a4e02d8014a5ee15ea5896d8080ed093587873b75ed690b65cb3bdd657c732ed"
+        },
+        {
+          "relative": "images/2026-11-18-svodka-6.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-11-18-svodka-6.mp4",
+          "size": 224809,
+          "sha256": "59d6ed254f21cc61e8eb1524151bce64efb81fdf78d5b56db3f797215b276258"
+        }
+      ]
     }
   }
 }
