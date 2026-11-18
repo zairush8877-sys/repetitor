@@ -8289,10 +8289,11 @@
         "lastError": null,
         "version": 1,
         "phase": "preparing",
-        "updatedAt": "2026-11-18T15:30:29.283Z",
+        "updatedAt": "2026-11-18T15:30:57.015Z",
         "containerId": "18036309152887754",
         "containerCreatedAt": "2026-11-18T15:30:29.283Z",
-        "failedStage": null
+        "failedStage": null,
+        "readyAt": "2026-11-18T15:30:57.015Z"
       }
     },
     {
