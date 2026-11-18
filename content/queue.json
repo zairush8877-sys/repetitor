@@ -8299,7 +8299,24 @@
         "publishedAt": "2026-11-18T15:31:09.298Z"
       },
       "publishedMediaId": "17994314849862525",
-      "publishedAt": "2026-11-18T15:31:09.298Z"
+      "publishedAt": "2026-11-18T15:31:10.358Z",
+      "storyRepost": {
+        "version": 1,
+        "feedMediaId": "17994314849862525",
+        "status": "pending",
+        "items": [
+          {
+            "index": 1,
+            "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/anna-v3-20261031-10-odna-bukva-full.mp4",
+            "sha256": "af6539ab266eefc4a60b28c86f0e597d1f42e217eff5a50d9be74b96f9f207d9",
+            "mediaType": "VIDEO",
+            "mimeType": "video/mp4",
+            "status": "pending",
+            "attempts": 0
+          }
+        ],
+        "sourceKey": "6a8b5b69b1ee1a2efdda6a33fb0b6ee68756c58a6023d1e47b6dcac9d9de2b6b"
+      }
     },
     {
       "id": "anna-v3-20261031-12-skuchayu",
