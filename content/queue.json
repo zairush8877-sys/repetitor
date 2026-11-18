@@ -13180,8 +13180,11 @@
         "creationAttempts": 1,
         "lastError": null,
         "version": 1,
-        "phase": "container",
-        "updatedAt": "2026-11-18T15:47:11.341Z"
+        "phase": "preparing",
+        "updatedAt": "2026-11-18T15:47:15.936Z",
+        "containerId": "18036311147887754",
+        "containerCreatedAt": "2026-11-18T15:47:15.936Z",
+        "failedStage": null
       }
     },
     {
