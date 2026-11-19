@@ -13506,7 +13506,7 @@
         "#орфография"
       ],
       "format": "Reels",
-      "status": "approved",
+      "status": "published",
       "school": false,
       "visualStyle": "classic-table",
       "hideFooter": true,
@@ -13584,14 +13584,18 @@
         "creationAttempts": 1,
         "lastError": null,
         "version": 1,
-        "phase": "publishing",
-        "updatedAt": "2026-11-19T15:53:31.632Z",
+        "phase": "published",
+        "updatedAt": "2026-11-19T15:54:00.811Z",
         "containerId": "18036425972887754",
         "containerCreatedAt": "2026-11-19T15:52:12.325Z",
         "failedStage": null,
         "readyAt": "2026-11-19T15:53:30.350Z",
-        "publishAttemptedAt": "2026-11-19T15:53:31.632Z"
-      }
+        "publishAttemptedAt": "2026-11-19T15:53:31.632Z",
+        "mediaId": "18110043281346519",
+        "publishedAt": "2026-11-19T15:54:00.811Z"
+      },
+      "publishedMediaId": "18110043281346519",
+      "publishedAt": "2026-11-19T15:54:00.811Z"
     },
     {
       "id": "2026-11-classic-49-olitsetvorenie",
