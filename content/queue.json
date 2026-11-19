@@ -13595,7 +13595,24 @@
         "publishedAt": "2026-11-19T15:54:00.811Z"
       },
       "publishedMediaId": "18110043281346519",
-      "publishedAt": "2026-11-19T15:54:00.811Z"
+      "publishedAt": "2026-11-19T15:54:02.079Z",
+      "storyRepost": {
+        "version": 1,
+        "feedMediaId": "18110043281346519",
+        "status": "pending",
+        "items": [
+          {
+            "index": 1,
+            "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-11-classic-48-ber-bir-full.mp4",
+            "sha256": "0eb8a2115c5d33cc064d3cc2c29ecea5696bc5a19191eec5679b1e2842ad4290",
+            "mediaType": "VIDEO",
+            "mimeType": "video/mp4",
+            "status": "pending",
+            "attempts": 0
+          }
+        ],
+        "sourceKey": "6e71878b558afef99a38f1231bd2d655b1d2b12f8b184019d911d6917fcfb242"
+      }
     },
     {
       "id": "2026-11-classic-49-olitsetvorenie",
