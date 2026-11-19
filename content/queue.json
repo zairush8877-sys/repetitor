@@ -13359,7 +13359,7 @@
         "#орфография"
       ],
       "format": "Reels",
-      "status": "approved",
+      "status": "published",
       "school": false,
       "visualStyle": "classic-table",
       "hideFooter": true,
@@ -13437,14 +13437,18 @@
         "creationAttempts": 1,
         "lastError": null,
         "version": 1,
-        "phase": "publishing",
-        "updatedAt": "2026-11-19T15:38:25.996Z",
+        "phase": "published",
+        "updatedAt": "2026-11-19T15:38:38.583Z",
         "containerId": "18036424517887754",
         "containerCreatedAt": "2026-11-19T15:38:05.224Z",
         "failedStage": null,
         "readyAt": "2026-11-19T15:38:24.747Z",
-        "publishAttemptedAt": "2026-11-19T15:38:25.996Z"
-      }
+        "publishAttemptedAt": "2026-11-19T15:38:25.996Z",
+        "mediaId": "18005501616021281",
+        "publishedAt": "2026-11-19T15:38:38.583Z"
+      },
+      "publishedMediaId": "18005501616021281",
+      "publishedAt": "2026-11-19T15:38:38.583Z"
     },
     {
       "id": "2026-11-classic-48-ber-bir",
