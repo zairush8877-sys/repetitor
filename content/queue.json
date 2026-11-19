@@ -13438,10 +13438,11 @@
         "lastError": null,
         "version": 1,
         "phase": "preparing",
-        "updatedAt": "2026-11-19T15:38:05.224Z",
+        "updatedAt": "2026-11-19T15:38:24.747Z",
         "containerId": "18036424517887754",
         "containerCreatedAt": "2026-11-19T15:38:05.224Z",
-        "failedStage": null
+        "failedStage": null,
+        "readyAt": "2026-11-19T15:38:24.747Z"
       }
     },
     {
