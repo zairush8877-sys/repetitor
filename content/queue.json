@@ -13452,7 +13452,7 @@
       "storyRepost": {
         "version": 1,
         "feedMediaId": "18005501616021281",
-        "status": "pending",
+        "status": "published",
         "items": [
           {
             "index": 1,
@@ -13460,10 +13460,12 @@
             "sha256": "f09397edda7584e072512daee2079ddde42364ad9f2c74f1d2b14d74163a59b1",
             "mediaType": "VIDEO",
             "mimeType": "video/mp4",
-            "status": "publishing",
+            "status": "published",
             "attempts": 1,
             "attemptedAt": "2026-11-19T15:38:41.597Z",
-            "containerId": "18036424694887754"
+            "containerId": "18036424694887754",
+            "publishedMediaId": "18196317460397900",
+            "publishedAt": "2026-11-19T15:39:26.253Z"
           }
         ],
         "sourceKey": "8565b0c4261051b43c16393d99f61eb8bb25492ca8f4cabaa49e20d90787f88f"
