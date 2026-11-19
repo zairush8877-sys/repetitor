@@ -13448,7 +13448,24 @@
         "publishedAt": "2026-11-19T15:38:38.583Z"
       },
       "publishedMediaId": "18005501616021281",
-      "publishedAt": "2026-11-19T15:38:38.583Z"
+      "publishedAt": "2026-11-19T15:38:40.009Z",
+      "storyRepost": {
+        "version": 1,
+        "feedMediaId": "18005501616021281",
+        "status": "pending",
+        "items": [
+          {
+            "index": 1,
+            "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-11-classic-47-zaklyuchenie-full.mp4",
+            "sha256": "f09397edda7584e072512daee2079ddde42364ad9f2c74f1d2b14d74163a59b1",
+            "mediaType": "VIDEO",
+            "mimeType": "video/mp4",
+            "status": "pending",
+            "attempts": 0
+          }
+        ],
+        "sourceKey": "8565b0c4261051b43c16393d99f61eb8bb25492ca8f4cabaa49e20d90787f88f"
+      }
     },
     {
       "id": "2026-11-classic-48-ber-bir",
