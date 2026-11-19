@@ -13460,7 +13460,7 @@
             "sha256": "f09397edda7584e072512daee2079ddde42364ad9f2c74f1d2b14d74163a59b1",
             "mediaType": "VIDEO",
             "mimeType": "video/mp4",
-            "status": "preparing",
+            "status": "publishing",
             "attempts": 1,
             "attemptedAt": "2026-11-19T15:38:41.597Z",
             "containerId": "18036424694887754"
