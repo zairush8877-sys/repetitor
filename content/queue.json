@@ -8330,7 +8330,7 @@
       "format": "Reels",
       "rubric": "Русский с Анной",
       "school": false,
-      "status": "approved",
+      "status": "published",
       "date": "2026-11-20",
       "scheduledAt": "2026-11-20T06:00:00.000Z",
       "publishTime": "09:00",
@@ -8364,14 +8364,18 @@
         "creationAttempts": 1,
         "lastError": null,
         "version": 1,
-        "phase": "publishing",
-        "updatedAt": "2026-11-20T15:18:48.030Z",
+        "phase": "published",
+        "updatedAt": "2026-11-20T15:18:59.546Z",
         "containerId": "18036543710887754",
         "containerCreatedAt": "2026-11-20T15:18:18.962Z",
         "failedStage": null,
         "readyAt": "2026-11-20T15:18:46.636Z",
-        "publishAttemptedAt": "2026-11-20T15:18:48.030Z"
-      }
+        "publishAttemptedAt": "2026-11-20T15:18:48.030Z",
+        "mediaId": "18021066869959843",
+        "publishedAt": "2026-11-20T15:18:59.546Z"
+      },
+      "publishedMediaId": "18021066869959843",
+      "publishedAt": "2026-11-20T15:18:59.546Z"
     },
     {
       "id": "anna-v3-20261031-13-lyag",
