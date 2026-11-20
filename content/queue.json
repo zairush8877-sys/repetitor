@@ -8375,7 +8375,24 @@
         "publishedAt": "2026-11-20T15:18:59.546Z"
       },
       "publishedMediaId": "18021066869959843",
-      "publishedAt": "2026-11-20T15:18:59.546Z"
+      "publishedAt": "2026-11-20T15:19:00.878Z",
+      "storyRepost": {
+        "version": 1,
+        "feedMediaId": "18021066869959843",
+        "status": "pending",
+        "items": [
+          {
+            "index": 1,
+            "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/anna-v3-20261031-12-skuchayu-full.mp4",
+            "sha256": "768b533f8de4d4a5dee2fb1f3eac43f19dc30850375463426405486689bdd1b3",
+            "mediaType": "VIDEO",
+            "mimeType": "video/mp4",
+            "status": "pending",
+            "attempts": 0
+          }
+        ],
+        "sourceKey": "441e4d28f4d7986b27122a2b8398d751be193b2af507008624b5dae5b18cf814"
+      }
     },
     {
       "id": "anna-v3-20261031-13-lyag",
