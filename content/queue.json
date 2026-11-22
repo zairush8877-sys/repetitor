@@ -8441,10 +8441,11 @@
         "lastError": null,
         "version": 1,
         "phase": "preparing",
-        "updatedAt": "2026-11-22T14:27:29.553Z",
+        "updatedAt": "2026-11-22T14:27:57.217Z",
         "containerId": "18036787283887754",
         "containerCreatedAt": "2026-11-22T14:27:29.553Z",
-        "failedStage": null
+        "failedStage": null,
+        "readyAt": "2026-11-22T14:27:57.216Z"
       }
     },
     {
