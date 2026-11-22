@@ -8440,8 +8440,11 @@
         "creationAttempts": 1,
         "lastError": null,
         "version": 1,
-        "phase": "container",
-        "updatedAt": "2026-11-22T14:27:25.595Z"
+        "phase": "preparing",
+        "updatedAt": "2026-11-22T14:27:29.553Z",
+        "containerId": "18036787283887754",
+        "containerCreatedAt": "2026-11-22T14:27:29.553Z",
+        "failedStage": null
       }
     },
     {
