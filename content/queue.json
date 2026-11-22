@@ -8451,7 +8451,24 @@
         "publishedAt": "2026-11-22T14:28:10.685Z"
       },
       "publishedMediaId": "17957791371313129",
-      "publishedAt": "2026-11-22T14:28:10.685Z"
+      "publishedAt": "2026-11-22T14:28:11.820Z",
+      "storyRepost": {
+        "version": 1,
+        "feedMediaId": "17957791371313129",
+        "status": "pending",
+        "items": [
+          {
+            "index": 1,
+            "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/anna-v3-20261031-13-lyag-full.mp4",
+            "sha256": "0bdbf9e8cac11f3ff876c727dc7d2068fb584c1c55a01b810541df9ebd15883d",
+            "mediaType": "VIDEO",
+            "mimeType": "video/mp4",
+            "status": "pending",
+            "attempts": 0
+          }
+        ],
+        "sourceKey": "91bc8595df8db12bc09e134602c8b6fc0840eca5c01e57fac5cc9c72c0eec231"
+      }
     },
     {
       "id": "anna-v3-20261031-14-vetrenyy",
