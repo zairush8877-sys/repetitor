@@ -8406,7 +8406,7 @@
       "format": "Reels",
       "rubric": "Русский с Анной",
       "school": false,
-      "status": "approved",
+      "status": "published",
       "date": "2026-11-22",
       "scheduledAt": "2026-11-22T06:00:00.000Z",
       "publishTime": "09:00",
@@ -8440,14 +8440,18 @@
         "creationAttempts": 1,
         "lastError": null,
         "version": 1,
-        "phase": "publishing",
-        "updatedAt": "2026-11-22T14:27:58.349Z",
+        "phase": "published",
+        "updatedAt": "2026-11-22T14:28:10.685Z",
         "containerId": "18036787283887754",
         "containerCreatedAt": "2026-11-22T14:27:29.553Z",
         "failedStage": null,
         "readyAt": "2026-11-22T14:27:57.216Z",
-        "publishAttemptedAt": "2026-11-22T14:27:58.349Z"
-      }
+        "publishAttemptedAt": "2026-11-22T14:27:58.349Z",
+        "mediaId": "17957791371313129",
+        "publishedAt": "2026-11-22T14:28:10.685Z"
+      },
+      "publishedMediaId": "17957791371313129",
+      "publishedAt": "2026-11-22T14:28:10.685Z"
     },
     {
       "id": "anna-v3-20261031-14-vetrenyy",
