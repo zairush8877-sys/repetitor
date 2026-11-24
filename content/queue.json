@@ -8516,12 +8516,13 @@
         "creationAttempts": 1,
         "lastError": null,
         "version": 1,
-        "phase": "preparing",
-        "updatedAt": "2026-11-24T17:29:23.778Z",
+        "phase": "publishing",
+        "updatedAt": "2026-11-24T17:29:25.345Z",
         "containerId": "18037057076887754",
         "containerCreatedAt": "2026-11-24T17:28:34.786Z",
         "failedStage": null,
-        "readyAt": "2026-11-24T17:29:23.778Z"
+        "readyAt": "2026-11-24T17:29:23.778Z",
+        "publishAttemptedAt": "2026-11-24T17:29:25.345Z"
       }
     },
     {
