@@ -8527,7 +8527,24 @@
         "publishedAt": "2026-11-24T17:29:37.549Z"
       },
       "publishedMediaId": "18112404452263116",
-      "publishedAt": "2026-11-24T17:29:37.549Z"
+      "publishedAt": "2026-11-24T17:29:39.195Z",
+      "storyRepost": {
+        "version": 1,
+        "feedMediaId": "18112404452263116",
+        "status": "pending",
+        "items": [
+          {
+            "index": 1,
+            "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/anna-v3-20261031-14-vetrenyy-full.mp4",
+            "sha256": "b4addda35387a27324d4e4acfaa288971023e4633d4c76bb8c50607429de439f",
+            "mediaType": "VIDEO",
+            "mimeType": "video/mp4",
+            "status": "pending",
+            "attempts": 0
+          }
+        ],
+        "sourceKey": "c160267cfe30c900eb753fad665badc915e5caa9d253f458d6d267139e3eb83a"
+      }
     },
     {
       "id": "anna-v3-20261031-15-kofe",
