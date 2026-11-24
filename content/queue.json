@@ -8517,10 +8517,11 @@
         "lastError": null,
         "version": 1,
         "phase": "preparing",
-        "updatedAt": "2026-11-24T17:28:34.786Z",
+        "updatedAt": "2026-11-24T17:29:23.778Z",
         "containerId": "18037057076887754",
         "containerCreatedAt": "2026-11-24T17:28:34.786Z",
-        "failedStage": null
+        "failedStage": null,
+        "readyAt": "2026-11-24T17:29:23.778Z"
       }
     },
     {
