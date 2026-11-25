@@ -5316,6 +5316,114 @@
           }
         }
       ]
+    },
+    "2026-11-25-svodka": {
+      "kind": "carousel_slides",
+      "sourceKey": "34d6c40e30a1b26de6010c332dc6d732e3348d4e7836a3b1da406dfeee878b72",
+      "renderedAt": "2026-11-25T07:11:52.291Z",
+      "publicationStatus": "export_only",
+      "assets": [
+        {
+          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-11-25-svodka-1.jpg",
+          "file": "2026-11-25-svodka-1.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-11-25-svodka-1.jpg",
+          "width": 1080,
+          "height": 1920,
+          "sha256": "15a34e683d45534161a7cc720838958f5e5db8a3fc5b672729d5d50019e05106",
+          "geometry": {
+            "sourceWidth": 1080,
+            "sourceHeight": 1350,
+            "x": 60,
+            "y": 410,
+            "width": 960,
+            "height": 1200,
+            "outputWidth": 1080,
+            "outputHeight": 1920,
+            "sourceSha256": "a4595c0b76a946a6914c290e914fcd4204b21dfe9e843335f13e48a2cbf4dd61",
+            "sha256": "15a34e683d45534161a7cc720838958f5e5db8a3fc5b672729d5d50019e05106"
+          }
+        },
+        {
+          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-11-25-svodka-2.jpg",
+          "file": "2026-11-25-svodka-2.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-11-25-svodka-2.jpg",
+          "width": 1080,
+          "height": 1920,
+          "sha256": "2e2b062172c1171dd84f36f39666730b2fea62de0fb1fba1af888c4a21928779",
+          "geometry": {
+            "sourceWidth": 1080,
+            "sourceHeight": 1350,
+            "x": 60,
+            "y": 410,
+            "width": 960,
+            "height": 1200,
+            "outputWidth": 1080,
+            "outputHeight": 1920,
+            "sourceSha256": "2d75913bfc9ea82dedf70132c7da7505387bbda2eff8c8e3e162a2daffb0f7e6",
+            "sha256": "2e2b062172c1171dd84f36f39666730b2fea62de0fb1fba1af888c4a21928779"
+          }
+        },
+        {
+          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-11-25-svodka-3.jpg",
+          "file": "2026-11-25-svodka-3.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-11-25-svodka-3.jpg",
+          "width": 1080,
+          "height": 1920,
+          "sha256": "7bb7d3b63de5ee40ab23e016dec79d2d1dd22fb34b35bc56621239ea81896021",
+          "geometry": {
+            "sourceWidth": 1080,
+            "sourceHeight": 1350,
+            "x": 60,
+            "y": 410,
+            "width": 960,
+            "height": 1200,
+            "outputWidth": 1080,
+            "outputHeight": 1920,
+            "sourceSha256": "08a9830e9878e91382d3f824783a3c12eb06d59c8ac758ccedd24bb84edebcfa",
+            "sha256": "7bb7d3b63de5ee40ab23e016dec79d2d1dd22fb34b35bc56621239ea81896021"
+          }
+        },
+        {
+          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-11-25-svodka-4.jpg",
+          "file": "2026-11-25-svodka-4.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-11-25-svodka-4.jpg",
+          "width": 1080,
+          "height": 1920,
+          "sha256": "c3c7bd06e9e4dc3322ff38de48d907e7d51f4941f3f4cd01ae0e36e003a2ed8f",
+          "geometry": {
+            "sourceWidth": 1080,
+            "sourceHeight": 1350,
+            "x": 60,
+            "y": 410,
+            "width": 960,
+            "height": 1200,
+            "outputWidth": 1080,
+            "outputHeight": 1920,
+            "sourceSha256": "af98f4ef2492886ad08adec17291897f1bc842eb142f01b16b2f96d5a00157f1",
+            "sha256": "c3c7bd06e9e4dc3322ff38de48d907e7d51f4941f3f4cd01ae0e36e003a2ed8f"
+          }
+        },
+        {
+          "sourceUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-11-25-svodka-5.jpg",
+          "file": "2026-11-25-svodka-5.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/2026-11-25-svodka-5.jpg",
+          "width": 1080,
+          "height": 1920,
+          "sha256": "cb9df6a6b9e9144c5bc9d81b717cfcdbbf239bcdfa974dce8eab76f5d49eb004",
+          "geometry": {
+            "sourceWidth": 1080,
+            "sourceHeight": 1350,
+            "x": 60,
+            "y": 410,
+            "width": 960,
+            "height": 1200,
+            "outputWidth": 1080,
+            "outputHeight": 1920,
+            "sourceSha256": "c3961e7c3de88c8cbecdfdbdf1ec9712a79b035a32edadbc38e96ccd16257658",
+            "sha256": "cb9df6a6b9e9144c5bc9d81b717cfcdbbf239bcdfa974dce8eab76f5d49eb004"
+          }
+        }
+      ]
     }
   }
 }

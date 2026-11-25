@@ -6716,6 +6716,98 @@
           "sha256": "2acea7953366ac8d36c6b68d3626d84da1dff573cfd1b463f406284ee8b5b3c6"
         }
       ]
+    },
+    "2026-11-25-svodka": {
+      "version": 1,
+      "draftKey": "23f1667999b79139a37ca4728eb95f499657b6173f01ff9be169de7f8279e9a6",
+      "builtAt": "2026-11-25T07:11:52.292Z",
+      "media": {
+        "imageUrls": [
+          "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-11-25-svodka-1.jpg",
+          "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-11-25-svodka-2.jpg",
+          "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-11-25-svodka-3.jpg",
+          "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-11-25-svodka-4.jpg",
+          "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-11-25-svodka-5.jpg"
+        ],
+        "videoUrls": [
+          "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-11-25-svodka-1.mp4",
+          "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-11-25-svodka-2.mp4",
+          "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-11-25-svodka-3.mp4",
+          "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-11-25-svodka-4.mp4",
+          "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-11-25-svodka-5.mp4"
+        ],
+        "music": {
+          "composer": "Kevin MacLeod",
+          "piece": "Almost New",
+          "license": "CC BY 4.0",
+          "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1800008",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "attribution": "Almost New — Kevin MacLeod (incompetech.com). CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/. Фрагмент обрезан и сведён с видео.",
+          "attributionRequired": true
+        }
+      },
+      "files": [
+        {
+          "relative": "images/2026-11-25-svodka-1.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-11-25-svodka-1.jpg",
+          "size": 131809,
+          "sha256": "a4595c0b76a946a6914c290e914fcd4204b21dfe9e843335f13e48a2cbf4dd61"
+        },
+        {
+          "relative": "images/2026-11-25-svodka-2.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-11-25-svodka-2.jpg",
+          "size": 203916,
+          "sha256": "2d75913bfc9ea82dedf70132c7da7505387bbda2eff8c8e3e162a2daffb0f7e6"
+        },
+        {
+          "relative": "images/2026-11-25-svodka-3.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-11-25-svodka-3.jpg",
+          "size": 188735,
+          "sha256": "08a9830e9878e91382d3f824783a3c12eb06d59c8ac758ccedd24bb84edebcfa"
+        },
+        {
+          "relative": "images/2026-11-25-svodka-4.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-11-25-svodka-4.jpg",
+          "size": 184661,
+          "sha256": "af98f4ef2492886ad08adec17291897f1bc842eb142f01b16b2f96d5a00157f1"
+        },
+        {
+          "relative": "images/2026-11-25-svodka-5.jpg",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-11-25-svodka-5.jpg",
+          "size": 135516,
+          "sha256": "c3961e7c3de88c8cbecdfdbdf1ec9712a79b035a32edadbc38e96ccd16257658"
+        },
+        {
+          "relative": "images/2026-11-25-svodka-1.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-11-25-svodka-1.mp4",
+          "size": 195498,
+          "sha256": "ab432af4b5d26584a5af88cb7178cf2f691ee40bd0775bd68294c8d6b852e68d"
+        },
+        {
+          "relative": "images/2026-11-25-svodka-2.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-11-25-svodka-2.mp4",
+          "size": 234534,
+          "sha256": "060c2b7c562b803f00e58fc1de00258b2704e81bb54a6a0bf035d8bb3254b621"
+        },
+        {
+          "relative": "images/2026-11-25-svodka-3.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-11-25-svodka-3.mp4",
+          "size": 217236,
+          "sha256": "fd1d6fa93f43ea6ac49c319c633a4653749df1620a06c2435eda0ea3515fff7b"
+        },
+        {
+          "relative": "images/2026-11-25-svodka-4.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-11-25-svodka-4.mp4",
+          "size": 215449,
+          "sha256": "5b2c49f466ccffa80017b21614dbfade53ad6e37c63e679ad04f9a46cfdc4eca"
+        },
+        {
+          "relative": "images/2026-11-25-svodka-5.mp4",
+          "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/2026-11-25-svodka-5.mp4",
+          "size": 186494,
+          "sha256": "521bfb57ff33286da04568781bdd3a6a5f1ee7d1d3a48097902321d7f389ee06"
+        }
+      ]
     }
   }
 }
