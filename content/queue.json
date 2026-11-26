@@ -8593,10 +8593,11 @@
         "lastError": null,
         "version": 1,
         "phase": "preparing",
-        "updatedAt": "2026-11-26T16:44:51.087Z",
+        "updatedAt": "2026-11-26T16:45:45.212Z",
         "containerId": "18037261403887754",
         "containerCreatedAt": "2026-11-26T16:44:51.087Z",
-        "failedStage": null
+        "failedStage": null,
+        "readyAt": "2026-11-26T16:45:45.212Z"
       }
     },
     {
