@@ -8558,7 +8558,7 @@
       "format": "Reels",
       "rubric": "Русский с Анной",
       "school": false,
-      "status": "approved",
+      "status": "published",
       "date": "2026-11-26",
       "scheduledAt": "2026-11-26T06:00:00.000Z",
       "publishTime": "09:00",
@@ -8592,14 +8592,18 @@
         "creationAttempts": 1,
         "lastError": null,
         "version": 1,
-        "phase": "publishing",
-        "updatedAt": "2026-11-26T16:45:46.463Z",
+        "phase": "published",
+        "updatedAt": "2026-11-26T16:45:56.714Z",
         "containerId": "18037261403887754",
         "containerCreatedAt": "2026-11-26T16:44:51.087Z",
         "failedStage": null,
         "readyAt": "2026-11-26T16:45:45.212Z",
-        "publishAttemptedAt": "2026-11-26T16:45:46.463Z"
-      }
+        "publishAttemptedAt": "2026-11-26T16:45:46.463Z",
+        "mediaId": "18131399347933667",
+        "publishedAt": "2026-11-26T16:45:56.714Z"
+      },
+      "publishedMediaId": "18131399347933667",
+      "publishedAt": "2026-11-26T16:45:56.714Z"
     },
     {
       "id": "anna-v3-20261031-16-oblegchit",
