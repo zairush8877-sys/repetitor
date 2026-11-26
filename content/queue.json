@@ -8573,7 +8573,28 @@
       "hashtags": [],
       "durationSeconds": 22.4,
       "assetVersion": "V3-retouch-music",
-      "storyRepostMode": "full_video"
+      "storyRepostMode": "full_video",
+      "imageUrls": [
+        "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/anna-v3-20261031-15-kofe-cover.jpg"
+      ],
+      "videoUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reels/anna-v3-20261031-15-kofe.mp4",
+      "coverOffsetMs": 0,
+      "coverUrl": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/images/anna-v3-20261031-15-kofe-cover.jpg",
+      "music": {
+        "composer": "Kevin MacLeod",
+        "piece": "Easy Lemon",
+        "attributionRequired": true,
+        "attribution": "Музыка: Easy Lemon — Kevin MacLeod (incompetech.com), CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/. Источник: https://incompetech.com/music/royalty-free/index.html?Search=Search&isrc=USUAN1200076. Фрагмент обрезан, эквализирован и приглушён под голосом."
+      },
+      "feedDelivery": {
+        "fingerprint": "a4502be886436a6a587f49159b783f9bb6460359021e0938dc5da95fb9be0f52",
+        "startedAt": "2026-11-26T16:44:47.990Z",
+        "creationAttempts": 1,
+        "lastError": null,
+        "version": 1,
+        "phase": "container",
+        "updatedAt": "2026-11-26T16:44:47.990Z"
+      }
     },
     {
       "id": "anna-v3-20261031-16-oblegchit",
