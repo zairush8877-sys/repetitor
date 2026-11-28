@@ -8634,7 +8634,7 @@
       "format": "Reels",
       "rubric": "Русский с Анной",
       "school": false,
-      "status": "approved",
+      "status": "published",
       "date": "2026-11-28",
       "scheduledAt": "2026-11-28T06:00:00.000Z",
       "publishTime": "09:00",
@@ -8668,14 +8668,18 @@
         "creationAttempts": 1,
         "lastError": null,
         "version": 1,
-        "phase": "publishing",
-        "updatedAt": "2026-11-28T15:24:51.760Z",
+        "phase": "published",
+        "updatedAt": "2026-11-28T15:25:04.171Z",
         "containerId": "18037494290887754",
         "containerCreatedAt": "2026-11-28T15:24:14.049Z",
         "failedStage": null,
         "readyAt": "2026-11-28T15:24:50.322Z",
-        "publishAttemptedAt": "2026-11-28T15:24:51.759Z"
-      }
+        "publishAttemptedAt": "2026-11-28T15:24:51.759Z",
+        "mediaId": "18503910094100161",
+        "publishedAt": "2026-11-28T15:25:04.171Z"
+      },
+      "publishedMediaId": "18503910094100161",
+      "publishedAt": "2026-11-28T15:25:04.171Z"
     },
     {
       "id": "2026-11-classic-01-oba-varianta",
