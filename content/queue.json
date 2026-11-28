@@ -8669,10 +8669,11 @@
         "lastError": null,
         "version": 1,
         "phase": "preparing",
-        "updatedAt": "2026-11-28T15:24:14.049Z",
+        "updatedAt": "2026-11-28T15:24:50.322Z",
         "containerId": "18037494290887754",
         "containerCreatedAt": "2026-11-28T15:24:14.049Z",
-        "failedStage": null
+        "failedStage": null,
+        "readyAt": "2026-11-28T15:24:50.322Z"
       }
     },
     {
