@@ -8679,7 +8679,24 @@
         "publishedAt": "2026-11-28T15:25:04.171Z"
       },
       "publishedMediaId": "18503910094100161",
-      "publishedAt": "2026-11-28T15:25:04.171Z"
+      "publishedAt": "2026-11-28T15:25:05.643Z",
+      "storyRepost": {
+        "version": 1,
+        "feedMediaId": "18503910094100161",
+        "status": "pending",
+        "items": [
+          {
+            "index": 1,
+            "url": "https://raw.githubusercontent.com/zairush8877-sys/repetitor/main/content/reposts/anna-v3-20261031-16-oblegchit-full.mp4",
+            "sha256": "1aae78f49ea6d2b8b69ce7c37746453cb2411412f0d61109f1e65bbb67aec05a",
+            "mediaType": "VIDEO",
+            "mimeType": "video/mp4",
+            "status": "pending",
+            "attempts": 0
+          }
+        ],
+        "sourceKey": "518b99cfe4b24ea23e174353b4ca5cb9e11bc6bb61eaa3bf616319cf46144dc8"
+      }
     },
     {
       "id": "2026-11-classic-01-oba-varianta",
